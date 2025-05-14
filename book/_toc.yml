@@ -5,3 +5,6 @@ parts:
   - caption: Lesstof
     chapters:
     - file: external/CEG-mechanics-BSc/book/statically_inderminate/determinancy
+  - caption: Miscellaneous
+    chapters:
+    - file: references
