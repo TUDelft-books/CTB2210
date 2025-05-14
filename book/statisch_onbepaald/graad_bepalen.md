@@ -10,23 +10,11 @@ align: center
 Constructie
 ```
 
-```{exercise}
+````{exercise}
 :label: so_1
 :nonumber: true
 
-Splits constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor alle knopen
-```
-
-```{exercise}
-:label: so_2
-:nonumber: true
-
-Teken de vrijlichaamsschema's voor de staven
-```
-
-````{exercise}
-:label: so_2
-:nonumber: true
+Splits constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor alle knopen en teken de vrijlichaamsschema's voor de staven
 
 ```{h5p} https://tudelft.h5p.com/content/1292586829246525217/embed
 ```
