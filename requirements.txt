@@ -8,6 +8,9 @@ sphinx-tudelft-theme
 teachbooks-sphinx-tippy
 sphinx-iframes
 sphinx-named-colors
+sphinx-proof
 
 # Now list the packages you want to download directly from GitHub
 git+https://github.com/TeachBooks/Sphinx-Thebe
+
+docutils==0.17.1
