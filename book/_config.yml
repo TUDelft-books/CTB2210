@@ -54,7 +54,7 @@ sphinx:                                              # Options passed on to the 
     - sphinx_proof
 
 bibtex_bibfiles: 
-  - exetrnal/CEG-mechanics-BSc/book/references.bib                                   # Required for references
+  - external\CEG-mechanics-BSc\book\references.bib                                # Required for references
 
 parse:
   myst_enable_extensions:
