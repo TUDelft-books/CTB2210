@@ -19,6 +19,12 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 ```{h5p} https://tudelft.h5p.com/content/1292586829246525217/embed
 ```
 
+<!---
+Tel het aantal onbekende krachten: oplegreacties en staafkrachten
+
+Er zijn *6* onbekende oplegreacties en *32* onbekende staafkrachten
+-->
+
 ```{solution} so_1
 :class: dropdown
 
