@@ -31,7 +31,7 @@ Er zijn *7* onbekende oplegreacties en *6* onbekende verbindingskrachten
 ````{solution} so_2_1
 :class: dropdown
 
-```{figure} graad_bepalen_data/Oefening_7.svg
+```{figure} graad_bepalen_data/Oefening_8.svg
 ---
 align: center
 ---
@@ -58,7 +58,7 @@ Er zijn *12* evenwichtsvergelijking(en).
 ````{solution} so_2
 :class: dropdown
 
-```{figure} graad_bepalen_data/Oefening_8.svg
+```{figure} graad_bepalen_data/Oefening_9.svg
 ---
 align: center
 ---
