@@ -57,10 +57,10 @@ jobs:
 
       - name: Commit and push changes assignment version
         env:
-          GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY_CTB2210 }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --local user.email "T.R.vanWoudenberg@tudelft.nl"
-          git config --local user.name "Tom van Woudenberg"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git checkout -b 2025-draft
           git merge origin/2025-teacher
           git add .
