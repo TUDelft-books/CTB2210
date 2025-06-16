@@ -62,7 +62,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git checkout -b 2025-draft
-          git merge origin/main
+          git merge origin/2025-teacher
           git add .
           git commit -m "Generate assignment version"
           git push origin 2025-draft --force
