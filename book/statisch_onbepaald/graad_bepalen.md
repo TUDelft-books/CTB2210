@@ -24,27 +24,6 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ```{h5p} https://tudelft.h5p.com/content/1292612545160457437/embed
 ```
 
-% solution_start
-
-<!---
-Tel het aantal onbekende krachten: oplegreacties en verbindingskrachten
-
-Er zijn *7* onbekende oplegreacties en *6* onbekende verbindingskrachten. Dat zijn *13* onbekende krachten in totaal.
--->
-
-````{solution} so_2_1
-:class: dropdown
-
-```{figure} graad_bepalen_data/Oefening_8.svg
----
-align: center
----
-Aantal onbekende krachten
-```
-
-````
-
-% solution_end
 
 `````
 
@@ -55,27 +34,6 @@ Aantal onbekende krachten
 ```{h5p} https://tudelft.h5p.com/content/1292612546255043757/embed
 ```
 
-% solution_start
-
-<!---
-Tel het aantal evenwichtsvergelijkingen
-
-Er zijn *12* evenwichtsvergelijking(en).
--->
-
-````{solution} so_2
-:class: dropdown
-
-```{figure} graad_bepalen_data/Oefening_9.svg
----
-align: center
----
-Aantal evenwichtsvergelijkingen
-```
-
-````
-
-% solution_end
 
 `````
 
@@ -86,15 +44,6 @@ Aantal evenwichtsvergelijkingen
 ```{h5p} https://tudelft.h5p.com/content/1292612546677182677/embed
 ```
 
-% solution_start
-
-<!---
-Bepaal de graad van uitwendig statisch onbepaaldheid
-
-De constructie is *1*ste/de graads uitwendig statisch onbepaald
--->
-
-% solution_end
 
 `````
 
@@ -125,34 +74,6 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 ```{h5p} https://tudelft.h5p.com/content/1292586829246525217/embed
 ```
 
-% solution_start
-
-<!---
-Tel het aantal onbekende krachten: oplegreacties en staafkrachten
-
-Er zijn *6* onbekende oplegreacties en *32* onbekende staafkrachten. Dat zijn *38* onbekende krachten in totaal.
--->
-
-````{solution} so_1
-:class: dropdown
-
-```{figure} Oefening_2.svg
----
-align: center
----
-Aantal onbekende oplegreacties en staafkrachten op knopen
-```
-
-```{figure} Oefening_3.svg
----
-align: center
----
-Aantal onbekende staafkrachten op staven
-```
-
-````
-
-% solution_end
 
 `````
 
@@ -163,34 +84,6 @@ Aantal onbekende staafkrachten op staven
 ```{h5p} https://tudelft.h5p.com/content/1292587403744225227/embed
 ```
 
-% solution_start
-
-<!---
-Tel het aantal evenwichtsvergelijkingen
-
-Er zijn *0* evenwichtsvergelijkingen vanuit rolscharnieren, *6* evenwichtsvergelijking(en) vanuit scharnierende verbindingen, *9* evenwichtsvergelijking(en) vanuit algemene verbindingen, *1* evenwichtsvergelijking(en) vanuit pendelstaven en *18* evenwichtsvergelijking(en) vanuit algemene staven. Dat zijn *34* evenwichtsvergelijkingen in totaal.
--->
-
-````{solution} so_2
-:class: dropdown
-
-```{figure} Oefening_4.svg
----
-align: center
----
-Aantal evenwichtsvergelijkingen voor de knopen
-```
-
-```{figure} Oefening_5.svg
----
-align: center
----
-Aantal evenwichtsvergelijkingen voor de staven
-```
-
-````
-
-% solution_end
 
 `````
 
@@ -201,15 +94,6 @@ Aantal evenwichtsvergelijkingen voor de staven
 ```{h5p} https://tudelft.h5p.com/content/1292587410124264777/embed
 ```
 
-% solution_start
-
-<!---
-Bepaal de graad van statisch onbepaaldheid
-
-De constructie is *4*ste/de graads inwendig statisch onbepaald
--->
-
-% solution_end
 
 `````
 
@@ -239,27 +123,6 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ```{h5p} https://tudelft.h5p.com/content/1292615284867296507/embed
 ```
 
-% solution_start
-
-<!---
-Tel het aantal onbekende krachten: oplegreacties en verbindingskrachten
-
-Er zijn *3* onbekende oplegreacties en *0* onbekende verbindingskrachten. Dat zijn *3* onbekende krachten in totaal.
--->
-
-````{solution} so_3_1
-:class: dropdown
-
-```{figure} graad_bepalen_data/Oefening_11.svg
----
-align: center
----
-Aantal onbekende krachten
-```
-
-````
-
-% solution_end
 
 `````
 
@@ -270,27 +133,6 @@ Aantal onbekende krachten
 ```{h5p} https://tudelft.h5p.com/content/1292615285293314797/embed
 ```
 
-% solution_start
-
-<!---
-Tel het aantal evenwichtsvergelijkingen
-
-Er zijn *3* evenwichtsvergelijking(en).
--->
-
-````{solution} so_3_2
-:class: dropdown
-
-```{figure} graad_bepalen_data/Oefening_12.svg
----
-align: center
----
-Aantal evenwichtsvergelijkingen
-```
-
-````
-
-% solution_end
 
 `````
 
@@ -301,15 +143,6 @@ Aantal evenwichtsvergelijkingen
 ```{h5p} https://tudelft.h5p.com/content/1292615285591579477/embed
 ```
 
-% solution_start
-
-<!---
-Bepaal de graad van uitwendig statisch onbepaaldheid
-
-De constructie is *0*ste/de graads uitwendig statisch onbepaald
--->
-
-% solution_end
 
 `````
 
@@ -322,34 +155,6 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 ```{h5p} https://tudelft.h5p.com/content/1292615285960301817/embed
 ```
 
-% solution_start
-
-<!---
-Tel het aantal onbekende krachten: oplegreacties en staafkrachten
-
-Er zijn *3* onbekende oplegreacties en *19* onbekende staafkrachten. Dat zijn *22* onbekende krachten in totaal.
--->
-
-````{solution} so_3_4
-:class: dropdown
-
-```{figure} graad_bepalen_data/Oefening_13.svg
----
-align: center
----
-Aantal onbekende oplegreacties en staafkrachten op knopen
-```
-
-```{figure} graad_bepalen_data/Oefening_15.svg
----
-align: center
----
-Aantal onbekende staafkrachten op staven
-```
-
-````
-
-% solution_end
 
 `````
 
@@ -360,34 +165,6 @@ Aantal onbekende staafkrachten op staven
 ```{h5p} https://tudelft.h5p.com/content/1292615286356377247/embed
 ```
 
-% solution_start
-
-<!---
-Tel het aantal evenwichtsvergelijkingen
-
-Er zijn *1* evenwichtsvergelijking(en) vanuit rolscharnieren, *2* evenwichtsvergelijking(en) vanuit scharnierende verbindingen, *6* evenwichtsvergelijking(en) vanuit algemene verbindingen, *0* evenwichtsvergelijking(en) vanuit pendelstaven en *12* evenwichtsvergelijking(en) vanuit algemene staven. Dat zijn *21* evenwichtsvergelijkingen in totaal.
--->
-
-````{solution} so_3_5
-:class: dropdown
-
-```{figure} graad_bepalen_data/Oefening_14.svg
----
-align: center
----
-Aantal evenwichtsvergelijkingen voor de knopen
-```
-
-```{figure} graad_bepalen_data/Oefening_16.svg
----
-align: center
----
-Aantal evenwichtsvergelijkingen voor de staven
-```
-
-````
-
-% solution_end
 
 `````
 
@@ -398,14 +175,5 @@ Aantal evenwichtsvergelijkingen voor de staven
 ```{h5p} https://tudelft.h5p.com/content/1292615286690175927/embed
 ```
 
-% solution_start
-
-<!---
-Bepaal de graad van statisch onbepaaldheid
-
-De constructie is *1*ste/de graads inwendig statisch onbepaald
--->
-
-% solution_end
 
 `````
