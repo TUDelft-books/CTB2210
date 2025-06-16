@@ -1,0 +1,68 @@
+name: Generate student version
+
+on:
+  push:
+    branches:
+      - 2025-teacher
+  workflow_dispatch:
+
+jobs:
+  generate-student-version:
+    name: Generate student versions
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Remove solution sections from markdown files
+        run: |
+          python -c '
+          import os
+
+          # Walk through all files in the repository
+          for root, _, files in os.walk("."):
+              for file in files:
+                  if file.endswith(".md"):
+                      markdown_file = os.path.join(root, file)
+                      with open(markdown_file, "r") as f:
+                          lines = f.readlines()
+
+                      # Remove lines between "% solution_start" and "% solution_end"
+                      in_solution_block = False
+                      filtered_lines = []
+                      for line in lines:
+                          if "% solution_start" in line:
+                              in_solution_block = True
+                          elif "% solution_end" in line:
+                              in_solution_block = False
+                          elif not in_solution_block:
+                              filtered_lines.append(line)
+
+                      # Raise an error if a solution block was not properly closed
+                      if in_solution_block:
+                          raise ValueError("Unclosed % solution_start detected in file: " + markdown_file)
+
+                      # Save the modified markdown file
+                      with open(markdown_file, "w") as f:
+                          f.writelines(filtered_lines)
+          '
+
+      - name: Commit and push changes assignment version
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git checkout -b 2025-draft
+          git merge origin/main
+          git add .
+          git commit -m "Generate assignment version"
+          git push origin 2025-draft --force
