@@ -4,9 +4,11 @@ root: intro.md
 parts:
   - caption: Lesstof
     chapters:
-    - file: external/CEG-mechanics-BSc/book/statically_inderminate/determinancy
-      title: Statische onbepaaldheid theorie
-    - file: statisch_onbepaald/graad_bepalen.md
+    - file: statisch_onbepaald/lesson.md
+      sections:
+      - file: external/CEG-mechanics-BSc/book/statically_inderminate/determinancy
+        title: Statische onbepaaldheid theorie
+      - file: statisch_onbepaald/graad_bepalen.md
     
   - caption: Miscellaneous
     chapters:
