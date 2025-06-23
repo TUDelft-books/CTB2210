@@ -10,6 +10,6 @@ parts:
         title: Statische onbepaaldheid theorie
       - file: statisch_onbepaald/graad_bepalen.md
     
-  - caption: Miscellaneous
+  - caption: Diverse
     chapters:
     - file: references
