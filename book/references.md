@@ -1,3 +1,3 @@
-# References
+# Bronvermelding
 :::{bibliography}
 :::
