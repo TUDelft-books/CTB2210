@@ -9,6 +9,10 @@ parts:
       - file: external/CEG-mechanics-BSc/book/statically_inderminate/determinancy
         title: Statische onbepaaldheid theorie
       - file: statisch_onbepaald/graad_bepalen.md
+    - file: matrixframe/lesson.md
+      sections:
+      - file: external/CEG-mechanics-BSc/book/tools/matrixframe.md
+        title: Matrixframe theorie
     
   - caption: Diverse
     chapters:
