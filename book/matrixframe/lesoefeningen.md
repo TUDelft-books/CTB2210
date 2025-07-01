@@ -68,12 +68,12 @@ Voer de opleggingen in en ga verder met de scharnierende aansluitingen.
 :::::
 
 :::::{exercise}
-:label: mf_1_2
+:label: mf_1_3
 :nonumber: true
 
 Voer de linear-elastische berekening uit en bekijk de resultaten.
 
-```{h5p} https://tudelft.h5p.com/content/1292628065481210467/embed
+```{h5p} https://tudelft.h5p.com/content/1292628082183016877/embed
 ```
 
 % solution_start
@@ -83,10 +83,10 @@ Heb je de goede resultaten? Rond of op 2 decimalen en gebruik een . als decimaal
 
 -->
 
-::::{solution} mf_1_2
+::::{solution} mf_1_3
 :class: dropdown
 
-- De oplegreactie bij A is *5.67* kN (positief omhoog, negatief omlaag)
+- De oplegreactie bij A is *5.67* kN (positief omhoog, negatief omlaag).
 - Het maximale absolute moment in de constructie is *77.64* kNm.
 - De maximale absolute dwarskracht in de constructie is *59.72* kN.
 
