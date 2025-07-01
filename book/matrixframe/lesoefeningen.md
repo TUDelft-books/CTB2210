@@ -137,7 +137,7 @@ Bepaal de oplegreacties, verplaatsingen en het krachtsverloop in de constructie 
 -->
 
 :::::{exercise}
-:label: mf_1_1
+:label: mf_2_1
 :nonumber: true
 
 Voer de geometrie in en ga verder met de profielgegevens.
@@ -150,7 +150,7 @@ Voer de geometrie in en ga verder met de profielgegevens.
 
 % solution_start
 
-::::{solution} mf_1_1
+::::{solution} mf_2_1
 :class: dropdown
 
 Vraag 1:
