@@ -2,6 +2,7 @@ format: jb-book
 root: intro.md
 
 parts:
+# START REMOVE-FROM-RELEASE
   - caption: Lesstof
     chapters:
     - file: statisch_onbepaald/lesson.md
@@ -14,7 +15,8 @@ parts:
       - file: external/CEG-mechanics-BSc/book/tools/matrixframe.md
         title: Matrixframe theorie
       - file: matrixframe/lesoefeningen
-    
+# END REMOVE-FROM-RELEASE
+
   - caption: Diverse
     chapters:
     - file: references

@@ -119,12 +119,62 @@ Dwarskrachten
 
 ## Oefening 2
 
+Gegeven is de volgende constructie:
+
+```{figure} lesoefeningen_data/Structure_2.svg
+---
+align: center
+---
+Constructie
+```
+
+Bepaal de oplegreacties, verplaatsingen en het krachtsverloop in de constructie met MatrixFrame.
+
 <!--
 
 - Wisselende stijfheden, inclusief oneindig stijf, Iets met een pendelstaafconstructie en oneindig stijve balk
 - Schuine roloplegging
-
 -->
+
+:::::{exercise}
+:label: mf_1_1
+:nonumber: true
+
+Voer de geometrie in en ga verder met de profielgegevens.
+
+```{h5p} https://tudelft.h5p.com/content/1292628194575324387/embed
+```
+
+```{h5p} https://tudelft.h5p.com/content/1292628196202543167/embed
+```
+
+% solution_start
+
+::::{solution} mf_1_1
+:class: dropdown
+
+Vraag 1:
+
+- $EI = 0$
+  - Onjuist, MatrixFrame heeft een waarde ongelijk aan 0 nodig om de constructie door te kunnen rekenen. Heeft de waarde van EI invloed op je antwoord?
+- Een willekeurige maar kleine waarde
+  - Onjuist, aangezien de kabels pendelstaven zijn, wat is de invloed van EI op het vervormingsgedrag van de kabels?
+- Een willekeurige waarde
+  - Exact, waarom maakt het voor pendelstaven niet uit wat de waarde is van EI?
+
+Vraag 2:
+
+- $EI = \infty$
+  - Onjuist, een waarde van oneindig kan je niet invullen. Hoe kan je dat numeriek benaderen?
+- Een willekeurige, maar grote, waarde
+  - Correct, welke waarde kies je?
+- Een willekeurige waarde
+  - Onjuist, als je een kleine stijfheid invoert zal dat zeker geen oneindige waarde simuleren.
+::::
+
+% solution_end
+
+:::::
 
 ## Oefening 3
 
