@@ -203,10 +203,8 @@ Ga verder met opleggingen.
 
 :::::
 
-
-
 :::::{exercise}
-:label: mf_2_2
+:label: mf_2_3
 :nonumber: true
 
 Voer de scharnierende aansluitingen in, voer de linear-elastische berekening uit en bekijk de resultaten.
@@ -228,7 +226,6 @@ Voer de scharnierende aansluitingen in, voer de linear-elastische berekening uit
 % solution_end
 
 :::::
-
 
 ## Oefening 3
 
