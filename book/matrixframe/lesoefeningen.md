@@ -158,9 +158,9 @@ Vraag 1:
 - $EI = 0$
   - Onjuist, MatrixFrame heeft een waarde ongelijk aan 0 nodig om de constructie door te kunnen rekenen. Heeft de waarde van EI invloed op je antwoord?
 - Een willekeurige maar kleine waarde
-  - Onjuist, aangezien de kabels pendelstaven zijn, wat is de invloed van EI op het vervormingsgedrag van de kabels?
+  - Onjuist, aangezien er geen kracht staat op de kabels, kan deze ook als pendelstaaf worden gemodelleerd? wat is de invloed van EI op het vervormingsgedrag van de kabels?
 - Een willekeurige waarde
-  - Exact, waarom maakt het voor pendelstaven niet uit wat de waarde is van EI?
+  - Exact, waarom maakt het voor de kabels niet uit wat de waarde is van EI? Waarom kunnen deze als pendelstaven worden gemodelleerd?
 
 Vraag 2:
 
@@ -175,6 +175,38 @@ Vraag 2:
 % solution_end
 
 :::::
+
+:::::{exercise}
+:label: mf_2_2
+:nonumber: true
+
+Ga verder met opleggingen.
+
+```{h5p} https://tudelft.h5p.com/content/1292628203010084277/embed
+```
+
+% solution_start
+
+::::{solution} mf_2_2
+:class: dropdown
+
+- Een pendelstaaf dwars op de rolrichting van het rolscharnier toevoegen
+  - Correct, wat voor profielgegevens voeg je toe voor deze pendelstaaf?
+- Roloplegging in zowel horizontale als verticale oplegging toevoegen
+  - Onjuist, dan heb je er een reguliere scharnierende verbinding van gemaakt
+- Er is geen alternatief
+  - Onjuist, een pendelstaaf staat bij kleine verplaatsingen ook in één richting beweging toe.
+
+::::
+
+% solution_end
+
+:::::
+
+
+
+en scharnierende aansluitingen in, voer de linear-elastische berekening uit en bekijk de resultaten.
+
 
 ## Oefening 3
 
