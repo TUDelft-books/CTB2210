@@ -205,7 +205,29 @@ Ga verder met opleggingen.
 
 
 
-en scharnierende aansluitingen in, voer de linear-elastische berekening uit en bekijk de resultaten.
+:::::{exercise}
+:label: mf_2_2
+:nonumber: true
+
+Voer de scharnierende aansluitingen in, voer de linear-elastische berekening uit en bekijk de resultaten.
+
+```{h5p} https://tudelft.h5p.com/content/1292628206080447537/embed
+```
+
+% solution_start
+
+::::{solution} mf_2_3
+:class: dropdown
+
+- De maximale verplaatsing van BC is *0.27* m
+- De maximale zakking van AD is *1.42* m
+- De grootste normaalkracht in de kabels is *303.08* kN
+
+::::
+
+% solution_end
+
+:::::
 
 
 ## Oefening 3
