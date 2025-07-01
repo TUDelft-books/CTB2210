@@ -39,6 +39,7 @@ Welke profielgegeven vul je in om tot het juiste antwoord te komen?
 -->
 
 ::::{solution} mf_1_1
+:class: dropdown
 
 - Ik vul geen profielgegevens in
   - Onjuist, MatrixFrame heeft profielgegevens nodig. Als je deze constructie met de hand zou uitrekenen, zou je dan stijfheidsgegevens nodig hebben voor de oplegreacties en krachtsverdeling?
