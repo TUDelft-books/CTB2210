@@ -15,6 +15,9 @@ parts:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/tools/matrixframe.md
         title: Matrixframe theorie
       - file: matrixframe/lesoefeningen
+    - file: ODE/lesson.md
+      sections:
+      - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210/book/week_2/session_1/intro.ipynb
 # END REMOVE-FROM-RELEASE
 
   - caption: Diverse
