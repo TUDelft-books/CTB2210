@@ -53,8 +53,12 @@ sphinx:                                              # Options passed on to the 
     - sphinx_tudelft_theme                           # Adds the TU Delft theme to your book https://teachbooks.io/manual/external/Sphinx-TUDelft-theme/README.html
     - sphinx_proof
 
+teachbooks:
+  attribution_color: attributiongrey
+  attribution_location: margin
+
 bibtex_bibfiles: 
-  - external/CEG-mechanics-BSc/book/references.bib                                # Required for references
+  - references.bib                                # Required for references
 
 parse:
   myst_enable_extensions:
