@@ -17,7 +17,7 @@ align: center
 Structure
 ```
 
-Determine the degree of external static indeterminacy.
+For which we'll determine the degree of external static indeterminacy.
 
 `````{exercise}
 :label: so_2_1
@@ -25,7 +25,7 @@ Determine the degree of external static indeterminacy.
 
 Split the structure into the largest possible rigid, pin-connected parts and draw the free body diagram of the pin-connected parts.
 
-```{h5p} https://tudelft.h5p.com/content/1292612545160457437/embed
+```{h5p} https://tudelft.h5p.com/content/1292628818573685867/embed
 ```
 
 % solution_start
@@ -52,7 +52,7 @@ Number of unknown forces
 :label: so_2_2
 :nonumber: true
 
-```{h5p} https://tudelft.h5p.com/content/1292612546255043757/embed
+```{h5p} https://tudelft.h5p.com/content/1292628822338174627/embed
 ```
 
 % solution_start
@@ -79,7 +79,7 @@ Number of equilibrium equations
 :label: so_2_3
 :nonumber: true
 
-```{h5p} https://tudelft.h5p.com/content/1292612546677182677/embed
+```{h5p} https://tudelft.h5p.com/content/1292628823379419527/embed
 ```
 
 % solution_start
@@ -87,7 +87,7 @@ Number of equilibrium equations
 ````{solution} so_2_3
 :class: dropdown
 
-The structure is *1*st degree externally statically indeterminate
+The structure is *1*th/st/nd/rd degree externally statically indeterminate
 
 ````
 
@@ -119,7 +119,7 @@ Determine the degree of internal static indeterminacy.
 
 Split the structure into all separate joints and bars, and draw the free body diagram for all joints and the free body diagrams for the bars.
 
-```{h5p} https://tudelft.h5p.com/content/1292586829246525217/embed
+```{h5p} https://tudelft.h5p.com/content/1292628823866957337/embed
 ```
 
 % solution_start
@@ -127,7 +127,7 @@ Split the structure into all separate joints and bars, and draw the free body di
 ````{solution} so_1
 :class: dropdown
 
-There are *6* unknown support reactions and *32* unknown bar forces. That makes *38* unknown forces in total.
+There are *6* unknown support reactions and *32* unknown section forces. That makes *38* unknown forces in total.
 
 ```{figure} Oefening_2.svg
 ---
@@ -153,7 +153,7 @@ Number of unknown bar forces on bars
 :label: so_2
 :nonumber: true
 
-```{h5p} https://tudelft.h5p.com/content/1292587403744225227/embed
+```{h5p} https://tudelft.h5p.com/content/1292628824524110647/embed
 ```
 
 % solution_start
@@ -161,7 +161,7 @@ Number of unknown bar forces on bars
 ````{solution} so_2
 :class: dropdown
 
-There are *0* equilibrium equations from roller hinges, *6* equilibrium equation(s) from pin connections, *9* equilibrium equation(s) from general connections, *1* equilibrium equation(s) from pendulum bars, and *18* equilibrium equation(s) from general bars. That makes *34* equilibrium equations in total.
+There are *0* equilibrium equations from roller hinges, *6* equilibrium equation(s) from pin connections, *9* equilibrium equation(s) from general connections, *1* equilibrium equation(s) from two-force members, and *18* equilibrium equation(s) from general members. That makes *34* equilibrium equations in total.
 
 ```{figure} Oefening_4.svg
 ---
@@ -187,7 +187,7 @@ Number of equilibrium equations for the bars
 :label: so_3
 :nonumber: true
 
-```{h5p} https://tudelft.h5p.com/content/1292587410124264777/embed
+```{h5p} https://tudelft.h5p.com/content/1292628825353165277/embed
 ```
 
 % solution_start
@@ -195,7 +195,7 @@ Number of equilibrium equations for the bars
 ````{solution} so_3
 :class: dropdown
 
-The structure is *4*th degree internally statically indeterminate
+The structure is *4*th/st/nd/rd degree internally statically indeterminate
 
 ````
 
@@ -227,7 +227,7 @@ Determine the degree of external and internal static indeterminacy.
 
 Split the structure into the largest possible rigid, pin-connected parts and draw the free body diagram of the pin-connected parts.
 
-```{h5p} https://tudelft.h5p.com/content/1292615284867296507/embed
+```{h5p} https://tudelft.h5p.com/content/1292628825951270777/embed
 ```
 
 % solution_start
@@ -254,7 +254,7 @@ Number of unknown forces
 :label: so_3_2
 :nonumber: true
 
-```{h5p} https://tudelft.h5p.com/content/1292615285293314797/embed
+```{h5p} https://tudelft.h5p.com/content/1292628826486379967/embed
 ```
 
 % solution_start
@@ -281,7 +281,7 @@ Number of equilibrium equations
 :label: so_3_3
 :nonumber: true
 
-```{h5p} https://tudelft.h5p.com/content/1292615285591579477/embed
+```{h5p} https://tudelft.h5p.com/content/1292628828081443827/embed
 ```
 
 % solution_start
@@ -289,7 +289,7 @@ Number of equilibrium equations
 ````{solution} so_3_3
 :class: dropdown
 
-The structure is *0*th degree externally statically indeterminate
+The structure is *0*th/st/nd/rh degree externally statically indeterminate
 
 ````
 
@@ -303,7 +303,7 @@ The structure is *0*th degree externally statically indeterminate
 
 Split the structure into all separate joints and bars, and draw the free body diagram for all joints and the free body diagrams for the bars.
 
-```{h5p} https://tudelft.h5p.com/content/1292615285960301817/embed
+```{h5p} https://tudelft.h5p.com/content/1292628829655742667/embed
 ```
 
 % solution_start
@@ -311,7 +311,7 @@ Split the structure into all separate joints and bars, and draw the free body di
 ````{solution} so_3_4
 :class: dropdown
 
-There are *3* unknown support reactions and *19* unknown bar forces. That makes *22* unknown forces in total.
+There are *3* unknown support reactions and *19* unknown section forces. That makes *22* unknown forces in total.
 
 ```{figure} graad_bepalen_data/Oefening_13.svg
 ---
@@ -337,7 +337,7 @@ Number of unknown bar forces on bars
 :label: so_3_5
 :nonumber: true
 
-```{h5p} https://tudelft.h5p.com/content/1292615286356377247/embed
+```{h5p} https://tudelft.h5p.com/content/1292628830292663407/embed
 ```
 
 % solution_start
@@ -345,7 +345,7 @@ Number of unknown bar forces on bars
 ````{solution} so_3_5
 :class: dropdown
 
-There are *1* equilibrium equation(s) from roller hinges, *2* equilibrium equation(s) from pin connections, *6* equilibrium equation(s) from general connections, *0* equilibrium equation(s) from pendulum bars, and *12* equilibrium equation(s) from general bars. That makes *21* equilibrium equations in total.
+There are *1* equilibrium equation(s) from roller hinges, *2* equilibrium equation(s) from pin connections, *6* equilibrium equation(s) from general connections, *0* equilibrium equation(s) from two-force-members, and *12* equilibrium equation(s) from general members. That makes *21* equilibrium equations in total.
 
 ```{figure} graad_bepalen_data/Oefening_14.svg
 ---
@@ -371,7 +371,7 @@ Number of equilibrium equations for the bars
 :label: so_3_6
 :nonumber: true
 
-```{h5p} https://tudelft.h5p.com/content/1292615286690175927/embed
+```{h5p} https://tudelft.h5p.com/content/1292628833018829687/embed
 ```
 
 % solution_start
@@ -379,7 +379,7 @@ Number of equilibrium equations for the bars
 ````{solution} so_3_6
 :class: dropdown
 
-The structure is *1*st degree internally statically indeterminate
+The structure is *1*th/st/nd/rd degree internally statically indeterminate
 
 ````
 
