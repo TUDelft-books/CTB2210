@@ -1,39 +1,38 @@
 (credits)=
-# Credits and License
+# Credits en Licentie
 
-You can refer to this book as:
+Je kunt naar dit boek verwijzen als:
 
-> Tom van Woudenberg from Delft University of Technology (2025) _CTB2210 - Constructiemechancia 3_. https://oit.tudelft.nl/CTB2210. Source files at https://github.com/TUDelft-books/CTB2210. CC BY 4.0.
+> Tom van Woudenberg van de Technische Universiteit Delft (2025) _CTB2210 - Constructiemechanica 3_. https://oit.tudelft.nl/CTB2210. Bronbestanden op https://github.com/TUDelft-books/CTB2210. CC BY 4.0.
 
-You can refer to individual chapters or pages within this book as:
+Je kunt naar individuele hoofdstukken of pagina's binnen dit boek verwijzen als:
 
-> `<Title of Chapter or Page>`. in Tom van Woudenberg from Delft University of Technology (2025) _CTB2210 - Constructiemechancia 3_.`<url to specific page on book website>`. Source files at `<link to specific commit / file in github repo`. CC BY 4.0.
+> `<Titel van Hoofdstuk of Pagina>`. in Tom van Woudenberg van de Technische Universiteit Delft (2025) _CTB2210 - Constructiemechanica 3_. `<url naar specifieke pagina op de boekwebsite>`. Bronbestanden op `<link naar specifieke commit / bestand in github repo>`. CC BY 4.0.
 
-We anticipate that the content of this book will change significantly. Therefore, we recommend using the source code directly with the citation above that refers to the GitHub repository and lists the date and name of the file. Although content will be added over time, chapter titles and URL's in this book are expected to remain relatively static. However, we make no guarantee, so if it is important for you to reference a specific location/commit within the book.
+We verwachten dat de inhoud van dit boek aanzienlijk zal veranderen. Daarom raden we aan om direct de broncode te gebruiken met de bovenstaande referentie naar de GitHub-repository, inclusief datum en bestandsnaam. Hoewel er in de loop van de tijd inhoud wordt toegevoegd, blijven hoofdstuktitels en URL's naar verwachting redelijk stabiel. We geven echter geen garantie; als het belangrijk is om naar een specifieke locatie/commit binnen het boek te verwijzen, doe dit dan expliciet.
 
-## How the book is made
-This website is written in markdown and jupyter notebooks files, which are converted to html using tools from [TeachBooks](https://teachbooks.io/). The files are stored on a [public GitHub repository](https://github.com/TUDelft-books/CTB2210). The website can be viewed at https://oit.tudelft.nl/CTB2210.
+## Hoe het boek is gemaakt
+Deze website is geschreven in markdown- en jupyternotebook-bestanden, die worden omgezet naar html met behulp van tools van [TeachBooks](https://teachbooks.io/). De bestanden zijn opgeslagen in een [publieke GitHub-repository](https://github.com/TUDelft-books/CTB2210). De website is te bekijken op https://oit.tudelft.nl/CTB2210.
 
-To recreate the website you have two options (more information in the [TeachBooks manual](https://teachbooks.io/manual/):
-- In the GitHub interface: fork this repository, enable Github Pages from the source GitHub actions (Settings - Code and automation - Pages - Build and deployment - Source - GitHub Actions), enable workflows (Actions - I understand my workflows, go ahead and enable them) and run the call-deploy-book workflow (Actions - call-deploy-book - Run workflow - Run workflow). The website is released on the URL as shown on the workflow summary when the workflow has finished (Actions - call-deploy-book - call-deploy-book - Summary).
-- On your own computer: clone this repository, install the required packages (`pip install -r requirements.txt`) and build the book (`teachbooks build book`). The website is stored locally in `book/_build/index.html`.
+Om de website opnieuw te maken heb je twee opties (meer informatie in de [TeachBooks handleiding](https://teachbooks.io/manual/)):
+- In de GitHub-interface: fork deze repository, schakel Github Pages in via de bron GitHub actions (Instellingen - Code en automatisering - Pagina's - Build en deployment - Bron - GitHub Actions), schakel workflows in (Acties - Ik begrijp mijn workflows, ga door en schakel ze in) en voer de call-deploy-book workflow uit (Acties - call-deploy-book - Run workflow - Run workflow). De website wordt gepubliceerd op de URL zoals weergegeven in het workflowoverzicht wanneer de workflow is voltooid (Acties - call-deploy-book - call-deploy-book - Samenvatting).
+- Op je eigen computer: clone deze repository, installeer de vereiste pakketten (`pip install -r requirements.txt`) en bouw het boek (`teachbooks build book`). De website wordt lokaal opgeslagen in `book/_build/index.html`.
 
-## License
-This book is [CC BY 4.0 licensed](https://creativecommons.org/licenses/by/4.0/) allowing you to share and adapt the material, as long as the source is named. External resources that are reused in this book are listed below.
+## Licentie
+Dit boek is [CC BY 4.0 gelicentieerd](https://creativecommons.org/licenses/by/4.0/) waardoor je het materiaal mag delen en aanpassen, zolang de bron wordt vermeld. Externe bronnen die in dit boek worden hergebruikt, staan hieronder vermeld.
 
 (external_resources)=
-### External resources
+### Externe bronnen
 
-Parts of this book are taken from other external resources and reused in various ways. If an author is not listed on a particular page, it is by the Authors, except as follows:
+Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. Als er geen auteur op een bepaalde pagina wordt vermeld, is het door de auteurs, behalve als volgt:
 
-The following pages are included directly from an external resource:
-- The following pages includes text from {cite:t}`CEG_mechanics_BSc`. Original content licensed under CC BY 4.0 License:
+De volgende pagina's zijn direct overgenomen uit een externe bron:
+- De volgende pagina's bevatten tekst uit {cite:t}`CEG_mechanics_BSc`. Originele inhoud gelicentieerd onder de CC BY 4.0 Licentie:
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/statically_inderminate/determinancy.md)
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/tools/matrixframe.md)
 
-
 (editor)=
-## About the Editors
+## Over de auteur
 
 ### Tom van Woudenberg
 
@@ -43,19 +42,19 @@ The following pages are included directly from an external resource:
 :class: dark-light
 ```
 
-Tom van Woudenberg is a lecturer at Delft University of Technology. Equipped with a dedication to education in structural mechanics, he strives to cultivate a blended learning environment that engages students actively and rewards their efforts.
+Tom is docent aan de Technische Universiteit Delft. Tom heeft een passie voor het mechanicaonderwijs en streeft ernaar een blended leerweg te faciliteren voor studenten, waarin actief leren aantrekkelijk en lonend is.
 
-Tom graduated in 2020 at Delft University of Technology on structural optimisation. From August 2020 to August 2022, Tom worked at Amsterdam University of Applied Sciences as lecturer construction, specialised in structural mechanics. Since September 2022, Tom is working at Delft University of Technology.
+Tom is in 2020 afgestudeerd bij de Technische Universiteit Delft met onderzoek naar wiskundige optimalisatie van een constructief ontwerp. Van augustus 2020 tot augustus 2022 was Tom werkzaam bij de Hogeschool van Amsterdam als docent constructie, gespecialiseerd in constructiemechanica. Sinds september 2022 is Tom werkzaam bij de TU Delft.
 
-Next to courses on structural mechanics, Tom (co)teaches courses on optimisation, numerical methods, data-analysis and statistics. Next to that, Tom supervises BSc- and MSc-students, partly on the research project of [Macaulay's method](https://teachbooks.io/Macaulays_method). Furthermore, Tom is actively involved in cross-faculty collaboration on [PRIMECH](https://www.tudelft.nl/teachingacademy/communities/primech), [TeachBooks](https://teachbooks.io/) and various digital tools for teaching like [ANS](https://ans.app/) and Git.
+Naast constructiemechanicavakken, geeft Tom vakken over optimalisatie, numerieke methodes, data-analyse en statistiek. Ook begeleidt Tom BSc- en MSc-studenten, deels onderdeel van zijn onderzoekproject over [Macaulay's methode](https://teachbooks.io/Macaulays_method). Daarnaast, ben ik actief betrokken in interfacultaire samenwerkingen zoals [PRIMECH](https://www.tudelft.nl/teachingacademy/communities/primech), [TeachBooks](https://teachbooks.io/) en diverse digitale tooling voor het onderwijs zoals [ANS](https://ans.app/) en Git
 
 - {fa}`envelope` T.R.vanWoudenberg@tudelft.nl
 - {fa}`envelope` tomvanw@hotmail.com
 - {fa}`phone` +31152789739
-- {fa}`location-dot` TU Delft – Civil Engineering & Geosciences - Department 3MD – Section Applied Mechanics - Room 6.45
-- <i class="fa-brands fa-github"></i> [GitHub profile ](https://github.com/Tom-van-Woudenberg)
-- <i class="fa-brands fa-linkedin"></i> [LinkedIn profile](https://www.linkedin.com/in/tom-van-woudenberg/)
-- {fa}`building-columns` [Delft University of Technology profile](https://www.tudelft.nl/en/staff/t.r.vanwoudenberg/)
+- {fa}`location-dot` TU Delft – Civiele Techniek & Geowetenschappen - Afdeling 3MD – Kamer 6.45
+- <i class="fa-brands fa-github"></i> [GitHub profiel](https://github.com/Tom-van-Woudenberg)
+- <i class="fa-brands fa-linkedin"></i> [LinkedIn profiel](https://www.linkedin.com/in/tom-van-woudenberg/)
+- {fa}`building-columns` [TU Delft profiel](https://www.tudelft.nl/en/staff/t.r.vanwoudenberg/)
 
-### Acknowledgements
-Big thanks to the various colleagues (with Robert Lanzafame in particular) and teaching assistant part of the [TeachBooks](https://teachbooks.io/) for developing tools and providing support to improve this book.
+### Dankwoord
+Veel dank aan de diverse collega's (met name Robert Lanzafame) en studentassistenten van [TeachBooks](https://teachbooks.io/) voor het ontwikkelen van tools en het bieden van ondersteuning om dit boek te verbeteren.
