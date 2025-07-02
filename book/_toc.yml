@@ -20,3 +20,4 @@ parts:
   - caption: Diverse
     chapters:
     - file: references
+    - file: credits
