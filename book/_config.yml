@@ -21,7 +21,7 @@ sphinx:                                              # Options passed on to the 
       exclude_patterns: ["**/**"]
     html_theme_options:
       logo:
-        text: CTB2210 - Constructiemechanica 3
+        text: CTB2210 - Constructiemechanica 3 2025/2026
       repository_url: "https://github.com/TUDelft-books/CTB2210/"
       path_to_docs: "book"                           # Required for edit_page_button, should be book if you're using TeachBooks package (https://github.com/TeachBooks/TeachBooks) or the TeachBooks deploy book workflow (https://teachbooks.io/manual/external/deploy-book-workflow/README.html)
       repository_branch: "2025"                      # Replace when you change the name of your published branch (required for edit_page_button)

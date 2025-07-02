@@ -19,7 +19,7 @@ Om de website opnieuw te maken heb je twee opties (meer informatie in de [TeachB
 - Op je eigen computer: clone deze repository, installeer de vereiste pakketten (`pip install -r requirements.txt`) en bouw het boek (`teachbooks build book`). De website wordt lokaal opgeslagen in `book/_build/index.html`.
 
 ## Licentie
-Dit boek is [CC BY 4.0 gelicentieerd](https://creativecommons.org/licenses/by/4.0/) waardoor je het materiaal mag delen en aanpassen, zolang de bron wordt vermeld. Externe bronnen die in dit boek worden hergebruikt, staan hieronder vermeld.
+Dit boek is [CC BY 4.0 gelicenseerd](https://creativecommons.org/licenses/by/4.0/) waardoor je het materiaal mag delen en aanpassen, zolang de bron wordt vermeld. Externe bronnen die in dit boek worden hergebruikt, staan hieronder vermeld.
 
 (external_resources)=
 ### Externe bronnen
@@ -27,9 +27,11 @@ Dit boek is [CC BY 4.0 gelicentieerd](https://creativecommons.org/licenses/by/4.
 Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. Als er geen auteur op een bepaalde pagina wordt vermeld, is het door de auteurs, behalve als volgt:
 
 De volgende pagina's zijn direct overgenomen uit een externe bron:
-- De volgende pagina's bevatten tekst uit {cite:t}`CEG_mechanics_BSc`. Originele inhoud gelicentieerd onder de CC BY 4.0 Licentie:
+- De volgende pagina's bevatten tekst uit {cite:t}`CEG_mechanics_BSc`. Originele inhoud gelicenseerd onder de CC BY 4.0 Licentie:
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/statically_inderminate/determinancy.md)
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/tools/matrixframe.md)
+- De volgende pagina's bevatten tekst uit {cite:t}`CT1000`. Originele inhoud gelicenseerd onder de CC BY 4.0 Licentie:
+  - [](./_git/github.com_TUDelft-books_CT1000/CTB2210/book/week_2/session_1/intro.html)
 
 (editor)=
 ## Over de auteur
