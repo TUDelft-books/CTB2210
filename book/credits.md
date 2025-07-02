@@ -26,7 +26,7 @@ Dit boek is [CC BY 4.0 gelicenseerd](https://creativecommons.org/licenses/by/4.0
 
 Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. Als er geen auteur op een bepaalde pagina wordt vermeld, is het door de auteurs, behalve als volgt:
 
-De volgende pagina's zijn direct overgenomen uit een externe bron:
+De volgende pagina's zijn overgenomen uit een externe bron:
 - De volgende pagina's bevatten tekst uit {cite:t}`CEG_mechanics_BSc`. Originele inhoud gelicenseerd onder de CC BY 4.0 Licentie:
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/statically_inderminate/determinancy.md)
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/tools/matrixframe.md)
