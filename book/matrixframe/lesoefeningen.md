@@ -121,7 +121,7 @@ Dwarskrachten
 
 Gegeven is de volgende constructie:
 
-```{figure} lesoefeningen_data/Structure_2.svg
+```{figure} lesoefeningen_data/Structure_3.svg
 ---
 align: center
 ---
@@ -130,11 +130,63 @@ Constructie
 
 Bepaal de oplegreacties, verplaatsingen en het krachtsverloop in de constructie met MatrixFrame.
 
-<!--
+:::::{exercise}
+:label: mf_3_1
+:nonumber: true
 
-- Wisselende stijfheden, inclusief oneindig stijf, Iets met een pendelstaafconstructie en oneindig stijve balk
-- Schuine roloplegging
--->
+Voer de geometrie, profielgegevens, opleggingen en scharnierende aansluitingen in, voer de linear-elastische berekening uit en bekijk de resultaten.
+
+```{h5p} https://tudelft.h5p.com/content/1292628975060884047/embed
+```
+
+% solution_start
+
+::::{solution} mf_3_1
+:class: dropdown
+
+- Het moment in D is *7.78* kNm
+- De maximale zakking is *0.16* m
+- De absolute waarde van de rotatie van knoop A is *0.66* graden
+
+```{figure} lesoefeningen_data/image4.png
+---
+align: center
+---
+Moment in D
+```
+
+```{figure} lesoefeningen_data/image5.png
+---
+align: center
+---
+Maximale zakking
+```
+
+```{figure} lesoefeningen_data/image_3.png
+---
+align: center
+---
+Rotatie van knoop A in radialen
+```
+
+::::
+
+% solution_end
+
+:::::
+
+## Oefening 3
+
+Gegeven is de volgende constructie:
+
+```{figure} lesoefeningen_data/Structure_2.svg
+---
+align: center
+---
+Constructie
+```
+
+Bepaal de oplegreacties, verplaatsingen en het krachtsverloop in de constructie met MatrixFrame.
 
 :::::{exercise}
 :label: mf_2_1
@@ -217,9 +269,31 @@ Voer de scharnierende aansluitingen in, voer de linear-elastische berekening uit
 ::::{solution} mf_2_3
 :class: dropdown
 
-- De maximale verplaatsing van BC is *0.27* m
-- De maximale zakking van AD is *1.42* m
+- De maximale verplaatsing van BC in verticale richting is *0.27* m
+- De maximale zakking van AD in verticale richting is *1.42* cm
 - De grootste normaalkracht in de kabels is *303.08* kN
+
+```{figure} lesoefeningen_data/image6.png
+---
+align: center
+---
+Maximale verplaatsing van BC
+```
+
+```{figure} lesoefeningen_data/image7.png
+---
+align: center
+---
+Maximale zakking van AD
+```
+
+```{figure} lesoefeningen_data/image8.png
+---
+align: center
+---
+Maximale zakking van AD
+```
+
 
 ::::
 
@@ -227,10 +301,3 @@ Voer de scharnierende aansluitingen in, voer de linear-elastische berekening uit
 
 :::::
 
-## Oefening 3
-
-<!--
-- Discontinue belastingen
-- Iets met wisselende eenheden
-- Iets met veren
--->
