@@ -121,7 +121,7 @@ Dwarskrachten
 
 Gegeven is de volgende constructie:
 
-```{figure} lesoefeningen_data/Structure_3.svg
+```{figure} lesoefeningen_data/structure_3.svg
 ---
 align: center
 ---
