@@ -24,7 +24,7 @@ Dit boek is [CC BY 4.0 gelicenseerd](https://creativecommons.org/licenses/by/4.0
 (external_resources)=
 ### Externe bronnen
 
-Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. Als er geen auteur op een bepaalde pagina wordt vermeld, is het door de auteurs, behalve als volgt:
+Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. In het bijzonder is er materiaal gedeeld met [CTS1000 Structural Mechanics 2025/2026](https://oit.tudelft.nl/CT1000/2025/intro.html) en [Structural Mechanics @ BSc Civil Engineering](http://oit.tudelft.nl/CEG-mechanics-BSc/). Als er geen auteur op een bepaalde pagina wordt vermeld, is het door de auteurs, behalve als volgt:
 
 De volgende pagina's zijn overgenomen uit een externe bron:
 - De volgende pagina's bevatten tekst uit {cite:t}`CEG_mechanics_BSc`. Originele inhoud gelicenseerd onder de CC BY 4.0 Licentie:
