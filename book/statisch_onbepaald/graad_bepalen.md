@@ -1,42 +1,45 @@
-# Statische onbepaaldheid oefenen
+```{index} Displacements truss structures; Class exercise using constitutive equation
+```
 
-Nu gaan we aan de slag met een oefening.
+(lesson4.1)=
+# Lesson Monday September 21st
 
-## Oefening 1
+During today's lesson you'll work on a complex exercise on the topic of statical determinacy. Please ask your questions regarding the [homework](homework4.1) as well!
 
-Gegeven is de volgende constructie:
+## Exercise 1
+
+Given the following structure:
 
 ```{figure} graad_bepalen_data/Oefening_6.svg
 ---
 align: center
 ---
-Constructie
+Structure
 ```
 
-Bepaal de graad van uitwendig statisch onbepaaldheid.
+Determine the degree of external static indeterminacy.
 
 `````{exercise}
 :label: so_2_1
 :nonumber: true
 
-Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden delen en teken het vrijlichaamsschema van de scharnierende delen.
+Split the structure into the largest possible rigid, pin-connected parts and draw the free body diagram of the pin-connected parts.
 
 ```{h5p} https://tudelft.h5p.com/content/1292612545160457437/embed
 ```
 
 % solution_start
 
-
 ````{solution} so_2_1
 :class: dropdown
 
-Er zijn *7* onbekende oplegreacties en *6* onbekende verbindingskrachten. Dat zijn *13* onbekende krachten in totaal.
+There are *7* unknown support reactions and *6* unknown connection forces. That makes *13* unknown forces in total.
 
 ```{figure} graad_bepalen_data/Oefening_8.svg
 ---
 align: center
 ---
-Aantal onbekende krachten
+Number of unknown forces
 ```
 
 ````
@@ -57,13 +60,13 @@ Aantal onbekende krachten
 ````{solution} so_2
 :class: dropdown
 
-Er zijn *12* evenwichtsvergelijking(en).
+There are *12* equilibrium equation(s).
 
 ```{figure} graad_bepalen_data/Oefening_9.svg
 ---
 align: center
 ---
-Aantal evenwichtsvergelijkingen
+Number of equilibrium equations
 ```
 
 ````
@@ -84,7 +87,7 @@ Aantal evenwichtsvergelijkingen
 ````{solution} so_2_3
 :class: dropdown
 
-De constructie is *1*ste/de graads uitwendig statisch onbepaald
+The structure is *1*st degree externally statically indeterminate
 
 ````
 
@@ -93,9 +96,9 @@ De constructie is *1*ste/de graads uitwendig statisch onbepaald
 `````
 
 
-## Oefening 2 
+## Exercise 2
 
-Gegeven is de volgende constructie:
+Given the following structure:
 
 <!---
 Source file figure at https://github.com/TUDelft-books/CEG-mechanics-BSc/commit/45444efba567e493f0cde50fa7f32ab08e3af5c0
@@ -105,16 +108,16 @@ Source file figure at https://github.com/TUDelft-books/CEG-mechanics-BSc/commit/
 ---
 align: center
 ---
-Constructie
+Structure
 ```
 
-Bepaal de graad van inwendig statisch onbepaaldheid.
+Determine the degree of internal static indeterminacy.
 
 `````{exercise}
 :label: so_1
 :nonumber: true
 
-Splits constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor alle knopen en teken de vrijlichaamsschema's voor de staven
+Split the structure into all separate joints and bars, and draw the free body diagram for all joints and the free body diagrams for the bars.
 
 ```{h5p} https://tudelft.h5p.com/content/1292586829246525217/embed
 ```
@@ -124,20 +127,20 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 ````{solution} so_1
 :class: dropdown
 
-Er zijn *6* onbekende oplegreacties en *32* onbekende staafkrachten. Dat zijn *38* onbekende krachten in totaal.
+There are *6* unknown support reactions and *32* unknown bar forces. That makes *38* unknown forces in total.
 
 ```{figure} Oefening_2.svg
 ---
 align: center
 ---
-Aantal onbekende oplegreacties en staafkrachten op knopen
+Number of unknown support reactions and bar forces on joints
 ```
 
 ```{figure} Oefening_3.svg
 ---
 align: center
 ---
-Aantal onbekende staafkrachten op staven
+Number of unknown bar forces on bars
 ```
 
 ````
@@ -158,20 +161,20 @@ Aantal onbekende staafkrachten op staven
 ````{solution} so_2
 :class: dropdown
 
-Er zijn *0* evenwichtsvergelijkingen vanuit rolscharnieren, *6* evenwichtsvergelijking(en) vanuit scharnierende verbindingen, *9* evenwichtsvergelijking(en) vanuit algemene verbindingen, *1* evenwichtsvergelijking(en) vanuit pendelstaven en *18* evenwichtsvergelijking(en) vanuit algemene staven. Dat zijn *34* evenwichtsvergelijkingen in totaal.
+There are *0* equilibrium equations from roller hinges, *6* equilibrium equation(s) from pin connections, *9* equilibrium equation(s) from general connections, *1* equilibrium equation(s) from pendulum bars, and *18* equilibrium equation(s) from general bars. That makes *34* equilibrium equations in total.
 
 ```{figure} Oefening_4.svg
 ---
 align: center
 ---
-Aantal evenwichtsvergelijkingen voor de knopen
+Number of equilibrium equations for the joints
 ```
 
 ```{figure} Oefening_5.svg
 ---
 align: center
 ---
-Aantal evenwichtsvergelijkingen voor de staven
+Number of equilibrium equations for the bars
 ```
 
 ````
@@ -192,7 +195,7 @@ Aantal evenwichtsvergelijkingen voor de staven
 ````{solution} so_3
 :class: dropdown
 
-De constructie is *4*ste/de graads inwendig statisch onbepaald
+The structure is *4*th degree internally statically indeterminate
 
 ````
 
@@ -200,9 +203,10 @@ De constructie is *4*ste/de graads inwendig statisch onbepaald
 
 `````
 
-## Oefening 3 
 
-Gegeven is de volgende constructie:
+## Exercise 3
+
+Given the following structure:
 
 <!---
 Source file figure at https://github.com/TUDelft-books/CTB2210/commit/82305d68f288549026535b13e5855e7ed14f409b#diff-b8d68fffb036594f3ca5244ddaa4b07bd9ce1fe1b9dfb25cff26bb3cb756aa75
@@ -212,16 +216,16 @@ Source file figure at https://github.com/TUDelft-books/CTB2210/commit/82305d68f2
 ---
 align: center
 ---
-Constructie
+Structure
 ```
 
-Bepaal de graad van uitwendig en inwendig statisch onbepaaldheid.
+Determine the degree of external and internal static indeterminacy.
 
 `````{exercise}
 :label: so_3_1
 :nonumber: true
 
-Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden delen en teken het vrijlichaamsschema van de scharnierende delen.
+Split the structure into the largest possible rigid, pin-connected parts and draw the free body diagram of the pin-connected parts.
 
 ```{h5p} https://tudelft.h5p.com/content/1292615284867296507/embed
 ```
@@ -231,13 +235,13 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ````{solution} so_3_1
 :class: dropdown
 
-Er zijn *3* onbekende oplegreacties en *0* onbekende verbindingskrachten. Dat zijn *3* onbekende krachten in totaal.
+There are *3* unknown support reactions and *0* unknown connection forces. That makes *3* unknown forces in total.
 
 ```{figure} graad_bepalen_data/Oefening_11.svg
 ---
 align: center
 ---
-Aantal onbekende krachten
+Number of unknown forces
 ```
 
 ````
@@ -258,13 +262,13 @@ Aantal onbekende krachten
 ````{solution} so_3_2
 :class: dropdown
 
-Er zijn *3* evenwichtsvergelijking(en).
+There are *3* equilibrium equation(s).
 
 ```{figure} graad_bepalen_data/Oefening_12.svg
 ---
 align: center
 ---
-Aantal evenwichtsvergelijkingen
+Number of equilibrium equations
 ```
 
 ````
@@ -285,7 +289,7 @@ Aantal evenwichtsvergelijkingen
 ````{solution} so_3_3
 :class: dropdown
 
-De constructie is *0*ste/de graads uitwendig statisch onbepaald
+The structure is *0*th degree externally statically indeterminate
 
 ````
 
@@ -297,7 +301,7 @@ De constructie is *0*ste/de graads uitwendig statisch onbepaald
 :label: so_3_4
 :nonumber: true
 
-Splits constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor alle knopen en teken de vrijlichaamsschema's voor de staven
+Split the structure into all separate joints and bars, and draw the free body diagram for all joints and the free body diagrams for the bars.
 
 ```{h5p} https://tudelft.h5p.com/content/1292615285960301817/embed
 ```
@@ -307,20 +311,20 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 ````{solution} so_3_4
 :class: dropdown
 
-Er zijn *3* onbekende oplegreacties en *19* onbekende staafkrachten. Dat zijn *22* onbekende krachten in totaal.
+There are *3* unknown support reactions and *19* unknown bar forces. That makes *22* unknown forces in total.
 
 ```{figure} graad_bepalen_data/Oefening_13.svg
 ---
 align: center
 ---
-Aantal onbekende oplegreacties en staafkrachten op knopen
+Number of unknown support reactions and bar forces on joints
 ```
 
 ```{figure} graad_bepalen_data/Oefening_15.svg
 ---
 align: center
 ---
-Aantal onbekende staafkrachten op staven
+Number of unknown bar forces on bars
 ```
 
 ````
@@ -341,20 +345,20 @@ Aantal onbekende staafkrachten op staven
 ````{solution} so_3_5
 :class: dropdown
 
-Er zijn *1* evenwichtsvergelijking(en) vanuit rolscharnieren, *2* evenwichtsvergelijking(en) vanuit scharnierende verbindingen, *6* evenwichtsvergelijking(en) vanuit algemene verbindingen, *0* evenwichtsvergelijking(en) vanuit pendelstaven en *12* evenwichtsvergelijking(en) vanuit algemene staven. Dat zijn *21* evenwichtsvergelijkingen in totaal.
+There are *1* equilibrium equation(s) from roller hinges, *2* equilibrium equation(s) from pin connections, *6* equilibrium equation(s) from general connections, *0* equilibrium equation(s) from pendulum bars, and *12* equilibrium equation(s) from general bars. That makes *21* equilibrium equations in total.
 
 ```{figure} graad_bepalen_data/Oefening_14.svg
 ---
 align: center
 ---
-Aantal evenwichtsvergelijkingen voor de knopen
+Number of equilibrium equations for the joints
 ```
 
 ```{figure} graad_bepalen_data/Oefening_16.svg
 ---
 align: center
 ---
-Aantal evenwichtsvergelijkingen voor de staven
+Number of equilibrium equations for the bars
 ```
 
 ````
@@ -375,7 +379,7 @@ Aantal evenwichtsvergelijkingen voor de staven
 ````{solution} so_3_6
 :class: dropdown
 
-De constructie is *1*ste/de graads inwendig statisch onbepaald
+The structure is *1*st degree internally statically indeterminate
 
 ````
 
