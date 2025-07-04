@@ -24,6 +24,8 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ```{h5p} https://tudelft.h5p.com/content/1292612545160457437/embed
 ```
 
+`````
+
 % solution_start
 
 
@@ -43,7 +45,7 @@ Aantal onbekende krachten
 
 % solution_end
 
-`````
+
 
 `````{exercise}
 :label: so_2_2
@@ -51,6 +53,8 @@ Aantal onbekende krachten
 
 ```{h5p} https://tudelft.h5p.com/content/1292612546255043757/embed
 ```
+
+`````
 
 % solution_start
 
@@ -70,14 +74,14 @@ Aantal evenwichtsvergelijkingen
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_2_3
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292612546677182677/embed
 ```
+
+`````
 
 % solution_start
 
@@ -88,9 +92,8 @@ De constructie is *1*ste/de graads uitwendig statisch onbepaald
 
 ````
 
-% solution_end
 
-`````
+% solution_end
 
 
 ## Oefening 2 
@@ -119,6 +122,8 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 ```{h5p} https://tudelft.h5p.com/content/1292586829246525217/embed
 ```
 
+`````
+
 % solution_start
 
 ````{solution} so_1
@@ -144,14 +149,14 @@ Aantal onbekende staafkrachten op staven
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_2
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292587403744225227/embed
 ```
+
+`````
 
 % solution_start
 
@@ -178,14 +183,14 @@ Aantal evenwichtsvergelijkingen voor de staven
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_3
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292587410124264777/embed
 ```
+
+`````
 
 % solution_start
 
@@ -197,8 +202,6 @@ De constructie is *4*ste/de graads inwendig statisch onbepaald
 ````
 
 % solution_end
-
-`````
 
 ## Oefening 3 
 
@@ -226,6 +229,8 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ```{h5p} https://tudelft.h5p.com/content/1292615284867296507/embed
 ```
 
+`````
+
 % solution_start
 
 ````{solution} so_3_1
@@ -244,14 +249,14 @@ Aantal onbekende krachten
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_3_2
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292615285293314797/embed
 ```
+
+`````
 
 % solution_start
 
@@ -271,14 +276,14 @@ Aantal evenwichtsvergelijkingen
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_3_3
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292615285591579477/embed
 ```
+
+`````
 
 % solution_start
 
@@ -291,8 +296,6 @@ De constructie is *0*ste/de graads uitwendig statisch onbepaald
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_3_4
 :nonumber: true
@@ -301,6 +304,8 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 
 ```{h5p} https://tudelft.h5p.com/content/1292615285960301817/embed
 ```
+
+`````
 
 % solution_start
 
@@ -323,11 +328,7 @@ align: center
 Aantal onbekende staafkrachten op staven
 ```
 
-````
-
 % solution_end
-
-`````
 
 `````{exercise}
 :label: so_3_5
@@ -335,6 +336,8 @@ Aantal onbekende staafkrachten op staven
 
 ```{h5p} https://tudelft.h5p.com/content/1292615286356377247/embed
 ```
+
+`````
 
 % solution_start
 
@@ -361,14 +364,14 @@ Aantal evenwichtsvergelijkingen voor de staven
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_3_6
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292615286690175927/embed
 ```
+
+`````
 
 % solution_start
 
@@ -381,4 +384,3 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 
 % solution_end
 
-`````
