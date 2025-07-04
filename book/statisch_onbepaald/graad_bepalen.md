@@ -28,7 +28,6 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 
 % solution_start
 
-
 ````{solution} so_2_1
 :class: dropdown
 
@@ -44,8 +43,6 @@ Aantal onbekende krachten
 ````
 
 % solution_end
-
-
 
 `````{exercise}
 :label: so_2_2
@@ -92,11 +89,9 @@ De constructie is *1*ste/de graads uitwendig statisch onbepaald
 
 ````
 
-
 % solution_end
 
-
-## Oefening 2 
+## Oefening 2
 
 Gegeven is de volgende constructie:
 
@@ -328,6 +323,8 @@ align: center
 Aantal onbekende staafkrachten op staven
 ```
 
+````
+
 % solution_end
 
 `````{exercise}
@@ -383,4 +380,3 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 ````
 
 % solution_end
-
