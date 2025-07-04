@@ -20,7 +20,7 @@ parts:
       - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210/book/week_2/session_1/intro.ipynb
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/tools/TI-84.md
-      - file: ODE/lesoefeningen.iypnb
+      - file: ODE/lesoefeningen
 # END REMOVE-FROM-RELEASE
 
   - caption: Diverse
