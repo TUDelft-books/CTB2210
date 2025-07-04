@@ -28,6 +28,8 @@ Split the structure into the largest possible rigid, pin-connected parts and dra
 ```{h5p} https://tudelft.h5p.com/content/1292628818573685867/embed
 ```
 
+`````
+
 % solution_start
 
 ````{solution} so_2_1
@@ -46,14 +48,14 @@ Number of unknown forces
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_2_2
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292628822338174627/embed
 ```
+
+`````
 
 % solution_start
 
@@ -73,14 +75,14 @@ Number of equilibrium equations
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_2_3
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292628823379419527/embed
 ```
+
+`````
 
 % solution_start
 
@@ -93,10 +95,7 @@ The structure is *1*th/st/nd/rd degree externally statically indeterminate
 
 % solution_end
 
-`````
-
-
-## Exercise 2
+## Oefening 2
 
 Given the following structure:
 
@@ -121,6 +120,8 @@ Split the structure into all separate joints and bars, and draw the free body di
 
 ```{h5p} https://tudelft.h5p.com/content/1292628823866957337/embed
 ```
+
+`````
 
 % solution_start
 
@@ -147,14 +148,14 @@ Number of unknown bar forces on bars
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_2
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292628824524110647/embed
 ```
+
+`````
 
 % solution_start
 
@@ -181,14 +182,14 @@ Number of equilibrium equations for the bars
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_3
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292628825353165277/embed
 ```
+
+`````
 
 % solution_start
 
@@ -200,9 +201,6 @@ The structure is *4*th/st/nd/rd degree internally statically indeterminate
 ````
 
 % solution_end
-
-`````
-
 
 ## Exercise 3
 
@@ -230,6 +228,8 @@ Split the structure into the largest possible rigid, pin-connected parts and dra
 ```{h5p} https://tudelft.h5p.com/content/1292628825951270777/embed
 ```
 
+`````
+
 % solution_start
 
 ````{solution} so_3_1
@@ -248,14 +248,14 @@ Number of unknown forces
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_3_2
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292628826486379967/embed
 ```
+
+`````
 
 % solution_start
 
@@ -275,14 +275,14 @@ Number of equilibrium equations
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_3_3
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292628828081443827/embed
 ```
+
+`````
 
 % solution_start
 
@@ -295,8 +295,6 @@ The structure is *0*th/st/nd/rh degree externally statically indeterminate
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_3_4
 :nonumber: true
@@ -305,6 +303,8 @@ Split the structure into all separate joints and bars, and draw the free body di
 
 ```{h5p} https://tudelft.h5p.com/content/1292628829655742667/embed
 ```
+
+`````
 
 % solution_start
 
@@ -331,14 +331,14 @@ Number of unknown bar forces on bars
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_3_5
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292628830292663407/embed
 ```
+
+`````
 
 % solution_start
 
@@ -365,14 +365,14 @@ Number of equilibrium equations for the bars
 
 % solution_end
 
-`````
-
 `````{exercise}
 :label: so_3_6
 :nonumber: true
 
 ```{h5p} https://tudelft.h5p.com/content/1292628833018829687/embed
 ```
+
+`````
 
 % solution_start
 
@@ -384,5 +384,3 @@ The structure is *1*th/st/nd/rd degree internally statically indeterminate
 ````
 
 % solution_end
-
-`````

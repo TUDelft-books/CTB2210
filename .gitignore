@@ -137,3 +137,6 @@ _build/
 pyproject.toml
 
 *.~vsdx
+
+_git/
+_toc_with_local_paths.yml

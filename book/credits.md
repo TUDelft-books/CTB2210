@@ -30,8 +30,10 @@ De volgende pagina's zijn overgenomen uit een externe bron:
 - De volgende pagina's bevatten tekst uit {cite:t}`CEG_mechanics_BSc`. Originele inhoud gelicenseerd onder de CC BY 4.0 Licentie:
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/statically_inderminate/determinancy.md)
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/tools/matrixframe.md)
+  - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/tools/TI-84.md)
 - De volgende pagina's bevatten tekst uit {cite:t}`CT1000`. Originele inhoud gelicenseerd onder de CC BY 4.0 Licentie:
   - [](./_git/github.com_TUDelft-books_CT1000/CTB2210/book/week_2/session_1/intro.ipynb)
+  - [](./ODE/lesoefeningen.ipynb)
 
 (editor)=
 ## Over de auteur

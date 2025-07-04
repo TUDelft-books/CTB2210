@@ -24,6 +24,8 @@ Voer de geometrie in en ga verder met de profielgegevens.
 ```{h5p} https://tudelft.h5p.com/content/1292628057313860177/embed
 ```
 
+:::::
+
 % solution_start
 
 ::::{solution} mf_1_1
@@ -40,8 +42,6 @@ Voer de geometrie in en ga verder met de profielgegevens.
 
 % solution_end
 
-:::::
-
 :::::{exercise}
 :label: mf_1_2
 :nonumber: true
@@ -50,6 +50,8 @@ Voer de opleggingen in en ga verder met de scharnierende aansluitingen.
 
 ```{h5p} https://tudelft.h5p.com/content/1292628065481210467/embed
 ```
+
+:::::
 
 % solution_start
 
@@ -65,8 +67,6 @@ Voer de opleggingen in en ga verder met de scharnierende aansluitingen.
 
 % solution_end
 
-:::::
-
 :::::{exercise}
 :label: mf_1_3
 :nonumber: true
@@ -75,6 +75,8 @@ Voer de linear-elastische berekening uit en bekijk de resultaten.
 
 ```{h5p} https://tudelft.h5p.com/content/1292628082183016877/embed
 ```
+
+:::::
 
 % solution_start
 
@@ -115,7 +117,7 @@ Dwarskrachten
 
 % solution_end
 
-:::::
+
 
 ## Oefening 2
 
@@ -138,6 +140,8 @@ Voer de geometrie, profielgegevens, opleggingen en scharnierende aansluitingen i
 
 ```{h5p} https://tudelft.h5p.com/content/1292628975060884047/embed
 ```
+
+:::::
 
 % solution_start
 
@@ -173,8 +177,6 @@ Rotatie van knoop A in radialen
 
 % solution_end
 
-:::::
-
 ## Oefening 3
 
 Gegeven is de volgende constructie:
@@ -199,6 +201,8 @@ Voer de geometrie in en ga verder met de profielgegevens.
 
 ```{h5p} https://tudelft.h5p.com/content/1292628196202543167/embed
 ```
+
+:::::
 
 % solution_start
 
@@ -226,8 +230,6 @@ Vraag 2:
 
 % solution_end
 
-:::::
-
 :::::{exercise}
 :label: mf_2_2
 :nonumber: true
@@ -236,6 +238,8 @@ Ga verder met opleggingen.
 
 ```{h5p} https://tudelft.h5p.com/content/1292628203010084277/embed
 ```
+
+:::::
 
 % solution_start
 
@@ -253,8 +257,6 @@ Ga verder met opleggingen.
 
 % solution_end
 
-:::::
-
 :::::{exercise}
 :label: mf_2_3
 :nonumber: true
@@ -263,6 +265,8 @@ Voer de scharnierende aansluitingen in, voer de linear-elastische berekening uit
 
 ```{h5p} https://tudelft.h5p.com/content/1292628206080447537/embed
 ```
+
+:::::
 
 % solution_start
 
@@ -298,6 +302,4 @@ Maximale zakking van AD
 ::::
 
 % solution_end
-
-:::::
 
