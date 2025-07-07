@@ -74,3 +74,14 @@ Dus de constructie is 1ste graads statisch onbepaald
 ::::
 
 % solution_end
+
+:::::{exercise}
+:label: km_vak_1_2
+:nonumber: true
+
+Neem als statisch onbepaalde kracht de verticale oplegreacties bij A (positief omhoog).
+
+```{h5p} https://tudelft.h5p.com/content/1292633398746509087/embed
+```
+
+:::::
