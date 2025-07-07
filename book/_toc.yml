@@ -21,6 +21,9 @@ parts:
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/tools/TI-84.md
       - file: ODE/lesoefeningen
+    - file: krachtenmethode_vakwerk/lesson.md
+      sections:
+      - external:  https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/extension.ipynb
 # END REMOVE-FROM-RELEASE
 
   - caption: Diverse
