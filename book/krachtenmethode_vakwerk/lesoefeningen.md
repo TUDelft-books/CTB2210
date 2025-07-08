@@ -115,12 +115,34 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht uit.
 ## Statisch onbepaald moment $M_{\rm{B}}$
 
 :::::{exercise}
-:label: km_vak_1_3
+:label: km_vak_1_6
 :nonumber: true
 
-Neem als statisch onbepaalde kracht het moment in $M_{\rm{B}}$ (positief omhoog).
+Neem als statisch onbepaalde kracht het moment in $M_{\rm{B}}$ (positief zorgt voor trek aan de onderkant).
 
 ```{h5p} https://tudelft.h5p.com/content/1292634286050413117/embed
+```
+
+:::::
+
+:::::{exercise}
+:label: km_vak_1_7
+:nonumber: true
+
+Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $M_{\rm{B}}$.
+
+```{h5p} https://tudelft.h5p.com/content/1292634293341890027/embed
+```
+
+:::::
+
+:::::{exercise}
+:label: km_vak_1_8
+:nonumber: true
+
+Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht uit.
+
+```{h5p} https://tudelft.h5p.com/content/1292634306404351337/embed
 ```
 
 :::::
