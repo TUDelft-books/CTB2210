@@ -2,8 +2,6 @@
 
 Nu gaan we aan de slag met een oefening.
 
-## Oefening 1
-
 Gegeven is de volgende constructie:
 
 ```{figure} lesoefeningen_data/structure.svg
@@ -13,7 +11,7 @@ align: center
 Constructie
 ```
 
-Bepaal de oplegreacties en het snedekrachtenlijnen.
+Bepaal de oplegreacties en het snedekrachtenlijnen. Je gaat dan doen voor drie verschillende statisch onbepaalde krachten.
 
 :::::{exercise}
 :label: km_vak_1_1
@@ -143,6 +141,41 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $M_
 Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht uit.
 
 ```{h5p} https://tudelft.h5p.com/content/1292634306404351337/embed
+```
+
+:::::
+
+## Statisch onbepaalde normaalkracht $N_{\rm{AD}}$
+
+:::::{exercise}
+:label: km_vak_1_6
+:nonumber: true
+
+Neem als statisch onbepaalde kracht het moment in $N_{\rm{AD}}$ door de pendelstaaf in het scharnier los te maken van de balk.
+
+```{h5p} https://tudelft.h5p.com/content/1292634312901581657/embed
+```
+
+:::::
+
+:::::{exercise}
+:label: km_vak_1_7
+:nonumber: true
+
+Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $N_{\rm{AD}}$.
+
+```{h5p} https://tudelft.h5p.com/content/1292634315769955647/embed
+```
+
+:::::
+
+:::::{exercise}
+:label: km_vak_1_8
+:nonumber: true
+
+Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht uit.
+
+```{h5p} https://tudelft.h5p.com/content/1292634317462305007/embed
 ```
 
 :::::
