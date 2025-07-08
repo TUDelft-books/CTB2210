@@ -148,7 +148,7 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht uit.
 ## Statisch onbepaalde normaalkracht $N_{\rm{AD}}$
 
 :::::{exercise}
-:label: km_vak_1_6
+:label: km_vak_1_9
 :nonumber: true
 
 Neem als statisch onbepaalde kracht het moment in $N_{\rm{AD}}$ door de pendelstaaf in het scharnier los te maken van de balk.
@@ -159,7 +159,7 @@ Neem als statisch onbepaalde kracht het moment in $N_{\rm{AD}}$ door de pendelst
 :::::
 
 :::::{exercise}
-:label: km_vak_1_7
+:label: km_vak_1_10
 :nonumber: true
 
 Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $N_{\rm{AD}}$.
@@ -170,7 +170,7 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $N_
 :::::
 
 :::::{exercise}
-:label: km_vak_1_8
+:label: km_vak_1_11
 :nonumber: true
 
 Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht uit.
