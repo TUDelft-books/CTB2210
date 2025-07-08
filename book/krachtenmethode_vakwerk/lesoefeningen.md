@@ -60,7 +60,7 @@ Dus de constructie is 1ste graads statisch onbepaald
 
 % solution_start
 
-::::{solution} km_vak_2_1
+::::{solution} km_vak_1_2
 :class: dropdown
 
 - Weghalen oplegging bij A
@@ -70,18 +70,42 @@ Dus de constructie is 1ste graads statisch onbepaald
 - Toevoegen scharnier bij B (in doorgaande liggen DBEG)
 - Toevoegen scharnier bij E (in doorgaande liggen DBEG)
   - Inderdaad, als je hier een scharnier toevoegt krijg je een mechanisme waarbij EG om E kan draaien
+- Splitsen constructie in pendelstaaf AD
+- Splitsen constructie in pendelstaaf CE
 
 ::::
 
 % solution_end
 
 :::::{exercise}
-:label: km_vak_1_2
+:label: km_vak_1_3
 :nonumber: true
 
-Neem als statisch onbepaalde kracht de verticale oplegreacties bij A (positief omhoog).
+Neem als statisch onbepaalde kracht de verticale oplegreactie bij B (positief omhoog).
 
-```{h5p} https://tudelft.h5p.com/content/1292633398746509087/embed
+```{h5p} https://tudelft.h5p.com/content/1292634255950574927/embed.
+```
+
+:::::
+
+:::::{exercise}
+:label: km_vak_1_4
+:nonumber: true
+
+Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $B_{\rm{v}}$.
+
+```{h5p} https://tudelft.h5p.com/content/1292634246594651717/embed.
+```
+
+:::::
+
+:::::{exercise}
+:label: km_vak_1_5
+:nonumber: true
+
+Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht uit.
+
+```{h5p} https://tudelft.h5p.com/content/1292634259801752997/embed.
 ```
 
 :::::
