@@ -77,6 +77,8 @@ Dus de constructie is 1ste graads statisch onbepaald
 
 % solution_end
 
+## Statisch onbepaalde kracht $B_{\rm{v}}$
+
 :::::{exercise}
 :label: km_vak_1_3
 :nonumber: true
@@ -110,3 +112,12 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht uit.
 
 :::::
 
+## Statisch onbepaald moment $M_{\rm{B}}$
+
+:::::{exercise}
+:label: km_vak_1_3
+:nonumber: true
+
+Neem als statisch onbepaalde kracht het moment in $M_{\rm{B}}$ (positief omhoog).
+
+:::::
