@@ -83,7 +83,7 @@ Dus de constructie is 1ste graads statisch onbepaald
 
 Neem als statisch onbepaalde kracht de verticale oplegreactie bij B (positief omhoog).
 
-```{h5p} https://tudelft.h5p.com/content/1292634255950574927/embed.
+```{h5p} https://tudelft.h5p.com/content/1292634255950574927/embed
 ```
 
 :::::
@@ -94,7 +94,7 @@ Neem als statisch onbepaalde kracht de verticale oplegreactie bij B (positief om
 
 Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $B_{\rm{v}}$.
 
-```{h5p} https://tudelft.h5p.com/content/1292634246594651717/embed.
+```{h5p} https://tudelft.h5p.com/content/1292634246594651717/embed
 ```
 
 :::::
@@ -105,7 +105,7 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $B_
 
 Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht uit.
 
-```{h5p} https://tudelft.h5p.com/content/1292634259801752997/embed.
+```{h5p} https://tudelft.h5p.com/content/1292634259801752997/embed
 ```
 
 :::::
