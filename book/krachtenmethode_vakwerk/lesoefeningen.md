@@ -120,4 +120,7 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht uit.
 
 Neem als statisch onbepaalde kracht het moment in $M_{\rm{B}}$ (positief omhoog).
 
+```{h5p} https://tudelft.h5p.com/content/1292634286050413117/embed
+```
+
 :::::
