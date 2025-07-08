@@ -71,7 +71,7 @@
 		</g>
 		<g id="group2-7" transform="translate(89.4113,-102.422)" v:mID="2" v:groupContext="group">
 			<title>Scharnieroplegging</title>
-			<g id="shape3-8" v:mID="3" v:groupContext="shape" transform="translate(2.83465,2.84217E-14)">
+			<g id="shape3-8" v:mID="3" v:groupContext="shape" transform="translate(2.83465,0)">
 				<title>Blad.3</title>
 				<path d="M0 199.18 L14.17 199.18 L7.09 187.84 L0 199.18 Z" class="st2"/>
 			</g>
@@ -79,7 +79,7 @@
 				<title>Blad.4</title>
 				<path d="M0 199.18 L2.83 199.18" class="st3"/>
 			</g>
-			<g id="shape5-13" v:mID="5" v:groupContext="shape" transform="translate(17.0079,2.84217E-14)">
+			<g id="shape5-13" v:mID="5" v:groupContext="shape" transform="translate(17.0079,0)">
 				<title>Blad.5</title>
 				<path d="M0 199.18 L2.83 199.18" class="st3"/>
 			</g>
@@ -100,7 +100,7 @@
 			<title>Rol</title>
 			<g id="group10-25" transform="translate(0.261477,-2.83465)" v:mID="10" v:groupContext="group">
 				<title>Scharnier</title>
-				<g id="shape11-26" v:mID="11" v:groupContext="shape" transform="translate(2.79729,2.84217E-14)">
+				<g id="shape11-26" v:mID="11" v:groupContext="shape" transform="translate(2.79729,0)">
 					<title>Blad.11</title>
 					<path d="M0 199.18 L13.99 199.18 L6.99 187.84 L0 199.18 Z" class="st2"/>
 				</g>
@@ -108,7 +108,7 @@
 					<title>Blad.12</title>
 					<path d="M0 199.18 L2.8 199.18" class="st3"/>
 				</g>
-				<g id="shape13-31" v:mID="13" v:groupContext="shape" transform="translate(16.7838,2.84217E-14)">
+				<g id="shape13-31" v:mID="13" v:groupContext="shape" transform="translate(16.7838,0)">
 					<title>Blad.13</title>
 					<path d="M0 199.18 L2.8 199.18" class="st3"/>
 				</g>
@@ -122,7 +122,7 @@
 			<title>Rol.15</title>
 			<g id="group16-38" transform="translate(0.261477,-2.83465)" v:mID="16" v:groupContext="group">
 				<title>Scharnier</title>
-				<g id="shape17-39" v:mID="17" v:groupContext="shape" transform="translate(2.79729,2.84217E-14)">
+				<g id="shape17-39" v:mID="17" v:groupContext="shape" transform="translate(2.79729,0)">
 					<title>Blad.17</title>
 					<path d="M0 199.18 L13.99 199.18 L6.99 187.84 L0 199.18 Z" class="st2"/>
 				</g>
@@ -130,7 +130,7 @@
 					<title>Blad.18</title>
 					<path d="M0 199.18 L2.8 199.18" class="st3"/>
 				</g>
-				<g id="shape19-44" v:mID="19" v:groupContext="shape" transform="translate(16.7838,2.84217E-14)">
+				<g id="shape19-44" v:mID="19" v:groupContext="shape" transform="translate(16.7838,0)">
 					<title>Blad.19</title>
 					<path d="M0 199.18 L2.8 199.18" class="st3"/>
 				</g>
@@ -154,11 +154,11 @@
 		</g>
 		<g id="shape26-61" v:mID="26" v:groupContext="shape" transform="translate(241.065,-85.4144)">
 			<title>Blad.26</title>
-			<desc>15 kN</desc>
+			<desc>26 kN</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="21.2598" cy="192.089" width="42.52" height="14.1732"/>
 			<rect x="0" y="185.002" width="42.5197" height="14.1732" class="st7"/>
-			<text x="7.22" y="195.69" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>15 kN</text>		</g>
+			<text x="7.22" y="195.69" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>26 kN</text>		</g>
 		<g id="shape27-64" v:mID="27" v:groupContext="shape" transform="translate(92.246,-85.4144)">
 			<title>Punt A</title>
 			<desc>B</desc>
@@ -328,12 +328,12 @@
 		</g>
 		<g id="shape63-174" v:mID="63" v:groupContext="shape" transform="translate(14.2932,-156.28)">
 			<title>EI = oo</title>
-			<desc>EA = 20 MN EI = ∞</desc>
+			<desc>EA = 2.5 MN EI = ∞</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="42.5197" cy="192.089" width="85.04" height="14.1732"/>
 			<rect x="0" y="185.002" width="85.0394" height="14.1732" class="st14"/>
-			<text x="11.64" y="188.49" class="st16" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>EA<tspan
-						class="st17"> </tspan><tspan class="st17">= 20 MN<v:newlineChar/></tspan><tspan x="26.2" dy="1.2em"
+			<text x="10.14" y="188.49" class="st16" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>EA<tspan
+						class="st17"> </tspan><tspan class="st17">= 2.5 MN<v:newlineChar/></tspan><tspan x="26.2" dy="1.2em"
 						class="st18">EI</tspan><tspan class="st17"> </tspan><tspan class="st17">= </tspan><tspan class="st17">∞ </tspan> </text>		</g>
 	</g>
 </svg>
