@@ -103,7 +103,7 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $B_
 :label: km_vak_1_5
 :nonumber: true
 
-Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht uit.
+Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $B_{\rm{v}}$ op.
 
 ```{h5p} https://tudelft.h5p.com/content/1292634259801752997/embed
 ```
@@ -138,7 +138,7 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $M_
 :label: km_vak_1_8
 :nonumber: true
 
-Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht uit.
+Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $M_{\rm{B}}$ op.
 
 ```{h5p} https://tudelft.h5p.com/content/1292634306404351337/embed
 ```
@@ -173,7 +173,7 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $N_
 :label: km_vak_1_11
 :nonumber: true
 
-Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht uit.
+Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $N_{\rm{AD}}$ op.
 
 ```{h5p} https://tudelft.h5p.com/content/1292634317462305007/embed
 ```
