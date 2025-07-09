@@ -1,4 +1,4 @@
-# Matrixframe oefenen
+# Oefenen
 
 Nu gaan we aan de slag met een oefening.
 

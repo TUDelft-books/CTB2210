@@ -34,6 +34,7 @@ parts:
   - file: krachtenmethode_vakwerk/lesson_2.md
     sections:
     - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/extension.ipynb
+    - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210-2025/book/week_3/session_3/intro.md
   - file: krachtenmethode_balk/lesson.md
   - file: krachtenmethode_raamwerk/lesson.md
 # END REMOVE-FROM-RELEASE

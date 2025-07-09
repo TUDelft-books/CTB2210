@@ -35,6 +35,7 @@ De volgende pagina's bevat inhoud van een ander online boek.
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/force_method/extension.ipynb)
 - Uit {cite:t}`CT1000` uit de versie 'CTB2210-2025'. Originele inhoud gelicenseerd onder de CC BY 4.0 Licentie:
   - [](./_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_2/session_1/intro.ipynb)
+  - [](./_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro.md)
   - [](./ODE/lesoefeningen.ipynb)
 
 (editor)=
