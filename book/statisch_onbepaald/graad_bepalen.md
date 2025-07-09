@@ -31,7 +31,7 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ````{solution} so_2_1
 :class: dropdown
 
-Er zijn *7* onbekende oplegreacties en *6* onbekende verbindingskrachten. Dat zijn *13* onbekende krachten in totaal.
+Er zijn *7* onbekende oplegreacties en *5* onbekende verbindingskrachten. Dat zijn *12* onbekende krachten in totaal.
 
 ```{figure} graad_bepalen_data/Oefening_8.svg
 ---
