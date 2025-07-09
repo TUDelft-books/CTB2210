@@ -9,7 +9,7 @@ parts:
 #  - url: https://brightspace.tudelft.nl/d2l/home/703722
 #    title: Brightspace announcements 📢
 # START REMOVE-FROM-RELEASE
-- caption: Lesstof
+- caption: Lesstof 🧑‍🏫
   chapters:
   - file: statisch_onbepaald/lesson.md
     sections:
