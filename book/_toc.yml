@@ -29,7 +29,7 @@ parts:
     - file: ODE/lesoefeningen
   - file: krachtenmethode_vakwerk/lesson.md
     sections:
-    - external: krachtenmethode_vakwerk/theorie.ipynb
+    - file: krachtenmethode_vakwerk/theorie.ipynb
     - file: krachtenmethode_vakwerk/lesoefeningen.md
   - file: krachtenmethode_vakwerk/lesson_2.md
     sections:
