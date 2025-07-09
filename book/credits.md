@@ -28,9 +28,9 @@ Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende
 
 De volgende pagina's bevat inhoud van een ander online boek.
 - Uit {cite:t}`CEG_mechanics_BSc` uit de versie 'CTB2210-2025'. Originele inhoud gelicenseerd onder de CC BY 4.0 Licentie:
-  - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/statically_inderminate/determinancy.md)
-  - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/tools/matrixframe.md)
-  - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/tools/TI-84.md)
+  - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/determinancy.md)
+  - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/tools/matrixframe.md)
+  - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/tools/TI-84.md)
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/force_method/extension.ipynb)
 - Uit {cite:t}`CT1000` uit de versie 'CTB2210-2025'. Originele inhoud gelicenseerd onder de CC BY 4.0 Licentie:
   - [](./_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_2/session_1/intro.ipynb)
