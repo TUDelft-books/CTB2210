@@ -14,12 +14,10 @@ parts:
   - file: statisch_onbepaald/lesson.md
     sections:
     - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/determinancy.md
-      title: Statische onbepaaldheid theorie
     - file: statisch_onbepaald/graad_bepalen.md
   - file: matrixframe/lesson.md
     sections:
     - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/tools/matrixframe.md
-      title: Matrixframe theorie
     - file: matrixframe/lesoefeningen
   - file: ODE/lesson.md
     sections:
