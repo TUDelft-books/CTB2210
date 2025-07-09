@@ -31,7 +31,7 @@ Wat is de graad van inwendig statisch onbepaaldheid?
 
 :::::
 
-% solution_start
+
 
 ::::{solution} vakwerk_1_1
 :class: dropdown
@@ -40,7 +40,7 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 
 ::::
 
-% solution_end
+
 
 :::::{exercise}
 :label: vakwerk_1_2
@@ -50,6 +50,8 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 ```
 
 :::::
+
+
 
 ::::{solution} vakwerk_1_2
 :class: dropdown
@@ -68,6 +70,8 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
   - Inderdaad, als je deze pendelstaaf weghaalt krijg je een lokaal mechanisme wat kan roteren om C en D.
 
 ::::
+
+
 
 :::::{exercise}
 :label: vakwerk_1_3
@@ -88,7 +92,7 @@ Bepaal de normaalkrachten in alle staven als functie van $B_{\rm{h}} = 0$.
 
 :::::
 
-% solution_start
+
 
 ::::{solution} vakwerk_1_3
 :class: dropdown
@@ -171,7 +175,7 @@ Free-body-diagram joint $\rm{D}$
 
 ::::
 
-% solution_end
+
 
 :::::{exercise}
 :label: vakwerk_1_4
@@ -184,7 +188,7 @@ Bepaal de verlenging/verkorting in alle staven als functie van $B_{\rm{h}} = 0$.
 
 :::::
 
-% solution_start
+
 
 ::::{solution} vakwerk_1_3
 :class: dropdown
@@ -202,7 +206,7 @@ $$\Delta L = \frac{{NL}}{{EA}} \to \begin{array}{c}
 \end{array}$$
 
 ::::
-% solution_end
+
 
 :::::{exercise}
 :label: vakwerk_1_5
@@ -236,7 +240,7 @@ Incompleet Williot diagram
 
 :::::
 
-% solution_start
+
 
 ::::{solution} vakwerk_1_5
 :class: dropdown
@@ -249,7 +253,7 @@ Williot diagram
 
 ::::
 
-% solution_end
+
 
 :::::{exercise}
 :label: vakwerk_1_6
@@ -267,7 +271,7 @@ Draai $\rm{AD}$ nu zo terug dat $\rm{B}$ niet meer verticaal verplaatst.
 
 :::::
 
-% solution_start
+
 
 ::::{solution} vakwerk_1_6
 :class: dropdown
@@ -315,7 +319,7 @@ Displaced structure
 
 ::::
 
-% solution_end
+
 
 :::::{exercise}
 :label: vakwerk_1_7
@@ -327,7 +331,7 @@ Displaced structure
 
 :::::
 
-% solution_start
+
 
 ::::{solution} vakwerk_1_7
 :class: dropdown
@@ -336,7 +340,7 @@ $${w_{{\rm{B,h}}}} = 0 \to 25 - 3.2{B_{\rm{h}}} = 0 \to {B_{\rm{h}}} =  7.5{\rm{
 
 ::::
 
-% solution_end
+
 
 
 :::::{exercise}
@@ -350,7 +354,7 @@ Gebruik je resultaat om de normaalkrachten in alle staven te vinden.
 
 :::::
 
-% solution_start
+
 
 ::::{solution} vakwerk_1_8
 :class: dropdown
@@ -373,7 +377,7 @@ Normal force distribution
 
 ::::
 
-% solution_end
+
 
 
 Als je alles goed hebt gedaan zou je op de volgende verplaatsingen uit moeten komen

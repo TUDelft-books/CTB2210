@@ -41,19 +41,39 @@ jobs:
                           lines = f.readlines()
 
                       # Remove lines between "% solution_start" and "% solution_end"
+                      # Also remove MyST solution directive blocks between ":::{solution}" and ":::"
                       in_solution_block = False
+                      in_myst_solution_block = False
+                      myst_solution_colons = 0
                       filtered_lines = []
                       for line in lines:
+                          stripped_line = line.strip()
                           if "% solution_start" in line:
                               in_solution_block = True
                           elif "% solution_end" in line:
                               in_solution_block = False
-                          elif not in_solution_block:
+                          elif stripped_line.startswith(":::") and "{solution" in stripped_line:
+                              # Count the number of colons at the start
+                              colon_count = 0
+                              for char in stripped_line:
+                                  if char == ":":
+                                      colon_count += 1
+                                  else:
+                                      break
+                              if colon_count >= 3:
+                                  in_myst_solution_block = True
+                                  myst_solution_colons = colon_count
+                          elif in_myst_solution_block and stripped_line == ":" * myst_solution_colons:
+                              in_myst_solution_block = False
+                              myst_solution_colons = 0
+                          elif not in_solution_block and not in_myst_solution_block:
                               filtered_lines.append(line)
 
                       # Raise an error if a solution block was not properly closed
                       if in_solution_block:
                           raise ValueError("Unclosed % solution_start detected in file: " + markdown_file)
+                      if in_myst_solution_block:
+                          raise ValueError("Unclosed :::{solution} block detected in file: " + markdown_file)
 
                       # Save the modified markdown file
                       with open(markdown_file, "w") as f:
@@ -101,19 +121,38 @@ jobs:
                           if 'source' in cell and cell.source:
                               lines = cell.source.split('\n')
                               in_solution_block = False
+                              in_myst_solution_block = False
+                              myst_solution_colons = 0
                               filtered_lines = []
                               
                               for line in lines:
+                                  stripped_line = line.strip()
                                   if '% solution_start' in line:
                                       in_solution_block = True
                                   elif '% solution_end' in line:
                                       in_solution_block = False
-                                  elif not in_solution_block:
+                                  elif stripped_line.startswith(':::') and '{solution' in stripped_line:
+                                      # Count the number of colons at the start
+                                      colon_count = 0
+                                      for char in stripped_line:
+                                          if char == ':':
+                                              colon_count += 1
+                                          else:
+                                              break
+                                      if colon_count >= 3:
+                                          in_myst_solution_block = True
+                                          myst_solution_colons = colon_count
+                                  elif in_myst_solution_block and stripped_line == ':' * myst_solution_colons:
+                                      in_myst_solution_block = False
+                                      myst_solution_colons = 0
+                                  elif not in_solution_block and not in_myst_solution_block:
                                       filtered_lines.append(line)
                               
                               # Raise an error if a solution block was not properly closed
                               if in_solution_block:
                                   raise ValueError('Unclosed % solution_start detected in notebook: ' + notebook_file)
+                              if in_myst_solution_block:
+                                  raise ValueError('Unclosed :::{solution} block detected in notebook: ' + notebook_file)
                               
                               # Update cell source
                               cell.source = '\n'.join(filtered_lines)
