@@ -27,11 +27,10 @@ Dit boek is [CC BY 4.0 gelicenseerd](https://creativecommons.org/licenses/by/4.0
 Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. In het bijzonder is er materiaal gedeeld met [CTS1000 Structural Mechanics 2025/2026](https://oit.tudelft.nl/CT1000/2025/intro.html) en [Structural Mechanics @ BSc Civil Engineering](http://oit.tudelft.nl/CEG-mechanics-BSc/). Als er geen auteur op een bepaalde pagina wordt vermeld, is het door de auteurs, behalve als volgt:
 
 De volgende pagina's bevat inhoud van een ander online boek.
-- Uit {cite:t}`CEG_mechanics_BSc` uit de versie 'NL'. Originele inhoud gelicenseerd onder de CC BY 4.0 Licentie:
+- Uit {cite:t}`CEG_mechanics_BSc` uit de versie 'CTB2210-2025'. Originele inhoud gelicenseerd onder de CC BY 4.0 Licentie:
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/statically_inderminate/determinancy.md)
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/tools/matrixframe.md)
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/NL/book/tools/TI-84.md)
-- Uit {cite:t}`CEG_mechanics_BSc` uit de versie 'CTB2210-2025'. Originele inhoud gelicenseerd onder de CC BY 4.0 Licentie:
   - [](./_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/force_method/extension.ipynb)
 - Uit {cite:t}`CT1000` uit de versie 'CTB2210-2025'. Originele inhoud gelicenseerd onder de CC BY 4.0 Licentie:
   - [](./_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_2/session_1/intro.ipynb)

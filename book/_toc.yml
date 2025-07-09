@@ -13,19 +13,19 @@ parts:
   chapters:
   - file: statisch_onbepaald/lesson.md
     sections:
-    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/statically_inderminate/determinancy.md
+    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/determinancy.md
       title: Statische onbepaaldheid theorie
     - file: statisch_onbepaald/graad_bepalen.md
   - file: matrixframe/lesson.md
     sections:
-    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/tools/matrixframe.md
+    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/tools/matrixframe.md
       title: Matrixframe theorie
     - file: matrixframe/lesoefeningen
   - file: ODE/lesson.md
     sections:
     - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210-2025/book/week_2/session_1/intro.ipynb
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/tools/TI-84.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/tools/TI-84.md
     - file: ODE/lesoefeningen
   - file: krachtenmethode_vakwerk/lesson.md
     sections:
