@@ -1,4 +1,4 @@
-# Statische onbepaaldheid oefenen
+# Oefenen
 
 Nu gaan we aan de slag met een oefening.
 
@@ -24,8 +24,8 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ```{h5p} https://tudelft.h5p.com/content/1292612545160457437/embed
 ```
 
-
 `````
+
 
 `````{exercise}
 :label: so_2_2
@@ -34,8 +34,8 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ```{h5p} https://tudelft.h5p.com/content/1292612546255043757/embed
 ```
 
-
 `````
+
 
 `````{exercise}
 :label: so_2_3
@@ -44,11 +44,10 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ```{h5p} https://tudelft.h5p.com/content/1292612546677182677/embed
 ```
 
-
 `````
 
 
-## Oefening 2 
+## Oefening 2
 
 Gegeven is de volgende constructie:
 
@@ -74,8 +73,8 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 ```{h5p} https://tudelft.h5p.com/content/1292586829246525217/embed
 ```
 
-
 `````
+
 
 `````{exercise}
 :label: so_2
@@ -84,8 +83,8 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 ```{h5p} https://tudelft.h5p.com/content/1292587403744225227/embed
 ```
 
-
 `````
+
 
 `````{exercise}
 :label: so_3
@@ -94,8 +93,8 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 ```{h5p} https://tudelft.h5p.com/content/1292587410124264777/embed
 ```
 
-
 `````
+
 
 ## Oefening 3 
 
@@ -123,8 +122,8 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ```{h5p} https://tudelft.h5p.com/content/1292615284867296507/embed
 ```
 
-
 `````
+
 
 `````{exercise}
 :label: so_3_2
@@ -133,8 +132,8 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ```{h5p} https://tudelft.h5p.com/content/1292615285293314797/embed
 ```
 
-
 `````
+
 
 `````{exercise}
 :label: so_3_3
@@ -143,8 +142,8 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ```{h5p} https://tudelft.h5p.com/content/1292615285591579477/embed
 ```
 
-
 `````
+
 
 `````{exercise}
 :label: so_3_4
@@ -155,8 +154,8 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 ```{h5p} https://tudelft.h5p.com/content/1292615285960301817/embed
 ```
 
-
 `````
+
 
 `````{exercise}
 :label: so_3_5
@@ -165,8 +164,8 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 ```{h5p} https://tudelft.h5p.com/content/1292615286356377247/embed
 ```
 
-
 `````
+
 
 `````{exercise}
 :label: so_3_6
@@ -175,5 +174,5 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 ```{h5p} https://tudelft.h5p.com/content/1292615286690175927/embed
 ```
 
-
 `````
+

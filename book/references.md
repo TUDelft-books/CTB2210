@@ -1,3 +1,4 @@
-# Bronvermelding
+# Bronvermelding 📖
+
 :::{bibliography}
 :::
