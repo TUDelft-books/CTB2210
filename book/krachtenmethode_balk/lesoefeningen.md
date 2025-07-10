@@ -14,7 +14,7 @@ Nu gaan we aan de slag met een oefening.
 
 Gegeven is de volgende constructie:
 
-```{figure} ../_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/force_method/bending/bending_data/Example.svg
+```{figure} ../_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/force_method/bending_data/Example.svg
 :align: center
 
 Constructie
@@ -22,7 +22,7 @@ Constructie
 
 Waarvan we het volgende statisch bepaalde systeem gaan oplossen:
 
-```{figure} ../_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/force_method/bending/bending_data/SB-systeem2.svg
+```{figure} ../_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/force_method/bending_data/SB-systeem2.svg
 :align: center
 
 Statisch bepaalde constructie met vormveranderingsvoorwaarde
