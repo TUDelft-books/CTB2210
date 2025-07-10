@@ -35,6 +35,11 @@ parts:
     - file: krachtenmethode_vakwerk/lesoefeningen2.md
   - file: krachtenmethode_balk/lesson.md
   - file: krachtenmethode_raamwerk/lesson.md
+  - file: steunpuntszetting_temperatuur/lesson.md
+  - file: stijfheden/lesson.md
+  - file: verplaatsingenmethode/lesson.md
+  - file: verplaats_vs_kracht/lesson.md
+  - file: matrix/lesson.md
 # END REMOVE-FROM-RELEASE
 - caption: Diverse
   chapters:
