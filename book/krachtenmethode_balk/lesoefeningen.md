@@ -1,15 +1,14 @@
-````{margin}
-```{attributiongrey} Attribution
-:class: attribution
-
-Deze oefeningen zijn aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie CTB2210-2025 en https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
-```
-```` 
-
 # Oefenen
 
 Nu gaan we aan de slag met een oefening.
 
+````{margin}
+```{attributiongrey} Attribution
+:class: attribution
+
+Deze oefeningen is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie CTB2210-2025 en https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
+```
+````
 ## Oefening 1
 
 Gegeven is de volgende constructie:
@@ -20,17 +19,19 @@ Gegeven is de volgende constructie:
 Constructie
 ```
 
-Waarvan we het volgende statisch bepaalde systeem gaan oplossen:
+Bepaal de krachtsverdeling en verplaatsingen.
+
+:::::{exercise}
+:label: balk_1_1
+:nonumber: true
+
+Ga uit van het volgende statisch bepaalde systeem:
 
 ```{figure} ../_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/force_method/bending_data/SB-systeem2.svg
 :align: center
 
 Statisch bepaalde constructie met vormveranderingsvoorwaarde
 ```
-
-:::::{exercise}
-:label: balk_1_1
-:nonumber: true
 
 Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $A_{\rm{v}}$
 
@@ -62,3 +63,31 @@ Los nu de andere oplegreacties op en bepaal de momenten en verplaatsingen.
 :::::
 
 ## Oefening 2
+
+Gegeven is de volgende constructie
+
+```{figure} ./lesoefeningen_data/structure.svg
+:align: center
+
+Constructie
+```
+
+Bepaal de krachtsverdeling en verplaatsingen.
+
+:::::{exercise}
+:label: balk_2_1
+:nonumber: true
+
+Wat is de graad van inwendig statisch onbepaaldheid?
+
+```{h5p} https://tudelft.h5p.com/content/1292636677784672607/embed
+```
+
+:::::
+
+::::{solution} balk_2_1
+:class: dropdown
+
+De constructie is *1*ste/de graads inwendig statisch onbepaald
+
+::::
