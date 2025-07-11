@@ -85,9 +85,3 @@ Wat is de graad van inwendig statisch onbepaaldheid?
 
 :::::
 
-::::{solution} balk_2_1
-:class: dropdown
-
-De constructie is *1*ste/de graads inwendig statisch onbepaald
-
-::::
