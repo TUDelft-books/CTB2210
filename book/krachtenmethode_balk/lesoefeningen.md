@@ -38,3 +38,27 @@ Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie v
 ```
 
 :::::
+
+:::::{exercise}
+:label: balk_1_1
+:nonumber: true
+
+Los je vormveranderingsvoorwaarde op om $A_{\rm{v}}$ te vinden.
+
+```{h5p} https://tudelft.h5p.com/content/1292636567761480237/embed
+```
+
+:::::
+
+:::::{exercise}
+:label: balk_1_1
+:nonumber: true
+
+Los nu de andere oplegreacties op en bepaal de momenten en verplaatsingen.
+
+```{h5p} https://tudelft.h5p.com/content/1292636572692927547/embed
+```
+
+:::::
+
+## Oefening 2
