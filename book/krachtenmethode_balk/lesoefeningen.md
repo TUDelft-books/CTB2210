@@ -40,7 +40,7 @@ Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie v
 :::::
 
 :::::{exercise}
-:label: balk_1_1
+:label: balk_1_2
 :nonumber: true
 
 Los je vormveranderingsvoorwaarde op om $A_{\rm{v}}$ te vinden.
@@ -51,7 +51,7 @@ Los je vormveranderingsvoorwaarde op om $A_{\rm{v}}$ te vinden.
 :::::
 
 :::::{exercise}
-:label: balk_1_1
+:label: balk_1_3
 :nonumber: true
 
 Los nu de andere oplegreacties op en bepaal de momenten en verplaatsingen.
