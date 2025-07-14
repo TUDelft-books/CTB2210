@@ -91,3 +91,11 @@ Wat is de graad van inwendig statisch onbepaaldheid?
 De constructie is *1*ste/de graads inwendig statisch onbepaald
 
 ::::
+
+:::::{exercise}
+:label: balk_2_2
+:nonumber: true
+
+...
+
+:::::
