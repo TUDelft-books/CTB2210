@@ -27,12 +27,6 @@ jobs:
       contents: write
 
     steps:
-      - name: Debug info
-        run: |
-          echo "Branch ref: ${{ github.ref }}"
-          echo "Event name: ${{ github.event_name }}"
-          echo "Repository: ${{ github.repository }}"
-          
       - name: Checkout code
         uses: actions/checkout@v4
         with:
