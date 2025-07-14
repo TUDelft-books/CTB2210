@@ -28,6 +28,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ACTIONS_DEPLOY_KEY_CTB2210 }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -175,8 +178,6 @@ jobs:
           "
 
       - name: Commit and push changes assignment version
-        env:
-          GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY_CTB2210 }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
