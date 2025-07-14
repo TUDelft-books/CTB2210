@@ -19,13 +19,20 @@ on:
 
 jobs: 
   generate-student-version:
-    if: github.ref == 'refs/heads/2025-teacher'
+    # Debug: Always show what branch we're on
+    if: ${{ github.ref == 'refs/heads/2025-teacher' }}
     name: Generate student versions
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
+      - name: Debug info
+        run: |
+          echo "Branch ref: ${{ github.ref }}"
+          echo "Event name: ${{ github.event_name }}"
+          echo "Repository: ${{ github.repository }}"
+          
       - name: Checkout code
         uses: actions/checkout@v4
         with:
