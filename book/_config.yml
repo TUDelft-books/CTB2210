@@ -30,7 +30,7 @@ sphinx:                                              # Options passed on to the 
       launch_buttons:
         thebe: true                                  # Required for live code: https://teachbooks.io/manual/features/live_code.html
 # START REMOVE-FROM-RELEASE
-      announcement: "<p>This book is not the version shared with students. That one is available here <a href='https://oit.tudelft.nl/CTB2210/2025k' style='color: cyan;'>oit.tudelft.nl/CTB2210/2025</a></p>"
+      announcement: "<p>This book is not the version shared with students. That one is available here <a href='https://oit.tudelft.nl/CTB2210/2025' style='color: cyan;'>oit.tudelft.nl/CTB2210/2025</a></p>"
 # END REMOVE-FROM-RELEASE
 
     html_show_copyright: false                       # As the copyright is included in the author field
