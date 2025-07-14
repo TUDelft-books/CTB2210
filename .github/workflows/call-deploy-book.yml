@@ -20,7 +20,7 @@ on:
 jobs: 
   generate-student-version:
     # Debug: Always show what branch we're on
-    if: ${{ github.ref == 'refs/heads/2025-teacher' }}
+    if: ${{ github.ref == 'refs/heads/2025-teacher' || github.event_name == 'workflow_dispatch' }}
     name: Generate student versions
     runs-on: ubuntu-latest
     permissions:
