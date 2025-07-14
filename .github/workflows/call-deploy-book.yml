@@ -180,8 +180,8 @@ jobs:
 
       - name: Commit and push changes assignment version
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -b 2025-draft
           git merge origin/2025-teacher
           git add .
