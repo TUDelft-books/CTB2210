@@ -207,7 +207,7 @@ jobs:
       - name: Merge 2025-draft into 2025
         run: |
           git checkout 2025
-          git merge 2025-draft --no-ff -m "Auto-merge 2025-draft into 2025"
+          git merge origin/2025-draft --no-ff -m "Auto-merge 2025-draft into 2025"
           git push origin 2025
 
   call-workflow:
