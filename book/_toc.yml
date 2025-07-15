@@ -2,32 +2,49 @@ format: jb-book
 root: intro.md
 
 parts:
+- caption: Vakinformatie
+  chapters:
+  - file: instructies
+  - file: contact_information
+#  - url: https://brightspace.tudelft.nl/d2l/home/703722
+#    title: Brightspace announcements 📢
 # START REMOVE-FROM-RELEASE
-  - caption: Lesstof
-    chapters:
-    - file: statisch_onbepaald/lesson.md
+- caption: Lesstof 🧑‍🏫
+  chapters:
+  - file: statisch_onbepaald/lesson.md
+    sections:
+    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/determinancy.md
+    - file: statisch_onbepaald/graad_bepalen.md
+  - file: matrixframe/lesson.md
+    sections:
+    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/tools/matrixframe.md
+    - file: matrixframe/lesoefeningen
+  - file: ODE/lesson.md
+    sections:
+    - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210-2025/book/week_2/session_1/intro.ipynb
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/statically_inderminate/determinancy.md
-        title: Statische onbepaaldheid theorie
-      - file: statisch_onbepaald/graad_bepalen.md
-    - file: matrixframe/lesson.md
-      sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/tools/matrixframe.md
-        title: Matrixframe theorie
-      - file: matrixframe/lesoefeningen
-    - file: ODE/lesson.md
-      sections:
-      - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210-2025/book/week_2/session_1/intro.ipynb
-        sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/tools/TI-84.md
-      - file: ODE/lesoefeningen
-    - file: krachtenmethode_vakwerk/lesson.md
-      sections:
-      - external:  https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/extension.ipynb
-      
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/tools/TI-84.md
+    - file: ODE/lesoefeningen
+  - file: krachtenmethode_vakwerk/lesson.md
+    sections:
+    - file: krachtenmethode_vakwerk/theorie.ipynb
+    - file: krachtenmethode_vakwerk/lesoefeningen.md
+  - file: krachtenmethode_vakwerk/lesson_2.md
+    sections:
+    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/extension.ipynb
+    - file: krachtenmethode_vakwerk/lesoefeningen2.md
+  - file: krachtenmethode_balk/lesson.md
+    sections:
+    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/bending.md
+    - file: krachtenmethode_balk/lesoefeningen.md
+  - file: krachtenmethode_raamwerk/lesson.md
+  - file: steunpuntszetting_temperatuur/lesson.md
+  - file: stijfheden/lesson.md
+  - file: verplaatsingenmethode/lesson.md
+  - file: verplaats_vs_kracht/lesson.md
+  - file: matrix/lesson.md
 # END REMOVE-FROM-RELEASE
-
-  - caption: Diverse
-    chapters:
-    - file: references
-    - file: credits
+- caption: Diverse
+  chapters:
+  - file: references
+  - file: credits
