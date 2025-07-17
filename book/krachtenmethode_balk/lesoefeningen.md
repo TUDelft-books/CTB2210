@@ -96,6 +96,56 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 :label: balk_2_2
 :nonumber: true
 
-...
+```{h5p} https://tudelft.h5p.com/content/1292636680849554767/embed
+```
+
+:::::
+
+:::::{exercise}
+:label: balk_2_3
+:nonumber: true
+
+Ga uit van het volgende statisch bepaalde systeem:
+
+```{figure} ./lesoefeningen_data/SB-1.svg
+:align: center
+
+Statisch bepaalde constructie met vormveranderingsvoorwaarde
+```
+
+Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $B_{\rm{v}}$
+
+```{h5p} https://tudelft.h5p.com/content/1292642090947945297/embed
+```
+
+:::::
+
+:::::{exercise}
+:label: balk_2_4
+:nonumber: true
+
+Los je vormveranderingsvoorwaarde op om $B_{\rm{v}}$ te vinden.
+
+```{h5p} https://tudelft.h5p.com/content/1292642094940904187/embed
+```
+
+:::::
+
+:::::{exercise}
+:label: balk_2_3
+:nonumber: true
+
+Ga nu uit van het volgende statisch bepaalde systeem:
+
+```{figure} ./lesoefeningen_data/SB-2.svg
+:align: center
+
+Statisch bepaalde constructie met vormveranderingsvoorwaarde
+```
+
+Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $M_{\rm{C}}$
+
+```{h5p} ...
+```
 
 :::::
