@@ -195,11 +195,11 @@
 			</g>
 			<g id="shape33-95" v:mID="33" v:groupContext="shape">
 				<title>Blad.33</title>
-				<desc>6 m</desc>
+				<desc>3 m</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="56.6929" cy="78.7028" width="113.39" height="14.1732"/>
 				<rect x="0" y="71.6161" width="113.386" height="14.1732" class="st13"/>
-				<text x="47.53" y="82.3" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>6 m</text>			</g>
+				<text x="47.53" y="82.3" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>3 m</text>			</g>
 		</g>
 		<g id="group34-98" transform="translate(123.682,-0.375)" v:mID="34" v:groupContext="group">
 			<title>Maatlijn.34</title>
@@ -220,11 +220,11 @@
 			</g>
 			<g id="shape39-113" v:mID="39" v:groupContext="shape">
 				<title>Blad.39</title>
-				<desc>6 m</desc>
+				<desc>3 m</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="56.6929" cy="78.7028" width="113.39" height="14.1732"/>
 				<rect x="0" y="71.6161" width="113.386" height="14.1732" class="st13"/>
-				<text x="47.53" y="82.3" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>6 m</text>			</g>
+				<text x="47.53" y="82.3" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>3 m</text>			</g>
 		</g>
 		<g id="shape40-116" v:mID="40" v:groupContext="shape" transform="translate(123.682,-57.0679)">
 			<title>Maatlijn.33</title>
