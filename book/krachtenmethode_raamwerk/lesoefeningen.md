@@ -14,3 +14,6 @@ Deze oefeningen is aangepast van  https://github.com/TUDelft-books/CT1000 versie
 Gegeven is de volgende constructie:
 
 
+![](image-1.png)
+
+![alt text](image-2.png)
