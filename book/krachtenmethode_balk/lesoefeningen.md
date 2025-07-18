@@ -6,7 +6,7 @@ Nu gaan we aan de slag met een oefening.
 ```{attributiongrey} Attribution
 :class: attribution
 
-Deze oefeningen is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie CTB2210-2025 en https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
+Deze oefening is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie CTB2210-2025.
 ```
 ````
 ## Oefening 1
@@ -132,7 +132,7 @@ Los je vormveranderingsvoorwaarde op om $B_{\rm{v}}$ te vinden.
 :::::
 
 :::::{exercise}
-:label: balk_2_3
+:label: balk_2_5
 :nonumber: true
 
 Ga nu uit van het volgende statisch bepaalde systeem:
@@ -145,7 +145,18 @@ Statisch bepaalde constructie met vormveranderingsvoorwaarde
 
 Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $M_{\rm{C}}$
 
-```{h5p} ...
+```{h5p} https://tudelft.h5p.com/content/1292642608547530667/embed
+```
+
+:::::
+
+:::::{exercise}
+:label: balk_2_6
+:nonumber: true
+
+Los je vormveranderingsvoorwaarde op om $M_{\rm{C}}$ te vinden.
+
+```{h5p} https://tudelft.h5p.com/content/1292642615022517117/embed
 ```
 
 :::::
