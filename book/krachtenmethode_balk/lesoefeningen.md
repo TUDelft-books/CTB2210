@@ -160,3 +160,14 @@ Los je vormveranderingsvoorwaarde op om $M_{\rm{C}}$ te vinden.
 ```
 
 :::::
+
+:::::{exercise}
+:label: balk_2_7
+:nonumber: true
+
+Los nu de volledige krachtsverdeling en verplaatsingen op met de resultaten van een of beide van je statisch onbepaalde systemen.
+
+```{h5p} https://tudelft.h5p.com/content/1292642621332227027/embed
+```
+
+:::::
