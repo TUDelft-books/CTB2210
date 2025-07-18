@@ -95,6 +95,8 @@ Wat is de graad van inwendig statisch onbepaaldheid?
 
 :::::
 
+### Statisch bepaald systeem 1
+
 :::::{exercise}
 :label: balk_2_3
 :nonumber: true
@@ -125,6 +127,8 @@ Los je vormveranderingsvoorwaarde op om $B_{\rm{v}}$ te vinden.
 
 :::::
 
+### Statisch bepaald systeem 2
+
 :::::{exercise}
 :label: balk_2_5
 :nonumber: true
@@ -154,6 +158,8 @@ Los je vormveranderingsvoorwaarde op om $M_{\rm{C}}$ te vinden.
 ```
 
 :::::
+
+### Krachtsverdeling en verplaatsingen statisch onbepaald systeem
 
 :::::{exercise}
 :label: balk_2_7
