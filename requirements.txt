@@ -1,5 +1,6 @@
 # first list the packages you wish to download from PyPI
-teachbooks # BUMP to 0.2.2
+#teachbooks # BUMP to 0.2.2
+git+https://github.com/Teachbooks/teachbooks@dutch
 jupyterbook-patches
 sphinx-image-inverter
 download_link_replacer
