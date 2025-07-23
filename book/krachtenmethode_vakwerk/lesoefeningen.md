@@ -11,7 +11,7 @@ align: center
 Constructie
 ```
 
-Bepaal de oplegreacties en het snedekrachtenlijnen. Je gaat dan doen voor drie verschillende statisch onbepaalde krachten.
+Bepaal de oplegreacties en het snedekrachtenlijnen. Je gaat dit doen voor drie verschillende statisch onbepaalde krachten.
 
 :::::{exercise}
 :label: km_vak_1_1
