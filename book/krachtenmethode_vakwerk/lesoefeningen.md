@@ -116,7 +116,7 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $B_{\rm{v}}$
 :label: km_vak_1_6
 :nonumber: true
 
-Neem als statisch onbepaalde kracht het moment in $M_{\rm{B}}$ (positief zorgt voor trek aan de onderkant).
+Neem als statisch onbepaalde kracht het moment $M_{\rm{B}}$ (positief zorgt voor trek aan de onderkant).
 
 ```{h5p} https://tudelft.h5p.com/content/1292634286050413117/embed
 ```
@@ -151,7 +151,7 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $M_{\rm{B}}$
 :label: km_vak_1_9
 :nonumber: true
 
-Neem als statisch onbepaalde kracht het moment in $N_{\rm{AD}}$ door de pendelstaaf in het scharnier los te maken van de balk.
+Neem als statisch onbepaalde kracht de normaalkracht $N_{\rm{AD}}$ door de pendelstaaf in het scharnier los te maken van de balk.
 
 ```{h5p} https://tudelft.h5p.com/content/1292634312901581657/embed
 ```
