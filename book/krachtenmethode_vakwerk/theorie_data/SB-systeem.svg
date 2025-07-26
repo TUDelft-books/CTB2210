@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export SB-systeem.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.76632in" height="3.05897in"
-		viewBox="0 0 199.175 220.246" xml:space="preserve" color-interpolation-filters="sRGB" class="st23">
+		viewBox="0 0 199.175 220.246" xml:space="preserve" color-interpolation-filters="sRGB" class="st26">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -30,13 +30,16 @@
 		.st20 {marker-end:url(#mrkr1-118);stroke:#000000;stroke-linecap:butt;stroke-width:3}
 		.st21 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.67567567567568}
 		.st22 {baseline-shift:-32.4941%;font-size:0.649882em;font-style:normal}
-		.st23 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st23 {marker-end:url(#mrkr5-138);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st24 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.34246575342466}
+		.st25 {fill:#000000;font-family:Cambria Math;font-size:0.833336em}
+		.st26 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
 	<defs id="Markers">
 		<g id="lend5">
-			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993388 C 1.67173 -0.364516 1.67301 0.37264 1.98465 1.00043 " style="stroke:none"/>
 		</g>
 		<marker id="mrkr5-19" class="st5" v:arrowType="5" v:arrowSize="0" v:setback="3.85" refX="-3.85" orient="auto"
 				markerUnits="strokeWidth" overflow="visible">
@@ -70,6 +73,10 @@
 		<marker id="mrkr1-118" class="st21" v:arrowType="1" v:arrowSize="0" orient="auto" markerUnits="strokeWidth"
 				overflow="visible">
 			<use xlink:href="#lend1" transform="scale(-1.48,-1.48) "/>
+		</marker>
+		<marker id="mrkr5-138" class="st24" v:arrowType="5" v:arrowSize="0" v:setback="5.11" refX="-5.11" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.92,-2.92) "/>
 		</marker>
 	</defs>
 	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
@@ -239,5 +246,20 @@
 			<text x="13.35" y="216.76" class="st15" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>B<tspan
 						dy="-0.279em" class="st22" v:baseFontSize="12">v</tspan><tspan dy="0.181em" class="st16"> </tspan><tspan
 						class="st16">= 0</tspan></text>		</g>
+		<g id="shape295-133" v:mID="295" v:groupContext="shape" transform="translate(290.778,11.7136) rotate(90)">
+			<title>Blad.295</title>
+			<path d="M0 220.25 L21.68 220.25" class="st23"/>
+		</g>
+		<g id="shape296-139" v:mID="296" v:groupContext="shape" transform="translate(57.0679,-187.272)">
+			<title>Blad.296</title>
+			<desc>x</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="4.96063" cy="217.057" width="9.93" height="6.37795"/>
+			<rect x="0" y="213.868" width="9.92126" height="6.37795" class="st12"/>
+			<text x="4" y="220.06" class="st25" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>x</text>		</g>
+		<g id="shape297-142" v:mID="297" v:groupContext="shape" transform="translate(66.2805,-208.532)">
+			<title>Blad.297</title>
+			<path d="M0 220.25 L8.5 220.25" class="st2"/>
+		</g>
 	</g>
 </svg>
