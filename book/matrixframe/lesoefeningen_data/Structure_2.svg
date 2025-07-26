@@ -58,7 +58,7 @@
 			<use xlink:href="#lend13" transform="scale(4.36) "/>
 		</marker>
 		<g id="lend5">
-			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993388 C 1.67173 -0.364516 1.67301 0.37264 1.98465 1.00043 " style="stroke:none"/>
 		</g>
 		<marker id="mrkr5-292" class="st22" v:arrowType="5" v:arrowSize="0" v:setback="3.85" refX="-3.85" orient="auto"
 				markerUnits="strokeWidth" overflow="visible">
@@ -432,11 +432,11 @@
 						v:baseFontSize="12">2 </tspan> </text>		</g>
 		<g id="shape160-255" v:mID="160" v:groupContext="shape" transform="translate(166.202,-220.06)">
 			<title>EI = oo.160</title>
-			<desc>Cables: EA = 10 GN EI = 0</desc>
+			<desc>Kabels: EA = 10 GN EI = 0</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="49.6063" cy="288.92" width="99.22" height="14.1732"/>
 			<rect x="0" y="281.834" width="99.2126" height="14.1732" class="st14"/>
-			<text x="31.61" y="278.12" class="st12" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Cables:<v:newlineChar/><tspan
+			<text x="31.28" y="278.12" class="st12" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Kabels:<v:newlineChar/><tspan
 						x="19.73" dy="1.2em" class="st20">EA</tspan> = 10 GN<v:newlineChar/><tspan x="34.56" dy="1.2em"
 						class="st20">EI</tspan> = 0 </text>		</g>
 		<g id="shape166-261" v:mID="166" v:groupContext="shape" transform="translate(166.202,-85.4144)">
