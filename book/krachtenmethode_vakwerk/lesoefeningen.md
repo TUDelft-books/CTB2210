@@ -22,30 +22,6 @@ Bepaal de oplegreacties en het snedekrachtenlijnen. Je gaat dit doen voor drie v
 
 :::::
 
-% solution_start
-
-::::{solution} km_vak_1_1
-:class: dropdown
-
-```{figure} lesoefeningen_data/onbekenden.svg
----
-align: center
----
-Er zijn 22 onbekende krachten
-```
-
-```{figure} lesoefeningen_data/vergelijkingen.svg
----
-align: center
----
-Er zijn 21 evenwichtsvergelijkingen
-```
-
-Dus de constructie is 1ste graads statisch onbepaald
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :label: km_vak_1_2
@@ -56,24 +32,6 @@ Dus de constructie is 1ste graads statisch onbepaald
 
 :::::
 
-% solution_start
-
-::::{solution} km_vak_1_2
-:class: dropdown
-
-- Weghalen oplegging bij A
-- Weghalen oplegging bij B
-  - Inderdaad! Als je de hele oplegging weghaalt heb je een mechanisme wat naar links en rechts kan bewegen!
-- Weghalen oplegging bij C
-- Toevoegen scharnier bij B (in doorgaande liggen DBEG)
-- Toevoegen scharnier bij E (in doorgaande liggen DBEG)
-  - Inderdaad, als je hier een scharnier toevoegt krijg je een mechanisme waarbij EG om E kan draaien
-- Splitsen constructie in pendelstaaf AD
-- Splitsen constructie in pendelstaaf CE
-
-::::
-
-% solution_end
 
 ## Statisch onbepaalde kracht $B_{\rm{v}}$
 
