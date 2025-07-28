@@ -192,7 +192,7 @@ Neem als statisch onbepaalde kracht het moment $M_{\rm{B}}$ (positief zorgt voor
 
 De vormveranderingsvoorwaarde is: 
 
-$$ \rm{phi} _ {\rm{B}} ^ {\rm{BD}} = \rm{phi} _ {\rm{{B}}} ^ {\rm{BE}} $$
+$$ \varphi _ {\rm{B}} ^ {\rm{BD}} = \varphi _ {\rm{{B}}} ^ {\rm{BE}} $$
 
 ::::
 
@@ -226,15 +226,15 @@ De gebruikte vergelijkingen zijn:
 
 $$ \sum  \left. M \right| _ {\rm{B}} ^{\rm{BD}} = 3 \cdot N_{\rm{AD}} + M_{\rm{B}} =0 $$ 
 $$ \sum  \left. M \right| _ {\rm{B}} ^{\rm{BG}} = - M_{\rm{B}} + 2 \cdot N_{\rm{CE}} - 5 \cdot26=0 $$ 
-$$ \phi _ {\rm{B}} ^{\rm{DB}} = \cfrac{w_{\rm{D}}}{3} $$
-$$ \phi _ {\rm{B}} ^{\rm{BE}} = \cfrac{w_{\rm{E}}}{2} $$
+$$ \varphi _ {\rm{B}} ^{\rm{DB}} = \cfrac{w_{\rm{D}}}{3} $$
+$$ \varphi _ {\rm{B}} ^{\rm{BE}} = \cfrac{w_{\rm{E}}}{2} $$
 
 Hieruit volgt:
 
 $$ N_{\rm{AD}} = -0.33 \cdot M_{\rm{B}}$$
 $$ N_{\rm{CE}} = 0.5 \cdot M_{\rm{B}} + 65 $$
-$$ \phi _ {\rm{B}} ^{\rm{DB}} = -0.00011 \cdot M_{\rm{B}} $$
-$$ \phi _ {\rm{B}} ^{\rm{BE}} = 0.00025 \cdot M_{\rm{B}} + 0.0325 $$
+$$ \varphi _ {\rm{B}} ^{\rm{DB}} = -0.00011 \cdot M_{\rm{B}} $$
+$$ \varphi _ {\rm{B}} ^{\rm{BE}} = 0.00025 \cdot M_{\rm{B}} + 0.0325 $$
 
 ::::
 
@@ -260,7 +260,7 @@ Oplossen van de vergelijkingen geeft:
 
 $$ N_{\rm{AD}} = 30 \rm{kN} $$
 $$ N_{\rm{CE}} = 20 \rm{kN} $$
-$$ \phi_{\rm{B}} = 0.01 \rm{rad} $$
+$$ \varphi_{\rm{B}} = 0.01 \rm{rad} $$
 $$ M_{\rm{B}} = -90 \rm{kNm} $$
 
 ::::
@@ -321,7 +321,7 @@ De gebruikte vergelijkingen zijn:
 $$ \sum \left.  M \right| _ {\rm{B}} = 3 \cdot N_{\rm{AD}} + 2 \cdot N_{\rm{CE}} - 5 \cdot 26 = 0 $$ 
 $$ w_{\rm{E}} = - \Delta l_{\rm{CE}} = \cfrac{-N_{\rm{CE}} \cdot l_{\rm{CE}}}{EA} $$
 $$ w_{\rm{D}} ^ {\rm{AD}} = \Delta l_{\rm{AD}} = \cfrac{N_{\rm{AD}} \cdot l_{\rm{AD}}}{EA} $$ 
-$$ w_{\rm{D}} ^ {\rm{BD}} = \phi_{\rm{B}} \cdot 3 = - \cfrac{3}{2} w_{\rm{E}} $$
+$$ w_{\rm{D}} ^ {\rm{BD}} = \varphi_{\rm{B}} \cdot 3 = - \cfrac{3}{2} w_{\rm{E}} $$
 
 Hieruit volgt:
 
