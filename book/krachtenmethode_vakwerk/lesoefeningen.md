@@ -120,12 +120,12 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $B_
 align: center
 ---
 
-Vrijlichaamsschema $\rm{DG}$$ met $B_{\rm{v}}$ als statisch onbepaalde.
+Vrijlichaamsschema $\rm{DG}$ met $B_{\rm{v}}$ als statisch onbepaalde.
 
 ```
 De gebruikte vergelijkingen zijn:
 
-$$ \sum T \right|  _ {\rm{E}} = 5 \cdot N_{\rm{AD}} - 2 \cdot B_{\rm{v}} - 3 \cdot26=0 $$ 
+$$ \sum  \left. T \right|  _ {\rm{E}} = 5 \cdot N_{\rm{AD}} - 2 \cdot B_{\rm{v}} - 3 \cdot26=0 $$ 
 $$ \sum F_ {\rm{v}} = - N_{\rm{AD}} + B_{\rm{v}} + N_{\rm{CE}} -26= 0 $$
 $$ w_{\rm{E}} = - \Delta l_{\rm{CE}} = \cfrac{-N_{\rm{CE}} \cdot l_{\rm{CE}}}{EA} $$
 $$ w_{\rm{D}} = \Delta l_{\rm{AD}} = \cfrac{-N_{\rm{AD}} \cdot l_{\rm{AD}}}{EA} $$ 
@@ -192,7 +192,7 @@ Neem als statisch onbepaalde kracht het moment $M_{\rm{B}}$ (positief zorgt voor
 
 De vormveranderingsvoorwaarde is: 
 
-$$ \rm{phi} _ {\rm{B}} ^ {\rm{BD}} = \rm{phi} _ {\rm{{B}} ^ {\rm{BE}} $$
+$$ \rm{phi} _ {\rm{B}} ^ {\rm{BD}} = \rm{phi} _ {\rm{{B}}} ^ {\rm{BE}} $$
 
 ::::
 
@@ -224,8 +224,8 @@ Constructie vrijgemaakt van pendelstaven met $M_{\rm{B}}$ als statisch onbepaald
 
 De gebruikte vergelijkingen zijn:
 
-$$ \sum M \right| _ {\rm{B}} ^{\rm{BD}} = 3 \cdot N_{\rm{AD}} + M_{\rm{B}} =0 $$ 
-$$ \sum M \right| _ {\rm{B}} ^{\rm{BG}} = - M_{\rm{B}} + 2 \cdot N_{\rm{CE}} - 5 \cdot26=0 $$ 
+$$ \sum  \left. M \right| _ {\rm{B}} ^{\rm{BD}} = 3 \cdot N_{\rm{AD}} + M_{\rm{B}} =0 $$ 
+$$ \sum  \left. M \right| _ {\rm{B}} ^{\rm{BG}} = - M_{\rm{B}} + 2 \cdot N_{\rm{CE}} - 5 \cdot26=0 $$ 
 $$ \phi _ {\rm{B}} ^{\rm{DB}} = \cfrac{w_{\rm{D}}}{3} $$
 $$ \phi _ {\rm{B}} ^{\rm{BE}} = \cfrac{w_{\rm{E}}}{2} $$
 
@@ -318,7 +318,7 @@ Constructie met $N_{\rm{AD}}$ als statisch onbepaalde en vrijgemaakt van pendels
 
 De gebruikte vergelijkingen zijn:
 
-$$ \sum M \right| _ {\rm{B}} = 3 \cdot N_{\rm{AD}} + 2 \cdot N_{\rm{CE}} - 5 \cdot 26 = 0 $$ 
+$$ \sum \left.  M \right| _ {\rm{B}} = 3 \cdot N_{\rm{AD}} + 2 \cdot N_{\rm{CE}} - 5 \cdot 26 = 0 $$ 
 $$ w_{\rm{E}} = - \Delta l_{\rm{CE}} = \cfrac{-N_{\rm{CE}} \cdot l_{\rm{CE}}}{EA} $$
 $$ w_{\rm{D}} ^ {\rm{AD}} = \Delta l_{\rm{AD}} = \cfrac{N_{\rm{AD}} \cdot l_{\rm{AD}}}{EA} $$ 
 $$ w_{\rm{D}} ^ {\rm{BD}} = \phi_{\rm{B}} \cdot 3 = - \cfrac{3}{2} w_{\rm{E}} $$
