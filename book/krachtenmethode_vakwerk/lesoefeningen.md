@@ -90,7 +90,7 @@ Neem als statisch onbepaalde kracht de verticale oplegreactie bij B (positief om
 
 % solution_start
 
-::::{solution} km_vak_1_1
+::::{solution} km_vak_1_3
 :class: dropdown
 
 De vormveranderingsvoorwaarde is $w_B = 0$.
@@ -112,7 +112,7 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $B_
 
 % solution_start
 
-::::{solution} km_vak_1_1
+::::{solution} km_vak_1_4
 :class: dropdown
 
 ```{figure} lesoefeningen_data/Vrijlichaamsschema1.svg
@@ -156,7 +156,7 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $B_{\rm{v}}$
 
 % solution_start
 
-::::{solution} km_vak_1_1
+::::{solution} km_vak_1_5
 :class: dropdown
 
 Oplossen van de vergelijkingen geeft:
@@ -187,7 +187,7 @@ Neem als statisch onbepaalde kracht het moment $M_{\rm{B}}$ (positief zorgt voor
 
 % solution_start
 
-::::{solution} km_vak_1_1
+::::{solution} km_vak_1_6
 :class: dropdown
 
 De vormveranderingsvoorwaarde is: $ \rm{phi} _ {\rm{{B aan de kant van BD}}} = \rm{phi} _ {\rm{{B aan de kant van BE}}} $
