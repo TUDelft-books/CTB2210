@@ -1,5 +1,5 @@
 title: CTB2210 - Constructiemechanica 3
-author: Tom van Woudenberg, built with <a href="https://teachbooks.io">TeachBooks</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer"">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""></a>
+author: Tom van Woudenberg, gemaakt met <a href="https://teachbooks.io">TeachBooks</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer"">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""></a>
                                                      # Replace Author with your own name in the line above
 
 execute:
@@ -14,6 +14,7 @@ html:
 
 sphinx:                                              # Options passed on to the underlying sphinx-parser
   config:
+    language: nl                                     # Set language to Dutch
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js # Required for live code: https://teachbooks.io/manual/features/live_code.html
     thebe_config:
@@ -30,7 +31,7 @@ sphinx:                                              # Options passed on to the 
       launch_buttons:
         thebe: true                                  # Required for live code: https://teachbooks.io/manual/features/live_code.html
 # START REMOVE-FROM-RELEASE
-      announcement: "<p>This book is not the version shared with students. That one is available here <a href='https://oit.tudelft.nl/CTB2210/2025' style='color: cyan;'>oit.tudelft.nl/CTB2210/2025</a></p>"
+      announcement: "<p>This book is not the version shared with students. That one is available here <a href='https://oit.tudelft.nl/CTB2210' style='color: cyan;'>oit.tudelft.nl/CTB2210</a></p>"
 # END REMOVE-FROM-RELEASE
 
     html_show_copyright: false                       # As the copyright is included in the author field
@@ -42,6 +43,7 @@ sphinx:                                              # Options passed on to the 
         mtextInheritFont: true                       # To typeset text within math prettier
       }
     named_colors_custom_colors: {'attributiongrey':[150,150,150]} # Custom colour for the attribution admonitions
+    sphinx_codex_merge_with_proof:     true # default value
   local_extensions:
     apastyle: _ext/
     bracket_citation_style: _ext/
@@ -56,6 +58,7 @@ sphinx:                                              # Options passed on to the 
     - sphinx_tudelft_theme                           # Adds the TU Delft theme to your book https://teachbooks.io/manual/external/Sphinx-TUDelft-theme/README.html
     - sphinx_proof
     - sphinx_dropdown_toggle
+    - sphinx_code_examples
 
 teachbooks:
   attribution_color: attributiongrey
