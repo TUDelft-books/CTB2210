@@ -125,8 +125,8 @@ Vrijlichaamsschema met $B_{\rm{v}}$ als statisch onbepaalde.
 ```
 De gebruikte vergelijkingen zijn:
 
-$$ \sum M \textbar _ {\rm{E}} = 5 \cdot N_{\rm{AD}} - 2 \cdot B_{\rm{v}} - 3 \cdot F =0 $$ 
-$$ \sum F _ {\rm{v}} = - N_{\rm{AD}} + B_{\rm{v}} + N_{\rm{CE}} - F = 0 $$
+$$ \sum M \textbar _ {\rm{E}} = 5 \cdot N_{\rm{AD}} - 2 \cdot B_{\rm{v}} - 3 \cdot26=0 $$ 
+$$ \sum F_ {\rm{v}} = - N_{\rm{AD}} + B_{\rm{v}} + N_{\rm{CE}} -26= 0 $$
 $$ w_{\rm{E}} = - \Delta l_{\rm{CE}} = \cfrac{-N_{\rm{CE}} \cdot l_{\rm{CE}}}{EA} $$
 $$ w_{\rm{D}} = \Delta l_{\rm{AD}} = \cfrac{-N_{\rm{AD}} \cdot l_{\rm{AD}}}{EA} $$ 
 $$ w_{\rm{B}} = w_{\rm{D}} + \cfrac{3}{5} \cdot \left( w_{\rm{E}} - w_{\rm{D}} \right) = \cfrac{3}{5} \cdot w_{\rm{E}} + \cfrac{2}{5} \cdot w_{\rm{D}} $$
@@ -225,7 +225,7 @@ Vrijlichaamsschema
 De gebruikte vergelijkingen zijn:
 
 $$ \sum M \textbar _ {\rm{B}} ^{\rm{BD}} = 3 \cdot N_{\rm{AD}} + M_{\rm{B}} =0 $$ 
-$$ \sum M \textbar _ {\rm{B}} ^{\rm{BG}} = - M_{\rm{B}} + 2 \cdot N_{\rm{CE}} - 5 \cdot F =0 $$ 
+$$ \sum M \textbar _ {\rm{B}} ^{\rm{BG}} = - M_{\rm{B}} + 2 \cdot N_{\rm{CE}} - 5 \cdot26=0 $$ 
 $$ \phi _ {\rm{B}} ^{\rm{DB}} = \cfrac{w_{\rm{D}}}{3} $$
 $$ \phi _ {\rm{B}} ^{\rm{BE}} = \cfrac{w_{\rm{E}}}{2} $$
 
@@ -280,6 +280,19 @@ Neem als statisch onbepaalde kracht de normaalkracht $N_{\rm{AD}}$ door de pende
 
 :::::
 
+% solution_start
+
+::::{solution} km_vak_1_9
+:class: dropdown
+
+De vormveranderingsvoorwaarde is: 
+
+$$ w _ {\rm{{D \ aan \ de \ kant \ van \ AD}}} = w _ {\rm{{D \ aan \ de \ kant \ van \ BD}}} $$
+
+::::
+
+% solution_end
+
 :::::{exercise}
 :label: km_vak_1_10
 :nonumber: true
@@ -291,6 +304,36 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $N_
 
 :::::
 
+% solution_start
+
+::::{solution} km_vak_1_10
+:class: dropdown
+
+```{figure} lesoefeningen_data/Vrijlichaamsschema3.svg
+---
+align: center
+---
+Vrijlichaamsschema
+```
+
+De gebruikte vergelijkingen zijn:
+
+$$ \sum M \textbar _ {\rm{B}} = 3 \cdot N_{\rm{AD}} + 2 \cdot N_{\rm{CE}} - 5 \cdot 26 = 0 $$ 
+$$ w_{\rm{E}} = - \Delta l_{\rm{CE}} = \cfrac{-N_{\rm{CE}} \cdot l_{\rm{CE}}}{EA} $$
+$$ w_{\rm{D}} ^ {\rm{AD}} = \Delta l_{\rm{AD}} = \cfrac{N_{\rm{AD}} \cdot l_{\rm{AD}}}{EA} $$ 
+$$ w_{\rm{D}} ^ {\rm{BD}} = \phi_{\rm{B}} \cdot 3 = - \cfrac{3}{2} w_{\rm{E}} $$
+
+Hieruit volgt:
+
+$$ N_{\rm{CE}} = - 1.5 \cdot N_{\rm{AD}} + 65 $$
+$$ w_{\rm{E}} = 0.0015 \cdot N_{\rm{AD}} -0.065 $$
+$$ w_{\rm{D}} ^{\rm{AD}} = 0.001 \cdot N_{\rm{AD}} $$
+$$ w_{\rm{D}} ^{\rm{BD}} = -0.00225 \cdot N_{\rm{AD}} + 0.0975 $$
+
+::::
+
+% solution_end
+
 :::::{exercise}
 :label: km_vak_1_11
 :nonumber: true
@@ -301,3 +344,19 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $N_{\rm{AD}}
 ```
 
 :::::
+
+% solution_start
+
+::::{solution} km_vak_1_11
+:class: dropdown
+
+Oplossen van de vergelijkingen geeft:
+
+$$ N_{\rm{AD}} = 30 \rm{kN} $$
+$$ N_{\rm{CE}} = 20 \rm{kN} $$
+$$ w_{\rm{E}} = -2 \rm{cm} $$
+$$ w_{\rm{D}} = 3 \rm{cm} $$
+
+::::
+
+% solution_end
