@@ -88,6 +88,17 @@ Neem als statisch onbepaalde kracht de verticale oplegreactie bij B (positief om
 
 :::::
 
+% solution_start
+
+::::{solution} km_vak_1_1
+:class: dropdown
+
+De vormveranderingsvoorwaarde is $w_B = 0$. 
+
+::::
+
+% solution_end
+
 :::::{exercise}
 :label: km_vak_1_4
 :nonumber: true
