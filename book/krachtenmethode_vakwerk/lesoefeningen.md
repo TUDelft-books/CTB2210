@@ -219,7 +219,7 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $M_
 ---
 align: center
 ---
-Vrijlichaamsschema
+Vrijlichaamsschema met $M_{\rm{B}}$ als statisch onbepaalde. 
 ```
 
 De gebruikte vergelijkingen zijn:
@@ -313,7 +313,7 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $N_
 ---
 align: center
 ---
-Vrijlichaamsschema
+Vrijlichaamsschema met $N_{\rm{AD}}$ als statisch onbepaalde. 
 ```
 
 De gebruikte vergelijkingen zijn:
