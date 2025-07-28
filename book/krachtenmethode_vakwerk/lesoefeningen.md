@@ -115,11 +115,13 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $B_
 ::::{solution} km_vak_1_1
 :class: dropdown
 
-```{figure} lesoefeningen_data/vergelijkingen.svg
+```{figure} lesoefeningen_data/Vrijlichaamsschema1.svg
 ---
 align: center
 ---
-Er zijn 21 evenwichtsvergelijkingen
+
+Vrijlichaamsschema met $B_{\rm{v}}$ als statisch onbepaalde.
+
 ```
 De gebruikte vergelijkingen zijn:
 
@@ -130,11 +132,13 @@ $$ w_D = \Delta l_{AD} = \cfrac{-N_{AD} \cdot l_{AD}}{EA} $$
 $$ w_B = w_D + \cfrac{3}{5} \cdot \left( w_E - w_D \right) = \cfrac{3}{5} w_E + \cfrac{2}{5} w_D $$
 
 Hieruit volgt:
+
 $$ N_{AD} = 0.4 \cdot B_{\rm{v}} + 15.6 $$
 $$ N_{CE} = - 0.6 \cdot B_{\rm{v}} + 41.6 $$
 $$ w_E = 0.0006 \cdot B_{\rm{v}} - 0.0416 $$
 $$ w_E = 0.0004 \cdot B_{\rm{v}} - 0.0156 $$
 $$ w_B = 0.00052 \cdot B_{\rm{v}} - 0.01872 $$
+
 ::::
 
 % solution_end
