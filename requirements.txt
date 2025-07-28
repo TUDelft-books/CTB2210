@@ -9,7 +9,7 @@ sphinx-tudelft-theme #BUMP
 teachbooks-sphinx-tippy
 sphinx-iframes
 sphinx-named-colors
-sphinx-proof
+git+https://github.com/TeachBooks/sphinx-proof #sphinx-proof vertaald nog niet naar NL
 sphinx-dropdown-toggle
 sphinx-code-examples
 

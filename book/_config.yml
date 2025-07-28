@@ -43,6 +43,7 @@ sphinx:                                              # Options passed on to the 
         mtextInheritFont: true                       # To typeset text within math prettier
       }
     named_colors_custom_colors: {'attributiongrey':[150,150,150]} # Custom colour for the attribution admonitions
+    sphinx_codex_name: "Voorbeeld"
     sphinx_codex_merge_with_proof:     true # default value
   local_extensions:
     apastyle: _ext/
