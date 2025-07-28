@@ -190,7 +190,9 @@ Neem als statisch onbepaalde kracht het moment $M_{\rm{B}}$ (positief zorgt voor
 ::::{solution} km_vak_1_6
 :class: dropdown
 
-De vormveranderingsvoorwaarde is: $ \rm{phi} _ {\rm{{B aan de kant van BD}}} = \rm{phi} _ {\rm{{B aan de kant van BE}}} $
+De vormveranderingsvoorwaarde is: 
+
+$$ \rm{phi} _ {\rm{{B \ aan \ de \ kant \ van \ BD}}} = \rm{phi} _ {\rm{{B \ aan \ de \ kant \ van \ BE}}} $$
 
 ::::
 
@@ -208,6 +210,36 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $M_
 
 :::::
 
+% solution_start
+
+::::{solution} km_vak_1_7
+:class: dropdown
+
+```{figure} lesoefeningen_data/Vrijlichaamsschema2.svg
+---
+align: center
+---
+Vrijlichaamsschema
+```
+
+De gebruikte vergelijkingen zijn:
+
+$$ \sum M \textbar _ {\rm{B}} ^{\rm{BD}} = 3 \cdot N_{\rm{AD}} + M_{\rm{B}} =0 $$ 
+$$ \sum M \textbar _ {\rm{B}} ^{\rm{BG}} = - M_{\rm{B}} + 2 \cdot N_{\rm{CE}} - 5 \cdot F =0 $$ 
+$$ \phi _ {\rm{B}} ^{\rm{DB}} = \cfrac{w_{\rm{D}}}{3} $$
+$$ \phi _ {\rm{B}} ^{\rm{BE}} = \cfrac{w_{\rm{E}}}{2} $$
+
+Hieruit volgt:
+
+$$ N_{\rm{AD}} = -0.33 \cdot M_{\rm{B}}$$
+$$ N_{\rm{CE}} = 0.5 \cdot M_{\rm{B}} + 65 $$
+$$ \phi _ {\rm{B}} ^{\rm{DB}} = -0.00011 \cdot M_{\rm{B}} $$
+$$ \phi _ {\rm{B}} ^{\rm{BE}} = 0.00025 \cdot M_{\rm{B}} + 0.0325 $$
+
+::::
+
+% solution_end
+
 :::::{exercise}
 :label: km_vak_1_8
 :nonumber: true
@@ -218,6 +250,22 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $M_{\rm{B}}$
 ```
 
 :::::
+
+% solution_start
+
+::::{solution} km_vak_1_8
+:class: dropdown
+
+Oplossen van de vergelijkingen geeft:
+
+$$ N_{\rm{AD}} = 30 \rm{kN} $$
+$$ N_{\rm{CE}} = 20 \rm{kN} $$
+$$ \phi_{\rm{B}} = 0.01 \rm{rad} $$
+$$ M_{\rm{B}} = -90 \rm{kNm} $$
+
+::::
+
+% solution_end
 
 ## Statisch onbepaalde normaalkracht $N_{\rm{AD}}$
 
