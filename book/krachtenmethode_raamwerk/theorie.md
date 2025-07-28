@@ -1,6 +1,5 @@
+(krachtenmethode_raamwerk)=
 # Theorie
-
-![alt text](image.png)
 
 De krachtenmethode hebben we eerder al behandeld voor onder andere [constructies belast op rek](krachtenmethode_simpel) en [balken](krachtenmethode_balk). Voor raamwerken is de procedure niet anders, behalve dat we het gedrag van rek en buiging niet altijd kunnen splitsen.
 
@@ -106,7 +105,7 @@ Met behulp van de vergeet-mij-nietjes kunnen de rotaties nu worden geëvalueerd:
 - $\varphi_{\rm{B}} = 0.0012 A_{\rm{v}} - 0.018$
 - $w_{\rm{A}} = 0.0216 A_{\rm{v}} - 0.108$
 
-Aangezien $EA = \infty$ is de $w_{\rm{A,h}} = 0$ ... hmmm, dit werkt niet xd
+Voor de horizontale verplaatsing geldt: $w_{\rm{A,h}}  = \cfrac{6A_{\rm{h}}}{EA} $ 
 
 ::::::
 
@@ -118,24 +117,30 @@ Aangezien $EA = \infty$ is de $w_{\rm{A,h}} = 0$ ... hmmm, dit werkt niet xd
 
 $$
 \begin{align*}
-\varphi_{\rm{B}}^{\rm{AB}} \left( M_{\rm{B}} \right) &= \varphi_{\rm{B}}^{\rm{BC}} \left( M_{\rm{B}} \right) \\
-\cfrac{4M_{\rm{B}}}{3EI} + \cfrac{200}{3EI} &= -\cfrac{2M_{\rm{B}}}{3EI} \\
-M_{\rm{B}} &= -20 \ \rm{kNm}
+w_{\rm{A,v}}\left( A_{\rm{v}}, A_{\rm{h}} \right) &= 0 \\
+ 0.0216 A_{\rm{v}} - 0.108 &= 0 \\
+A_{\rm{v}} &= 5 \ \rm{kN}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+w_{\rm{A,h}}\left( A_{\rm{v}}, A_{\rm{h}} \right) &= 0 \\
+\cfrac{6A_{\rm{h}}}{EA} &= 0 \\
+A_{\rm{h}} &= 0 \ \rm{kN}
 \end{align*}
 $$
 ::::::
 
 ## Meer voorbeelden
 
-nog aanpassen....
-
-Het algemene concept van de krachtenmethode wordt behandeld in hoofdstuk 2.1 terwijl de krachtenmethode voor vakwerkconstructies wordt behandeld in hoofdstuk 2.2.1 - 2.2.7 en de meer specifieke 'hoekveranderingsvergelijkingen' in hoofdstuk 3.1 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
+Het algemene concept van de krachtenmethode wordt behandeld in hoofdstuk 2.1 terwijl de krachtenmethode voor vakwerkconstructies wordt behandeld in hoofdstuk 2.2.5 - 2.2.7 en de meer specifieke 'hoekveranderingsvergelijkingen' in hoofdstuk 3.1 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. De voorbeelden van hoofdstuk 3.1 worden behandeld in [de volgende les](krachtenmethode_raamwerk).
 
 Wanneer het boek de 'momentenvlakstelling' noemt in voorbeeld 2.2.6 en 2.2.7, kun je de verplaatsingen ook vinden met behulp van vergeet-mij-nietjes. De methode met verplaatsbare knopen ('hoekveranderingsvergelijkingen met verplaatsbare knopen') die in het verleden werd onderwezen wordt niet meer behandeld.
 
 ## Opdrachten
-nog aanpassen
 
-- Opgaven 2.1 - 2.30, 2.42 - 2.48, in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
+- Opgaves 2.15 - 2.22, 2.24, 2.26 - 2.29, 2.42 - 2.48 in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
+- Opgaves 3.11 - 3.15, 3.22, 3.23, 3.25 - 3.33/1, 3.35, 3.36, 3.45, 3.47-1, 3.47-2, 3.47-4, 3.50, 3.51 in hoofdstuk 3.4 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
 
-Antwoorden zijn beschikbaar op [deze website](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol3/Chapter1-2/).
+Antwoorden zijn beschikbaar op [deze website voor hoofdstuk 2](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol3/Chapter1-2/) en [hier voor hoofdstuk 3](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol3/Chapter1-3/).
