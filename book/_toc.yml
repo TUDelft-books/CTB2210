@@ -39,7 +39,7 @@ parts:
     - file: krachtenmethode_balk/lesoefeningen.md
   - file: krachtenmethode_raamwerk/lesson.md
     sections:
-    - file: krachtenmmethode_raamwerk/theorie.md
+    - file: krachtenmethode_raamwerk/theorie.md
   - file: steunpuntszetting_temperatuur/lesson.md
   - file: stijfheden/lesson.md
   - file: verplaatsingenmethode/lesson.md
