@@ -93,7 +93,15 @@ Neem als statisch onbepaalde kracht de verticale oplegreactie bij B (positief om
 ::::{solution} km_vak_1_1
 :class: dropdown
 
-De vormveranderingsvoorwaarde is $w_B = 0$. 
+```{figure} lesoefeningen_data/vrijlichaamsschema1.svg
+---
+align: center
+---
+Vrijlichaamsschema met statisch onbepaalde $B_{\rm{v}}$. 
+```
+De gebruikte vergelijkingen zijn: 
+$$ \sum T \vline_E = 5 \cdot N_{\rm{AD}} - 2 \cdot B_{\rm{v}} - 3 \cdot F $$
+
 
 ::::
 
@@ -109,6 +117,17 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $B_
 ```
 
 :::::
+
+% solution_start
+
+::::{solution} km_vak_1_1
+:class: dropdown
+
+De vormveranderingsvoorwaarde is $w_B = 0$. 
+
+::::
+
+% solution_end
 
 :::::{exercise}
 :label: km_vak_1_5
