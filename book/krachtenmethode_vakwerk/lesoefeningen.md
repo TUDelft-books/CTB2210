@@ -93,15 +93,7 @@ Neem als statisch onbepaalde kracht de verticale oplegreactie bij B (positief om
 ::::{solution} km_vak_1_1
 :class: dropdown
 
-```{figure} lesoefeningen_data/vrijlichaamsschema1.svg
----
-align: center
----
-Vrijlichaamsschema met statisch onbepaalde $B_{\rm{v}}$. 
-```
-De gebruikte vergelijkingen zijn: 
-$$ \sum T \vline_E = 5 \cdot N_{\rm{AD}} - 2 \cdot B_{\rm{v}} - 3 \cdot F $$
-
+De vormveranderingsvoorwaarde is $w_B = 0$.
 
 ::::
 
@@ -123,8 +115,26 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $B_
 ::::{solution} km_vak_1_1
 :class: dropdown
 
-De vormveranderingsvoorwaarde is $w_B = 0$. 
+```{figure} lesoefeningen_data/vergelijkingen.svg
+---
+align: center
+---
+Er zijn 21 evenwichtsvergelijkingen
+```
+De gebruikte vergelijkingen zijn:
 
+$$ \sum M \textbar _ E = 5 \cdot N_{AD} - 2 \cdot B_{\rm{v}} - 3 \cdot F =0 $$ 
+$$ \sum F _ v = - N_{AD} + B_{\rm{v}} + N_{CE} - F = 0 $$
+$$ w_E = - \Delta l_{CE} = \cfrac{-N_{CE} \cdot l_{CE}}{EA} $$
+$$ w_D = \Delta l_{AD} = \cfrac{-N_{AD} \cdot l_{AD}}{EA} $$ 
+$$ w_B = w_D + \cfrac{3}{5} \cdot \left( w_E - w_D \right) = \cfrac{3}{5} w_E + \cfrac{2}{5} w_D $$
+
+Hieruit volgt:
+$$ N_{AD} = 0.4 \cdot B_{\rm{v}} + 15.6 $$
+$$ N_{CE} = - 0.6 \cdot B_{\rm{v}} + 41.6 $$
+$$ w_E = 0.0006 \cdot B_{\rm{v}} - 0.0416 $$
+$$ w_E = 0.0004 \cdot B_{\rm{v}} - 0.0156 $$
+$$ w_B = 0.00052 \cdot B_{\rm{v}} - 0.01872 $$
 ::::
 
 % solution_end
