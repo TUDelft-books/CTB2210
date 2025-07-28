@@ -125,19 +125,19 @@ Vrijlichaamsschema met $B_{\rm{v}}$ als statisch onbepaalde.
 ```
 De gebruikte vergelijkingen zijn:
 
-$$ \sum M \textbar _ E = 5 \cdot N_{AD} - 2 \cdot B_{\rm{v}} - 3 \cdot F =0 $$ 
-$$ \sum F _ v = - N_{AD} + B_{\rm{v}} + N_{CE} - F = 0 $$
-$$ w_E = - \Delta l_{CE} = \cfrac{-N_{CE} \cdot l_{CE}}{EA} $$
-$$ w_D = \Delta l_{AD} = \cfrac{-N_{AD} \cdot l_{AD}}{EA} $$ 
-$$ w_B = w_D + \cfrac{3}{5} \cdot \left( w_E - w_D \right) = \cfrac{3}{5} w_E + \cfrac{2}{5} w_D $$
+$$ \sum M \textbar _ {\rm{E}} = 5 \cdot N_{\rm{AD}} - 2 \cdot B_{\rm{v}} - 3 \cdot F =0 $$ 
+$$ \sum F _ {\rm{v}} = - N_{\rm{AD}} + B_{\rm{v}} + N_{\rm{CE}} - F = 0 $$
+$$ w_{\rm{E}} = - \Delta l_{\rm{CE}} = \cfrac{-N_{\rm{CE}} \cdot l_{\rm{CE}}}{EA} $$
+$$ w_{\rm{D}} = \Delta l_{\rm{AD}} = \cfrac{-N_{\rm{AD}} \cdot l_{\rm{AD}}}{EA} $$ 
+$$ w_{\rm{B}} = w_{\rm{D}} + \cfrac{3}{5} \cdot \left( w_{\rm{E}} - w_{\rm{D}} \right) = \cfrac{3}{5} \cdot w_{\rm{E}} + \cfrac{2}{5} \cdot w_{\rm{D}} $$
 
 Hieruit volgt:
 
-$$ N_{AD} = 0.4 \cdot B_{\rm{v}} + 15.6 $$
-$$ N_{CE} = - 0.6 \cdot B_{\rm{v}} + 41.6 $$
-$$ w_E = 0.0006 \cdot B_{\rm{v}} - 0.0416 $$
-$$ w_E = 0.0004 \cdot B_{\rm{v}} - 0.0156 $$
-$$ w_B = 0.00052 \cdot B_{\rm{v}} - 0.01872 $$
+$$ N_{\rm{AD}} = 0.4 \cdot B_{\rm{v}} + 15.6 $$
+$$ N_{\rm{CE}} = - 0.6 \cdot B_{\rm{v}} + 41.6 $$
+$$ w_{\rm{E}} = 0.0006 \cdot B_{\rm{v}} - 0.0416 $$
+$$ w_{\rm{E}} = 0.0004 \cdot B_{\rm{v}} - 0.0156 $$
+$$ w_{\rm{B}} = 0.00052 \cdot B_{\rm{v}} - 0.01872 $$
 
 ::::
 
@@ -154,6 +154,24 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $B_{\rm{v}}$
 
 :::::
 
+% solution_start
+
+::::{solution} km_vak_1_1
+:class: dropdown
+
+Oplossen van de vergelijkingen geeft:
+
+$$ B_{\rm{v}} = 36 \rm{kN} $$
+$$ N_{\rm{AD}} = 30 \rm{kN} $$
+$$ N_{\rm{CE}} = 20 \rm{kN} $$
+$$ w_{\rm{E}} = -2 \rm{cm} $$
+$$ w_{\rm{D}} = 3 \rm{cm} $$
+$$ w_{\rm{B}} = 0 $$
+
+::::
+
+% solution_end
+
 ## Statisch onbepaald moment $M_{\rm{B}}$
 
 :::::{exercise}
@@ -166,6 +184,18 @@ Neem als statisch onbepaalde kracht het moment $M_{\rm{B}}$ (positief zorgt voor
 ```
 
 :::::
+
+% solution_start
+
+::::{solution} km_vak_1_1
+:class: dropdown
+
+De vormveranderingsvoorwaarde is: $ \rm{phi} _ {\rm{{B aan de kant van BD}}} = \rm{phi} _ {\rm{{B aan de kant van BE}}} $
+
+::::
+
+% solution_end
+
 
 :::::{exercise}
 :label: km_vak_1_7
