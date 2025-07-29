@@ -69,26 +69,25 @@ Statisch bepaald systeem
 
 3. Los de verplaatsing op in termen van de onbekende onbepaalde krachten zoals je normaal zou doen voor een statisch bepaalde constructie.
 
-::::::{prf:example}
-:nonumber: true
-:label: steunpunt_3
+    ::::::{prf:example}
+    :nonumber: true
+    :label: steunpunt_3
 
-Met behulp van vergeet-me-nietjes kunnen de rotaties worden gevonden ten gevolge van de momenten en verdeelde belasting. De staaf roteert ook nog als geheel, deze rotatie moet ook worden meegenomen.
+    Met behulp van vergeet-me-nietjes kunnen de rotaties worden gevonden ten gevolge van de momenten en verdeelde belasting. De staaf roteert ook nog als geheel, deze rotatie moet ook worden meegenomen.
 
-- $\varphi _{\rm{B}}^{{\rm{AB}}}  = \cfrac{{ - {M_{\rm{B}}} \cdot 4}}{{3 \cdot EI}} + \cfrac{{17 \cdot {4^3}}}{{24 \cdot EI}} - \cfrac{{{w_{\rm{B}}}}}{4}  = -\cfrac{M_{\rm{B}}}{25500} -\cfrac{7}{1500}$
-- $\varphi _{\rm{B}}^{{\rm{BC}}}  = \cfrac{{{M_{\rm{B}}} \cdot 6}}{{3 \cdot EI}} - \cfrac{{{M_{\rm{C}}} \cdot 6}}{{6 \cdot EI}} + \cfrac{{{w_{\rm{B}}}}}{6} = \cfrac{M_{\rm{B}}}{17000} - \cfrac{M_{\rm{C}}}{34000} + \cfrac{1}{250}$
-- $\varphi_{\rm{C}} = -\cfrac{M_\text{B} \cdot 6}{3 \cdot EI} + \cfrac{M_\text{C} \cdot 6}{6 \cdot EI} + \cfrac{w_\text{B}}{6} = -\cfrac{M_{\rm{B}}}{34000} + \cfrac{M_{\rm{C}}}{17000} + \cfrac{1}{250}$
+    - $\varphi _{\rm{B}}^{{\rm{AB}}}  = \cfrac{{ - {M_{\rm{B}}} \cdot 4}}{{3 \cdot EI}} + \cfrac{{17 \cdot {4^3}}}{{24 \cdot EI}} - \cfrac{{{w_{\rm{B}}}}}{4}  = -\cfrac{M_{\rm{B}}}{25500} -\cfrac{7}{1500}$
+    - $\varphi _{\rm{B}}^{{\rm{BC}}}  = \cfrac{{{M_{\rm{B}}} \cdot 6}}{{3 \cdot EI}} - \cfrac{{{M_{\rm{C}}} \cdot 6}}{{6 \cdot EI}} + \cfrac{{{w_{\rm{B}}}}}{6} = \cfrac{M_{\rm{B}}}{17000} - \cfrac{M_{\rm{C}}}{34000} + \cfrac{1}{250}$
+    - $\varphi_{\rm{C}} = -\cfrac{M_\text{B} \cdot 6}{3 \cdot EI} + \cfrac{M_\text{C} \cdot 6}{6 \cdot EI} + \cfrac{w_\text{B}}{6} = -\cfrac{M_{\rm{B}}}{34000} + \cfrac{M_{\rm{C}}}{17000} + \cfrac{1}{250}$
 
-De rotatie van $\rm{AB}$ (met de klok mee) heeft de omgekeerde richting als $\varphi _{\rm{B}}^{{\rm{AB}}}$ (tegen de klok in), terwijl de rotatie van $\rm{BC}$ (met de klok mee) dezelfde richting is als $\varphi _{\rm{B}}^{{\rm{BC}}}$ en $\varphi_{\rm{C}}$.
+    De rotatie van $\rm{AB}$ (met de klok mee) heeft de omgekeerde richting als $\varphi _{\rm{B}}^{{\rm{AB}}}$ (tegen de klok in), terwijl de rotatie van $\rm{BC}$ (met de klok mee) dezelfde richting is als $\varphi _{\rm{B}}^{{\rm{BC}}}$ en $\varphi_{\rm{C}}$.
 
-::::::
+    ::::::
 
 4. Gebruik je vormveranderingsvoorwaarden om de statisch onbepaalde krachten op te lossen
 
-
 ::::::{prf:example}
 :nonumber: true
-:label: sd_extsimpel_5
+:label: steunpunt_4
 
 $\varphi _{\rm{B}}^{{\rm{AB}}} = \varphi _{\rm{B}}^{{\rm{BC}}}$ en $ \varphi_{\rm{C}} = 0$ geeft:
 
