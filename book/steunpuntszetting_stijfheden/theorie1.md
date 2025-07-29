@@ -35,37 +35,37 @@ Voorbeeldconstructie
 
 1. Bepaal de graad van statische bepaaldheid.
 
-::::::{prf:example}
-:nonumber: true
-:label: steunpunt_1
+    ::::::{prf:example}
+    :nonumber: true
+    :label: steunpunt_1
 
-```{figure} ./theorie_data/statisch_onbepaaldheid.svg
----
-align: center
----
-Er zijn 16 onbekende krachten en 14 evenwichtsvergelijkingen
-```
+    ```{figure} ./theorie_data/statisch_onbepaaldheid.svg
+    ---
+    align: center
+    ---
+    Er zijn 16 onbekende krachten en 14 evenwichtsvergelijkingen
+    ```
 
-Deze constructie is dus 2e orde intern statisch onbepaald.
+    Deze constructie is dus 2e orde intern statisch onbepaald.
 
-::::::
+    ::::::
 
 2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij een pendelstaaf, of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaardes toe voor elke opleggging die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!
 
-::::::{prf:example}
-:nonumber: true
-:label: steunpunt_2
+    ::::::{prf:example}
+    :nonumber: true
+    :label: steunpunt_2
 
-Er wordt hier gekozen voor hoekveranderingsvergelijkingen. Dat geeft dit statisch bepaalde systeem.
+    Er wordt hier gekozen voor hoekveranderingsvergelijkingen. Dat geeft dit statisch bepaalde systeem.
 
-```{figure} ./theorie_data/SB-systeem.svg
----
-align: center
----
-Statisch bepaald systeem
-```
+    ```{figure} ./theorie_data/SB-systeem.svg
+    ---
+    align: center
+    ---
+    Statisch bepaald systeem
+    ```
 
-::::::
+    ::::::
 
 3. Los de verplaatsing op in termen van de onbekende onbepaalde krachten zoals je normaal zou doen voor een statisch bepaalde constructie.
 
@@ -85,16 +85,16 @@ Statisch bepaald systeem
 
 4. Gebruik je vormveranderingsvoorwaarden om de statisch onbepaalde krachten op te lossen
 
-::::::{prf:example}
-:nonumber: true
-:label: steunpunt_4
+    ::::::{prf:example}
+    :nonumber: true
+    :label: steunpunt_4
 
-$\varphi _{\rm{B}}^{{\rm{AB}}} = \varphi _{\rm{B}}^{{\rm{BC}}}$ en $ \varphi_{\rm{C}} = 0$ geeft:
+    $\varphi _{\rm{B}}^{{\rm{AB}}} = \varphi _{\rm{B}}^{{\rm{BC}}}$ en $ \varphi_{\rm{C}} = 0$ geeft:
 
-- $M_{\rm{B}} = -128 \ \rm{kNm}$
-- $M_{\rm{C}} = -132 \ \rm{kNm}$
+    - $M_{\rm{B}} = -128 \ \rm{kNm}$
+    - $M_{\rm{C}} = -132 \ \rm{kNm}$
 
-::::::
+    ::::::
 
 ## Meer voorbeelden
 
