@@ -45,6 +45,7 @@ sphinx:                                              # Options passed on to the 
     named_colors_custom_colors: {'attributiongrey':[150,150,150]} # Custom colour for the attribution admonitions
     sphinx_codex_name: "Voorbeeld"
     sphinx_codex_merge_with_proof:     true # default value
+    tud_change_titlesize: false
   local_extensions:
     apastyle: _ext/
     bracket_citation_style: _ext/
