@@ -1,4 +1,4 @@
-# Theorie stijfheidsinvloeden {fa}`search` {style="color: var(--tud-yellow);"}
+# Theorie stijfheidsinvloeden
 
 ````{margin}
 ```{attributiongrey} Attribution
