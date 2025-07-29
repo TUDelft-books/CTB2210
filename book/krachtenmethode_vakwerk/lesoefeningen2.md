@@ -24,8 +24,6 @@ Bepaal de verplaatsingen van de knopen.
 :label: vakwerk_1_1
 :nonumber: true
 
-Wat is de graad van inwendig statisch onbepaaldheid?
-
 ```{h5p} https://tudelft.h5p.com/content/1292634971733883797/embed
 ```
 
