@@ -2,13 +2,6 @@
 
 Nu gaan we aan de slag met een oefening.
 
-````{margin}
-```{attributiongrey} Attribution
-:class: attribution
-
-Deze oefeningen is aangepast van  https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
-```
-````
 ## Oefening 1
 
 Gegeven is de volgende 1ste graads statisch onbepaalde constructie:
@@ -31,7 +24,8 @@ Gegeven zijn de volgende statisch bepaalde systeem.
 Twee statisch bepaalde systemen
 ```
 
-Waarom zijn dit lastige constructies om op te lossen?
+```{h5p} https://tudelft.h5p.com/content/1292652217804730007/embed
+```
 
 :::::
 
@@ -55,12 +49,15 @@ Gegeven is het vrijlichaamsschema van knoop $\rm{C}$:
 Vrijlichaamsschema van knoop $\rm{C}$ vergroot weergegeven
 ```
 
-Wat is het moment $M_{\rm{C}}^{\rm{BC}}$?
+```{h5p} https://tudelft.h5p.com/content/1292652219570406177/embed
+```
+
 :::::
 
 Om het gedoe met dat scharnier net links/net onder $\rm{C}$ te voorkomen kunnen we het scharnier ook direct in C plaatsen. Deze aanpak wordt aangeraden.
 
 ```{figure} ./lesoefeningen_data/scharnier_in_C.svg
+:name: statisch_onbepaald_C
 :align: center
 
 Statisch bepaald systeem met scharnier in $\rm{C}$
@@ -78,7 +75,10 @@ Vrijlichaamsschema van knoop $\rm{C}$ vergroot weergegeven
 :label: raam_1_3
 :nonumber: true
 
-Hoeveel statisch onbepaalde krachten/momenten zijn er?
+Ga uit van [het statisch bepaalde systeem met het scharnier in $\rm{C}$](statisch_onbepaald_C)?
+
+```{h5p} https://tudelft.h5p.com/content/1292652221281662937/embed
+```
 
 :::::
 
@@ -86,14 +86,10 @@ Hoeveel statisch onbepaalde krachten/momenten zijn er?
 :label: raam_1_4
 :nonumber: true
 
-Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $M_{\rm{C}}^{\rm{AC}}$
-:::::
+Los de verplaatsingen van deze constructie uit als functie van $M_{\rm{C}}^{\rm{AC}}$ en $M_{\rm{C}}^{\rm{BC}}$
 
-:::::{exercise}
-:label: raam_1_5
-:nonumber: true
-
-Los je vormveranderingsvoorwaarde op om $M_{\rm{C}}^{\rm{AC}}$ te vinden.
+```{h5p} https://tudelft.h5p.com/content/1292652223605026557/embed
+```
 
 :::::
 
@@ -101,8 +97,22 @@ Los je vormveranderingsvoorwaarde op om $M_{\rm{C}}^{\rm{AC}}$ te vinden.
 :label: raam_1_5
 :nonumber: true
 
-Los nu overige krachtsverdeling op.
+Los je vormveranderingsvoorwaarde op samen met je eerder opgestelde evenwichtsvergelijking om $M_{\rm{C}}^{\rm{AC}}$ en $M_{\rm{C}}^{\rm{BC}}$ te vinden.
+
+
+```{h5p} https://tudelft.h5p.com/content/1292652234901684787/embed
+```
 
 :::::
+
+````{margin}
+```{attributiongrey} Attribution
+:class: attribution
+
+Deze oefeningen is aangepast van  https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
+```
+````
+
+## Oefening 2
 
 ![alt text](image-2.png)
