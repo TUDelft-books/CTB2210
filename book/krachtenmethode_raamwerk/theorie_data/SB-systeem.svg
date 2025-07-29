@@ -26,8 +26,8 @@
 		.st16 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.12195121951219}
 		.st17 {fill:none;marker-start:url(#mrkr13-139);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st18 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22935779816514}
-		.st19 {font-size:1em}
-		.st20 {baseline-shift:32.4941%;font-size:0.649882em;font-style:normal}
+		.st19 {baseline-shift:32.4941%;font-size:0.649882em;font-style:normal}
+		.st20 {font-size:1em}
 		.st21 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
@@ -250,14 +250,14 @@
 		</g>
 		<g id="shape403-136" v:mID="403" v:groupContext="shape" transform="translate(71.2411,-85.4144)">
 			<title>EI = oo.403</title>
-			<desc>EA = ∞ EI = 5 MNm2</desc>
+			<desc>EI = 5 MNm2 EA &#62;&#62; EI</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="42.5197" cy="159.301" width="85.04" height="14.1732"/>
 			<rect x="0" y="152.214" width="85.0394" height="14.1732" class="st17"/>
-			<text x="24.53" y="155.7" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>EA<tspan class="st9"> </tspan><tspan
-						class="st9">= </tspan><tspan class="st9">∞<v:newlineChar/></tspan><tspan x="9.69" dy="1.2em" class="st19">EI</tspan><tspan
-						class="st9"> </tspan><tspan class="st9">= 5 MNm</tspan><tspan dy="-0.198em" class="st20"
-						v:baseFontSize="12">2</tspan> </text>		</g>
+			<text x="9.69" y="155.7" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>EI<tspan class="st9"> </tspan><tspan
+						class="st9">= 5 MNm</tspan><tspan dy="-0.198em" class="st19" v:baseFontSize="12">2</tspan><tspan
+						dy="0.129em" class="st9"> </tspan><tspan x="19.76" dy="1.2em" class="st20">EA</tspan><tspan class="st9"> </tspan><tspan
+						class="st9">&#62;&#62; </tspan>EI</text>		</g>
 		<g id="shape404-148" v:mID="404" v:groupContext="shape" transform="translate(127.934,-142.107)">
 			<title>Maatlijn verticaal.404</title>
 			<desc>30 kN</desc>

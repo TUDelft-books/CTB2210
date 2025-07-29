@@ -119,12 +119,8 @@ $$
 \begin{align*}
 w_{\rm{A,v}}\left( A_{\rm{v}}, A_{\rm{h}} \right) &= 0 \\
  0.0216 A_{\rm{v}} - 0.108 &= 0 \\
-A_{\rm{v}} &= 5 \ \rm{kN}
-\end{align*}
-$$
-
-$$
-\begin{align*}
+A_{\rm{v}} &= 5 \ \rm{kN} \\
+\\
 w_{\rm{A,h}}\left( A_{\rm{v}}, A_{\rm{h}} \right) &= 0 \\
 \cfrac{6A_{\rm{h}}}{EA} &= 0 \\
 A_{\rm{h}} &= 0 \ \rm{kN}
