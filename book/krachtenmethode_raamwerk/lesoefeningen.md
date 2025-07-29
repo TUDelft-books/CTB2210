@@ -190,7 +190,3 @@ Los de volledige krachtsverdeling op.
 ```
 
 :::::
-
-## Oefening 3
-
-![alt text](image-2.png)
