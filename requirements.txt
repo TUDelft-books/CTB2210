@@ -5,7 +5,7 @@ jupyterbook-patches
 sphinx-image-inverter
 download_link_replacer
 sphinx-exercise
-sphinx-tudelft-theme #BUMP
+sphinx-tudelft-theme #BUMPBUMP
 teachbooks-sphinx-tippy
 sphinx-iframes
 sphinx-named-colors
