@@ -109,7 +109,7 @@ Los je vormveranderingsvoorwaarde op samen met je eerder opgestelde evenwichtsve
 ```{attributiongrey} Attribution
 :class: attribution
 
-Deze oefeningen is aangepast van  https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
+Deze oefeningen is aangepast van https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
 ```
 ````
 
@@ -145,7 +145,6 @@ Er zijn een aantal opties gegeven voor mogelijke statisch bepaalde systemen. De 
 Er wordt gekozen voor het volgende statisch onbepaalde systeem inclusief vormveranderingsvoorwaarden:
 
 ```{figure} ./lesoefeningen_data/structure2.svg
-:name: statisch_onbepaald_C
 :align: center
 
 Statisch bepaald systeem
