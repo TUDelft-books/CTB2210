@@ -42,6 +42,7 @@ parts:
     - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/bending2.md
     - file: krachtenmethode_raamwerk/lesoefeningen.md
   - file: steunpuntszetting_stijfheden/lesson.md
+    sections:
     - file: steunpuntszetting_stijfheden/theorie1.md
   - file: temperatuur/lesson.md
   - file: verplaatsingenmethode/lesson.md
