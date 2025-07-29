@@ -27,7 +27,7 @@ parts:
     - file: ODE/lesoefeningen
   - file: krachtenmethode_vakwerk/lesson.md
     sections:
-    - file: krachtenmethode_vakwerk/theorie.ipynb
+    - file: krachtenmethode_vakwerk/theorie.md
     - file: krachtenmethode_vakwerk/lesoefeningen.md
   - file: krachtenmethode_vakwerk/lesson_2.md
     sections:
@@ -41,8 +41,8 @@ parts:
     sections:
     - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/bending2.md
     - file: krachtenmethode_raamwerk/lesoefeningen.md
-  - file: steunpuntszetting_temperatuur/lesson.md
-  - file: stijfheden/lesson.md
+  - file: steunpuntszetting_stijfheden/lesson.md
+  - file: temperatuur/lesson.md
   - file: verplaatsingenmethode/lesson.md
   - file: verplaats_vs_kracht/lesson.md
   - file: matrix/lesson.md
