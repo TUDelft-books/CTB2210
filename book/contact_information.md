@@ -30,6 +30,6 @@ Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassiste
 - Alexander Dzhanibekyan
 - Gweneira van Koot
 - Iris Oskam
-- Jelke Jansen
+- Jelke Janssen
 - Laurens van Bavel
 - Martijn Westerhof
