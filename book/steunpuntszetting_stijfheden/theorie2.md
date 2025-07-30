@@ -91,12 +91,12 @@ Voorbeeldconstructie
     $\varphi _{\rm{B}}^{{\rm{AB}}} = \varphi _{\rm{B}}^{{\rm{BC}}}$ geeft $M_{\rm{B}} = -\cfrac{6n}{n+1}$. $M_{\rm{D}}$ is dan $-\cfrac{3n}{n+1}+8$ (◡).
 
     Voor $n=0$ geeft dit:
-
+    
     - $M_{\rm{B}} = 0 \ \rm{kNm}$
     - $M_{\rm{D}} = 8 \ \rm{kNm}$
 
     Voor $\mathop {\lim }\limits_{n \to \infty } $ geeft dit:
-
+    
     - $M_{\rm{B}} = -6 \ \rm{kNm}$
     - $M_{\rm{D}} = 5 \ \rm{kNm}$
 
@@ -114,7 +114,11 @@ Voorbeeldconstructie
 
 ## Extremen
 
-### $nEI \to 0$
+::::::{prf:example}
+:nonumber: true
+:label: stijfheid_5
+
+**Geval $nEI \to 0$**
 
 Voor het eerste geval van $nEI \to 0 $ heeft het rechter gedeelte van de constructie geen stijfheid meer. Je zou het gedeelte $\rm{AB}$ daarom kunnen zijn als een statisch bepaalde ligger op twee steunpunten:
 
@@ -134,7 +138,7 @@ align: center
 Momentenlijn voor $nEI \to 0 $
 ```
 
-### $nEI \to \infty$
+**Geval $nEI \to \infty$**
 
 Voor het tweede geval van $nEI = \infty$ wordt het rechter gedeelte oneindig stijf:
 
@@ -160,7 +164,7 @@ Momentenlijn voor $nEI \to \infty $
 ```
 
 
-### Omhullende momentenlijn
+**Omhullende momentenlijn**
 
 De extreme momenten kunnen gecombineerd worden tot omhullende momentenlijn waarbij alle mogelijk waardes voor het moment voor $n$ in het grijze gedeelte vallen.
 
@@ -170,6 +174,8 @@ align: center
 ---
 Omhullende momentenlijn
 ```
+
+::::::
 
 ## Meer voorbeelden
 
