@@ -4,7 +4,7 @@ git+https://github.com/Teachbooks/teachbooks@develop
 jupyterbook-patches
 sphinx-image-inverter
 download_link_replacer
-sphinx-exercise
+git+https://github.com/TeachBooks/sphinx-exercise #sphinx-exercise nog niet vertaald naar NL
 sphinx-tudelft-theme #BUMPBUMP
 teachbooks-sphinx-tippy
 sphinx-iframes
