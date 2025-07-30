@@ -98,7 +98,7 @@ Voorbeeldconstructie
 
 ## Meer voorbeelden
 
-In hoofdstuk 6.1 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` wordt de krachtemethode in het algemeen behandeld. Voorbeeld 6.1.3 kan worden overgeslagen
+In hoofdstuk 6.1 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` worden steunpuntszettingen behandeld. Voorbeeld 6.1.3 kan worden overgeslagen
 
 ## Oefeningen
 - Opgaves 6.1 - 6.18, 6.20, 6.22 - 6.24 in hoofdstuk 6.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Er zijn helaas geen antwoorden beschikbaar.
