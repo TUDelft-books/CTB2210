@@ -95,7 +95,7 @@ Williot diagram voor het bepalen van de verplaatsing van $\rm{D}$ en $\rm{B}$.
 :label: steun_1_4
 :nonumber: true
 
-Los met de vormveranderingsvoorwaarde de onbekende $B_{rm{v}}$ op.
+Los met de vormveranderingsvoorwaarde de onbekende $B_{\rm{v}}$ op.
 
 ```{h5p} https://tudelft.h5p.com/content/1292654002392449027/embed
 ```
