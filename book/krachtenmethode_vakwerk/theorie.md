@@ -1,5 +1,5 @@
 (krachtenmethode_simpel)=
-# Theorie
+# Instructie
 
 De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rekenen. In deze methode wordt de constructie aangepast naar een statisch bepaalde constructie met vormveranderingsvoorwaarden. Vervolgens kan je de constructie oplossen zoals je gewend bent van statisch bepaalde constructies. De krachtenmethode bestaat altijd uit de volgende stappen:
 
@@ -138,6 +138,6 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
 In hoofdstuk 2.1 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` wordt de krachtemethode in het algemeen behandeld. Specifiek voor simpele vakwerkconstructies wordt behandeld in hoofdstuk 2.2.8 - 2.2.9.
 
 ## Oefeningen
-- Opgaves 2.31 - 2.36, 2.39, in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
+- Opgaves 2.31 - 2.39, in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
 
 Antwoorden zijn [hier beschikbaar](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol3/Chapter1-2/).

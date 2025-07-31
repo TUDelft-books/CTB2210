@@ -6,7 +6,7 @@ Deze oefeningen zijn aangepast van https://github.com/TUDelft-books/CT1000 versi
 ```
 ```` 
 
-# Oefenen
+# Begeleid oefenen
 
 Nu gaan we aan de slag met een oefening.
 
@@ -257,7 +257,7 @@ Williot diagram
 :label: vakwerk_1_6
 :nonumber: true
 
-Bepaal de verlengingen/verkortingen ten gevolge van de $B_{\rm{h}}$ met een apart williot-diagram. Houd daarvoor eerst $\rm{AD}$ in de horizontale oriëntatie zodat je die daarna kan terugdraaien.
+Bepaal de verlengingen/verkortingen ten gevolge van de $B_{\rm{h}}$ met een apart williot-diagram. Neem daarvoor een zelf gekozen lengte aan voor $B_{\rm{h}}$. Houd daarnaast eerst $\rm{AD}$ in de horizontale oriëntatie zodat je die daarna kan terugdraaien.
 
 ```{h5p} https://tudelft.h5p.com/content/1292635148099409217/embed
 ```

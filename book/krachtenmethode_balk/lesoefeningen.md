@@ -1,4 +1,4 @@
-# Oefenen
+# Begeleid oefenen
 
 Nu gaan we aan de slag met een oefening.
 
@@ -9,6 +9,7 @@ Nu gaan we aan de slag met een oefening.
 Deze oefening is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie CTB2210-2025.
 ```
 ````
+
 ## Oefening 1
 
 Gegeven is de volgende constructie:
