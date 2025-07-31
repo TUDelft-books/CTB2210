@@ -45,6 +45,7 @@ parts:
     sections:
     - file: steunpuntszetting_stijfheden/theorie1.md
     - file: steunpuntszetting_stijfheden/theorie2.md
+    - file: steunpuntszetting_stijfheden/lesoefeningen.md
   - file: temperatuur/lesson.md
   - file: verplaatsingenmethode/lesson.md
   - file: verplaats_vs_kracht/lesson.md
