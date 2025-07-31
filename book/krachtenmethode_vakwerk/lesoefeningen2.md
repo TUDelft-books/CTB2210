@@ -75,15 +75,15 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 :label: vakwerk_1_3
 :nonumber: true
 
-We kiezen voor een statisch onbepaalde kracht B_h (naar links positief) met de vormveranderingsvoorwaarde $w_{\rm{B,h}} = 0 $.
+We kiezen voor een statisch onbepaalde kracht $B_{\rm{h}}$ (naar links positief) met de vormveranderingsvoorwaarde $w_{\rm{B,h}} = 0 $.
 
 ```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/SD.svg
 :align: center
 
-Statically determinate structure with compatibility condition
+Statisch bepaalde constructie met vormveranderingsvoorwaarde
 ```
 
-Bepaal de normaalkrachten in alle staven als functie van $B_{\rm{h}} = 0$.
+Bepaal de normaalkrachten in alle staven als functie van $B_{\rm{h}}$.
 
 ```{h5p} https://tudelft.h5p.com/content/1292635090407938947/embed
 ```
@@ -95,12 +95,12 @@ Bepaal de normaalkrachten in alle staven als functie van $B_{\rm{h}} = 0$.
 ::::{solution} vakwerk_1_3
 :class: dropdown
 
-The section forces are solved for, starting with the forces in $\rm{BE}$ and $\rm{BD}$:
+De staafkrachten worden opgelost, beginnende bij de krachten in de staven $\rm{BE}$ en $\rm{BD}$:
 
 ```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_B.svg
 :align: center
 
-Free-body-diagram joint $\rm{B}$
+Vrijlichaamsschema van knoop B $\rm{B}$
 ```
 
 $$
@@ -113,15 +113,15 @@ $$
 ```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_B_sol.svg
 :align: center
 
-Free-body-diagram joint $\rm{B}$ with resulting sections forces
+Vrijlichaamsschema van knoop $\rm{B}$ met de opgeloste staafkrachten
 ```
 
-Now, let's continue with a section through beams $\rm{AD}$, $\rm{CD}$ and $\rm{CE}$:
+Vervolgens wordt een snede gemaakt door de staven $\rm{AD}$, $\rm{CD}$ en $\rm{CE}$:
 
 ```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_AC.svg
 :align: center
 
-Free-body-diagram part $\rm{AC}$
+Vrijlichaamsschema van deel $\rm{AC}$
 ```
 
 $$
@@ -135,15 +135,15 @@ $$
 ```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_AC_sol.svg
 :align: center
 
-Free-body-diagram part $\rm{AC}$ with resulting section forces
+Vrijlichaamsschema van deel $\rm{AC}$ met de berekende staafkrachten
 ```
 
-Thirdly, let's continue with the joint $\rm{D}$:
+Daarna wordt knoopevenwicht van $\rm{D}$ beschouwd:
 
 ```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_D.svg
 :align: center
 
-Free-body-diagram joint $\rm{D}$
+Vrijlichaamsschema van knoop $\rm{D}$
 ```
 
 $$\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{DE}}}} =  6.25{\rm{ kN}}$$
@@ -151,15 +151,15 @@ $$\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{DE}}}} =  6.25{\rm{ kN}}$$
 ```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_D_sol.svg
 :align: center
 
-Free-body-diagram joint $\rm{D}$
+Vrijlichaamsschema van knoop $\rm{D}$ met de opgeloste staafkracht
 ```
 
-And finally joint $\rm{C}$:
+En ten slotte knoop $\rm{C}$:
 
 ```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_C.svg
 :align: center
 
-Free-body-diagram joint $\rm{D}$
+Vrijlichaamsschema van knoop $\rm{C}$
 ```
 
 $$\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{AC}}}} =  - 18.75{\rm{ kN}}$$
@@ -167,7 +167,7 @@ $$\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{AC}}}} =  - 18.75{\rm{ kN}}$$
 ```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_C_sol.svg
 :align: center
 
-Free-body-diagram joint $\rm{D}$
+Vrijlichaamsschema van knoop $\rm{C}$ met de opgeloste staafkracht
 ```
 
 
@@ -179,7 +179,7 @@ Free-body-diagram joint $\rm{D}$
 :label: vakwerk_1_4
 :nonumber: true
 
-Bepaal de verlenging/verkorting in alle staven als functie van $B_{\rm{h}} = 0$.
+Bepaal de verlenging/verkorting in alle staven als functie van $B_{\rm{h}}$.
 
 ```{h5p} https://tudelft.h5p.com/content/1292635092328991097/embed
 ```
@@ -191,7 +191,7 @@ Bepaal de verlenging/verkorting in alle staven als functie van $B_{\rm{h}} = 0$.
 ::::{solution} vakwerk_1_3
 :class: dropdown
 
-Now, for each element the shortening / lengthening can be calculated:
+Nu kan voor elk element de verlenging / verkorting worden berekend:
 
 $$\Delta L = \frac{{NL}}{{EA}} \to \begin{array}{c}
 {\Delta {L_{{\rm{AC}}}} =  - 0.025 \ {\rm{ m}}}\\
@@ -290,7 +290,7 @@ Williot diagram
 
 $\theta = \cfrac{2.4{B_{\rm{h}}}}{{12000}} = 0.0002{B_{\rm{h}}}{\rm{ rad}}$ ⟲, dit geeft:
 
-| Scharnier | Verplaatsing in horizontale richting → (mm)| Verplaatsing in verticale richting ↓ (mm)|
+| Scharnier | Verplaatsing in horizontale richting ten gevolge van rotatie → (mm)| Verplaatsing in verticale richting ten gevolge van rotatie ↓ (mm)|
 | :-:|:-:|:-:|
 |$\rm{A}$|$0$|$0$|
 |$\rm{C}$|$-0.8 B_\rm{h}$|$-0.6 B_\rm{h}$|
@@ -311,7 +311,7 @@ Resulteert in:
 ```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/displaced2.svg
 :align: center
 
-Displaced structure
+Constructie in verplaatste stand
 ```
 
 
@@ -334,7 +334,7 @@ Displaced structure
 ::::{solution} vakwerk_1_7
 :class: dropdown
 
-$${w_{{\rm{B,h}}}} = 0 \to 25 - 3.2{B_{\rm{h}}} = 0 \to {B_{\rm{h}}} =  7.5{\rm{ kN}}$$
+$${w_{{\rm{B,h}}}} = 0 \to 24 - 3.2{B_{\rm{h}}} = 0 \to {B_{\rm{h}}} =  7.5{\rm{ kN}}$$
 
 ::::
 
@@ -357,7 +357,7 @@ Gebruik je resultaat om de normaalkrachten in alle staven te vinden.
 ::::{solution} vakwerk_1_8
 :class: dropdown
 
-| Element | Normal force (kN)|
+| Element | Normaalkracht (kN)|
 | :-:|:-:|
 |$\rm{AC}$|-18.75|
 |$\rm{CE}$|-7.5|
@@ -370,7 +370,7 @@ Gebruik je resultaat om de normaalkrachten in alle staven te vinden.
 ```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/N-line.svg
 :align: center
 
-Normal force distribution
+Normaalkrachtenlijn
 ```
 
 ::::
