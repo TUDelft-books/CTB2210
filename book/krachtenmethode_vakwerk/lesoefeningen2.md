@@ -6,7 +6,7 @@ Deze oefeningen zijn aangepast van https://github.com/TUDelft-books/CT1000 versi
 ```
 ```` 
 
-# Oefenen
+# Begeleid oefenen
 
 Nu gaan we aan de slag met een oefening.
 

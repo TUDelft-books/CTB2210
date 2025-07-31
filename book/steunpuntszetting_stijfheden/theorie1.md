@@ -1,4 +1,4 @@
-# Theorie steunpuntszettingen
+# Instructie steunpuntszettingen
 
 Steunpuntszettingen zorgen bij statisch bepaalde constructies niet voor krachten of vervormingen door rek, er zullen hoogstens verplaatsingen en rotaties van elementen als geheel plaatsvinden.
 

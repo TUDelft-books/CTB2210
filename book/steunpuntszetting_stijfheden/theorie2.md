@@ -1,4 +1,4 @@
-# Theorie stijfheidsinvloeden
+# Instructie stijfheidsinvloeden
 
 ````{margin}
 ```{attributiongrey} Attribution
