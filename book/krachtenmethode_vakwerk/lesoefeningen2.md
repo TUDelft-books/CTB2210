@@ -75,15 +75,15 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 :label: vakwerk_1_3
 :nonumber: true
 
-We kiezen voor een statisch onbepaalde kracht B_h (naar links positief) met de vormveranderingsvoorwaarde $w_{\rm{B,h}} = 0 $.
+We kiezen voor een statisch onbepaalde kracht $B_{\rm{h}}$ (naar links positief) met de vormveranderingsvoorwaarde $w_{\rm{B,h}} = 0 $.
 
 ```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/SD.svg
 :align: center
 
-Statically determinate structure with compatibility condition
+Statisch bepaalde constructie met vormveranderingsvoorwaarde
 ```
 
-Bepaal de normaalkrachten in alle staven als functie van $B_{\rm{h}} = 0$.
+Bepaal de normaalkrachten in alle staven als functie van $B_{\rm{h}}$.
 
 ```{h5p} https://tudelft.h5p.com/content/1292635090407938947/embed
 ```
