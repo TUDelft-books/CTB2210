@@ -57,7 +57,7 @@ Wat is de graad van statisch onbepaaldheid?
 :::::
 
 :::::{exercise}
-:label: steun_1_2
+:label: steun_1_3
 :nonumber: true
 
 Gekozen is het volgende statisch bepaalde systeem met vormveranderingsvoorwaarde:
@@ -77,7 +77,7 @@ Bepaal de krachtsverdeling en vervormingen als functie van $B_{\rm{v}}$. Neem in
 
 :::::
 
-::::{solution} steun_1_2
+::::{solution} steun_1_3
 :class: dropdown
 
 Nog aanvullen
@@ -92,7 +92,7 @@ Williot diagram voor het bepalen van de verplaatsing van $\rm{D}$ en $\rm{B}$.
 ::::
 
 :::::{exercise}
-:label: steun_1_3
+:label: steun_1_4
 :nonumber: true
 
 Los met de vormveranderingsvoorwaarde de onbekende $B_{rm{v}}$ op.
@@ -103,7 +103,7 @@ Los met de vormveranderingsvoorwaarde de onbekende $B_{rm{v}}$ op.
 :::::
 
 :::::{exercise}
-:label: steun_1_4
+:label: steun_1_5
 :nonumber: true
 
 Los de volledige krachtsverdeling en verplaatsingen op.
