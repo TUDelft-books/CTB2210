@@ -179,7 +179,7 @@ Vrijlichaamsschema van knoop $\rm{C}$ met de opgeloste staafkracht
 :label: vakwerk_1_4
 :nonumber: true
 
-Bepaal de verlenging/verkorting in alle staven als functie van $B_{\rm{h}} = 0$.
+Bepaal de verlenging/verkorting in alle staven als functie van $B_{\rm{h}}$.
 
 ```{h5p} https://tudelft.h5p.com/content/1292635092328991097/embed
 ```
@@ -290,7 +290,7 @@ Williot diagram
 
 $\theta = \cfrac{2.4{B_{\rm{h}}}}{{12000}} = 0.0002{B_{\rm{h}}}{\rm{ rad}}$ ⟲, dit geeft:
 
-| Scharnier | Verplaatsing in horizontale richting → (mm)| Verplaatsing in verticale richting ↓ (mm)|
+| Scharnier | Verplaatsing in horizontale richting ten gevolge van rotatie → (mm)| Verplaatsing in verticale richting ten gevolge van rotatie ↓ (mm)|
 | :-:|:-:|:-:|
 |$\rm{A}$|$0$|$0$|
 |$\rm{C}$|$-0.8 B_\rm{h}$|$-0.6 B_\rm{h}$|
@@ -334,7 +334,7 @@ Constructie in verplaatste stand
 ::::{solution} vakwerk_1_7
 :class: dropdown
 
-$${w_{{\rm{B,h}}}} = 0 \to 25 - 3.2{B_{\rm{h}}} = 0 \to {B_{\rm{h}}} =  7.5{\rm{ kN}}$$
+$${w_{{\rm{B,h}}}} = 0 \to 24 - 3.2{B_{\rm{h}}} = 0 \to {B_{\rm{h}}} =  7.5{\rm{ kN}}$$
 
 ::::
 
