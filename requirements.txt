@@ -10,6 +10,7 @@ teachbooks-sphinx-tippy
 sphinx-iframes
 sphinx-named-colors
 git+https://github.com/TeachBooks/sphinx-proof #sphinx-proof vertaald nog niet naar NL
+git+https://github.com/TeachBooks/sphinx-togglebutton
 sphinx-dropdown-toggle
 sphinx-code-examples
 
