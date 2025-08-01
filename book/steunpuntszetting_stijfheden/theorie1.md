@@ -1,5 +1,13 @@
 # Instructie steunpuntszettingen
 
+````{margin}
+```{attributiongrey} Attribution
+:class: attribution
+
+Deze theorie is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie EN.
+```
+````
+
 Steunpuntszettingen zorgen bij statisch bepaalde constructies niet voor krachten of vervormingen door rek, er zullen hoogstens verplaatsingen en rotaties van elementen als geheel plaatsvinden.
 
 ```{figure} ./theorie_data/SB.svg
