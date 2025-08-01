@@ -28,17 +28,6 @@ Bepaal de segmenten en teken de vrijlichaamsschema's. Bepaal de relaties van de 
 
 :::::
 
-% solution_start
-
-::::{solution} ODE_4_1
-:class: dropdown
-
-- $ u \left( 0\right) = 0 $
-- $ N \left( 9\right) = 20 $
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :label: ODE_4_2
@@ -49,17 +38,6 @@ Bepaal de segmenten en teken de vrijlichaamsschema's. Bepaal de relaties van de 
 
 :::::
 
-% solution_start
-
-::::{solution} ODE_4_2
-:class: dropdown
-
-- $ w_{\rm{AB}} \left( 4\right) = 0 $
-- $ w_{\rm{BC}} \left( 4\right) = 0 $
-
-::::
-
-% solution_end
 
 
 :::::{exercise}
@@ -73,15 +51,3 @@ Los de integratieconstanten op.
 
 :::::
 
-% solution_start
-
-::::{solution} ODE_4_3
-:class: dropdown
-
-Verplaatsing van C is $5$ mm omhoog.
-
-Verplaatsing halverwege AB is $0.8$ mm omlaag
-
-::::
-
-% solution_end
