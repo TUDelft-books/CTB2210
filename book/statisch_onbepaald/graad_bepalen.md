@@ -22,23 +22,6 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 
 `````
 
-% solution_start
-
-````{solution} so_2_1
-:class: dropdown
-
-Er zijn *7* onbekende oplegreacties en *6* onbekende verbindingskrachten. Dat zijn *13* onbekende krachten in totaal.
-
-```{figure} graad_bepalen_data/Oefening_8.svg
----
-align: center
----
-Aantal onbekende krachten
-```
-
-````
-
-% solution_end
 
 `````{exercise}
 :label: so_2_2
@@ -49,23 +32,6 @@ Aantal onbekende krachten
 
 `````
 
-% solution_start
-
-````{solution} so_2
-:class: dropdown
-
-Er zijn *12* evenwichtsvergelijking(en).
-
-```{figure} graad_bepalen_data/Oefening_9.svg
----
-align: center
----
-Aantal evenwichtsvergelijkingen
-```
-
-````
-
-% solution_end
 
 `````{exercise}
 :label: so_2_3
@@ -76,13 +42,3 @@ Aantal evenwichtsvergelijkingen
 
 `````
 
-% solution_start
-
-````{solution} so_2_3
-:class: dropdown
-
-De constructie is *1*ste/de graads uitwendig statisch onbepaald
-
-````
-
-% solution_end
