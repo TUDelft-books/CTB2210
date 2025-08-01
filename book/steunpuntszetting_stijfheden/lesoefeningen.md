@@ -207,7 +207,7 @@ Los met de vormveranderingsvoorwaardes de onbekende $A_{\rm{v}}$ en $D_{\rm{v}}$
 
 :::::
 
-::::{solution} steun_2-7
+::::{solution} steun_2_7
 :class: dropdown
 
 Nog aanvullen
