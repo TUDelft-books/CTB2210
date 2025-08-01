@@ -190,6 +190,18 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 
 :::::
 
+::::{solution} balk_2_2
+:class: dropdown
+
+- Weghalen verticale oplegging bij A
+  - Inderdaad, er is geen vergeet-me-nietje die voor dat statisch bepaalde systeem de verplaatsingen geeft
+- Toevoegen scharnier bij A
+  - Inderdaad, er is geen vergeet-me-nietje die voor dat statisch bepaalde systeem de verplaatsingen geeft
+- Toevoegen scharnier bij C
+- Weghalen verticale oplegging bij B
+
+::::
+
 ### Statisch bepaald systeem 1
 
 :::::{exercise}
