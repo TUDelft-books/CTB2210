@@ -1,5 +1,5 @@
 ````{margin}
-```{attributiongrey} Attribution
+```{attributiongrey} Bronvermelding
 :class: attribution
 
 Deze oefening is aangepast van https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.

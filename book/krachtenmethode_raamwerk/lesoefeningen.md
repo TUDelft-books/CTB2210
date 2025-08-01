@@ -102,7 +102,7 @@ Los je vormveranderingsvoorwaarde op samen met je eerder opgestelde evenwichtsve
 :::::
 
 ````{margin}
-```{attributiongrey} Attribution
+```{attributiongrey} Bronvermelding
 :class: attribution
 
 Deze oefeningen is aangepast van https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
