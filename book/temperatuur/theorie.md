@@ -32,7 +32,7 @@ De toepassing van temperatuursinvloeden op een statisch onbepaalde constructie w
 ```{attributiongrey} Attribution
 :class: attribution
 
-Deze theorie is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie 2024.
+Dit voorbeeld is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie 2024.
 ```
 ````
 
