@@ -1,7 +1,7 @@
 # Instructie
 
 ````{margin}
-```{attributiongrey} Attribution
+```{attributiongrey} Bronvermelding
 :class: attribution
 
 Deze theorie is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie EN.
@@ -29,7 +29,7 @@ Kinematisch equivalente belasting die tot dezelfde rek en kromming leidt als rek
 De toepassing van temperatuursinvloeden op een statisch onbepaalde constructie wordt in een voorbeeld getoond met de krachtenmethode.
 
 ````{margin}
-```{attributiongrey} Attribution
+```{attributiongrey} Bronvermelding
 :class: attribution
 
 Dit voorbeeld is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie 2024.
