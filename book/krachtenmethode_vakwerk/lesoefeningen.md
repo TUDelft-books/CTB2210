@@ -1,6 +1,4 @@
-# Begeleid oefenen
-
-Nu gaan we aan de slag met een oefening.
+# Begeleide oefening
 
 Gegeven is de volgende constructie:
 

@@ -2,13 +2,11 @@
 ```{attributiongrey} Attribution
 :class: attribution
 
-Deze oefeningen zijn aangepast van https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
+Deze oefening is aangepast van https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
 ```
 ```` 
 
-# Begeleid oefenen
-
-Nu gaan we aan de slag met een oefening.
+# Begeleide oefening
 
 Gegeven is de volgende constructie:
 
