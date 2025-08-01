@@ -12,7 +12,7 @@ Elementen verlengen onder uniforme belasting met een extra rek van $\epsilon^{\r
 
 De vervorming kan worden gevonden door de spanningsloze rekken te integreren met behulp van de differentiaalvergelijkingen. Alternatief kan een equivalente belasting worden gebruikt die tot dezelfde kromming leidt, zodat de vergeet-me-nietjes toegepast kunnen worden. Dit vereist een kinematisch equivalente belasting die geen invloed heeft op reactiekrachten en interne krachten:
 
-```{figure} ./temperature_data/kin_eq_load_SB.svg
+```{figure} ./theorie_data/kin_eq_load_SB.svg
 :align: center
 
 Kinematisch equivalente belasting die tot dezelfde rek en kromming leidt als rek door lineaire uitzetting
@@ -20,7 +20,7 @@ Kinematisch equivalente belasting die tot dezelfde rek en kromming leidt als rek
 
 In statisch onbepaalde constructies zijn de vervorming en krachtverdeling gekoppeld, wat leidt tot reactiekrachten en interne spanningen door de (tegengehouden) vervormingen als gevolg van de temperatuurverandering. Deze krachten kunnen opnieuw worden gevonden door de rekken (zowel de spanningsveroorzakende rekken als spanningsloze temperatuurrekken) te integreren met behulp van de differentiaalvergelijkingen. Alternatief kan een kinematisch equivalente belasting, zoals bij statisch bepaalde constructies, worden toegepast in combinatie met de krachtmethode: de verplaatsingen door temperatuur worden meegenomen in de vormveranderingsvoorwaarden.
 
-```{figure} ./temperature_data/kin_eq_load_SO.svg
+```{figure} ./theorie_data/kin_eq_load_SO.svg
 :align: center
 
 Kinematisch equivalente belasting die tot dezelfde rek en kromming leidt als rek door lineaire uitzetting, terwijl statisch onbepaalde reactiekrachten spanningen en reactiekrachten veroorzaken
