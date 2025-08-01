@@ -15,6 +15,6 @@ sphinx-dropdown-toggle
 sphinx-code-examples
 
 # Now list the packages you want to download directly from GitHub
-git+https://github.com/TeachBooks/Sphinx-Thebe
+git+https://github.com/TeachBooks/Sphinx-Thebe@i18n
 
 docutils==0.17.1
