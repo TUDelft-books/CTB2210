@@ -10,6 +10,12 @@ Deze oefeningen is aangepast van https://github.com/TUDelft-books/CT1000 versie 
 
 Gegeven is de volgende constructie:
 
+```{figure} ./lesoefeningen_data/structure.svg
+:align: center
+
+Constructie
+```
+
 :::::{exercise}
 :label: raam_2_1
 :nonumber: true
