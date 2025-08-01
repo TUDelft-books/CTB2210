@@ -22,36 +22,3 @@ Voer de geometrie, profielgegevens, opleggingen en scharnierende aansluitingen i
 
 :::::
 
-% solution_start
-
-::::{solution} mf_3_1
-:class: dropdown
-
-- Het moment in D is *7.78* kNm
-- De maximale zakking is *0.16* m
-- De absolute waarde van de rotatie van knoop A is *0.66* graden
-
-```{figure} lesoefeningen_data/image4.png
----
-align: center
----
-Moment in D
-```
-
-```{figure} lesoefeningen_data/image5.png
----
-align: center
----
-Maximale zakking
-```
-
-```{figure} lesoefeningen_data/image_3.png
----
-align: center
----
-Rotatie van knoop A in radialen
-```
-
-::::
-
-% solution_end
