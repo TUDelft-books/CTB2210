@@ -173,6 +173,7 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 - Toevoegen scharnier bij A
   - Inderdaad, er is geen vergeet-me-nietje die voor dat statisch bepaalde systeem de verplaatsingen geeft
 - Toevoegen scharnier bij C
+  - Er zijn wel degelijk vergeet-me-nietjes voor deze situatie, maar het rechter deel zal echter ook nog roteren rondom B
 - Weghalen verticale oplegging bij B
 
 ::::
@@ -198,6 +199,38 @@ Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie v
 
 :::::
 
+% solution_start
+
+::::{solution} balk_2_3
+:class: dropdown
+
+Met behulp van het gegeven vrijlichaamsschema kunnen de dwarskracht net links van C, het moment in C en de dwarskracht net links van B worden bepaald als functie van $B_{\rm{v}}$:
+
+$$ V_{\rm{C}}^{\rm{AC}} \left( B_{\rm{v}} \right) = -1 \cdot B_{\rm{v}} + 54 $$
+$$ M_{\rm{C}} \left( B_{\rm{v}} \right) = -3 \cdot B_{\rm{v}} $$ 
+$$ V_{\rm{B}}^{\rm{BC}} \left( B_{\rm{v}} \right) = -1 \cdot B_{\rm{v}} $$
+
+De zakking, $w_{\rm{C}}$, en rotatie, $\varphi_{\rm{C}}$, in C kunnen worden gevonden door de kracht $B_{\rm{v}}$ te verplaatsen van B naar C met toevoeging van een moment, zie het onderstaande vrijlichaamsschema:
+
+```{figure} ./lesoefeningen_data/VrijlichaamsschemaAC.svg
+:align: center
+
+Vrijlichaamsschema van deel AC
+```
+
+Met behulp van de vergeet-mij-nietjes voor een uitkragende ligger belast door een kracht en een koppel wordt gevonden:
+
+$$ w_{\rm{C}} \left( B_{\rm{v}} \right) = \cfrac{\left(54 - B_{\rm{v}} \right) \cdot 3^3}{3 \cdot 1800} - \cfrac{3 \cdot B_{\rm{v}} \cdot 3^2}{2 \cdot 1800} = -0.0125 \cdot B_{\rm{v}} + 0.27 $$
+$$ \varphi_{\rm{C}} \left( B_{\rm{v}} \right) = \cfrac{\left(54 - B_{\rm{v}} \right) \cdot 3^2}{2 \cdot 1800} - \cfrac{3 \cdot B_{\rm{v}} \cdot 3}{1800} = -0.0075 \cdot B_{\rm{v}} + 0.135 $$
+
+De zakking in B, $w_{\rm{B}}$, is dan gelijk aan:
+
+$$ w_{\rm{B}} \left( B_{\rm{v}} \right) = w_{\rm{C}} + \varphi_{\rm{C}} \cdot 3 - \cfrac{B_{\rm{v}} \cdot 3^3}{3 \cdot 900} = -0.045 \cdot B_{\rm{v}} + 0.675 $$
+
+::::
+
+% solution_end
+
 :::::{exercise}
 :label: balk_2_4
 :nonumber: true
@@ -208,6 +241,19 @@ Los je vormveranderingsvoorwaarde op om $B_{\rm{v}}$ te vinden.
 ```
 
 :::::
+
+% solution_start
+
+::::{solution} balk_2_6
+:class: dropdown
+
+De vormveranderingsvoorwaarde is: $w_{\rm{B}} = -0.045 \cdot B_{\rm{v}} + 0.675 = 0$. 
+
+Hieruit volgt dat $B_{\rm{v}} = 15 \rm{kN}$
+
+::::
+
+% solution_end
 
 ### Statisch bepaald systeem 2
 
