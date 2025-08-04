@@ -1,4 +1,4 @@
-# Begeleid oefening 1
+# Begeleide oefening 1
 
 Gegeven is de volgende 1ste graads statisch onbepaalde constructie:
 
