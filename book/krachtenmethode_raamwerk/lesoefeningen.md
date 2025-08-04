@@ -169,6 +169,6 @@ Hieruit en uit de eerder opgestelde momentenevenwichtsvergelijking volgt: $M_{\r
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze oefeningen zijn aangepast van https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
+Deze oefening is aangepast van https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
 ```
 ````
