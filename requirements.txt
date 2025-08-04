@@ -1,7 +1,7 @@
 # first list the packages you wish to download from PyPI
 #teachbooks # BUMP to 0.2.2
 git+https://github.com/Teachbooks/teachbooks@develop
-jupyterbook-patches
+jupyterbook-patches #BUMP
 sphinx-image-inverter
 download_link_replacer
 git+https://github.com/TeachBooks/sphinx-exercise #sphinx-exercise nog niet vertaald naar NL
@@ -15,6 +15,6 @@ sphinx-dropdown-toggle
 sphinx-code-examples
 
 # Now list the packages you want to download directly from GitHub
-git+https://github.com/TeachBooks/Sphinx-Thebe
+git+https://github.com/TeachBooks/Sphinx-Thebe@i18n
 
 docutils==0.17.1

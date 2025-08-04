@@ -1,5 +1,13 @@
 # Instructie steunpuntszettingen
 
+````{margin}
+```{attributiongrey} Bronvermelding
+:class: attribution
+
+Deze theorie is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie EN.
+```
+````
+
 Steunpuntszettingen zorgen bij statisch bepaalde constructies niet voor krachten of vervormingen door rek, er zullen hoogstens verplaatsingen en rotaties van elementen als geheel plaatsvinden.
 
 ```{figure} ./theorie_data/SB.svg
@@ -13,7 +21,7 @@ Bij uitwendig statisch onbepaalde constructies zijn rekloze verplaatsingen en ro
 De toepassing van steunpuntszettingen op een statisch bepaalde constructie wordt in een voorbeeld getoond met de krachtenmethode, specifiek de hoekveranderingsvergelijkingen. Andere methodes zijn ook mogelijk.
 
 ````{margin}
-```{attributiongrey} Attribution
+```{attributiongrey} Bronvermelding
 :class: attribution
 
 Dit voorbeeld is aangepast van https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.

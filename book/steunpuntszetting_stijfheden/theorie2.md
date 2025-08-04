@@ -1,12 +1,12 @@
 # Instructie stijfheidsinvloeden
 
 ````{margin}
-```{attributiongrey} Attribution
+```{attributiongrey} Bronvermelding
 :class: attribution
 
 Deze theorie is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie EN.
 ```
-```` 
+````
 
 Verschillen in stijfheden zorgen bij statisch bepaalde constructies niet voor een krachtsherverdeling, enkel op de verplaatsingen. Bij statisch onbepaalde constructies zorgen stijfheidsverschillen ook voor verschillen in de krachtsverdeling. Het analyseren van de invloed hiervan kan erg interessant zijn.
 
@@ -19,7 +19,7 @@ Er zijn twee manieren om de stijfheidsinvloeden te analyseren:
 We behandelen beide aanpakken op de volgende constructie:
 
 ````{margin}
-```{attributiongrey} Attribution
+```{attributiongrey} Bronvermelding
 :class: attribution
 
 Dit voorbeeld is aangepast van https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.

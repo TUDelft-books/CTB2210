@@ -1,16 +1,12 @@
 ````{margin}
-```{attributiongrey} Attribution
+```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze oefeningen zijn aangepast van https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
+Deze oefening is aangepast van https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
 ```
 ````
 
-# Begeleid oefenen
-
-Nu gaan we aan de slag met een oefening.
-
-## Oefening 1
+# Begeleide oefening 1
 
 Gegeven is de volgende constructie:
 
@@ -112,16 +108,3 @@ Los de volledige krachtsverdeling en verplaatsingen op.
 ```
 
 :::::
-
-## Oefening 2
-
-Gegeven is de volgende constructie:
-
-```{figure} ./lesoefeningen_data/structure.svg
-:align: center
-
-Constructie
-```
-
-Kies zelf een statisch onbepaald ssyteem...
-

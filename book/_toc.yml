@@ -15,16 +15,22 @@ parts:
     sections:
     - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/determinancy.md
     - file: statisch_onbepaald/graad_bepalen.md
+    - file: statisch_onbepaald/graad_bepalen_2.md
+    - file: statisch_onbepaald/graad_bepalen_3.md
   - file: matrixframe/lesson.md
     sections:
     - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/tools/matrixframe.md #BUMP
     - file: matrixframe/lesoefeningen
+    - file: matrixframe/lesoefeningen_2
+    - file: matrixframe/lesoefeningen_3
   - file: ODE/lesson.md
     sections:
     - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210-2025/book/week_2/session_1/intro.ipynb
       sections:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/tools/TI-84.md
     - file: ODE/lesoefeningen
+    - file: ODE/lesoefeningen_2
+    - file: ODE/lesoefeningen_3
   - file: krachtenmethode_vakwerk/lesson.md
     sections:
     - file: krachtenmethode_vakwerk/theorie.md
@@ -37,16 +43,21 @@ parts:
     sections:
     - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/bending.md
     - file: krachtenmethode_balk/lesoefeningen.md
+    - file: krachtenmethode_balk/lesoefeningen_2.md
   - file: krachtenmethode_raamwerk/lesson.md
     sections:
     - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/bending2.md
     - file: krachtenmethode_raamwerk/lesoefeningen.md
+    - file: krachtenmethode_raamwerk/lesoefeningen_2.md
   - file: steunpuntszetting_stijfheden/lesson.md
     sections:
     - file: steunpuntszetting_stijfheden/theorie1.md
     - file: steunpuntszetting_stijfheden/theorie2.md
     - file: steunpuntszetting_stijfheden/lesoefeningen.md
+    - file: steunpuntszetting_stijfheden/lesoefeningen_2.md
   - file: temperatuur/lesson.md
+    sections:
+    - file: temperatuur/theorie.md
   - file: verplaatsingenmethode/lesson.md
   - file: verplaats_vs_kracht/lesson.md
   - file: matrix/lesson.md
