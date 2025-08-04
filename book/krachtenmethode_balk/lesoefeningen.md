@@ -56,7 +56,7 @@ $$ M_{\rm{B}} \left( A_{\rm{v}} \right) = 4 \cdot A_{\rm{v}} -200 $$
 
 De hoekverdraaiing bij B, $\varphi_{\rm{B}}$, kan worden bepaald uit $M_{\rm{B}}$ met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel.
 
-$$ \varphi_{\rm{B}} \left( A_{\rm{v}} \right) = \cfrac{1}{3} \cdot \cfrac{\(4 \cdot A_{\rm{v}} -200\) \cdot6}{\cfrac{16}{3} \cdot 10^3} = 0.0015 \cdot A_{\rm{v}} -0.0750 $$
+$$ \varphi_{\rm{B}} \left( A_{\rm{v}} \right) = \cfrac{1}{3} \cdot \cfrac{\left(4 \cdot A_{\rm{v}} -200\right) \cdot6}{\cfrac{16}{3} \cdot 10^3} = 0.0015 \cdot A_{\rm{v}} -0.0750 $$
 
 De zakking in A, $w_{\rm{A}}$, kan worden bepaald door deel AB bij B schuin in te klemmen met hoek \varphi_{\rm{B}} en de zakkingen ten gevolge van de verdeelde belasting en $A_{\rm{v}} in rekening te brengen. Hiervoor worden het vergeet-mij-nietje voor een uitkragende ligger met een verdeelde belasting en het vergeet-mij-nietje voor een uitkragende ligger belast door een puntlast gebruikt:
 
