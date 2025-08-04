@@ -54,30 +54,11 @@ Vrijlichaamsschema van deel BC
 ```
 $$ M_{\rm{B}} \left( A_{\rm{v}} \right) = 4 \cdot A_{\rm{v}} -200 $$
 
-De hoekverdraaiing bij B, $\varphi_{\rm{B}}$, kan worden bepaald uit $M_{\rm{B}}$ met behulp van het onderstaande vergeet-mij-nietje:
+De hoekverdraaiing bij B, $\varphi_{\rm{B}}$, kan worden bepaald uit $M_{\rm{B}}$ met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel.
 
-```{figure} lesoefeningen_data/Vergeet-mij-nietje_1.svg
----
-align: center
----
-Vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel
-```
 $$ \varphi_{\rm{B}} \left( A_{\rm{v}} \right) = \cfrac{1}{3} \cdot \cfrac{\(4 \cdot A_{\rm{v}} -200\) \cdot6}{\cfrac{16}{3} \cdot 10^3} = 0.0015 \cdot A_{\rm{v}} -0.0750 $$
 
-De zakking in A, $w_{\rm{A}}$, kan worden bepaald door deel AB bij B schuin in te klemmen met hoek \varphi_{\rm{B}} en de zakkingen ten gevolge van de verdeelde belasting en $A_{\rm{v}} in rekening te brengen. Hiervoor worden onderstaande vergeet-mij-nietjes gebruikt:
-
-```{figure} lesoefeningen_data/Vergeet-mij-nietje_2.svg
----
-align: center
----
-Vergeet-mij-nietje voor een uitkragende ligger met een verdeelde belasting
-```
-```{figure} lesoefeningen_data/Vergeet-mij-nietje_3.svg
----
-align: center
----
-Vergeet-mij-nietje voor een uitkragende ligger belast door een puntlast
-```
+De zakking in A, $w_{\rm{A}}$, kan worden bepaald door deel AB bij B schuin in te klemmen met hoek \varphi_{\rm{B}} en de zakkingen ten gevolge van de verdeelde belasting en $A_{\rm{v}} in rekening te brengen. Hiervoor worden het vergeet-mij-nietje voor een uitkragende ligger met een verdeelde belasting en het vergeet-mij-nietje voor een uitkragende ligger belast door een puntlast gebruikt:
 
 $$ w_{\rm{A}} \left( A_{\rm{v}} \right) = \varphi_{\rm{B}} \cdot 4 - \cfrac{25 \cdot 4^4}{8 \cdot \cfrac{16}{3} \cdot 10^3} + \cfrac{A_{\rm{v}} \cdot 4^3}{3 \cdot \cfrac{16}{3} \cdot 10^3}  =0.01 \cdot A_{\rm{v}} -0.45 $$
 
@@ -133,14 +114,8 @@ $$ \sum F_ {\rm{v}} = 45 - 4 \cdot 25 + 58.3 + C_{\rm{v}} = 0 \rightarrow C_{\rm
 
 $M_{\rm{B}}$ kan worden bepaald uit de momentensom om B van deel AB, dit geeft: $M_{\rm{B}} = - 20 \rm{kNm}$. $M_{\rm{halverwege \ AB}}$ kan op vergelijkbare wijze worden bepaald uit de momentensom om het punt halverwege AB: $M_{\rm{halverwege \ AB}} = 40 \rm{kNm}$. 
 
-De zakking halverwege AB, $w_{\rm{halverwege} \ \rm{AB}}$, kan op verschillende manieren worden gevonden. Hier wordt deze bepaald met behulp van het het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel en het onderstaande vergeet-mij-nietje:
+De zakking halverwege AB, $w_{\rm{halverwege} \ \rm{AB}}$, kan op verschillende manieren worden gevonden. Hier wordt deze bepaald met behulp van het het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel en het vergeet-mij-nietje voor een ligger op twee steunpunten met een verdeelde belasting. 
 
-```{figure} lesoefeningen_data/Vergeet-mij-nietje_4.svg
----
-align: center
----
-Vergeet-mij-nietje voor een ligger op twee steunpunten met een verdeelde belasting
-```
 $$ w_{\rm{halverwege \ AB}} = \cfrac{5}{384} \cdot \cfrac{25 \cdot 4^4}{\cfrac{16}{3}} - \cfrac{1}{16} \cdot \cfrac{20 \cdot 4^2}{\cfrac{16}{3}} = 12 \rm{mm} $$
 
 De zakking halverwege BC kan worden bepaald met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel:
