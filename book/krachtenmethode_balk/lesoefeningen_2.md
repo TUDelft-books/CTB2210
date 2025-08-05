@@ -50,7 +50,7 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 
 ::::
 
-### Statisch bepaald systeem 1
+## Statisch bepaald systeem 1
 
 :::::{exercise}
 :label: balk_2_3
@@ -127,7 +127,7 @@ Hieruit volgt dat $B_{\rm{v}} = 15 \rm{kN}$
 
 % solution_end
 
-### Statisch bepaald systeem 2
+## Statisch bepaald systeem 2
 
 :::::{exercise}
 :label: balk_2_5
@@ -202,7 +202,7 @@ Hieruit volgt $M_{\rm{C}} = 45 \rm{kNm}$.
 
 % solution_end
 
-### Krachtsverdeling en verplaatsingen statisch onbepaald systeem
+## Krachtsverdeling en verplaatsingen statisch onbepaald systeem
 
 :::::{exercise}
 :label: balk_2_7
