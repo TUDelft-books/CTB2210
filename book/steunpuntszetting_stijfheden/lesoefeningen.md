@@ -67,7 +67,19 @@ Wat is de graad van statisch onbepaaldheid?
 ::::{solution} steun_1_2
 :class: dropdown
 
-De constructie is 1ste graads inwendig statisch onbepaald
+```{figure} ./lesoefeningen_data/Onbekenden.svg
+:align: center
+
+Er zijn 6 onbekende krachten. 
+```
+
+```{figure} ./lesoefeningen_data/Vergelijkingen.svg
+:align: center
+
+Er zijn 5 evenwichtsvergelijkingen. 
+```
+
+De constructie is 1ste graads inwendig statisch onbepaald. 
 
 ::::
 
