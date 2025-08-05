@@ -100,18 +100,3 @@ Los met de vormveranderingsvoorwaardes de onbekende $A_{\rm{v}}$ en $D_{\rm{v}}$
 
 :::::
 
-::::{solution} steun_2_7
-:class: dropdown
-
-Nog aanvullen
-
-Deze functies kunnen ook geplot worden:
-
-```{figure} lesoefeningen_data/steunpuntszetting.svg
----
-align: center
----
-Oplegreacties als functie van $n$
-```
-
-::::

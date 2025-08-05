@@ -73,19 +73,6 @@ Bepaal de krachtsverdeling en vervormingen als functie van $B_{\rm{v}}$. Neem in
 
 :::::
 
-::::{solution} steun_1_3
-:class: dropdown
-
-Nog aanvullen
-
-```{figure} lesoefeningen_data/williot.svg
----
-align: center
----
-Williot diagram voor het bepalen van de verplaatsing van $\rm{D}$ en $\rm{B}$.
-```
-
-::::
 
 :::::{exercise}
 :label: steun_1_4
