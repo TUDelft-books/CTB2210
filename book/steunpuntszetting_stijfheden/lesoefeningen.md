@@ -24,17 +24,17 @@ Gegeven is de volgende uitwerking:
 
 $N_{\rm{BD}} = \cfrac{90}{6000} \cdot 15000 = 225 \ \rm{kN}$
 
-Equilibrium around node $\rm{D}$ gives:
+Evenwicht van knoop D levert:
 - $ N_{\rm{AD}} = -281.25 \ \rm{kN}$
 - $ N_{\rm{CD}} = -168.75 \ \rm{kN}$
 
-This gives:
+Hieruit volgt:
 - $\Delta L_{\rm{AD}} = \cfrac{-281.25 \cdot 15000}{10} = -0.140625 \ \rm{m}$
 - $\Delta L_{\rm{CD}} = \cfrac{-168.75 \cdot 15000}{6} = - 0.0675 \ \rm{m}$
 
-Resulting in a:
-- Horizontal displacement of $\rm{D}$ of $67.5 \ \rm{mm}$ to the right
-- Vertical displacement of $\rm{D}$ of $140.625 \cdot \cfrac{4}{5} = 112.5 \ \rm{mm} $ downwards
+Met als resultaat:
+- Horizontale verplaatsing van $\rm{D}$ van $67.5 \ \rm{mm}$ naar rechts
+- Verticale verplaatsing van $\rm{D}$ van $140.625 \cdot \cfrac{4}{5} = 112.5 \ \rm{mm} $ naar beneden
 
 ```{h5p} https://tudelft.h5p.com/content/1292653910239346277/embed
 ```
