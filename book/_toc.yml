@@ -58,6 +58,7 @@ parts:
   - file: temperatuur/lesson.md
     sections:
     - file: temperatuur/theorie.md
+    - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210-2025/book/week_8/session_3/intro.md
   - file: verplaatsingenmethode/lesson.md
   - file: verplaats_vs_kracht/lesson.md
   - file: matrix/lesson.md
