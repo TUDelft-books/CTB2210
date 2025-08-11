@@ -27,6 +27,13 @@ Wat is de graad van statisch onbepaaldheid?
 
 :::::
 
+::::{solution} steun_2_1
+:class: dropdown
+
+De constructie is 2e graads inwendig statisch onbepaald. 
+
+::::
+
 :::::{exercise}
 :label: steun_2_2
 :nonumber: true
@@ -37,6 +44,22 @@ Voor het geval dat $nEI \to 0$, bepaal de krachtsverdeling en verplaatsingen:
 ```
 
 :::::
+
+::::{solution} steun_2_2
+:class: dropdown
+
+Als deel $\rm{BC}$ geen buigstijfheid meer heeft ontstaan er feitelijk twee losse liggertjes waarvan de linker 25 $\rm{mm}$ zakt. Dit levert de onderstaande krachten en verplaatsingen:
+
+$$A_{\rm{v}} \left( nEI \to 0 \right) = 0 \rm{kN}$$
+$$B_{\rm{v}} \left( nEI \to 0 \right) = 0 \rm{kN}$$
+$$C_{\rm{v}} \left( nEI \to 0 \right) = 0 \rm{kN}$$
+$$D_{\rm{v}} \left( nEI \to 0 \right) = 0 \rm{kN}$$
+$$M_{\rm{B}} \left( nEI \to 0 \right) = 0 \rm{kNm}$$
+$$M_{\rm{D}} \left( nEI \to 0 \right) = 0 \rm{kNm}$$
+$$w_{\rm{halverwege} \ \rm{AB}} \left( nEI \to 0 \right) = 25 \rm{mm}$$
+$$w_{\rm{halverwege} \ \rm{CD}} \left( nEI \to 0 \right) = 0 \rm{mm}$$
+
+::::
 
 :::::{exercise}
 :label: steun_2_3
