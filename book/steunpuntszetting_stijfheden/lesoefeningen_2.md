@@ -27,6 +27,7 @@ Wat is de graad van statisch onbepaaldheid?
 
 :::::
 
+
 :::::{exercise}
 :label: steun_2_2
 :nonumber: true
@@ -38,6 +39,7 @@ Voor het geval dat $nEI \to 0$, bepaal de krachtsverdeling en verplaatsingen:
 
 :::::
 
+
 :::::{exercise}
 :label: steun_2_3
 :nonumber: true
@@ -48,6 +50,7 @@ Voor het geval dat $nEI \to \infty$, kies zelf een statisch bepaald systeem met 
 ```
 
 :::::
+
 
 :::::{exercise}
 :label: steun_2_4
@@ -66,6 +69,7 @@ Constructie
 
 :::::
 
+
 :::::{exercise}
 :label: steun_2_5
 :nonumber: true
@@ -77,6 +81,7 @@ Bepaal de krachtsverdeling en verplaatsingen als $A_{\rm{v}}$ en $D_{\rm{v}}$ ge
 
 :::::
 
+
 :::::{exercise}
 :label: steun_2_6
 :nonumber: true
@@ -87,6 +92,7 @@ Bepaal de krachtsverdeling en verplaatsingen als functie van $A_{\rm{v}}$ en $D_
 ```
 
 :::::
+
 
 :::::{exercise}
 :label: steun_2_7
