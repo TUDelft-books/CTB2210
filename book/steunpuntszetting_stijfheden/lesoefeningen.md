@@ -132,7 +132,7 @@ Williot diagram voor het bepalen van de verplaatsing van $\rm{D}$ en $\rm{B}$.
 Uit het williot diagram kan worden afgelezen:
 
 $$ w_{D,\rm{h}} = 0.0003 \cdot B_{\rm{v}} \ \rm{m} \left(\rightarrow\right)$$
-$$ w_{D,\rm{v}} \approx 0.001 \cdot B_{\rm{v}} \\rm{m} \left(\downarrow\right)$$
+$$ w_{D,\rm{v}} \approx 0.001 \cdot B_{\rm{v}} \ \rm{m} \left(\downarrow\right)$$
 $$ w_{B,\rm{h}} = 0 $$
 $$ w_{B,\rm{v}} \approx 0.0014 \cdot B_{\rm{v}} \ \rm{m} \left(\downarrow\right)$$
 
