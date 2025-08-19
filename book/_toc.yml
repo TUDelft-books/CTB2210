@@ -64,5 +64,6 @@ parts:
 # END REMOVE-FROM-RELEASE
 - caption: Diverse
   chapters:
+  - file: changelog
   - file: references
   - file: credits
