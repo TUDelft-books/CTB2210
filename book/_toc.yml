@@ -6,9 +6,8 @@ parts:
   chapters:
   - file: instructies
   - file: contact_information
-#  - url: https://brightspace.tudelft.nl/d2l/home/703722
-#    title: Brightspace announcements 📢
-# START REMOVE-FROM-RELEASE
+  - url: https://brightspace.tudelft.nl/d2l/home/774702
+    title: Brightspace 📢
 - caption: Lesstof 🧑‍🏫
   chapters:
   - file: statisch_onbepaald/lesson.md
@@ -17,6 +16,7 @@ parts:
     - file: statisch_onbepaald/graad_bepalen.md
     - file: statisch_onbepaald/graad_bepalen_2.md
     - file: statisch_onbepaald/graad_bepalen_3.md
+# START REMOVE-FROM-RELEASE
   - file: matrixframe/lesson.md
     sections:
     - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/tools/matrixframe.md #BUMP
