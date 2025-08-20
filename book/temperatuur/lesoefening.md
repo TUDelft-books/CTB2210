@@ -25,7 +25,7 @@ Wat is $\kappa_{\rm{T}}$?
 :label: temp_2_2
 :nonumber: true
 
-Bepaal met behulp van de differentiaalvergeijkingen de uitdrukkingen voor de snedekrachten en verplaatsingen. Merk op dat twee randvoorwaarden direct twee integratieconstantes geven.
+Bepaal met behulp van de differentiaalvergelijkingen de uitdrukkingen voor de snedekrachten en verplaatsingen. Merk op dat twee randvoorwaarden direct twee integratieconstantes geven.
 
 ```{h5p} https://tudelft.h5p.com/content/1292671251572754907/embed
 ```
