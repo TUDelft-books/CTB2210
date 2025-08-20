@@ -8,17 +8,18 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
 
     `````{tab-set}
     ````{tab-item} Weghalen oplegging
-    ```{figure} ../_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/force_method/force_method_data/1.svg
+    % Figures from https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/force_method_data/Tekening1.vsdx
+    ```{figure} theorie_data/1.svg
     :align: center
     ```
     ````
     ````{tab-item} Splitsen constructie bij pendelstaven
-    ```{figure} ../_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/force_method/force_method_data/2.svg
+    ```{figure} theorie_data/2.svg
     :align: center
     ```
     ````
     ````{tab-item} Toevoegen scharnieren
-    ```{figure} ../_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/force_method/force_method_data/3.svg
+    ```{figure} theorie_data/3.svg
     :align: center
     ```
     ````

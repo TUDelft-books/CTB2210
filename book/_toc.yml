@@ -61,7 +61,9 @@ parts:
     - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210-2025/book/week_8/session_3/intro.md
     - file: temperatuur/lesoefening.md
   - file: verplaatsingenmethode/lesson.md
-  - file: verplaats_vs_kracht/lesson.md
+    sections:
+    - file: verplaatsingenmethode/theorie.md
+  - file: verplaats2/lesson.md
   - file: matrix/lesson.md
 # END REMOVE-FROM-RELEASE
 - caption: Diverse
