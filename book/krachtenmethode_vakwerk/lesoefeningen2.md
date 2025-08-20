@@ -29,12 +29,6 @@ Bepaal de verplaatsingen van de knopen.
 
 
 
-::::{solution} vakwerk_1_1
-:class: dropdown
-
-De constructie is *1*ste/de graads inwendig statisch onbepaald
-
-::::
 
 
 
@@ -49,23 +43,6 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 
 
 
-::::{solution} vakwerk_1_2
-:class: dropdown
-
-- Weghalen horizontale oplegging bij B
-- Weghalen verticale oplegging bij B
-  - Inderdaad! Als je de hele oplegging weghaalt heb je een mechanisme kan roteren rondom A.
-- Splitsen constructie in pendelstaaf AC
-  -Inderdaad, als je deze pendelstaaf weghaalt krijg je een mechanisme wat kan roteren om A en B.
-- Splitsen constructie in pendelstaaf AD
-- Splitsen constructie in pendelstaaf CE
-  - Inderdaad, als je deze pendelstaaf weghaalt krijg je een mechanisme wat kan roteren om A en B.
-- Splitsen constructie in pendelstaaf DE
-  - Inderdaad, als je deze pendelstaaf weghaalt krijg je een mechanisme wat kan roteren om A en B.
-- Toevoegen scharnier halverwege CD
-  - Inderdaad, als je deze pendelstaaf weghaalt krijg je een lokaal mechanisme wat kan roteren om C en D.
-
-::::
 
 
 
@@ -90,86 +67,6 @@ Bepaal de normaalkrachten in alle staven als functie van $B_{\rm{h}}$.
 
 
 
-::::{solution} vakwerk_1_3
-:class: dropdown
-
-De staafkrachten worden opgelost, beginnende bij de krachten in de staven $\rm{BE}$ en $\rm{BD}$:
-
-```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_B.svg
-:align: center
-
-Vrijlichaamsschema van knoop B $\rm{B}$
-```
-
-$$
-\begin{array}{c}
-\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{BE}}}} = -6.25{\rm{ kN}}\\
-\sum {{F_{\rm{h}}} = 0}  \to {N_{{\rm{BD}}}} =  3.75 - {B_{\rm{h}}}
-\end{array}
-$$
-
-```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_B_sol.svg
-:align: center
-
-Vrijlichaamsschema van knoop $\rm{B}$ met de opgeloste staafkrachten
-```
-
-Vervolgens wordt een snede gemaakt door de staven $\rm{AD}$, $\rm{CD}$ en $\rm{CE}$:
-
-```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_AC.svg
-:align: center
-
-Vrijlichaamsschema van deel $\rm{AC}$
-```
-
-$$
-\begin{array}{c}
-\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{CD}}}} =  - 6.25{\rm{ kN}}\\
-{\sum {\left. T \right|} _{\rm{D}}} = 0 \to {N_{CE}} =  - 7.5{\rm{ kN}}\\
-\sum {{F_{\rm{h}}} = 0}  \to {N_{{\rm{AD}}}} = 11.25 - {B_{\rm{h}}}
-\end{array}
-$$
-
-```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_AC_sol.svg
-:align: center
-
-Vrijlichaamsschema van deel $\rm{AC}$ met de berekende staafkrachten
-```
-
-Daarna wordt knoopevenwicht van $\rm{D}$ beschouwd:
-
-```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_D.svg
-:align: center
-
-Vrijlichaamsschema van knoop $\rm{D}$
-```
-
-$$\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{DE}}}} =  6.25{\rm{ kN}}$$
-
-```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_D_sol.svg
-:align: center
-
-Vrijlichaamsschema van knoop $\rm{D}$ met de opgeloste staafkracht
-```
-
-En ten slotte knoop $\rm{C}$:
-
-```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_C.svg
-:align: center
-
-Vrijlichaamsschema van knoop $\rm{C}$
-```
-
-$$\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{AC}}}} =  - 18.75{\rm{ kN}}$$
-
-```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/FBD_C_sol.svg
-:align: center
-
-Vrijlichaamsschema van knoop $\rm{C}$ met de opgeloste staafkracht
-```
-
-
-::::
 
 
 
@@ -186,22 +83,6 @@ Bepaal de verlenging/verkorting in alle staven als functie van $B_{\rm{h}}$.
 
 
 
-::::{solution} vakwerk_1_3
-:class: dropdown
-
-Nu kan voor elk element de verlenging / verkorting worden berekend:
-
-$$\Delta L = \frac{{NL}}{{EA}} \to \begin{array}{c}
-{\Delta {L_{{\rm{AC}}}} =  - 0.025 \ {\rm{ m}}}\\
-{\Delta {L_{{\rm{CE}}}} =  - 0.012\ {\rm{ m}}}\\
-{\Delta {L_{\rm{BE}}} = \cfrac{1}{{120}} \approx  - 0.00833\ {\rm{ m}}}\\
-{\Delta {L_{{\rm{CD}}}} = \cfrac{1}{{120}} \approx  - 0.00833\ {\rm{ m}}}\\
-{\Delta {L_{{\rm{DE}}}} = \cfrac{1}{{120}} \approx 0.00833 \ {\rm{ m}}}\\
-{\Delta {L_{{\rm{AD}}}} = 0.018 - \cfrac{1}{{625}} \ {B_{\rm{h}}} = 0.018 - 0.0016{B_{\rm{h}}} \ {\rm{ m}}}\\
-{\Delta {L_{{\rm{DB}}}} = 0.006 - 0.0016{B_{\rm{h}}} \ {\rm{ m}}}
-\end{array}$$
-
-::::
 
 
 :::::{exercise}
@@ -238,16 +119,6 @@ Incompleet Williot diagram
 
 
 
-::::{solution} vakwerk_1_5
-:class: dropdown
-
-```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/williot3.svg
-:align: center
-
-Williot diagram
-```
-
-::::
 
 
 
@@ -269,51 +140,6 @@ Draai $\rm{AD}$ nu zo terug dat $\rm{B}$ niet meer verticaal verplaatst.
 
 
 
-::::{solution} vakwerk_1_6
-:class: dropdown
-
-```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/williot2.svg
-:align: center
-
-Williot diagram
-```
-
-| Scharnier | Verplaatsing in horizontale richting → (mm)| Verplaatsing in verticale richting ↓ (mm)|
-| :-:|:-:|:-:|
-|$\rm{A}$|$0$|$0$|
-|$\rm{C}$|$-0.8{B_{\rm{h}}}$|$-0.6{B_{\rm{h}}}$|
-|$\rm{D}$|$-1.6{B_{\rm{h}}}$|$0$|
-|$\rm{E}$|$-0.8{B_{\rm{h}}}$|$0.6{B_{\rm{h}}}$|
-|$\rm{B}$|$-3.2{B_{\rm{h}}}$|$2.4{B_{\rm{h}}}$|
-
-$\theta = \cfrac{2.4{B_{\rm{h}}}}{{12000}} = 0.0002{B_{\rm{h}}}{\rm{ rad}}$ ⟲, dit geeft:
-
-| Scharnier | Verplaatsing in horizontale richting ten gevolge van rotatie → (mm)| Verplaatsing in verticale richting ten gevolge van rotatie ↓ (mm)|
-| :-:|:-:|:-:|
-|$\rm{A}$|$0$|$0$|
-|$\rm{C}$|$-0.8 B_\rm{h}$|$-0.6 B_\rm{h}$|
-|$\rm{D}$|$0$|$-1.2B_\rm{h}$|
-|$\rm{E}$|$-0.8 B_\rm{h}$|$-1.8B_\rm{h}$|
-|$\rm{B}$|$0$|$-2.4 B_\rm{h}$|
-
-Resulteert in:
-
-| Scharnier | Verplaatsing in horizontale richting → (mm)| Verplaatsing in verticale richting ↓ (mm)|
-| :-:|:-:|:-:|
-|$\rm{A}$|$0$|$0$|
-|$\rm{C}$|$-1.6B_\rm{h}$|$-1.2B_\rm{h}$|
-|$\rm{D}$|$-1.6{B_{\rm{h}}}$|$-1.2B_\rm{h}$|
-|$\rm{E}$|$-1.6B_\rm{h}$|$-1.2B_\rm{h}$|
-|$\rm{B}$|$-3.2B_\rm{h}$|$0$|
-
-```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/displaced2.svg
-:align: center
-
-Constructie in verplaatste stand
-```
-
-
-::::
 
 
 
@@ -329,12 +155,6 @@ Constructie in verplaatste stand
 
 
 
-::::{solution} vakwerk_1_7
-:class: dropdown
-
-$${w_{{\rm{B,h}}}} = 0 \to 24 - 3.2{B_{\rm{h}}} = 0 \to {B_{\rm{h}}} =  7.5{\rm{ kN}}$$
-
-::::
 
 
 
@@ -352,26 +172,6 @@ Gebruik je resultaat om de normaalkrachten in alle staven te vinden.
 
 
 
-::::{solution} vakwerk_1_8
-:class: dropdown
-
-| Element | Normaalkracht (kN)|
-| :-:|:-:|
-|$\rm{AC}$|-18.75|
-|$\rm{CE}$|-7.5|
-|$\rm{BE}$|-6.25|
-|$\rm{CD}$|-6.25|
-|$\rm{DE}$|6.25|
-|$\rm{AD}$|3.75|
-|$\rm{DB}$|-3.75|
-
-```{figure} ../_git/github.com_TUDelft-books_CT1000/CTB2210-2025/book/week_3/session_3/intro_data/N-line.svg
-:align: center
-
-Normaalkrachtenlijn
-```
-
-::::
 
 
 

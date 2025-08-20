@@ -25,19 +25,6 @@ Twee statisch bepaalde systemen
 
 :::::
 
-% solution_start
-
-::::{solution} raam_1_1
-:class: dropdown
-
-- Met het koppel is het niet mogelijk verplaatsingen te berekenen.
-- Er zijn geen vergeet-me-nietjes voor deze situatie.
-  - Juist, de vorm van deze constructie als geheel én delen ervan zijn geen vergeet-me-nietjes. 
-- Het is überhaupt niet mogelijk verplaatsingen te berekeningen.
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :label: raam_1_2
@@ -64,16 +51,6 @@ Vrijlichaamsschema van knoop $\rm{C}$ vergroot weergegeven
 
 :::::
 
-% solution_start
-
-::::{solution} raam_1_2
-:class: dropdown
-
-$M _{\rm{C}} ^{\rm{BC}} \left( M _{\rm{C}} ^{\rm{AC}} \right) = M _{\rm{C}} ^{\rm{AC}} + 30$. 
-
-::::
-
-% solution_end
 
 Om het gedoe met dat scharnier net links/net onder $\rm{C}$ te voorkomen kunnen we het scharnier ook direct in C plaatsen. Deze aanpak wordt aangeraden.
 
@@ -103,16 +80,6 @@ Ga uit van [het statisch bepaalde systeem met het scharnier in $\rm{C}$](statisc
 
 :::::
 
-% solution_start
-
-::::{solution} raam_1_3
-:class: dropdown
-
-Er is 1 statisch onbepaald moment, omdat de twee verschillende momenten van elkaar afhankelijk zijn door het momentenevenwicht van knoop C.  
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :label: raam_1_4
@@ -125,19 +92,6 @@ Los de verplaatsingen van deze constructie uit als functie van $M_{\rm{C}}^{\rm{
 
 :::::
 
-% solution_start
-
-::::{solution} raam_1_4
-:class: dropdown
-
-De uitdrukkingen voor de hoekverdraaiingen kunnen worden gevonden met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel. 
-
-$$ \varphi_{\rm{C}}^{\rm{AC}} \left( M_{\rm{C}}^{\rm{AC}} \right) = \cfrac{M_{\rm{C}}^{\rm{AC}} \cdot 6}{3 \cdot 2000} = 0.001 \cdot M_{\rm{C}}^{\rm{AC}} $$
-$$ \varphi_{\rm{C}}^{\rm{BC}} \left( M_{\rm{C}}^{\rm{BC}} \right) = - \cfrac{M_{\rm{C}}^{\rm{BC}} \cdot \sqrt{13}}{3 \cdot \cfrac{2000 \cdot \sqrt{13}}{3}} = -0.0005 \cdot M_{\rm{C}}^{\rm{BC}} $$
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :label: raam_1_5
@@ -151,19 +105,6 @@ Los je vormveranderingsvoorwaarde op samen met je eerder opgestelde evenwichtsve
 
 :::::
 
-% solution_start
-
-::::{solution} raam_1_5
-:class: dropdown
-
-De vormveranderingsvoorwaarde is: $\varphi_{\rm{C}}^{\rm{AC}} = \varphi_{\rm{C}}^{\rm{BC}} \rightarrow 0.001 \cdot M_{\rm{C}}^{\rm{AC}} = -0.0005 \cdot M_{\rm{C}}^{\rm{BC}}$
-
-
-Hieruit en uit de eerder opgestelde momentenevenwichtsvergelijking volgt: $M_{\rm{C}}^{\rm{AC}} = -10 \rm{kNm}$ en $M_{\rm{C}}^{\rm{BC}} = 20 \rm{kNm}$. 
-
-::::
-
-% solution_end
 
 ````{margin}
 ```{attributiongrey} Bronvermelding
