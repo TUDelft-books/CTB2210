@@ -1,6 +1,6 @@
 ::::{margin}
-:::{versionadded} 2025-08-20: v2025.0.1
-Hoofdstuk toegevoegd
+:::{versionadded} v2025.0.1 2025-08-20
+Hoofdstuk statisch onbepaaldheid toegevoegd
 :::
 ::::
 
