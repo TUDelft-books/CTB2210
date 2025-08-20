@@ -101,7 +101,7 @@ Voorbeeldconstructie
 
     - Voor $\rm{AD}$: $\varphi_{\rm{D}} = \cfrac{5M_{\rm{D}}^{\rm{AD}}}{3 EI} + \cfrac{ 15 \cdot 5}{6 EI}$.
     - Voor $\rm{BD}$: $\varphi_{\rm{D}} = - \cfrac{2M_{\rm{D}}^{\rm{BD}}}{3 EI} - \cfrac{ 12 \cdot 2^3}{24 EI}$
-    - Voor $\rm{CD}$: $\varphi_{\rm{D}} = - \cfrac{5M_{\rm{D}}{\rm{CD}}}{3 EI}$
+    - Voor $\rm{CD}$: $\varphi_{\rm{D}} = - \cfrac{5M_{\rm{D}}^{\rm{CD}}}{3 EI}$
 
     Dit kan worden omgeschreven naar:
 
@@ -117,7 +117,7 @@ Voorbeeldconstructie
     :nonumber: true
     :label: verpl_4
 
-    Invullen van onze uitdrukkingen voor de momenten in onze evenwichtsvergelijking $-M_{\rm{D}}^{\rm{AD}} + M_{\rm{D}}^{\rm{BD}} + M_{\rm{D}}^{\rm{CD}} = 0$ geeft: $\varphi = \cfrac{5}{9EI} = \cfrac{1}{216000} = 4.63 \cdot 10^{-6} \rm{ rad}$
+    Invullen van onze uitdrukkingen voor de momenten in onze evenwichtsvergelijking $-M_{\rm{D}}^{\rm{AD}} + M_{\rm{D}}^{\rm{BD}} + M_{\rm{D}}^{\rm{CD}} = 0$ geeft: $\varphi_{\rm{D}} = \cfrac{5}{9EI} = \cfrac{1}{216000} = 4.63 \cdot 10^{-6} \rm{ rad}$
 
     Eventueel kan nu ook de momentenverdeling worden gevonden:
     - $M_{\rm{D}}^{\rm{AD}} = -\cfrac{43}{6} \approx -7.17 \rm{ kNm}$
