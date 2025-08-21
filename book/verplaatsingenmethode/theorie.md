@@ -16,7 +16,7 @@ De stappen zijn zeer vergelijkbaar met de krachtenmethode, met als enige verschi
 2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen: voeg onbekende statisch onbepaalde verplaatsingen toe en evenwichtsvoorwaarden toe voor elke aansluiting van de pendelstaven die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!
 
     `````{tab-set}
-    ````{tab-item} Weghalen oplegging
+    ````{tab-item} Splitsen constructie bij pendelstaven
     % Figures from https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/force_method_data/Tekening1.vsdx
     ```{figure} theorie_data/verplaats_1.svg
     :align: center
