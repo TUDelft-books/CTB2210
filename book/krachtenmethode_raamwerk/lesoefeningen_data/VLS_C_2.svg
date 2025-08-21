@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export VLS_C_2.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.67223in" height="3.05897in"
-		viewBox="0 0 336.401 220.246" xml:space="preserve" color-interpolation-filters="sRGB" class="st13">
+		viewBox="0 0 336.401 220.246" xml:space="preserve" color-interpolation-filters="sRGB" class="st14">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -19,8 +19,9 @@
 		.st9 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st10 {fill:#00cc99;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st11 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
-		.st12 {marker-start:url(#mrkr5-60);stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
-		.st13 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st12 {marker-start:url(#mrkr5-60);stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st13 {fill:#31859b;fill-opacity:1;stroke:#31859b;stroke-opacity:1;stroke-width:0.44247787610619}
+		.st14 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -32,7 +33,7 @@
 				markerUnits="strokeWidth" overflow="visible">
 			<use xlink:href="#lend5" transform="scale(-2.26,-2.26) "/>
 		</marker>
-		<marker id="mrkr5-60" class="st3" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="3.775" orient="auto"
+		<marker id="mrkr5-60" class="st13" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="3.775" orient="auto"
 				markerUnits="strokeWidth" overflow="visible">
 			<use xlink:href="#lend5" transform="scale(2.26) "/>
 		</marker>
