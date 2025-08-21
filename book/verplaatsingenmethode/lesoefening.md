@@ -9,6 +9,17 @@ Constructie, lijkend op het voorbeeld in hoofdstuk 4.3.1 uit het boek Mechanica,
 ```
 
 :::::{exercise}
+:label: verpl_1_0
+:nonumber: true
+
+Wat is de graad van inwendig statisch onbepaaldheid?
+
+```{h5p} https://tudelft.h5p.com/content/1292672317004902577/embed
+```
+
+:::::
+
+:::::{exercise}
 :label: verpl_1_1
 :nonumber: true
 
