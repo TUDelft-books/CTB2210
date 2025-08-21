@@ -117,16 +117,17 @@ Voorbeeldconstructie
     :nonumber: true
     :label: verpl_4
 
-    Invullen van onze uitdrukkingen voor de momenten in onze evenwichtsvergelijking $-M_{\rm{D}}^{\rm{AD}} + M_{\rm{D}}^{\rm{BD}} + M_{\rm{D}}^{\rm{CD}} = 0$ geeft: $\varphi_{\rm{D}} = \cfrac{5}{9EI} = \cfrac{1}{216000} = 4.63 \cdot 10^{-6} \rm{ rad}$
+    Invullen van onze uitdrukkingen voor de momenten in onze evenwichtsvergelijking $-M_{\rm{D}}^{\rm{AD}} + M_{\rm{D}}^{\rm{BD}} + M_{\rm{D}}^{\rm{CD}} = 0$ geeft: $\varphi_{\rm{D}   } = \cfrac{5}{9EI} = \cfrac{1}{216000} = 4.63 \cdot 10^{-6} \ \rm{rad}$
 
     Eventueel kan nu ook de momentenverdeling worden gevonden:
-    - $M_{\rm{D}}^{\rm{AD}} = -\cfrac{43}{6} \approx -7.17 \rm{ kNm}$
-    - $M_{\rm{D}}^{\rm{DB}} = -\cfrac{41}{6} \approx -6.83 \rm{ kNm}$
-    - $M_{\rm{D}}^{\rm{DC}} = -\cfrac{1}{3} \approx - 0.333 \rm{ kNm} $
+    - $M_{\rm{D}}^{\rm{AD}} = -\cfrac{43}{6} \approx -7.17 \ \rm{kNm}$
+    - $M_{\rm{D}}^{\rm{DB}} = -\cfrac{41}{6} \approx -6.83 \ \rm{kNm}$
+    - $M_{\rm{D}}^{\rm{DC}} = -\cfrac{1}{3} \approx - 0.333 \ \rm{kNm} $
 
     ::::::
 
 ## Meer voorbeelden
-
+De voorbeelden in hoofdstuk 4.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` vormen onderdeel van de aanpak zoals behandeld in de [volgende les](../verplaats2/lesson.md), maar kunnen ook opgelost worden met de aanpak zoals hierboven beschreven
 
 ## Oefeningen
+- Opgaves 4.4 - 4.33, 4.35, 4.36 in hoofdstuk 4.5 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Negeer de opmerkingen over welke vrijheidsgraad gekozen moet worden. Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.
