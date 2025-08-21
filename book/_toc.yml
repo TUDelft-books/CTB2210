@@ -63,6 +63,7 @@ parts:
   - file: verplaatsingenmethode/lesson.md
     sections:
     - file: verplaatsingenmethode/theorie.md
+    - file: verplaatsingenmethode/lesoefening.md
   - file: verplaats2/lesson.md
   - file: matrix/lesson.md
 # END REMOVE-FROM-RELEASE
