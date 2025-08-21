@@ -110,7 +110,7 @@ Onjuist
 :label: raam_2_3
 :nonumber: true
 
-Er wordt gekozen voor het volgende statisch onbepaalde systeem inclusief vormveranderingsvoorwaarden:
+Er wordt gekozen voor het volgende statisch bepaalde systeem inclusief vormveranderingsvoorwaarden:
 
 ```{figure} ./lesoefeningen_data/structure2.svg
 :align: center
