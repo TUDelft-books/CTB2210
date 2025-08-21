@@ -12,7 +12,7 @@ Constructie, lijkend op het voorbeeld in hoofdstuk 4.3.1 uit het boek Mechanica,
 :label: verpl_1_1
 :nonumber: true
 
-Welke van de volgende statisch bepaalde systemen kan gebruikt worden voor de krachtenmethode?
+Welke van de volgende statisch bepaalde systemen kan gebruikt worden voor toepassing van de verplaatsingenmethode?
 
 ```{h5p} https://tudelft.h5p.com/content/1292672294506274407/embed
 ```
