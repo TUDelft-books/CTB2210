@@ -2,11 +2,17 @@ import sympy as sym
 
 EA, m, w, L = sym.symbols('EA m w L')
 
+L = sym.S(5)
+
+EA = sym.nsimplify(25000)
+
 M_E_EF = sym.symbols('M_E_EF')
 
 Bv, Cv = sym.symbols('Bv Cv')
 
 N_CF = EA * w / L
+
+print('N_CF =',N_CF)
 
 N_CF_2 = sym.symbols('N_CF_2')
 
@@ -38,3 +44,5 @@ w_sol = sym.solve(eq2, w)[0]
 print('w = ', w_sol)
 
 print('N_CF = ', N_CF.subs(w, w_sol))
+print('N_EF = ', N_BE.subs(N_CF_2, N_F_2).subs(w, w_sol))
+print('N_AD = ', N_AD.subs(N_CF_2, N_F_2).subs(w, w_sol))
