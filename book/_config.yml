@@ -61,6 +61,7 @@ sphinx:                                              # Options passed on to the 
     - sphinx_proof                                   # Allows you to add various mathy admonitions to your book: https://sphinx-proof.readthedocs.io/en/latest/
     - sphinx_dropdown_toggle                         #
     - sphinx_code_examples
+    - sphinx_accessibility
 
 teachbooks:
   attribution_color: attributiongrey

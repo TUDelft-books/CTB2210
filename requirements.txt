@@ -13,6 +13,7 @@ git+https://github.com/TeachBooks/sphinx-proof #sphinx-proof vertaald nog niet n
 git+https://github.com/TeachBooks/sphinx-togglebutton
 sphinx-dropdown-toggle
 sphinx-code-examples
+sphinx-accessibility
 
 # Now list the packages you want to download directly from GitHub
 git+https://github.com/TeachBooks/Sphinx-Thebe
