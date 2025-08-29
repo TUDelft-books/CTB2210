@@ -2,7 +2,7 @@
 ```{attributiongrey} Attribution
 :class: attribution
 
-Deze pagina is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/tools/matrixframe.md
+Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/tools/matrixframe.html
 
 % Figures from https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/matrixframe_data/Tekening1.vsdx
 

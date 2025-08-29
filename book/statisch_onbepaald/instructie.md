@@ -2,7 +2,7 @@
 ```{attributiongrey} Attribution
 :class: attribution
 
-Deze pagina is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/statically_inderminate/determinancy.md
+Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_2/session_1/intro.html
 
 % Figures from https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/determinancy_data/Tekening1.vsdx
 

@@ -1,3 +1,14 @@
+````{margin}
+```{attributiongrey} Attribution
+:class: attribution
+
+Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_6/session_1/intro.html
+
+% Figures from https://github.com/TUDelft-books/CT1000/blob/2025/book/week_6/session_1/intro_data/Tekening1.vsdx
+
+```
+```` 
+
 (krachtenmethode_simpel)=
 # Instructie
 

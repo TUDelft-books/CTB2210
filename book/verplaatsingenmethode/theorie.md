@@ -2,7 +2,8 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze theorie is aangepast van https://github.com/TUDelft-books/CT1000 versie 2024.
+Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_7/session_1/intro.html
+
 ```
 ````
 

@@ -2,15 +2,7 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze oefening is aangepast van https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
-```
-```` 
-
-````{margin}
-```{attributiongrey} Bronvermelding
-:class: attribution
-
-Deze oefening is aangepast van https://github.com/TUDelft-books/CT1000/blob/2024/book/week_3/session_3/intro.md
+Deze oefening is aangepast van https://oit.tudelft.nl/CT1000/2024/week_3/session_3/intro.html
 
 % Figures from https://github.com/TUDelft-books/CT1000/blob/2024/book/week_3/session_3/intro_data/Tekening1.vsdx
 

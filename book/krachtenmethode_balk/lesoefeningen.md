@@ -1,10 +1,13 @@
 ````{margin}
-```{attributiongrey} Bronvermelding
+```{attributiongrey} Attribution
 :class: attribution
 
-Deze oefening is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie CTB2210-2025.
+Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/bending.html
+
+% Figures from https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/bending_data/Tekening1.vsdx
+
 ```
-````
+```` 
 
 # Begeleide oefening 1
 

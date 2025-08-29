@@ -2,7 +2,7 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze oefening is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/statically_inderminate/force_method/extension.md
+Deze oefening is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/extension.html
 
 % Figures from https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/extension_data/Tekening1.vsdx
 

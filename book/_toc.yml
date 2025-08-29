@@ -29,7 +29,7 @@ parts:
     sections:
     - file: ODE/instructie.ipynb
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/tools/TI-84.md
+      - file: ODE/GR.md
     - file: ODE/lesoefeningen
     - file: ODE/lesoefeningen_2
     - file: ODE/lesoefeningen_3
@@ -49,14 +49,14 @@ parts:
   - file: krachtenmethode_balk/lesson.md
 # START REMOVE-FROM-RELEASE
     sections:
-    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/bending.md
+    - file: krachtenmethode_balk/instructie.md
     - file: krachtenmethode_balk/lesoefeningen.md
     - file: krachtenmethode_balk/lesoefeningen_2.md
 # END REMOVE-FROM-RELEASE
   - file: krachtenmethode_raamwerk/lesson.md
 # START REMOVE-FROM-RELEASE
     sections:
-    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/bending2.md
+    - file: krachtenmethode_raamwerk/instructie.md
     - file: krachtenmethode_raamwerk/lesoefeningen.md
     - file: krachtenmethode_raamwerk/lesoefeningen_2.md
 # END REMOVE-FROM-RELEASE
@@ -72,7 +72,7 @@ parts:
 # START REMOVE-FROM-RELEASE
     sections:
     - file: temperatuur/theorie.md
-    - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210-2025/book/week_8/session_3/intro.md
+    - file: temperatuur/lesoefening1.md
     - file: temperatuur/lesoefening.md
 # END REMOVE-FROM-RELEASE
   - file: verplaatsingenmethode/lesson.md
