@@ -13,7 +13,7 @@ Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statica
 
 Gegeven is de volgende constructie:
 
-```{figure} ../_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/force_method/bending_data/Example.svg
+```{figure} bending_data/Example.svg
 :align: center
 
 Constructie
@@ -27,7 +27,7 @@ Bepaal de krachtsverdeling en verplaatsingen.
 
 Ga uit van het volgende statisch bepaalde systeem:
 
-```{figure} ../_git/github.com_TUDelft-books_CEG-mechanics-BSc/CTB2210-2025/book/statically_inderminate/force_method/bending_data/SB-systeem2.svg
+```{figure} bending_data/SB-systeem2.svg
 :align: center
 
 Statisch bepaalde constructie met vormveranderingsvoorwaarde
