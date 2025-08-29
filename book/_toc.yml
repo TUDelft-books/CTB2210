@@ -12,14 +12,14 @@ parts:
   chapters:
   - file: statisch_onbepaald/lesson.md
     sections:
-    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/determinancy.md #BUMP
+    - file: statisch_onbepaald/instructie.md
     - file: statisch_onbepaald/graad_bepalen.md
     - file: statisch_onbepaald/graad_bepalen_2.md
     - file: statisch_onbepaald/graad_bepalen_3.md
   - file: matrixframe/lesson.md
 # START REMOVE-FROM-RELEASE
     sections:
-    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/tools/matrixframe.md #BUMP
+    - file: matrixframe/instructie
     - file: matrixframe/lesoefeningen
     - file: matrixframe/lesoefeningen_2
     - file: matrixframe/lesoefeningen_3
@@ -27,7 +27,7 @@ parts:
   - file: ODE/lesson.md
 # START REMOVE-FROM-RELEASE
     sections:
-    - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210-2025/book/week_2/session_1/intro.ipynb
+    - file: ODE/instructie.ipynb
       sections:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/tools/TI-84.md
     - file: ODE/lesoefeningen
