@@ -212,6 +212,10 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
 
 4. Tel het aantal evenwichtsvergelijkingen: 1 evenwichtsvergelijking per pendelstaaf, 3 evenwichtsvergelijkingen per algemene staaf, 1 evenwichtsvergelijking voor een rolscharnier, 2 evenwichtsvergelijkingen per scharnierende knoop en 3 evenwichtsvergelijkingen per algemene knoop.
 
+   ::::::{versionchanged} v2025.0.3
+   2025-09-01: verkeerd figuur vervangen
+   ::::::
+
    ::::::{prf:example}
    :nonumber: true
 
