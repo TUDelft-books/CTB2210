@@ -215,11 +215,6 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    ::::::{prf:example}
    :nonumber: true
 
-   :::::{margin}
-   ::::{versionchanged} v2025.0.3
-   2025-09-01: verkeerd figuur vervangen
-   ::::
-   :::::
    ```{figure} ./determinancy_data/Example_9.svg
    ---
    name: example_sd_9
@@ -230,6 +225,12 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
 
    Alle staven zijn algemene staven. Dat geeft 12 evenwichtsvergelijkingen voor de staven.
 
+   :::::{margin}
+   ::::{versionchanged} v2025.0.3
+   2025-09-01: verkeerd figuur vervangen
+   ::::
+   :::::
+   
    ```{figure} ./determinancy_data/Example_8.svg
    ---
    name: example_sd_8
