@@ -27,7 +27,7 @@ Over het algemeen zijn de volgende stappen vereist:
 :label: matrixframe_algoritme
 
 1. Maak een nieuw project - '2D-Raamwerk' en klik 'Ok'. De optie '1D-ligger' en '2D-vakwerk' zijn versimpelingen van de '2D-Raamwerk'-optie. De optie '3D-Raamwerk' en '3D-Vakwerk' kan je proberen, maar daar krijgt men over het algemeen hoofdpijn van.
-2. Je beland direct in de 'Geometrie' interface. Klik in het grid om je geometrie te vormen. De coördinaten zijn zijn zichtbaar in de onderbalk en de afmetingen verschijnen tijdens het klikken. Gebruik `Esc` op je toetsenbord om te stoppen of op een volgend element te beginnen die niet vastzit aan het uiteinde van het vorige element. Pas eventueel afmetingen aan met behulp van de stramienen aan de linkerkant of de coördinaten aan de onderkant van het scherm.
+2. Je belandt direct in de 'Geometrie' interface. Klik in het grid om je geometrie te vormen. De coördinaten zijn zijn zichtbaar in de onderbalk en de afmetingen verschijnen tijdens het klikken. Gebruik `Esc` op je toetsenbord om te stoppen of op een volgend element te beginnen die niet vastzit aan het uiteinde van het vorige element. Pas eventueel afmetingen aan met behulp van de stramienen aan de linkerkant of de coördinaten aan de onderkant van het scherm.
 3. Ga verder met de 'Profielgegevens' interface. Ook als deze informatie niet bekend is is het invoeren hiervan vereist. Onder 'Profielen' - 'Handmatige invoer' kan je een $A$, $I$ en $E$ invullen. Het is niet mogelijk een waarde van $0$ of $\infty$ in te vullen, daarvoor zal je een kleine of grote numerieke waarde moeten invoeren. Tip, $\cdot10^6$ kan je invoeren als `e6` Vergeet niet op 'Pas toe op alles' te klikken! Linksonder in het scherm zie je nu achter elke staaf een profielnaam staan.
 4. De volgende stap is het toevoegen van opleggingen. Er zijn een aantal standaard opties, maar je kan ook handmatig translatie- en rotatierichtingen vastzetten. De opleggingen kan je plaatsen op de knopen of langs een staaf (in dat geval wordt er een nieuwe knoop gemaakt).
 5. Nu kunnen we verder met scharnieren. In een raamwerk is standaard alles momentvast verbonden. Per staaf kan je voor elk uiteinde aangeven of dit een scharnier moet worden door op een deel van die staaf te klikken. Als twee aansluitende staven scharnierend zijn verbonden is het niet nodig om beide staafuiteindes scharnierend te maken, ééntje is genoeg.
@@ -72,7 +72,7 @@ Voorbeeldconstructie
 
     ::::::
 
-2. Je beland direct in de 'Geometrie' interface. Klik in het grid om je geometrie te vormen. De coördinaten zijn zijn zichtbaar in de onderbalk en de afmetingen verschijnen tijdens het klikken. Gebruik `Esc` op je toetsenbord om te stoppen of op een volgend element te beginnen die niet vastzit aan het uiteinde van het vorige element. Pas eventueel afmetingen aan met behulp van de stramienen aan de linkerkant of de coördinaten aan de onderkant van het scherm.
+2. Je belandt direct in de 'Geometrie' interface. Klik in het grid om je geometrie te vormen. De coördinaten zijn zijn zichtbaar in de onderbalk en de afmetingen verschijnen tijdens het klikken. Gebruik `Esc` op je toetsenbord om te stoppen of op een volgend element te beginnen die niet vastzit aan het uiteinde van het vorige element. Pas eventueel afmetingen aan met behulp van de stramienen aan de linkerkant of de coördinaten aan de onderkant van het scherm.
 
     ::::::{prf:example}
     :label: mf_example_2
