@@ -211,11 +211,26 @@ $$\Delta L = \frac{{NL}}{{EA}} \to \begin{array}{c}
 :label: vakwerk_1_5
 :nonumber: true
 
+Om de verplaatsingen te vinden van de knopen kijken we afzonderlijk naar de invloed van de horizontale kracht $B_{\rm{h}}$ en van de belasting van $20 \ \rm{kN}$. Hiermee worden de Williot-diagrammetjes iets simpeler
+
+We beginnen met de de belasting van $20 \ \rm{kN}$. Daarvoor reken we dus enkel met de volgende verkortingen/verlengingen:
+
+$$\begin{array}{c}
+{\Delta {L_{{\rm{AC}}}} =  - 0.025 \ {\rm{ m}}}\\
+{\Delta {L_{{\rm{CE}}}} =  - 0.012\ {\rm{ m}}}\\
+{\Delta {L_{\rm{BE}}} = \cfrac{1}{{120}} \approx  - 0.00833\ {\rm{ m}}}\\
+{\Delta {L_{{\rm{CD}}}} = \cfrac{1}{{120}} \approx  - 0.00833\ {\rm{ m}}}\\
+{\Delta {L_{{\rm{DE}}}} = \cfrac{1}{{120}} \approx 0.00833 \ {\rm{ m}}}\\
+{\Delta {L_{{\rm{AD}}}} = 0.018 \ {\rm{ m}}}\\
+{\Delta {L_{{\rm{DB}}}} = 0.006 \ {\rm{ m}}}
+\end{array}$$
+
 De verlengingen/verkortingen ten gevolge van de $20 \ \rm{kN}$ zijn deels gegeven:
 
 | Scharnier | Verplaatsing in horizontale richting → (mm)| Verplaatsing in verticale richting ↓ (mm)|
 | :-:|:-:|:-:|
 |$\rm{A}$|$0$|$0$|
+|$\rm{B}$|?|?|
 |$\rm{C}$|$21$|$47$|
 |$\rm{D}$|$18$|$\cfrac{233}{6} \approx 39$|
 |$\rm{E}$|$9$|$\cfrac{65}{3} \approx 22$|
@@ -226,7 +241,7 @@ De verlengingen/verkortingen ten gevolge van de $20 \ \rm{kN}$ zijn deels gegeve
 Deel van vervormde constructie statisch bepaalde constructie ten gevolge van 20 kN.
 ```
 
-Bepaal met williot de verplaatsing van $\rm{B}$ ten gevolge van de $20 \ \rm{kN}$. Het beginnetje van het williot-diagram is gemaakt:
+Bepaal de ontbrekende verplaatsing. Het beginnetje van het williot-diagram is gemaakt:
 
 ```{figure} lesoefeningen_2_data/incomplete_williot.svg
 :align: center
@@ -258,12 +273,30 @@ Williot diagram
 :label: vakwerk_1_6
 :nonumber: true
 
-Bepaal de verlengingen/verkortingen ten gevolge van de $B_{\rm{h}}$ met een apart williot-diagram. Neem daarvoor een zelf gekozen lengte aan voor $B_{\rm{h}}$. Houd daarnaast eerst $\rm{AD}$ in de horizontale oriëntatie zodat je die daarna kan terugdraaien.
+Nu gaan we het williot-diagram teken ten gevolge van d$B_{\rm{h}}$. Daarvoor reken we dus enkel met de volgende verkortingen/verlengingen:
+
+$$\begin{array}{c}
+{\Delta {L_{{\rm{AC}}}} =  0}\\
+{\Delta {L_{{\rm{CE}}}} =  0}\\
+{\Delta {L_{\rm{BE}}} = 0}\\
+{\Delta {L_{{\rm{CD}}}} = 0}\\
+{\Delta {L_{{\rm{DE}}}} = 0}\\
+{\Delta {L_{{\rm{AD}}}} = - \cfrac{1}{{625}} \ {B_{\rm{h}}} = - 0.0016{B_{\rm{h}}} \ {\rm{ m}}}\\
+{\Delta {L_{{\rm{DB}}}} = - 0.0016{B_{\rm{h}}} \ {\rm{ m}}}
+\end{array}$$
+
+Bepaal op basis van deze verlengingen en verkortingen alle verplaatsingen met een apart williot-diagram. Neem daarvoor een zelf gekozen lengte aan voor $B_{\rm{h}}$ (bijvoorbeeld $4$ hokjes komt overeen met $1.6{B_{\rm{h}}}$). Houd daarnaast eerst $\rm{AD}$ in de horizontale oriëntatie zodat je die daarna kan terugdraaien.
 
 ```{h5p} https://tudelft.h5p.com/content/1292635148099409217/embed
 ```
 
-Draai $\rm{AD}$ nu zo terug dat $\rm{B}$ niet meer verticaal verplaatst.
+:::::
+
+:::::{exercise}
+:label: vakwerk_1_6b
+:nonumber: true
+
+Als het goed is heb je gevnoden dat $\rm{B}$ $2.4 B_{\rm{h}}$ verticaal naar beneden verplaatst. Draai onze vastgehouden $\rm{AD}$ nu zo terug dat $\rm{B}$ niet meer verticaal verplaatst.
 
 ```{h5p} https://tudelft.h5p.com/content/1292635150038900187/embed
 ```
@@ -288,6 +321,11 @@ Williot diagram
 |$\rm{D}$|$-1.6{B_{\rm{h}}}$|$0$|
 |$\rm{E}$|$-0.8{B_{\rm{h}}}$|$0.6{B_{\rm{h}}}$|
 |$\rm{B}$|$-3.2{B_{\rm{h}}}$|$2.4{B_{\rm{h}}}$|
+
+::::
+
+::::{solution} vakwerk_1_6b
+:class: dropdown
 
 $\theta = \cfrac{2.4{B_{\rm{h}}}}{{12000}} = 0.0002{B_{\rm{h}}}{\rm{ rad}}$ ⟲, dit geeft:
 
