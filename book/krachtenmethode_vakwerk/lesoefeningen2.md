@@ -311,7 +311,7 @@ Williot diagram
 :label: vakwerk_1_6b
 :nonumber: true
 
-Als het goed is heb je gevnoden dat $\rm{B}$ $2.4 B_{\rm{h}}$ verticaal naar beneden verplaatst. Draai onze vastgehouden $\rm{AD}$ nu zo terug dat $\rm{B}$ niet meer verticaal verplaatst.
+Als het goed is heb je gevonden dat $\rm{B}$ $2.4 B_{\rm{h}}$ verticaal naar beneden verplaatst. Draai onze vastgehouden $\rm{AD}$ nu zo terug dat $\rm{B}$ niet meer verticaal verplaatst.
 
 ```{h5p} https://tudelft.h5p.com/content/1292635150038900187/embed
 ```
