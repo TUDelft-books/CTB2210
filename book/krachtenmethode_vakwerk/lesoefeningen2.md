@@ -200,7 +200,7 @@ $$\Delta L = \frac{{NL}}{{EA}} \to \begin{array}{c}
 {\Delta {L_{\rm{BE}}} = \cfrac{1}{{120}} \approx  - 0.00833\ {\rm{ m}}}\\
 {\Delta {L_{{\rm{CD}}}} = \cfrac{1}{{120}} \approx  - 0.00833\ {\rm{ m}}}\\
 {\Delta {L_{{\rm{DE}}}} = \cfrac{1}{{120}} \approx 0.00833 \ {\rm{ m}}}\\
-{\Delta {L_{{\rm{AD}}}} = 0.018 - \cfrac{1}{{625}} \ {B_{\rm{h}}} = 0.018 - 0.0016{B_{\rm{h}}} \ {\rm{ m}}}\\
+{\Delta {L_{{\rm{AD}}}} = 0.018 - 0.0016{B_{\rm{h}}} \ {\rm{ m}}}\\
 {\Delta {L_{{\rm{DB}}}} = 0.006 - 0.0016{B_{\rm{h}}} \ {\rm{ m}}}
 \end{array}$$
 
@@ -273,15 +273,11 @@ Williot diagram
 :label: vakwerk_1_6
 :nonumber: true
 
-Nu gaan we het williot-diagram teken ten gevolge van d$B_{\rm{h}}$. Daarvoor reken we dus enkel met de volgende verkortingen/verlengingen:
+Nu gaan we het williot-diagram teken ten gevolge van $B_{\rm{h}}$. Daarvoor reken we dus enkel met de volgende verkortingen/verlengingen:
 
 $$\begin{array}{c}
-{\Delta {L_{{\rm{AC}}}} =  0}\\
-{\Delta {L_{{\rm{CE}}}} =  0}\\
-{\Delta {L_{\rm{BE}}} = 0}\\
-{\Delta {L_{{\rm{CD}}}} = 0}\\
-{\Delta {L_{{\rm{DE}}}} = 0}\\
-{\Delta {L_{{\rm{AD}}}} = - \cfrac{1}{{625}} \ {B_{\rm{h}}} = - 0.0016{B_{\rm{h}}} \ {\rm{ m}}}\\
+{\Delta {L_{{\rm{AC}}}} =  \Delta {L_{{\rm{CE}}}} = \Delta {L_{\rm{BE}}} = \Delta {L_{{\rm{CD}}}} = \Delta {L_{{\rm{DE}}}} = 0}\\
+{\Delta {L_{{\rm{AD}}}} = - 0.0016{B_{\rm{h}}} \ {\rm{ m}}}\\
 {\Delta {L_{{\rm{DB}}}} = - 0.0016{B_{\rm{h}}} \ {\rm{ m}}}
 \end{array}$$
 
@@ -291,19 +287,6 @@ Bepaal op basis van deze verlengingen en verkortingen alle verplaatsingen met ee
 ```
 
 :::::
-
-:::::{exercise}
-:label: vakwerk_1_6b
-:nonumber: true
-
-Als het goed is heb je gevnoden dat $\rm{B}$ $2.4 B_{\rm{h}}$ verticaal naar beneden verplaatst. Draai onze vastgehouden $\rm{AD}$ nu zo terug dat $\rm{B}$ niet meer verticaal verplaatst.
-
-```{h5p} https://tudelft.h5p.com/content/1292635150038900187/embed
-```
-
-:::::
-
-
 
 ::::{solution} vakwerk_1_6
 :class: dropdown
@@ -323,6 +306,17 @@ Williot diagram
 |$\rm{B}$|$-3.2{B_{\rm{h}}}$|$2.4{B_{\rm{h}}}$|
 
 ::::
+
+:::::{exercise}
+:label: vakwerk_1_6b
+:nonumber: true
+
+Als het goed is heb je gevnoden dat $\rm{B}$ $2.4 B_{\rm{h}}$ verticaal naar beneden verplaatst. Draai onze vastgehouden $\rm{AD}$ nu zo terug dat $\rm{B}$ niet meer verticaal verplaatst.
+
+```{h5p} https://tudelft.h5p.com/content/1292635150038900187/embed
+```
+
+:::::
 
 ::::{solution} vakwerk_1_6b
 :class: dropdown
