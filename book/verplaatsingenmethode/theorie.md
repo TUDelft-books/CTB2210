@@ -13,6 +13,9 @@ Bij de **krachten**methode maak je gebruik van vormveranderingsvoorwaardes om de
 
 De stappen zijn zeer vergelijkbaar met de krachtenmethode, met als enige verschil dat we geen opleggingen weg kunnen nemen omdat de statisch onbepaalde verplaatsing daar gelijk moet zijn aan 0.
 
+::::::{prf:algorithm} Verplaatsingenmethode
+:nonumber: true
+
 1. Bepaal de graad van statische bepaaldheid.
 2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen: voeg onbekende statisch onbepaalde verplaatsingen toe en evenwichtsvoorwaarden toe voor elke aansluiting van de pendelstaven die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!
 
@@ -32,6 +35,8 @@ De stappen zijn zeer vergelijkbaar met de krachtenmethode, met als enige verschi
 
 3. Los de krachten op in termen van de onbekende onbepaalde verplaatsingen.
 4. Gebruik je evenwichtsvoorwaarden om de statisch onbepaalde verplaatsingen op te lossen.
+
+::::::
 
 De toepassing van de verplaatsingenmethode wordt getoond op onderstaande voorbeeld.
 

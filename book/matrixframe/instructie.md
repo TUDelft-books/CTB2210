@@ -23,6 +23,7 @@ Een uitgebreide handleiding met meer opties is [hier](https://icozct.tudelft.nl/
 Over het algemeen zijn de volgende stappen vereist:
 
 ::::::{prf:algorithm} Invoer en uitvoer constructie in MatrixFrame
+:nonumber: true
 
 1. Maak een nieuw project - '2D-Raamwerk' en klik 'Ok'. De optie '1D-ligger' en '2D-vakwerk' zijn versimpelingen van de '2D-Raamwerk'-optie. De optie '3D-Raamwerk' en '3D-Vakwerk' kan je proberen, maar daar krijgt men over het algemeen hoofdpijn van.
 2. Je beland direct in de 'Geometrie' interface. Klik in het grid om je geometrie te vormen. De coördinaten zijn zijn zichtbaar in de onderbalk en de afmetingen verschijnen tijdens het klikken. Gebruik `Esc` op je toetsenbord om te stoppen of op een volgend element te beginnen die niet vastzit aan het uiteinde van het vorige element. Pas eventueel afmetingen aan met behulp van de stramienen aan de linkerkant of de coördinaten aan de onderkant van het scherm.

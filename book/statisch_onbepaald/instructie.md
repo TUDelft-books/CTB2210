@@ -114,6 +114,7 @@ Als voorbeeld bepalen we de uitwendige statisch onbepaaldheid van deze construct
 Voor de berekening van inwendig statisch onbepaaldheid gelden de volgende stappen:
 
 ::::::{prf:algorithm} Graad van uitwendig statisch onbepaaldheid
+:nonumber: true
 
 1. Splits constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor alle knopen, rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn:
    - Op een scharnierende verbinding en vrije- / scharnierende uiteindes werken geen buigende momenten

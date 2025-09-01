@@ -14,6 +14,9 @@ Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_6/session_1
 
 De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rekenen. In deze methode wordt de constructie aangepast naar een statisch bepaalde constructie met vormveranderingsvoorwaarden. Vervolgens kan je de constructie oplossen zoals je gewend bent van statisch bepaalde constructies. De krachtenmethode bestaat altijd uit de volgende stappen:
 
+::::::{prf:algorithm} Krachtenmethode
+:nonumber: true
+
 1. Bepaal de graad van statische bepaaldheid.
 2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaarden toe voor elke oplegging die je hebt weggenomen, aansluiting van de pendelstaven die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!
 
@@ -38,6 +41,8 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
 
 3. Los de verplaatsing op in termen van de onbekende onbepaalde krachten zoals je normaal zou doen voor een statisch bepaalde constructie.
 4. Gebruik je vervormingsvoorwaarden om de statisch onbepaalde krachten op te lossen.
+
+::::::
 
 We behandelen de toepassing op vakwerkconstructies met het volgende voorbeeld.
 
