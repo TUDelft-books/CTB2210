@@ -26,6 +26,8 @@ Deze twee categorieën worden samen behandeld in hoofdstuk 4.5.2 en 4.5.3 van he
 Voor de berekening van uitwendig statisch onbepaaldheid gelden de volgende stappen:
 
 ::::::{prf:algorithm} Graad van uitwendig statisch onbepaaldheid
+:nonumber: true
+:label: graad_uitwendig_stat_onbepaaldheid
 
 1. Splits de constructie in zo vormvaste delen die los van de opleggingen ten opzichte van elkaar kunnen roteren. Teken het vrijlichaamsschema van deze scharnierende delen. Hierop werken in ieder geval de oplegreacties en eventuele uitwendige krachten. In de scharnierende verbinding werken twee onbekende krachten: horizontaal en verticaal. Deze krachten in de verbinding hebben een even grote tegengestelde reactiekracht op het aansluitende deel.
 2. Tel het aantal onbekende krachten: de oplegreacties en verbindingskrachten in de scharnieren (de reactiekrachten tellen niet apart mee)
@@ -113,8 +115,9 @@ Als voorbeeld bepalen we de uitwendige statisch onbepaaldheid van deze construct
 ## Bepalen graad van inwendig statisch onbepaaldheid
 Voor de berekening van inwendig statisch onbepaaldheid gelden de volgende stappen:
 
-::::::{prf:algorithm} Graad van uitwendig statisch onbepaaldheid
+::::::{prf:algorithm} Graad van inwendig statisch onbepaaldheid
 :nonumber: true
+:label: graad_inwendig_stat_onbepaaldheid
 
 1. Splits constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor alle knopen, rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn:
    - Op een scharnierende verbinding en vrije- / scharnierende uiteindes werken geen buigende momenten

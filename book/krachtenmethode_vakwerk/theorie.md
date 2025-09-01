@@ -16,6 +16,7 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
 
 ::::::{prf:algorithm} Krachtenmethode
 :nonumber: true
+:label: krachtenmethode_algoritme
 
 1. Bepaal de graad van statische bepaaldheid.
 2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaarden toe voor elke oplegging die je hebt weggenomen, aansluiting van de pendelstaven die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!

@@ -15,6 +15,7 @@ De stappen zijn zeer vergelijkbaar met de krachtenmethode, met als enige verschi
 
 ::::::{prf:algorithm} Verplaatsingenmethode
 :nonumber: true
+:label: verplaatsingenmethode_algoritme
 
 1. Bepaal de graad van statische bepaaldheid.
 2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen: voeg onbekende statisch onbepaalde verplaatsingen toe en evenwichtsvoorwaarden toe voor elke aansluiting van de pendelstaven die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!
