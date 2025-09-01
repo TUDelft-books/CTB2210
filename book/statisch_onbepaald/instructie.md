@@ -212,6 +212,12 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
 
 4. Tel het aantal evenwichtsvergelijkingen: 1 evenwichtsvergelijking per pendelstaaf, 3 evenwichtsvergelijkingen per algemene staaf, 1 evenwichtsvergelijking voor een rolscharnier, 2 evenwichtsvergelijkingen per scharnierende knoop en 3 evenwichtsvergelijkingen per algemene knoop.
 
+   :::::{margin}
+   ::::{versionchanged} v2025.0.3
+   2025-09-01: verkeerd figuur vervangen door [](example_sd_8)
+   ::::
+   :::::
+
    ::::::{prf:example}
    :nonumber: true
 
@@ -225,12 +231,6 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
 
    Alle staven zijn algemene staven. Dat geeft 12 evenwichtsvergelijkingen voor de staven.
 
-   :::::{margin}
-   ::::{versionchanged} v2025.0.3
-   2025-09-01: verkeerd figuur vervangen
-   ::::
-   :::::
-   
    ```{figure} ./determinancy_data/Example_8.svg
    ---
    name: example_sd_8
