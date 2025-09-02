@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2025-09-02: v2025.0.4
+- Toevoegen [](./matrixframe/instructie.md)
+
 ## 2025-09-01: v2025.0.3
 - Vervangen [](example_sd_8)
 
