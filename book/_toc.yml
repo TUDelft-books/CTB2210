@@ -12,59 +12,76 @@ parts:
   chapters:
   - file: statisch_onbepaald/lesson.md
     sections:
-    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/determinancy.md
+    - file: statisch_onbepaald/instructie.md
     - file: statisch_onbepaald/graad_bepalen.md
     - file: statisch_onbepaald/graad_bepalen_2.md
     - file: statisch_onbepaald/graad_bepalen_3.md
-# START REMOVE-FROM-RELEASE
   - file: matrixframe/lesson.md
     sections:
-    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/tools/matrixframe.md #BUMP
+    - file: matrixframe/instructie
+# START REMOVE-FROM-RELEASE
     - file: matrixframe/lesoefeningen
     - file: matrixframe/lesoefeningen_2
     - file: matrixframe/lesoefeningen_3
+# END REMOVE-FROM-RELEASE
   - file: ODE/lesson.md
+# START REMOVE-FROM-RELEASE
     sections:
-    - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210-2025/book/week_2/session_1/intro.ipynb
+    - file: ODE/instructie.ipynb
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/tools/TI-84.md
+      - file: ODE/GR.md
     - file: ODE/lesoefeningen
     - file: ODE/lesoefeningen_2
     - file: ODE/lesoefeningen_3
+# END REMOVE-FROM-RELEASE
   - file: krachtenmethode_vakwerk/lesson.md
+# START REMOVE-FROM-RELEASE
     sections:
     - file: krachtenmethode_vakwerk/theorie.md
     - file: krachtenmethode_vakwerk/lesoefeningen.md
+# END REMOVE-FROM-RELEASE
   - file: krachtenmethode_vakwerk/lesson_2.md
+# START REMOVE-FROM-RELEASE
     sections:
-    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/extension.md
+    - file: krachtenmethode_vakwerk/instructie.md
     - file: krachtenmethode_vakwerk/lesoefeningen2.md
+# END REMOVE-FROM-RELEASE
   - file: krachtenmethode_balk/lesson.md
+# START REMOVE-FROM-RELEASE
     sections:
-    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/bending.md
+    - file: krachtenmethode_balk/instructie.md
     - file: krachtenmethode_balk/lesoefeningen.md
     - file: krachtenmethode_balk/lesoefeningen_2.md
+# END REMOVE-FROM-RELEASE
   - file: krachtenmethode_raamwerk/lesson.md
+# START REMOVE-FROM-RELEASE
     sections:
-    - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/CTB2210-2025/book/statically_inderminate/force_method/bending2.md
+    - file: krachtenmethode_raamwerk/instructie.md
     - file: krachtenmethode_raamwerk/lesoefeningen.md
     - file: krachtenmethode_raamwerk/lesoefeningen_2.md
+# END REMOVE-FROM-RELEASE
   - file: steunpuntszetting_stijfheden/lesson.md
+# START REMOVE-FROM-RELEASE
     sections:
     - file: steunpuntszetting_stijfheden/theorie1.md
     - file: steunpuntszetting_stijfheden/theorie2.md
     - file: steunpuntszetting_stijfheden/lesoefeningen.md
     - file: steunpuntszetting_stijfheden/lesoefeningen_2.md
+# END REMOVE-FROM-RELEASE
   - file: temperatuur/lesson.md
+# START REMOVE-FROM-RELEASE
     sections:
     - file: temperatuur/theorie.md
-    - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210-2025/book/week_8/session_3/intro.md
+    - file: temperatuur/lesoefening1.md
     - file: temperatuur/lesoefening.md
+# END REMOVE-FROM-RELEASE
   - file: verplaatsingenmethode/lesson.md
+# START REMOVE-FROM-RELEASE
     sections:
     - file: verplaatsingenmethode/theorie.md
     - file: verplaatsingenmethode/lesoefening.md
     - external: https://github.com/TUDelft-books/CT1000/blob/CTB2210-2025/book/week_7/session_2/intro.md
+# END REMOVE-FROM-RELEASE
   - file: verplaats2/lesson.md
   - file: matrix/lesson.md
 # END REMOVE-FROM-RELEASE
