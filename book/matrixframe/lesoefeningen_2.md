@@ -62,7 +62,7 @@ Rotatie van knoop A in radialen
 ::::
 :::::
 
-::::::{solution} mf_3_1
+::::::{hint}
 
 Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_2.mxe) te downloaden.
 

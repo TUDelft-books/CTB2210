@@ -130,7 +130,7 @@ Maximale zakking van AD
 ::::
 :::::
 
-::::::{solution} mf_2_3
+::::::{hint}
 
 Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_3.mxe) te downloaden.
 

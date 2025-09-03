@@ -119,7 +119,7 @@ Dwarskrachten
 ::::
 :::::
 
-::::::{solution} mf_1_3
+::::::{hint}
 
 Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_1.mxe) te downloaden.
 
