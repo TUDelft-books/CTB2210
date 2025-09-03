@@ -19,11 +19,9 @@ parts:
   - file: matrixframe/lesson.md
     sections:
     - file: matrixframe/instructie
-# START REMOVE-FROM-RELEASE
     - file: matrixframe/lesoefeningen
     - file: matrixframe/lesoefeningen_2
     - file: matrixframe/lesoefeningen_3
-# END REMOVE-FROM-RELEASE
   - file: ODE/lesson.md
 # START REMOVE-FROM-RELEASE
     sections:

@@ -1,5 +1,11 @@
 # Changelog 🔖
 
+## 2025-09-03: v2025.1.0
+Toevoegen:
+- [](./matrixframe/lesoefeningen.md)
+- [](./matrixframe/lesoefeningen_2.md)
+- [](./matrixframe/lesoefeningen_3.md)
+
 ## 2025-09-02: v2025.0.4
 - Toevoegen [](./matrixframe/instructie.md)
 
