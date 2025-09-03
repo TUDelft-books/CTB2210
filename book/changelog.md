@@ -1,5 +1,11 @@
 # Changelog 🔖
 
+## 2025-09-03: v2025.1.1
+- Toevoegen matrixframe bestanden als antwoord in:
+- [](./matrixframe/lesoefeningen.md)
+- [](./matrixframe/lesoefeningen_2.md)
+- [](./matrixframe/lesoefeningen_3.md)
+
 ## 2025-09-03: v2025.1.0
 Toevoegen:
 - [](./matrixframe/lesoefeningen.md)

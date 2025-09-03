@@ -124,3 +124,14 @@ Maximale zakking van AD
 
 % solution_end
 
+:::::{margin}
+::::{versionchanged} v2025.1.1
+2025-09-03: Matrixframe bestand toegevoegd
+::::
+:::::
+
+::::::{solution} mf_2_3
+
+Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_3.mxe) te downloaden.
+
+::::::
