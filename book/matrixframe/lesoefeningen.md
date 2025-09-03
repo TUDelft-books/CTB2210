@@ -114,7 +114,7 @@ Dwarskrachten
 % solution_end
 
 :::::{margin}
-::::{versionchanged} v2025.1.1
+::::{versionadded} v2025.1.1
 2025-09-03: Matrixframe bestand toegevoegd
 ::::
 :::::
