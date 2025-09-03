@@ -23,9 +23,9 @@ parts:
     - file: matrixframe/lesoefeningen_2
     - file: matrixframe/lesoefeningen_3
   - file: ODE/lesson.md
-# START REMOVE-FROM-RELEASE
     sections:
     - file: ODE/instructie.ipynb
+# START REMOVE-FROM-RELEASE
       sections:
       - file: ODE/GR.md
     - file: ODE/lesoefeningen
