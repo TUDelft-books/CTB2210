@@ -25,13 +25,11 @@ parts:
   - file: ODE/lesson.md
     sections:
     - file: ODE/instructie.ipynb
-# START REMOVE-FROM-RELEASE
       sections:
       - file: ODE/GR.md
     - file: ODE/lesoefeningen
     - file: ODE/lesoefeningen_2
     - file: ODE/lesoefeningen_3
-# END REMOVE-FROM-RELEASE
   - file: krachtenmethode_vakwerk/lesson.md
 # START REMOVE-FROM-RELEASE
     sections:

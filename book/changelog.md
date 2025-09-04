@@ -1,5 +1,11 @@
 # Changelog 🔖
 
+## 2025-09-03: v2025.2.0
+Toevoegen:
+- [](./ODE/lesoefeningen.ipynb)
+- [](./ODE/lesoefeningen_2.md)
+- [](./ODE/lesoefeningen_3.ipynb)
+
 ## 2025-09-03: v2025.1.1
 - Toevoegen matrixframe bestanden als antwoord in:
 - [](./matrixframe/lesoefeningen.md)
