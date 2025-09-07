@@ -2,33 +2,33 @@
 
 ## 2025-09-04: v2025.3.0
 Toevoegen:
-- [](./krachtenmethode_vakwerk/theorie.md)
+- [8 september: Krachtenmethode rek - Instructie](./krachtenmethode_vakwerk/theorie.md)
 
 ## 2025-09-03: v2025.2.0
 Toevoegen:
-- [](./ODE/instructie.ipynb)
-- [](./ODE/GR.md)
-- [](./ODE/lesoefeningen.ipynb)
-- [](./ODE/lesoefeningen_2.md)
-- [](./ODE/lesoefeningen_3.ipynb)
+- [4 september: Differentiaalvergelijkingen - Instructie](./ODE/instructie.ipynb)
+- [4 september: Differentiaalvergelijkingen - Instructie - Stelsel vergelijkingen oplossen met een grafische rekenmachine](./ODE/GR.md)
+- [4 september: Differentiaalvergelijkingen - Begeleide oefening 1](./ODE/lesoefeningen.ipynb)
+- [4 september: Differentiaalvergelijkingen - Begeleide oefening 2](./ODE/lesoefeningen_2.md)
+- [4 september: Differentiaalvergelijkingen - Begeleide oefening 3](./ODE/lesoefeningen_3.ipynb)
 
 ## 2025-09-03: v2025.1.1
-- Toevoegen matrixframe bestanden als antwoord in:
-- [](./matrixframe/lesoefeningen.md)
-- [](./matrixframe/lesoefeningen_2.md)
-- [](./matrixframe/lesoefeningen_3.md)
+Toevoegen matrixframe bestanden als antwoord in:
+- [3 september: Matrixframe - Begeleide oefening 1](./matrixframe/lesoefeningen.md)
+- [3 september: Matrixframe - Begeleide oefening 2](./matrixframe/lesoefeningen_2.md)
+- [3 september: Matrixframe - Begeleide oefening 3](./matrixframe/lesoefeningen_3.md)
 
 ## 2025-09-03: v2025.1.0
 Toevoegen:
-- [](./matrixframe/lesoefeningen.md)
-- [](./matrixframe/lesoefeningen_2.md)
-- [](./matrixframe/lesoefeningen_3.md)
+- [3 september: Matrixframe - Begeleide oefening 1](./matrixframe/lesoefeningen.md)
+- [3 september: Matrixframe - Begeleide oefening 2](./matrixframe/lesoefeningen_2.md)
+- [3 september: Matrixframe - Begeleide oefening 3](./matrixframe/lesoefeningen_3.md)
 
 ## 2025-09-02: v2025.0.4
-- Toevoegen [](./matrixframe/instructie.md)
+- Toevoegen [3 september: Matrixframe - Instructie](./matrixframe/instructie.md)
 
 ## 2025-09-01: v2025.0.3
-- Vervangen [](example_sd_8)
+- Vervangen [2 september: Statisch onbepaaldheid - Instructie - Figuur Aantal evenwichtsvergelijkingen per knoop](example_sd_8)
 
 ## 2025-08-26: v2025.0.2
 - Landingspagina van toekomstige lessen toegevoegd
