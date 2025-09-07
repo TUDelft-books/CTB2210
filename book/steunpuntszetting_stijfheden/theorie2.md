@@ -1,12 +1,13 @@
-# Instructie stijfheidsinvloeden
-
 ````{margin}
-```{attributiongrey} Bronvermelding
+```{attributiongrey} Attribution
 :class: attribution
 
-Deze theorie is aangepast van https://github.com/TUDelft-books/CEG-mechanics-BSc versie EN.
+Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/statically_inderminate/stiffness_influences.html en https://oit.tudelft.nl/CT1000/2024/week_7/session_3/intro.html
+
 ```
-````
+```` 
+
+# Instructie stijfheidsinvloeden
 
 Verschillen in stijfheden zorgen bij statisch bepaalde constructies niet voor een krachtsherverdeling, enkel op de verplaatsingen. Bij statisch onbepaalde constructies zorgen stijfheidsverschillen ook voor verschillen in de krachtsverdeling. Het analyseren van de invloed hiervan kan erg interessant zijn.
 
@@ -16,15 +17,7 @@ Er zijn twee manieren om de stijfheidsinvloeden te analyseren:
 2. Onderzoek extremen: bekijk beide gevallen van $EI \to 0$ of $EA \to 0$ en $EI \to \infty$ of $EA \to \infty$. Hiermee kun je de uiterste gevallen van krachten en de omhullende van inwendige krachten/verplaatsingen bepalen. Alle werkelijke stijfheidswaarden moeten binnen deze envelop liggen. Bij deze analyse vereenvoudigt een statisch bepaalde constructie soms tot een statisch bepaalde constructie.
 
 
-We behandelen beide aanpakken op de volgende constructie:
-
-````{margin}
-```{attributiongrey} Bronvermelding
-:class: attribution
-
-Dit voorbeeld is aangepast van https://github.com/TUDelft-books/CT1000 versie CTB2210-2025.
-```
-```` 
+We behandelen beide aanpakken op de volgende constructie: 
 
 ::::::{prf:example}
 :nonumber: true

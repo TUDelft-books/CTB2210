@@ -2,7 +2,8 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze theorie is aangepast van https://github.com/TUDelft-books/CT1000 versie 2024.
+Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_7/session_1/intro.html
+
 ```
 ````
 
@@ -11,6 +12,10 @@ Deze theorie is aangepast van https://github.com/TUDelft-books/CT1000 versie 202
 Bij de **krachten**methode maak je gebruik van vormveranderingsvoorwaardes om de statisch onbepaalde **krachten** te bepalen. Echter, met dezelfde aanpak kan je ook evenwichtsvoorwaardes opstellen om statisch onbepaalde **verplaatsingen** op te lossen: de **verplaatsingen**methode. Dit kan nuttig zijn omdat een enkele evenwichtsvoorwaarde soms al kan voldoen tegenover meerdere vormveranderingsvoorwaardes.
 
 De stappen zijn zeer vergelijkbaar met de krachtenmethode, met als enige verschil dat we geen opleggingen weg kunnen nemen omdat de statisch onbepaalde verplaatsing daar gelijk moet zijn aan 0.
+
+::::::{prf:algorithm} Verplaatsingenmethode
+:nonumber: true
+:label: verplaatsingenmethode_algoritme
 
 1. Bepaal de graad van statische bepaaldheid.
 2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen: voeg onbekende statisch onbepaalde verplaatsingen toe en evenwichtsvoorwaarden toe voor elke aansluiting van de pendelstaven die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!
@@ -31,6 +36,8 @@ De stappen zijn zeer vergelijkbaar met de krachtenmethode, met als enige verschi
 
 3. Los de krachten op in termen van de onbekende onbepaalde verplaatsingen.
 4. Gebruik je evenwichtsvoorwaarden om de statisch onbepaalde verplaatsingen op te lossen.
+
+::::::
 
 De toepassing van de verplaatsingenmethode wordt getoond op onderstaande voorbeeld.
 

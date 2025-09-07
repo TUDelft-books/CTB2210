@@ -112,3 +112,15 @@ Dwarskrachten
 ::::
 
 % solution_end
+
+:::::{margin}
+::::{versionadded} v2025.1.1
+2025-09-03: Matrixframe bestand toegevoegd
+::::
+:::::
+
+::::::{hint}
+
+Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_1.mxe) te downloaden.
+
+::::::
