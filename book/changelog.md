@@ -1,7 +1,13 @@
 # Changelog 🔖
 
+## 2025-09-04: v2025.3.0
+Toevoegen:
+- [](./krachtenmethode_vakwerk/theorie.md)
+
 ## 2025-09-03: v2025.2.0
 Toevoegen:
+- [](./ODE/instructie.ipynb)
+- [](./ODE/GR.md)
 - [](./ODE/lesoefeningen.ipynb)
 - [](./ODE/lesoefeningen_2.md)
 - [](./ODE/lesoefeningen_3.ipynb)
