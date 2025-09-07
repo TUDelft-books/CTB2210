@@ -31,9 +31,9 @@ parts:
     - file: ODE/lesoefeningen_2
     - file: ODE/lesoefeningen_3
   - file: krachtenmethode_vakwerk/lesson.md
-# START REMOVE-FROM-RELEASE
     sections:
     - file: krachtenmethode_vakwerk/theorie.md
+# START REMOVE-FROM-RELEASE
     - file: krachtenmethode_vakwerk/lesoefeningen.md
 # END REMOVE-FROM-RELEASE
   - file: krachtenmethode_vakwerk/lesson_2.md
