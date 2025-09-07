@@ -6,7 +6,7 @@ Gegeven is de volgende constructie:
 Source file figure at https://github.com/TUDelft-books/CEG-mechanics-BSc/commit/45444efba567e493f0cde50fa7f32ab08e3af5c0
 -->
 
-```{figure} Oefening_1.svg
+```{figure} ./graad_bepalen_data/Oefening_1.svg
 ---
 align: center
 ---
@@ -33,14 +33,14 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 
 Er zijn *6* onbekende oplegreacties en *32* onbekende staafkrachten. Dat zijn *38* onbekende krachten in totaal.
 
-```{figure} Oefening_2.svg
+```{figure} ./graad_bepalen_data/Oefening_2.svg
 ---
 align: center
 ---
 Aantal onbekende oplegreacties en staafkrachten op knopen
 ```
 
-```{figure} Oefening_3.svg
+```{figure} ./graad_bepalen_data/Oefening_3.svg
 ---
 align: center
 ---
@@ -67,14 +67,14 @@ Aantal onbekende staafkrachten op staven
 
 Er zijn *0* evenwichtsvergelijkingen vanuit rolscharnieren, *6* evenwichtsvergelijking(en) vanuit scharnierende verbindingen, *9* evenwichtsvergelijking(en) vanuit algemene verbindingen, *1* evenwichtsvergelijking(en) vanuit pendelstaven en *18* evenwichtsvergelijking(en) vanuit algemene staven. Dat zijn *34* evenwichtsvergelijkingen in totaal.
 
-```{figure} Oefening_4.svg
+```{figure} ./graad_bepalen_data/Oefening_4.svg
 ---
 align: center
 ---
 Aantal evenwichtsvergelijkingen voor de knopen
 ```
 
-```{figure} Oefening_5.svg
+```{figure} ./graad_bepalen_data/Oefening_5.svg
 ---
 align: center
 ---
