@@ -33,9 +33,7 @@ parts:
   - file: krachtenmethode_vakwerk/lesson.md
     sections:
     - file: krachtenmethode_vakwerk/theorie.md
-# START REMOVE-FROM-RELEASE
     - file: krachtenmethode_vakwerk/lesoefeningen.md
-# END REMOVE-FROM-RELEASE
   - file: krachtenmethode_vakwerk/lesson_2.md
 # START REMOVE-FROM-RELEASE
     sections:
