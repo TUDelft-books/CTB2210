@@ -1,14 +1,3 @@
-````{margin}
-```{attributiongrey} Attribution
-:class: attribution
-
-Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_6/session_1/intro.html
-
-% Figures from https://github.com/TUDelft-books/CT1000/blob/2025/book/week_6/session_1/intro_data/Tekening1.vsdx
-
-```
-```` 
-
 (krachtenmethode_simpel)=
 # Instructie
 
@@ -95,6 +84,9 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
 
     ::::::
 
+::::::{versionchanged} v2025.5.1: 2025-09-09, Correctie normaalkracht en verlenging
+::::::
+
 3. Los de verplaatsing op in termen van de onbekende onbepaalde krachten zoals je normaal zou doen voor een statisch bepaalde constructie.
 
     ::::::{prf:example}
@@ -112,12 +104,11 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
 
     Om de verplaatsing van $\rm{B}$ te vinden, kunnen eerst de normaalkrachten worden geëvalueerd als functie van $B_{\rm{v}}$ met behulp van verticaal krachtenevenwicht:
 
-    - $N_{\rm{AC}}\left( B_{\rm{v}} \right) = - B_{\rm{v}} + 3 \cdot x $
+    - $N_{\rm{AC}}\left( B_{\rm{v}} \right) = - B_{\rm{v}} + 6 - 3 \cdot x $
     - $N_{\rm{BC}} \left( B_{\rm{v}} \right) = - B_{\rm{v}}$
 
     Dit leidt tot de volgende uitrekking van de elementen, met behulp van $\Delta L = \cfrac{N \ L}{EA}$:
-
-    - $\Delta L_{\rm{AC}}\left( B_{\rm{v}} \right) = - \cfrac{B_{\rm{v}} \cdot 2}{2500} + \cfrac{\left( 2 \cdot 3 \right) \cdot 2}{2 \cdot 2500} = - \cfrac{B_{\rm{v}}}{1250} + \cfrac{3}{1250} $
+    - $\Delta L_{\rm{AC}}\left( B_{\rm{v}} \right) = - \cfrac{B_{\rm{v}} \cdot 2}{2500} + \cfrac{6 \cdot 2}{2500} - \int\limits_0^2 {\cfrac{ 3 \cdot x}{2500}dx} = - \cfrac{B_{\rm{v}}}{1250} + \cfrac{3}{1250} $
     - $\Delta L_{\rm{BC}}\left( B_{\rm{v}} \right) = -\cfrac{B_{\rm{v}}}{1250}$
 
     Dit leidt tot een verplaatsing van:

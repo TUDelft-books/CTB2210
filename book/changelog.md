@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2025-09-09: v2025.5.1
+Correctie normaalkracht en verlenging in [8 september: Krachtenmethode rek - Instructie](./krachtenmethode_vakwerk/theorie.md)
+
 ## 2025-09-09: v2025.5.0
 Toevoegen:
 - [9 september: Krachtenmethode rek en Williot - Instructie](./krachtenmethode_vakwerk/instructie.md)
