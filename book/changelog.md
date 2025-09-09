@@ -1,5 +1,10 @@
 # Changelog 🔖
 
+## 2025-09-09: v2025.5.0
+Toevoegen:
+- [9 september: Krachtenmethode rek en Williot - Instructie](./krachtenmethode_vakwerk/instructie.md)
+- [9 september: Krachtenmethode rek en Williot - Begeleide oefening 1](./krachtenmethode_vakwerk/lesoefeningen2.md)
+
 ## 2025-09-08: v2025.4.0
 Toevoegen:
 - [8 september: Krachtenmethode rek - Begeleide oefening 1](./krachtenmethode_vakwerk/lesoefeningen.md)
