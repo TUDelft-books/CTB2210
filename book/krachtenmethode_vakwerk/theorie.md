@@ -84,13 +84,14 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
 
     ::::::
 
-3. Los de verplaatsing op in termen van de onbekende onbepaalde krachten zoals je normaal zou doen voor een statisch bepaalde constructie.
 
 :::::::{margin}
 ::::::{versionchanged} v2025.5.1
 2025-09-09, Correctie normaalkracht en verlenging
 ::::::
 :::::::
+
+3. Los de verplaatsing op in termen van de onbekende onbepaalde krachten zoals je normaal zou doen voor een statisch bepaalde constructie.
 
     ::::::{prf:example}
     :nonumber: true
