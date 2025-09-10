@@ -41,10 +41,8 @@ parts:
   - file: krachtenmethode_balk/lesson.md
     sections:
     - file: krachtenmethode_balk/instructie.md
-# START REMOVE-FROM-RELEASE
     - file: krachtenmethode_balk/lesoefeningen.md
     - file: krachtenmethode_balk/lesoefeningen_2.md
-# END REMOVE-FROM-RELEASE
   - file: krachtenmethode_raamwerk/lesson.md
 # START REMOVE-FROM-RELEASE
     sections:

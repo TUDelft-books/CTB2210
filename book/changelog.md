@@ -1,5 +1,10 @@
 # Changelog 🔖
 
+## 2025-09-10: v2025.7.0
+Toevoegen:
+- [10 september: Krachtenmethodebalken - Begeleide oefening 1](./krachtenmethode_balk/lesoefeningen.md)
+- [10 september: Krachtenmethodebalken - Begeleide oefening 2](./krachtenmethode_balk/lesoefeningen_2.md)
+
 ## 2025-09-10: v2025.6.0
 Toevoegen:
 - [10 september: Krachtenmethodebalken - Instructie](./krachtenmethode_balk/instructie.md)
