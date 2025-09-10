@@ -9,8 +9,6 @@ Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statica
 ```
 ```` 
 
-https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/statically_inderminate/force_method/bending.md
-
 (krachtenmethode_balk)=
 # Instructie
 
