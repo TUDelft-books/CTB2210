@@ -1,5 +1,9 @@
 # Changelog 🔖
 
+## 2025-09-10: v2025.6.0
+Toevoegen:
+- [10 september: Krachtenmethodebalken - Instructie](./krachtenmethode_balk/instructie.md)
+
 ## 2025-09-09: v2025.5.1
 Correctie normaalkracht en verlenging in [8 september: Krachtenmethode rek - Instructie](./krachtenmethode_vakwerk/theorie.md)
 

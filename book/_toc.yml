@@ -39,9 +39,9 @@ parts:
     - file: krachtenmethode_vakwerk/instructie.md
     - file: krachtenmethode_vakwerk/lesoefeningen2.md
   - file: krachtenmethode_balk/lesson.md
-# START REMOVE-FROM-RELEASE
     sections:
     - file: krachtenmethode_balk/instructie.md
+# START REMOVE-FROM-RELEASE
     - file: krachtenmethode_balk/lesoefeningen.md
     - file: krachtenmethode_balk/lesoefeningen_2.md
 # END REMOVE-FROM-RELEASE
