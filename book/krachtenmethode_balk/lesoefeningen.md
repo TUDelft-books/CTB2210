@@ -98,6 +98,8 @@ Los nu de andere oplegreacties op en bepaal de momenten en verplaatsingen.
 ```{h5p} https://tudelft.h5p.com/content/1292636572692927547/embed
 ```
 
+:::::
+
 % solution_start
 
 ::::{solution} balk_1_3
