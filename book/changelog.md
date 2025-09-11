@@ -1,13 +1,19 @@
 # Changelog 🔖
 
+## 2025-09-10: v2025.8.0
+Toevoegen:
+- [11 september: Krachtenmethode raamwerk - Instructie](./krachtenmethode_raamwerk/instructie.md)
+- [11 september: Krachtenmethode raamwerk - Begeleide oefening 1](./krachtenmethode_raamwerk/lesoefeningen.md)
+- [11 september: Krachtenmethode raamwerk - Begeleide oefening 2](./krachtenmethode_raamwerk/lesoefeningen_2.md)
+
 ## 2025-09-10: v2025.7.0
 Toevoegen:
-- [10 september: Krachtenmethodebalken - Begeleide oefening 1](./krachtenmethode_balk/lesoefeningen.md)
-- [10 september: Krachtenmethodebalken - Begeleide oefening 2](./krachtenmethode_balk/lesoefeningen_2.md)
+- [10 september: Krachtenmethode balken - Begeleide oefening 1](./krachtenmethode_balk/lesoefeningen.md)
+- [10 september: Krachtenmethode balken - Begeleide oefening 2](./krachtenmethode_balk/lesoefeningen_2.md)
 
 ## 2025-09-10: v2025.6.0
 Toevoegen:
-- [10 september: Krachtenmethodebalken - Instructie](./krachtenmethode_balk/instructie.md)
+- [10 september: Krachtenmethode balken - Instructie](./krachtenmethode_balk/instructie.md)
 
 ## 2025-09-09: v2025.5.1
 Correctie normaalkracht en verlenging in [8 september: Krachtenmethode rek - Instructie](./krachtenmethode_vakwerk/theorie.md)

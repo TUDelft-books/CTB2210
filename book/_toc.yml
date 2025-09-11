@@ -44,12 +44,10 @@ parts:
     - file: krachtenmethode_balk/lesoefeningen.md
     - file: krachtenmethode_balk/lesoefeningen_2.md
   - file: krachtenmethode_raamwerk/lesson.md
-# START REMOVE-FROM-RELEASE
     sections:
     - file: krachtenmethode_raamwerk/instructie.md
     - file: krachtenmethode_raamwerk/lesoefeningen.md
     - file: krachtenmethode_raamwerk/lesoefeningen_2.md
-# END REMOVE-FROM-RELEASE
   - file: steunpuntszetting_stijfheden/lesson.md
 # START REMOVE-FROM-RELEASE
     sections:
