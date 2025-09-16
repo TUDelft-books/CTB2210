@@ -92,3 +92,18 @@ $$ C_3 = -0.015 $$
 Als de temperatuur verder toeneemt, dan wordt de absolute waarde van maximale verplaatsing eerst kleiner dan groter. 
 
 ::::
+
+:::::{exercise}
+:label: temp_2_5
+:nonumber: true
+
+Waar is het moment gelijk aan 0 en waar is het buigpunt?
+
+...
+
+Wat ken je zeggen over de locatie van deze twee punten.
+
+...
+
+
+:::::
