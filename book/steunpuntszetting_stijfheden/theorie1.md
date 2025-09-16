@@ -19,7 +19,7 @@ Statisch bepaalde constructie onder invloed van steunpuntszetting
 
 Bij uitwendig statisch onbepaalde constructies zijn rekloze verplaatsingen en rotaties niet mogelijk. Echter, omdat voor het berekeningen van statisch onbepaalde constructies de verplaatsingen sowieso geëvalueerd moeten worden kunnen deze extra verplaatsingen daarin worden meegenomen zonder dat het oplossingsproces verandert. De steunpuntsverplaatsingen zullen bij de bepaling van verplaatsingen vanzelf terecht komen in de vormveranderingsvoorwaardes.
 
-De toepassing van steunpuntszettingen op een statisch bepaalde constructie wordt in een voorbeeld getoond met de krachtenmethode, specifiek de hoekveranderingsvergelijkingen. Andere methodes zijn ook mogelijk.
+De toepassing van steunpuntszettingen op een statisch onbepaalde constructie wordt in een voorbeeld getoond met de krachtenmethode, specifiek de hoekveranderingsvergelijkingen. Andere methodes zijn ook mogelijk.
 
 ::::::{prf:example}
 :nonumber: true

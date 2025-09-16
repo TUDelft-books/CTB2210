@@ -97,9 +97,16 @@ Constructie
 
 Er is gekozen voor dit systeem zodat we de steunpuntszetting in de vormveranderingsvoorwaarde mee kunnen nemen en niet mee hoeven te nemen in bepalen van krachtsverdeling.
 
-Bepaal de krachtsverdeling en vervormingen als functie van $B_{\rm{v}}$. Neem in je Williot-diagram een zelf gekozen lengte aan voor $B_{\rm{v}}$. 
+Bepaal de krachtsverdeling en vervormingen als functie van $B_{\rm{v}}$. Het williot-diagram is gegeven (maar zou je zelf moeten kunnen tekenen).
 
 ```{h5p} https://tudelft.h5p.com/content/1292653940023500187/embed
+```
+
+```{figure} lesoefeningen_data/williot.svg
+---
+align: center
+---
+Williot diagram voor het bepalen van de verplaatsing van $\rm{D}$ en $\rm{B}$.
 ```
 
 :::::
@@ -129,6 +136,7 @@ align: center
 ---
 Williot diagram voor het bepalen van de verplaatsing van $\rm{D}$ en $\rm{B}$.
 ```
+
 Uit het williot diagram kan worden afgelezen:
 
 $$ w_{D,\rm{h}} = 0.0003 \cdot B_{\rm{v}} \ \rm{m} \left(\rightarrow\right)$$
