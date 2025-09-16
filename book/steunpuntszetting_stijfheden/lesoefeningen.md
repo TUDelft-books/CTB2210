@@ -45,7 +45,7 @@ Met als resultaat:
 :class: dropdown
 
 - De normaalkracht in $\rm{BD}$ is niet juist berekend
-  - De verlenging van $\rm{BD}$ is niet enkel afhankelijk van de verplaatsing van knoop \(\rm{B}\)
+  - De verlenging van $\rm{BD}$ is niet enkel afhankelijk van de verplaatsing van knoop $\rm{B}$
 - De normaalkrachten in $\rm{AD}$ en $\rm{CD}$ zijn niet juist berekend
 - De verlengingen van de staven $\rm{AD}$ en $\rm{CD}$ zijn niet juist berekend
 - De verplaatsing van knoop $\rm{D}$ is niet juist berekend
