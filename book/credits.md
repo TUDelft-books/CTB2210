@@ -52,6 +52,6 @@ Naast constructiemechanicavakken, geeft Tom vakken over optimalisatie, numerieke
 - {fa}`building-columns` [TU Delft profiel](https://www.tudelft.nl/en/staff/t.r.vanwoudenberg/)
 
 ### Dankwoord 🙏
-Dank aan studentenassistent Iris Oskam voor het controleren van de antwoorden en toevoegen van uitwerkingen
+Dank aan studentenassistent Iris Oskam en Martijn Westerhof voor het controleren van de antwoorden en toevoegen van uitwerkingen
 
-Daarnaast veel dank aan de diverse collega's en studentassistenten van [TeachBooks](https://teachbooks.io/) voor het ontwikkelen van tools en het bieden van ondersteuning om dit boek te verbeteren.
+Daarnaast veel dank aan de diverse collega's en studentassistenten van [TeachBooks](https://teachbooks.io/) voor het samen ontwikkelen van tools en het bieden van ondersteuning om dit boek te verbeteren.
