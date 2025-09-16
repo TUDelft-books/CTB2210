@@ -156,8 +156,13 @@ align: center
 Momentenlijn voor $nEI \to \infty $
 ```
 
+::::::
 
-**Omhullende momentenlijn**
+## Omhullende momentenlijn
+
+::::::{prf:example}
+:nonumber: true
+:label: stijfheid_6
 
 De extreme momenten kunnen gecombineerd worden tot omhullende momentenlijn waarbij alle mogelijk waardes voor het moment voor $n$ in het grijze gedeelte vallen.
 
@@ -168,8 +173,10 @@ align: center
 Omhullende momentenlijn
 ```
 
+Dit kan ook gedaan worden voor andere krachts- en verplaatsingsgrootheden.
+
 ::::::
 
 ## Meer voorbeelden
 
-In hoofdstuk 7 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` worden stijfheidsinvloeden behandeld. De aanpak van hoekveranderingsvergelijkingen met verplaatsbare knopen bij voorbeeld 6.1.3 kan worden vervangen door een van de bekende methodes.
+In hoofdstuk 7 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` worden stijfheidsinvloeden behandeld. De aanpak van hoekveranderingsvergelijkingen met verplaatsbare knopen bij hoofdstuk 7.1 voorbeeld 2 kan worden vervangen door een van de bekende methodes.
