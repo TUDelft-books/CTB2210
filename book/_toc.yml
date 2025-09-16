@@ -49,17 +49,17 @@ parts:
     - file: krachtenmethode_raamwerk/lesoefeningen.md
     - file: krachtenmethode_raamwerk/lesoefeningen_2.md
   - file: steunpuntszetting_stijfheden/lesson.md
-# START REMOVE-FROM-RELEASE
     sections:
     - file: steunpuntszetting_stijfheden/theorie1.md
     - file: steunpuntszetting_stijfheden/theorie2.md
+# START REMOVE-FROM-RELEASE
     - file: steunpuntszetting_stijfheden/lesoefeningen.md
     - file: steunpuntszetting_stijfheden/lesoefeningen_2.md
 # END REMOVE-FROM-RELEASE
   - file: temperatuur/lesson.md
-# START REMOVE-FROM-RELEASE
     sections:
     - file: temperatuur/theorie.md
+# START REMOVE-FROM-RELEASE
     - file: temperatuur/lesoefening1.md
     - file: temperatuur/lesoefening.md
 # END REMOVE-FROM-RELEASE

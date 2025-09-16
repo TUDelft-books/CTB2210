@@ -1,5 +1,11 @@
 # Changelog 🔖
 
+## 2025-09-16: v2025.9.0
+Toevoegen: 
+- [17 september: Steunpuntszetting en stijfheden - Instructie steunpuntszettingen](./steunpuntszetting_stijfheden/theorie1.md)
+- [17 september: Steunpuntszetting en stijfheden - Instructie stijfheden](./steunpuntszetting_stijfheden/theorie2.md)
+- [18 september: Temperatuursinvloeden - Instructie](./temperatuur/theorie.md)
+
 ## 2025-09-10: v2025.8.0
 Toevoegen:
 - [11 september: Krachtenmethode raamwerk - Instructie](./krachtenmethode_raamwerk/instructie.md)
