@@ -52,10 +52,8 @@ parts:
     sections:
     - file: steunpuntszetting_stijfheden/theorie1.md
     - file: steunpuntszetting_stijfheden/theorie2.md
-# START REMOVE-FROM-RELEASE
     - file: steunpuntszetting_stijfheden/lesoefeningen.md
     - file: steunpuntszetting_stijfheden/lesoefeningen_2.md
-# END REMOVE-FROM-RELEASE
   - file: temperatuur/lesson.md
     sections:
     - file: temperatuur/theorie.md

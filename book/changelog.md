@@ -1,5 +1,11 @@
 # Changelog 🔖
 
+## 2025-09-17: v2025.10.0
+Toevoegen:
+- [17 september: Steunpuntszetting en stijfheden - Begeleide oefening 1](./steunpuntszetting_stijfheden/lesoefeningen.md)
+- [17 september: Steunpuntszetting en stijfheden - Begeleide oefening 2](./steunpuntszetting_stijfheden/lesoefeningen_2.md)
+
+
 ## 2025-09-16: v2025.9.0
 Toevoegen: 
 - [17 september: Steunpuntszetting en stijfheden - Instructie steunpuntszettingen](./steunpuntszetting_stijfheden/theorie1.md)
