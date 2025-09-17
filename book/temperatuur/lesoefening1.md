@@ -20,7 +20,7 @@ Gegeven is de volgende constructie:
 
 Bepaal de kromming en rek als gevolg van de temperatuurinvloed.
 
-```{h5p} https://tudelft.h5p.com/content/1292660766863817267/embed
+```{h5p} https://tudelft.h5p.com/content/1292694670489341987/embed
 ```
 
 :::::
@@ -35,7 +35,7 @@ Maak een statisch bepaald systeem dat gebruik maakt van de volgende vormverander
 :align: center
 ```
 
-Wat zijn de krachtverdelingen en verplaatsingen als gevolg van de verdeelde belasting als functie van $N_{\rm{CD}}$?Neem dus geen kinematische equivalente krachten als gevolg van de temperatuurinvloed mee.
+Wat zijn de krachtverdelingen en verplaatsingen als gevolg van de verdeelde belasting als functie van $N_{\rm{CD}}$? Neem dus geen kinematische equivalente krachten als gevolg van de temperatuurinvloed mee.
 
 ```{h5p} https://tudelft.h5p.com/content/1292660774931288447
 ```
