@@ -29,12 +29,12 @@ Evenwicht van knoop D levert:
 - $ N_{\rm{CD}} = -168.75 \ \rm{kN}$
 
 Hieruit volgt:
-- $\Delta L_{\rm{AD}} = \cfrac{-281.25 \cdot 15000}{10} = -0.140625 \ \rm{m}$
-- $\Delta L_{\rm{CD}} = \cfrac{-168.75 \cdot 15000}{6} = - 0.0675 \ \rm{m}$
+- $\Delta L_{\rm{AD}} = \cfrac{-281.25 \cdot 7.5}{15000} = -0.109125 \ \rm{m}$
+- $\Delta L_{\rm{CD}} = \cfrac{-168.75 \cdot 6}{15000} = - 0.0675 \ \rm{m}$
 
 Met als resultaat:
 - Horizontale verplaatsing van $\rm{D}$ van $67.5 \ \rm{mm}$ naar rechts
-- Verticale verplaatsing van $\rm{D}$ van $140.625 \cdot \cfrac{4}{5} = 112.5 \ \rm{mm} $ naar beneden
+- Verticale verplaatsing van $\rm{D}$ van $109.125 \cdot \cfrac{4}{5} = 87.3 \ \rm{mm} $ naar beneden
 
 ```{h5p} https://tudelft.h5p.com/content/1292653910239346277/embed
 ```
