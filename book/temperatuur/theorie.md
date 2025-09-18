@@ -62,7 +62,7 @@ align: center
 Voorbeeldconstructie
 ```
 
-Het temperatuurverschil over de hoogte van de balk geeft de kromming $\kappa^{\rm{T}} = 10^{-5} \ \rm{m}^{-1}$ over de gehele lengte van de balk:
+Het temperatuurverschil over de hoogte van de balk geeft de kromming $\kappa^{\rm{T}} = 10^{-3} \ \rm{m}^{-1}$ over de gehele lengte van de balk:
 
 ```{figure} ./theorie_data/curv_sun.svg
 ---
