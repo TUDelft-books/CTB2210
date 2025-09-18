@@ -32,7 +32,7 @@ De temperatuursinvloeden kunnen worden meegenomen in de krachtenmethode met de v
 :nonumber: true
 :label: krachtenmethode_temperatuur
 
-1. **Bepaal de kromming en rek als gevolg van de temperatuursinvloed.**
+1. **Bepaal de kromming en rek als gevolg van de temperatuursinvloed los van alle opleggingen.**
 2. Bepaal de graad van statische bepaaldheid.
 3. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen.
 4. **Stel kinematisch equivalente belastingen op die dezelfde vervorming veroorzaken als de temperatuursinvloed.**
@@ -68,7 +68,7 @@ Het temperatuurverschil over de hoogte van de balk geeft de kromming $\kappa^{\r
 ---
 align: center
 ---
-Krommingslijn
+Krommingslijn ten gevolge van de temperatuur los van alle opleggingen
 ```
 
 Om de kinematisch equivalente kracht te vinden moeten we de constructie eerste statisch bepaald maken. Dat kan bijvoorbeeld met het volgende statisch bepaalde systeem:
