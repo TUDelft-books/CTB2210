@@ -26,6 +26,21 @@ In statisch onbepaalde constructies zijn de vervorming en krachtverdeling gekopp
 Kinematisch equivalente belasting die tot dezelfde rek en kromming leidt als rek door lineaire uitzetting, terwijl statisch onbepaalde reactiekrachten spanningen en reactiekrachten veroorzaken
 ```
 
+De temperatuursinvloeden kunnen worden meegenomen in de krachtenmethode met de volgende stappen, waarbij stappen 1 en 4 zijn toegevoegd aan de standaard krachtenmethode:
+
+::::::{prf:algorithm} Temperatuursinvloeden en krachtenmethode
+:nonumber: true
+:label: krachtenmethode_temperatuur
+
+1. **Bepaal de kromming en rek als gevolg van de temperatuursinvloed.**
+2. Bepaal de graad van statische bepaaldheid.
+3. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen.
+4. **Stel kinematisch equivalente belastingen op die dezelfde vervorming veroorzaken als de temperatuursinvloed.**
+5. Los de verplaatsing op in termen van de onbekende onbepaalde krachten.
+6. Gebruik je vervormingsvoorwaarden om de statisch onbepaalde krachten op te lossen.
+
+::::::
+
 De toepassing van temperatuursinvloeden op een statisch onbepaalde constructie wordt in een voorbeeld getoond met de krachtenmethode.
 
 ````{margin}
