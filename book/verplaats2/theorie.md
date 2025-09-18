@@ -25,7 +25,7 @@ De toepassing van deze verplaatsingenmethode op een statisch onbepaalde construc
 
 ::::::{prf:example}
 :nonumber: true
-:label: steunpunt_0
+:label: verplaats_2_0
 
 ```{figure} ./theorie_data/structure.svg
 ---
