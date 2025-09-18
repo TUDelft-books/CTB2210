@@ -81,9 +81,9 @@ Voorbeeldconstructie
 
     Hieruit volgt:
 
-    - $M_{\rm{B,1}} = \varphi_{\rm{B}} \cdot \cfrac{4EI}{L_{\rm{AB}}} = \varphi_{\rm{B}} \cdot \cfrac{4 \cdot 1500}{3} = 2000 \varphi$
-    - $V_{\rm{B,1}} = \varphi_{\rm{B}} \cdot \cfrac{6EI}{L_{\rm{AB}}^2} = \varphi_{\rm{B}} \cdot \cfrac{6 \cdot 1500}{3^2} = 1000 \varphi$
-    
+    - $M_{\rm{B,1}} = \varphi_{\rm{B}} \cdot \cfrac{4EI}{L_{\rm{AB}}} = \varphi_{\rm{B}} \cdot \cfrac{4 \cdot 1500}{3} = 2000 \varphi_{\rm{B}}$
+    - $V_{\rm{B,1}} = \varphi_{\rm{B}} \cdot \cfrac{6EI}{L_{\rm{AB}}^2} = \varphi_{\rm{B}} \cdot \cfrac{6 \cdot 1500}{3^2} = 1000 \varphi_{\rm{B}}$
+
 
     Vervolgens wordt de invloed van de verplaatsing $w_{\rm{B}}$ op gedeelte $\rm{AB}$ bekeken. Daarvoor geldt het volgende vergeet-me-nietje, leidend tot snedekrachten in de getoonde richting:
 
@@ -109,8 +109,8 @@ Voorbeeldconstructie
     ```
 
     Hieruit volgt:
-    - $M_{\rm{B,3}} = \varphi_{\rm{B}} \cdot \cfrac{3EI}{L_{\rm{BC}}} = \varphi_{\rm{B}} \cdot \cfrac{3 \cdot 3000}{3} = 3000 \varphi$
-    - $V_{\rm{B,3}} = \varphi_{\rm{B}} \cdot \cfrac{3 EI}{L_{\rm{BC}}^2} = \varphi_{\rm{B}} \cdot \cfrac{3 \cdot 3000}{3^2} = 1000 \varphi$
+    - $M_{\rm{B,3}} = \varphi_{\rm{B}} \cdot \cfrac{3EI}{L_{\rm{BC}}} = \varphi_{\rm{B}} \cdot \cfrac{3 \cdot 3000}{3} = 3000 \varphi_{\rm{B}}$
+    - $V_{\rm{B,3}} = \varphi_{\rm{B}} \cdot \cfrac{3 EI}{L_{\rm{BC}}^2} = \varphi_{\rm{B}} \cdot \cfrac{3 \cdot 3000}{3^2} = 1000 \varphi_{\rm{B}}$
 
     Vervolgens wordt de invloed van de verplaatsing $w_{\rm{B}}$ op gedeelte $\rm{BC}$ bekeken. Daarvoor geldt het volgende vergeet-me-nietje, leidend tot snedekrachten in de getoonde richting:
 
