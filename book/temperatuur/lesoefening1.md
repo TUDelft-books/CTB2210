@@ -6,7 +6,7 @@ Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_8/session_3
 ```
 ````
 
-# Begeleide oefening 1
+# Begeleide oefening 2
 
 Gegeven is de volgende constructie:
 
@@ -37,7 +37,7 @@ Maak een statisch bepaald systeem dat gebruik maakt van de volgende vormverander
 
 Wat zijn de krachtverdelingen en verplaatsingen als gevolg van de verdeelde belasting als functie van $N_{\rm{CD}}$? Neem dus geen kinematische equivalente krachten als gevolg van de temperatuurinvloed mee.
 
-```{h5p} https://tudelft.h5p.com/content/1292660774931288447
+```{h5p} https://tudelft.h5p.com/content/1292695480344829297/embed
 ```
 
 :::::
@@ -48,7 +48,7 @@ Wat zijn de krachtverdelingen en verplaatsingen als gevolg van de verdeelde bela
 
 Wat zijn de krachtverdelingen en verplaatsingen inclusief temperatuurinvloeden en als functie van $N_{\rm{CD}}$?
 
-```{h5p} https://tudelft.h5p.com/content/1292660796839945267/embed
+```{h5p} https://tudelft.h5p.com/content/1292695482798435157/embed
 ```
 
 :::::
@@ -59,7 +59,7 @@ Wat zijn de krachtverdelingen en verplaatsingen inclusief temperatuurinvloeden e
 
 Gebruik de verplaatsingsvoorwaarde om $N_{\rm{CD}}$ op te lossen
 
-```{h5p} https://tudelft.h5p.com/content/1292660799484783077/embed
+```{h5p} https://tudelft.h5p.com/content/1292695483375926127/embed
 ```
 
 :::::
@@ -70,7 +70,7 @@ Gebruik de verplaatsingsvoorwaarde om $N_{\rm{CD}}$ op te lossen
 
 Wat zijn de buigende momenten?
 
-```{h5p} https://tudelft.h5p.com/content/1292660805509625677/embed
+```{h5p} https://tudelft.h5p.com/content/1292695484566484187/embed
 ```
 
 :::::
@@ -81,7 +81,7 @@ Wat zijn de buigende momenten?
 
 Wat is de kromming?
 
-```{h5p} https://tudelft.h5p.com/content/1292660806977160817/embed
+```{h5p} https://tudelft.h5p.com/content/1292695486122112177/embed
 ```
 
 :::::
@@ -92,7 +92,7 @@ Wat is de kromming?
 
 Wat zijn de verplaatsingen?
 
-```{h5p} https://tudelft.h5p.com/content/1292660808935020687/embed
+```{h5p} https://tudelft.h5p.com/content/1292695487624665727/embed
 ```
 
 :::::

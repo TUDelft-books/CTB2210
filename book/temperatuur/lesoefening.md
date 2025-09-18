@@ -1,4 +1,4 @@
-# Begeleide oefening 2
+# Begeleide oefening 1
 
 Gegeven is de volgende constructie:
 
@@ -97,13 +97,9 @@ Als de temperatuur verder toeneemt, dan wordt de absolute waarde van maximale ve
 :label: temp_2_5
 :nonumber: true
 
-Waar is het moment gelijk aan 0 en waar is het buigpunt?
+Waar is het buigpunt?
 
-...
-
-Wat ken je zeggen over de locatie van deze twee punten.
-
-...
-
+```{h5p} https://tudelft.h5p.com/content/1292696178444240937/embed
+```
 
 :::::

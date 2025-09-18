@@ -58,4 +58,11 @@ print(sol[C_1].evalf(), sol[C_3].evalf())
 print('V = ',V.subs(sol))
 print('w = ',w.subs(sol).evalf())
 
-#sym.plot(-w.subs(sol), (x, 0, L1), title='Verplaatsing van de balk', ylabel='Verplaatsing (m)', xlabel='Lengte (m)', show=True)
+M_0 = sym.solve(sym.Eq(M.subs(sol),0), x)[0]
+print('M = ', M.subs(sol).evalf())
+print('M_0 = ', M_0)
+kappa_0 =sym.solve(sym.Eq(kappa.subs(sol),0), x)[0]
+print('kappa_0 = ', kappa_0)
+print('kappa_0 = ', kappa_0.evalf())
+
+sym.plot(-w.subs(sol), (x, 0, L1), title='Verplaatsing van de balk', ylabel='Verplaatsing (m)', xlabel='Lengte (m)', show=True)
