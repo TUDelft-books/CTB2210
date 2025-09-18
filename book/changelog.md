@@ -2,12 +2,12 @@
 
 ## 2025-09-18: v2025.11.0
 Toevoegen:
-- Stappen [krachtenmethode en temperatuursinvloeden](krachtenmethode_temperatuur) toegevoegd aan [18 september: Temperatuursinvloeden - Instructie](./temperatuur/theorie.md)
+- Stappen krachtenmethode en temperatuursinvloeden toegevoegd aan [18 september: Temperatuursinvloeden - Instructie](./temperatuur/theorie.md)
 
 ## 2025-09-18: v2025.11.0
 Toevoegen:
 - [18 september: Temperatuursinvloeden - Begeleide oefening 1](./temperatuur/lesoefening.md)
-- [18 september: Temperatuursinvloeden - Begeleide oefening 2](./temperatuur/lesoefening2.md)
+- [18 september: Temperatuursinvloeden - Begeleide oefening 2](./temperatuur/lesoefening1.md)
 
 ## 2025-09-17: v2025.10.0
 Toevoegen:
