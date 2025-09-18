@@ -67,6 +67,10 @@ parts:
     - file: verplaatsingenmethode/lesoefening2.md
 # END REMOVE-FROM-RELEASE
   - file: verplaats2/lesson.md
+# START REMOVE-FROM-RELEASE
+    sections:
+    - file: verplaats2/theorie.md
+# END REMOVE-FROM-RELEASE
   - file: matrix/lesson.md
 # END REMOVE-FROM-RELEASE
 - caption: Diverse
