@@ -70,6 +70,7 @@ parts:
 # START REMOVE-FROM-RELEASE
     sections:
     - file: verplaats2/theorie.md
+    - file: verplaats2/lesoefening1.md
 # END REMOVE-FROM-RELEASE
   - file: matrix/lesson.md
 # END REMOVE-FROM-RELEASE

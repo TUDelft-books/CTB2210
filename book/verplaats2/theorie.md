@@ -15,7 +15,7 @@ In de les van [](../verplaatsingenmethode/lesson.md) heb je de verplaatsingenmet
 :nonumber: true
 :label: verplaatsingenmethode_algoritme_2
 
-1. Kies een vrijheidsgraad die de vervorming van de constructie bepaalt en splits de constructie in of rondom die plek.
+1. Kies één of meerdere vrijheidsgraden die de vervorming van de constructie bepalen en splits de constructie in of rondom die plek(ken).
 2. Bereken de krachten in de splitsing in termen van de onbekende vrijheidsgraden. Maak daarbij gebruik van de uitgebreide vergeet-me-nietjes in het geval van buiging.
 3. Gebruik evenwichtsvoorwaarden om de vrijheidsgraden op te lossen.
 
@@ -36,7 +36,7 @@ Voorbeeldconstructie
 
 ::::::
 
-1. Kies een vrijheidsgraad die de vervorming van de constructie bepaalt en splits de constructie in of rondom die plek.
+1. Kies één of meerdere vrijheidsgraden die de vervorming van de constructie bepalen en splits de constructie in of rondom die plek(ken).
 
     ::::::{prf:example}
     :nonumber: true
