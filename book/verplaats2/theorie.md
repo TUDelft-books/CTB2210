@@ -151,7 +151,7 @@ Voorbeeldconstructie
     ---
     align: center
     ---
-    Vrijlichaamsschema van knoop B met alle snedekrachten.
+    Vrijlichaamsschema van knoop $\rm{B}$ met alle snedekrachten.
     ```
 
     Dit geeft:
