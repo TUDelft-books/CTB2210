@@ -57,10 +57,8 @@ parts:
   - file: temperatuur/lesson.md
     sections:
     - file: temperatuur/theorie.md
-# START REMOVE-FROM-RELEASE
     - file: temperatuur/lesoefening.md
     - file: temperatuur/lesoefening1.md
-# END REMOVE-FROM-RELEASE
   - file: verplaatsingenmethode/lesson.md
 # START REMOVE-FROM-RELEASE
     sections:

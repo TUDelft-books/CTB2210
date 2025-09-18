@@ -1,5 +1,10 @@
 # Changelog 🔖
 
+## 2025-09-18: v2025.11.0
+Toevoegen:
+- [18 september: Temperatuursinvloeden - Begeleide oefening 1](./temperatuur/lesoefening.md)
+- [18 september: Temperatuursinvloeden - Begeleide oefening 2](./temperatuur/lesoefening2.md)
+
 ## 2025-09-17: v2025.10.0
 Toevoegen:
 - [17 september: Steunpuntszetting en stijfheden - Begeleide oefening 1](./steunpuntszetting_stijfheden/lesoefeningen.md)
