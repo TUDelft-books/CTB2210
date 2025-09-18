@@ -156,17 +156,24 @@ Voorbeeldconstructie
 
     Dit geeft:
     
-    $$\Sigma M = 0 \\
-    -M_{\rm{B,1}} - M_{\rm{B,2}} - M_{\rm{B,3}} + M_{\rm{B,4}} - M_{\rm{B,5}} = 0 \\
-    5000 \varphi_{\rm{B}} + 25.2 = 0 \\
-    \varphi_{\rm{B}} = -0.00504 \ \rm{rad}
+    $$
+    \begin{aligned}
+    \Sigma M &= 0 \\
+    -M_{\rm{B,1}} - M_{\rm{B,2}} - M_{\rm{B,3}} + M_{\rm{B,4}} - M_{\rm{B,5}} &= 0 \\
+    5000 \varphi_{\rm{B}} + 25.2 &= 0 \\
+    \varphi_{\rm{B}} &= -0.00504 \ \rm{rad}
+    \end{aligned}
     $$
 
     en:
-    $$\Sigma F_{\rm{v}} = 0 \\
-    -V_{\rm{B,1}} - V_{\rm{B,2}} + V_{\rm{B,3}} + V_{\rm{B,4}} - V_{\rm{B,5}} = 0 \\
-    1000 w_{\rm{B}} - 30.8 = 0 \\
-    w_{\rm{B}} = 0.0308 \ \rm{m} = 30.8 \ \rm{mm}
+
+    $$
+    \begin{aligned}
+    \Sigma F_{\rm{v}} &= 0 \\
+    -V_{\rm{B,1}} - V_{\rm{B,2}} + V_{\rm{B,3}} + V_{\rm{B,4}} - V_{\rm{B,5}} &= 0 \\
+    1000 w_{\rm{B}} - 30.8 &= 0 \\
+    w_{\rm{B}} &= 0.0308 \ \rm{m} = 30.8 \ \rm{mm}
+    \end{aligned}
     $$
 
     ::::::
