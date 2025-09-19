@@ -1,5 +1,9 @@
 # Changelog 🔖
 
+## 2025-09-19: v2025.12.0
+Toevoegen:
+- [22 september: Verplaatsingenmethode - Instructie](./verplaatsingenmethode/theorie.md)
+
 ## 2025-09-19: v2025.11.1
 Toevoegen buig- en rekstijfheden in bijschrijving figures omdat deze in sommige browsers niet zichtbaar is.
 
