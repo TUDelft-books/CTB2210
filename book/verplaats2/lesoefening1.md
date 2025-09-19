@@ -12,6 +12,8 @@ Gegeven is de volgende constructie:
 
 ```{figure} lesoefening_data/constructie.svg
 :align: center
+
+Constructie, $EA = \cfrac{12.5}{7} \ \rm{MN}$
 ```
 
 Waarvoor de horizontale en verticale verplaatsingen van scharnier $\rm{S}$ als vrijheidsgraden worden genomen, met positief naar rechts en naar beneden.

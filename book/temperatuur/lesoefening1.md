@@ -12,6 +12,8 @@ Gegeven is de volgende constructie:
 
 ```{figure} intro_data/struct.svg
 :align: center
+
+Constructie, $EI = 20 \ \rm{MNm^2}, EA = 10 \ \rm{MN}$
 ```
 
 :::::{exercise}
@@ -33,6 +35,8 @@ Maak een statisch bepaald systeem dat gebruik maakt van de volgende vormverander
 
 ```{figure} intro_data/SD.svg
 :align: center
+
+Statisch bepaalde constructie, $EI = 20 \ \rm{MNm^2}, EA = 10 \ \rm{MN}$
 ```
 
 Wat zijn de krachtverdelingen en verplaatsingen als gevolg van de verdeelde belasting als functie van $N_{\rm{CD}}$? Neem dus geen kinematische equivalente krachten als gevolg van de temperatuurinvloed mee.

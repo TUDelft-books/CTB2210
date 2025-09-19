@@ -16,7 +16,7 @@ Gegeven is de volgende constructie:
 ```{figure} bending_data/Example.svg
 :align: center
 
-Constructie
+Constructie, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
 ```
 
 Bepaal de krachtsverdeling en verplaatsingen.
@@ -30,7 +30,7 @@ Ga uit van het volgende statisch bepaalde systeem:
 ```{figure} bending_data/SB-systeem2.svg
 :align: center
 
-Statisch bepaalde constructie met vormveranderingsvoorwaarde
+Statisch bepaalde constructie met vormveranderingsvoorwaarde, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
 ```
 
 Los de krachtsverdeling en verplaatsingen van deze constructie op als functie van $A_{\rm{v}}$

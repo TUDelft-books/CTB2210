@@ -13,7 +13,7 @@ Gegeven is de volgende constructie:
 ```{figure} ./lesoefeningen_data/structure2.svg
 :align: center
 
-Constructie
+Constructie, $EA = 15 \ \rm{MN}$
 ```
 
 :::::{exercise}
@@ -92,7 +92,7 @@ Gekozen is het volgende statisch bepaalde systeem met vormveranderingsvoorwaarde
 ```{figure} ./lesoefeningen_data/statically_determinate2.svg
 :align: center
 
-Constructie
+Statisch bepaalde constructie, $EA = 15 \ \rm{MN}$
 ```
 
 Er is gekozen voor dit systeem zodat we de steunpuntszetting in de vormveranderingsvoorwaarde mee kunnen nemen en niet mee hoeven te nemen in bepalen van krachtsverdeling.

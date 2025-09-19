@@ -5,7 +5,7 @@ Gegeven is de volgende constructie:
 ```{figure} ./lesoefening_data/structure.svg
 :align: center
 
-Constructie
+Constructie, $EI = \cfrac{800}{3} \ \rm{kNm^2}$
 ```
 
 We gaan deze constructie doorrekenen met behulp van differentiaalvergelijkingen

@@ -31,7 +31,7 @@ De toepassing van deze verplaatsingenmethode op een statisch onbepaalde construc
 ---
 align: center
 ---
-Voorbeeldconstructie
+Voorbeeldconstructie, $EI_{\rm{AB}} = 1.5 \ \rm{MNm^2}, EI_{\rm{BC}} = 3 \ \rm{MNm^2}$
 ```
 
 ::::::
@@ -65,7 +65,7 @@ Voorbeeldconstructie
     ---
     align: center
     ---
-    Gesplitste constructie
+    Gesplitste constructie, $EI_{\rm{AB}} = 1.5 \ \rm{MNm^2}, EI_{\rm{BC}} = 3 \ \rm{MNm^2}$
     ```
 
     Voor beide delen kunnen we nu met behulp van vergeet-me-nietjes de snedekrachten in $\rm{B}$ bepalen als functie van $w_{\rm{B}}$ en $\varphi_{\rm{B}}$. in het stukje $\rm{BC}$ heeft de puntlast van $44.8 \ \rm{kN}$ ook nog invloed.

@@ -24,7 +24,7 @@ We behandelen de toepassing op raamwerkconstructies met het volgende voorbeeld.
 ---
 align: center
 ---
-Voorbeeldconstructie
+Voorbeeldconstructie, $EI = 5 \ \rm{MNm^2}, EA >> EI$
 ```
 
 ::::::
@@ -103,7 +103,7 @@ Voorbeeldconstructie
     ---
     align: center
     ---
-    De statisch bepaalde constructie met vormveranderingsvoorwaarde
+    De statisch bepaalde constructie met vormveranderingsvoorwaarde, $EI = 5 \ \rm{MNm^2}, EA >> EI$
     ```
 
     De krachtsverdeling kan worden gevonden met evenwicht:

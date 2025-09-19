@@ -5,7 +5,7 @@ Gegeven is de volgende constructie
 ```{figure} ./lesoefeningen_data/structure.svg
 :align: center
 
-Constructie
+Constructie, $EI_{\rm{AC}} = 1800 \ \rm{kNm}^2, EI_{\rm{BC}} = 900 \ \rm{kNm^2}$
 ```
 
 Bepaal de krachtsverdeling en verplaatsingen.
@@ -61,7 +61,7 @@ Ga uit van het volgende statisch bepaalde systeem:
 ```{figure} ./lesoefeningen_data/SB-1.svg
 :align: center
 
-Statisch bepaalde constructie met vormveranderingsvoorwaarde
+Statisch bepaalde constructie met vormveranderingsvoorwaarde, $EI_{\rm{AC}} = 1800 \ \rm{kNm}^2, EI_{\rm{BC}} = 900 \ \rm{kNm^2}$
 ```
 
 Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $B_{\rm{v}}$
@@ -138,7 +138,7 @@ Ga nu uit van het volgende statisch bepaalde systeem:
 ```{figure} ./lesoefeningen_data/SB-2.svg
 :align: center
 
-Statisch bepaalde constructie met vormveranderingsvoorwaarde
+Statisch bepaalde constructie met vormveranderingsvoorwaarde, $EI_{\rm{AC}} = 1800 \ \rm{kNm}^2, EI_{\rm{BC}} = 900 \ \rm{kNm^2}$
 ```
 
 Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $M_{\rm{C}}$

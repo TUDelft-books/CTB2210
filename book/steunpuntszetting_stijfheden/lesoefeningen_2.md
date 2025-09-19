@@ -13,7 +13,7 @@ Gegeven is de volgende constructie:
 ```{figure} ./lesoefeningen_data/structure.svg
 :align: center
 
-Constructie
+Constructie, $EI = \cfrac{250}{3} \ \rm{MNm^2}$
 ```
 
 :::::{exercise}
@@ -80,7 +80,7 @@ Er wordt gekozen voor het onderstaande statisch bepaalde systeem, waarbij scharn
 ```{figure} ./lesoefeningen_data/SB_systeem1.svg
 :align: center
 
-Statisch bepaald systeem met onbekende momenten.  
+Statisch bepaald systeem met onbekende momenten, $EI_{\rm{AB}} = EI_{\rm{CD}} = \cfrac{250}{3} \ \rm{MNm^2}, EI_{\rm{BC}} = \infty$
 ```
 
 De bijbehorende vormveranderingsvoorwaarden zijn:

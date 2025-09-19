@@ -29,7 +29,7 @@ De toepassing van steunpuntszettingen op een statisch onbepaalde constructie wor
 ---
 align: center
 ---
-Voorbeeldconstructie
+Voorbeeldconstructie, $EI = 34000 \ \rm{kNm^2}$
 ```
 
 ::::::
@@ -63,7 +63,7 @@ Voorbeeldconstructie
     ---
     align: center
     ---
-    Statisch bepaald systeem
+    Statisch bepaald systeem, $EI = 34000 \ \rm{kNm^2}$
     ```
 
     ::::::

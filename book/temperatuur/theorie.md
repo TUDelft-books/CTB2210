@@ -59,7 +59,7 @@ Dit voorbeeld is aangepast van https://oit.tudelft.nl/CT1000/2024/week_7/session
 ---
 align: center
 ---
-Voorbeeldconstructie
+Voorbeeldconstructie, $EI = 6 \ \rm{MNm^2}$
 ```
 
 Het temperatuurverschil over de hoogte van de balk geeft de kromming $\kappa^{\rm{T}} = 10^{-3} \ \rm{m}^{-1}$ over de gehele lengte van de balk:
@@ -77,7 +77,7 @@ Om de kinematisch equivalente kracht te vinden moeten we de constructie eerste s
 ---
 align: center
 ---
-Statisch bepaald systeem met vormveranderingsvoorwaarde
+Statisch bepaald systeem met vormveranderingsvoorwaarde, $EI = 6 \ \rm{MNm^2}$
 ```
 
 Voor dit systeem krijgen we met een koppel (↻) op het uiteinde van de balk dezelfde vorm van de krommingslijn. De waarde van dat koppel moet $M = \kappa \cdot EI = 6 \ \rm{kNm}$ zijn voor dezelfde kromming. Dat geeft het volgende statisch bepaalde systeem:
@@ -86,7 +86,7 @@ Voor dit systeem krijgen we met een koppel (↻) op het uiteinde van de balk dez
 ---
 align: center
 ---
-Statisch bepaald systeem met vormveranderingsvoorwaarde en kinematisch equivalente belasting door de temperatuursinvloed
+Statisch bepaald systeem met vormveranderingsvoorwaarde en kinematisch equivalente belasting door de temperatuursinvloed, $EI = 6 \ \rm{MNm^2}$
 ```
 
 Nu kunnen we verder met de krachtenmethode zoals we die gewend zijn. De verplaatsing van $\rm{B}$ kan gevonden worden met vergeet-me-nietjes: $  w_{\rm{B}} = - \cfrac{6 \cdot 6 ^2}{2 \cdot 6000} + \cfrac{B_{\rm{v}} \cdot 6^3}{3 \cdot 6000}= -0.018 + \cfrac{3}{250}B_{\rm{v}}$.

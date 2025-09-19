@@ -26,7 +26,7 @@ We tonen de stappen van de krachtenmethode voor een balk.
 ---
 align: center
 ---
-Voorbeeldconstructie
+Voorbeeldconstructie, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
 ```
 
 ::::::
@@ -106,7 +106,7 @@ Voorbeeldconstructie
     ---
     align: center
     ---
-    De statisch bepaalde constructie met vormveranderingsvoorwaarde
+    De statisch bepaalde constructie met vormveranderingsvoorwaarde, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
     ```
 
     Met behulp van de vergeet-mij-nietjes kunnen de rotaties direct worden geëvalueerd zonder het evalueren van inwendige krachten:

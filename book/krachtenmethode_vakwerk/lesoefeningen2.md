@@ -16,7 +16,7 @@ Gegeven is de volgende constructie:
 ```{figure} lesoefeningen_2_data/structure.svg
 :align: center
 
-Constructie
+Constructie, $EA = 3750 \ \rm{kN}$
 ```
 
 Bepaal de verplaatsingen van de knopen.

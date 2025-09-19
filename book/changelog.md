@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2025-09-19: v2025.11.1
+Toevoegen buig- en rekstijfheden in bijschrijving figures omdat deze in sommige browsers niet zichtbaar is.
+
 ## 2025-09-18: v2025.11.0
 Toevoegen:
 - Stappen krachtenmethode en temperatuursinvloeden toegevoegd aan [18 september: Temperatuursinvloeden - Instructie](./temperatuur/theorie.md)

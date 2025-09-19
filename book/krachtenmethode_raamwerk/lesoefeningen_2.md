@@ -16,7 +16,7 @@ Gegeven is de volgende constructie:
 ```{figure} ./lesoefeningen_data/structure.svg
 :align: center
 
-Constructie
+Constructie, $EI = \cfrac{1000}{3} \ \rm{kNm^2}, EA >> EI $
 ```
 
 :::::{exercise}
@@ -118,7 +118,7 @@ Er wordt gekozen voor het volgende statisch bepaalde systeem inclusief vormveran
 ```{figure} ./lesoefeningen_data/structure2.svg
 :align: center
 
-Statisch bepaald systeem
+Statisch bepaald systeem, $EI = \cfrac{1000}{3} \ \rm{kNm^2}, EA >> EI $
 ```
 
 Er is hier wederom een scharnier in een knoop geplaatst zoals ook in [het statisch bepaalde systeem van oefening 1](statisch_onbepaald_C). Bepaal de rotaties als functie van $M_{\rm{D}}$, $M_{\rm{B}}^{\rm{BD}}$, $M_{\rm{B}}^{\rm{AB}}$ en $M_{\rm{B}}^{\rm{BC}}$.

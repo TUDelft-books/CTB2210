@@ -13,7 +13,7 @@ Gegeven is de volgende constructie:
 ```{figure} ./lesoefening_data/structure2.svg
 :align: center
 
-Constructie
+Constructie, $EI = 500 \ \rm{MNm^2}, EA = 20 \ \rm{MN}$
 ```
 
 :::::{exercise}
@@ -36,7 +36,7 @@ Er wordt gekozen voor het volgende statisch bepaalde systeem inclusief evenwicht
 ```{figure} ./lesoefening_data/SD.svg
 :align: center
 
-Statisch bepaald systeem
+Statisch bepaald systeem, $EI = 500 \ \rm{MNm^2}, EA = 20 \ \rm{MN}$
 ```
 
 Los $N_{\rm{D}}^{\rm{CD}}$ en $N_{\rm{D}}^{\rm{BD}}$ op als functie van $w_{\rm{D}}$.

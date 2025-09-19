@@ -21,7 +21,7 @@ De krachtenmethode hebben we eerder al behandeld voor [simpele constructies](kra
 ---
 align: center
 ---
-Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming enkel veroorzaakt door extensie, niet door buiging.
+Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming enkel veroorzaakt door extensie, niet door buiging. $EI = EA_{\rm{ADE}} = \infty, 0 < EA_{\rm{CD}}, EA_{\rm{BE}} < \infty$
 ```
 
 ::::::
@@ -100,7 +100,7 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
     ---
     align: center
     ---
-    De statisch bepaalde constructie met vervormingsvoorwaarde
+    De statisch bepaalde constructie met vervormingsvoorwaarde, $EI = EA_{\rm{ADE}} = \infty, 0 < EA_{\rm{CD}}, EA_{\rm{BE}} < \infty$
     ```
 
     Omdat $\rm{AE}$ oneindig stijf is, zullen alle vervormingen het gevolg zijn van staven die uitrekken/samendrukken. Om dit te berekenen, kunnen eerst de normaalkrachten worden geëvalueerd als functie van $B_{\rm{v}}$ met behulp van bijvoorbeeld een momentenevenwicht rond $\rm{A}$ voor het element $\text{ADE}$:

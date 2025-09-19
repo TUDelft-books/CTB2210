@@ -6,7 +6,7 @@ Gegeven is de volgende constructie:
 ---
 align: center
 ---
-Constructie
+Constructie, $EA = 800 \ \rm{kN}, EI = 3 \ \rm{MNm^2}$
 ```
 
 Bepaal de oplegreacties, verplaatsingen en het krachtsverloop in de constructie met MatrixFrame.

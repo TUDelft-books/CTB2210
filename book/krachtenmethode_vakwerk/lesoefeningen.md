@@ -6,7 +6,7 @@ Gegeven is de volgende constructie:
 ---
 align: center
 ---
-Constructie
+Constructie, $EA = 2.5 \ \rm{MN}, EI = \infty$
 ```
 
 Bepaal de oplegreacties en het snedekrachtenlijnen. Je gaat dit doen voor drie verschillende statisch onbepaalde krachten.

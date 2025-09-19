@@ -44,7 +44,7 @@ We behandelen de toepassing op vakwerkconstructies met het volgende voorbeeld.
 ---
 align: center
 ---
-Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming enkel veroorzaakt door extensie, niet door buiging.
+Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming enkel veroorzaakt door extensie, niet door buiging. $EA = 2.5 \ \rm{MN}, EI = \infty$
 ```
 
 ::::::
@@ -103,7 +103,7 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
     ---
     align: center
     ---
-    De statisch bepaalde constructie met vervormingsvoorwaarde
+    De statisch bepaalde constructie met vervormingsvoorwaarde, $EA = 2.5 \ \rm{MN}, EI = \infty$
     ```
 
     Om de verplaatsing van $\rm{B}$ te vinden, kunnen eerst de normaalkrachten worden geëvalueerd als functie van $B_{\rm{v}}$ met behulp van verticaal krachtenevenwicht:

@@ -65,4 +65,4 @@ kappa_0 =sym.solve(sym.Eq(kappa.subs(sol),0), x)[0]
 print('kappa_0 = ', kappa_0)
 print('kappa_0 = ', kappa_0.evalf())
 
-sym.plot(-w.subs(sol), (x, 0, L1), title='Verplaatsing van de balk', ylabel='Verplaatsing (m)', xlabel='Lengte (m)', show=True)
+sym.plot(-M.subs(sol), (x, 0, L1), title='Verplaatsing van de balk', ylabel='Verplaatsing (m)', xlabel='Lengte (m)', show=True)

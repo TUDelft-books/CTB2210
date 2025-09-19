@@ -51,7 +51,7 @@ De toepassing van de verplaatsingenmethode wordt getoond op onderstaande voorbee
 ---
 align: center
 ---
-Voorbeeldconstructie
+Voorbeeldconstructie, $EI = 120 \ \rm{MNm^2}, EA >> EI$
 ```
 ::::::
 
@@ -93,7 +93,7 @@ Voorbeeldconstructie
     ---
     align: center
     ---
-    Statisch onbepaalde systeem met statisch onbepaalde verplaatsing $\varphi_{\rm{D}}$ en evenwichtsvergelijking $-M_{\rm{D}}^{\rm{AD}} + M_{\rm{D}}^{\rm{BD}} + M_{\rm{D}}^{\rm{CD}} = 0$
+    Statisch onbepaalde systeem met statisch onbepaalde verplaatsing $\varphi_{\rm{D}}$ en evenwichtsvergelijking $-M_{\rm{D}}^{\rm{AD}} + M_{\rm{D}}^{\rm{BD}} + M_{\rm{D}}^{\rm{CD}} = 0$, $EI = 120 \ \rm{MNm^2}, EA >> EI$
     ```
 
     ::::::

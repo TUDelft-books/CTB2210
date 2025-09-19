@@ -5,7 +5,7 @@ Gegeven is de volgende 1ste graads statisch onbepaalde constructie:
 ```{figure} ./lesoefeningen_data/oefening_1.svg
 :align: center
 
-Constructie
+Constructie, $EI_{\rm{AC}} = 20000 \ \rm{kNm^2}, EI_{\rm{BC}} = \cfrac{2000 \sqrt{13}}{3} \ \rm{kNm^2}$
 ```
 
 :::::{exercise}
@@ -81,7 +81,7 @@ Om het gedoe met dat scharnier net links/net onder $\rm{C}$ te voorkomen kunnen 
 :name: statisch_onbepaald_C
 :align: center
 
-Statisch bepaald systeem met scharnier in $\rm{C}$
+Statisch bepaald systeem met scharnier in $\rm{C}$, $EI_{\rm{AC}} = 20000 \ \rm{kNm^2}, EI_{\rm{BC}} = \cfrac{2000 \sqrt{13}}{3} \ \rm{kNm^2}$
 ```
 
 Nadeel van deze aanpak is dat de locatie van het scharnier niet meer match met de momenten in het vrijlichaamsschema. Echter is de situatie praktisch ongewijzigd. Merk op dat de richtingen van de momenten in het vrijlichaamsschema van $\rm{C}$ omgedraaid zijn ten opzichte van de momenten in het statisch bepaalde systeem:

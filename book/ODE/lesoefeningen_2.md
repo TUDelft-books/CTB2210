@@ -17,7 +17,7 @@ Gegeven is de volgende constructie:
 ---
 align: center
 ---
-Constructie
+Constructie, $EA = 20000 \ \rm{kN}$
 ```
 
 :::::{exercise}
