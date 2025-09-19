@@ -51,7 +51,7 @@ Als voorbeeld bepalen we de uitwendige statisch onbepaaldheid van deze construct
 align: center
 class: dark-light
 ---
-Voorbeeldconstructie
+Voorbeeldconstructie, $EI = 7.8 \cdot 10^4 \ rm{kNm}^2, EA = \infty$
 ```
 
 ::::::
