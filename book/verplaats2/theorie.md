@@ -16,7 +16,7 @@ In de les van [](../verplaatsingenmethode/lesson.md) heb je de verplaatsingenmet
 :label: verplaatsingenmethode_algoritme_2
 
 1. Kies één of meerdere vrijheidsgraden die de vervorming van de constructie bepalen en splits de constructie in of rondom die plek(ken).
-2. Bereken de krachten in de splitsing in termen van de onbekende vrijheidsgraden. Maak daarbij gebruik van de uitgebreide vergeet-me-nietjes in het geval van buiging.
+2. Bereken de krachten in de splitsing in termen van de onbekende vrijheidsgraden. Als je meerdere vrijheidsgraden hebt gedefinieerd, bereken dan de invloed van elke vrijheidsgraad los waarbij de andere vrijheidsgraden aan nul worden gesteld. Maak daarbij gebruik van de uitgebreide vergeet-me-nietjes in het geval van buiging.
 3. Gebruik evenwichtsvoorwaarden om de vrijheidsgraden op te lossen.
 
 ::::::
@@ -53,7 +53,7 @@ Voorbeeldconstructie, $EI_{\rm{AB}} = 1.5 \ \rm{MNm^2}, EI_{\rm{BC}} = 3 \ \rm{M
 
     ::::::
 
-2. Bereken de krachten in de splitsing in termen van de onbekende vrijheidsgraden. Maak daarbij gebruik van de uitgebreide vergeet-me-nietjes in het geval van buiging.
+2. Bereken de krachten in de splitsing in termen van de onbekende vrijheidsgraden. Als je meerdere vrijheidsgraden hebt gedefinieerd, bereken dan de invloed van elke vrijheidsgraad los waarbij de andere vrijheidsgraden aan nul worden gesteld. Maak daarbij gebruik van de uitgebreide vergeet-me-nietjes in het geval van buiging.
 
     ::::::{prf:example}
     :nonumber: true
@@ -123,7 +123,7 @@ Voorbeeldconstructie, $EI_{\rm{AB}} = 1.5 \ \rm{MNm^2}, EI_{\rm{BC}} = 3 \ \rm{M
 
     Hieruit volgt:
     - $M_{\rm{B,4}} = w_{\rm{B}} \cdot \cfrac{3EI}{L_{\rm{BC}}^2} = w_{\rm{B}} \cdot \cfrac{3 \cdot 3000}{3^2} = 1000 w_{\rm{B}}$
-    - $V_{\rm{B,4}} = w_{\rm{B}} \cdot \cfrac{6EI}{L_{\rm{BC}}^3} = w_{\rm{B}} \cdot \cfrac{6 \cdot 3000}{3^3} = \cfrac{2000}{3} w_{\rm{B}}$
+    - $V_{\rm{B,4}} = w_{\rm{B}} \cdot \cfrac{6EI}{L_{\rm{BC}}^3} = w_{\rm{B}} \cdot \cfrac{3 \cdot 3000}{3^3} = \cfrac{1000}{3} w_{\rm{B}}$
 
     Tot slot moet ook nog de invloed van de puntlast van $44.8 \ \rm{kN}$ op gedeelte $\rm{BC}$ worden meegenomen. Daarvoor geldt het volgende vergeet-me-nietje, leidend tot snedekrachten in de getoonde richting:
 
