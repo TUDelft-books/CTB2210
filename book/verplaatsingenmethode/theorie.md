@@ -106,9 +106,9 @@ Voorbeeldconstructie, $EI = 120 \ \rm{MNm^2}, EA >> EI$
 
     Elk van de krachten $M_{\rm{D}}^{\rm{AD}}$, $M_{\rm{D}}^{\rm{CD}}$, $M_{\rm{D}}^{\rm{BD}}$ kan nu worden uitgedrukt als functie van $\varphi_{\rm{D}}$ met behulp van vergeet-me-nietjes:
 
-    - Voor $\rm{AD}$: $\varphi_{\rm{D}} = \cfrac{5M_{\rm{D}}^{\rm{AD}}}{3 EI} + \cfrac{ 15 \cdot 5}{6 EI}$.
-    - Voor $\rm{BD}$: $\varphi_{\rm{D}} = - \cfrac{2M_{\rm{D}}^{\rm{BD}}}{3 EI} - \cfrac{ 12 \cdot 2^3}{24 EI}$
-    - Voor $\rm{CD}$: $\varphi_{\rm{D}} = - \cfrac{5M_{\rm{D}}^{\rm{CD}}}{3 EI}$
+    - Voor $\rm{AD}$: $\varphi_{\rm{D}} = \cfrac{5M_{\rm{D}}^{\rm{AD}}}{3 \cdot 120000} + \cfrac{ 15 \cdot 5}{6 \cdot 120000}$.
+    - Voor $\rm{BD}$: $\varphi_{\rm{D}} = - \cfrac{2M_{\rm{D}}^{\rm{BD}}}{3 \cdot 120000} - \cfrac{ 12 \cdot 2^3}{24 \cdot 120000}$
+    - Voor $\rm{CD}$: $\varphi_{\rm{D}} = - \cfrac{5M_{\rm{D}}^{\rm{CD}}}{3 \cdot 120000}$
 
     Dit kan worden omgeschreven naar:
 
@@ -130,6 +130,13 @@ Voorbeeldconstructie, $EI = 120 \ \rm{MNm^2}, EA >> EI$
     - $M_{\rm{D}}^{\rm{AD}} = -\cfrac{43}{6} \approx -7.17 \ \rm{kNm}$
     - $M_{\rm{D}}^{\rm{DB}} = -\cfrac{41}{6} \approx -6.83 \ \rm{kNm}$
     - $M_{\rm{D}}^{\rm{DC}} = -\cfrac{1}{3} \approx - 0.333 \ \rm{kNm} $
+
+    ```{figure} ./theorie_data/M-line2.svg
+    ---
+    align: center
+    ---
+    Momentenlijn.
+    ```
 
     ::::::
 
