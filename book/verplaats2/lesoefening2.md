@@ -20,7 +20,9 @@ Constructie, $EI = \infty$
 :label: verplaats3_1
 :nonumber: true
 
-```{h5p} Wat is de graad van statisch onbepaaldheid van de constructie?
+Wat is de graad van statisch onbepaaldheid van de constructie?
+
+```{h5p} 
 ```
 
 :::::
@@ -37,7 +39,9 @@ Constructie met veren, $EI = \infty$
 :label: verplaats3_2
 :nonumber: true
 
-```{h5p} Welke twee vrijheidsgraden kan je kiezen voor deze constructie?
+Welke twee vrijheidsgraden kan je kiezen voor deze constructie?
+
+```{h5p}
 ```
 
 :::::
@@ -46,7 +50,9 @@ Constructie met veren, $EI = \infty$
 :label: verplaats3_3
 :nonumber: true
 
-```{h5p} Wat zijn de voordelen van de verplaatsingenmethode ten opzichte van de krachtenmethode bij het doorrekenen van deze constructie?
+Wat zijn de voordelen van de verplaatsingenmethode ten opzichte van de krachtenmethode bij het doorrekenen van deze constructie?
+
+```{h5p} 
 ```
 
 :::::
@@ -63,7 +69,31 @@ Er wordt gekozen voor de volgende vrijheidsgraden: $w_{\rm{A}}$ en $\varphi$:
 Constructie met veren en vrijheidsgraden $w_{\rm{A}}$ en $\varphi$. $EI = \infty$
 ```
 
-```{h5p} Bepaal de evenwichtsvergelijkingen
+Bepaal de evenwichtsvergelijkingen
+
+```{h5p} 
+```
+
+:::::
+
+:::::{exercise}
+:label: verplaats3_4
+:nonumber: true
+
+Bepaal met evenwicht $w_{\rm{A}}$ en $\varphi$.
+
+```{h5p} 
+```
+
+:::::
+
+:::::{exercise}
+:label: verplaats3_4
+:nonumber: true
+
+Wat zijn de krachten in de veren?
+
+```{h5p} 
 ```
 
 :::::
