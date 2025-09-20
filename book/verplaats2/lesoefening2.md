@@ -6,7 +6,7 @@ Deze pagina is aangepast van https://icozct.tudelft.nl/TUD_CT/CT2031/tentamens/f
 ```
 ````
 
-# Begeleide oefening 1
+# Begeleide oefening 2
 
 Gegeven is de volgende constructie:
 
