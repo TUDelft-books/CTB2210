@@ -2,7 +2,7 @@ import sympy as sym
 
 EA, m, w, L = sym.symbols('EA m w L')
 
-L = sym.S(5)
+L = sym.S(4)
 
 EA = sym.nsimplify(25000)
 
@@ -26,7 +26,11 @@ print('N_AD = ', N_AD)
 
 w_D = N_AD * L / EA
 
+print('w_D = ', w_D)
+
 w_E = N_BE * L / (EA * 5)
+
+print('w_E = ', w_E)
 
 w_F = w_D + (w_E - w_D)
 
