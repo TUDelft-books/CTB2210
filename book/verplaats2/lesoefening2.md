@@ -20,9 +20,7 @@ Constructie, $EI = \infty$
 :label: verplaats3_1
 :nonumber: true
 
-Wat is de graad van statisch onbepaaldheid van de constructie?
-
-```{h5p} 
+```{h5p} https://tudelft.h5p.com/content/1292698940455607667/embed
 ```
 
 :::::
@@ -39,9 +37,7 @@ Constructie met veren, $EI = \infty$
 :label: verplaats3_2
 :nonumber: true
 
-Welke twee vrijheidsgraden kan je kiezen voor deze constructie?
-
-```{h5p}
+```{h5p} https://tudelft.h5p.com/content/1292698941864978077/embed
 ```
 
 :::::
@@ -50,9 +46,7 @@ Welke twee vrijheidsgraden kan je kiezen voor deze constructie?
 :label: verplaats3_3
 :nonumber: true
 
-Wat zijn de voordelen van de verplaatsingenmethode ten opzichte van de krachtenmethode bij het doorrekenen van deze constructie?
-
-```{h5p} 
+```{h5p} https://tudelft.h5p.com/content/1292698958152327607/embed
 ```
 
 :::::
@@ -71,29 +65,32 @@ Constructie met veren en vrijheidsgraden $w_{\rm{A}}$ en $\varphi$. $EI = \infty
 
 Bepaal de evenwichtsvergelijkingen
 
-```{h5p} 
+```{h5p} https://tudelft.h5p.com/content/1292698960957442047/embed
+```
+
+```{h5p} https://tudelft.h5p.com/content/1292698964473888827/embed
 ```
 
 :::::
 
 :::::{exercise}
-:label: verplaats3_4
+:label: verplaats3_5
 :nonumber: true
 
 Bepaal met evenwicht $w_{\rm{A}}$ en $\varphi$.
 
-```{h5p} 
+```{h5p} https://tudelft.h5p.com/content/1292698966957649137/embed
 ```
 
 :::::
 
 :::::{exercise}
-:label: verplaats3_4
+:label: verplaats3_6
 :nonumber: true
 
 Wat zijn de krachten in de veren?
 
-```{h5p} 
+```{h5p} https://tudelft.h5p.com/content/1292698967999474487/embed
 ```
 
 :::::
