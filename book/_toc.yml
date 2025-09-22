@@ -65,9 +65,9 @@ parts:
     - file: verplaatsingenmethode/lesoefening.md
     - file: verplaatsingenmethode/lesoefening2.md
   - file: verplaats2/lesson.md
-# START REMOVE-FROM-RELEASE
     sections:
     - file: verplaats2/theorie.md
+# START REMOVE-FROM-RELEASE
     - file: verplaats2/lesoefening1.md
     - file: verplaats2/lesoefening2.md
 # END REMOVE-FROM-RELEASE
