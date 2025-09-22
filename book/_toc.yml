@@ -72,6 +72,9 @@ parts:
     - file: verplaats2/lesoefening2.md
 # END REMOVE-FROM-RELEASE
   - file: matrix/lesson.md
+# START REMOVE-FROM-RELEASE
+    sections:
+    - file: matrix/theorie.md
 # END REMOVE-FROM-RELEASE
 - caption: Diverse
   chapters:
