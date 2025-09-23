@@ -8,6 +8,8 @@ Gegeven is de volgende constructie:
 Constructie, $EI = 4 \ \rm{MNm}^2, EA >> EI$
 ```
 
+Gegeven is $\mathbf{u} = \begin{bmatrix} \varphi_{\rm{A}} & \varphi_{\rm{B}} & \varphi_{\rm{C}} & \varphi_{\rm{D}} & \varphi_{\rm{E}} \end{bmatrix}^T$.
+
 :::::{exercise}
 :label: matrix_1
 :nonumber: true
