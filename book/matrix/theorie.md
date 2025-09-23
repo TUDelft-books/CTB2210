@@ -119,7 +119,7 @@ De toepassing van deze matrixmethode op een statisch onbepaalde constructie word
 ---
 align: center
 ---
-Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2$
+Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
 ```
 
 ::::::
