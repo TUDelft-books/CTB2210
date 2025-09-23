@@ -1,4 +1,4 @@
-# Begeleide oefening 1
+# Begeleide oefening
 
 Gegeven is de volgende constructie:
 
