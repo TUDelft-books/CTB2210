@@ -85,7 +85,7 @@ $$
 Samen geeft dit de elementstijfheidsmatrix:
 
 $$
-\mathbf{K^{\rm{e}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2EI}{L} \\ \cfrac{2EI}{L} & \cfrac{4EI}{L}  \end{bmatrix}
+\mathbf{K^{\rm{(e)}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2EI}{L} \\ \cfrac{2EI}{L} & \cfrac{4EI}{L}  \end{bmatrix}
 $$
 
 ### Beperking tot rotaties en knoopkoppels
@@ -101,7 +101,7 @@ De stappen van de matrixmethode zijn als volgt:
 
 1. Bepaal de vrijheidsgraden (rotaties). Dit vormt de onbekende verplaatsingsvector $ \mathbf{u} =  \begin{bmatrix}  \varphi_1 \\  \varphi_2 \\ \vdots \\ \varphi_n  \end{bmatrix} $
 2. Initialiseer het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{F}$ met een nulmatrix voor $\mathbf{K}$ en -vector $\mathbf{F}$.
-3. Bepaal voor elk element de elementstijfheidsmatrix $\left(\mathbf{K^{\rm{e}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2EI}{L} \\ \cfrac{2EI}{L} & \cfrac{4EI}{L}  \end{bmatrix}\right)$ en voeg deze toe aan de globale stijfheidsmatrix $\mathbf{K}$ voor de bijbehorende knopen.
+3. Bepaal voor elk element de elementstijfheidsmatrix $\left(\mathbf{K^{\rm{(e)}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2EI}{L} \\ \cfrac{2EI}{L} & \cfrac{4EI}{L}  \end{bmatrix}\right)$ en voeg deze toe aan de globale stijfheidsmatrix $\mathbf{K}$ voor de bijbehorende knopen.
 4. Construeer de globale krachtvector $\mathbf{F}$ door de externe krachten(koppels) toe te voegen voor de bijbehorende knopen.
 5. Voeg de zowel de voorgeschreven vrijheidsgraden (rotaties) als de onbekende oplegreacties (oplegmomenten) toe aan het stelsel van vergelijkingen.
 6. Los het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{F}$ op voor de onbekende vrijheidsgraden (rotaties) in $\mathbf{u}$.
@@ -167,7 +167,7 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
 
     ::::::
 
-3. Bepaal voor elk element de elementstijfheidsmatrix $\left(\mathbf{K^{\rm{e}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2EI}{L} \\ \cfrac{2EI}{L} & \cfrac{4EI}{L}  \end{bmatrix}\right)$ en voeg deze toe aan de globale stijfheidsmatrix $\mathbf{K}$ voor de bijbehorende knopen.
+3. Bepaal voor elk element de elementstijfheidsmatrix $\left(\mathbf{K^{\rm{(e)}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2EI}{L} \\ \cfrac{2EI}{L} & \cfrac{4EI}{L}  \end{bmatrix}\right)$ en voeg deze toe aan de globale stijfheidsmatrix $\mathbf{K}$ voor de bijbehorende knopen.
 
     ::::::{prf:example}
     :nonumber: true
@@ -176,7 +176,7 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
     Voor element $\rm{AB}$ met lengte $5 \ \rm{m}$ wordt de elementstijfheidsmatrix:
 
     $$
-    \mathbf{K^{\rm{e}}_{\rm{AB}}} = \begin{bmatrix} \cfrac{4 \cdot 4290}{5} & \cfrac{2 \cdot 4290}{5} \\ \cfrac{2 \cdot 4290}{5} & \cfrac{4 \cdot 4290}{5}  \end{bmatrix} = \begin{bmatrix} 3432 & 1716 \\ 1716 & 3432  \end{bmatrix} 
+    \mathbf{K^{\rm{(e)}}_{\rm{AB}}} = \begin{bmatrix} \cfrac{4 \cdot 4290}{5} & \cfrac{2 \cdot 4290}{5} \\ \cfrac{2 \cdot 4290}{5} & \cfrac{4 \cdot 4290}{5}  \end{bmatrix} = \begin{bmatrix} 3432 & 1716 \\ 1716 & 3432  \end{bmatrix} 
     $$
 
     Deze kunnen we direct invullen in de globale stijfheidsmatrix $\mathbf{K}$. De knopen $\rm{A}$ en $\rm{B}$ komen overeen met de eerste en tweede rij en kolom van de globale stijfheidsmatrix. Dit geeft:
@@ -193,7 +193,7 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
     Voor element $\rm{BC}$ met lengte $6.6 \ \rm{m}$ wordt de elementstijfheidsmatrix:
 
     $$
-    \mathbf{K^{\rm{e}}_{\rm{BC}}} = \begin{bmatrix} \cfrac{4 \cdot 4290}{6.6} & \cfrac{2 \cdot 4290}{6.6} \\ \cfrac{2 \cdot 4290}{6.6} & \cfrac{4 \cdot 4290}{6.6}  \end{bmatrix} = \begin{bmatrix} 2600 & 1300 \\ 1300 & 2600  \end{bmatrix}
+    \mathbf{K^{\rm{(e)}}_{\rm{BC}}} = \begin{bmatrix} \cfrac{4 \cdot 4290}{6.6} & \cfrac{2 \cdot 4290}{6.6} \\ \cfrac{2 \cdot 4290}{6.6} & \cfrac{4 \cdot 4290}{6.6}  \end{bmatrix} = \begin{bmatrix} 2600 & 1300 \\ 1300 & 2600  \end{bmatrix}
     $$
 
     Ook deze kunnen we direct invullen in de globale stijfheidsmatrix $\mathbf{K}$. De knopen $\rm{B}$ en $\rm{C}$ komen overeen met de tweede en derde rij en kolom van de globale stijfheidsmatrix. Dit geeft:
@@ -210,7 +210,7 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
     Tot slot voegen we element $\rm{AC}$ met lengte $10.4 \ \rm{m}$ toe. De elementstijfheidsmatrix is:
 
     $$
-    \mathbf{K^{\rm{e}}_{\rm{AC}}} = \begin{bmatrix} \cfrac{4 \cdot 4290}{10.4} & \cfrac{2 \cdot 4290}{10.4} \\ \cfrac{2 \cdot 4290}{10.4} & \cfrac{4 \cdot 4290}{10.4}  \end{bmatrix} = \begin{bmatrix} 1650 & 825 \\ 825 & 1650  \end{bmatrix}
+    \mathbf{K^{\rm{(e)}}_{\rm{AC}}} = \begin{bmatrix} \cfrac{4 \cdot 4290}{10.4} & \cfrac{2 \cdot 4290}{10.4} \\ \cfrac{2 \cdot 4290}{10.4} & \cfrac{4 \cdot 4290}{10.4}  \end{bmatrix} = \begin{bmatrix} 1650 & 825 \\ 825 & 1650  \end{bmatrix}
     $$
 
     Ook deze kunnen we direct invullen in de globale stijfheidsmatrix $\mathbf{K}$. De knopen $\rm{A}$ en $\rm{C}$ komen overeen met de eerste en derde rij en kolom van de globale stijfheidsmatrix. Dit geeft:

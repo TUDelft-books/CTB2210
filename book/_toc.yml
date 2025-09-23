@@ -75,6 +75,7 @@ parts:
 # START REMOVE-FROM-RELEASE
     sections:
     - file: matrix/theorie.md
+    - file: matrix/lesoefening1.md
 # END REMOVE-FROM-RELEASE
 - caption: Diverse
   chapters:
