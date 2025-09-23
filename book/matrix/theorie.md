@@ -1,6 +1,6 @@
 # Instructie
 
-De matrixmethode is een methode om aan alle soorten constructies te rekenen en lijkt heel erg op de [verplaatsingenmethode van de vorige les](../verplaats2/lesson.md). Die verplaatsingenmethode had als nadeel dat de constructie wordt gesplitst in delen die allemaal verschillende vervormingsgedrag hebben. Dat maakt een dergelijke berekening arbeidsintensief. De matrixmethode lost dit op door standaardisatie van vrijheidsgraden en gesplitste delen. Daarnaast wordt de matrixmethode vaak direct in matrixformuleringen toegepast. Met deze twee punten vormt de matrixmethode een handige methode voor computerberekeningen.
+De matrixmethode is een methode om aan alle soorten constructies te rekenen en lijkt heel erg op de [verplaatsingenmethode van de vorige les](../verplaats2/lesson.md). Die verplaatsingenmethode had als nadeel dat de constructie wordt gesplitst in delen die allemaal verschillende vervormingsgedrag hebben. Dat maakt een dergelijke berekening arbeidsintensief. De matrixmethode lost dit op door standaardisatie van vrijheidsgraden en gesplitste delen. Daarnaast wordt de matrixmethode vaak direct in matrixformuleringen toegepast. Met deze twee aanpassingen vormt de matrixmethode een handige methode voor computerberekeningen.
 
 ## Theorie
 
@@ -12,7 +12,7 @@ Het eerste verschil van de matrixmethode met de verplaatsingenmethode was het aa
 ---
 align: center
 ---
-Verplaatsingenmethode v.s. matrixmethode: bij de verplaatsingenmethode wordt slechts één rotatie gekozen als vrijheidsgraad, bij de matrixmethode worden alle rotaties gekozen. Per nieuwe vrijheidsgraad wordt er ook een nieuwe evenwichtsvergelijking opgesteld.
+Verplaatsingenmethode v.s. matrixmethode: bij de verplaatsingenmethode wordt slechts één rotatie gekozen als vrijheidsgraad, bij de matrixmethode worden alle rotaties gekozen als vrijheidsgraad, wat ook gepaard gaat met meer onbekende momenten. Per nieuwe vrijheidsgraad wordt er ook een nieuwe evenwichtsvergelijking opgesteld.
 ```
 
 ### Matrixformulering
@@ -21,6 +21,7 @@ Het tweede verschil is dat bij de matrixmethode het momentenevenwicht wordt opge
 
 $$
 \begin{array}{c}
+\rm{Verplaatsingenmethode:} \\
 \begin{array}{c}
 \begin{aligned}
 \sum {{M_{\rm{B}}}} &= 0 \\
@@ -29,14 +30,13 @@ k \cdot \varphi & = f \to  \varphi
 \end{aligned}
 \end{array}
 &
-\begin{array}{c}
+\rm{Matrixmethode:} \\
 \begin{array}{c}
 \begin{aligned}
 \sum {{M_{\rm{A}}}} &= 0 \\
 \sum {{M_{\rm{B}}}} &= 0 \\
 \sum {{M_{\rm{C}}}} &= 0 \\
-\end{aligned}
-\end{array} \\
+\end{aligned} \\
 \downarrow \\
 \mathbf{K}
 \begin{bmatrix}
@@ -65,20 +65,26 @@ Boven het vergeet-me-nietje waarmee we de relatie tussen koppels en de rotaties 
 
 Dit vergeet-me-nietje geeft:
 
-$$ \varphi_2 = \cfrac{L \cdot T_2}{4 \cdot EI} \\
-T_1 = \cfrac{1}{2} \cdot T_2 \\ 
-\downarrow\\
-T_1 = \cfrac{2 \cdot EI}{L} \cdot \varphi_2 \\ 
-T_2 = \cfrac{4 \cdot EI}{L} \cdot \varphi_2 \\
+$$
+\begin{aligned}
+\varphi_2 &= \cfrac{L \cdot T_2}{4 \cdot EI} \\
+T_1 &= \cfrac{1}{2} \cdot T_2 \\
+&\downarrow \\
+T_1 &= \cfrac{2 \cdot EI}{L} \cdot \varphi_2 \\
+T_2 &= \cfrac{4 \cdot EI}{L} \cdot \varphi_2 \\
+\end{aligned}
 $$
 
 En voor het gespiegelde vergeet-me-nietje:
 
-$$ \varphi_1 = \cfrac{L \cdot T_1}{4 \cdot EI} \\
-T_2 = \cfrac{1}{2} \cdot T_1 \\ 
-\downarrow\\
-T_1 = \cfrac{4 \cdot EI}{L} \cdot \varphi_1 \\
-T_2 = \cfrac{2 \cdot EI}{L} \cdot \varphi_1 \\ 
+$$
+\begin{aligned}
+\varphi_1 &= \cfrac{L \cdot T_1}{4 \cdot EI} \\
+T_2 &= \cfrac{1}{2} \cdot T_1 \\
+&\downarrow\\
+T_1 &= \cfrac{4 \cdot EI}{L} \cdot \varphi_1 \\
+T_2 &= \cfrac{2 \cdot EI}{L} \cdot \varphi_1 \\
+\end{aligned}
 $$
 
 Samen geeft dit de elementstijfheidsmatrix:
@@ -100,10 +106,10 @@ De stappen van de matrixmethode zijn als volgt:
 
 1. Bepaal de vrijheidsgraden (rotaties). Dit vormt de onbekende verplaatsingsvector $ \mathbf{u} =  \begin{bmatrix}  \varphi_1 \\  \varphi_2 \\ \vdots \\ \varphi_n  \end{bmatrix} $
 2. Initialiseer het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{F}$ met een nulmatrix voor $\mathbf{K}$ en -vector $\mathbf{F}$.
-3. Bepaal voor elk element de elementstijfheidsmatrix $\mathbf{K^{\rm{e}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2EI}{L} \\ \cfrac{2EI}{L} & \cfrac{4EI}{L}  \end{bmatrix}$ en voeg deze toe aan de globale stijfheidsmatrix $\mathbf{K}$ voor de bijbehorende knopen.
-4. Construeer de globale krachtvector $\mathbf{F}$ door de externe koppels toe te voegen voor de bijbehorende knopen.
-5. Voeg de zowel de voorgeschreven rotaties als de onbekende oplegmomenten toe aan het stelsel van vergelijkingen.
-6. Los het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{F}$ op voor de onbekende rotaties in $\mathbf{u}$.
+3. Bepaal voor elk element de elementstijfheidsmatrix $\left(\mathbf{K^{\rm{e}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2EI}{L} \\ \cfrac{2EI}{L} & \cfrac{4EI}{L}  \end{bmatrix}\right)$ en voeg deze toe aan de globale stijfheidsmatrix $\mathbf{K}$ voor de bijbehorende knopen.
+4. Construeer de globale krachtvector $\mathbf{F}$ door de externe krachten(koppels) toe te voegen voor de bijbehorende knopen.
+5. Voeg de zowel de voorgeschreven vrijheidsgraden (rotaties) als de onbekende oplegreacties (oplegmomenten) toe aan het stelsel van vergelijkingen.
+6. Los het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{F}$ op voor de onbekende vrijheidsgraden (rotaties) in $\mathbf{u}$.
 
 ::::::
 
@@ -166,7 +172,7 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
 
     ::::::
 
-3. Bepaal voor elk element de elementstijfheidsmatrix $\mathbf{K^{\rm{e}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2EI}{L} \\ \cfrac{2EI}{L} & \cfrac{4EI}{L}  \end{bmatrix}$ en voeg deze toe aan de globale stijfheidsmatrix $\mathbf{K}$ voor de bijbehorende knopen.
+3. Bepaal voor elk element de elementstijfheidsmatrix $\left(\mathbf{K^{\rm{e}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2EI}{L} \\ \cfrac{2EI}{L} & \cfrac{4EI}{L}  \end{bmatrix}\right)$ en voeg deze toe aan de globale stijfheidsmatrix $\mathbf{K}$ voor de bijbehorende knopen.
 
     ::::::{prf:example}
     :nonumber: true
@@ -225,7 +231,7 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
 
     ::::::
 
-4. Construeer de globale krachtvector $\mathbf{F}$ door de externe koppels toe te voegen voor de bijbehorende knopen.
+4. Construeer de globale krachtvector $\mathbf{F}$ door de externe krachten (koppels) toe te voegen voor de bijbehorende knopen.
 
     ::::::{prf:example}
     :nonumber: true
@@ -243,7 +249,7 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
     $$
     ::::::
 
-5. Voeg de zowel de voorgeschreven rotaties als de onbekende oplegmomenten toe aan het stelsel van vergelijkingen.
+5. Voeg de zowel de voorgeschreven vrijheidsgraden (rotaties) als de onbekende oplegreacties (oplegmomenten) toe aan het stelsel van vergelijkingen.
 
     ::::::{prf:example}
     :nonumber: true
@@ -272,7 +278,7 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
 
     :::::: 
 
-6. Los het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{F}$ op voor de onbekende rotaties in $\mathbf{u}$.
+6. Los het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{F}$ op voor de onbekende vrijheidsgraden (rotaties) in $\mathbf{u}$.
 
     ::::::{prf:example}
     :nonumber: true
