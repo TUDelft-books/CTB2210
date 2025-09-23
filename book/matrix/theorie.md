@@ -20,23 +20,18 @@ Verplaatsingenmethode v.s. matrixmethode: bij de verplaatsingenmethode wordt sle
 Het tweede verschil is dat bij de matrixmethode het momentenevenwicht wordt opgeschreven in matrixformulering. Daarbij worden de evenwichtsvergelijkingen gesplitst in een stijfheidsterm $\mathbf{K}$ (factoren voor de $\varphi$'s) en een krachtterm $\mathbf{f}$ (losse termen).
 
 $$
-\begin{array}{c}
-\rm{Verplaatsingenmethode:} \\
-\begin{array}{c}
+\begin{array}{cc}
+\text{Verplaatsingenmethode} & \text{Matrixmethode} \\
 \begin{aligned}
-\sum {{M_{\rm{B}}}} &= 0 \\
+\sum M_{\rm{B}} &= 0 \\
 \downarrow \\
-k \cdot \varphi & = f \to  \varphi
+k \cdot \varphi  &= f
 \end{aligned}
-\end{array}
 &
-\rm{Matrixmethode:} \\
-\begin{array}{c}
 \begin{aligned}
-\sum {{M_{\rm{A}}}} &= 0 \\
-\sum {{M_{\rm{B}}}} &= 0 \\
-\sum {{M_{\rm{C}}}} &= 0 \\
-\end{aligned} \\
+\sum M_{\rm{A}} &= 0 \\
+\sum M_{\rm{B}} &= 0 \\
+\sum M_{\rm{C}} &= 0 \\
 \downarrow \\
 \mathbf{K}
 \begin{bmatrix}
@@ -44,8 +39,8 @@ k \cdot \varphi & = f \to  \varphi
 \varphi_{\rm{B}} \\
 \varphi_{\rm{C}}
 \end{bmatrix}
-= \mathbf{f} \to \varphi_{\rm{A}}, \varphi_{\rm{B}}, \varphi_{\rm{C}}
-\end{array}
+&= \mathbf{f}
+\end{aligned} \\
 \end{array}
 $$
 
