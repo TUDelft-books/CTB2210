@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export fmn.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.26173in" height="0.674452in"
-		viewBox="0 0 162.844 48.5605" xml:space="preserve" color-interpolation-filters="sRGB" class="st11">
+		viewBox="0 0 162.844 48.5605" xml:space="preserve" color-interpolation-filters="sRGB" class="st9">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -16,9 +16,7 @@
 		.st6 {marker-end:url(#mrkr1-75);stroke:#000000;stroke-linecap:butt;stroke-width:3}
 		.st7 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.67567567567568}
 		.st8 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
-		.st9 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
-		.st10 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
-		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -147,19 +145,5 @@
 			<title>Blad.903</title>
 			<path d="M0 39.26 C41.81 39.26 70.16 60.52 112.68 39.26" class="st8"/>
 		</g>
-		<g id="shape904-79" v:mID="904" v:groupContext="shape" transform="translate(11.0049,-24.2803)">
-			<title>Punt A.904</title>
-			<desc>1</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="7.08661" cy="41.4739" width="14.18" height="14.1732"/>
-			<rect x="0" y="34.3873" width="14.1732" height="14.1732" class="st9"/>
-			<text x="4.09" y="45.07" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
-		<g id="shape905-82" v:mID="905" v:groupContext="shape" transform="translate(117.304,-24.2803)">
-			<title>Punt A.905</title>
-			<desc>2</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="7.08661" cy="41.4739" width="14.18" height="14.1732"/>
-			<rect x="0" y="34.3873" width="14.1732" height="14.1732" class="st9"/>
-			<text x="4.09" y="45.07" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>2</text>		</g>
 	</g>
 </svg>

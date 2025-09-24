@@ -4,9 +4,12 @@ De matrixmethode is een methode om aan alle soorten constructies te rekenen en l
 
 ## Theorie
 
+### Beperking tot rotaties en knoopkoppels
+In dit vak beperken we ons tot de toepassing van de matrixmethode op constructies waarin de rotatie van de knopen de enige vrijheidsgraad is (knopen kunnen niet verplaatsen) en er geen krachten tussen de knopen aangrijpen. Daarnaast modelleren we enkel starre verbindingen. De matrixmethode is echter ook toe te passen op constructies met meerdere vrijheidsgraden per knoop, op constructies met krachten tussen de knopen en scharnierende / verende verbindingen.
+
 ### Aantal vrijheidsgraden
 
-Het eerste verschil van de matrixmethode met de verplaatsingenmethode was het aantal vrijheidsgraden. Waar bij de verplaatsingenmethode slechts enkele vrijheidsgraden worden gekozen, worden bij de matrixmethode de rotaties van alle knopen als vrijheidsgraden gekozen en daarbij het evenwicht van alle knopen in acht genomen. Daarbij worden alle rotaties en momenten in dezelfde richting genomen.
+Het eerste verschil van de matrixmethode met de verplaatsingenmethode is het aantal vrijheidsgraden. Waar bij de verplaatsingenmethode slechts enkele vrijheidsgraden worden gekozen, worden bij de matrixmethode de rotaties van alle knopen als vrijheidsgraden gekozen en daarbij het evenwicht van alle knopen in acht genomen. Daarbij worden alle rotaties en momenten in dezelfde richting genomen.
 
 ```{figure} ./theorie_data/verplaats_vs_matrix_dof.svg
 ---
@@ -44,21 +47,43 @@ k \cdot \varphi  &= f
 \end{array}
 $$
 
-### Directe opstelling van de matrixvergelijking
-De termen in de stijfheidsmatrix kunnen geïnterpreteerd worden als de rotatiestijfheid die elk element levert aan de aanliggende knopen. De termen in de krachtvector kunnen geïnterpreteerd worden als de externe koppels die op de knopen werken. Daarmee kunnen we de $\mathbf{K} \mathbf{u} = \mathbf{F}$ ook direct opstellen door de stijfheden van de individuele elementen bij elkaar op te tellen bij de bijbehorende knopen en de externe koppels en oplegmomenten direct in de krachtvector te zetten. Impliciet hebben we dan netjes de evenwichtsvergelijkingen voor alle knopen opgesteld.
+Dit leidt tot een matrixformulering $\mathbf{K} \mathbf{u} = \mathbf{F}$. De termen in de globale stijfheidsmatrix $\mathbf{K}$ kunnen geïnterpreteerd worden als de rotatiestijfheid die elk element levert aan de aanliggende knopen. De termen in de krachtvector $\mathbf{F}$ kunnen geïnterpreteerd worden als de externe koppels die op de knopen werken. $\mathbf{u}$ is de verplaatsingsvector met de onbekende rotaties van de knopen.
 
-Voor elke individuele element met lengte $L$ en buigstijfheid $EI$ kunnen we de zogenoemde elementstijfheidsmatrix opstellen aan de hand van een vergeet-me-nietje:
+### Directe opstelling van de stijfheidsterm
+In plaats van met de hand elke momentevenwicht op te schrijven kunnen we de $\mathbf{K} \mathbf{u} = \mathbf{F}$ direct opstellen door de stijfheden van de individuele elementen bij elkaar op te tellen bij de bijbehorende knopen. Aangezien alle elementen er exact hetzelfde uitzien (een buigende staaf van nog onbekende lengte $L$ en buigstijfheid $EI$ met koppels op het uiteinde), kunnen we voor elk element dezelfde symbolische stijfheidstermen gebruiken. Daarbij houden we voor alle rotaties en momenten dezelfde richting (tegen de klok in) aan.
+
+```{figure} ./theorie_data/staaf.svg
+---
+align: center
+---
+Standaard element in de matrixmethode
+
+% originele figuur: ../verplaats2/theorie_data/Tekening1.vsdx
+```
+
+Voor dit standaardelement zullen we éénmaal de stijfheidstermen moeten vinden. Net als bij de verplaatsingenmethode kunnen we met de relaties vinden tussen de koppels en de rotaties van de uiteindes van een element door de rotaties los van elkaar toe passen. Voor elke individuele element met lengte $L$ en buigstijfheid $EI$ kunnen we de zogenoemde elementstijfheidsmatrix opstellen aan de hand van een vergeet-me-nietje:
 
 ```{figure} ./theorie_data/fmn.svg
 ---
 align: center
 ---
-Boven het vergeet-me-nietje waarmee we de relatie tussen koppels en de rotaties van de uiteindes van een element beschreven kunnen worden. Komt overeen met vergeet-me-nietje (7) van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
+Vergeet-me-nietje waarmee we de relatie tussen koppels en de rotaties van de uiteindes van een element beschreven kunnen worden. Komt overeen met vergeet-me-nietje (7) van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
 
 % originele figuur: ../verplaats2/theorie_data/Tekening1.vsdx
 ```
 
-Dit vergeet-me-nietje geeft:
+Voor de relaties tussen de koppels en $\varphi_2$ kunnen we onderstaande model gebruiken, waarbij $T_1$ het oplegmoment is in het vergeet-me-nietje:
+
+```{figure} ./theorie_data/rechts.svg
+---
+align: center
+---
+Snedekrachten ten gevolge van $\varphi_2$.
+
+% originele figuur: ../verplaats2/theorie_data/Tekening1.vsdx
+```
+
+Het vergeet-me-nietje geeft dan:
 
 $$
 \begin{aligned}
@@ -70,7 +95,17 @@ T_2 &= \cfrac{4 \cdot EI}{L} \cdot \varphi_2 \\
 \end{aligned}
 $$
 
-En voor het gespiegelde vergeet-me-nietje:
+Voor de relaties tussen de koppels en $\varphi_1$ kunnen we onderstaande model gebruiken, waarbij $T_2$ het oplegmoment is in het vergeet-me-nietje:
+
+```{figure} ./theorie_data/links.svg
+---
+align: center
+---
+Snedekrachten ten gevolge van $\varphi_1$.
+% originele figuur: ../verplaats2/theorie_data/Tekening1.vsdx
+```
+
+Dit geeft:
 
 $$
 \begin{aligned}
@@ -82,14 +117,27 @@ T_2 &= \cfrac{2 \cdot EI}{L} \cdot \varphi_1 \\
 \end{aligned}
 $$
 
-Samen geeft dit de elementstijfheidsmatrix:
+Samen geeft dit twee vergelijkingen:
+
+$$
+\begin{aligned}
+T_1 &= \cfrac{4 EI}{L} \cdot \varphi_1 + \cfrac{2 EI}{L} \cdot \varphi_2 \\
+T_2 &= \cfrac{2 EI}{L} \cdot \varphi_1 + \cfrac{4 EI}{L} \cdot \varphi_2 \\
+\end{aligned}
+$$
+
+Deze kunnen samen geschreven worden in een elementstijfheidsmatrix:
 
 $$
 \mathbf{K^{\rm{(e)}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2EI}{L} \\ \cfrac{2EI}{L} & \cfrac{4EI}{L}  \end{bmatrix}
 $$
 
-### Beperking tot rotaties en knoopkoppels
-In dit vak beperken we ons tot de toepassing van de matrixmethode op constructies waarin de rotatie van de knopen de enige vrijheidsgraad is en er geen krachten tussen de knopen aangrijpen. Daarnaast modelleren we enkel starre verbindingen. De matrixmethode is echter ook toe te passen op constructies met meerdere vrijheidsgraden per knoop, op constructies met krachten tussen de knopen en scharnierende / verende verbindingen.
+Welke vermenigvuldigd met de verplaatsingsvector $\mathbf{u^{\rm{(e)}}} = \begin{bmatrix} \varphi_1 \\ \varphi_2  \end{bmatrix}$ de koppels in de krachtvector $\mathbf{f^{\rm{(e)}}} = \begin{bmatrix} T_1 \\ T_2  \end{bmatrix}$ geeft.
+
+De individuele termen van deze standaard elementstijfheidsmatrix kunnen we voortaan direct gebruiken. Dat doen we door deze op te tellen in de globale stijfheidsmatrix $\mathbf{K}$, waarbij de index van de rijen en kolommen overeen moeten komen met de uiteindes van de elementen.
+
+### Directe opstelling van de krachtterm
+Aangezien in de krachtvector alle losse koppels uitkwamen, kunnen we de externe koppels en oplegmomenten ook direct opstellen. Net als de stijfheden kunnen we dit direct doen zonder expliciet de evenwichtsvergelijkingen uit te schrijven. We hoeven enkel de externe koppels en oplegmomenten toe te voegen op de juiste plek in de krachtvector.
 
 ### Stappenplan
 

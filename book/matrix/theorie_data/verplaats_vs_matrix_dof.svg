@@ -412,33 +412,22 @@
 			<v:textRect cx="7.08661" cy="278.829" width="14.18" height="14.1732" transform="rotate(180)"/>
 			<rect x="0" y="271.742" width="14.1732" height="14.1732" class="st9"/>
 			<text x="-10.17" y="-275.23" transform="rotate(180)" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>T</text>		</g>
-		<g id="shape138-259" v:mID="138" v:groupContext="shape" transform="translate(-54.5168,257.194) rotate(-90)">
-			<title>Moment.138</title>
-			<path d="M-0 285.92 A14.1732 14.1732 0 0 1 14.17 271.74 A14.1732 14.1732 0 0 1 26.14 278.32 L26.24 278.67" class="st7"/>
-		</g>
-		<g id="shape139-264" v:mID="139" v:groupContext="shape" transform="translate(214.06,512.779) rotate(180)">
-			<title>Blad.139</title>
-			<desc>T</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="7.08661" cy="278.829" width="14.18" height="14.1732" transform="rotate(180)"/>
-			<rect x="0" y="271.742" width="14.1732" height="14.1732" class="st9"/>
-			<text x="-10.17" y="-275.23" transform="rotate(180)" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>T</text>		</g>
-		<g id="shape142-267" v:mID="142" v:groupContext="shape" transform="translate(183.21,-255.493)">
+		<g id="shape142-259" v:mID="142" v:groupContext="shape" transform="translate(183.21,-255.493)">
 			<title>Moment.142</title>
 			<path d="M-0 285.92 A14.1732 14.1732 0 0 1 14.17 271.74 A14.1732 14.1732 0 0 1 26.14 278.32 L26.24 278.67" class="st7"/>
 		</g>
-		<g id="shape143-272" v:mID="143" v:groupContext="shape" transform="translate(220.769,286.29) rotate(180)">
+		<g id="shape143-264" v:mID="143" v:groupContext="shape" transform="translate(220.769,286.29) rotate(180)">
 			<title>Blad.143</title>
 			<desc>T</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="7.08661" cy="278.829" width="14.18" height="14.1732" transform="rotate(180)"/>
 			<rect x="0" y="271.742" width="14.1732" height="14.1732" class="st9"/>
 			<text x="-10.17" y="-275.23" transform="rotate(180)" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>T</text>		</g>
-		<g id="shape144-275" v:mID="144" v:groupContext="shape" transform="translate(296.595,-127.084)">
+		<g id="shape144-267" v:mID="144" v:groupContext="shape" transform="translate(296.595,-127.084)">
 			<title>Moment.144</title>
 			<path d="M-0 285.92 A14.1732 14.1732 0 0 1 14.17 271.74 A14.1732 14.1732 0 0 1 26.14 278.32 L26.24 278.67" class="st7"/>
 		</g>
-		<g id="shape145-280" v:mID="145" v:groupContext="shape" transform="translate(334.155,414.7) rotate(180)">
+		<g id="shape145-272" v:mID="145" v:groupContext="shape" transform="translate(334.155,414.7) rotate(180)">
 			<title>Blad.145</title>
 			<desc>T</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
