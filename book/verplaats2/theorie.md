@@ -31,7 +31,7 @@ De toepassing van deze verplaatsingenmethode op een statisch onbepaalde construc
 ---
 align: center
 ---
-Voorbeeldconstructie, $EI_{\rm{AB}} = 1.5 \ \rm{MNm^2}, EI_{\rm{BC}} = 3 \ \rm{MNm^2}$
+Voorbeeldconstructie, $EI_{\rm{AB}} = 1.5 \ \rm{MNm}^2, EI_{\rm{BC}} = 3 \ \rm{MNm}^2$
 ```
 
 ::::::
