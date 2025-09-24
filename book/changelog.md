@@ -1,5 +1,10 @@
 # Changelog 🔖
 
+## 2025-09-24: v2025.14.0
+Toevoegen:
+- [24 september: Verplaatsingenmethode 2 - Begeleide oefening 1](./verplaats2/lesoefening1.md)
+- [24 september: Verplaatsingenmethode 2 - Begeleide oefening 2](./verplaats2/lesoefening2.md)
+
 ## 2025-09-22: v2025.13.0
 Toevoegen:
 - [22 september: Verplaatsingenmethode - Begeleide oefening 1](./verplaatsingenmethode/lesoefening.md)

@@ -67,10 +67,8 @@ parts:
   - file: verplaats2/lesson.md
     sections:
     - file: verplaats2/theorie.md
-# START REMOVE-FROM-RELEASE
     - file: verplaats2/lesoefening1.md
     - file: verplaats2/lesoefening2.md
-# END REMOVE-FROM-RELEASE
   - file: matrix/lesson.md
 # START REMOVE-FROM-RELEASE
     sections:
