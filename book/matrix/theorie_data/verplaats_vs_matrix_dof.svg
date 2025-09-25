@@ -434,5 +434,14 @@
 			<v:textRect cx="7.08661" cy="278.829" width="14.18" height="14.1732" transform="rotate(180)"/>
 			<rect x="0" y="271.742" width="14.1732" height="14.1732" class="st9"/>
 			<text x="-10.17" y="-275.23" transform="rotate(180)" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>T</text>		</g>
+		<g id="shape208-275" v:mID="208" v:groupContext="shape" transform="translate(154.863,-156.281)">
+			<title>Blad.208</title>
+			<desc>0 &#60; EI &#60; ∞ EA &#62;&#62; EI</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="271.742" width="85.04" height="28.3465"/>
+			<rect x="0" y="257.569" width="85.0394" height="28.3465" class="st9"/>
+			<text x="16.81" y="268.14" class="st16" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>0 &#60; <tspan
+						class="st17">EI</tspan> &#60; ∞ <v:newlineChar/><tspan x="19.76" dy="1.2em" class="st17">EA</tspan> &#62;&#62; <tspan
+						class="st17">EI</tspan></text>		</g>
 	</g>
 </svg>
