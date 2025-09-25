@@ -47,10 +47,10 @@ k \cdot \varphi  &= f
 \end{array}
 $$
 
-Dit leidt tot een matrixformulering $\mathbf{K} \mathbf{u} = \mathbf{F}$. De termen in de globale stijfheidsmatrix $\mathbf{K}$ kunnen geïnterpreteerd worden als de rotatiestijfheid die elk element levert aan de aanliggende knopen. De termen in de krachtvector $\mathbf{F}$ kunnen geïnterpreteerd worden als de externe koppels die op de knopen werken. $\mathbf{u}$ is de verplaatsingsvector met de onbekende rotaties van de knopen.
+Dit leidt tot een matrixformulering $\mathbf{K} \mathbf{u} = \mathbf{f}$. De termen in de globale stijfheidsmatrix $\mathbf{K}$ kunnen geïnterpreteerd worden als de rotatiestijfheid die elk element levert aan de aanliggende knopen. De termen in de krachtvector $\mathbf{f}$ kunnen geïnterpreteerd worden als de externe koppels die op de knopen werken. $\mathbf{u}$ is de verplaatsingsvector met de onbekende rotaties van de knopen.
 
 ### Directe opstelling van de stijfheidsterm
-In plaats van met de hand elke momentevenwicht op te schrijven kunnen we de $\mathbf{K} \mathbf{u} = \mathbf{F}$ direct opstellen door de stijfheden van de individuele elementen bij elkaar op te tellen bij de bijbehorende knopen. Aangezien alle elementen er exact hetzelfde uitzien (een buigende staaf van nog onbekende lengte $L$ en buigstijfheid $EI$ met koppels op het uiteinde), kunnen we voor elk element dezelfde symbolische stijfheidstermen gebruiken. Daarbij houden we voor alle rotaties en momenten dezelfde richting (tegen de klok in) aan.
+In plaats van met de hand elke momentevenwicht op te schrijven kunnen we de $\mathbf{K} \mathbf{u} = \mathbf{f}$ direct opstellen door de stijfheden van de individuele elementen bij elkaar op te tellen bij de bijbehorende knopen. Aangezien alle elementen er exact hetzelfde uitzien (een buigende staaf van nog onbekende lengte $L$ en buigstijfheid $EI$ met koppels op het uiteinde), kunnen we voor elk element dezelfde symbolische stijfheidstermen gebruiken. Daarbij houden we voor alle rotaties en momenten dezelfde richting (tegen de klok in) aan.
 
 ```{figure} ./theorie_data/staaf.svg
 ---
@@ -136,8 +136,69 @@ Welke vermenigvuldigd met de verplaatsingsvector $\mathbf{u^{\rm{(e)}}} = \begin
 
 De individuele termen van deze standaard elementstijfheidsmatrix kunnen we voortaan direct gebruiken. Dat doen we door deze op te tellen in de globale stijfheidsmatrix $\mathbf{K}$, waarbij de index van de rijen en kolommen overeen moeten komen met de uiteindes van de elementen.
 
+$$
+\begin{aligned}
+\mathbf{K^{\rm{(e)}}} &= \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2 EI}{L} \\ \cfrac{2 EI}{L} & \cfrac{4 EI}{L} \end{bmatrix} \\
+\mathbf{K^{\rm{(e)}}} &= \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2 EI}{L} \\ \cfrac{2 EI}{L} & \cfrac{4 EI}{L} \end{bmatrix}
+\qquad
+\rightarrow
+\qquad
+\begin{bmatrix}
+0 & 0 & \cdots & 0 \\
+0 & 0 & \cdots & 0 \\
+\vdots & \vdots & \ddots & 0 \\
+0 & 0 & 0 & 0
+\end{bmatrix}
+\begin{bmatrix}
+\varphi_1 \\
+\varphi_2 \\
+\vdots \\
+\varphi_n
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 \\
+0 \\
+\vdots \\
+0
+\end{bmatrix}
+\\
+&\vdots \\
+\mathbf{K^{\rm{(e)}}} &= \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2 EI}{L} \\ \cfrac{2 EI}{L} & \cfrac{4 EI}{L} \end{bmatrix}
+\qquad
+
+\end{aligned}
+$$
+
 ### Directe opstelling van de krachtterm
 Aangezien in de krachtvector alle losse koppels uitkwamen, kunnen we de externe koppels en oplegmomenten ook direct opstellen. Net als de stijfheden kunnen we dit direct doen zonder expliciet de evenwichtsvergelijkingen uit te schrijven. We hoeven enkel de externe koppels en oplegmomenten toe te voegen op de juiste plek in de krachtvector.
+
+$$
+\begin{bmatrix}
+0 & 0 & \cdots & 0 \\
+0 & 0 & \cdots & 0 \\
+\vdots & \vdots & \ddots & 0 \\
+0 & 0 & 0 & 0
+\end{bmatrix}
+\begin{bmatrix}
+\varphi_1 \\
+\varphi_2 \\
+\vdots \\
+\varphi_n
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 \\
+0 \\
+\vdots \\
+0
+\end{bmatrix}
+\leftarrow
+\begin{matrix}
+\text{Uitwendige koppels} \\
+\text{Oplegmomenten}
+\end{matrix}
+$$
 
 ### Stappenplan
 
@@ -148,11 +209,11 @@ De stappen van de matrixmethode zijn als volgt:
 :label: matrixmethode_algoritme
 
 1. Bepaal de vrijheidsgraden (rotaties). Dit vormt de onbekende verplaatsingsvector $ \mathbf{u} =  \begin{bmatrix}  \varphi_1 \\  \varphi_2 \\ \vdots \\ \varphi_n  \end{bmatrix} $
-2. Initialiseer het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{F}$ met een nulmatrix voor $\mathbf{K}$ en -vector $\mathbf{F}$.
+2. Initialiseer het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{f}$ met een nulmatrix voor $\mathbf{K}$ en -vector $\mathbf{f}$.
 3. Bepaal voor elk element de elementstijfheidsmatrix $\left(\mathbf{K^{\rm{(e)}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2EI}{L} \\ \cfrac{2EI}{L} & \cfrac{4EI}{L}  \end{bmatrix}\right)$ en voeg deze toe aan de globale stijfheidsmatrix $\mathbf{K}$ voor de bijbehorende knopen.
-4. Construeer de globale krachtvector $\mathbf{F}$ door de externe krachten(koppels) toe te voegen voor de bijbehorende knopen.
+4. Construeer de globale krachtvector $\mathbf{f}$ door de externe krachten(koppels) toe te voegen voor de bijbehorende knopen.
 5. Voeg de zowel de voorgeschreven vrijheidsgraden (rotaties) als de onbekende oplegreacties (oplegmomenten) toe aan het stelsel van vergelijkingen.
-6. Los het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{F}$ op voor de onbekende vrijheidsgraden (rotaties) in $\mathbf{u}$.
+6. Los het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{f}$ op voor de onbekende vrijheidsgraden (rotaties) in $\mathbf{u}$.
 
 ::::::
 
@@ -185,14 +246,14 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
 
     ::::::
 
-2. Initialiseer het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{F}$ met een nulmatrix voor $\mathbf{K}$ en -vector $\mathbf{F}$.
+2. Initialiseer het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{f}$ met een nulmatrix voor $\mathbf{K}$ en -vector $\mathbf{f}$.
 
 
     ::::::{prf:example}
     :nonumber: true
     :label: matrix_2
 
-    Dit geeft voor onze constructie een 3×3 matrix voor $\mathbf{K}$ en een 3×1 vector voor $\mathbf{F}$:
+    Dit geeft voor onze constructie een 3×3 matrix voor $\mathbf{K}$ en een 3×1 vector voor $\mathbf{f}$:
     
     $$
     \begin{bmatrix}
@@ -274,7 +335,7 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
 
     ::::::
 
-4. Construeer de globale krachtvector $\mathbf{F}$ door de externe krachten (koppels) toe te voegen voor de bijbehorende knopen.
+4. Construeer de globale krachtvector $\mathbf{f}$ door de externe krachten (koppels) toe te voegen voor de bijbehorende knopen.
 
     ::::::{prf:example}
     :nonumber: true
@@ -283,7 +344,7 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
     Er is één extern koppel van $209.924 \ \rm{kNm}$ dat op knoop $\rm{B}$ werkt. Deze werkt rechtsom / met de klok mee en is dus een positief koppel in onze krachtvector. Dit geeft:
 
     $$
-    \mathbf{F} =
+    \mathbf{f} =
     \begin{bmatrix}
     0 \\
     209.924 \\
@@ -321,7 +382,7 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
 
     :::::: 
 
-6. Los het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{F}$ op voor de onbekende vrijheidsgraden (rotaties) in $\mathbf{u}$.
+6. Los het stelsel van vergelijkingen $\mathbf{K} \mathbf{u} = \mathbf{f}$ op voor de onbekende vrijheidsgraden (rotaties) in $\mathbf{u}$.
 
     ::::::{prf:example}
     :nonumber: true
@@ -353,4 +414,4 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
 In hoofdstuk 5 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` wordt de matixmethode behandeld. In hoofdstuk 5.5 is de stof van voorbeeld 1 na het bepalen van de $\varphi$'s geen onderdeel van het vak. Dat geldt ook voor voorbeeld 1 in hoofdstuk 5.6.1 na het bepalen van de $\varphi$'s. Daarnaast worden hoofdstuk 5.5.2 en 5.7 niet behandeld.
 
 ## Oefeningen
-Opgaves 5.1 - 5.5 in hoofdstuk 5.8 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. De opgaves e - i zijn geen onderdeel van het vak. Vervang bij opgave 5.2 - 5.5 het uitkragende gedeelte door een koppel en neem de dwarskracht niet meem. Dit zijn dezelfde opgaves als voor [](../verplaatsingenmethode/lesson.md). Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.
+Opgaves 5.1 - 5.5 in hoofdstuk 5.8 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. De opgaves e - i zijn geen onderdeel van het vak. Vervang bij opgave 5.2 - 5.5 het uitkragende gedeelte door een koppel en neem de dwarskracht niet mee. Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.
