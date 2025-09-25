@@ -165,8 +165,6 @@ $$
 \\
 &\vdots \\
 \mathbf{K^{\rm{(e)}}} &= \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2 EI}{L} \\ \cfrac{2 EI}{L} & \cfrac{4 EI}{L} \end{bmatrix}
-\qquad
-
 \end{aligned}
 $$
 
