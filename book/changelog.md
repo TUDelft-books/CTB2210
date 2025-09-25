@@ -1,5 +1,10 @@
 # Changelog 🔖
 
+## 2025-09-25: v2025.15.0
+Toevoegen:
+- [25 september: Matrixmethode - Instructie](./matrix/theorie.md)
+- [25 september: Matrixmethode - Begeleide oefening](./matrix/lesoefening1.md)
+
 ## 2025-09-24: v2025.14.0
 Toevoegen:
 - [24 september: Verplaatsingenmethode 2 - Begeleide oefening 1](./verplaats2/lesoefening1.md)

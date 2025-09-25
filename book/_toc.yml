@@ -70,11 +70,9 @@ parts:
     - file: verplaats2/lesoefening1.md
     - file: verplaats2/lesoefening2.md
   - file: matrix/lesson.md
-# START REMOVE-FROM-RELEASE
     sections:
     - file: matrix/theorie.md
     - file: matrix/lesoefening1.md
-# END REMOVE-FROM-RELEASE
 - caption: Diverse
   chapters:
   - file: changelog
