@@ -215,7 +215,7 @@ De stappen van de matrixmethode zijn als volgt:
 
 ::::::
 
-### Voorbeeld
+## Voorbeeld
 
 De toepassing van deze matrixmethode op een statisch onbepaalde constructie wordt in een voorbeeld getoond.
 
