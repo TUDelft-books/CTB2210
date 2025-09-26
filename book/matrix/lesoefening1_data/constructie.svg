@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Gegenereerd door Microsoft Visio, SVG Export Tekening1.svg Pagina-1 -->
+<!-- Gegenereerd door Microsoft Visio, SVG Export constructie.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.35333in" height="2.27065in"
 		viewBox="0 0 241.44 163.487" xml:space="preserve" color-interpolation-filters="sRGB" class="st17">
@@ -276,7 +276,7 @@
 			<text x="9.69" y="145.71" class="st11" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>EI<tspan class="st12"> </tspan><tspan
 						class="st12">= 4 MNm</tspan><tspan dy="-0.198em" class="st13" v:baseFontSize="12">2<v:newlineChar/></tspan><tspan
 						x="18.26" dy="1.329em" class="st14">EA</tspan><tspan class="st12"> </tspan><tspan class="st12">&#62;&#62;  </tspan>EI</text>		</g>
-		<g id="shape52-154" v:mID="52" v:groupContext="shape" transform="translate(289.953,-90.0718) rotate(45)">
+		<g id="shape52-154" v:mID="52" v:groupContext="shape" transform="translate(309.997,-70.0278) rotate(45) scale(-1,1)">
 			<title>Moment</title>
 			<path d="M-0 163.49 A14.1732 14.1732 0 0 1 14.17 149.31 A14.1732 14.1732 0 0 1 26.14 155.89 L26.24 156.24" class="st15"/>
 		</g>
