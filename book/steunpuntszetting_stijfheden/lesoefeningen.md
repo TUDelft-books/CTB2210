@@ -2,7 +2,7 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze pagina is aangepast van https://oit.tudelft.nl/CTB2210/2025-teacher/steunpuntszetting_stijfheden/lesoefeningen.html
+Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_10/session/intro.html
 ```
 ````
 
