@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2025-09-30: v2025.16.0
+Toevoegen uitwerkingen aan begeleide oefeningen van week 1 t/m 3.
+
 ## 2025-09-25: v2025.15.0
 Toevoegen:
 - [25 september: Matrixmethode - Instructie](./matrix/theorie.md)
