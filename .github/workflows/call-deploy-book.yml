@@ -4,13 +4,6 @@ on:
   push:
     branches:
     - '**'
-    - '!CT1000'
-    - '!2025-draft' # Exclude to avoid triggering the deploy workflow on its own changes
-    - '!2025' # Exclude to avoid triggering the deploy workflow on its own changes
-    # If your git repository has the Jupyter Book within some-subfolder next to
-    # unrelated files, you can make this run only if a file within that specific
-    # folder (or the workflow file itself) has been modified.
-    #
     paths:
     - book/**
     - requirements.txt
@@ -18,32 +11,7 @@ on:
   workflow_dispatch:
 
 jobs: 
-  generate-student-version:
-    # Debug: Always show what branch we're on
-    if: ${{ github.ref == 'refs/heads/2025-teacher' || github.event_name == 'workflow_dispatch' }}
-    name: Generate student versions
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.ACTIONS_DEPLOY_KEY_CTB2210 }}
-          fetch-depth: 0
-      
-      - name: Merge 2025-draft into 2025
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -b 2025
-          git merge origin/2025-teacher --no-ff -m "Auto-merge 2025 into 2025"
-          git push origin 2025 --force
-
   call-workflow:
-    needs: generate-student-version
-    if: always() && (needs.generate-student-version.result == 'success' || needs.generate-student-version.result == 'skipped')
     uses: TeachBooks/deploy-book-workflow/.github/workflows/deploy-book.yml@main
     secrets: inherit
     permissions:
