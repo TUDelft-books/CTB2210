@@ -48,6 +48,7 @@ parts:
     - file: krachtenmethode_raamwerk/instructie.md
     - file: krachtenmethode_raamwerk/lesoefeningen.md
     - file: krachtenmethode_raamwerk/lesoefeningen_2.md
+  - file: TOZ/opgave.md
   - file: steunpuntszetting_stijfheden/lesson.md
     sections:
     - file: steunpuntszetting_stijfheden/theorie1.md
