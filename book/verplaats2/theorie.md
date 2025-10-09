@@ -1,12 +1,3 @@
-````{margin}
-```{attributiongrey} Bronvermelding
-:class: attribution
-
-Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_7/session_1/intro.html
-
-```
-````
-
 # Instructie
 
 In de les van [](../verplaatsingenmethode/lesson.md) heb je de verplaatsingenmethode leren toepassen op zeer vergelijkbare wijze als de krachtenmethode. Echter, er is nog een andere verplaatsingenmethode. Een groot nadeel van de krachten- en verplaatsingenmethode van de vorige les is namelijk dat je de statisch onbepaalde constructie moet aanpassen tot een statisch bepaalde constructie. Dat kan soms lastig zijn. Bij de verplaatsingenmethode die we vandaag behandelen is dat niet nodig. In plaats van de constructie op te lossen voor een statisch onbepaalde kracht of verplaatsingen, lossen we de constructie op voor één of meerdere vrijheidsgraden die de vervorming van de constructie bepalen. 
