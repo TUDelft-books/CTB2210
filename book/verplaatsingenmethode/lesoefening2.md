@@ -3,6 +3,8 @@
 :class: attribution
 
 Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_7/session_2/intro.html
+
+% source files at https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_3
 ```
 ````
 
