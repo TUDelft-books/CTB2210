@@ -4,6 +4,8 @@
 
 Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/statically_inderminate/stiffness_influences.html en https://oit.tudelft.nl/CT1000/2024/week_7/session_3/intro.html
 
+% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+
 ```
 ```` 
 
