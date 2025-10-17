@@ -1,5 +1,7 @@
 # Begeleide oefening 1
 
+% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/temperatuur3
+
 Gegeven is de volgende constructie:
 
 ```{figure} ./lesoefening_data/structure.svg

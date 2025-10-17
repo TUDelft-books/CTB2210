@@ -116,7 +116,7 @@ Los je vormveranderingsvoorwaarde op om $B_{\rm{v}}$ te vinden.
 
 % solution_start
 
-::::{solution} balk_2_6
+::::{solution} balk_2_4
 :class: dropdown
 
 De vormveranderingsvoorwaarde is: $w_{\rm{B}} = -0.045 \cdot B_{\rm{v}} + 0.675 = 0$. 
