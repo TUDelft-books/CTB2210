@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2025-10-22: v2025.17.0
+Toevoegen [15 september: TOZ](./TOZ/opgave.md)
+
 ## 2025-09-30: v2025.16.0
 Toevoegen uitwerkingen aan begeleide oefeningen van week 1 t/m 3.
 
