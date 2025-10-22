@@ -105,7 +105,7 @@ Er zijn 7 onbekende oplegreacties en 6 onbekende verbindingskrachten. Dat geeft 
 
 Gekozen wordt voor het volgende statisch bepaalde systeem:
 
-```{figure} opgave_data/SB1.svg
+```{figure} opgave_data/stat_b.svg
 :align: center
 ```
 
