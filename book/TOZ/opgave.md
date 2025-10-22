@@ -221,7 +221,7 @@ Wat is de zakking in $\rm{D}$ als functie van $B_{\rm{v}}$?
 
 De verplaatsing in $\rm{D}$ volgt uit een vergeet-me-nietje:
 
-```{figure} ./opgave_data/AD.svg
+```{figure} ./opgave_data/wAD.svg
 :align: center
 ```
 
@@ -291,6 +291,10 @@ De verplaatsing van $\rm{B}$ kan worden gevonden met de verlenging van een staaf
 ```
 
 De verplaatsing van $\rm{D}$  volgt uit de eerder opgestelde formule. De rotatie van $\rm{D}$ volgt uit hetzelfde vergeet-me-nietje:
+
+```{figure} ./opgave_data/wAD.svg
+:align: center
+```
 
 $$
 \begin{align}
