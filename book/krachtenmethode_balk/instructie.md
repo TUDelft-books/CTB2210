@@ -112,7 +112,7 @@ Voorbeeldconstructie, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
     Met behulp van de vergeet-mij-nietjes kunnen de rotaties direct worden geëvalueerd zonder het evalueren van inwendige krachten:
 
     - $\varphi_{\rm{B}}^{\rm{AB}} \left( M_{\rm{B}} \right) = \cfrac{4M_{\rm{B}}}{3EI} + \cfrac{200}{3EI}$
-    - $\varphi_{\rm{B}}^{\rm{BC}} \left( M_{\rm{B}} \right) = -\cfrac{2M_{\rm{B}}}{3EI}$
+    - $\varphi_{\rm{B}}^{\rm{BC}} \left( M_{\rm{B}} \right) = -\cfrac{2M_{\rm{B}}}{EI}$
 
     ::::::
 
@@ -125,7 +125,7 @@ Voorbeeldconstructie, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
     $$
     \begin{align*}
     \varphi_{\rm{B}}^{\rm{AB}} \left( M_{\rm{B}} \right) &= \varphi_{\rm{B}}^{\rm{BC}} \left( M_{\rm{B}} \right) \\
-    \cfrac{4M_{\rm{B}}}{3EI} + \cfrac{200}{3EI} &= -\cfrac{2M_{\rm{B}}}{3EI} \\
+    \cfrac{4M_{\rm{B}}}{3EI} + \cfrac{200}{3EI} &= -\cfrac{2M_{\rm{B}}}{EI} \\
     M_{\rm{B}} &= -20 \ \rm{kNm}
     \end{align*}
     $$
