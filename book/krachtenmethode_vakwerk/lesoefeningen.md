@@ -1,5 +1,7 @@
 # Begeleide oefening
 
+% srouce files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+
 Gegeven is de volgende constructie:
 
 ```{figure} lesoefeningen_data/structure.svg
