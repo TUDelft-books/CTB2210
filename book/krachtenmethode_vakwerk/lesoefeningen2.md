@@ -4,7 +4,7 @@
 
 Deze oefening is aangepast van https://oit.tudelft.nl/CT1000/2024/week_3/session_3/intro.html
 
-% Figures from https://github.com/TUDelft-books/CT1000/blob/2024/book/week_3/session_3/intro_data/Tekening1.vsdx
+% source files at https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 
 ```
 ```` 
