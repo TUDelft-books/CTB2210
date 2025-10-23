@@ -48,9 +48,6 @@ sphinx:                                              # Options passed on to the 
     sphinx_codex_name: "Voorbeeld"
     sphinx_codex_merge_with_proof:     true # default value
     tud_change_titlesize: false
-  local_extensions:
-    apastyle: _ext/
-    bracket_citation_style: _ext/
   extra_extensions:                                  # Gives you a starter package of extensions to use in your book
     - teachbooks_favourites
     - sphinx_tudelft_theme
