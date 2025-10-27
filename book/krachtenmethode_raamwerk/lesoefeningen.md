@@ -27,7 +27,7 @@ Twee statisch bepaalde systemen
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 - Met het koppel is het niet mogelijk verplaatsingen te berekenen.
@@ -66,7 +66,7 @@ Vrijlichaamsschema van knoop $\rm{C}$ vergroot weergegeven
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 $M _{\rm{C}} ^{\rm{BC}} \left( M _{\rm{C}} ^{\rm{AC}} \right) = M _{\rm{C}} ^{\rm{AC}} + 30$. 
@@ -105,7 +105,7 @@ Ga uit van [het statisch bepaalde systeem met het scharnier in $\rm{C}$](statisc
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Er is 1 statisch onbepaald moment, omdat de twee verschillende momenten van elkaar afhankelijk zijn door het momentenevenwicht van knoop C.  
@@ -127,7 +127,7 @@ Los de verplaatsingen van deze constructie uit als functie van $M_{\rm{C}}^{\rm{
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De uitdrukkingen voor de hoekverdraaiingen kunnen worden gevonden met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel. 
@@ -153,7 +153,7 @@ Los je vormveranderingsvoorwaarde op samen met je eerder opgestelde evenwichtsve
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De vormveranderingsvoorwaarde is: $\varphi_{\rm{C}}^{\rm{AC}} = \varphi_{\rm{C}}^{\rm{BC}} \rightarrow 0.001 \cdot M_{\rm{C}}^{\rm{AC}} = -0.0005 \cdot M_{\rm{C}}^{\rm{BC}}$

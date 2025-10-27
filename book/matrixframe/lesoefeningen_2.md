@@ -24,7 +24,7 @@ Voer de geometrie, profielgegevens, opleggingen en scharnierende aansluitingen i
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 - Het moment in D is *7.78* kNm

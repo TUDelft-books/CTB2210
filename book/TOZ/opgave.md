@@ -22,7 +22,7 @@ Welke van de volgende opties is geschikt om met de krachtenmethode de constructi
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 ```{figure} opgave_data/SB1.svg
@@ -117,7 +117,7 @@ Wat is de normaalkracht in $\rm{BD}$ als functie van $B_{\rm{v}}$?
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 ```{figure} opgave_data/BD.svg
@@ -142,7 +142,7 @@ Wat is de normaalkracht in $\rm{CG}$ als functie van $B_{\rm{v}}$?
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 ```{figure} opgave_data/CG_1.svg
@@ -167,7 +167,7 @@ Wat is de dwarskracht net links van $\rm{D}$ als functie van $B_{\rm{v}}$ is gel
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 ```{figure} opgave_data/DG_1.svg
@@ -192,7 +192,7 @@ Wat is het moment in $\rm{D}$ als functie van $B_{\rm{v}}$ is gelijk aan?
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 ```{figure} opgave_data/DG_2.svg
@@ -216,7 +216,7 @@ Wat is de zakking in $\rm{D}$ als functie van $B_{\rm{v}}$?
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De verplaatsing in $\rm{D}$ volgt uit een vergeet-me-nietje:
@@ -243,7 +243,7 @@ Wat is $B_{\rm{v}}$?
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De verplaatsing van $\rm{B}$ kan worden gevonden met de verlenging van een staaf door axiale krachten:
@@ -281,7 +281,7 @@ Wat is $w_{\rm{E}}$?
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De verplaatsing van $\rm{B}$ kan worden gevonden met de verlenging van een staaf door axiale krachten:

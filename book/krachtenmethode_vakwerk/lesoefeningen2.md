@@ -31,7 +31,7 @@ Bepaal de verplaatsingen van de knopen.
 :::::
 
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De constructie is *1*ste/de graads inwendig statisch onbepaald
@@ -49,7 +49,7 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 - Weghalen horizontale oplegging bij B
@@ -88,7 +88,7 @@ Bepaal de normaalkrachten in alle staven als functie van $B_{\rm{h}}$.
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De staafkrachten worden opgelost, beginnende bij de krachten in de staven $\rm{BE}$ en $\rm{BD}$:
@@ -182,7 +182,7 @@ Bepaal de verlenging/verkorting in alle staven als functie van $B_{\rm{h}}$.
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Nu kan voor elk element de verlenging / verkorting worden berekend:
@@ -247,7 +247,7 @@ Incompleet Williot diagram
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 ```{figure} lesoefeningen_2_data/williot3.svg
@@ -279,7 +279,7 @@ Bepaal op basis van deze verlengingen en verkortingen alle verplaatsingen met ee
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 ```{figure} lesoefeningen_2_data/williot2.svg
@@ -309,7 +309,7 @@ Als het goed is heb je gevonden dat $\rm{B}$ $2.4 B_{\rm{h}}$ verticaal naar ben
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 $\theta = \cfrac{2.4{B_{\rm{h}}}}{{12000}} = 0.0002{B_{\rm{h}}}{\rm{ rad}}$ ⟲, dit geeft:
@@ -353,7 +353,7 @@ Constructie in verplaatste stand
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 $${w_{{\rm{B,h}}}} = 0 \to 24 - 3.2{B_{\rm{h}}} = 0 \to {B_{\rm{h}}} =  7.5{\rm{ kN}}$$
@@ -374,7 +374,7 @@ Gebruik je resultaat om de normaalkrachten in alle staven te vinden.
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 | Element | Normaalkracht (kN)|

@@ -30,7 +30,7 @@ Wat is de graad van statisch onbepaaldheid?
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De constructie is 2e graads inwendig statisch onbepaald. 
@@ -48,7 +48,7 @@ Voor het geval dat $nEI \to 0$, bepaal de krachtsverdeling en verplaatsingen:
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Als deel $\rm{BC}$ geen buigstijfheid meer heeft ontstaan er feitelijk twee losse liggertjes waarvan de linker 25 $\rm{mm}$ zakt. Dit levert de onderstaande krachten en verplaatsingen:
@@ -75,7 +75,7 @@ Voor het geval dat $nEI \to \infty$, kies zelf een statisch bepaald systeem met 
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Er wordt gekozen voor het onderstaande statisch bepaalde systeem, waarbij scharnieren en onbekende momentenparen zijn toegevoegd in $\rm{B}$ en $\rm{C}$. 
@@ -125,7 +125,7 @@ Constructie
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De vormveranderingsvoorwaardes zijn:
@@ -146,7 +146,7 @@ Bepaal de krachtsverdeling en verplaatsingen als $A_{\rm{v}}$ en $D_{\rm{v}}$ ge
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Als $A_{\rm{v}}$ en $D_{\rm{v}}$ gelijk zijn aan 0 dan kan de constructie vrij vervormen en onstaat er geen buiging. Hieruit volgt:
@@ -171,7 +171,7 @@ Bepaal de krachtsverdeling en verplaatsingen als functie van $A_{\rm{v}}$ en $D_
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De momenten $M_{\rm{B}}$ en $M_{\rm{C}}$ kunnen worden bepaald door respectievelijk $A_{\rm{v}}$ en $D_{\rm{v}}$ te verplaatsen naar $\rm{B}$ en $\rm{C}$. 
@@ -203,7 +203,7 @@ Los met de vormveranderingsvoorwaardes de onbekende $A_{\rm{v}}$ en $D_{\rm{v}}$
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Oplossen van de vergelijkingen levert:

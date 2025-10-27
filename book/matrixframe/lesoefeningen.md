@@ -24,7 +24,7 @@ Voer de geometrie in en ga verder met de profielgegevens.
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 - Ik vul geen profielgegevens in
@@ -51,7 +51,7 @@ Voer de opleggingen in en ga verder met de scharnierende aansluitingen.
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 - Rondom A is gelijk aan *0*
@@ -81,7 +81,7 @@ Heb je de goede resultaten? Rond of op 2 decimalen en gebruik een . als decimaal
 
 -->
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 - De oplegreactie bij A is *5.67* kN (positief omhoog, negatief omlaag).

@@ -44,7 +44,7 @@ Met als resultaat:
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 - De normaalkracht in $\rm{BD}$ is niet juist berekend
@@ -67,7 +67,7 @@ Wat is de graad van statisch onbepaaldheid?
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 ```{figure} ./lesoefeningen_data/Onbekenden.svg
@@ -114,7 +114,7 @@ Williot diagram voor het bepalen van de verplaatsing van $\rm{D}$ en $\rm{B}$.
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De normaalkrachten in de staven AD en CD kunnen met behulp van het knoopevenwicht van $\rm{D}$ worden uitgedrukt in $B_{\rm{v}}$. 
@@ -160,7 +160,7 @@ Los met de vormveranderingsvoorwaarde de onbekende $B_{\rm{v}}$ op.
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De vormveranderingsvoorwaarde is: $w_{B,\rm{v}} = 1.4 \cdot B_{\rm{v}} = 90 \rm{mm}$.
@@ -180,7 +180,7 @@ Los de volledige krachtsverdeling en verplaatsingen op.
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De krachten en verplaatsingen kunnen worden opgelost uit de eerder opgestelde vergelijkingen door daar de berekende waarde voor $B_{\rm{v}}$ in in te vullen.

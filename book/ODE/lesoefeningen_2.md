@@ -33,7 +33,7 @@ Bepaal de segmenten en teken de vrijlichaamsschema's. Bepaal de relaties van de 
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 - $ u \left( 0\right) = 0 $
@@ -54,7 +54,7 @@ Bepaal de segmenten en teken de vrijlichaamsschema's. Bepaal de relaties van de 
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 - $ w_{\rm{AB}} \left( 4\right) = 0 $
@@ -78,7 +78,7 @@ Los de integratieconstanten op.
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Verplaatsing van C is $5$ mm omhoog.

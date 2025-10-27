@@ -31,7 +31,7 @@ Constructie, $EI = \cfrac{1000}{3} \ \rm{kNm^2}, EA >> EI $
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 ```{figure} lesoefeningen_data/Onbekenden.svg
@@ -67,7 +67,7 @@ Er zijn een aantal opties gegeven voor mogelijke statisch bepaalde systemen. De 
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 ```{figure} lesoefeningen_data/Oplosmethode_optie1.svg
@@ -130,7 +130,7 @@ Er is hier wederom een scharnier in een knoop geplaatst zoals ook in [het statis
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De uitdrukkingen voor de hoekverdraaiingen worden gevonden met behulp van de vergeet-mij-nietjes voor een ligger op twee steunpunten belast door een koppel en door een verdeelde belasting, de positieve richtingen worden genomen zoals in de figuur aangegeven. 
@@ -158,7 +158,7 @@ Er mist nog een vergelijking om de vier onbekenden (waarvan 3 statisch onbepaald
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 $M_{\rm{B}}^{\rm{BD}} - M_{\rm{B}}^{\rm{AB}} - M_{\rm{B}}^{\rm{BC}}  = 0$
@@ -180,7 +180,7 @@ Los met de vormveranderingsvoorwaarden en evenwichtsvergelijking de onbekenden $
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Er zijn 4 onbekenden en 4 vergelijkingen. De vergelijkingen bestaan uit de momentenevenwichtsvergelijking uit de vorige deelvraag en de onderstaande vormveranderingsvoorwaarden:
@@ -213,7 +213,7 @@ Los de volledige krachtsverdeling op.
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 $$ M_{\rm{A}} = 0 \rm{kNm} $$

@@ -28,7 +28,7 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Er zijn *6* onbekende oplegreacties en *32* onbekende staafkrachten. Dat zijn *38* onbekende krachten in totaal.
@@ -62,7 +62,7 @@ Aantal onbekende staafkrachten op staven
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Er zijn *0* evenwichtsvergelijkingen vanuit rolscharnieren, *6* evenwichtsvergelijking(en) vanuit scharnierende verbindingen, *9* evenwichtsvergelijking(en) vanuit algemene verbindingen, *1* evenwichtsvergelijking(en) vanuit pendelstaven en *18* evenwichtsvergelijking(en) vanuit algemene staven. Dat zijn *34* evenwichtsvergelijkingen in totaal.
@@ -96,7 +96,7 @@ Aantal evenwichtsvergelijkingen voor de staven
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De constructie is *4*ste/de graads inwendig statisch onbepaald

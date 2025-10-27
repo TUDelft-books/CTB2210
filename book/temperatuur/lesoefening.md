@@ -23,7 +23,7 @@ Wat is $\kappa_{\rm{T}}$?
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 $$\kappa^T = -\cfrac{\alpha \cdot T}{h} = - \cfrac{0.0001 \cdot 30}{0.2} = -0.015 \ m^{-1}$$
@@ -41,7 +41,7 @@ Bepaal met behulp van de differentiaalvergelijkingen de uitdrukkingen voor de sn
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Voor deze constructie gelden den onderstaande randvoorwaarden:
@@ -72,7 +72,7 @@ Bepaal de waardes van de integratieconstantes
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 $$ C_1 = -0.375 $$
@@ -89,7 +89,7 @@ $$ C_3 = -0.015 $$
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Als de temperatuur verder toeneemt, dan wordt de absolute waarde van maximale verplaatsing eerst kleiner dan groter. 

@@ -27,7 +27,7 @@ Voer de geometrie in en ga verder met de profielgegevens.
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Vraag 1:
@@ -64,7 +64,7 @@ Ga verder met opleggingen.
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 - Een pendelstaaf dwars op de rolrichting van het rolscharnier toevoegen
@@ -91,7 +91,7 @@ Voer de scharnierende aansluitingen in, voer de linear-elastische berekening uit
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 - De maximale verplaatsing van BC in verticale richting is *0.27* m

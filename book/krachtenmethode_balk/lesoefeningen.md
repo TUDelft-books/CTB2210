@@ -42,7 +42,7 @@ Los de krachtsverdeling en verplaatsingen van deze constructie op als functie va
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 ```{figure} lesoefeningen_data/VrijlichaamsschemaBC.svg
@@ -78,7 +78,7 @@ Los de vormveranderingsvoorwaarde op om $A_{\rm{v}}$ te vinden.
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De vormveranderingsvoorwaarde is: $w_{\rm{A}} = 0.01 \cdot A_{\rm{v}} -0.45 = 0$. 
@@ -102,7 +102,7 @@ Los nu de andere oplegreacties op en bepaal de momenten en verplaatsingen.
 
 % solution_start
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Nu $A_{\rm{v}}$ bekend is kunnen de andere oplegreacties worden opgelost, $B_{\rm{v}}$ en $C_{\rm{v}}$ worden omhoog positief aangenomen. De gebruikte vergelijkingen zijn:
