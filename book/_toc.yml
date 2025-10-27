@@ -74,6 +74,7 @@ parts:
     sections:
     - file: matrix/theorie.md
     - file: matrix/lesoefening1.md
+  - file: exam/exam.md
 - caption: Diverse
   chapters:
   - file: changelog
