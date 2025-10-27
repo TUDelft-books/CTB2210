@@ -13,7 +13,6 @@ Constructie, $EI = 4 \ \rm{MNm}^2, EA >> EI$
 Gegeven is $\mathbf{u} = \begin{bmatrix} \varphi_{\rm{A}} & \varphi_{\rm{B}} & \varphi_{\rm{C}} & \varphi_{\rm{D}} & \varphi_{\rm{E}} \end{bmatrix}^T$.
 
 :::::{exercise}
-:label: matrix_1
 :nonumber: true
 
 Bepaal de elementstijfheidsmatrix $\mathbf{K}^{(e)}$ voor een willekeurig element.
@@ -24,7 +23,6 @@ Bepaal de elementstijfheidsmatrix $\mathbf{K}^{(e)}$ voor een willekeurig elemen
 :::::
 
 :::::{exercise}
-:label: matrix_2
 :nonumber: true
 
 Bepaal de globale stijfheidsmatrix $\mathbf{K}$.
@@ -35,7 +33,6 @@ Bepaal de globale stijfheidsmatrix $\mathbf{K}$.
 :::::
 
 :::::{exercise}
-:label: matrix_3
 :nonumber: true
 
 Bepaal de krachtvector $\mathbf{F}$.
@@ -46,7 +43,6 @@ Bepaal de krachtvector $\mathbf{F}$.
 :::::
 
 :::::{exercise}
-:label: matrix_4
 :nonumber: true
 
 Bepaal de waarde van de vrijheidsgraden $\varphi_{\rm{B}}$, $\varphi_{\rm{C}}$, $\varphi_{\rm{D}}$ en $\varphi_{\rm{E}}$.
