@@ -20,8 +20,8 @@ Laat zien dat deze constructie enkelvoudig statisch onbepaald is.
 
 :::::
 
-::::{solution} exam_1_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Voor deze constructie is de inwendige statisch onbepaaldheid gelijk aan de uitwendig statisch onbepaaldheid.
 
@@ -42,8 +42,8 @@ Geef bij elk van de varianten de benodigde vergelijking(en) om de statisch onbep
 
 :::::
 
-::::{solution} exam_1_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Een aantal mogelijk opties zijn
 
@@ -73,8 +73,8 @@ Bepaal de zakking in $\rm{G}$ met behulp van de krachtenmethode of verplaatsinge
 
 :::::
 
-::::{solution} exam_1_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Als voorbeeld is de krachtenmethode toegepast met het volgende statisch bepaalde system bekeken, maar andere methodes zijn ook goed:
 
