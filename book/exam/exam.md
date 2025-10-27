@@ -20,7 +20,7 @@ Laat zien dat deze constructie enkelvoudig statisch onbepaald is.
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Voor deze constructie is de inwendige statisch onbepaaldheid gelijk aan de uitwendig statisch onbepaaldheid.
@@ -42,7 +42,7 @@ Geef bij elk van de varianten de benodigde vergelijking(en) om de statisch onbep
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Een aantal mogelijk opties zijn
@@ -73,7 +73,7 @@ Bepaal de zakking in $\rm{G}$ met behulp van de krachtenmethode of verplaatsinge
 
 :::::
 
-::::{admonition} Solution
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 Als voorbeeld is de krachtenmethode toegepast met het volgende statisch bepaalde system bekeken, maar andere methodes zijn ook goed:
@@ -132,7 +132,7 @@ Bepaal de normaalkracht in $\rm{DK}$ in de extreme gevallen dat de $EA_{\rm{OG}}
 
 :::::
 
-:::::{admonition} Solution
+:::::{admonition} Oplossing
 :class: solution, dropdown
 
 Voor $EA_{\rm{OG}} \to 0$ verandert de constructie in twee statisch bepaalde systemen:
