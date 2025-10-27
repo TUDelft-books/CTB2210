@@ -24,8 +24,8 @@ Voer de geometrie, profielgegevens, opleggingen en scharnierende aansluitingen i
 
 % solution_start
 
-::::{solution} mf_3_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 - Het moment in D is *7.78* kNm
 - De maximale zakking is *0.16* m

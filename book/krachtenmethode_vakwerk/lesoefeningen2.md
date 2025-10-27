@@ -31,9 +31,8 @@ Bepaal de verplaatsingen van de knopen.
 :::::
 
 
-
-::::{solution} vakwerk_1_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De constructie is *1*ste/de graads inwendig statisch onbepaald
 
@@ -50,10 +49,8 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 
 :::::
 
-
-
-::::{solution} vakwerk_1_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 - Weghalen horizontale oplegging bij B
 - Weghalen verticale oplegging bij B
@@ -91,10 +88,8 @@ Bepaal de normaalkrachten in alle staven als functie van $B_{\rm{h}}$.
 
 :::::
 
-
-
-::::{solution} vakwerk_1_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De staafkrachten worden opgelost, beginnende bij de krachten in de staven $\rm{BE}$ en $\rm{BD}$:
 
@@ -187,10 +182,8 @@ Bepaal de verlenging/verkorting in alle staven als functie van $B_{\rm{h}}$.
 
 :::::
 
-
-
-::::{solution} vakwerk_1_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Nu kan voor elk element de verlenging / verkorting worden berekend:
 
@@ -254,10 +247,8 @@ Incompleet Williot diagram
 
 :::::
 
-
-
-::::{solution} vakwerk_1_5
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} lesoefeningen_2_data/williot3.svg
 :align: center
@@ -288,8 +279,8 @@ Bepaal op basis van deze verlengingen en verkortingen alle verplaatsingen met ee
 
 :::::
 
-::::{solution} vakwerk_1_6
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} lesoefeningen_2_data/williot2.svg
 :align: center
@@ -318,8 +309,8 @@ Als het goed is heb je gevonden dat $\rm{B}$ $2.4 B_{\rm{h}}$ verticaal naar ben
 
 :::::
 
-::::{solution} vakwerk_1_6b
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 $\theta = \cfrac{2.4{B_{\rm{h}}}}{{12000}} = 0.0002{B_{\rm{h}}}{\rm{ rad}}$ ⟲, dit geeft:
 
@@ -362,10 +353,8 @@ Constructie in verplaatste stand
 
 :::::
 
-
-
-::::{solution} vakwerk_1_7
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 $${w_{{\rm{B,h}}}} = 0 \to 24 - 3.2{B_{\rm{h}}} = 0 \to {B_{\rm{h}}} =  7.5{\rm{ kN}}$$
 
@@ -385,10 +374,8 @@ Gebruik je resultaat om de normaalkrachten in alle staven te vinden.
 
 :::::
 
-
-
-::::{solution} vakwerk_1_8
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 | Element | Normaalkracht (kN)|
 | :-:|:-:|

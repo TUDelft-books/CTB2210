@@ -22,8 +22,8 @@ Welke van de volgende opties is geschikt om met de krachtenmethode de constructi
 
 :::::
 
-::::{solution} TOZ_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} opgave_data/SB1.svg
 :align: center
@@ -117,8 +117,8 @@ Wat is de normaalkracht in $\rm{BD}$ als functie van $B_{\rm{v}}$?
 
 :::::
 
-::::{solution} TOZ_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} opgave_data/BD.svg
 :align: center
@@ -142,8 +142,8 @@ Wat is de normaalkracht in $\rm{CG}$ als functie van $B_{\rm{v}}$?
 
 :::::
 
-::::{solution} TOZ_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} opgave_data/CG_1.svg
 :align: center
@@ -167,8 +167,8 @@ Wat is de dwarskracht net links van $\rm{D}$ als functie van $B_{\rm{v}}$ is gel
 
 :::::
 
-::::{solution} TOZ_4
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} opgave_data/DG_1.svg
 :align: center
@@ -192,8 +192,8 @@ Wat is het moment in $\rm{D}$ als functie van $B_{\rm{v}}$ is gelijk aan?
 
 :::::
 
-::::{solution} TOZ_5
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} opgave_data/DG_2.svg
 :align: center
@@ -216,8 +216,8 @@ Wat is de zakking in $\rm{D}$ als functie van $B_{\rm{v}}$?
 
 :::::
 
-::::{solution} TOZ_6
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De verplaatsing in $\rm{D}$ volgt uit een vergeet-me-nietje:
 
@@ -243,8 +243,8 @@ Wat is $B_{\rm{v}}$?
 
 :::::
 
-::::{solution} TOZ_7
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De verplaatsing van $\rm{B}$ kan worden gevonden met de verlenging van een staaf door axiale krachten:
 
@@ -281,8 +281,8 @@ Wat is $w_{\rm{E}}$?
 
 :::::
 
-::::{solution} TOZ_8
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De verplaatsing van $\rm{B}$ kan worden gevonden met de verlenging van een staaf door axiale krachten:
 

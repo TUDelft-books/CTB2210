@@ -21,8 +21,8 @@ Wat is de graad van inwendig statisch onbepaaldheid?
 
 :::::
 
-::::{solution} balk_2_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De constructie is *1*ste/de graads inwendig statisch onbepaald
 
@@ -37,8 +37,8 @@ De constructie is *1*ste/de graads inwendig statisch onbepaald
 
 :::::
 
-::::{solution} balk_2_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 - Weghalen verticale oplegging bij A
   - Inderdaad, er is geen vergeet-me-nietje die voor dat statisch bepaalde systeem de verplaatsingen geeft
@@ -73,8 +73,8 @@ Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie v
 
 % solution_start
 
-::::{solution} balk_2_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Met behulp van het gegeven vrijlichaamsschema kunnen de dwarskracht net links van C, het moment in C en de dwarskracht net links van B worden bepaald als functie van $B_{\rm{v}}$:
 
@@ -116,8 +116,8 @@ Los je vormveranderingsvoorwaarde op om $B_{\rm{v}}$ te vinden.
 
 % solution_start
 
-::::{solution} balk_2_4
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De vormveranderingsvoorwaarde is: $w_{\rm{B}} = -0.045 \cdot B_{\rm{v}} + 0.675 = 0$. 
 
@@ -150,8 +150,8 @@ Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie v
 
 % solution_start
 
-::::{solution} balk_2_5
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De uitdrukkingen voor $B_{\rm{v}}$ en $V_{\rm{C}}^{\rm{AC}}$ kunnen worden afgeleid uit evenwicht van het deel BC.
 
@@ -191,8 +191,8 @@ Los je vormveranderingsvoorwaarde op om $M_{\rm{C}}$ te vinden.
 
 % solution_start
 
-::::{solution} balk_2_6
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De vormveranderingsvoorwaarde is: $\varphi_{\rm{C}}^{\rm{AC}} = \varphi_{\rm{C}}^{\rm{BC}} \rightarrow -0.0025 \cdot M_{\rm{C}} + 0.135 = 0.0025 \cdot M_{\rm{C}} -0.09$. 
 
@@ -217,8 +217,8 @@ Los nu de volledige krachtsverdeling en verplaatsingen op met de resultaten van 
 
 % solution_start
 
-::::{solution} balk_2_7
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De onbekenden kunnen worden opgelost met verticaal- en momentenevenwicht van de hele constructie en met behulp van de eerder opgestelde vergelijkingen.
 

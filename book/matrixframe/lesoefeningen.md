@@ -24,8 +24,8 @@ Voer de geometrie in en ga verder met de profielgegevens.
 
 % solution_start
 
-::::{solution} mf_1_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 - Ik vul geen profielgegevens in
   - Onjuist, MatrixFrame heeft profielgegevens nodig. Als je deze constructie met de hand zou uitrekenen, zou je dan stijfheidsgegevens nodig hebben voor de oplegreacties en krachtsverdeling?
@@ -51,8 +51,8 @@ Voer de opleggingen in en ga verder met de scharnierende aansluitingen.
 
 % solution_start
 
-::::{solution} mf_1_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 - Rondom A is gelijk aan *0*
 - Rondom B is gelijk aan *1/2*
@@ -81,8 +81,8 @@ Heb je de goede resultaten? Rond of op 2 decimalen en gebruik een . als decimaal
 
 -->
 
-::::{solution} mf_1_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 - De oplegreactie bij A is *5.67* kN (positief omhoog, negatief omlaag).
 - Het maximale absolute moment in de constructie is *77.64* kNm.

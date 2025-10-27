@@ -27,8 +27,8 @@ Voer de geometrie in en ga verder met de profielgegevens.
 
 % solution_start
 
-::::{solution} mf_2_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Vraag 1:
 
@@ -64,8 +64,8 @@ Ga verder met opleggingen.
 
 % solution_start
 
-::::{solution} mf_2_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 - Een pendelstaaf dwars op de rolrichting van het rolscharnier toevoegen
   - Correct, wat voor profielgegevens voeg je toe voor deze pendelstaaf?
@@ -91,8 +91,8 @@ Voer de scharnierende aansluitingen in, voer de linear-elastische berekening uit
 
 % solution_start
 
-::::{solution} mf_2_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 - De maximale verplaatsing van BC in verticale richting is *0.27* m
 - De maximale zakking van AD in verticale richting is *1.42* cm

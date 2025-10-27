@@ -28,8 +28,8 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 
 % solution_start
 
-````{solution} so_3_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *3* onbekende oplegreacties en *0* onbekende verbindingskrachten. Dat zijn *3* onbekende krachten in totaal.
 
@@ -40,7 +40,7 @@ align: center
 Aantal onbekende krachten
 ```
 
-````
+::::
 
 % solution_end
 
@@ -55,8 +55,8 @@ Aantal onbekende krachten
 
 % solution_start
 
-````{solution} so_3_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *3* evenwichtsvergelijking(en).
 
@@ -67,7 +67,7 @@ align: center
 Aantal evenwichtsvergelijkingen
 ```
 
-````
+::::
 
 % solution_end
 
@@ -82,12 +82,12 @@ Aantal evenwichtsvergelijkingen
 
 % solution_start
 
-````{solution} so_3_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De constructie is *0*ste/de graads uitwendig statisch onbepaald
 
-````
+::::
 
 % solution_end
 
@@ -104,8 +104,8 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 
 % solution_start
 
-````{solution} so_3_4
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *3* onbekende oplegreacties en *19* onbekende staafkrachten. Dat zijn *22* onbekende krachten in totaal.
 
@@ -123,7 +123,7 @@ align: center
 Aantal onbekende staafkrachten op staven
 ```
 
-````
+::::
 
 % solution_end
 
@@ -138,8 +138,8 @@ Aantal onbekende staafkrachten op staven
 
 % solution_start
 
-````{solution} so_3_5
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *1* evenwichtsvergelijking(en) vanuit rolscharnieren, *2* evenwichtsvergelijking(en) vanuit scharnierende verbindingen, *6* evenwichtsvergelijking(en) vanuit algemene verbindingen, *0* evenwichtsvergelijking(en) vanuit pendelstaven en *12* evenwichtsvergelijking(en) vanuit algemene staven. Dat zijn *21* evenwichtsvergelijkingen in totaal.
 
@@ -157,7 +157,7 @@ align: center
 Aantal evenwichtsvergelijkingen voor de staven
 ```
 
-````
+::::
 
 % solution_end
 
@@ -172,11 +172,11 @@ Aantal evenwichtsvergelijkingen voor de staven
 
 % solution_start
 
-````{solution} so_3_6
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De constructie is *1*ste/de graads inwendig statisch onbepaald
 
-````
+::::
 
 % solution_end

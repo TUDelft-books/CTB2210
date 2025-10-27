@@ -24,8 +24,8 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 
 % solution_start
 
-````{solution} so_2_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *7* onbekende oplegreacties en *6* onbekende verbindingskrachten. Dat zijn *13* onbekende krachten in totaal.
 
@@ -36,7 +36,7 @@ align: center
 Aantal onbekende krachten
 ```
 
-````
+::::
 
 % solution_end
 
@@ -51,8 +51,8 @@ Aantal onbekende krachten
 
 % solution_start
 
-````{solution} so_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *12* evenwichtsvergelijking(en).
 
@@ -63,7 +63,7 @@ align: center
 Aantal evenwichtsvergelijkingen
 ```
 
-````
+::::
 
 % solution_end
 
@@ -78,11 +78,11 @@ Aantal evenwichtsvergelijkingen
 
 % solution_start
 
-````{solution} so_2_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De constructie is *1*ste/de graads uitwendig statisch onbepaald
 
-````
+::::
 
 % solution_end

@@ -33,8 +33,8 @@ Bepaal de segmenten en teken de vrijlichaamsschema's. Bepaal de relaties van de 
 
 % solution_start
 
-::::{solution} ODE_4_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 - $ u \left( 0\right) = 0 $
 - $ N \left( 9\right) = 20 $
@@ -54,8 +54,8 @@ Bepaal de segmenten en teken de vrijlichaamsschema's. Bepaal de relaties van de 
 
 % solution_start
 
-::::{solution} ODE_4_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 - $ w_{\rm{AB}} \left( 4\right) = 0 $
 - $ w_{\rm{BC}} \left( 4\right) = 0 $
@@ -78,8 +78,8 @@ Los de integratieconstanten op.
 
 % solution_start
 
-::::{solution} ODE_4_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Verplaatsing van C is $5$ mm omhoog.
 
