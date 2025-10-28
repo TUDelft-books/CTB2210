@@ -144,5 +144,9 @@ Voorbeeldconstructie, $EI = 120 \ \rm{MNm^2}, EA >> EI$
 ## Meer voorbeelden
 De voorbeelden in hoofdstuk 4.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` vormen onderdeel van de aanpak zoals behandeld in de [volgende les](../verplaats2/lesson.md), maar kunnen ook opgelost worden met de aanpak zoals hierboven beschreven
 
+## Instructies in collegevorm
+
+Dit onderwerp is [les 10](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/afb714f78b19404fa2fe425406acd9e81d?sortBy=most-recent) gepresenteerd in collegevorm van 0:17:00- 0:51:50.
+
 ## Oefeningen
 - Opgaves 4.4 - 4.33, 4.35, 4.36 in hoofdstuk 4.5 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Negeer de opmerkingen over welke vrijheidsgraad gekozen moet worden. Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.

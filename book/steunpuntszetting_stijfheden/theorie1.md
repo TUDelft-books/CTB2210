@@ -103,5 +103,9 @@ Voorbeeldconstructie, $EI = 34000 \ \rm{kNm^2}$
 
 In hoofdstuk 6.1 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` worden steunpuntszettingen behandeld. Voorbeeld 6.1.3 kan worden overgeslagen
 
+## Instructies in collegevorm
+
+Dit onderwerp is [in les 8](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/035392e16a6948ec88d380408b2de5701d?sortBy=most-recent) gepresenteerd in collegevorm van 0:40:10 tot 1:02:00.
+
 ## Oefeningen
 - Opgaves 6.1 - 6.18, 6.20, 6.22 - 6.24 in hoofdstuk 6.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Er zijn helaas geen antwoorden beschikbaar.

@@ -413,5 +413,9 @@ Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
 ## Meer voorbeelden
 In hoofdstuk 5 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` wordt de matixmethode behandeld. In hoofdstuk 5.5 is de stof van voorbeeld 1 na het bepalen van de $\varphi$'s geen onderdeel van het vak. Dat geldt ook voor voorbeeld 1 in hoofdstuk 5.6.1 na het bepalen van de $\varphi$'s. Daarnaast worden hoofdstuk 5.5.2 en 5.7 niet behandeld.
 
+## Instructies in collegevorm
+
+Dit onderwerp is [in les 12](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/c2f0f9c684ed46848b6a754b76f1f92f1d?sortBy=most-recent) gepresenteerd in collegevorm tot 0:43:10.
+
 ## Oefeningen
 Opgaves 5.1 - 5.5 in hoofdstuk 5.8 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. De opgaves e - i zijn geen onderdeel van het vak. Vervang bij opgave 5.2 - 5.5 het uitkragende gedeelte door een koppel en neem de dwarskracht niet mee. Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.

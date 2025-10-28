@@ -182,3 +182,7 @@ Dit kan ook gedaan worden voor andere krachts- en verplaatsingsgrootheden.
 ## Meer voorbeelden
 
 In hoofdstuk 7 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` worden stijfheidsinvloeden behandeld. De aanpak van hoekveranderingsvergelijkingen met verplaatsbare knopen bij hoofdstuk 7.1 voorbeeld 2 kan worden vervangen door een van de bekende methodes.
+
+## Instructies in collegevorm
+
+Dit onderwerp is [in les 8](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/035392e16a6948ec88d380408b2de5701d?sortBy=most-recent) gepresenteerd in collegevorm van 0:03:40 tot 0:38:10.
