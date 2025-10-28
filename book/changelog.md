@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2025-10-28: v2025.18.0
+Toevoegen link naar collegerame opnames
+
 ## 2025-10-22: v2025.17.0
 Toevoegen [15 september: TOZ](./TOZ/opgave.md)
 
