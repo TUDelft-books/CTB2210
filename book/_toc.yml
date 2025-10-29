@@ -77,6 +77,7 @@ parts:
   - file: exam/lesson.md
     sections:
     - file: exam/exam.md
+    - file: exam/exam2.md
 - caption: Diverse
   chapters:
   - file: changelog
