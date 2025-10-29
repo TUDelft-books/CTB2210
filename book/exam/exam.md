@@ -1,10 +1,8 @@
-# Begeleide oefening 1
+# Reguliere tentamenopdracht
 
 % source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam
 
-::::::{seealso}
-The original assignment version of this exam can be found [here](...)
-::::::
+Je eigen indiening en de beoordeling daarvan is hier te vinden: [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> tentamenopdracht Statisch onbepaalde constructies 1](https://ans.app/universities/1/courses/577550/assignments/1516051/go_to).
 
 Gegeven is de volgende constructie:
 
@@ -44,6 +42,8 @@ Geef bij elk van de varianten de benodigde vergelijking(en) om de statisch onbep
 
 ::::{admonition} Oplossing
 :class: solution, dropdown
+
+Een scharnier toevoegen in hetzelfde segment of een pendelstaaf loshalen in hetzelfde segment telt niet als een geldige variant.
 
 Een aantal mogelijk opties zijn
 
