@@ -2,12 +2,18 @@
 
 % source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_4
 
+:::::{margin}
+::::{versionchanged} v2025.19.0
+31-10-2025: aangepast afmetingen, stijfheden en belasting.
+::::
+:::::
+
 Gegeven is de volgende constructie:
 
 ```{figure} ./lesoefening_data/structure.svg
 :align: center
 
-Constructie, lijkend op het voorbeeld in hoofdstuk 4.3.1 uit het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`, $EI >> EA, EA = 25 \ \rm{kN}, EA_{\rm{BE}} = 125 \ \rm{kN}$
+Constructie, lijkend op het voorbeeld in hoofdstuk 4.3.1 uit het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`, $EI >> EA, EA = 9000 \ \rm{kN}, EA_{\rm{BE}} = 36000 \ \rm{kN}$
 ```
 
 :::::{exercise}
@@ -30,6 +36,12 @@ Welke van de volgende statisch bepaalde systemen kan gebruikt worden voor toepas
 ```{h5p} https://tudelft.h5p.com/content/1292672294506274407/embed
 ```
 
+:::::
+
+:::::{margin}
+::::{versionchanged} v2025.19.0
+31-10-2025: antwoord $N_{\rm{F}}^{\rm{EF}}$ aangepast.
+::::
 :::::
 
 :::::{exercise}

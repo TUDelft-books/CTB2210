@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2025-10-31: v2025.19.0
+Aanpassing oefening in [22 september: Verplaatsingenmethode met statisch onbepaalde verplaatsingen - Begeleide oefening 1](./verplaatsingenmethode/lesoefening.md)
+
 ## 2025-10-28: v2025.18.0
 Toevoegen link naar collegerame opnames
 
