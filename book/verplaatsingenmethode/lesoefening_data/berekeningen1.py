@@ -2,25 +2,25 @@ import sympy as sym
 
 EA, m, w, L = sym.symbols('EA m w L')
 
-L = sym.S(4)
+L = sym.S(5)
 
-EA = sym.nsimplify(25000)
+EA = sym.nsimplify(9000)
 
 M_E_EF = sym.symbols('M_E_EF')
 
 Bv, Cv = sym.symbols('Bv Cv')
 
-N_CF = EA * w / L
+N_CF = EA * 4 * w / L
 
 print('N_CF =',N_CF)
 
 N_CF_2 = sym.symbols('N_CF_2')
 
-N_BE = sym.nsimplify( (1050 * 5 / 2 - N_CF_2 * 5) / (5/2))
+N_BE = sym.nsimplify( (3150 * 5 / 2 - N_CF_2 * 5) / (5/2))
 
 print('N_BE = ', N_BE)
 
-N_AD = sym.nsimplify(1050 - N_BE - N_CF_2)
+N_AD = sym.nsimplify(3150 - N_BE - N_CF_2)
 
 print('N_AD = ', N_AD)
 
@@ -28,11 +28,11 @@ w_D = N_AD * L / EA
 
 print('w_D = ', w_D)
 
-w_E = N_BE * L / (EA * 5)
+w_E = N_BE * L / (EA)
 
 print('w_E = ', w_E)
 
-w_F = w_D + (w_E - w_D)
+w_F = w_D + (w_E - w_D) * 2
 
 print('w_F = ', w_F)
 
