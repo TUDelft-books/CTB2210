@@ -98,25 +98,33 @@ $$\sum {T_{\rm{A}}} = 0 \to N_{\rm{OG}} = 66 - 3 \cdot D_{\rm{v}}$$
 :align: center
 ```
 
-$$\text{Vergeet-me-nietje geeft: } w_{\rm{O}} = 0.022 - 0.001 \cdot D_{\rm{v}}$$
+Vergeet-me-nietje geeft:
+
+$$w_{\rm{O}} = 0.022 - 0.001 \cdot D_{\rm{v}}$$
 
 ```{figure} ./exam_data/OG.svg
 :align: center
 ```
 
-$$\text{Verlenging van staaf geeft: } w_{\rm{G}} = 0.22 - 0.01 \cdot D_{\rm{v}}$$
+Verlenging van staaf geeft:
+
+$$w_{\rm{G}} = 0.22 - 0.01 \cdot D_{\rm{v}}$$
 
 ```{figure} ./exam_data/AK.svg
 :align: center
 ```
 
-$$\text{Rotatie van starre staaf geeft: } w_{\rm{K}} = 0.66 - 0.03 \cdot D_{\rm{v}}$$
+Rotatie van starre staaf geeft:
+
+$$w_{\rm{K}} = 0.66 - 0.03 \cdot D_{\rm{v}}$$
 
 ```{figure} ./exam_data/DK.svg
 :align: center
 ```
 
-$$\text{Verlenging van staaf geeft: } w_{\rm{D}} = 0.66 - 0.033 \cdot D_{\rm{v}}$$
+Verlenging van staaf geeft:
+
+$$w_{\rm{D}} = 0.66 - 0.033 \cdot D_{\rm{v}}$$
 
 Oplossen van de vormveranderingsvoorwaarde geeft: $w_{\rm{D}} =0 \to D_{\rm{v}} = 20 \ \rm{ kN}$
 
