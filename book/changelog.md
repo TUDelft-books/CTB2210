@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2025-11-04: v2025.20.0
+Toevoegen tentamenopdracht Statisch onbepaalde constructies 1 in [4 november: Tentamenopdracht - Reguliere tentamenopdracht](./exam/exam.md) en [4 november: Tentamenopdracht - Extra tentamenopdracht](./exam/exam2.md)
+
 ## 2025-10-31: v2025.19.0
 Aanpassing oefening in [22 september: Verplaatsingenmethode met statisch onbepaalde verplaatsingen - Begeleide oefening 1](./verplaatsingenmethode/lesoefening.md)
 
