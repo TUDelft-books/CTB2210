@@ -134,7 +134,7 @@ $$
 
 De verticale oplegreactie in $\rm{A}$ kan nu worden gevonden met evenwichtsvergelijkingen:
 
-```{figure} ./intro_data/AV.svg
+```{figure} ./intro_data/Av.svg
 :align: center
 ```
 
