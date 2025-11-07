@@ -149,8 +149,14 @@ Voor $EA_{\rm{OG}} \to 0$ verandert de constructie in twee statisch bepaalde sys
 :align: center
 ```
 
-Dit geeft: $w_{\rm{G}} = 22 \ \rm{ mm}$
+Dit geeft met evenwicht:
 
-Voor $EA_{\rm{OG}} \to \infty$ is $w_{\rm{O}}$ gelijk aan $w_{\rm{G}}$. Dit geeft $w_{\rm{G}} = 11 \ \rm{ mm}$.
+```{figure} ./exam_data/FBD_AK2.svg
+:align: center
+```
+
+$$\sum {T_{\rm{A}}} = 0 \to N_{\rm{DK}}= 22 \ \rm{ kN}$$
+
+Voor $EA_{\rm{OG}} \to \infty$ is $w_{\rm{O}}$ gelijk aan $w_{\rm{G}}$. Gebruikmakend van de berekeningen van de vorige vraag geeft $N_{\rm{DG}} = 11 \ \rm{ kN}$.
 
 ::::
