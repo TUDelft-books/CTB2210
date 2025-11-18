@@ -38,8 +38,6 @@ sphinx:                                              # Options passed on to the 
 
     html_show_copyright: false                       # As the copyright is included in the author field
     html_last_updated_fmt: '%B %-d, %Y'              # Adds the date of the last update to the footer
-    bibtex_default_style: myapastyle
-    bibtex_reference_style: author_year_round
     mathjax3_config:
       chtml: {
         mtextInheritFont: true                       # To typeset text within math prettier
@@ -48,12 +46,10 @@ sphinx:                                              # Options passed on to the 
     sphinx_codex_name: "Voorbeeld"
     sphinx_codex_merge_with_proof:     true # default value
     tud_change_titlesize: false
-  local_extensions:
-    apastyle: _ext/
-    bracket_citation_style: _ext/
   extra_extensions:                                  # Gives you a starter package of extensions to use in your book
     - teachbooks_favourites
     - sphinx_tudelft_theme
+    - sphinx_apa_references
 
 teachbooks:
   attribution_color: attributiongrey
