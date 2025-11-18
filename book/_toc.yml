@@ -1,4 +1,4 @@
-format: jb-book
+format: jb-book #BUMP
 root: intro.md
 
 parts:
