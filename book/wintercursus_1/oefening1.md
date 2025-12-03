@@ -91,3 +91,31 @@ Los $N_{\rm{CD}}$ op.
 :::::
 
 ## Verplaatsingenmethode met statisch onbepaalde verplaatsingen
+
+Er wordt gekozen voor het volgende statisch bepaalde systeem:
+
+```{figure} ./lesoefening1_data/statisch_onbepaald_verplaatsingenmethode.svg
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+Statistisch bepaalde constructie
+```
+
+:::::{exercise}
+:nonumber: true
+
+Los $N_{\rm{C}}^{\rm{BC}}$ en $N_{\rm{C}}^{\rm{CD}}$ op als functie $w_{\rm{C}}$.
+
+```{h5p} https://tudelft.h5p.com/content/1292762009952181537/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Los $w_{\rm{C}}$ op.
+
+```{h5p} https://tudelft.h5p.com/content/1292762010395617757/embed
+```
+
+:::::
