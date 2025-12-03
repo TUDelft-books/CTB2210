@@ -49,7 +49,7 @@ Vergeet-me-nietjes
 :::::::{admonition} Oplossing
 :class: solution, dropdown
 
-Punt $\rm{D}$ blijft op z'n plek, dus kan gezien worden als oplegging die niet verplaatst.
+Vergeet-me-nietje 3 en 4. Punt $\rm{D}$ blijft op z'n plek, dus kan gezien worden als oplegging die niet verplaatst.
 
 :::::::
 
