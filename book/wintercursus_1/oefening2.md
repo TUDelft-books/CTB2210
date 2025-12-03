@@ -77,7 +77,7 @@ Los $M_{\rm{D}}^{\rm{AD}}$, $M_{\rm{D}}^{\rm{CD}}$ en $M_{\rm{D}}^{\rm{BD}}$ op 
 
 Voor deel $\rm{AB}$ kan een statisch onbepaalde vergeet-me-nietje worden gebruikt om de rotatie van $\rm{D}$ als functie van het moment $M_{\rm{D}}^{\rm{AD}}$ te vinden:
 
-```{figure} lesoefening1_data/AD.svg
+```{figure} lesoefening1_data/AD_VMN.svg
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
 ```
