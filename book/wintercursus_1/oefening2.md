@@ -94,7 +94,6 @@ $$
 
 Voor deel $\rm{CD}$ kan een statisch bepaalde vergeet-me-nietje worden gebruikt:
 
-
 ```{figure} lesoefening1_data/CD2.svg
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
@@ -122,6 +121,7 @@ $$
 $$
 
 Omschrijven van deze relatie geeft:
+
 $$
 M_{\rm{D}}^{\rm{BD}} = -180000 \cdot \varphi_{\rm{D}} - 14.5
 $$
@@ -272,7 +272,8 @@ Bepaal de krachtvector $\mathbf{F}$.
 
 :::::::{admonition} Oplossing
 :class: solution, dropdown
-Now, the force vector can be defined. First the external forces are added:
+
+Nu kan de krachtvector worden opgesteld. Begin met de externe krachten:
 
 $$
 \mathbf{f} =
@@ -312,6 +313,7 @@ Bepaal de waarde van de vrijheidsgraden $\varphi_{\rm{A}}$, $\varphi_{\rm{B}}$, 
 :class: solution, dropdown
 
 Het hele systeem kan nu worden opgelost met de volgende vergelijking:
+
 $$
 \begin{bmatrix}
 96000 & 0 & 0 & 48000\\
