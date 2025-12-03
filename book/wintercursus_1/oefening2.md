@@ -74,3 +74,64 @@ Los $\varphi_{\rm{D}}$ op.
 ```
 
 :::::
+
+## Matrixmethode
+
+```{figure} ./lesoefening1_data/constructie2.svg
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
+
+Constructie
+```
+
+Gegeven is $\mathbf{u} = \begin{bmatrix} \varphi_{\rm{A}} & \varphi_{\rm{B}} & \varphi_{\rm{C}} & \varphi_{\rm{D}} \end{bmatrix}^T$.
+
+:::::{exercise}
+:nonumber: true
+
+Bepaal de elementstijfheidsmatrix $\mathbf{K}$ voor element $\rm{AD}$ en $\rm{CD}$.
+
+```{h5p} https://tudelft.h5p.com/content/1292762152044946837/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Bepaal de elementstijfheidsmatrix $\mathbf{K}$ voor element $\rm{BD}$.
+
+```{h5p} https://tudelft.h5p.com/content/1292762153223022427/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Bepaal de globale stijfheidsmatrix $\mathbf{K}$.
+
+```{h5p} https://tudelft.h5p.com/content/1292762154021337797/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Bepaal de krachtvector $\mathbf{F}$.
+
+```{h5p} https://tudelft.h5p.com/content/1292762155602115137/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Bepaal de waarde van de vrijheidsgraden $\varphi_{\rm{B}}$, $\varphi_{\rm{C}}$ en $\varphi_{\rm{D}}$.
+
+```{h5p} https://tudelft.h5p.com/content/1292762156953327747/embed
+```
+
+:::::
