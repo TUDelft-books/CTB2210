@@ -82,7 +82,7 @@ parts:
     sections:
     - file: wintercursus_1/oefening1.md
     - file: wintercursus_1/oefening2.md
-  - fie: wintercursus_2/lesson.md
+  - file: wintercursus_2/lesson.md
     sections:
     - file: wintercursus_2/oefening1.md
     - file: wintercursus_2/oefening2.md
