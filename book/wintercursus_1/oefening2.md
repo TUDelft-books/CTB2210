@@ -129,7 +129,7 @@ Bepaal de krachtvector $\mathbf{F}$.
 :::::{exercise}
 :nonumber: true
 
-Bepaal de waarde van de vrijheidsgraden $\varphi_{\rm{B}}$, $\varphi_{\rm{C}}$ en $\varphi_{\rm{D}}$.
+Bepaal de waarde van de vrijheidsgraden $\varphi_{\rm{A}}$, $\varphi_{\rm{B}}$, $\varphi_{\rm{C}}$ en $\varphi_{\rm{D}}$.
 
 ```{h5p} https://tudelft.h5p.com/content/1292762156953327747/embed
 ```
