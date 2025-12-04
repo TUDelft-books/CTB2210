@@ -7,4 +7,4 @@ Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2025/week_8/session_1
 ```
 ````
 
-# Begeleide oefening 1: Steunpuntszettingen met krachtenmethode
+# Begeleide oefening 2: Steunpuntszettingen met krachtenmethode
