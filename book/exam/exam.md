@@ -42,15 +42,39 @@ Als de constructie net anders zou zijn met het scharnier bij G in de ligger in p
 
 ```{figure} ./exam_data/scharnier.svg
 :align: center
+
+Statisch bepaalde constructie met scharnier in de ligger in plaats van daarboven
 ```
 
 De foutieve methode zou dan nog steeds op eerstegraads statisch onbepaald uitkomen, terwijl de juiste methode laat zien dat de constructie nu statisch bepaald is:
 
 ```{figure} ./exam_data/SOB2.svg
 :align: center
+
+Graad van statisch onbepaaldheid voor de constructie met scharnier in de ligger
 ```
 
 Er zijn 13 onbekenden en 13 evenwichtsvergelijkingen, daarmee is de constructie met de juiste methode dus statisch bepaald
+
+**Constructie niet uit elkaar in scharniende delen**
+
+Voor het berekenen van de statisch onbepaaldheid moet de constructie in alle scharnierende delen uit elkaar gehaald worden. Als dat niet gebeurt kan de statisch onbepaaldheid verkeerd worden berekend.
+
+```{figure} exam_data/niet-uit-elkaar.svg
+:align: center
+
+Constructie onterecht niet volledig uit elkaar gehaald.
+```
+
+**2 evenwichtsvergelijkingen voor star lichaam met krachten op uiteindes**
+
+Het aantal evenwichtsvergelijkingen voor een star lichaam is altijd gelijk aan 3, tenzij we het kunnen versimpelen tot een pendelstaaf: dan zijn alleen de krachten in de richting van de staaf onbekend en is er maar 1 evenwichtsvergelijking nodig (in de richting van de staaf). 2 evenwichtsvergelijkingen voor een staaf is dus niet mogelijk; het niet aanwezig zijn van een koppel betekent niet dat er geen momentenevenwichtsvergelijking kan worden toegepast
+
+```{figure} exam_data/pendelstaaf.svg
+:align: center
+
+Star lichaam met krachten op uiteindes
+```
 
 ::::::
 
@@ -88,6 +112,15 @@ Een aantal mogelijk opties zijn
 ```
 
 ::::
+
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+**Mechanisme gecreëerd**
+
+Er kunnen 
+
+::::::
 
 :::::{exercise}
 :label: exam_1_3
