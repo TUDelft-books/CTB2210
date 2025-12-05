@@ -266,6 +266,40 @@ Bepaal de normaalkracht in $\rm{DK}$ in de extreme gevallen dat de $EA_{\rm{OG}}
 
 :::::
 
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+**Constructie foutief versimpelen / starre rotaties niet meegenomen**
+
+De constructie wordt op verschillende manieren verkeerde versimpeld door verplaatsingen / krachten te negeren en/of opleggingen toe te voegen. Daarnaast worden starre rotaties van delen van de constructie soms niet meegenomen.
+
+```{figure} ./exam_data/versimpelen.svg
+:align: center
+
+Boven voorbeeld van foutieve versimpeling door vervormingen van pendelstaven en $\rm{BC}$ te negeren en de verplaatsingen van $\rm{G}$ en $\rm{K}$ gelijk te stellen aan $0$. Daarnaast worden niet aanwezige vervormingen geïntroduceerd in the starre staaf. De hoekverandering zou een resultaat moeten zijn van de vervormingen van de niet starre delen (zoals onder getoond)
+```
+
+**Rekstijfheid negeren**
+De rekstijfheid van de pendelstaven wordt ten onrechte genegeerd, waardoor de verplaatsingen enkel een functie wordt van de buigende delen
+
+```{figure} ./exam_data/starre_staven.svg
+:align: center
+
+Foutieve aanpassing waarbij de rekstijfheid van de pendelstaven oneindig groot wordt gemaakt.
+```
+
+**Constructie oplossen met enkel (foutieve) evenwichtsvergelijkingen**
+
+De constructie wordt opgelost met enkel evenwichtsvergelijkingen door delen van de constructie te negeren. Zodra er krachten worden berekend zonder dat er vervormingen worden meegenomen kan de berekening niet kloppen.
+
+```{figure} ./exam_data/evenwicht.svg
+:align: center
+
+Foutief vrijlichaamsschema van $\rm{AK}$ waarbij de pendelstaaf $\rm{OG}$ wordt genegeerd. Nu kunnen direct oplegreacties/inwendige krachten worden berekend
+```
+
+::::::
+
 :::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -286,3 +320,22 @@ $$\sum {T_{\rm{A}}} = 0 \to N_{\rm{DK}}= 22 \ \rm{ kN}$$
 Voor $EA_{\rm{OG}} \to \infty$ is $w_{\rm{O}}$ gelijk aan $w_{\rm{G}}$. Gebruikmakend van de berekeningen van de vorige vraag geeft $N_{\rm{DK}} = 11 \ \rm{ kN}$.
 
 ::::
+
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+**$EA \to \infty $ geeft $N \to \infty$**
+
+De relatie $N = EA \cdot \epsilon$ wordt onterecht geïnterpreteerd als dat als $EA \to \infty$, dan ook $N \to \infty$. Echter het enige wat geldt is dat als $EA \to \infty$, dan zal $\epsilon \to 0$ (geen rek); de kracht $N$ kan nog steeds een eindige waarde hebben.
+
+**$EA \to \infty $ geeft verplaatsingen van 0**
+
+Hoewel de pendelstaaf oneindig staaf wordt, kan deze nog steeds verplaatsingen overdragen tussen beide liggers. De verplaatsing van de pendelstaaf wordt soms ten onrechte volledig genegeerd, terwijl de oneindige stijve pendelstaaf nog steeds de verplaatsingen van de buigende ligger kan overdragen naar de andere ligger.
+
+```{figure} ./exam_data/teveel_oneindig.svg
+:align: center
+
+Niet overdragen van verplaatsingen door oneindig stijve pendelstaaf komt neer op het modelleren als de andere ligger ook als oneindig stijf
+```
+
+::::::
