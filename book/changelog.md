@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2025-12-05: v2025.23.0
+Toevoegen veelgemaakte fouten aan [4 november: Tentamenopdracht - Reguliere tentamenopdracht](./exam/exam.md)
+
 ## 2025-12-03: v2025.22.0
 Toevoegen [15 december: Wintercursus krachtenmethode, verplaatsingenmethodes en matrixmethode](./wintercursus_1/lesson.md)
 
