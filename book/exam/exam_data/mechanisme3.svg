@@ -2,8 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Gegenereerd door Microsoft Visio, SVG Export mechanisme3.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.82931in" height="2.1364in"
-		viewBox="0 0 275.711 153.821" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.82568in" height="2.1364in"
+		viewBox="0 0 275.449 153.821" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -88,44 +88,40 @@
 					<path d="M0 153.82 L2.8 153.82" class="st5"/>
 				</g>
 			</g>
-			<g id="shape3969-42" v:mID="3969" v:groupContext="shape">
-				<title>Blad.3969</title>
-				<path d="M0 153.82 L19.84 153.82" class="st5"/>
-			</g>
 		</g>
-		<g id="group3970-45" transform="translate(0.375001,-0.375)" v:mID="3970" v:groupContext="group">
+		<g id="group3970-42" transform="translate(0.375001,-0.375)" v:mID="3970" v:groupContext="group">
 			<title>Scharnieroplegging.3970</title>
-			<g id="shape3971-46" v:mID="3971" v:groupContext="shape" transform="translate(2.83465,2.84217E-14)">
+			<g id="shape3971-43" v:mID="3971" v:groupContext="shape" transform="translate(2.83465,2.84217E-14)">
 				<title>Blad.3971</title>
 				<path d="M0 153.82 L14.17 153.82 L7.09 142.48 L0 153.82 Z" class="st4"/>
 			</g>
-			<g id="shape3972-48" v:mID="3972" v:groupContext="shape" transform="translate(2.83465,307.642) rotate(180)">
+			<g id="shape3972-45" v:mID="3972" v:groupContext="shape" transform="translate(2.83465,307.642) rotate(180)">
 				<title>Blad.3972</title>
 				<path d="M0 153.82 L2.83 153.82" class="st5"/>
 			</g>
-			<g id="shape3973-51" v:mID="3973" v:groupContext="shape" transform="translate(17.0079,2.84217E-14)">
+			<g id="shape3973-48" v:mID="3973" v:groupContext="shape" transform="translate(17.0079,2.84217E-14)">
 				<title>Blad.3973</title>
 				<path d="M0 153.82 L2.83 153.82" class="st5"/>
 			</g>
 		</g>
-		<g id="group3974-54" transform="translate(20.2175,154.196) rotate(180)" v:mID="3974" v:groupContext="group">
+		<g id="group3974-51" transform="translate(20.2175,154.196) rotate(180)" v:mID="3974" v:groupContext="group">
 			<title>Rol.3974</title>
-			<g id="group3975-55" transform="translate(0.261477,-2.83465)" v:mID="3975" v:groupContext="group">
+			<g id="group3975-52" transform="translate(0.261477,-2.83465)" v:mID="3975" v:groupContext="group">
 				<title>Scharnier</title>
-				<g id="shape3976-56" v:mID="3976" v:groupContext="shape" transform="translate(2.79729,2.84217E-14)">
+				<g id="shape3976-53" v:mID="3976" v:groupContext="shape" transform="translate(2.79729,2.84217E-14)">
 					<title>Blad.3976</title>
 					<path d="M0 153.82 L13.99 153.82 L6.99 142.48 L0 153.82 Z" class="st4"/>
 				</g>
-				<g id="shape3977-58" v:mID="3977" v:groupContext="shape" transform="translate(2.79729,307.642) rotate(180)">
+				<g id="shape3977-55" v:mID="3977" v:groupContext="shape" transform="translate(2.79729,307.642) rotate(180)">
 					<title>Blad.3977</title>
 					<path d="M0 153.82 L2.8 153.82" class="st5"/>
 				</g>
-				<g id="shape3978-61" v:mID="3978" v:groupContext="shape" transform="translate(16.7838,2.84217E-14)">
+				<g id="shape3978-58" v:mID="3978" v:groupContext="shape" transform="translate(16.7838,2.84217E-14)">
 					<title>Blad.3978</title>
 					<path d="M0 153.82 L2.8 153.82" class="st5"/>
 				</g>
 			</g>
-			<g id="shape3979-64" v:mID="3979" v:groupContext="shape">
+			<g id="shape3979-61" v:mID="3979" v:groupContext="shape">
 				<title>Blad.3979</title>
 				<path d="M0 153.82 L19.84 153.82" class="st5"/>
 			</g>

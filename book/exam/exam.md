@@ -56,7 +56,7 @@ Graad van statisch onbepaaldheid voor de constructie met scharnier in de ligger
 
 Er zijn 13 onbekenden en 13 evenwichtsvergelijkingen, daarmee is de constructie met de juiste methode dus statisch bepaald
 
-**Constructie niet uit elkaar in scharniende delen**
+**Constructie niet uit elkaar in scharnierende delen**
 
 Voor het berekenen van de statisch onbepaaldheid moet de constructie in alle scharnierende delen uit elkaar gehaald worden. Als dat niet gebeurt kan de statisch onbepaaldheid verkeerd worden berekend.
 
@@ -258,14 +258,6 @@ Invullen in $w_{\rm{G}} = 0.22 - 0.01 \cdot D_{\rm{v}}$ geeft: $w_{\rm{G}} = 20 
 
 ::::
 
-:::::{exercise}
-:label: exam_1_4
-:nonumber: true
-
-Bepaal de normaalkracht in $\rm{DK}$ in de extreme gevallen dat de $EA_{\rm{OG}} \to 0$ en $EA_{\rm{OG}} \to \infty$.
-
-:::::
-
 ::::::{admonition} Veelgemaakte fouten
 :class: remark, dropdown
 
@@ -299,6 +291,14 @@ Foutief vrijlichaamsschema van $\rm{AK}$ waarbij de pendelstaaf $\rm{OG}$ wordt 
 ```
 
 ::::::
+
+:::::{exercise}
+:label: exam_1_4
+:nonumber: true
+
+Bepaal de normaalkracht in $\rm{DK}$ in de extreme gevallen dat de $EA_{\rm{OG}} \to 0$ en $EA_{\rm{OG}} \to \infty$.
+
+:::::
 
 :::::{admonition} Oplossing
 :class: solution, dropdown
