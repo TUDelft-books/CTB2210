@@ -319,7 +319,7 @@ $$\sum {T_{\rm{A}}} = 0 \to N_{\rm{DK}}= 22 \ \rm{ kN}$$
 
 Voor $EA_{\rm{OG}} \to \infty$ is $w_{\rm{O}}$ gelijk aan $w_{\rm{G}}$. Gebruikmakend van de berekeningen van de vorige vraag geeft $N_{\rm{DK}} = 11 \ \rm{ kN}$.
 
-::::
+:::::
 
 ::::::{admonition} Veelgemaakte fouten
 :class: remark, dropdown
