@@ -31,6 +31,16 @@ Er zijn 9 onbekenden en 8 evenwichtsvergelijkingen, waarmee is de constructie en
 
 ::::
 
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+**Statisch onbepaaldheid berekend met # onbekenden - # evenwichtsvergelijkingen - # scharnieren**
+
+
+
+::::::
+
+
 :::::{exercise}
 :label: exam_1_2
 :nonumber: true
