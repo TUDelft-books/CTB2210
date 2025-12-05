@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2025-12-03: v2025.22.0
+Toevoegen [15 december: Wintercursus krachtenmethode, verplaatsingenmethodes en matrixmethode](./wintercursus_1/lesson.md)
+
 ## 2025-11-07: v2025.21.0
 Toevoegen [4 november: Tentamenopdracht - Extra tentamenopdracht](./exam/exam2.md)
 
