@@ -34,9 +34,23 @@ Er zijn 9 onbekenden en 8 evenwichtsvergelijkingen, waarmee is de constructie en
 ::::::{admonition} Veelgemaakte fouten
 :class: remark, dropdown
 
-**Statisch onbepaaldheid berekend met # onbekenden - # evenwichtsvergelijkingen - # scharnieren**
+**Statisch onbepaaldheid berekend met # oplegreacties - 3 evenwichtsvergelijkingen - # scharnieren**
 
+Dit is een aanpak die in constuctiemechanica 1 is toegepast op scharnierliggers en driescharnierspanten, maar niet een methode die in het algemeen werkt. In dit geval komt de berekening echter wel op het goede antwoord uit: 7 oplegreacties - 3 evenwichtsvergelijkingen - 3 scharnieren = 1.
 
+Als de constructie net anders zou zijn met het scharnier bij G in de ligger in plaats van daarboven, zou deze methode niet meer het juiste antwoord geven:
+
+```{figure} ./exam_data/scharnier.svg
+:align: center
+```
+
+De foutieve methode zou dan nog steeds op eerstegraads statisch onbepaald uitkomen, terwijl de juiste methode laat zien dat de constructie nu statisch bepaald is:
+
+```{figure} ./exam_data/SOB2.svg
+:align: center
+```
+
+Er zijn 13 onbekenden en 13 evenwichtsvergelijkingen, daarmee is de constructie met de juiste methode dus statisch bepaald
 
 ::::::
 
