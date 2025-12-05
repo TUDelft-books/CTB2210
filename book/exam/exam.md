@@ -118,7 +118,76 @@ Een aantal mogelijk opties zijn
 
 **Mechanisme gecreëerd**
 
-Er kunnen 
+Er kunnen op verschillende manieren mechanismes worden gecreëerd:
+
+`````{tab-set}
+````{tab-item} Losmaken horizontale oplegging bij $\rm{A}$
+
+```{figure} ./exam_data/mechanisme1.svg
+:align: center
+```
+
+De ligger $\rm{AGJK}$ kan nu vrij naar links en rechts bewegen.
+````
+
+````{tab-item} Losmaken horizontale oplegging bij $\rm{D}$
+
+```{figure} ./exam_data/mechanisme2.svg
+:align: center
+```
+
+Pendelstaaf $\rm{DK}$ kan nu vrij roteren rondom $\rm{K}$
+````
+
+````{tab-item} Losmaken horizontale oplegging bij $\rm{C}$
+
+```{figure} ./exam_data/mechanisme3.svg
+:align: center
+```
+
+Pendelstaaf $\rm{BOC}$ kan nu vrij naar links en rechts bewegen.
+````
+
+````{tab-item} Scharnier toevoegen in staaf $\rm{OG}$
+
+```{figure} ./exam_data/mechanisme4.svg
+:align: center
+```
+
+Het toegevoegde scharnier kan nu vrij naar links en rechts bewegen.
+````
+
+````{tab-item} Scharnier toevoegen in staaf $\rm{DK}$
+
+```{figure} ./exam_data/mechanisme5.svg
+:align: center
+```
+
+Het toegevoegde scharnier kan nu vrij naar links en rechts bewegen.
+````
+
+
+`````
+
+**Verplaatsingenmethode met vrijheidsgraden**
+
+Hoewel de verplaatsingemethode met vrijheidsgraden een prima methode is om de statisch onbepaalde constructie door te rekenen, is het niet een geldige statisch bepaalde constructie.
+
+```{figure} ./exam_data/verplaatsingenmethode.svg
+:align: center
+
+Mogelijk constructie voor verplaatsingenmethode met vrijheidsgraden
+```
+
+**Onterecht verplaatsing gelijk stellen aan $0$**
+
+In sommige gevallen wordt een verplaatsing onterecht gelijk gesteld aan $0$, terwijl deze verplaatsing juist onbekend is en alleen maar gelijk gesteld kan worden aan een andere onbekende verplaatsing.
+
+```{figure} ./exam_data/gelijkaan0.svg
+:align: center
+
+Ten onrechte zeggen dat de verplaatsingen niet alleen aan elkaar gelijk zijn, maar ook gelijk aan $0$.
+```
 
 ::::::
 
