@@ -86,8 +86,7 @@ $A_{\rm{v}}$ en $A_{\rm{h}}$.
 
 Los $A_{\rm{v}}$ en $A_{\rm{h}}$ op.
 
-```{h5p} 
-https://tudelft.h5p.com/content/1292762004624970817/embed
+```{h5p} https://tudelft.h5p.com/content/1292762004624970817/embed
 ```
 
 :::::
