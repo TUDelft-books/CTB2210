@@ -86,9 +86,41 @@ Teken $w_{\rm{D}}$ als functie van $n$ voor $n$ variërend van 0 tot $\infty$.
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
-```{figure} intro_data/plot.svg
+```{figure} oefening1_data/plot.svg
 :align: center
 :source: https://github.com/TUDelft-books/CT1000/blob/2025/book/week_8/session_1/intro_data/berekeningen.py
 ```
 
 ::::
+
+## Extreme gevallen
+
+Voor het analyseren van de extreme gevallen analyseren we eerst de constructie zonder de methode voor de statisch onbepaaldheid direct toe te passen.
+
+:::::{exercise}
+:nonumber: true
+
+Gegeven zijn 6 varianten van de constructie.
+
+```{figure} ./oefening1_data/extreme_gevallen.svg
+:align: center
+:source: https://github.com/TUDelft-books/CT1000/blob/2025/book/week_8/session_1/intro_data/berekeningen.py
+```
+
+```{h5p} https://tudelft.h5p.com/content/1292772371515557127/embed
+```
+
+```{h5p} https://tudelft.h5p.com/content/1292772381952462747/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Bepaal $w_{\rm{D}}$ voor de extreme gevallen.
+
+```{h5p} https://tudelft.h5p.com/content/1292772385599932867/embed
+```
+
+:::::
