@@ -49,28 +49,46 @@ Vergeet-me-nietjes
 :::::{exercise}
 :nonumber: true
 
-Los $M_{\rm{C}}^{\rm{AC}}$ en $M_{\rm{C}}^{\rm{BD}}$ op als functie $\varphi_{\rm{C}}$.
+Los $M_{\rm{C}}^{\rm{AC}}$ en $M_{\rm{C}}^{\rm{BC}}$ op als functie $\varphi_{\rm{C}}$ en $n$.
 
-...
-
-:::::
-
-:::::{exercise}
-:nonumber: true
-
-Los $\varphi_{\rm{C}}$ op.
-
-...
+```{h5p} https://tudelft.h5p.com/content/1292772348519402367/embed
+```
 
 :::::
 
 :::::{exercise}
 :nonumber: true
 
-Los $w_{\rm{D}}$ op.
+Los $\varphi_{\rm{C}}$ op als functie van $n$.
 
-...
+```{h5p} https://tudelft.h5p.com/content/1292772355640589157/embed
+```
 
 :::::
 
-... plot
+:::::{exercise}
+:nonumber: true
+
+Los $w_{\rm{D}}$ op als functie van $n$.
+
+```{h5p} https://tudelft.h5p.com/content/1292772359322613707/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Teken $w_{\rm{D}}$ als functie van $n$ voor $n$ variërend van 0 tot $\infty$.
+
+:::::
+
+::::{admonition} Oplossing
+:class: solution, dropdown
+
+```{figure} intro_data/plot.svg
+:align: center
+:source: https://github.com/TUDelft-books/CT1000/blob/2025/book/week_8/session_1/intro_data/berekeningen.py
+```
+
+::::
