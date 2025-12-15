@@ -46,6 +46,13 @@ Vergeet-me-nietjes
 
 :::::
 
+:::::::{admonition} Oplossing
+:class: solution, dropdown
+
+Vergeet-me-nietje 3 en 4. Punt $\rm{D}$ blijft op z'n plek, dus kan gezien worden als oplegging die niet verplaatst.
+
+:::::::
+
 De constructie wordt gesplitst in $\rm{D}$. Daarmee kunnen we het vrijlichaamsschema van beide delen en knoop $\rm{D}$ tekenen.
 
 ```{figure} ./lesoefening1_data/VLS.svg
@@ -65,6 +72,62 @@ Los $M_{\rm{D}}^{\rm{AD}}$, $M_{\rm{D}}^{\rm{CD}}$ en $M_{\rm{D}}^{\rm{BD}}$ op 
 
 :::::
 
+:::::::{admonition} Oplossing
+:class: solution, dropdown
+
+Voor deel $\rm{AB}$ kan een statisch onbepaalde vergeet-me-nietje worden gebruikt om de rotatie van $\rm{D}$ als functie van het moment $M_{\rm{D}}^{\rm{AD}}$ te vinden:
+
+```{figure} lesoefening1_data/AD_VMN.svg
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
+```
+
+$$
+\varphi_{\rm{D}} = \cfrac{M_{\rm{D}}^{\rm{AD}} \cdot 5}{4 \cdot 120000} = \cfrac{M_{\rm{D}}^{\rm{AD}}}{96000}
+$$
+
+Omschrijven van deze relatie geeft:
+
+$$
+M_{\rm{D}}^{\rm{AD}} = 96000 \cdot \varphi_{\rm{D}}
+$$
+
+Voor deel $\rm{CD}$ kan een statisch bepaalde vergeet-me-nietje worden gebruikt:
+
+```{figure} lesoefening1_data/CD2.svg
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
+```
+
+$$
+\varphi_{\rm{D}} = -\cfrac{M_{\rm{D}}^{\rm{CD}} \cdot 5}{3 \cdot 120000} = -\cfrac{M_{\rm{D}}^{\rm{CD}}}{72000}
+$$
+
+Omschrijven van deze relatie geeft:
+
+$$
+M_{\rm{D}}^{\rm{CD}} = -72000 \cdot \varphi_{\rm{D}}
+$$
+
+Tot slot, voor deel $\rm{DB}$ kan hetzelfde statisch bepaalde vergeet-me-nietje worden gebruikt:
+
+```{figure} lesoefening1_data/BD2.svg
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
+```
+
+$$
+\varphi_{\rm{D}} = - \cfrac{M_{\rm{D}}^{\rm{BD}} \cdot 2}{3 \cdot 120000} - \cfrac{29 \cdot 2}{6 \cdot 120000} = -\cfrac{M_{\rm{D}}^{\rm{BD}}}{180000} - \cfrac{29}{360000}
+$$
+
+Omschrijven van deze relatie geeft:
+
+$$
+M_{\rm{D}}^{\rm{BD}} = -180000 \cdot \varphi_{\rm{D}} - 14.5
+$$
+
+:::::::
+
 :::::{exercise}
 :nonumber: true
 
@@ -74,6 +137,25 @@ Los $\varphi_{\rm{D}}$ op.
 ```
 
 :::::
+
+:::::::{admonition} Oplossing
+:class: solution, dropdown
+
+Het momentenevenwicht in knoop $\rm{D}$ geeft:
+
+```{figure} lesoefening1_data/D.svg
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
+```
+
+$$
+\begin{align*}
+M_{\rm{D}}^{\rm{AD}} - M_{\rm{D}}^{\rm{CD}} - M_{\rm{D}}^{\rm{BD}} + 29 &= 0 \\
+\varphi_{\rm{D}} &= \cfrac{-1}{8000} \approx -1.25 \cdot 10^{-4} \ \rm{rad}
+\end{align*}
+$$
+
+:::::::
 
 ## Matrixmethode
 
@@ -96,6 +178,18 @@ Bepaal de elementstijfheidsmatrix $\mathbf{K}$ voor element $\rm{AD}$ en $\rm{CD
 
 :::::
 
+:::::::{admonition} Oplossing
+:class: solution, dropdown
+
+De stijheidsmatrix is definiëerd als $\mathbf{K^{\rm{(e)}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2EI}{L} \\ \cfrac{2EI}{L} & \cfrac{4EI}{L}  \end{bmatrix}$. Dit geeft:
+
+
+$$
+\mathbf{K^{\rm{AD}}} = \mathbf{K^{\rm{AD}}} = \begin{bmatrix} \cfrac{4 \cdot 120000}{5} & \cfrac{2 \cdot 120000}{5} \\ \cfrac{2 \cdot 120000}{5} & \cfrac{4 \cdot 120000}{5}  \end{bmatrix} = \begin{bmatrix} 96000 & 48000 \\ 48000 & 96000  \end{bmatrix}
+$$
+
+:::::::
+
 :::::{exercise}
 :nonumber: true
 
@@ -105,6 +199,15 @@ Bepaal de elementstijfheidsmatrix $\mathbf{K}$ voor element $\rm{BD}$.
 ```
 
 :::::
+
+:::::::{admonition} Oplossing
+:class: solution, dropdown
+
+$$
+\mathbf{K^{\rm{BD}}} = \begin{bmatrix} \cfrac{4 \cdot 120000}{2} & \cfrac{2 \cdot 120000}{2} \\ \cfrac{2 \cdot 120000}{2} & \cfrac{4 \cdot 120000}{2}  \end{bmatrix} = \begin{bmatrix} 240000 & 120000 \\ 120000 & 240000  \end{bmatrix}
+$$
+
+:::::::
 
 :::::{exercise}
 :nonumber: true
@@ -116,6 +219,47 @@ Bepaal de globale stijfheidsmatrix $\mathbf{K}$.
 
 :::::
 
+:::::::{admonition} Oplossing
+:class: solution, dropdown
+
+Alle stijfheidsmatrices kunnen worden samengevoegd in de globale stijfheidsmatrix $\mathbf{K}$.  Hierbij worden de kolommen en rijen gekoppeld aan de juiste vrijheidsgraden. We beginnen met element $\rm{AD}$, dat knopen $\rm{A}$ en $\rm{D}$ koppelt (rij en kolom 1 en 4):
+
+$$
+\mathbf{K} = 
+\begin{bmatrix}
+96000 & 0 & 0 & 48000\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+48000 & 0 & 0 & 96000\\
+\end{bmatrix}
+$$
+
+Nu voegen we het tweede element $\rm{CD}$ toe, dat knopen $\rm{C}$ en $\rm{D}$ koppelt (rij en kolom 3 en 4):
+
+$$
+\mathbf{K} =
+\begin{bmatrix}
+96000 & 0 & 0 & 48000\\
+0 & 0 & 0 & 0\\
+0 & 0 & 96000 & 48000\\
+48000 & 0 & 48000 & 192000\\
+\end{bmatrix}
+$$
+
+Tot slot voegen we het derde element $\rm{BD}$ toe, dat knopen $\rm{B}$ en $\rm{D}$ koppelt (rij en kolom 2 en 4):
+
+$$
+\mathbf{K} =
+\begin{bmatrix}
+96000 & 0 & 0 & 48000\\
+0 & 240000 & 0 & 120000\\
+0 & 0 & 96000 & 48000\\
+48000 & 120000 & 48000 & 432000\\
+\end{bmatrix}
+$$
+
+:::::::
+
 :::::{exercise}
 :nonumber: true
 
@@ -126,6 +270,35 @@ Bepaal de krachtvector $\mathbf{F}$.
 
 :::::
 
+:::::::{admonition} Oplossing
+:class: solution, dropdown
+
+Nu kan de krachtvector worden opgesteld. Begin met de externe krachten:
+
+$$
+\mathbf{f} =
+\begin{bmatrix}
+0 \\
+29 \\
+0 \\
+-29
+\end{bmatrix}
+$$
+
+Vervolgens worden de opleggingen toegevoegd. De oplegging bij $\rm{A}$ levert een moment op van $M_{\rm{A}}$. Dit geeft de volgende krachtvector:
+
+$$
+\mathbf{f} =
+\begin{bmatrix}
+M_{\rm{A}} \\
+29 \\
+0 \\
+-29
+\end{bmatrix}
+$$
+
+:::::::
+
 :::::{exercise}
 :nonumber: true
 
@@ -135,3 +308,75 @@ Bepaal de waarde van de vrijheidsgraden $\varphi_{\rm{A}}$, $\varphi_{\rm{B}}$, 
 ```
 
 :::::
+
+:::::::{admonition} Oplossing
+:class: solution, dropdown
+
+Het hele systeem kan nu worden opgelost met de volgende vergelijking:
+
+$$
+\begin{bmatrix}
+96000 & 0 & 0 & 48000\\
+0 & 240000 & 0 & 120000\\
+0 & 0 & 96000 & 48000\\
+48000 & 120000 & 48000 & 432000\\
+\end{bmatrix}
+\begin{bmatrix}
+0 \\
+\varphi_{\rm{B}} \\
+\varphi_{\rm{C}} \\
+\varphi_{\rm{D}}
+\end{bmatrix}
+=
+\begin{bmatrix}
+M_{\rm{A}} \\
+29 \\
+0 \\
+-29
+\end{bmatrix}
+$$
+
+Om de onbekende rotaties op te lossen, kan de eerste rij en kolom worden verwijderd:
+
+$$
+\begin{bmatrix}
+240000 & 0 & 120000\\
+0 & 96000 & 48000\\
+120000 & 48000 & 432000\\
+\end{bmatrix}
+\begin{bmatrix}
+\varphi_{\rm{B}} \\
+\varphi_{\rm{C}} \\
+\varphi_{\rm{D}}
+\end{bmatrix}
+=
+\begin{bmatrix}
+29 \\
+0 \\
+-29
+\end{bmatrix}
+$$
+
+Dit geeft:
+
+$$
+\begin{bmatrix}
+\varphi_{\rm{B}} \\
+\varphi_{\rm{C}} \\
+\varphi_{\rm{D}}
+\end{bmatrix}
+=
+\begin{bmatrix}
+\cfrac{7}{19200} \\
+\cfrac{1}{16000} \\
+\cfrac{-1}{8000}
+\end{bmatrix}
+\approx
+\begin{bmatrix}
+3.65 \cdot 10^{-4} \\
+6.25 \cdot 10^{-5} \\
+-1.25 \cdot 10^{-4}
+\end{bmatrix}
+$$
+
+:::::::
