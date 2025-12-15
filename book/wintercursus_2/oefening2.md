@@ -80,7 +80,6 @@ $A_{\rm{v}}$ en $A_{\rm{h}}$.
 
 :::::
 
-
 :::::{exercise}
 :nonumber: true
 
