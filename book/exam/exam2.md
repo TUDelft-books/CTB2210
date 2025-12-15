@@ -27,6 +27,7 @@ Voor deze constructie is de inwendige statisch onbepaaldheid gelijk aan de uitwe
 
 Er zijn 8 onbekenden en 6 evenwichtsvergelijkingen, waarmee is de constructie enkelvoudig statisch onbepaald.
 
+
 ::::
 
 :::::{exercise}
