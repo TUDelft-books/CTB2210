@@ -258,7 +258,7 @@ $$
 \begin{align*}
 w_{\rm{C}}^{\rm{BC}} \left( N_{\rm{CD}} \right) &= w_{\rm{C}}^{\rm{CD}} \left( N_{\rm{CD}} \right) \\
 -0.018 + 5 \cdot 10^{-4} \cdot N_{\rm{CD}} &= -0.004 \cdot N_{\rm{CD}} \\
- N_{\rm{CD}} &= -4 \, \rm{kN}
+ N_{\rm{CD}} &= 4 \, \rm{kN}
 \end{align*}
 $$
 
