@@ -128,15 +128,6 @@ Deze constructie is een geldig statisch bepaald systeem om de constructie op te 
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
-Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode.
-````
-
-````{tab-item} Verticale oplegging bij B weggehaald
-```{figure} ./lesoefening1_data/optie4.svg
-:align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
-```
-
 Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode. Deze constructie is echter niet zo handig, omdat er geen vergeet-me-nietjes zijn voor ligger $ABC$
 ````
 
