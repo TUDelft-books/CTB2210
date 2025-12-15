@@ -69,7 +69,7 @@ Los $M_{\rm{C}}^{\rm{AC}}$ en $M_{\rm{C}}^{\rm{BC}}$ op als functie $\varphi_{\r
 
 Voor $\rm{AC}$ kan een statisch bepaald vergeet-me-nietje worden toegepast
 
-```{figure} intro_data/AC.svg
+```{figure} oefening1_dataAC.svg
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
@@ -78,7 +78,7 @@ $$\varphi_{\rm{C}} = \cfrac{M_{\rm{AC}} \cdot 4}{3 \cdot n \cdot 320000} \to M_{
 
 Voor $\rm{BC}$ kan een statisch onbepaald vergeet-me-nietje worden toegepast:
 
-```{figure} intro_data/BC.svg
+```{figure} oefening1_dataBC.svg
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
@@ -102,7 +102,7 @@ Los $\varphi_{\rm{C}}$ op als functie van $n$.
 
 $\varphi_{\rm{C}}$ kan bepaald worden aan de hand van het vrijlichaamsschema van $\rm{DC}$:
 
-```{figure} intro_data/Meven.svg
+```{figure} oefening1_dataMeven.svg
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
@@ -128,7 +128,7 @@ Los $w_{\rm{D}}$ op als functie van $n$.
 
 De verplaatsing van $\rm{D}$ kan worden bepaald door de rotatie van $\varphi_{\rm{C}}$ over ligger $\rm{CD}$ te verlengen en de verticale verplaatsing door de belasting erbij op te tellen:
 
-```{figure} intro_data/CD.svg
+```{figure} oefening1_dataCD.svg
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
@@ -185,14 +185,14 @@ Gegeven zijn 6 varianten van de constructie.
 
 Voor $n \to \infty$, is er geen rotatie toegestaan in $\rm{C}$, wat de constructie reduceert tot een statisch bepaalde structuur:
 
-```{figure} intro_data/CD.svg
+```{figure} oefening1_dataCD.svg
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 Voor $n \to 0$, is er geen rotatiestijfheid in $\rm{AC}$, wat de constructie reduceert tot:
 
-```{figure} intro_data/EI0.svg
+```{figure} oefening1_dataEI0.svg
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
