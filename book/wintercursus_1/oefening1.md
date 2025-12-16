@@ -128,15 +128,6 @@ Deze constructie is een geldig statisch bepaald systeem om de constructie op te 
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
-Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode.
-````
-
-````{tab-item} Verticale oplegging bij B weggehaald
-```{figure} ./lesoefening1_data/optie4.svg
-:align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
-```
-
 Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode. Deze constructie is echter niet zo handig, omdat er geen vergeet-me-nietjes zijn voor ligger $ABC$
 ````
 
@@ -255,7 +246,7 @@ $$
 
 Los $N_{\rm{CD}}$ op.
 
-```{h5p} https://tudelft.h5p.com/content/1292762004624970817/embed
+```{h5p} https://tudelft.h5p.com/content/1292772525099117437/embed
 ```
 
 :::::
@@ -267,7 +258,7 @@ $$
 \begin{align*}
 w_{\rm{C}}^{\rm{BC}} \left( N_{\rm{CD}} \right) &= w_{\rm{C}}^{\rm{CD}} \left( N_{\rm{CD}} \right) \\
 -0.018 + 5 \cdot 10^{-4} \cdot N_{\rm{CD}} &= -0.004 \cdot N_{\rm{CD}} \\
- N_{\rm{CD}} &= -4 \, \rm{kN}
+ N_{\rm{CD}} &= 4 \, \rm{kN}
 \end{align*}
 $$
 

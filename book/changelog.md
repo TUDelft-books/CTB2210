@@ -1,5 +1,11 @@
 # Changelog 🔖
 
+## 2025-12-16: v2025.25.0
+Toevoegen [5 januari: Wintercursus stijfheidsinvloeden, steunpuntszettingen en temperatuursinvloeden](./wintercursus_2/lesson.md).
+
+## 2025-12-15: v2025.24.0
+Toevoegen antwoorden aan [15 december: Wintercursus krachtenmethode, verplaatsingenmethodes en matrixmethode](./wintercursus_1/lesson.md)
+
 ## 2025-12-05: v2025.23.0
 Toevoegen veelgemaakte fouten aan [4 november: Tentamenopdracht - Reguliere tentamenopdracht](./exam/exam.md)
 
