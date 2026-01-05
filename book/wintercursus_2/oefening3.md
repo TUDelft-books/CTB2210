@@ -71,7 +71,7 @@ Gekozen wordt voor de volgende statisch bepaalde constructie met een kinematisch
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 
-Statisch bepaalde constructie met kinematisch equivalente belasting. De extensie van staaf $\rm{BCD} wordt niet gemodelleerd met een kinematisch equivalente belasting.
+Statisch bepaalde constructie met kinematisch equivalente belasting. De extensie van staaf $\rm{BCD}$ wordt niet gemodelleerd met een kinematisch equivalente belasting.
 ```
 
 De zakking en rotatie van $\rm{C}$ zijn berekend:
