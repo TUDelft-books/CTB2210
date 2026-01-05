@@ -141,6 +141,8 @@ w_{\rm{D}} & = 0.00744 + \cfrac{0.1116}{15 \cdot n + 16}
 \end{align*}
 $$
 
+::::
+
 :::::{exercise}
 :nonumber: true
 
