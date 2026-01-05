@@ -61,7 +61,7 @@ De temperatuur zorgt voor verlenging aan de bovenkant, dus kromming met de bolle
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
-$$\kappa^{\rm{T}} = \alpha \cfrac{\Delta T}{h} = 10^{-5} \cfrac{32}{0.2} = 0.0016 \, \rm{(1/m)}$$
+$$\kappa^{\rm{T}} = \alpha \cfrac{\Delta T}{h} = 10^{-5} \cdot \cfrac{32}{0.2} = 0.0016 \, \rm{(1/m)}$$
 
 ::::
 
