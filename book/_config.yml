@@ -48,6 +48,8 @@ sphinx:                                              # Options passed on to the 
     sphinx_codex_merge_with_proof:     true # default value
     tud_change_titlesize: false
     git_show_all_authors: true
+    git_author_aliases:
+      GitHub Action: Tom van Woudenberg
   extra_extensions:                                  # Gives you a starter package of extensions to use in your book
     - teachbooks_favourites
     - sphinx_tudelft_theme
