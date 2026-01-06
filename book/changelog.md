@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2025-01-06: v2025.26.0
+Toevoegen antwoorden aan [5 januari: Wintercursus stijfheidsinvloeden, steunpuntszettingen en temperatuursinvloeden](./wintercursus_2/lesson.md).
+
 ## 2025-12-16: v2025.25.0
 Toevoegen [5 januari: Wintercursus stijfheidsinvloeden, steunpuntszettingen en temperatuursinvloeden](./wintercursus_2/lesson.md).
 
