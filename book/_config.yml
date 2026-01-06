@@ -35,8 +35,6 @@ sphinx:                                              # Options passed on to the 
       announcement: "<p>This book is not the version shared with students. That one is available here <a href='https://oit.tudelft.nl/CTB2210' style='color: cyan;'>oit.tudelft.nl/CTB2210</a></p>"
     keep_warnings: true
 # END REMOVE-FROM-RELEASE
-    git_author_aliases:
-      ioskam: Iris Oskam
     html_show_copyright: false                       # As the copyright is included in the author field
     html_last_updated_fmt: ''                        # Adds the date of the last update to the footer
     mathjax3_config:
