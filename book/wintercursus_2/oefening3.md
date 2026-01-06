@@ -44,6 +44,12 @@ Vier mogelijke krommingen ten gevolge van temperatuursinvloeden
 
 :::::
 
+::::{admonition} Oplossing
+:class: solution, dropdown
+
+De temperatuur zorgt voor verlenging aan de bovenkant, dus kromming met de bolle kant naar boven. Daarnaast is de kromming constant over de lengte van de balk, dus optie 1 is correct.
+::::
+
 :::::{exercise}
 :nonumber: true
 
@@ -51,6 +57,13 @@ Vier mogelijke krommingen ten gevolge van temperatuursinvloeden
 ```
 
 :::::
+
+::::{admonition} Oplossing
+:class: solution, dropdown
+
+$$\kappa^{\rm{T}} = \alpha \cfrac{\Delta T}{h} = 10^{-5} \cdot \cfrac{32}{0.2} = 0.0016 \, \rm{(1/m)}$$
+
+::::
 
 Gekozen wordt voor de volgende statisch bepaalde constructie met een kinematisch equivalente belasting om de temperatuursinvloeden van buiging te modelleren:
 
@@ -82,6 +95,22 @@ Bepaal de verplaatsing van $\rm{A}$.
 
 :::::
 
+::::{admonition} Oplossing
+:class: solution, dropdown
+
+De verplaatsing van $\rm{C}$ kan op [dezelfde manier worden berekend als eerder](./oefening2.md), maar nu inclusief de rek van $\rm{BC}$:
+
+$$
+\begin{align*}
+w_{\rm{A_v}} &= w_{\rm{C}} \\
+w_{\rm{A_v}} &=-\cfrac{A_{\rm{h}}}{6400} - \cfrac{A_{\rm{v}}}{7680} + \cfrac{1663}{32000} \\
+w_{\rm{A_h}} &= \varphi_{\rm{C}} \cdot 4 - \cfrac{A_{\rm{h}} \cdot 4^3}{3 \cdot 320000} - \cfrac{1}{625} \\
+w_{\rm{A_h}} &=-\cfrac{256003 \cdot A_{\rm{h}}}{12000} - \cfrac{A_{\rm{v}}}{6400} + \cfrac{6123}{80000}\\
+\end{align*}
+$$
+
+::::
+
 :::::{exercise}
 :nonumber: true
 
@@ -91,3 +120,22 @@ Los $A_{\rm{v}}$ en $A_{\rm{h}}$ op.
 ```
 
 :::::
+
+::::{admonition} Oplossing
+:class: solution, dropdown
+
+$$
+\left\{
+\begin{matrix}
+{w_{\rm{A_v}}=0} \\
+{w_{\rm{A_h}}=0}
+\end{matrix}
+\right.
+\;\to\;
+\begin{matrix}
+{A_{\rm{v}} \approx 400 \ \rm{kN}} \\
+{A_{\rm{h}} \approx 0 \ \rm{kN}}
+\end{matrix}
+$$
+
+::::
