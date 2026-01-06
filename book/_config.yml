@@ -50,6 +50,8 @@ sphinx:                                              # Options passed on to the 
     git_show_all_authors: true
     git_author_aliases:
       GitHub Action: Tom van Woudenberg
+      ioskam: Iris Oskam
+      paulinadenotter: Paula den Otter
   extra_extensions:                                  # Gives you a starter package of extensions to use in your book
     - teachbooks_favourites
     - sphinx_tudelft_theme
