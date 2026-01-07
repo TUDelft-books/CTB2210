@@ -87,6 +87,9 @@ parts:
     - file: wintercursus_2/oefening1.md
     - file: wintercursus_2/oefening2.md
     - file: wintercursus_2/oefening3.md
+  - file: exam2/lesson.md
+    sections:
+    - file: exam2/exam.md
 - caption: Diverse
   chapters:
   - file: changelog
