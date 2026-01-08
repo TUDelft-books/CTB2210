@@ -19,7 +19,13 @@ Laat zien dat deze constructie enkelvoudig statisch onbepaald is.
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
-...
+Voor deze constructie is de inwendige statisch onbepaaldheid gelijk aan de uitwendig statisch onbepaaldheid.
+
+```{figure} ./exam_data/splitsen.svg
+:align: center
+```
+
+Er zijn 5 onbekenden en 4 evenwichtsvergelijkingen, daarmee is de constructie enkelvoudig statisch onbepaald.
 
 ::::
 
@@ -39,6 +45,29 @@ Zorg voor vier verschillende varianten: je aanpassingen moeten elk een ander ond
 
 :::::
 
+::::{admonition} Oplossing
+:class: solution, dropdown
+
+Een aantal mogelijk opties zijn
+
+```{figure} ./exam_data/variant_1.svg
+:align: center
+```
+
+```{figure} ./exam_data/variant_2.svg
+:align: center
+```
+
+```{figure} ./exam_data/variant_3.svg
+:align: center
+```
+
+```{figure} ./exam_data/variant_4.svg
+:align: center
+```
+
+::::
+
 Gegeven is de volgende statisch bepaalde variant, waarbij de vormveranderingsvoorwaarde nog niet bepaald is.
 
 ```{figure} ./exam_data/statisch_bepaald.svg
@@ -52,6 +81,23 @@ Gegeven is de volgende statisch bepaalde variant, waarbij de vormveranderingsvoo
 Bepaal met de gegeven statisch bepaalde variant het moment in $\rm{A}$ met behulp van de krachtenmethode.
 
 :::::
+
+::::{admonition} Oplossing
+
+De vormveranderingsvoorwaarde is dat de rotatie in $\rm{A}$ gelijk is aan nul: $\varphi_{\rm{A}} = 0$.
+
+```{figure} ./exam_data/VLS_AC
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam_SOB_2
+```
+
+$$
+\sum {T_{\rm{A}}} = 0 \to N_{\rm{OG}} = -50 + \frac{1}{3} \cdot A_{\rm{m}}
+$$
+
+
+
+::::
 
 :::::{exercise}
 :nonumber: true

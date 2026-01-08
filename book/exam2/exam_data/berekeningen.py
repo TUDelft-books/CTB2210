@@ -13,7 +13,7 @@ EA = sym.nsimplify(8000)
 L2 = sym.nsimplify(6)
 
 N_BC = sym.nsimplify(- 1 / (1/5 *3 * L1) * (q * L1 **2 /2 - A_m))
-print(N_BC)
+print('N_BC=', N_BC)
 deltaL_BC = N_BC * L2 / 4 * 5 / EA
 print('deltaL_BC=', deltaL_BC)
 w_C = - deltaL_BC/3*5
