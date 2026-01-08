@@ -16,10 +16,17 @@ N_BC = sym.nsimplify(- 1 / (1/5 *3 * L1) * (q * L1 **2 /2 - A_m))
 print('N_BC=', N_BC)
 deltaL_BC = N_BC * L2 / 4 * 5 / EA
 print('deltaL_BC=', deltaL_BC)
-w_C = - deltaL_BC/3*5
+w_C = +deltaL_BC/3*5
 print('w_C=', w_C)
 
-phi_A = q * L1 **3 / (24 * EI) + w_C / L1 - A_m * L1 / (3 * EI)
+phi_A_A_m = A_m * L1 / (3 * EI)
+phi_A_q = q * L1 **3 / (24 * EI)
+phi_A_wC = w_C / L1
+print('phi_A_A_m=', phi_A_A_m)
+print('phi_A_q=', phi_A_q)
+print('phi_A_wC=', phi_A_wC)
+
+phi_A = phi_A_A_m - phi_A_q + phi_A_wC
 
 print('phi_A=', phi_A)
 
@@ -27,3 +34,8 @@ eq = sym.Eq(phi_A, 0)
 
 sol = sym.solve(eq, A_m)
 print('A_m=', sol[0])
+
+multiplier = 30
+print('A_phi_A_m=', (phi_A_A_m.subs(A_m, sol[0])/sym.pi*180*multiplier).evalf())
+print('A_phi_A_q=', (phi_A_q/sym.pi*180*multiplier).evalf())
+print('A_phi_A_wC=', (phi_A_wC.subs(A_m, sol[0])/sym.pi*180*multiplier).evalf())

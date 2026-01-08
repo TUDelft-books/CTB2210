@@ -50,19 +50,19 @@ Zorg voor vier verschillende varianten: je aanpassingen moeten elk een ander ond
 
 Een aantal mogelijk opties zijn
 
-```{figure} ./exam_data/variant_1.svg
+```{figure} ./exam_data/variant1.svg
 :align: center
 ```
 
-```{figure} ./exam_data/variant_2.svg
+```{figure} ./exam_data/variant2.svg
 :align: center
 ```
 
-```{figure} ./exam_data/variant_3.svg
+```{figure} ./exam_data/variant3.svg
 :align: center
 ```
 
-```{figure} ./exam_data/variant_4.svg
+```{figure} ./exam_data/variant4.svg
 :align: center
 ```
 
@@ -83,10 +83,20 @@ Bepaal met de gegeven statisch bepaalde variant het moment in $\rm{A}$ met behul
 :::::
 
 ::::{admonition} Oplossing
+:class: solution, dropdown
 
 De vormveranderingsvoorwaarde is dat de rotatie in $\rm{A}$ gelijk is aan nul: $\varphi_{\rm{A}} = 0$.
 
-```{figure} ./exam_data/VLS_AC
+Als eerste wordt de invloed van de extensie van $\rm{BC}$ op de rotatie in $\rm{A}$ bepaald.
+
+```{figure} ./exam_data/phi_1.svg
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam_SOB_2
+```
+
+Evenwicht geeft:
+
+```{figure} ./exam_data/VLS_AC.svg
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam_SOB_2
 ```
@@ -95,7 +105,65 @@ $$
 \sum {T_{\rm{A}}} = 0 \to N_{\rm{OG}} = -50 + \frac{1}{3} \cdot A_{\rm{m}}
 $$
 
+Verlenging van een staaf geeft:
 
+$$
+\Delta L_{\rm{BC}} = -\cfrac{3}{64} + \cfrac{1}{3200} \cdot A_{\rm{m}}
+$$
+
+Williot geeft:
+
+```{figure} ./exam_data/williot.svg
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam_SOB_2
+```
+
+$$
+w_{\rm{C}} = -\cfrac{5}{64} + \cfrac{3}{16000} \cdot A_{\rm{m}} \, \left( \uparrow \right)
+$$
+
+Aanname van kleine rotaties geeft:
+
+$$
+\varphi_{\rm{A,} \, \rm{t.g.v.} \, \rm{extensie} \, \rm{BC}} = - \frac{1}{64} + \cfrac{1}{9600} \cdot A_{\rm{m}} \, \left( \circlearrowleft \right)
+$$
+
+Vervolgens kan ook de invloed van de buiging van $\rm{AB}$ ten gevolge van $\rm{A}$ bepaald worden.
+
+```{figure} ./exam_data/phi_2.svg
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam_SOB_2
+```
+
+Vergeet-me-nietje geeft:
+
+$$
+\varphi_{\rm{A,} \, \rm{t.g.v.} \, \rm{buiging} \, \rm{AC} \, \rm{t.g.v.} \, \rm{A_{\rm{m}}}} = \cfrac{1}{12000} \cdot A_{\rm{m}} \, \left( \circlearrowleft \right)
+$$
+
+En tot slot de invloed van de buiging van $\rm{AB}$ ten gevolge van de verdeelde belasting.
+
+```{figure} ./exam_data/phi_3.svg
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam_SOB_2
+```
+
+Vergeet-me-nietje geeft:
+
+$$
+\varphi_{\rm{A,} \, \rm{t.g.v.} \, \rm{buiging} \, \rm{AC} \, \rm{t.g.v.} \, \rm{verdeelde} \, \rm{belasting}} = \cfrac{1}{320} \, \left( \circlearrowright \right)
+$$
+
+De vormveranderingsvoorwaarde kan nu worden opgesteld:
+
+$$
+\begin{align*}
+0 &= \varphi_{\rm{A}} \\
+0 &= \varphi_{\rm{A,} \, \rm{t.g.v.} \, \rm{extensie} \, \rm{BC}} + \varphi_{\rm{A,} \, \rm{t.g.v.} \, \rm{buiging} \, \rm{AC} \, \rm{t.g.v.} \, \rm{A_{\rm{m}}}} - \varphi_{\rm{A,} \, \rm{t.g.v.} \, \rm{buiging} \, \rm{AC} \, \rm{t.g.v.} \, \rm{verdeelde} \, \rm{belasting}} \\
+0 &= - \cfrac{3}{160} + \cfrac{3}{16000} \cdot A_{\rm{m}} \\
+A_{\rm{m}} &= 100 \, \rm{kNm} \, \left( ◠ \right)
+\end{align*}
+$$
 
 ::::
 
@@ -109,3 +177,37 @@ Geef aan hoe je deze constructie zou kunnen oplossen met de verplaatsingenmethod
 Je hoeft geen berekeningen te maken.
 
 :::::
+
+::::{admonition} Oplossing
+:class: solution, dropdown
+
+Twee onafhankelijke vrijheidsgraden:
+- Verticale verplaatsing van $\rm{C}$
+- Rotatie van staaf $\rm{AC}$ in uiteinde $\rm{B}$
+
+Met bijbehorende vergeet-me nietjes voor $\rm{AC}$:
+
+  - Voor invloed van verdeelde belasting op dwarskracht net links van $\rm{C}$. 
+
+    ```{figure} ./exam_data/VMN_1.svg
+    :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam_SOB_2
+    ```
+
+  - Voor invloed van rotatie van $\rm{C}$
+
+    ```{figure} ./exam_data/VMN_2.svg
+    :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam_SOB_2
+    ```
+
+  - Voor invloed van verplaatsing van $\rm{C}$.
+
+    ```{figure} ./exam_data/VMN_3.svg
+    :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam_SOB_2
+    ```
+
+Voor $\rm{BC}$ is geen vergeet-me-nietje nodig.
+
+::::
