@@ -4,4 +4,4 @@ python -m venv venv
 source venv/Scripts/activate
 pip install -r requirements.txt sphinx-autobuild
 jupyter-book config sphinx book/
-sphinx-autobuild book book/_build/html --open-browser --ignore "book/build/**" --ignore "*.py"
+sphinx-autobuild book book/_build/html --open-browser --ignore "book/_build/**" --ignore "*.py"
