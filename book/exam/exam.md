@@ -2,7 +2,7 @@
 
 % source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam
 
-Je eigen indiening en de beoordeling daarvan is hier te vinden: [<img height="12px" src="../figures/ANS.svg" alt="ANS"> tentamenopdracht Statisch onbepaalde constructies 1](https://ans.app/universities/1/courses/577550/assignments/1516051/go_to).
+Je eigen indiening en de beoordeling daarvan is hier te vinden: [<img height="12px" src="../figures/ANS.svg" alt="ANS"> tentamenopdracht Statisch onbepaalde constructies](https://ans.app/universities/1/courses/577550/assignments/1516051/go_to).
 
 Gegeven is de volgende constructie:
 
