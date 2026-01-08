@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export constructie.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.40412in" height="2.76278in"
-		viewBox="0 0 389.096 198.92" xml:space="preserve" color-interpolation-filters="sRGB" class="st22">
+		viewBox="0 0 389.096 198.92" xml:space="preserve" color-interpolation-filters="sRGB" class="st23">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -29,7 +29,8 @@
 		.st19 {font-size:1em;font-style:normal}
 		.st20 {baseline-shift:32.4941%;font-size:0.649882em;font-style:normal}
 		.st21 {font-size:1em}
-		.st22 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st22 {fill:#000000;font-family:Times New Roman;font-size:0.666664em}
+		.st23 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -301,16 +302,36 @@
 			<g id="shape3289-179" v:mID="3289" v:groupContext="shape"
 					transform="translate(409.903,-18.3262) rotate(36.8699) scale(-1,1)">
 				<title>EI = oo.3289</title>
-				<desc>EABC = 8 MNm2 EIBC &#62;&#62; EABC</desc>
+				<desc>EABC = 8 MN EIBC &#62;&#62; EABC</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="70.8661" cy="191.834" width="141.74" height="14.1732"/>
 				<rect x="0" y="184.747" width="141.732" height="14.1732" class="st15"/>
-				<text x="-112.07" y="217.03" transform="scale(-1,1)" class="st17" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/><v:newlineChar/><v:newlineChar/><v:newlineChar/><v:newlineChar/>EA<tspan
+				<text x="-105.45" y="217.03" transform="scale(-1,1)" class="st17" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/><v:newlineChar/><v:newlineChar/><v:newlineChar/><v:newlineChar/>EA<tspan
 							dy="-0.279em" class="st18" v:baseFontSize="12">BC</tspan><tspan dy="0.181em" class="st19">  </tspan><tspan
-							class="st19">= 8 MNm</tspan><tspan dy="-0.198em" class="st20" v:baseFontSize="12">2<v:newlineChar/></tspan><tspan
-							x="-104.03" dy="1.329em" class="st21">EI</tspan><tspan dy="-0.279em" class="st18" v:baseFontSize="12">BC</tspan><tspan
-							dy="0.181em" class="st19"> </tspan><tspan class="st19">&#62;&#62; </tspan>EA<tspan dy="-0.279em"
-							class="st18" v:baseFontSize="12">BC</tspan></text>			</g>
+							class="st19">= 8 MN<v:newlineChar/></tspan><tspan x="-104.03" dy="1.2em" class="st21">EI</tspan><tspan
+							dy="-0.279em" class="st18" v:baseFontSize="12">BC</tspan><tspan dy="0.181em" class="st19"> </tspan><tspan
+							class="st19">&#62;&#62; </tspan>EA<tspan dy="-0.279em" class="st18" v:baseFontSize="12">BC</tspan></text>			</g>
+		</g>
+		<g id="group5678-191" transform="translate(182.926,-131.619)" v:mID="5678" v:groupContext="group">
+			<title>Hellingsdriehoek</title>
+			<g id="shape5679-192" v:mID="5679" v:groupContext="shape" transform="translate(22.6772,2.84217E-14)">
+				<title>Blad.5679</title>
+				<desc>3</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="5.66929" cy="190.416" width="11.34" height="17.0079"/>
+				<rect x="0" y="181.912" width="11.3386" height="17.0079" class="st14"/>
+				<text x="4" y="192.82" class="st22" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>3</text>			</g>
+			<g id="shape5680-195" v:mID="5680" v:groupContext="shape" transform="translate(3.59712E-14,-17.0079)">
+				<title>Blad.5680</title>
+				<desc>4</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="11.3386" cy="194.668" width="22.68" height="8.50394"/>
+				<rect x="0" y="190.416" width="22.6772" height="8.50394" class="st14"/>
+				<text x="9.34" y="197.07" class="st22" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>4</text>			</g>
+			<g id="shape5681-198" v:mID="5681" v:groupContext="shape">
+				<title>Blad.5681</title>
+				<path d="M22.68 198.92 L22.68 181.91 L0 181.91" class="st7"/>
+			</g>
 		</g>
 	</g>
 </svg>
