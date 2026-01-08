@@ -19,7 +19,7 @@ Laat zien dat deze constructie enkelvoudig statisch onbepaald is.
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
-Voor deze constructie is de inwendige statisch onbepaaldheid gelijk aan de uitwendig statisch onbepaaldheid.
+Voor deze constructie is de inwendige statisch onbepaaldheid gelijk aan de uitwendig statisch onbepaaldheid, dat hoeft niet expliciet benoemd te worden. Beide aanpakken zijn correct. In dit geval komt de berekening 5 onbekende oplegreacties - 1 scharnieren - 3 evenwichtsvergelijkingen ook uit, dus wordt ook goed gerekend.
 
 ```{figure} ./exam_data/splitsen.svg
 :align: center
@@ -48,7 +48,7 @@ Zorg voor vier verschillende varianten: je aanpassingen moeten elk een ander ond
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
-Een aantal mogelijk opties zijn
+Een aantal mogelijk opties zijn:
 
 ```{figure} ./exam_data/variant1.svg
 :align: center
