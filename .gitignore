@@ -140,3 +140,4 @@ pyproject.toml
 
 _git/
 _toc_with_local_paths.yml
+book/conf.py
