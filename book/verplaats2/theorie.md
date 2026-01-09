@@ -1,12 +1,15 @@
 # Instructie
 
-In de les van [](../verplaatsingenmethode/lesson.md) heb je de verplaatsingenmethode leren toepassen op zeer vergelijkbare wijze als de krachtenmethode. Echter, er is nog een andere verplaatsingenmethode. Een groot nadeel van de krachten- en verplaatsingenmethode van de vorige les is namelijk dat je de statisch onbepaalde constructie moet aanpassen tot een statisch bepaalde constructie. Dat kan soms lastig zijn. Bij de verplaatsingenmethode die we vandaag behandelen is dat niet nodig. In plaats van de constructie op te lossen voor een statisch onbepaalde kracht of verplaatsingen, lossen we de constructie op voor één of meerdere vrijheidsgraden die de vervorming van de constructie bepalen. 
+In de les van [](../verplaatsingenmethode/lesson.md) heb je de verplaatsingenmethode leren toepassen op zeer vergelijkbare wijze als de krachtenmethode. Echter, er is nog een andere verplaatsingenmethode. Een groot nadeel van de krachten- en verplaatsingenmethode van de vorige les is namelijk dat je de statisch onbepaalde constructie moet aanpassen tot een statisch bepaalde constructie. Dat kan soms lastig zijn. Bij de verplaatsingenmethode die we vandaag behandelen is dat niet nodig. In plaats van de constructie op te lossen voor een statisch onbepaalde kracht of verplaatsingen, lossen we de constructie op voor één of meerdere onafhankelijke vrijheidsgraden die de vervorming van de constructie bepalen. 
 
 ::::::{prf:algorithm} Verplaatsingenmethode
 :nonumber: true
 :label: verplaatsingenmethode_algoritme_2
 
-1. Kies één of meerdere vrijheidsgraden die de vervorming van de constructie bepalen en splits de constructie in of rondom die plek(ken).
+1. Kies één of meerdere onafhankelijke vrijheidsgraden die de vervorming van de constructie bepalen en splits de constructie in of rondom die plek(ken). Kies de vrijheidsgraden zo dat:
+    - Bij een verplaatsing van één vrijheidsgraad, de andere vrijheidsgraaden niet worden beïnvloed. 
+    - De gekozen vrijheidsgraden samen de vervorming van de hele constructie bepalen.
+    - De delen van de gesplitste constructie zo eenvoudig mogelijk zijn om te analyseren, het liefst op basis van vergeet-me-nietjes en verlengingen van staven.
 2. Bereken de krachten in de splitsing in termen van de onbekende vrijheidsgraden. Als je meerdere vrijheidsgraden hebt gedefinieerd, bereken dan de invloed van elke vrijheidsgraad los waarbij de andere vrijheidsgraden aan nul worden gesteld. Maak daarbij gebruik van de uitgebreide vergeet-me-nietjes in het geval van buiging.
 3. Gebruik evenwichtsvoorwaarden om de vrijheidsgraden op te lossen.
 
@@ -27,7 +30,10 @@ Voorbeeldconstructie, $EI_{\rm{AB}} = 1.5 \ \rm{MNm}^2, EI_{\rm{BC}} = 3 \ \rm{M
 
 ::::::
 
-1. Kies één of meerdere vrijheidsgraden die de vervorming van de constructie bepalen en splits de constructie in of rondom die plek(ken).
+1. Kies één of meerdere onafhankelijke vrijheidsgraden die de vervorming van de constructie bepalen en splits de constructie in of rondom die plek(ken). Kies de vrijheidsgraden zo dat:
+    - Bij een verplaatsing van één vrijheidsgraad, de andere vrijheidsgraaden niet worden beïnvloed. 
+    - De gekozen vrijheidsgraden samen de vervorming van de hele constructie bepalen.
+    - De delen van de gesplitste constructie zo eenvoudig mogelijk zijn om te analyseren, het liefst op basis van vergeet-me-nietjes en verlengingen van staven.
 
     ::::::{prf:example}
     :nonumber: true
