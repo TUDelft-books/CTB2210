@@ -132,7 +132,7 @@ Voor de berekening van inwendig statisch onbepaaldheid gelden de volgende stappe
 :nonumber: true
 :label: graad_inwendig_stat_onbepaaldheid
 
-1. Controleer of de constructie gesloten is. Als de constructie niet gesloten is, dan is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid en voldoet de berekening met {numref}`graad_uitwendig_stat_onbepaaldheid`. Zo niet, ga verder met stap 2.
+1. Controleer of de constructie gesloten is. Als de constructie niet gesloten is, dan is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid en voldoet de simpelere berekening voor uitwendige statisch onbepaaldheid. Zo niet, ga verder met stap 2.
 2. Splits constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor alle knopen, rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn:
    - Op een scharnierende verbinding en vrije- / scharnierende uiteindes werken geen buigende momenten
    - Op een staaf die verbonden is aan een roloplegging werkt enkel een kracht dwars op de rolrichting.
@@ -161,7 +161,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
 
 ::::::
 
-1. Controleer of de constructie gesloten is. Als de constructie niet gesloten is, dan is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid en voldoet de berekening met {numref}`graad_uitwendig_stat_onbepaaldheid`. Zo niet, ga verder met stap 2.
+1. Controleer of de constructie gesloten is. Als de constructie niet gesloten is, dan is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid en voldoet de simpelere berekening voor uitwendige statisch onbepaaldheid. Zo niet, ga verder met stap 2.
 
    ::::::{prf:example}
    :nonumber: true
