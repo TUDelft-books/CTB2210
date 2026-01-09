@@ -17,7 +17,7 @@ De inwendige statisch bepaaldheid is meer werk om te berekenen. Echter, als de c
 
 ```{figure} ./determinancy_data/gesloten_vs_open.svg
 ---
-name: example_sd
+name: gesloten_vs_open
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
 ---
