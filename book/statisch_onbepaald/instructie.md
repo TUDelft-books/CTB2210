@@ -4,8 +4,6 @@
 
 Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_2/session_1/intro.html
 
-% Figures from https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/determinancy_data/Tekening1.vsdx
-
 ```
 ```` 
 
@@ -15,11 +13,22 @@ Een constructie is statisch onbepaald wanneer deze niet meer enkel met evenwicht
 - Enkel oplegreacties kunnen worden bepaald (uitwendig statisch bepaald)
 - Inwendige krachten kunnnen worden bepaald (inwendig statisch bepaald)
 
+De inwendige statisch bepaaldheid is meer werk om te berekenen. Echter, als de constructie niet gesloten is, dat wil zeggen dat er geen gesloten 'lussen' in de constructie zitten, dan is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid.
+
+```{figure} ./determinancy_data/gesloten_vs_open.svg
+---
+name: example_sd
+align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+---
+Gesloten versus open constructie
+```
+
 Als evenwichtsvergelijkingen niet genoeg zijn is een constructie statisch onbepaald. De mate van statisch onbepaaldheid wordt uitgedrukt in de graad van statisch onbepaaldheid.
 
 Het is nodig de graad van statisch onbepaaldheid te bepalen om deze constructies met behulp van de krachtenmethode op te kunnen lossen.
 
-Deze twee categorieën worden samen behandeld in hoofdstuk 4.5.2 en 4.5.3 van het boek *Mechanica: Evenwicht* {cite:p}`Hartsuijker1999`. Voor vakwerken is de analyse versimpeld zoals beschreven in hoofdstuk 9.2.2 van het boek *Mechanica: Evenwicht* {cite:p}`Hartsuijker1999`. Alhoewel de getoonde vergelijkingen met $r$, $v$ en $e$ effectief kunnen zijn bij simpele constructies, leiden deze bij sommige complexere constructies tot verkeerde resultaten. Een aanpak die altijd werkt is hieronder getoond voor afzonderlijk uitwendig en inwendig statisch onbepaaldheid.
+Deze twee categorieën worden samen behandeld in hoofdstuk 4.5.2 en 4.5.3 van het boek *Mechanica: Evenwicht* {cite:p}`Hartsuijker1999`. Voor vakwerken is de analyse versimpeld zoals beschreven in hoofdstuk 9.2.2 van het boek *Mechanica: Evenwicht* {cite:p}`Hartsuijker1999`. Alhoewel de getoonde vergelijkingen met $r$, $v$ en $e$ simpel zijn, zijn ze niet volledig correct en leiden ze niet altijd tot de goede resultaten. Een aanpak die altijd werkt is hieronder getoond voor afzonderlijk uitwendig en inwendig statisch onbepaaldheid.
 
 ## Bepalen graad van uitwendig statisch onbepaaldheid
 
@@ -43,6 +52,7 @@ Voor de berekening van uitwendig statisch onbepaaldheid gelden de volgende stapp
 ---
 name: example_sd
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
 ---
 Voorbeeldconstructie
 ```
@@ -60,6 +70,7 @@ Als voorbeeld bepalen we de uitwendige statisch onbepaaldheid van deze construct
    ---
    name: example_sd_1
    align: center
+   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
    ---
    Gesplitste constructie
    ```
@@ -77,6 +88,7 @@ Als voorbeeld bepalen we de uitwendige statisch onbepaaldheid van deze construct
    ---
    name: example_sd_2
    align: center
+   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
    ---
    Aantal onbekende krachten
    ```
@@ -93,6 +105,7 @@ Als voorbeeld bepalen we de uitwendige statisch onbepaaldheid van deze construct
    ---
    name: example_sd_3
    align: center
+   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
    ---
    Aantal onbekende evenwichtsvergelijkingen
    ```
@@ -119,14 +132,15 @@ Voor de berekening van inwendig statisch onbepaaldheid gelden de volgende stappe
 :nonumber: true
 :label: graad_inwendig_stat_onbepaaldheid
 
-1. Splits constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor alle knopen, rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn:
+1. Controleer of de constructie gesloten is. Als de constructie niet gesloten is, dan is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid en voldoet de berekening met {numref}`graad_uitwendig_stat_onbepaaldheid`. Zo niet, ga verder met stap 2.
+2. Splits constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor alle knopen, rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn:
    - Op een scharnierende verbinding en vrije- / scharnierende uiteindes werken geen buigende momenten
    - Op een staaf die verbonden is aan een roloplegging werkt enkel een kracht dwars op de rolrichting.
    - Vanuit een pendelstaaf werkt alleen een normaalkracht
-2. Teken het vrijlichaamsschema voor de staven: teken de reactiekrachten op de staven ten gevolge van de krachten op de knopen.
-3. Tel het aantal onbekende krachten: oplegreacties en staafkrachten (de reactiekrachten tellen niet apart mee)
-4. Tel het aantal evenwichtsvergelijkingen: 1 evenwichtsvergelijking per pendelstaaf, 3 evenwichtsvergelijkingen per algemene staaf, 1 evenwichtsvergelijking voor een rolscharnier, 2 evenwichtsvergelijkingen per scharnierende knoop en 3 evenwichtsvergelijkingen per algemene knoop.
-5. De graad van statisch onbepaaldheid is het aantal oplegreacties + staafkrachten - aantal evenwichtsvergelijkingen
+3. Teken het vrijlichaamsschema voor de staven: teken de reactiekrachten op de staven ten gevolge van de krachten op de knopen.
+4. Tel het aantal onbekende krachten: oplegreacties en staafkrachten (de reactiekrachten tellen niet apart mee)
+5. Tel het aantal evenwichtsvergelijkingen: 1 evenwichtsvergelijking per pendelstaaf, 3 evenwichtsvergelijkingen per algemene staaf, 1 evenwichtsvergelijking voor een rolscharnier, 2 evenwichtsvergelijkingen per scharnierende knoop en 3 evenwichtsvergelijkingen per algemene knoop.
+6. De graad van statisch onbepaaldheid is het aantal oplegreacties + staafkrachten - aantal evenwichtsvergelijkingen
 
 ::::::
 
@@ -138,6 +152,7 @@ Voor de berekening van inwendig statisch onbepaaldheid gelden de volgende stappe
 ---
 name: example_sd_abc
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
 ---
 Voorbeeldconstructie
 ```
@@ -146,7 +161,16 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
 
 ::::::
 
-1. Splits constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor alle knopen, rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn:
+1. Controleer of de constructie gesloten is. Als de constructie niet gesloten is, dan is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid en voldoet de berekening met {numref}`graad_uitwendig_stat_onbepaaldheid`. Zo niet, ga verder met stap 2.
+
+   ::::::{prf:example}
+   :nonumber: true
+
+   De constructie is gesloten vanwege de los $\rm{BDC}$.
+
+   ::::::
+
+2. Splits constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor alle knopen, rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn:
    - Op een scharnierende verbinding en vrije- / scharnierende uiteindes werken geen buigende momenten
    - Op een staaf die verbonden is aan een roloplegging werkt enkel een kracht dwars op de rolrichting.
    - Vanuit een pendelstaaf werkt alleen een normaalkracht
@@ -158,6 +182,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    ---
    name: example_sd_4
    align: center
+   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
    ---
    Vrijlichaamsschema's knopen
    ```
@@ -166,7 +191,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
 
    ::::::
 
-2. Teken het vrijlichaamsschema voor de staven: teken de reactiekrachten op de staven ten gevolge van de krachten op de knopen.
+3. Teken het vrijlichaamsschema voor de staven: teken de reactiekrachten op de staven ten gevolge van de krachten op de knopen.
 
    ::::::{prf:example}
    :nonumber: true
@@ -175,6 +200,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    ---
    name: example_sd_5
    align: center
+   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
    ---
    Vrijlichaamsschema's staven
    ```
@@ -183,7 +209,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
 
    ::::::
 
-3. Tel het aantal onbekende krachten: oplegreacties en staafkrachten (de reactiekrachten tellen niet apart mee)
+4. Tel het aantal onbekende krachten: oplegreacties en staafkrachten (de reactiekrachten tellen niet apart mee)
 
    ::::::{prf:example}
    :nonumber: true
@@ -192,6 +218,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    ---
    name: example_sd_6
    align: center
+   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
    ---
    Aantal onbekende krachten
    ```
@@ -204,13 +231,14 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    ---
    name: example_sd_7
    align: center
+   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
    ---
    Aantal onbekende staafkrachten
    ```
 
    ::::::
 
-4. Tel het aantal evenwichtsvergelijkingen: 1 evenwichtsvergelijking per pendelstaaf, 3 evenwichtsvergelijkingen per algemene staaf, 1 evenwichtsvergelijking voor een rolscharnier, 2 evenwichtsvergelijkingen per scharnierende knoop en 3 evenwichtsvergelijkingen per algemene knoop.
+5. Tel het aantal evenwichtsvergelijkingen: 1 evenwichtsvergelijking per pendelstaaf, 3 evenwichtsvergelijkingen per algemene staaf, 1 evenwichtsvergelijking voor een rolscharnier, 2 evenwichtsvergelijkingen per scharnierende knoop en 3 evenwichtsvergelijkingen per algemene knoop.
 
    :::::{margin}
    ::::{versionchanged} v2025.0.3
@@ -225,6 +253,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    ---
    name: example_sd_9
    align: center
+   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
    ---
    Aantal evenwichtsvergelijkingen per staaf
    ```
@@ -235,6 +264,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    ---
    name: example_sd_8
    align: center
+   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
    ---
    Aantal evenwichtsvergelijkingen per knoop
    ```
@@ -245,7 +275,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
 
    ::::::
 
-5. De graad van statisch onbepaaldheid is het aantal oplegreacties + staafkrachten - aantal evenwichtsvergelijkingen
+6. De graad van statisch onbepaaldheid is het aantal oplegreacties + staafkrachten - aantal evenwichtsvergelijkingen
 
    ::::::{prf:example}
    :nonumber: true

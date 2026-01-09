@@ -2,13 +2,10 @@
 
 Gegeven is de volgende constructie:
 
-<!---
-Source file figure at https://github.com/TUDelft-books/CEG-mechanics-BSc/commit/45444efba567e493f0cde50fa7f32ab08e3af5c0
--->
-
 ```{figure} ./graad_bepalen_data/Oefening_1.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
 ---
 Constructie
 ```
@@ -36,6 +33,7 @@ Er zijn *6* onbekende oplegreacties en *32* onbekende staafkrachten. Dat zijn *3
 ```{figure} ./graad_bepalen_data/Oefening_2.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
 ---
 Aantal onbekende oplegreacties en staafkrachten op knopen
 ```
@@ -43,6 +41,7 @@ Aantal onbekende oplegreacties en staafkrachten op knopen
 ```{figure} ./graad_bepalen_data/Oefening_3.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
 ---
 Aantal onbekende staafkrachten op staven
 ```
@@ -70,6 +69,7 @@ Er zijn *0* evenwichtsvergelijkingen vanuit rolscharnieren, *6* evenwichtsvergel
 ```{figure} ./graad_bepalen_data/Oefening_4.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
 ---
 Aantal evenwichtsvergelijkingen voor de knopen
 ```
@@ -77,6 +77,7 @@ Aantal evenwichtsvergelijkingen voor de knopen
 ```{figure} ./graad_bepalen_data/Oefening_5.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
 ---
 Aantal evenwichtsvergelijkingen voor de staven
 ```
