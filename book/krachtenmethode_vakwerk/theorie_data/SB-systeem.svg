@@ -39,7 +39,7 @@
 
 	<defs id="Markers">
 		<g id="lend5">
-			<path d="M 2 1 L 0 0 L 1.98117 -0.993388 C 1.67173 -0.364516 1.67301 0.37264 1.98465 1.00043 " style="stroke:none"/>
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
 		</g>
 		<marker id="mrkr5-19" class="st5" v:arrowType="5" v:arrowSize="0" v:setback="3.85" refX="-3.85" orient="auto"
 				markerUnits="strokeWidth" overflow="visible">
@@ -209,7 +209,7 @@
 			<v:textRect cx="7.08661" cy="213.159" width="14.18" height="14.1732"/>
 			<rect x="0" y="206.073" width="14.1732" height="14.1732" class="st7"/>
 			<text x="4" y="216.76" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>C</text>		</g>
-		<g id="shape258-101" v:mID="258" v:groupContext="shape" transform="translate(85.4144,-38.4535)">
+		<g id="shape258-101" v:mID="258" v:groupContext="shape" transform="translate(99.5876,-38.4535)">
 			<title>Punt A.258</title>
 			<desc>B</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
@@ -260,6 +260,28 @@
 		<g id="shape297-142" v:mID="297" v:groupContext="shape" transform="translate(66.2805,-208.532)">
 			<title>Blad.297</title>
 			<path d="M0 220.25 L8.5 220.25" class="st2"/>
+		</g>
+		<g id="group374-145" transform="translate(305.66,171.871) rotate(90)" v:mID="374" v:groupContext="group">
+			<title>Rol.374</title>
+			<g id="group375-146" transform="translate(0.261477,-2.83465)" v:mID="375" v:groupContext="group">
+				<title>Scharnier</title>
+				<g id="shape376-147" v:mID="376" v:groupContext="shape" transform="translate(2.79729,0)">
+					<title>Blad.376</title>
+					<path d="M0 220.25 L13.99 220.25 L6.99 208.91 L0 220.25 Z" class="st1"/>
+				</g>
+				<g id="shape377-149" v:mID="377" v:groupContext="shape" transform="translate(2.79729,440.492) rotate(180)">
+					<title>Blad.377</title>
+					<path d="M0 220.25 L2.8 220.25" class="st2"/>
+				</g>
+				<g id="shape378-152" v:mID="378" v:groupContext="shape" transform="translate(16.7838,0)">
+					<title>Blad.378</title>
+					<path d="M0 220.25 L2.8 220.25" class="st2"/>
+				</g>
+			</g>
+			<g id="shape379-155" v:mID="379" v:groupContext="shape">
+				<title>Blad.379</title>
+				<path d="M0 220.25 L19.84 220.25" class="st2"/>
+			</g>
 		</g>
 	</g>
 </svg>

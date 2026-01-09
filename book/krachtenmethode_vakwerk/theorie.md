@@ -12,22 +12,29 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
 
     `````{tab-set}
     ````{tab-item} Weghalen oplegging
-    % Figures from https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/force_method_data/Tekening1.vsdx
     ```{figure} theorie_data/1.svg
     :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
     ```
     ````
     ````{tab-item} Splitsen constructie bij pendelstaven
     ```{figure} theorie_data/2.svg
     :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
     ```
     ````
     ````{tab-item} Toevoegen scharnieren
     ```{figure} theorie_data/3.svg
     :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
     ```
     ````
     `````
+    
+    Er zijn meestal meerdere mogelijkheden om dit te doen, kies de optie die het makkelijkst is uit te rekenen. Teken daarvoor  de vervormde constructie ten gevolge van individuele krachten (inclusief de statisch onbepaalde kracht):
+    
+    - Een makkelijk model is een model waarbij knopen zoveel mogelijk op z'n plek blijven bij vervorming; waarbij er zo min mogelijk starre verplaatsingen en rotaties optreden.
+    - Een makkelijk model is een model waarbij de verplaatsingen worden beschreven met starre verplaatsingen en rotaties, vergeet-me-nietjes en/of verlengingen van staven.
 
 3. Los de verplaatsing op in termen van de onbekende onbepaalde krachten zoals je normaal zou doen voor een statisch bepaalde constructie.
 4. Gebruik je vervormingsvoorwaarden om de statisch onbepaalde krachten op te lossen.
@@ -43,6 +50,7 @@ We behandelen de toepassing op vakwerkconstructies met het volgende voorbeeld.
 ```{figure} ./theorie_data/constructie.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
 ---
 Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming enkel veroorzaakt door extensie, niet door buiging. $EA = 2.5 \ \rm{MN}, EI = \infty$
 ```
@@ -60,6 +68,7 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
     ```{figure} ./theorie_data/statisch_onbepaaldheid.svg
     ---
     align: center
+    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
     ---
     Er zijn 6 onbekende krachten en 5 evenwichtsvergelijkingen
     ```
@@ -78,18 +87,19 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
 
     ```{figure} ./theorie_data/options.svg
     :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
     ```
 
-    De eerste optie wordt gekozen.
+    De verplaatsingen van elke constructie kunnen geschetst worden.
+    
+    ```{figure} ./theorie_data/verplaatsingen.svg
+    :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    ```
+
+    Alle drie de opties zijn uit te rekenen met de verlenging van staven. De eerste optie wordt gekozen.
 
     ::::::
-
-
-:::::::{margin}
-::::::{versionchanged} v2025.5.1
-2025-09-09, Correctie normaalkracht en verlenging
-::::::
-:::::::
 
 3. Los de verplaatsing op in termen van de onbekende onbepaalde krachten zoals je normaal zou doen voor een statisch bepaalde constructie.
 
@@ -102,6 +112,7 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
     ```{figure} ./theorie_data/SB-systeem.svg
     ---
     align: center
+    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
     ---
     De statisch bepaalde constructie met vervormingsvoorwaarde, $EA = 2.5 \ \rm{MN}, EI = \infty$
     ```
@@ -142,6 +153,7 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
 
     ```{figure} ./theorie_data/Nlijn.svg
     :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
     ```
 
     ::::::
