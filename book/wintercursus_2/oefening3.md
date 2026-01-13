@@ -78,9 +78,9 @@ De zakking en rotatie van $\rm{C}$ zijn berekend:
 
 $$
 \begin{align*}
-w_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 4^3}{3 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 4^2}{2 \cdot 320000} + \cfrac{512 \cdot 4^2}{2 \cdot 320000} \\
+w_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 5^3}{3 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 5^2}{2 \cdot 320000} + \cfrac{512 \cdot 5^2}{2 \cdot 320000} \\
 w_{\rm{C}} &=-\cfrac{A_{\rm{h}}}{6400} - \cfrac{A_{\rm{v}}}{7680} + \cfrac{1663}{32000} \left(↓\right)\\
-\varphi_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 4^2}{2 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 4}{320000} + \cfrac{512 \cdot 4}{320000} \\
+\varphi_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 5^2}{2 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 5}{320000} + \cfrac{512 \cdot 5}{320000} \\
 \varphi_{\rm{C}} &= -\cfrac{A_{\rm{h}}}{16000} - \cfrac{A_{\rm{v}}}{25600} + \cfrac{6187}{320000} \left( ↺ \right)
 \end{align*}
 $$
