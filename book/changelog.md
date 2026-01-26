@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2025-01-26: v2025.27.0
+Toevoegen [26 januari: Tentamenopdracht](./exam2/lesson.md).
+
 ## 2025-01-06: v2025.26.0
 Toevoegen antwoorden aan [5 januari: Wintercursus stijfheidsinvloeden, steunpuntszettingen en temperatuursinvloeden](./wintercursus_2/lesson.md).
 
