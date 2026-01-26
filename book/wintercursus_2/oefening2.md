@@ -206,6 +206,7 @@ De verplaatsing en rotatie van $\rm{C}$ kunnen worden bepaald met vergeet-me-nie
 
 ```{figure} oefening1_data/BC2.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$
@@ -223,6 +224,7 @@ Nu kan de verplaatsing van $\rm{A}$ worden bepaald met de verticale verplaatsing
 
 ```{figure} oefening1_data/AC2.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$
