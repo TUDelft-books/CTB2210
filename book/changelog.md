@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2025-02-09: v2025.27.1
+Typefoutjes in antwoorden van [26 januari: Tentamenopdracht](./exam2/lesson.md) gecorrigeerd.
+
 ## 2025-01-26: v2025.27.0
 Toevoegen [26 januari: Tentamenopdracht](./exam2/lesson.md).
 

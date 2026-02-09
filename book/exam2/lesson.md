@@ -103,7 +103,7 @@ Evenwicht geeft:
 ```
 
 $$
-\sum {T_{\rm{A}}} = 0 \to N_{\rm{OG}} = -50 + \frac{1}{3} \cdot A_{\rm{m}}
+\sum {T_{\rm{A}}} = 0 \to N_{\rm{BC}} = -50 + \frac{1}{3} \cdot A_{\rm{m}}
 $$
 
 Verlenging van een staaf geeft:
@@ -120,7 +120,7 @@ Williot geeft:
 ```
 
 $$
-w_{\rm{C}} = -\cfrac{5}{64} + \cfrac{3}{16000} \cdot A_{\rm{m}} \, \left( \uparrow \right)
+w_{\rm{B}} = -\cfrac{5}{64} + \cfrac{3}{16000} \cdot A_{\rm{m}} \, \left( \uparrow \right)
 $$
 
 Aanname van kleine rotaties geeft:
