@@ -182,32 +182,18 @@ Je hoeft geen berekeningen te maken.
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
-Twee onafhankelijke vrijheidsgraden:
-- Verticale verplaatsing van $\rm{C}$
-- Rotatie van staaf $\rm{AC}$ in uiteinde $\rm{B}$
+De verticale verplaatsing in $\rm{B}$ beschrijft de vervorming van de volledige constructie.
 
 Met bijbehorende vergeet-me nietjes voor $\rm{AC}$:
 
-  - Voor invloed van verdeelde belasting op dwarskracht net links van $\rm{C}$. 
+  - Voor invloed van verdeelde belasting op dwarskracht net links van $\rm{C}(kan ook zonder roloplegging):
 
     ```{figure} ./exam_data/VMN_1.svg
     :align: center
     :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam_SOB_2
     ```
 
-  - Voor invloed van rotatie van $\rm{C}$
-
-    ```{figure} ./exam_data/VMN_2.svg
-    :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam_SOB_2
-    ```
-
-  - Voor invloed van verplaatsing van $\rm{C}$.
-
-    ```{figure} ./exam_data/VMN_3.svg
-    :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam_SOB_2
-    ```
+  - Voor invloed van verplaatsing van $\rm{C}$ een uitkragende ligger met een kracht op het uiteinde.
 
 Voor $\rm{BC}$ is geen vergeet-me-nietje nodig.
 
