@@ -24,4 +24,4 @@ Zie je een fout? Klik op {octicon}`mark-github` --> {fa}`lightbulb`, log in met 
 Wil je dit TeachBook persoonlijker maken door (privé of publieke) annotaties toe te voegen? Dan raad ik de [Hypothesis-extensie](https://web.hypothes.is/start/) aan. Dit is alleen voor eigen gebruik, ik monitor geen publieke posts op dit platform.
 
 ## Versie 🗓️
-Dit is de `2025-2026`-versie van het TeachBook. Ga naar [https://oit.tudelft.nl/CTB2210](https://oit.tudelft.nl/CT2210) voor de meest recente versie van dit TeachBook, of pas het jaartal aan in [/CTB2210/2025](https://oit.tudelft.nl/CTB2210/2025) naar het jaar waarin je de cursus volgde.
+Dit is de `2026-2027`-versie van het TeachBook. Ga naar [https://oit.tudelft.nl/CTB2210](https://oit.tudelft.nl/CT2210) voor de meest recente versie van dit TeachBook, of pas het jaartal aan in [/CTB2210/2026](https://oit.tudelft.nl/CTB2210/2026) naar het jaar waarin je de cursus volgde.
