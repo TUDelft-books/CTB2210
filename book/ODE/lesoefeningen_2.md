@@ -4,8 +4,6 @@
 
 Deze oefening is aangepast van https://oit.tudelft.nl/CT1000/2024/week_3/session_1/intro.html
 
-% Figures from https://github.com/TUDelft-books/CT1000/blob/2025/book/week_3/session_1/intro_data/Tekening1.vsdx
-
 ```
 ```` 
 
@@ -16,6 +14,7 @@ Gegeven is de volgende constructie:
 ```{figure} lesoefeningen_data/figure3.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/sympy_6
 ---
 Constructie, $EA = 20000 \ \rm{kN}$
 ```
