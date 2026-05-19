@@ -1,19 +1,11 @@
-````{margin}
-```{attributiongrey} Attribution
-:class: attribution
-
-Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_2/session_1/intro.html
-
-```
-```` 
-
 # Instructie
 
 Een constructie is statisch onbepaald wanneer deze niet meer enkel met evenwichtsvergelijkingen kan worden opgelost. Er kan hierbij onderscheid worden gemaakt tussen:
-- Enkel oplegreacties kunnen worden bepaald (uitwendig statisch bepaald)
-- Inwendige krachten kunnnen worden bepaald (inwendig statisch bepaald)
 
-De inwendige statisch bepaaldheid is meer werk om te berekenen. Echter, als de constructie niet gesloten is, dat wil zeggen dat er geen gesloten 'lussen' in de constructie zitten, dan is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid.
+- Enkel oplegreacties kunnen worden bepaald (uitwendig statisch bepaald)
+- Inwendige krachten kunnen worden bepaald (inwendig statisch bepaald)
+
+De inwendige statisch bepaaldheid is meer werk om te berekenen. Als de constructie open is, dat wil zeggen dat er geen gesloten 'lussen' in de constructie zitten, is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid. Je kan dan 
 
 ```{figure} ./determinancy_data/gesloten_vs_open.svg
 ---
@@ -38,12 +30,14 @@ Voor de berekening van uitwendig statisch onbepaaldheid gelden de volgende stapp
 :nonumber: true
 :label: graad_uitwendig_stat_onbepaaldheid
 
-1. Splits de constructie in zo vormvaste delen die los van de opleggingen ten opzichte van elkaar kunnen roteren. Teken het vrijlichaamsschema van deze scharnierende delen. Hierop werken in ieder geval de oplegreacties en eventuele uitwendige krachten. In de scharnierende verbinding werken twee onbekende krachten: horizontaal en verticaal. Deze krachten in de verbinding hebben een even grote tegengestelde reactiekracht op het aansluitende deel.
+1. Splits de constructie in alle vormvaste delen die ten opzichte van elkaar kunnen roteren als je de opleggingen zou weghalen. Teken het vrijlichaamsschema van deze scharnierende delen. Hierop werken in ieder geval de oplegreacties. In de scharnierende verbinding werken twee onbekende krachten: horizontaal en verticaal. Deze krachten in de verbinding hebben een even grote tegengestelde reactiekracht op het aansluitende deel.
 2. Tel het aantal onbekende krachten: de oplegreacties en verbindingskrachten in de scharnieren (de reactiekrachten tellen niet apart mee)
 3. Tel het evenwichtsvergelijkingen: 3 evenwichtsvergelijkingen per vormvaste deel van de constructie
 4. De graad van statisch onbepaaldheid is het aantal oplegreacties + verbindingskrachten - aantal evenwichtsvergelijkingen
 
 ::::::
+
+Als voorbeeld bepalen we de uitwendige statisch onbepaaldheid van onderstaande constructie.
 
 ::::::{prf:example}
 :nonumber: true
@@ -53,11 +47,10 @@ Voor de berekening van uitwendig statisch onbepaaldheid gelden de volgende stapp
 name: example_sd
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+figclass: sticky-margin
 ---
 Voorbeeldconstructie
 ```
-
-Als voorbeeld bepalen we de uitwendige statisch onbepaaldheid van deze constructie.
 
 ::::::
 
@@ -239,12 +232,6 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    ::::::
 
 5. Tel het aantal evenwichtsvergelijkingen: 1 evenwichtsvergelijking per pendelstaaf, 3 evenwichtsvergelijkingen per algemene staaf, 1 evenwichtsvergelijking voor een rolscharnier, 2 evenwichtsvergelijkingen per scharnierende knoop en 3 evenwichtsvergelijkingen per algemene knoop.
-
-   :::::{margin}
-   ::::{versionchanged} v2025.0.3
-   2025-09-01: verkeerd figuur vervangen door [](example_sd_8)
-   ::::
-   :::::
 
    ::::::{prf:example}
    :nonumber: true
