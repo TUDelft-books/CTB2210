@@ -204,7 +204,7 @@ jobs:
           git add .
           
           # Commit and capture hash if there are staged changes
-          git commit -m "Generate assignment version" && {
+          git commit -m "Generate student version" && {
             COMMIT_HASH=$(git rev-parse HEAD)
             echo "Captured commit hash: $COMMIT_HASH"
             
