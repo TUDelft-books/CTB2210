@@ -198,6 +198,8 @@ jobs:
 
       - name: Delete old branches and recreate from cleaned source
         run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
           # Delete remote branches to start fresh (ignore errors if they don't exist)
           git push origin --delete 2026-draft 2>/dev/null || true
