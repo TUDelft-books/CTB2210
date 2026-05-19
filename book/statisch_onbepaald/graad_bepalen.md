@@ -5,33 +5,43 @@ Gegeven is de volgende constructie:
 ```{figure} graad_bepalen_data/Oefening_6.svg
 ---
 align: center
+figclass: sticky-margin
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_2
 ---
 Constructie
 ```
 
 Bepaal de graad van uitwendig statisch onbepaaldheid.
 
-`````{exercise}
-:label: so_2_1
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden delen en teken het vrijlichaamsschema van de scharnierende delen.
+---
+M[7]
+M[6]
+M[13]
+^^^
+? Splits de constructie in alle vormvaste delen die ten opzichte van elkaar kunnen roteren als je de opleggingen zou weghalen. Teken het vrijlichaamsschema van deze scharnierende delen.
 
-```{h5p} https://tudelft.h5p.com/content/1292612545160457437/embed
-```
+Er zijn {gap} onbekende oplegreacties en {gap} onbekende verbindingskrachten. Dat zijn {gap} onbekende krachten in totaal.
+---
 
-`````
+::::
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
-
-Er zijn *7* onbekende oplegreacties en *6* onbekende verbindingskrachten. Dat zijn *13* onbekende krachten in totaal.
 
 ```{figure} graad_bepalen_data/Oefening_8.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_2
 ---
 Aantal onbekende krachten
 ```
@@ -40,25 +50,33 @@ Aantal onbekende krachten
 
 % solution_end
 
-`````{exercise}
-:label: so_2_2
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292612546255043757/embed
-```
+---
+M[12]
+^^^
+? Tel het evenwichtsvergelijkingen: 3 evenwichtsvergelijkingen per vormvaste deel van de constructie
 
-`````
+Er zijn {gap} evenwichtsvergelijkingen
+---
+
+::::
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
-
-Er zijn *12* evenwichtsvergelijking(en).
 
 ```{figure} graad_bepalen_data/Oefening_9.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_2
 ---
 Aantal evenwichtsvergelijkingen
 ```
@@ -67,21 +85,30 @@ Aantal evenwichtsvergelijkingen
 
 % solution_end
 
-`````{exercise}
-:label: so_2_3
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292612546677182677/embed
-```
+---
+M[1]
+^^^
+? De graad van statisch onbepaaldheid is het aantal oplegreacties + verbindingskrachten - aantal evenwichtsvergelijkingen
 
-`````
+De constructie is {gap}ste/de graads uitwendig statisch onbepaald
+---
+
+::::
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
-De constructie is *1*ste/de graads uitwendig statisch onbepaald
+$$13 - 12 = 1 $$
 
 ::::
 

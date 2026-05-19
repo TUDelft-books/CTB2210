@@ -9,6 +9,7 @@ Source file figure at https://github.com/TUDelft-books/CTB2210/commit/82305d68f2
 ```{figure} graad_bepalen_data/Oefening_10.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
 ---
 Constructie
 ```
@@ -36,6 +37,7 @@ Er zijn *3* onbekende oplegreacties en *0* onbekende verbindingskrachten. Dat zi
 ```{figure} graad_bepalen_data/Oefening_11.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
 ---
 Aantal onbekende krachten
 ```
@@ -63,6 +65,7 @@ Er zijn *3* evenwichtsvergelijking(en).
 ```{figure} graad_bepalen_data/Oefening_12.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
 ---
 Aantal evenwichtsvergelijkingen
 ```
@@ -112,6 +115,7 @@ Er zijn *3* onbekende oplegreacties en *19* onbekende staafkrachten. Dat zijn *2
 ```{figure} graad_bepalen_data/Oefening_13.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
 ---
 Aantal onbekende oplegreacties en staafkrachten op knopen
 ```
@@ -119,6 +123,7 @@ Aantal onbekende oplegreacties en staafkrachten op knopen
 ```{figure} graad_bepalen_data/Oefening_15.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
 ---
 Aantal onbekende staafkrachten op staven
 ```
@@ -146,6 +151,7 @@ Er zijn *1* evenwichtsvergelijking(en) vanuit rolscharnieren, *2* evenwichtsverg
 ```{figure} graad_bepalen_data/Oefening_14.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
 ---
 Aantal evenwichtsvergelijkingen voor de knopen
 ```
@@ -153,6 +159,7 @@ Aantal evenwichtsvergelijkingen voor de knopen
 ```{figure} graad_bepalen_data/Oefening_16.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
 ---
 Aantal evenwichtsvergelijkingen voor de staven
 ```

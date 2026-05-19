@@ -30,7 +30,7 @@ Voor de berekening van uitwendig statisch onbepaaldheid gelden de volgende stapp
 :nonumber: true
 :label: graad_uitwendig_stat_onbepaaldheid
 
-1. Splits de constructie in alle vormvaste delen die ten opzichte van elkaar kunnen roteren als je de opleggingen zou weghalen. Teken het vrijlichaamsschema van deze scharnierende delen. Hierop werken in ieder geval de oplegreacties. In de scharnierende verbinding werken twee onbekende krachten: horizontaal en verticaal. Deze krachten in de verbinding hebben een even grote maar tegengestelde reactiekracht op het aansluitende deel.
+1. Splits de constructie in alle vormvaste delen die ten opzichte van elkaar kunnen roteren als je de opleggingen zou weghalen. Teken het vrijlichaamsschema van deze scharnierende delen.
 2. Tel het aantal onbekende krachten: de oplegreacties en verbindingskrachten in de scharnieren (de even grote maar tegengestelde reactiekrachten tellen niet apart mee)
 3. Tel het evenwichtsvergelijkingen: 3 evenwichtsvergelijkingen per vormvaste deel van de constructie
 4. De graad van statisch onbepaaldheid is het aantal oplegreacties + verbindingskrachten - aantal evenwichtsvergelijkingen
@@ -54,7 +54,7 @@ Voorbeeldconstructie
 
 ::::::
 
-1. Splits de constructie in alle vormvaste delen die ten opzichte van elkaar kunnen roteren als je de opleggingen zou weghalen. Teken het vrijlichaamsschema van deze scharnierende delen. Hierop werken in ieder geval de oplegreacties. In de scharnierende verbinding werken twee onbekende krachten: horizontaal en verticaal. Deze krachten in de verbinding hebben een even grote maar tegengestelde reactiekracht op het aansluitende deel.
+1. Splits de constructie in alle vormvaste delen die ten opzichte van elkaar kunnen roteren als je de opleggingen zou weghalen. Teken het vrijlichaamsschema van deze scharnierende delen.
 
    ::::::{prf:example}
    :nonumber: true
@@ -129,13 +129,13 @@ Voor de berekening van inwendig statisch onbepaaldheid gelden de volgende stappe
 :label: graad_inwendig_stat_onbepaaldheid
 
 1. Controleer of de constructie open is. Als de constructie open is, dan is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid en voldoet de simpelere berekening voor uitwendige statisch onbepaaldheid. Zo niet, ga verder met stap 2.
-2. Splits constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor mogelijke krachten op de knopen. Houd daarbij rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn.
+2. Splits de constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor mogelijke krachten op de knopen. Houd daarbij rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn.
 3. Teken het vrijlichaamsschema voor de staven: teken de even grote maar tegengestelde reactiekrachten op de staven ten gevolge van de krachten op de knopen.
 4. Tel het aantal onbekende krachten: oplegreacties en staafkrachten (de even grote maar tegengestelde reactiekrachten tellen niet apart mee)
 5. Tel het aantal onafhankelijke evenwichtsvergelijkingen dat je op elk vrijlichaamsschema kan toepassen om de onbekende krachten te bepalen.
 6. De graad van statisch onbepaaldheid is het aantal onbekende oplegreacties + onbekende staafkrachten - aantal evenwichtsvergelijkingen
 
-Eventueel kan je ook nog onderscheid maken tussen pendelstaven. In dat geval zijn er minder onbekende krachten, maar heb je per pendelstaaf ook maar 1 evenwichtsvergelijking. Let in dat geval op dat je bij de aansluitende knopen niet te veel evenwichtsvergelijkingen meeneetm.
+Eventueel kan je ook nog onderscheid maken tussen pendelstaven en reguliere staven. In dat geval zijn er minder onbekende krachten, maar heb je per pendelstaaf ook maar 1 evenwichtsvergelijking. Let in dat geval op dat je bij de aansluitende knopen niet te veel evenwichtsvergelijkingen meeneemt.
 
 ::::::
 
