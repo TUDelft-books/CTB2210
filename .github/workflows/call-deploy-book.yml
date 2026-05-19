@@ -184,6 +184,7 @@ jobs:
                       # Save the modified notebook
                       with open(notebook_file, 'w') as f:
                           nbformat.write(notebook, f)
+                    "
 
       - name: Delete old branches and recreate from cleaned source
         run: |
