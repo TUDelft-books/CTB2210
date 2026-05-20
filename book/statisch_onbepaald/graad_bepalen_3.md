@@ -2,13 +2,10 @@
 
 Gegeven is de volgende constructie:
 
-<!---
-Source file figure at https://github.com/TUDelft-books/CTB2210/commit/82305d68f288549026535b13e5855e7ed14f409b#diff-b8d68fffb036594f3ca5244ddaa4b07bd9ce1fe1b9dfb25cff26bb3cb756aa75
--->
-
 ```{figure} graad_bepalen_data/Oefening_10.svg
 ---
 align: center
+figclass: sticky-margin
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
 ---
 Constructie
@@ -16,23 +13,34 @@ Constructie
 
 Bepaal de graad van uitwendig en inwendig statisch onbepaaldheid.
 
-`````{exercise}
-:label: so_3_1
-:nonumber: true
+## Uitwendig statisch onbepaaldheid
 
-Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden delen en teken het vrijlichaamsschema van de scharnierende delen.
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292615284867296507/embed
-```
+---
+M[3]
+M[0]
+> Hoewel de constructie uit twee delen bestaat verbonden met scharnieren, kunnen deze twee delen niet ten opzichte van elkaar roteren.
+M[3]
+^^^
+? Splits de constructie in alle vormvaste delen die ten opzichte van elkaar kunnen roteren als je de opleggingen zou weghalen. Teken het vrijlichaamsschema van deze scharnierende delen.
 
-`````
+Er zijn {gap} onbekende oplegreacties en {gap} onbekende verbindingskrachten. Dat zijn {gap} onbekende krachten in totaal.
+---
+
+::::
+
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
-
-Er zijn *3* onbekende oplegreacties en *0* onbekende verbindingskrachten. Dat zijn *3* onbekende krachten in totaal.
 
 ```{figure} graad_bepalen_data/Oefening_11.svg
 ---
@@ -46,21 +54,28 @@ Aantal onbekende krachten
 
 % solution_end
 
-`````{exercise}
-:label: so_3_2
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292615285293314797/embed
-```
+---
+M[3]
+^^^
+? Tel het evenwichtsvergelijkingen: 3 evenwichtsvergelijkingen per vormvaste deel van de constructie
 
-`````
+Er zijn {gap} evenwichtsvergelijkingen
+---
+
+::::
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
-
-Er zijn *3* evenwichtsvergelijking(en).
 
 ```{figure} graad_bepalen_data/Oefening_12.svg
 ---
@@ -74,40 +89,61 @@ Aantal evenwichtsvergelijkingen
 
 % solution_end
 
-`````{exercise}
-:label: so_3_3
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292615285591579477/embed
-```
+---
+M[0]
+^^^
+? De graad van statisch onbepaaldheid is het aantal oplegreacties + verbindingskrachten - aantal evenwichtsvergelijkingen
 
-`````
+De constructie is {gap}ste/de graads uitwendig statisch onbepaald
+---
+
+::::
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
-De constructie is *0*ste/de graads uitwendig statisch onbepaald
+$3 - 3 = 0$
 
 ::::
 
 % solution_end
 
-`````{exercise}
-:label: so_3_4
-:nonumber: true
+## Inwendig statisch onbepaaldheid
 
-Splits constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor alle knopen en teken de vrijlichaamsschema's voor de staven
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292615285960301817/embed
-```
+---
+M[3]
+M[20]
+> Bij de staafaansluitingen rondom $\rm{A}$, boven $\rm{D}$ en links van $\rm{C}$ zijn er geen momenten vanwege de scharnierende verbindingen. De andere aansluitingen hebben wel momenten.
+M[23]
+^^^
+? Splits de constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor mogelijke krachten op de knopen. Houd daarbij rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn.
 
-`````
+Er zijn {gap} onbekende oplegreacties en {gap} onbekende staafkrachten. Dat zijn {gap} onbekende krachten in totaal.
+---
+
+::::
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Er zijn *3* onbekende oplegreacties en *19* onbekende staafkrachten. Dat zijn *22* onbekende krachten in totaal.
@@ -132,21 +168,32 @@ Aantal onbekende staafkrachten op staven
 
 % solution_end
 
-`````{exercise}
-:label: so_3_5
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292615286356377247/embed
-```
+---
+M[10]
+> Voor elke knoop waar momenten op werken zijn er $3$ evenwichtsvergelijkingen, voor de andere $2$.
+M[12]
+> Voor elke staaf zijn er $3$ evenwichtsvergelijkingen.
+M[22]
+^^^
+? Splits de constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor mogelijke krachten op de knopen. Houd daarbij rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn.
 
-`````
+Er zijn {gap} evenwichtsvergelijkingen vanuit knopen en {gap} vanuit staven. Dat zijn {gap} evenwichtsvergelijkingen in totaal.
+---
+
+::::
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
-
-Er zijn *1* evenwichtsvergelijking(en) vanuit rolscharnieren, *2* evenwichtsvergelijking(en) vanuit scharnierende verbindingen, *6* evenwichtsvergelijking(en) vanuit algemene verbindingen, *0* evenwichtsvergelijking(en) vanuit pendelstaven en *12* evenwichtsvergelijking(en) vanuit algemene staven. Dat zijn *21* evenwichtsvergelijkingen in totaal.
 
 ```{figure} graad_bepalen_data/Oefening_14.svg
 ---
@@ -168,21 +215,30 @@ Aantal evenwichtsvergelijkingen voor de staven
 
 % solution_end
 
-`````{exercise}
-:label: so_3_6
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292615286690175927/embed
-```
+---
+M[1]
+^^^
+? De graad van statisch onbepaaldheid is het aantal oplegreacties + verbindingskrachten - aantal evenwichtsvergelijkingen
 
-`````
+De constructie is {gap}ste/de graads uitwendig statisch onbepaald.
+---
+
+::::
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
-De constructie is *1*ste/de graads inwendig statisch onbepaald
+$23 - 22 = 1 $
 
 ::::
 

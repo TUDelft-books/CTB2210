@@ -25,7 +25,9 @@ Bepaal de graad van inwendig statisch onbepaaldheid. Hoewel je onderscheid kan m
 
 ---
 M[6]
+> Elk van de scharnierende opleggingen heeft $2$ oplegreacties.
 M[34]
+> Bij $\rm{A}$, onder $\rm{D}$, rondom $\rm{E}$ en rondom $\rm{G}$ zijn er geen momenten vanwege de scharnierende verbindingen. De andere aansluitingen hebben wel momenten.
 M[40]
 ^^^
 ? Splits de constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor mogelijke krachten op de knopen. Houd daarbij rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn.
@@ -72,7 +74,9 @@ Er zijn *6* onbekende oplegreacties en *34* onbekende staafkrachten. Dat zijn *4
 
 ---
 M[15]
+> Voor elke knoop waar momenten op werken zijn er $3$ evenwichtsvergelijkingen, voor de andere $2$.
 M[21]
+> Voor elke staaf zijn er $3$ evenwichtsvergelijkingen.
 M[36]
 ^^^
 ? Splits de constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor mogelijke krachten op de knopen. Houd daarbij rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn.
@@ -84,7 +88,7 @@ Er zijn {gap} evenwichtsvergelijkingen vanuit knopen en {gap} vanuit staven. Dat
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Voor knoop $\rm{A}$, $\rm{E}$ en $\rm{G}$ zijn er enkel krachten in verticale en horizontale richting, dus zijn er $2$ evenwichtsvergelijkingen. Voor de anderen knopen zijn er ook momenten dus $3$ evenwichtsvergelijkingen per knoop. Dat geeft $\left( 2 +2 +2 +3+3+3 \right) = 15$ evenwichtsvergelijkingen vanuit knopen. Alle staven hebben drie evenwichtsvergelijkingen, dus dat geeft $\left( 7 \cdot 3 \right) = 21$ evenwichtsvergelijkingen vanuit staven. Dat zijn $36$ evenwichtsvergelijkingen in totaal.
@@ -153,12 +157,18 @@ Herhaal nu de berekening maar nu wel onderscheid maakt tussen pendelstaven en re
 Welke staaf/staven zijn pendelstaven?
 ---
 [ ] $\rm{AD}$
+> Bij $\rm{D}$ is $\rm{AD}$ niet scharnierend verbonden.
 [ ] $\rm{DB}$
+> Bij $\rm{B}$ is $\rm{BD}$ niet scharnierend verbonden.
 [ ] $\rm{DE}$
+> Bij $\rm{D}$ is $\rm{DE}$ niet scharnierend verbonden.
 [ ] $\rm{BE}$
+> Bij $\rm{E}$ is $\rm{BE}$ niet scharnierend verbonden.
 [x] $\rm{EG}$
 [ ] $\rm{EC}$
+> Bij $\rm{C}$ is $\rm{EC}$ niet scharnierend verbonden.
 [ ] $\rm{CG}$
+> Bij $\rm{C}$ is $\rm{CG}$ niet scharnierend verbonden.
 ---
 
 ::::
@@ -185,6 +195,7 @@ Alleen staaf $\rm{EG}$ gaat van een scharnierende verbinding naar een scharniere
 ---
 M[6]
 M[32]
+> De dwarskrachten aan de uiteindes van $\rm{EG}$ komen nu te vervallen.
 M[38]
 ^^^
 ? Splits de constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor mogelijke krachten op de knopen. Houd daarbij rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn.
@@ -233,7 +244,9 @@ Door de pendelstaaf zijn er 2 minder onbekende krachten.
 
 ---
 M[15]
+> Op alle knopen werken nog minstens twee krachten in verschillende richtingen.
 M[19]
+> Voor de pendelstaaf zijn nu niet $3$ maar $1$ evenwichtsvergelijking toepasbaar.
 M[34]
 ^^^
 ? Splits de constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor mogelijke krachten op de knopen. Houd daarbij rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn.
@@ -245,7 +258,7 @@ Er zijn {gap} evenwichtsvergelijkingen vanuit knopen en {gap} vanuit staven. Dat
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Hoewel er minder krachten werken op knoop $\rm{E}$ en $\rm{G}$ dan voorheen, zijn er nog steeds $2$ evenwichtsvergelijkingen toepasbaar omdat er nog krachten in verschillende richtingen werken.

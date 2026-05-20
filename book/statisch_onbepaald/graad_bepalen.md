@@ -23,7 +23,9 @@ Bepaal de graad van uitwendig statisch onbepaaldheid.
 
 ---
 M[7]
+> De inklemming heeft $3$ oplegreacties, de rolopleggingen $1$ en de scharnieroplegging $2$ oplegreacties.
 M[6]
+> Zonder de opleggingen bestaat de constructie uit 4 vormvaste delen die ten opzichte van elkaar kunnen roteren met daartussen dus $2 \cdot 3 = 6$ verbindingskrachten.
 M[13]
 ^^^
 ? Splits de constructie in alle vormvaste delen die ten opzichte van elkaar kunnen roteren als je de opleggingen zou weghalen. Teken het vrijlichaamsschema van deze scharnierende delen.
