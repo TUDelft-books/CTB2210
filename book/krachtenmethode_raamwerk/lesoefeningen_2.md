@@ -4,8 +4,6 @@
 
 Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_6/session_1/intro.html
 
-% Figures from https://github.com/TUDelft-books/CT1000/blob/2025/book/week_6/session_1/intro_data/Tekening1.vsdx
-
 ```
 ```` 
 
@@ -15,6 +13,7 @@ Gegeven is de volgende constructie:
 
 ```{figure} ./lesoefeningen_data/structure.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 
 Constructie, $EI = \cfrac{1000}{3} \ \rm{kNm^2}, EA >> EI $
 ```
@@ -37,6 +36,7 @@ Constructie, $EI = \cfrac{1000}{3} \ \rm{kNm^2}, EA >> EI $
 ```{figure} lesoefeningen_data/Onbekenden.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 ---
 Er zijn 25 onbekende krachten
 ```
@@ -44,6 +44,7 @@ Er zijn 25 onbekende krachten
 ```{figure} lesoefeningen_data/Vergelijkingen.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 ---
 Er zijn 22 evenwichtsvergelijkingen
 ```
@@ -73,6 +74,7 @@ Er zijn een aantal opties gegeven voor mogelijke statisch bepaalde systemen. De 
 ```{figure} lesoefeningen_data/Oplosmethode_optie1.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 ---
 Juist
 ```
@@ -80,6 +82,7 @@ Juist
 ```{figure} lesoefeningen_data/Oplosmethode_optie2.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 ---
 Onjuist
 ```
@@ -87,6 +90,7 @@ Onjuist
 ```{figure} lesoefeningen_data/Oplosmethode_optie3.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 ---
 Juist
 ```
@@ -94,6 +98,7 @@ Juist
 ```{figure} lesoefeningen_data/Oplosmethode_optie4.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 ---
 Juist
 ```
@@ -101,6 +106,7 @@ Juist
 ```{figure} lesoefeningen_data/Oplosmethode_optie5.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 ---
 Onjuist
 ```

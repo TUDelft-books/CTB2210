@@ -5,6 +5,7 @@ Gegeven is de volgende constructie:
 ```{figure} lesoefeningen_data/Structure_2.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrixframe
 ---
 Constructie
 ```
