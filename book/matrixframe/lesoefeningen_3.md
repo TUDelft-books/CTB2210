@@ -5,134 +5,103 @@ Gegeven is de volgende constructie:
 ```{figure} lesoefeningen_data/Structure_2.svg
 ---
 align: center
+figclass: sticky-margin
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrixframe
 ---
 Constructie
 ```
 
-Bepaal de oplegreacties, verplaatsingen en het krachtsverloop in de constructie met MatrixFrame.
+Deze opgave hoef je niet volledig op te lossen met MatrixFrame vanwege de grootte van de constructie. Echter moet je wel weten hoe je een aantal bijzondere eigenschappen van deze constructie kan modelleren in MatrixFrame.
 
-:::::{exercise}
-:label: mf_2_1
-:nonumber: true
+::::{question} Opgave
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Voer de geometrie in en ga verder met de profielgegevens.
+Voor de profielgegevens, wat vul je in voor de buigstijfheid van de kabels?
+---
+[ ] $ EI = 0$
+> Onjuist, MatrixFrame heeft een waarde ongelijk aan $0$ nodig om de constructie door te kunnen rekenen. Heeft de waarde van $EI$ invloed op je antwoord?
+[ ] Een willekeurige maar kleine waarde
+> Onjuist, aangezien er geen kracht staat op de kabels, kan deze ook als pendelstaaf worden gemodelleerd? wat is de invloed van $EI$ op het vervormingsgedrag van de kabels?
+[x] Een willekeurige waarde
+> Exact, waarom maakt het voor de kabels niet uit wat de waarde is van EI? Waarom kunnen deze als pendelstaven worden gemodelleerd?
+---
 
-```{h5p} https://tudelft.h5p.com/content/1292628194575324387/embed
-```
-
-```{h5p} https://tudelft.h5p.com/content/1292628196202543167/embed
-```
-
-:::::
-
-% solution_start
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-Vraag 1:
-
-- $EI = 0$
-  - Onjuist, MatrixFrame heeft een waarde ongelijk aan 0 nodig om de constructie door te kunnen rekenen. Heeft de waarde van EI invloed op je antwoord?
-- Een willekeurige maar kleine waarde
-  - Onjuist, aangezien er geen kracht staat op de kabels, kan deze ook als pendelstaaf worden gemodelleerd? wat is de invloed van EI op het vervormingsgedrag van de kabels?
-- Een willekeurige waarde
-  - Exact, waarom maakt het voor de kabels niet uit wat de waarde is van EI? Waarom kunnen deze als pendelstaven worden gemodelleerd?
-
-Vraag 2:
-
-- $EI = \infty$
-  - Onjuist, een waarde van oneindig kan je niet invullen. Hoe kan je dat numeriek benaderen?
-- Een willekeurige, maar grote, waarde
-  - Correct, welke waarde kies je?
-- Een willekeurige waarde
-  - Onjuist, als je een kleine stijfheid invoert zal dat zeker geen oneindige waarde simuleren.
 ::::
 
-% solution_end
-
-:::::{exercise}
-:label: mf_2_2
-:nonumber: true
-
-Ga verder met opleggingen.
-
-```{h5p} https://tudelft.h5p.com/content/1292628203010084277/embed
-```
-
-:::::
-
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
-- Een pendelstaaf dwars op de rolrichting van het rolscharnier toevoegen
-  - Correct, wat voor profielgegevens voeg je toe voor deze pendelstaaf?
-- Roloplegging in zowel horizontale als verticale oplegging toevoegen
-  - Onjuist, dan heb je er een reguliere scharnierende verbinding van gemaakt
-- Er is geen alternatief
-  - Onjuist, een pendelstaaf staat bij kleine verplaatsingen ook in één richting beweging toe.
+De kabels zullen niet buigen omdat er geen krachten op staan en scharnierend verbonden zijn. Ze kunnen dus als pendelstaven worden gemodelleerd, waarbij de stijfheid in buiging geen invloed heeft op het gedrag van de constructie.
 
 ::::
 
 % solution_end
 
-:::::{exercise}
-:label: mf_2_3
-:nonumber: true
+::::{question} Opgave
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Voer de scharnierende aansluitingen in, voer de linear-elastische berekening uit en bekijk de resultaten.
+Voor de profielgegevens, wat vul je in voor de buigstijfheid van $\rm{AC}$?
+---
+[ ] $ EI = \infty$
+> Onjuist, een waarde van oneindig kan je niet invullen. Hoe kan je dat numeriek benaderen?
+[x] Een willekeurige maar grote waarde
+> Correct, welke waarde kies je?
+[ ] Een willekeurige waarde
+> Onjuist, als je een kleine stijfheid invoert zal dat zeker geen oneindige waarde simuleren.
+---
 
-```{h5p} https://tudelft.h5p.com/content/1292628206080447537/embed
-```
-
-:::::
+::::
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
-- De maximale verplaatsing van BC in verticale richting is *0.27* m
-- De maximale zakking van AD in verticale richting is *1.42* cm
-- De grootste normaalkracht in de kabels is *303.08* kN
-
-```{figure} lesoefeningen_data/image6.png
----
-align: center
----
-Maximale verplaatsing van BC
-```
-
-```{figure} lesoefeningen_data/image7.png
----
-align: center
----
-Maximale zakking van AD
-```
-
-```{figure} lesoefeningen_data/image8.png
----
-align: center
----
-Maximale zakking van AD
-```
-
-
+Een waarde van oneindig kan niet, dus een willekeurige maar grote waarde is de beste optie.
 ::::
 
 % solution_end
 
-:::::{margin}
-::::{versionadded} v2025.1.1
-2025-09-03: Matrixframe bestand toegevoegd
-::::
-:::::
+::::{question} Opgave
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-::::::{hint}
+Hoe kan je de geroteerde roloplegging modelleren?
+---
+[x] Een pendelstaaf dwars op de rolrichting van het rolscharnier toevoegen
+> Correct, wat voor profielgegevens voeg je toe voor deze pendelstaaf?
+[ ] Roloplegging in zowel horizontale als verticale oplegging toevoegen
+> Onjuist, dan heb je er een reguliere scharnierende verbinding van gemaakt
+[ ] Deze kan niet gemodelleerd worden.
+> Onjuist, een pendelstaaf staat bij kleine verplaatsingen ook in één richting beweging toe.
+---
+
+::::
+
+% solution_start
+
+::::{admonition} Uitwerking
+:class: solution, dropdown
+
+Hoewel er redelijk verstopt een optie is om een geroteerde roloplegging te modelleren, kan dit ook worden gedaan door een pendelstaaf dwars op de rolrichting van het rolscharnier toe te voegen. Deze pendelstaaf zal bij kleine verplaatsingen in één richting beweging toelaten, net als een roloplegging zou doen. De rekstijfheid van deze pendelstaaf moet groot genoeg zijn.
+
+::::
+
+::::{admonition} Uitwerking MatrixFramebestand
+:class: solution, dropdown
 
 Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_3.mxe) te downloaden.
 
-::::::
+::::
+
+% solution_end

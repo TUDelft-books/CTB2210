@@ -264,6 +264,6 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
 
 Dit onderwerp is [in 2025 in les 1](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/fc174f1ac52e415bb30998603fd2b4351d?sortBy=most-recent) gepresenteerd in collegevorm van 0:34:40 tot 1:00:40.
 
-## Opgaves
+## Opgaves in boek
 - Opgaves 4.11 - 4.22, van hoofdstuk 4 van het boek *Mechanica: Evenwicht* {cite:p}`Hartsuijker1999`. Negeer de vragen over kinematisch bepaaldheid. Antwoorden zijn beschikbaar op [deze website](https://icozct.tudelft.nl/TUD_CT/bookanswers/vol1/Chapter4/).
 - Opgave  9.6, van hoofdstuk 9 van het boek *Mechanica: Evenwicht* {cite:p}`Hartsuijker1999`. Negeer de vragen over kinematisch bepaaldheid. Antwoorden zijn beschikbaar op [deze website](https://icozct.tudelft.nl/TUD_CT/bookanswers/vol1/Chapter9/).
