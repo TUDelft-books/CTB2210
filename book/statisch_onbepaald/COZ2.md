@@ -51,11 +51,6 @@ Wat is de graad van inwendig statisch bepaaldheid van deze constructie?
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-
-```{figure} coz_data/uitwerking2deel2.svg
-:align: center
-:source https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/blob/main/graad_statisch_coz
-```
 ```{figure} coz_data/uitwerking2deel2onbekenden.svg
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
