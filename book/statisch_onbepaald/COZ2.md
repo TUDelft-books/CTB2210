@@ -56,8 +56,19 @@ Wat is de graad van inwendig statisch bepaaldheid van deze constructie?
 :align: center
 :source https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/blob/main/graad_statisch_coz
 ```
-De graad van inwendig statisch onbepaaldheid is gelijk aan het aantal onbekenden minus het aantal vergelijkingen. De onbekenden zijn oplegreacties (3) en verbindingskrachten (30). De staven leveren 18 vergelijkingen en de knopen 15. Dat geeft:
+```{figure} coz_data/uitwerking2deel2onbekenden.svg
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
 
+Er zijn 33 onbekende krachten
+```
+
+```{figure} coz_data/uitwerking2deel2vergelijkingen.svg
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
+
+Er zijn 33 evenwichtsvergelijkingen
+```
 $ 33 - 33 = 0 $
 
 ::::
