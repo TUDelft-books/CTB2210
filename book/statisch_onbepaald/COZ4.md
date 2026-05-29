@@ -38,9 +38,12 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-% nu alleen inwendig bepaald in https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot, maar dat kan uitwendig
+```{figure} coz_data/uitwerking4.svg
+:align: center
+:source https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/blob/main/graad_statisch_coz
+```
 
-...
+$ 10 - 9 = 1 $
 
 ::::
 
