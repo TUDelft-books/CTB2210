@@ -66,6 +66,8 @@ Er zijn 33 evenwichtsvergelijkingen
 ```
 $ 33 - 33 = 0 $
 
+Indien er geen rekening is gehouden met pendelstaven komen er 6 onbekende krachten en 6 evenwichtsvergelijkingen bij.
+
 ::::
 
 % solution_end
