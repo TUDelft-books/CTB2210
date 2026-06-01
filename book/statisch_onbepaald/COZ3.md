@@ -38,9 +38,13 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-...
+```{figure} coz_data/uitwerking3.svg
+:align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
 
-$ ... = 1$
+```
+
+$ 4 - 3 = 1$
 
 ::::
 
