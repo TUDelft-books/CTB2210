@@ -30,7 +30,7 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 
 ```{figure} coz_data/uitwerking2deel1.svg
 :align: center
-:source https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/blob/main/graad_statisch_coz
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/blob/main/graad_statisch_coz
 ```
 
 $ 3 - 3 = 0 $
