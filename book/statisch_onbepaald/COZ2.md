@@ -30,7 +30,7 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 
 ```{figure} coz_data/uitwerking2deel1.svg
 :align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/blob/main/graad_statisch_coz
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/blob/main/graad_statisch_coz/COZ2.vsdx
 ```
 
 $ 3 - 3 = 0 $
@@ -53,14 +53,14 @@ Wat is de graad van inwendig statisch bepaaldheid van deze constructie?
 
 ```{figure} coz_data/uitwerking2deel2onbekenden.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz/COZ2.vsdx
 
 Er zijn 33 onbekende krachten
 ```
 
 ```{figure} coz_data/uitwerking2deel2vergelijkingen.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz/COZ2.vsdx
 
 Er zijn 33 evenwichtsvergelijkingen
 ```
