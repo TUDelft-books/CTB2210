@@ -40,7 +40,7 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 
 ```{figure} coz_data/uitwerking3.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz/COZ3.vsdx
 
 ```
 
