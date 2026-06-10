@@ -34,7 +34,7 @@ M[29.95]
 M[-2.56]
 M[14.3]
 ^^^
-? Voer de linear-elastische berekening uit en bekijk de resultaten.
+? Modelleer de constructie in MatrixFrame en bereken de volgende grootheden:
 
 - De horizontale oplegreactie bij $\rm{C}$ is {gap} $\rm{kN}$ (positief naar links, negatief naar rechts).
 - Het moment in $\rm{E}$ is {gap} $\rm{kNm}$ (positief ◡, negatief ◠).
