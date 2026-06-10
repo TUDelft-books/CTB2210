@@ -80,7 +80,7 @@ $14.3 \, \rm{mm}$ omlaag
 ::::{admonition} Uitwerking MatrixFramebestand
 :class: solution, dropdown
 
-Het bestand van dit voorbeeld is [hier](./coz_data/coz_1.mxf) te downloaden.
+Het bestand van dit voorbeeld is [hier](./coz_data/coz1.mxf) te downloaden.
 
 ::::
 
