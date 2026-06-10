@@ -76,7 +76,7 @@ Rotatie van knoop $\rm{A}$ in radialen
 ::::::{admonition} Uitwerking MatrixFramebestand
 :class: solution, dropdown
 
-Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_2.mxe) te downloaden.
+Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_2.mxf) te downloaden.
 
 ::::::
 

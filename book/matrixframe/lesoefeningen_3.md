@@ -100,7 +100,7 @@ Hoewel er redelijk verstopt een optie is om een geroteerde roloplegging te model
 ::::{admonition} Uitwerking MatrixFramebestand
 :class: solution, dropdown
 
-Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_3.mxe) te downloaden.
+Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_3.mxf) te downloaden.
 
 ::::
 

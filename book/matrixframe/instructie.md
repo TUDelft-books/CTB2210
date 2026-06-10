@@ -44,7 +44,7 @@ Als voorbeeld bepalen we de uitwendige statisch onbepaaldheid van deze construct
 :label: mf_example_0
 :nonumber: true
 
-```{figure} ./matrixframe_data/constructie.svg
+```{figure-start} ./matrixframe_data/constructie.svg
 ---
 align: center
 class: dark-light
@@ -52,6 +52,12 @@ figclass: sticky-margin
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/matrixframe_2
 ---
 Voorbeeldconstructie
+```
+
+- $EI = 780 \, \rm{kNm}^2$
+- $EA \gg EI$
+
+```{figure-end}
 ```
 
 ::::::
@@ -103,7 +109,8 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
     :label: mf_example_3
     :nonumber: true
 
-    In dit voorbeeld is er enkel een $EI$ gegeven, terwijl we een losse $E$ en $I$ moeten invoeren. Daarom kan je twee getallen kiezen waarvan het product $7.8 \cdot 10^4$ is, bijvoorbeeld $E = 200 \cdot 10^6$ en $I = 3.9 \cdot 10^{-2}$. $EA$ is $\infty$, waarvoor we een grote numerieke waarde kunnen invoeren, bijvoorbeeld $A  = 10 \cdot 10^3$. 
+    In dit voorbeeld is er enkel een $EI$ gegeven, terwijl we een losse $E$ en $I$ moeten invoeren. Daarom kan je twee getallen kiezen waarvan het product $780 
+    \, \rm{kNm}^2 = 7.8 \cdot 10^{11} \, \rm{Nmm}^2$ is, bijvoorbeeld $E = 200 \cdot 10^3 \, \rm{N/mm}^2$ en $I = 3.9 \cdot 10^{8} \, \rm{mm}^4$. $EA$ is $\infty$, waarvoor we een grote numerieke waarde kunnen invoeren, bijvoorbeeld $A  = 1 \cdot 10^10 \, \rm{mm}^2$. 
 
     ```{figure} ./matrixframe_data/step5.png
     ---
@@ -195,7 +202,7 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
 
     ::::::
 
-9. De snedekrachtenlijnen kunnen ook worden getoond. Deze kunnen per snedekracht getoond worden volgens de vervormingstekens zoals we die gewend zijn. Mochten de vervormingstekens niet zichtbaar zijn kan je inzoomen of de schaal vergroten onder 'Weergave-instellingen' - 'Beeldinstellingen' - 'Eigenschappen' - 'Resultaten' - 'Normaalkracht (Nx)'/'Dwarskracht (Vz)'/'Moment (My)' - 'Vorm' - 'Schaal' - Voeg waarde in en klik op 'Toepassen'. Als een staaf wordt aangeklikt zijn links in het scherm alle snedekrachten en verplaatsingen van die staaf zichtbaar. Onderin het scherm worden een aantal karakteristieke waardes getoond. De waardes worden getoond volgens het lokale assenstelsel.
+9. De snedekrachtenlijnen kunnen ook worden getoond. Deze kunnen per snedekracht getoond worden volgens de vervormingstekens zoals we die gewend zijn. Mochten de vervormingstekens niet zichtbaar zijn kan je inzoomen of de schaal vergroten onder 'Weergave-instellingen' - 'Beeldinstellingen' - 'Eigenschappen' - 'Schaal' - Voeg waarde in en klik op 'Toepassen'. Als een staaf wordt aangeklikt zijn links in het scherm alle snedekrachten en verplaatsingen van die staaf zichtbaar. Onderin het scherm worden een aantal karakteristieke waardes getoond. De waardes worden getoond volgens het lokale assenstelsel.
 
     ::::::{prf:example}
     :label: mf_example_9
@@ -254,7 +261,7 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
     align: center
     class: dark-light
     ---
-    Op $3$ meter rechts van A zijn voor dit voorbeeld de snedekrachten en verplaatsingen bepaald: een verplaatsingen van $0.000042 \ \rm{m}$, een moment van $39.73 \ \rm{kNm}$, een dwarskracht van $33.38 \ \rm{kN}$ en een normaalkracht van $-20 \ \rm{kN}$.
+    Op $3$ meter rechts van A zijn voor dit voorbeeld de snedekrachten en verplaatsingen bepaald: een verplaatsingen van $4.2 \ \rm{mm}$, een moment van $39.73 \ \rm{kNm}$, een dwarskracht van $33.38 \ \rm{kN}$ en een normaalkracht van $-20 \ \rm{kN}$.
     ```
 
     ::::::
@@ -263,7 +270,7 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
 :label: mf_example_12
 :nonumber: true
 
-Het bestand van dit voorbeeld is [hier](./matrixframe_data/example.mxe) te downloaden.
+Het bestand van dit voorbeeld is [hier](./matrixframe_data/example.mxf) te downloaden.
 
 ::::::
 

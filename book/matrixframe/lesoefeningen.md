@@ -31,7 +31,6 @@ Voer de geometrie in en ga verder met de profielgegevens. Welke profielgegeven v
 
 ::::
 
-
 % solution_start
 
 ::::{admonition} Uitwerking
@@ -136,7 +135,7 @@ Dwarskrachten
 ::::{admonition} Uitwerking MatrixFramebestand
 :class: solution, dropdown
 
-Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_1.mxe) te downloaden.
+Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_1.mxf) te downloaden.
 
 ::::
 
