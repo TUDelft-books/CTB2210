@@ -12,9 +12,10 @@ Gegeven is de volgende constructie:
 ---
 align: center
 figclass: sticky-margin
+number:
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
 ---
-Constructie
+
 ```
 
 ::::{admonition} Opgave
@@ -32,6 +33,7 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 ```{figure} coz_data/uitwerking1.svg
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
+:number:
 ```
 
 $8 + 4 - 9 = 3 $

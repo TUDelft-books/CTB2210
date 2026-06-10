@@ -7,8 +7,9 @@ Gegeven is de volgende constructie:
 align: center
 figclass: sticky-margin
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+number:
 ---
-Constructie
+
 ```
 
 Bepaal de graad van uitwendig en inwendig statisch onbepaaldheid.
@@ -46,8 +47,9 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende verbindingskrachten. Da
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+number:
 ---
-Aantal onbekende krachten
+
 ```
 
 ::::
@@ -81,8 +83,9 @@ Er zijn {gap} evenwichtsvergelijkingen
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+number:
 ---
-Aantal evenwichtsvergelijkingen
+
 ```
 
 ::::
@@ -152,16 +155,18 @@ Er zijn *3* onbekende oplegreacties en *19* onbekende staafkrachten. Dat zijn *2
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+number:
 ---
-Aantal onbekende oplegreacties en staafkrachten op knopen
+
 ```
 
 ```{figure} graad_bepalen_data/Oefening_15.svg
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+number:
 ---
-Aantal onbekende staafkrachten op staven
+
 ```
 
 ::::
@@ -199,16 +204,18 @@ Er zijn {gap} evenwichtsvergelijkingen vanuit knopen en {gap} vanuit staven. Dat
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+number:
 ---
-Aantal evenwichtsvergelijkingen voor de knopen
+
 ```
 
 ```{figure} graad_bepalen_data/Oefening_16.svg
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+number:
 ---
-Aantal evenwichtsvergelijkingen voor de staven
+
 ```
 
 ::::

@@ -7,8 +7,9 @@ Gegeven is de volgende constructie:
 align: center
 figclass: sticky-margin
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_2
+number:
 ---
-Constructie
+
 ```
 
 Bepaal de graad van uitwendig statisch onbepaaldheid.
@@ -44,8 +45,9 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende verbindingskrachten. Da
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_2
+number:
 ---
-Aantal onbekende krachten
+
 ```
 
 ::::
@@ -79,8 +81,8 @@ Er zijn {gap} evenwichtsvergelijkingen
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_2
+number:
 ---
-Aantal evenwichtsvergelijkingen
 ```
 
 ::::

@@ -32,8 +32,8 @@ Over het algemeen zijn de volgende stappen vereist:
 6. De laatste configuratiestap is het toevoegen van belastingen. Je kan verschillende belastingsgevallen (B.G.) toevoegen, maar zolang je er maar één hoeft door te rekenen is het niet nodig die opties aan te passen. Voor elke belasting is het wel nodig de waarde en richting aan te geven en de staaf aan te klikken waarop deze last werkt. In het venster onderin het scherm kan je deze ook nog aanpassen.
 7. Nu alles geconfigureerd is kan je op L.E. berekening (linear-elastische berekening) klikken. Er opent zich dan een dialoogvenster die foutmeldingen geeft als er iets niet klopt
 8. Om de resultaten te bekijken zijn er een aantal opties. De oplegreacties kunnen los worden getoond. Let op, de richting van de pijlen geeft de daadwerkelijke richting aan van de krachten en koppels; een eventueel minteken geeft aan dat die kracht in de negatieve richting van het assenstelsel werkt.
-9. De snedekrachtenlijnen kunnen ook worden getoond. Deze kunnen per snedekracht getoond worden volgens de vervormingstekens zoals we die gewend zijn. Mochten de vervormingstekens niet zichtbaar zijn kan je inzoomen of de schaal vergroten onder 'Weergave-instellingen' - 'Beeldinstellingen' - 'Eigenschappen' - 'Resultaten' - 'Normaalkracht (Nx)'/'Dwarskracht (Vz)'/'Moment (My)' - 'Vorm' - 'Schaal' - Voeg waarde in en klik op 'Toepassen'. Als een staaf wordt aangeklikt zijn links in het scherm alle snedekrachten en verplaatsingen van die staaf zichtbaar. Onderin het scherm worden een aantal karakteristieke waardes getoond. De waardes worden getoond volgens het lokale assenstelsel.
-10. Ook verplaatsingen kunnen worden getoond. Het aantal decimalen kan worden aangepast onder 'Weergave-instellingen' - 'Beeldinstellingen' - 'Eigenschappen' - 'Resultaten' - 'Verplaatsingen/Doorbuigingen' - 'Label' - 'Decimalen' - Voeg waarde in en klik op 'Toepassen'.
+9. De snedekrachtenlijnen kunnen ook worden getoond. Deze kunnen per snedekracht getoond worden volgens de vervormingstekens zoals we die gewend zijn. Mochten de vervormingstekens niet zichtbaar zijn kan je inzoomen of de schaal vergroten onder 'Weergave-instellingen' - 'Beeldinstellingen' - 'Eigenschappen' - 'Schaal' - Voeg waarde in en klik op 'Toepassen'. Als een staaf wordt aangeklikt zijn links in het scherm alle snedekrachten en verplaatsingen van die staaf zichtbaar. Onderin het scherm worden een aantal karakteristieke waardes getoond. De waardes worden getoond volgens het lokale assenstelsel.
+10. Ook verplaatsingen kunnen worden getoond.
 11. Tot slot kunnen waardes op specifieke posities worden afgelezen met de spion functie. Klik daarvoor een staaf aan en voer onder 'Invoer pos:' een locatie in in het lokale assenstelsel. De tabel en grafische weergave toont dan waardes van snedekrachten en verplaatsingen op dat punt.
 
 ::::::
@@ -50,8 +50,9 @@ align: center
 class: dark-light
 figclass: sticky-margin
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/matrixframe_2
+number:
 ---
-Voorbeeldconstructie
+
 ```
 
 - $EI = 780 \, \rm{kNm}^2$
@@ -68,12 +69,15 @@ Voorbeeldconstructie
     :label: mf_example_1
     :nonumber: true
 
+    Aangezien het hier gaat om een 2D-Raamwerk selecteren we die optie.
+
     ```{figure} ./matrixframe_data/step1.png
     ---
     align: center
     class: dark-light
+    number:
     ---
-    Aangezien het hier gaat om een 2D-Raamwerk selecteren we die optie.
+    
     ```
 
     ::::::
@@ -84,20 +88,25 @@ Voorbeeldconstructie
     :label: mf_example_2
     :nonumber: true
 
+    De eerste staaf is al getekend en van de tweede staaf is de coordinaat $\left(9,0 \right)$ zichtbaar in de balk onderaan:
+
     ```{figure} ./matrixframe_data/step3.png
     ---
     align: center
     class: dark-light
+    number:
     ---
-    De eerste staaf is al getekend en van de tweede staaf is de coordinaat $\left(9,0 \right)$ zichtbaar in de balk onderaan.
     ```
+
+    Als alle knopen en staven getekend zijn is dit het resultaat:
 
     ```{figure} ./matrixframe_data/step3_2.png
     ---
     align: center
     class: dark-light
+    number:
     ---
-    Als alle knopen en staven getekend zijn is dit het resultaat
+    
     ```
 
     ::::::
@@ -112,12 +121,15 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
     In dit voorbeeld is er enkel een $EI$ gegeven, terwijl we een losse $E$ en $I$ moeten invoeren. Daarom kan je twee getallen kiezen waarvan het product $780 
     \, \rm{kNm}^2 = 7.8 \cdot 10^{11} \, \rm{Nmm}^2$ is, bijvoorbeeld $E = 200 \cdot 10^3 \, \rm{N/mm}^2$ en $I = 3.9 \cdot 10^{8} \, \rm{mm}^4$. $EA$ is $\infty$, waarvoor we een grote numerieke waarde kunnen invoeren, bijvoorbeeld $A  = 1 \cdot 10^10 \, \rm{mm}^2$. 
 
+    Als alles is ingevoerd is dit het resultaat:
+
     ```{figure} ./matrixframe_data/step5.png
     ---
     align: center
     class: dark-light
+    number:
     ---
-    Als alles is ingevoerd is dit het resultaat
+    
     ```
 
     ::::::
@@ -128,12 +140,15 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
     :label: mf_example_4
     :nonumber: true
 
+     De inklemming en roloplegging van het voorbeeld zijn na toevoegen zowel in de grafische weergave als in het onderste venster zichtbaar:
+
     ```{figure} ./matrixframe_data/step6.png
     ---
     align: center
+    number:
     class: dark-light
     ---
-    De inklemming en roloplegging van het voorbeeld zijn na toevoegen zowel in de grafische weergave als in het onderste venster zichtbaar.
+    
     ```
 
     ::::::
@@ -144,12 +159,14 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
     :label: mf_example_5
     :nonumber: true
 
+    In dit voorbeeld zijn er geen scharnieren, dus kan deze stap overgeslagen worden.
+
     ```{figure} ./matrixframe_data/step7.png
     ---
     align: center
     class: dark-light
     ---
-    In dit voorbeeld zijn er geen scharnieren, dus kan deze stap overgeslagen worden.
+    
     ```
 
     ::::::
@@ -160,12 +177,15 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
     :label: mf_example_6
     :nonumber: true
 
+    In dit voorbeeld zijn er twee belastingen. De verdeelde belasting is aangebracht in de lokale z richting en de puntlast in de globale x-richting met een negatieve waarde zodat die naar links werkt.
+
     ```{figure} ./matrixframe_data/step8.png
     ---
     align: center
     class: dark-light
+    number:
     ---
-    In dit voorbeeld zijn er twee belastingen. De verdeelde belasting is aangebracht in de lokale z richting en de puntlast in de globale x-richting met een negatieve waarde zodat die naar links werkt.
+    
     ```
 
     ::::::
@@ -176,12 +196,15 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
     :label: mf_example_7
     :nonumber: true
 
+    In dit voorbeeld is alles goed geconfigureerd en geeft het logboek geen foutmeldingen:
+
     ```{figure} ./matrixframe_data/step9.png
     ---
     align: center
     class: dark-light
+    number:
     ---
-    In dit voorbeeld is alles goed geconfigureerd en geeft het logboek geen foutmeldingen
+    
     ```
 
     ::::::
@@ -192,12 +215,15 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
     :label: mf_example_8
     :nonumber: true
 
+    In dit voorbeeld zijn vier oplegreacties zichtbaar. De verticale oplegreacties werken naar boven; het minteken geeft aan dat deze in de negatieve z-richting werken.
+
     ```{figure} ./matrixframe_data/step10.png
     ---
     align: center
     class: dark-light
+    number:
     ---
-    In dit voorbeeld zijn vier oplegreacties zichtbaar. De verticale oplegreacties werken naar boven; het minteken geeft aan dat deze in de negatieve z-richting werken.
+
     ```
 
     ::::::
@@ -208,44 +234,56 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
     :label: mf_example_9
     :nonumber: true
 
+    De momenten zijn zichtbaar gemaakt met staaf AD in detail aan de linkerkant. De schaal is aangepast zodat de vervormingstekens zichtbaar zijn:
+
     ```{figure} ./matrixframe_data/step11.png
     ---
     align: center
     class: dark-light
+    number:
     ---
-    De momenten zijn zichtbaar gemaakt met staaf AD in detail aan de linkerkant. De schaal is aangepast zodat de vervormingstekens zichtbaar zijn.
+    
     ```
+
+    Ook de dwarskrachten kunnen worden getoond. Het vervormingsteken van DB is niet zichtbaar in deze weergave, als er verder wordt ingezoomd of de schaal verder wordt vergroot zou die wel zichtbaar worden.
 
     ```{figure} ./matrixframe_data/step12.png
     ---
     align: center
     class: dark-light
+    number:
     ---
-    Ook de dwarskrachten kunnen worden getoond. Het vervormingsteken van DB is niet zichtbaar in deze weergave, als er verder wordt ingezoomd of de schaal verder wordt vergroot zou die wel zichtbaar worden.
+    
     ```
+
+    De normaalkrachten kunnen ook zichtbaar worden gemaakt:
 
     ```{figure} ./matrixframe_data/step13.png
     ---
     align: center
     class: dark-light
+    number:
     ---
-    De normaalkrachten kunnen ook zichtbaar worden gemaakt.
+    
     ```
 
     ::::::
 
-10. Ook verplaatsingen kunnen worden getoond. Het aantal decimalen kan worden aangepast onder 'Weergave-instellingen' - 'Beeldinstellingen' - 'Eigenschappen' - 'Resultaten' - 'Verplaatsingen/Doorbuigingen' - 'Label' - 'Decimalen' - Voeg waarde in en klik op 'Toepassen'.
+10. Ook verplaatsingen kunnen worden getoond.
 
     ::::::{prf:example}
     :label: mf_example_10
     :nonumber: true
 
+    De verplaatsingen zijn zichtbaar gemaakt:
+
     ```{figure} ./matrixframe_data/step14.png
     ---
     align: center
     class: dark-light
+    number:
     ---
-    De verplaatsingen zijn zichtbaar gemaakt. Het aantal decimalen is aangepast zodat de exacte verplaatsingen kunnen worden gevonden.
+    
     ```
 
     ::::::
@@ -256,12 +294,15 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
     :label: mf_example_11
     :nonumber: true
 
+    Op $3$ meter rechts van A zijn voor dit voorbeeld de snedekrachten en verplaatsingen bepaald: een verplaatsingen van $4.2 \ \rm{mm}$, een moment van $39.73 \ \rm{kNm}$, een dwarskracht van $33.38 \ \rm{kN}$ en een normaalkracht van $-20 \ \rm{kN}$.
+
     ```{figure} ./matrixframe_data/step15.png
     ---
     align: center
     class: dark-light
+    number:
     ---
-    Op $3$ meter rechts van A zijn voor dit voorbeeld de snedekrachten en verplaatsingen bepaald: een verplaatsingen van $4.2 \ \rm{mm}$, een moment van $39.73 \ \rm{kNm}$, een dwarskracht van $33.38 \ \rm{kN}$ en een normaalkracht van $-20 \ \rm{kN}$.
+    
     ```
 
     ::::::

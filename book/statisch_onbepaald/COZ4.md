@@ -1,11 +1,3 @@
-# COZ opgave 2.4
-
-::::::{note}
-Deze opgave kan in ANS gemaakt worden.
-::::::
-
-% https://ans.app/repo_questions/...
-
 ````{margin}
 ```{attributiongrey} Bronvermelding
 :class: attribution
@@ -15,15 +7,24 @@ Deze oefening is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/stati
 ```
 ```` 
 
+# COZ opgave 2.4
+
+::::::{note}
+Deze opgave kan in ANS gemaakt worden.
+::::::
+
+% https://ans.app/repo_questions/...
+
 Gegeven is de volgende constructie:
 
 ```{figure} ./coz_data/constructie_4.svg
 ---
 align: center
 figclass: sticky-margin
+number:
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
 ---
-Constructie
+
 ```
 
 ::::{admonition} Opgave
@@ -40,6 +41,7 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 
 ```{figure} coz_data/uitwerking4.svg
 :align: center
+:number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/blob/main/graad_statisch_coz/COZ4.vsdx
 ```
 

@@ -6,9 +6,10 @@ Gegeven is de volgende constructie:
 ---
 align: center
 figclass: sticky-margin
+number:
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrixframe
 ---
-Constructie
+
 ```
 
 Bepaal de oplegreacties en het krachtsverloop in de constructie met MatrixFrame.
@@ -112,22 +113,25 @@ MAP[59.72;1]
 ```{figure} lesoefeningen_data/image.png
 ---
 align: center
+number:
 ---
-Oplegreacties
+
 ```
 
 ```{figure} lesoefeningen_data/image_1.png
 ---
 align: center
+number:
 ---
-Momenten
+
 ```
 
 ```{figure} lesoefeningen_data/image_2.png
 ---
 align: center
+number:
 ---
-Dwarskrachten
+
 ```
 
 ::::

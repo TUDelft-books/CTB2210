@@ -6,9 +6,10 @@ Gegeven is de volgende constructie:
 ---
 align: center
 figclass: sticky-margin
+number:
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
 ---
-Constructie
+
 ```
 
 Bepaal de graad van inwendig statisch onbepaaldheid. Hoewel je onderscheid kan maken tussen pendelstaven en reguliere staven en daarmee het aantal onbekende krachten en evenwichtsvergelijkingen minder wordt, vragen we je voor deze opgave om dat onderscheid eerst niet te maken. In het tweede deel van deze oefening 
@@ -46,16 +47,18 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende staafkrachten. Dat zijn
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+number:
 ---
-Aantal onbekende oplegreacties en staafkrachten op knopen
+
 ```
 
 ```{figure} ./graad_bepalen_data/Oefening_3.svg
 ---
 align: center
+number:
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
 ---
-Aantal onbekende staafkrachten op staven
+
 ```
 
 Er zijn *6* onbekende oplegreacties en *34* onbekende staafkrachten. Dat zijn *40* onbekende krachten in totaal.
@@ -97,16 +100,18 @@ Voor knoop $\rm{A}$, $\rm{E}$ en $\rm{G}$ zijn er enkel krachten in verticale en
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+number:
 ---
-Aantal evenwichtsvergelijkingen voor de knopen
+
 ```
 
 ```{figure} ./graad_bepalen_data/Oefening_5.svg
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+number:
 ---
-Aantal evenwichtsvergelijkingen voor de staven
+
 ```
 
 ::::
@@ -214,16 +219,18 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende staafkrachten. Dat zijn
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+number:
 ---
-Aantal onbekende oplegreacties en staafkrachten op knopen
+
 ```
 
 ```{figure} ./graad_bepalen_data/Oefening_3_2.svg
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+number:
 ---
-Aantal onbekende staafkrachten op staven
+
 ```
 
 Er zijn *6* onbekende oplegreacties en *32* onbekende staafkrachten. Dat zijn *38* onbekende krachten in totaal.
@@ -267,8 +274,9 @@ Hoewel er minder krachten werken op knoop $\rm{E}$ en $\rm{G}$ dan voorheen, zij
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+number:
 ---
-Aantal evenwichtsvergelijkingen voor de knopen
+
 ```
 
 Voor de staaf $\rm{EG}$ is nu nog maar één evenwichtsvergelijking nodig (krachtevenwicht in de richting van de pendelstaaf). Dat zijn dus $2$ evenwichtsvergelijkingen minder dan voorheen.
@@ -277,8 +285,9 @@ Voor de staaf $\rm{EG}$ is nu nog maar één evenwichtsvergelijking nodig (krach
 ---
 align: center
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+number:
 ---
-Aantal evenwichtsvergelijkingen voor de staven
+
 ```
 
 ::::

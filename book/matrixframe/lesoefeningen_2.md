@@ -6,9 +6,10 @@ Gegeven is de volgende constructie:
 ---
 align: center
 figclass: sticky-margin
+number:
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrixframe
 ---
-Constructie
+
 ```
 
 ::::{question} Opgave
@@ -49,8 +50,9 @@ Het maximale moment in $\rm{D}$ kan worden gevonden met de spion functie als er 
 ```{figure} lesoefeningen_data/image4.png
 ---
 align: center
+number:
 ---
-Moment in $\rm{D}$
+
 ```
 
 De zakking kan afgelezen wroden uit de algehele verplaatsingen.
@@ -58,17 +60,19 @@ De zakking kan afgelezen wroden uit de algehele verplaatsingen.
 ```{figure} lesoefeningen_data/image5.png
 ---
 align: center
+number:
 ---
-Maximale zakking
+
 ```
 
-De rotatie kan in de tabel onderaan het scherm met knoopverplaatsingen worden afgelezen.
+De rotatie kan in de tabel onderaan het scherm met knoopverplaatsingen worden afgelezen in radialen.
 
 ```{figure} lesoefeningen_data/image_3.png
 ---
 align: center
+number:
 ---
-Rotatie van knoop $\rm{A}$ in radialen
+
 ```
 
 ::::

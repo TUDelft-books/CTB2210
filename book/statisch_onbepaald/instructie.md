@@ -11,9 +11,10 @@ De inwendige statisch bepaaldheid is meer werk om te berekenen. Als de construct
 ---
 name: gesloten_vs_open
 align: center
+number:
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
 ---
-Gesloten versus open constructie
+
 ```
 
 Als evenwichtsvergelijkingen niet genoeg zijn is een constructie statisch onbepaald. De mate van statisch onbepaaldheid wordt uitgedrukt in de graad van statisch onbepaaldheid.
@@ -46,10 +47,11 @@ Als voorbeeld bepalen we de uitwendige statisch onbepaaldheid van onderstaande c
 ---
 name: example_sd
 align: center
+number:
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
 figclass: sticky-margin
 ---
-Voorbeeldconstructie
+
 ```
 
 ::::::
@@ -63,9 +65,10 @@ Voorbeeldconstructie
    ---
    name: example_sd_1
    align: center
+   number:
    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
    ---
-   Gesplitste constructie
+
    ```
 
    De constructie is onder te verdelen in twee vormvaste, scharnierend verbonden delen. De opleggingen zijn vervangen door oplegreacties en de scharnierende verbinding door een horizontale en verticale kracht (en reactiekrachten). De uitwendige kracht kan getekend worden, maar heeft geen invloed op de verdere berekeningen en werkt slechts op een van de twee delen.
@@ -81,9 +84,10 @@ Voorbeeldconstructie
    ---
    name: example_sd_2
    align: center
+   number:
    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
    ---
-   Aantal onbekende krachten
+   
    ```
 
    Er zijn in totaal 6 oplegreacties en 2 verbindingskrachten. Let op: de verbindingskrachten zijn twee keer getoond, maar deze krachten zijn aan beide uiteinden van de verbinding gelijk, dus ze kunnen als één worden geteld.
@@ -98,9 +102,10 @@ Voorbeeldconstructie
    ---
    name: example_sd_3
    align: center
+   number:
    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
    ---
-   Aantal onbekende evenwichtsvergelijkingen
+   
    ```
 
    Er zijn twee vormvaste delen, dus 6 evenwichtsvergelijkingen
@@ -146,10 +151,11 @@ Eventueel kan je ook nog onderscheid maken tussen pendelstaven en reguliere stav
 ---
 name: example_sd_abc
 align: center
+number:
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
 figclass: sticky-margin
 ---
-Voorbeeldconstructie
+
 ```
 
 Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructie.
@@ -183,9 +189,10 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    ---
    name: example_sd_4
    align: center
+   number:
    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
    ---
-   Vrijlichaamsschema's knopen
+   
    ```
 
    ::::::
@@ -202,8 +209,9 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    name: example_sd_5
    align: center
    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+   number:
    ---
-   Vrijlichaamsschema's staven
+   
    ```
 
    ::::::
@@ -218,8 +226,9 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    name: example_sd_6
    align: center
    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+   number:
    ---
-   Aantal onbekende krachten
+
    ```
 
    Er zijn $\left(2+2\right)=4$ onbekende oplegreacties en $\left( 2 + 3 + 3 + 2 + 2 + 2 +3 +3\right)=20$ onbekende staafkrachten.
@@ -236,8 +245,9 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    name: example_sd_9
    align: center
    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+   number:
    ---
-   Aantal evenwichtsvergelijkingen per staaf
+   
    ```
 
    - Van de knopen werken er op knoop $\rm{A}$ en $\rm{D}$ geen momenten, dus die zijn enkel met verticaal en evenwicht te bepalen.
