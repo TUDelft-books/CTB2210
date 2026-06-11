@@ -28,8 +28,8 @@ Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassiste
 ```
 
 - Alexander Dzhanibekyan
-- Gweneira van Koot
 - Iris Oskam
 - Jelke Janssen
 - Laurens van Bavel
-- Martijn Westerhof
+- Quirijn Stegers
+- Vyas Jagan

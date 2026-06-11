@@ -3,13 +3,13 @@
 
 Je kunt naar dit boek verwijzen als:
 
-> Tom van Woudenberg van de Technische Universiteit Delft (2025) _CTB2210 - Constructiemechanica 3_. https://oit.tudelft.nl/CTB2210. Bronbestanden op https://github.com/TUDelft-books/CTB2210. CC BY 4.0.
+> Tom van Woudenberg van de Technische Universiteit Delft (2026) _CTB2210 - Constructiemechanica 3_. https://oit.tudelft.nl/CTB2210. Bronbestanden op https://github.com/TUDelft-books/CTB2210. CC BY 4.0.
 
 Je kunt naar individuele hoofdstukken of pagina's binnen dit boek verwijzen als:
 
-> `<Titel van Hoofdstuk of Pagina>`. in Tom van Woudenberg van de Technische Universiteit Delft (2025) _CTB2210 - Constructiemechanica 3_. `<url naar specifieke pagina op de boekwebsite>`. Bronbestanden op `<link naar specifieke commit / bestand in github repo>`. CC BY 4.0.
+> `<Titel van Hoofdstuk of Pagina>`. in Tom van Woudenberg van de Technische Universiteit Delft (2026) _CTB2210 - Constructiemechanica 3_. `<url naar specifieke pagina op de boekwebsite>`. Bronbestanden op `<link naar specifieke commit / bestand in github repo>`. CC BY 4.0.
 
-We verwachten dat de inhoud van dit boek aanzienlijk zal veranderen. Daarom raden we aan om direct de broncode te gebruiken met de bovenstaande referentie naar de GitHub-repository, inclusief datum en bestandsnaam. Hoewel er in de loop van de tijd inhoud wordt toegevoegd, blijven hoofdstuktitels en URL's naar verwachting redelijk stabiel. We geven echter geen garantie; als het belangrijk is om naar een specifieke locatie/commit binnen het boek te verwijzen, doe dit dan expliciet.
+We verwachten dat de inhoud van dit boek aanzienlijk zal veranderen gedurende de duur van het vak. Daarnaast zal per jaar de inhoud drastischer worden aangepast. Daarom raden we aan om direct de broncode te gebruiken met de bovenstaande referentie naar de GitHub-repository, inclusief datum en bestandsnaam.
 
 ## Hoe het boek is gemaakt 🛠️💻
 Deze website is geschreven in markdown- en jupyternotebook-bestanden, die worden omgezet naar html met behulp van tools van [TeachBooks](https://teachbooks.io/). De bestanden zijn opgeslagen in een [publieke GitHub-repository](https://github.com/TUDelft-books/CTB2210). De website is te bekijken op https://oit.tudelft.nl/CTB2210.
@@ -24,7 +24,7 @@ Dit boek is [CC BY 4.0 gelicenseerd](https://creativecommons.org/licenses/by/4.0
 (external_resources)=
 ### Externe bronnen 🌐
 
-Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. In het bijzonder is er materiaal gedeeld met [CTS1000 Structural Mechanics 2025/2026](https://oit.tudelft.nl/CT1000/2025/intro.html) en [Structural Mechanics @ BSc Civil Engineering](http://oit.tudelft.nl/CEG-mechanics-BSc/).
+Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. In het bijzonder is er veelvuldig materiaal gedeeld met [CTS1000 Structural Mechanics 2025/2026](https://oit.tudelft.nl/CT1000/2025/intro.html) en [Structural Mechanics @ BSc Civil Engineering](http://oit.tudelft.nl/CEG-mechanics-BSc/).
 
 (editor)=
 ## Over de auteur 👨‍🏫
@@ -52,6 +52,7 @@ Naast constructiemechanicavakken, geeft Tom vakken over optimalisatie, numerieke
 - {fa}`building-columns` [TU Delft profiel](https://www.tudelft.nl/en/staff/t.r.vanwoudenberg/)
 
 ### Dankwoord 🙏
-Dank aan studentenassistent Iris Oskam en Martijn Westerhof voor het controleren van de antwoorden en toevoegen van uitwerkingen
 
-Daarnaast veel dank aan de diverse collega's en studentassistenten van [TeachBooks](https://teachbooks.io/) voor het samen ontwikkelen van tools en het bieden van ondersteuning om dit boek te verbeteren.
+Dank aan Francesco Messali voor het reviewen van het materiaal.
+
+Dank aan studentenassistent Iris Oskam en Martijn Westerhof voor het controleren van de antwoorden en toevoegen van uitwerkingen

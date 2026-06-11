@@ -21,6 +21,7 @@ sphinx:                                              # Options passed on to the 
       use_thebe_lite: true                           # Required for live code: https://teachbooks.io/manual/features/live_code.html
       exclude_patterns: ["**/**"]
     html_theme_options:
+      home_page_in_toc: true
       logo:
         text: CTB2210 - Constructiemechanica 3 2026/2027
       repository_url: "https://github.com/TUDelft-books/CTB2210/"
