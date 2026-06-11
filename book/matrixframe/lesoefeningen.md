@@ -107,7 +107,7 @@ MAP[59.72;1]
 % solution_start
 
 
-::::{admonition} Uitwerking
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 ```{figure} lesoefeningen_data/image.png
