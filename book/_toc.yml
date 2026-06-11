@@ -28,6 +28,8 @@ parts:
     - file: matrixframe/lesoefeningen_2
     - file: matrixframe/lesoefeningen_3
     - file: matrixframe/COZ1.md
+    - file: matrixframe/COZ2.md
+    - file: matrixframe/COZ3.md
   - file: ODE/lesson.md
     sections:
     - file: ODE/instructie.ipynb

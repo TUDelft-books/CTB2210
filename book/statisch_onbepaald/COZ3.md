@@ -2,7 +2,7 @@
 ```{attributiongrey} Attribution
 :class: attribution
 
-Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_6/session_1/intro.html
+Deze oefening is aangepast van https://oit.tudelft.nl/CT1000/2024/week_6/session_1/intro.html
 
 ```
 ```` 

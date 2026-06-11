@@ -1,4 +1,13 @@
-# COZ opgave 2.5
+````{margin}
+```{attributiongrey} Attribution
+:class: attribution
+
+Deze oefening is aangepast van https://oit.tudelft.nl/CT1000/2024/week_6/session_1/intro.html
+
+```
+````
+
+# COZ opgave 2.6
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
@@ -8,15 +17,15 @@ Deze opgave kan in ANS gemaakt worden.
 
 Gegeven is de volgende constructie:
 
-```{figure-start} coz_data/constructie1.svg
+```{figure-start} coz_data/constructie2.svg
 :align: center
 :number:
 :figclass: sticky-margin
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 ```
 
-- $EA = 40 \, \rm{MN}$
-- $EI = 100 \, \rm{kNm^2}$
+- $EI = \cfrac{1000}{3} \, \rm{kNm^2}$
+- $EA \gg EI \, \rm{MN}$
 
 ```{figure-end}
 ```
@@ -26,7 +35,7 @@ Los de krachtsverdeling en vervormingen op met MatrixFrame.
 ::::{admonition} Opgave
 :class: exercise
 
-Wat is de horizontale oplegreactie bij $\rm{C}$?
+Wat is de verticale oplegreactie bij $\rm{B}$?
 
 ::::
 
@@ -35,7 +44,7 @@ Wat is de horizontale oplegreactie bij $\rm{C}$?
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
-$29.95 \, \rm{kN}$ naar links
+$41.60 \, \rm{kN}$ omhoog
 
 ::::
 
@@ -44,7 +53,7 @@ $29.95 \, \rm{kN}$ naar links
 ::::{admonition} Opgave
 :class: exercise
 
-Wat is het moment in de ligger $\rm{DEC}$ bij $\rm{E}$?
+Wat is het moment halverwege $\rm{BC}$?
 
 ::::
 
@@ -53,7 +62,7 @@ Wat is het moment in de ligger $\rm{DEC}$ bij $\rm{E}$?
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
-$2.56 \, \rm{kNm}$ ◠
+$34.75 \, \rm{kNm}$ ◡
 
 ::::
 
@@ -62,7 +71,7 @@ $2.56 \, \rm{kNm}$ ◠
 ::::{admonition} Opgave
 :class: exercise
 
-Wat is de maximale zakking in $\rm{EC}$?
+Wat is de normaalkracht in $\rm{BD}$?
 
 ::::
 
@@ -71,7 +80,7 @@ Wat is de maximale zakking in $\rm{EC}$?
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
-$14.3 \, \rm{mm}$ omlaag
+$0.83 \, \rm{kN}$
 
 ::::
 
@@ -82,7 +91,7 @@ $14.3 \, \rm{mm}$ omlaag
 ::::{admonition} Uitwerking MatrixFramebestand
 :class: solution, dropdown
 
-Het bestand van dit voorbeeld is [hier](./coz_data/coz1.mxf) te downloaden.
+Het bestand van dit voorbeeld is [hier](./coz_data/coz2.mxf) te downloaden.
 
 ::::
 
