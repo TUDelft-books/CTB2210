@@ -30,14 +30,6 @@ parts:
     - file: matrixframe/COZ1.md
     - file: matrixframe/COZ2.md
     - file: matrixframe/COZ3.md
-  - file: ODE/lesson.md
-    sections:
-    - file: ODE/instructie.ipynb
-      sections:
-      - file: ODE/GR.md
-    - file: ODE/lesoefeningen
-    - file: ODE/lesoefeningen_2
-    - file: ODE/lesoefeningen_3
   - file: krachtenmethode_vakwerk/lesson.md
     sections:
     - file: krachtenmethode_vakwerk/theorie.md
@@ -56,6 +48,7 @@ parts:
     - file: krachtenmethode_raamwerk/instructie.md
     - file: krachtenmethode_raamwerk/lesoefeningen.md
     - file: krachtenmethode_raamwerk/lesoefeningen_2.md
+  - file: krachtenmethode_rek_raamwerk/lesson.md
   - file: TOZ/opgave.md
   - file: steunpuntszetting_stijfheden/lesson.md
     sections:
@@ -68,11 +61,6 @@ parts:
     - file: temperatuur/theorie.md
     - file: temperatuur/lesoefening.md
     - file: temperatuur/lesoefening1.md
-  - file: verplaatsingenmethode/lesson.md
-    sections:
-    - file: verplaatsingenmethode/theorie.md
-    - file: verplaatsingenmethode/lesoefening.md
-    - file: verplaatsingenmethode/lesoefening2.md
   - file: verplaats2/lesson.md
     sections:
     - file: verplaats2/theorie.md
@@ -82,10 +70,8 @@ parts:
     sections:
     - file: matrix/theorie.md
     - file: matrix/lesoefening1.md
+  - file: methodes/lesson.md
   - file: exam/lesson.md
-    sections:
-    - file: exam/exam.md
-    - file: exam/exam2.md
   - file: wintercursus_1/lesson.md
     sections:
     - file: wintercursus_1/oefening1.md

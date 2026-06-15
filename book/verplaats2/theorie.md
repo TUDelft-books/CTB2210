@@ -1,6 +1,6 @@
 # Instructie
 
-In de les van [](../verplaatsingenmethode/lesson.md) heb je de verplaatsingenmethode leren toepassen op zeer vergelijkbare wijze als de krachtenmethode. Echter, er is nog een andere verplaatsingenmethode. Een groot nadeel van de krachten- en verplaatsingenmethode van de vorige les is namelijk dat je de statisch onbepaalde constructie moet aanpassen tot een statisch bepaalde constructie. Dat kan soms lastig zijn. Bij de verplaatsingenmethode die we vandaag behandelen is dat niet nodig. In plaats van de constructie op te lossen voor een statisch onbepaalde kracht of verplaatsingen, lossen we de constructie op voor één of meerdere onafhankelijke vrijheidsgraden die de vervorming van de constructie bepalen. 
+Een groot nadeel van de krachtenmethode is dat je de statisch onbepaalde constructie moet aanpassen tot een statisch bepaalde constructie. Dat kan soms lastig zijn. Bij de verplaatsingenmethode die we vandaag behandelen is dat niet nodig. In plaats van de constructie op te lossen voor een statisch onbepaalde kracht, lossen we de constructie op voor één of meerdere onafhankelijke vrijheidsgraden die de vervorming van de constructie bepalen. 
 
 ::::::{prf:algorithm} Verplaatsingenmethode
 :nonumber: true
@@ -183,4 +183,4 @@ In hoofdstuk 4.1 en 4.3 van het boek Mechanica, Statisch onbepaalde constructies
 Dit onderwerp is [les 11](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/5af52bfa489c4f579dcf83847e8329c71d?sortBy=most-recent) gepresenteerd in collegevorm tot 0:47:56.
 
 ## Oefeningen
-Opgaves 4.4 - 4.33, 4.35, 4.36 in hoofdstuk 4.5 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Dit zijn dezelfde opgaves als voor [](../verplaatsingenmethode/lesson.md), maar de aanpak is nu anders. Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.
+Opgaves 4.4 - 4.33, 4.35, 4.36 in hoofdstuk 4.5 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.

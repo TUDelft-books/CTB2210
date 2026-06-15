@@ -6,5 +6,7 @@
 - Updaten matrixframe naar versie 6.0 in [Matrixframe](matrixframe/lesson.md)
 - Toevoegen COZ opgaves in [Matrixframe](matrixframe/lesson.md)
 - Schrappen les over differentiaalvergelijkingen
+- Schrappen les over verplaatsingenmethode met statisch onbepaalde verplaatsingen
 - Verduidelijken onafhankelijkheid van vrijheidsgraden in [Verplaatsingenmethode  met vrijheidsgraden - Instructie](verplaats2/theorie.md)
 - Verduidelijken keuze makkelijk model voor krachtenmethode.
+- Toevoegen les over verschillende methodes in [Vergelijking methodes](methodes/lesson.md)

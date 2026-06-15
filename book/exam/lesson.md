@@ -1,3 +1,3 @@
-# 4 november: Tentamenopdracht
+# 3 november: Tentamenopdracht
 
-Tijdens het tentamen is onder andere statisch onbepaalde constructies behandeld.
+Het tentamen is nog in ontwikkeling.

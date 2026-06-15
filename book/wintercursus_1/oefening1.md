@@ -7,7 +7,7 @@ Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2025/week_7/session_1
 ```
 ````
 
-# Begeleide oefening 1: Krachtenmethode en verplaatsingenmethode met statisch onbepaalde verplaatsingen
+# Begeleide oefening 1: Krachtenmethode en verplaatsingenmethode
 
 Gegeven is de volgende constructie:
 
@@ -259,67 +259,6 @@ $$
 w_{\rm{C}}^{\rm{BC}} \left( N_{\rm{CD}} \right) &= w_{\rm{C}}^{\rm{CD}} \left( N_{\rm{CD}} \right) \\
 -0.018 + 5 \cdot 10^{-4} \cdot N_{\rm{CD}} &= -0.004 \cdot N_{\rm{CD}} \\
  N_{\rm{CD}} &= 4 \, \rm{kN}
-\end{align*}
-$$
-
-:::::::
-
-## Verplaatsingenmethode met statisch onbepaalde verplaatsingen
-
-Er wordt gekozen voor het volgende statisch bepaalde systeem:
-
-```{figure} ./lesoefening1_data/statisch_onbepaald_verplaatsingenmethode.svg
-:align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
-Statistisch bepaalde constructie
-```
-
-:::::{exercise}
-:nonumber: true
-
-Los $N_{\rm{C}}^{\rm{BC}}$ en $N_{\rm{C}}^{\rm{CD}}$ op als functie $w_{\rm{C}}$.
-
-```{h5p} https://tudelft.h5p.com/content/1292762009952181537/embed
-```
-
-:::::
-
-:::::::{admonition} Oplossing
-:class: solution, dropdown
-
-Omschrijven van de relaties bij de krachtenmethode geeft:
-
-$$
-N_{\rm{C}}^{\rm{BC}} = 2000 \cdot w_{\rm{C}} + 36
-$$
-
-en
-
-$$
-N_{\rm{C}}^{\rm{CD}} = -250 \cdot w_{\rm{C}}
-$$
-
-:::::::
-
-
-:::::{exercise}
-:nonumber: true
-
-Los $w_{\rm{C}}$ op.
-
-```{h5p} https://tudelft.h5p.com/content/1292762010395617757/embed
-```
-
-:::::
-
-:::::::{admonition} Oplossing
-:class: solution, dropdown
-
-$$
-\begin{align*}
-N_{\rm{C}}^{\rm{BC}} \left( w_{\rm{C}} \right) &= N_{\rm{C}}^{\rm{CD}} \left( w_{\rm{C}} \right) \\
-2000 \cdot w_{\rm{C}} + 36 &= -250 \cdot w_{\rm{C}} \\
-w_{\rm{C}} &= \cfrac{-2}{125} = -0.016 \, \rm{m} 
 \end{align*}
 $$
 
