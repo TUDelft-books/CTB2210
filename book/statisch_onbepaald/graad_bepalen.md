@@ -2,11 +2,11 @@
 
 Gegeven is de volgende constructie:
 
-```{figure} graad_bepalen_data/Oefening_6.svg
+```{figure} graad_bepalen_data/Oefening_6_2.svg
 ---
 align: center
 figclass: sticky-margin
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_2
+source: graad_bepalen_data/Oefening_6_2.py
 number:
 ---
 
