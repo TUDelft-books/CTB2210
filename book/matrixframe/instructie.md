@@ -317,4 +317,4 @@ Het bestand van dit voorbeeld is [hier](./matrixframe_data/example.mxf) te downl
 
 ## Instructies in collegevorm
 
-Dit onderwerp is [in les 2](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/d57b95f9b71e4f218640c870c28a88031d?sortBy=most-recent) gepresenteerd in collegevorm.
+Dit onderwerp is [in 2025 in les 2](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/d57b95f9b71e4f218640c870c28a88031d?sortBy=most-recent) gepresenteerd in collegevorm. De opname in collegejaar 2026/2027 volgt na het college.

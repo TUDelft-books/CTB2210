@@ -15,18 +15,21 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
     ```{figure} theorie_data/1.svg
     :align: center
     :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
     ```
     ````
     ````{tab-item} Splitsen constructie bij pendelstaven
     ```{figure} theorie_data/2.svg
     :align: center
     :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
     ```
     ````
     ````{tab-item} Toevoegen scharnieren
     ```{figure} theorie_data/3.svg
     :align: center
     :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
     ```
     ````
     `````
@@ -47,13 +50,23 @@ We behandelen de toepassing op vakwerkconstructies met het volgende voorbeeld.
 :nonumber: true
 :label: sd_extsimpel_0
 
-```{figure} ./theorie_data/constructie.svg
+```{figure-start} ./theorie_data/constructie.svg
 ---
 align: center
+figclass: sticky-margin
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+number:
 ---
-Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming enkel veroorzaakt door extensie, niet door buiging. $EA = 2.5 \ \rm{MN}, EI = \infty$
+
 ```
+
+- $EA = 2.5 \ \rm{MN}$
+- $EI \gg EA$
+
+```{figure-end}
+```
+
+Hoewel dit geen vakwerkconstructie is, worden vervorming enkel veroorzaakt door extensie, niet door buiging.
 
 ::::::
 
@@ -63,15 +76,18 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
     :nonumber: true
     :label: sd_extsimpel_1
 
-    Voor ons voorbeeld zijn we geïnteresseerd in de interne krachtenverdeling, dus moeten we de graad van interne statische onbepaaldheid evalueren.
+    Voor ons voorbeeld zijn we geïnteresseerd in de interne krachtenverdeling, dus moeten we de graad van interne statische onbepaaldheid evalueren. Echter is deze constructie open, dus is er geen verschil tussen interne en externe statische onbepaaldheid:
 
     ```{figure} ./theorie_data/statisch_onbepaaldheid.svg
     ---
     align: center
     source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    number:
     ---
-    Er zijn 6 onbekende krachten en 5 evenwichtsvergelijkingen
+    
     ```
+
+    Er zijn 4 onbekende krachten en 3 evenwichtsvergelijkingen
 
     Deze constructie is dus 1e orde intern statisch onbepaald.
 
@@ -88,6 +104,7 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
     ```{figure} ./theorie_data/options.svg
     :align: center
     :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    number:
     ```
 
     De verplaatsingen van elke constructie kunnen geschetst worden.
@@ -95,6 +112,7 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
     ```{figure} ./theorie_data/verplaatsingen.svg
     :align: center
     :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    number:
     ```
 
     Alle drie de opties zijn uit te rekenen met de verlenging van staven. De eerste optie wordt gekozen.
@@ -109,12 +127,19 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
 
     We hebben de volgende statisch bepaalde constructie gekozen met vervormingsvoorwaarde $w_{\rm{B}}\left( B_{\rm{v}} \right) = 0$:
 
-    ```{figure} ./theorie_data/SB-systeem.svg
+    ```{figure-start} ./theorie_data/SB-systeem.svg
     ---
     align: center
     source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    number:
     ---
-    De statisch bepaalde constructie met vervormingsvoorwaarde, $EA = 2.5 \ \rm{MN}, EI = \infty$
+
+    ```
+
+    - $EA = 2.5 \ \rm{MN}$
+    - $EI \gg EA$
+
+    ```{figure-end}
     ```
 
     Om de verplaatsing van $\rm{B}$ te vinden, kunnen eerst de normaalkrachten worden geëvalueerd als functie van $B_{\rm{v}}$ met behulp van verticaal krachtenevenwicht:
@@ -122,7 +147,7 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
     - $N_{\rm{AC}}\left( B_{\rm{v}} \right) = - B_{\rm{v}} + 6 - 3 \cdot x $
     - $N_{\rm{BC}} \left( B_{\rm{v}} \right) = - B_{\rm{v}}$
 
-    Dit leidt tot de volgende uitrekking van de elementen, met behulp van $\Delta L = \cfrac{N \ L}{EA}$:
+    Dit leidt tot de volgende uitrekking van de elementen, met behulp van $\Delta L = \cfrac{N \ L}{EA}$ en de algemere $\Delta L = \int\limits_L {\cfrac{N\left(x\right)}{EA} dx}$:
     - $\Delta L_{\rm{AC}}\left( B_{\rm{v}} \right) = - \cfrac{B_{\rm{v}} \cdot 2}{2500} + \cfrac{6 \cdot 2}{2500} - \int\limits_0^2 {\cfrac{ 3 \cdot x}{2500}dx} = - \cfrac{B_{\rm{v}}}{1250} + \cfrac{3}{1250} $
     - $\Delta L_{\rm{BC}}\left( B_{\rm{v}} \right) = -\cfrac{B_{\rm{v}}}{1250}$
 
@@ -154,6 +179,7 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
     ```{figure} ./theorie_data/Nlijn.svg
     :align: center
     :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
     ```
 
     ::::::
@@ -164,7 +190,7 @@ In hoofdstuk 2.1 van het boek Mechanica, Statisch onbepaalde constructies en bez
 
 ## Instructies in collegevorm
 
-Dit onderwerp is in [les 4](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/b59d1e6849ba4f92957d462f07f7e37f1d?sortBy=most-recent) gepresenteerd in collegevorm van 0:11:30 tot 0:43:10.
+Dit onderwerp is [in 2025 in les 4](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/b59d1e6849ba4f92957d462f07f7e37f1d?sortBy=most-recent) gepresenteerd in collegevorm van 0:11:30 tot 0:43:10. De opname in collegejaar 2026/2027 volgt na het college.
 
 ## Oefeningen
 - Opgaves 2.31 - 2.39, in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
