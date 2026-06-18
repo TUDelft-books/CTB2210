@@ -39,7 +39,7 @@ De constructie is {gap}ste/de graads uitwendig statisch onbepaald
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ```{figure} lesoefeningen_data/graad.svg
@@ -130,7 +130,7 @@ M[-0.01872]
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ```{figure} lesoefeningen_data/Vrijlichaamsschema1.svg
@@ -215,17 +215,6 @@ M[0]
 
 ## Statisch onbepaald moment $M_{\rm{B}}$
 
-:::::{exercise}
-:label: km_vak_1_6
-:nonumber: true
-
-Neem als statisch onbepaalde kracht het moment $M_{\rm{B}}$ (positief zorgt voor trek aan de onderkant).
-
-```{h5p} https://tudelft.h5p.com/content/1292634286050413117/embed
-```
-
-:::::
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -247,7 +236,6 @@ DS[G;E aan de kant van EG;E aan de kant van BE;{B aan de kant van BE}]
 
 ::::
 
-
 :::::{exercise}
 :label: km_vak_1_7
 :nonumber: true
@@ -267,8 +255,9 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $M_
 ```{figure} lesoefeningen_data/Vrijlichaamsschema2.svg
 ---
 align: center
+number:
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
 ---
-Constructie vrijgemaakt van pendelstaven met $M_{\rm{B}}$ als statisch onbepaalde. 
 ```
 
 De gebruikte vergelijkingen zijn:
@@ -300,22 +289,6 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $M_{\rm{B}}$
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-Oplossen van de vergelijkingen geeft:
-
-$$ N_{\rm{AD}} = 30 \rm{kN} $$
-$$ N_{\rm{CE}} = 20 \rm{kN} $$
-$$ \varphi_{\rm{B}} = 0.01 \rm{rad} $$
-$$ M_{\rm{B}} = -90 \rm{kNm} $$
-
-::::
-
-% solution_end
-
 ## Statisch onbepaalde normaalkracht $N_{\rm{AD}}$
 
 :::::{exercise}
@@ -328,19 +301,6 @@ Neem als statisch onbepaalde kracht de normaalkracht $N_{\rm{AD}}$ door de pende
 ```
 
 :::::
-
-% solution_start
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-De vormveranderingsvoorwaarde is: 
-
-$$ w _ {\rm{{D}}}^{\rm{AD}} = w _ {\rm{{D}}}^{\rm{BD}} $$
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :label: km_vak_1_10
@@ -355,14 +315,16 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $N_
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ```{figure} lesoefeningen_data/Vrijlichaamsschema3.svg
 ---
 align: center
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+number:
 ---
-Constructie met $N_{\rm{AD}}$ als statisch onbepaalde en vrijgemaakt van pendelstaaf CE. 
+
 ```
 
 De gebruikte vergelijkingen zijn:
@@ -393,19 +355,3 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $N_{\rm{AD}}
 ```
 
 :::::
-
-% solution_start
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-Oplossen van de vergelijkingen geeft:
-
-$$ N_{\rm{AD}} = 30 \rm{kN} $$
-$$ N_{\rm{CE}} = 20 \rm{kN} $$
-$$ w_{\rm{E}} = -2 \rm{cm} $$
-$$ w_{\rm{D}} = 3 \rm{cm} $$
-
-::::
-
-% solution_end
