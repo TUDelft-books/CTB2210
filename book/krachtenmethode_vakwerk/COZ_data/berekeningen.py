@@ -1,5 +1,7 @@
 import sympy as sym
 
+# symbols in this file are named differently than in the figure.
+
 L1, L2, L3, L4, L5, EI, EA, F, w_0 = sym.symbols('L1 L2 L3 L4 L5 EI EA F w_0')
 a = sym.symbols('a')
 
@@ -11,7 +13,7 @@ L4 = 3
 F = sym.nsimplify(33)
 print(F)
 #w_0 = sym.nsimplify(0.2)
-EA = 1000
+EA = 400
 
 N_DG = sym.symbols('N_DG')
 
@@ -28,6 +30,9 @@ print('w_D=',w_D.subs(a,1).expand(),'=',w_D.subs(a,1).evalf())
 
 eq1 = sym.Eq(w_D, 0)
 N_DG_sol = sym.solve(eq1, N_DG)[0]
+
+print('N_DG = normal ',N_DG_sol.subs(a,1),'=',N_DG_sol.subs(a,1).evalf())
+print('w_G, normal', w_G.subs({N_DG: N_DG_sol.subs(a,1), a:1}).expand(),'=',w_G.subs({N_DG: N_DG_sol.subs(a,1), a:1}).evalf())
 
 print('EA = inf ',N_DG_sol.subs(a,0),'=',N_DG_sol.subs(a,0).evalf())
 print('EA = normal ',N_DG_sol.subs(a,1),'=',N_DG_sol.subs(a,1).evalf())
