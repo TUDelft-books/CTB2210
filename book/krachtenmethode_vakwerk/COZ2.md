@@ -12,7 +12,7 @@ Deze pagina is aangepast van https://icozct.tudelft.nl/TUD_CT/CT2031/tentamens/f
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
 :::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/...)
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/75)
 :::
 ::::::
 
