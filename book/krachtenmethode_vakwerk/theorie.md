@@ -172,14 +172,22 @@ number:
 
     Dit leidt tot de volgende andere resultaten:
 
-    $w_{\rm{C}} = 1.2 \ \rm{mm} \left( \downarrow \right) $
-
     ```{figure} ./theorie_data/Nlijn.svg
     :align: center
     :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
 
+    $w_{\rm{C}} = 1.2 \ \rm{mm} \left( \downarrow \right) $
+
+    This leads to the following displaced structure:
+    
+    ```{figure} ./theorie_data/vervormde_constructie.svg
+    :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+    
     ::::::
 
 ## Meer voorbeelden
