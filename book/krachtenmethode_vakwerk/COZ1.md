@@ -11,7 +11,7 @@ Deze opgave kan in ANS gemaakt worden.
 
 Gegeven is de volgende constructie:
 
-```{figure-start} ./coz_data/constructie.svg
+```{figure-start} ./COZ_data/constructie.svg
 ---
 align: center
 figclass: sticky-margin

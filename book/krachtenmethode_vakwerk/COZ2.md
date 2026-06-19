@@ -20,7 +20,7 @@ Deze opgave kan in ANS gemaakt worden.
 
 Gegeven is de volgende constructie:
 
-```{figure-start} ./coz_data/constructie2.svg
+```{figure-start} ./COZ_data/constructie2.svg
 ---
 align: center
 number:
@@ -36,7 +36,7 @@ $EI \gg EA$
 
 Deze constructie kan ook gezien worden als
 
-```{figure} ./coz_data/constructie_veren.svg
+```{figure} ./COZ_data/constructie_veren.svg
 ---
 align: center
 number:
