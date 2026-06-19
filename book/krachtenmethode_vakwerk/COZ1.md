@@ -1,4 +1,4 @@
-# COZ opgave 2.7
+# COZ opgave 2.8
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
