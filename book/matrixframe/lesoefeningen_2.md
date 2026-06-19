@@ -2,7 +2,7 @@
 
 Gegeven is de volgende constructie:
 
-```{figure} lesoefeningen_data/structure_3.svg
+```{figure-start} lesoefeningen_data/structure_3.svg
 ---
 align: center
 figclass: sticky-margin
@@ -10,6 +10,11 @@ number:
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrixframe
 ---
 
+```
+- $EI = 3 \, \rm{MNm^2}$
+- $EA = 800 \, \rm{kN}$
+
+```{figure-end}
 ```
 
 ::::{question} Opgave

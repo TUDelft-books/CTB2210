@@ -1,8 +1,8 @@
 ````{margin}
-```{attributiongrey} Attribution
+```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/tools/matrixframe.html
+Deze oefening is aangepast de [pagina over MatrixFrame](https://oit.tudelft.nl/CEG-mechanics-BSc/NL/tools/matrixframe.html) van {cite:ts}`CEG_mechanics_BSc`
 
 ```
 ```` 

@@ -1,5 +1,5 @@
 ````{margin}
-```{attributiongrey} Attribution
+```{attributiongrey} Bronvermelding
 :class: attribution
 
 Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/bending.html

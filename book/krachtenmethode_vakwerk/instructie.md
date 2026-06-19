@@ -2,10 +2,10 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze oefening is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/extension.html
+Deze instructie is aangepast van de [pagina over de krachtenmethode voor vakwerkconstructies](https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/extension.html) van {cite:ts}`CEG_mechanics_BSc`
 
 ```
-```` 
+````
 
 # Instructie
 
@@ -15,12 +15,19 @@ De krachtenmethode hebben we eerder al behandeld voor [simpele constructies](kra
 :nonumber: true
 :label: sd_ext_0
 
-```{figure} ./extension_data/Example.svg
+```{figure-start} ./extension_data/Example.svg
 ---
 align: center
+number:
+figclass: sticky-margin
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
 ---
-Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming enkel veroorzaakt door extensie, niet door buiging. $EI = EA_{\rm{ADE}} = \infty, 0 < EA_{\rm{CD}}, EA_{\rm{BE}} < \infty$
+```
+
+- $EI \gg EA_{\rm{CD}}, EA_{\rm{BE}}$
+- $EA_{\rm{ADE}} \gg EA_{\rm{CD}}, EA_{\rm{BE}}$
+
+```{figure-end}
 ```
 
 ::::::
@@ -31,26 +38,18 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
     :nonumber: true
     :label: sd_ext_1
 
-    Voor ons voorbeeld zijn we geïnteresseerd in de interne krachtenverdeling, dus moeten we de graad van interne statische onbepaaldheid evalueren.
+    Voor ons voorbeeld zijn we geïnteresseerd in de interne krachtenverdeling, dus moeten we de graad van interne statische onbepaaldheid evalueren. Omdat dit een open constructie is, is er geen verschil tussen interne en externe statische onbepaaldheid:
 
-    ```{figure} ./extension_data/unknown_forces.svg
+    ```{figure} ./extension_data/uitwerking4.svg
     ---
     align: center
+    number:
     source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
     ---
-    Er zijn 17 onbekende krachten.
+
     ```
 
-    ```{figure} ./extension_data/equations.svg
-    ---
-    align: center
-    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
-    ---
-    Er zijn 16 evenwichtsvergelijkingen
-    ```
-
-    Deze constructie is dus 1e orde intern statisch onbepaald.
-
+    Er zijn 10 onbekende krachten en 9 evenwichtsvergelijkingen, dus is deze constructie 1e orde statisch onbepaald.
     ::::::
 
 2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaarden toe voor elke oplegging die je hebt weggenomen, aansluiting van de pendelstaven die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!
@@ -66,24 +65,28 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
     ```{figure} ./extension_data/option1.svg
     :align: center
     :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :number:
     ```
     ````
     ````{tab-item} Scharnier toevoegen
     ```{figure} ./extension_data/option2.svg
     :align: center
     :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :number:
     ```
     ````
     ````{tab-item} De horizontale bewegingsrichting van een oplegging vrijmaken
     ```{figure} ./extension_data/option3.svg
     :align: center
     :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :number:
     ```
     ````
     ````{tab-item} Verticale oplegging weghalen
     ```{figure} ./extension_data/option4.svg
     :align: center
     :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :number:
     ```
     ````
     `````
@@ -101,15 +104,25 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
 
     We hebben de volgende statisch bepaalde constructie gekozen met vervormingsvoorwaarde $w_{\rm{B}}\left( B_{\rm{v}} \right) = 0$:
 
-    ```{figure} ./extension_data/SD_struc.svg
+    ```{hide-sticky-margin}
+    ```
+    ```{figure-start} ./extension_data/SD-struc.svg
     ---
     align: center
+    number:
+    figclass: sticky-margin
     source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
     ---
-    De statisch bepaalde constructie met vervormingsvoorwaarde, $EI = EA_{\rm{ADE}} = \infty, 0 < EA_{\rm{CD}}, EA_{\rm{BE}} < \infty$
+    
     ```
 
-    Omdat $\rm{AE}$ oneindig stijf is, zullen alle vervormingen het gevolg zijn van staven die uitrekken/samendrukken. Om dit te berekenen, kunnen eerst de normaalkrachten worden geëvalueerd als functie van $B_{\rm{v}}$ met behulp van bijvoorbeeld een momentenevenwicht rond $\rm{A}$ voor het element $\text{ADE}$:
+    - $EI \gg EA_{\rm{CD}}, EA_{\rm{BE}}$
+    - $EA_{\rm{ADE}} \gg EA_{\rm{CD}}, EA_{\rm{BE}}$
+
+    ```{figure-end}
+    ```
+
+    Omdat $\rm{AE}$ oneindig stijf is, zullen alle vervormingen het gevolg zijn van staven die uitrekken/samendrukken. Om dit te berekenen, kunnen eerst de normaalkrachten worden geëvalueerd als functie van $B_{\rm{v}}$ met behulp van bijvoorbeeld een momentenevenwicht rond $\rm{A}$ voor het element $\rm{ADE}$:
 
     - $N_{\rm{CD}}\left( B_{\rm{v}} \right) = 210 - 2.5 B_{\rm{v}}$
     - $N_{\rm{BE}} \left( B_{\rm{v}} \right) = - B_{\rm{v}}$
@@ -125,9 +138,12 @@ Voorbeeldconstructie. Hoewel dit geen vakwerkconstructie is, worden vervorming e
     ---
     align: center
     source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    number:
     ---
-    De verplaatsing van $\rm{D}$ is $\cfrac{5}{4} \Delta L_{\rm{CD}} $
+    
     ```
+
+    Dit geeft een verplaatsing van $\rm{D}$ van $\cfrac{5}{4} \Delta L_{\rm{CD}} $
 
     - $w_{\rm{D}}\left( B_{\rm{v}} \right) = \cfrac{1750}{EA} - \cfrac{125 B_{\rm{v}}}{6 EA} \left( \downarrow \right) $
     - $w_{\rm{E}}\left( B_{\rm{v}} \right) = \cfrac{3500}{EA} - \cfrac{125 B_{\rm{v}}}{3 EA} \left( \downarrow \right) $

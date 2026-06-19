@@ -2,7 +2,7 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze pagina is aangepast van https://icozct.tudelft.nl/TUD_CT/CT2031/tentamens/files/2031-3001-2017.pdf, onderdeel 2
+Deze oefening is aangepast de [tweede opgave van dit tentamen](https://icozct.tudelft.nl/TUD_CT/CT2031/tentamens/files/2031-3001-2017.pdf) van {cite:ts}`Exam_30_01_2017`.
 
 ```
 ````

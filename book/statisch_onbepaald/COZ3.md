@@ -1,8 +1,8 @@
 ````{margin}
-```{attributiongrey} Attribution
+```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze oefening is aangepast van https://oit.tudelft.nl/CT1000/2024/week_6/session_1/intro.html
+Deze oefening is aangepast de [les van 7 oktober](https://oit.tudelft.nl/CT1000/2024/week_6/session_1/intro.html) van {cite:ts}`CT1000_2024`
 
 ```
 ```` 
@@ -46,7 +46,7 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 ```{figure} coz_data/uitwerking3.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz/COZ3.vsdx
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 
 ```
 

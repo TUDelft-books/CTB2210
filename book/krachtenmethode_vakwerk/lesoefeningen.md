@@ -29,10 +29,10 @@ Bepaal de oplegreacties en het snedekrachtenlijnen. Je gaat dit doen voor drie v
 :showanswer:
 
 ---
-M[0]
+M[1]
 ^^^
 ?
-De constructie is {gap}ste/de graads uitwendig statisch onbepaald
+De constructie is {gap}ste/de graads inwendig statisch onbepaald
 ---
 
 ::::

@@ -2,10 +2,10 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze oefening is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/extension.html
+Deze oefening is aangepast de [pagina over de krachtenmethode voor vakwerkconstructies](https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/extension.html) van {cite:ts}`CEG_mechanics_BSc`
 
 ```
-```` 
+````
 
 # COZ opgave 2.6
 

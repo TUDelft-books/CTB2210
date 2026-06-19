@@ -2,43 +2,47 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze oefening is aangepast van https://oit.tudelft.nl/CT1000/2024/week_3/session_3/intro.html
-
-% source files at https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+Deze oefening is aangepast de [les van 20 september](https://oit.tudelft.nl/CT1000/2024/week_3/session_3/intro.html) van {cite:ts}`CT1000_2024`
 
 ```
-```` 
+````
+
+
 
 # Begeleide oefening
 
 Gegeven is de volgende constructie:
 
-```{figure} lesoefeningen_2_data/structure.svg
+```{figure-start} lesoefeningen_2_data/structure.svg
 :align: center
+:number:
+:figclass: sticky-margin
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+```
 
-Constructie, $EA = 3750 \ \rm{kN}$
+$EA = 3750 \ \rm{kN}$
+
+```{figure-end}
 ```
 
 Bepaal de verplaatsingen van de knopen.
 
-:::::{exercise}
-:label: vakwerk_1_1
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292634971733883797/embed
-```
-
-:::::
-
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-De constructie is *1*ste/de graads inwendig statisch onbepaald
+---
+M[1]
+^^^
+?
+De constructie is {gap}ste/de graads inwendig statisch onbepaald
+---
 
 ::::
-
-
 
 :::::{exercise}
 :label: vakwerk_1_2

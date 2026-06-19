@@ -2,10 +2,10 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze oefening is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/extension.html
+Deze oefening is aangepast de [pagina over de krachtenmethode voor vakwerkconstructies](https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/extension.html) van {cite:ts}`CEG_mechanics_BSc`
 
 ```
-```` 
+````
 
 # COZ opgave 2.4
 
@@ -46,7 +46,7 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 ```{figure} coz_data/uitwerking4.svg
 :align: center
 :number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/blob/main/graad_statisch_coz/COZ4.vsdx
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
 ```
 
 $ 10 - 9 = 1 $

@@ -44,7 +44,7 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
 
 ::::::
 
-We behandelen de toepassing op vakwerkconstructies met het volgende voorbeeld.
+We behandelen de toepassing op constructies die enkel op rek worden beoordeeld met het volgende voorbeeld.
 
 ::::::{prf:example}
 :nonumber: true
@@ -65,8 +65,6 @@ number:
 
 ```{figure-end}
 ```
-
-Hoewel dit geen vakwerkconstructie is, worden vervorming enkel veroorzaakt door extensie, niet door buiging.
 
 ::::::
 
