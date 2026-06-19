@@ -2,7 +2,13 @@
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
+
+:::{todo}
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/61)
+:::
+
 ::::::
+
 
 % https://ans.app/repo_questions/21597276/generator
 

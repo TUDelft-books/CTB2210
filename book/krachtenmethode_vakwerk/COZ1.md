@@ -2,6 +2,9 @@
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
+:::{todo}
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/74)
+:::
 ::::::
 
 % https://ans.app/repo_questions/...
@@ -35,6 +38,10 @@ Bepaal de zakking in $\rm{G}$ met behulp van de krachtenmethode.
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
+
+:::{todo}
+[Bijwerken uitwerkingen](https://github.com/TUDelft-books/CTB2210/issues/74)
+:::
 
 Voor deze constructie is de inwendige statisch onbepaaldheid gelijk aan de uitwendig statisch onbepaaldheid.
 

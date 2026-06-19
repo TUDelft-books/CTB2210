@@ -11,6 +11,10 @@ Deze oefening is aangepast van https://oit.tudelft.nl/CT1000/2024/week_6/session
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
+
+:::{todo}
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/63)
+:::
 ::::::
 
 % https://ans.app/repo_questions/...

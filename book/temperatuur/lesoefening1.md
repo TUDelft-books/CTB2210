@@ -48,6 +48,10 @@ Wat zijn de krachtverdelingen en verplaatsingen als gevolg van de verdeelde bela
 
 :::::
 
+:::{todo}
+[Toevoegen uitwerkingen](https://github.com/TUDelft-books/CTB2210/issues/27)
+:::
+
 :::::{exercise}
 :label: temp_1_3
 :nonumber: true

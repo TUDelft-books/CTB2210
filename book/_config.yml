@@ -53,6 +53,7 @@ sphinx:                                              # Options passed on to the 
       GitHub Action: Tom van Woudenberg
       ioskam: Iris Oskam
       paulinadenotter: Paula den Otter
+    todo_include_todos: true
   extra_extensions:                                  # Gives you a starter package of extensions to use in your book
     - teachbooks_favourites
     - sphinx_tudelft_theme

@@ -2,6 +2,11 @@
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
+
+:::{todo}
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/62)
+:::
+
 ::::::
 % https://ans.app/repo_questions/....
 

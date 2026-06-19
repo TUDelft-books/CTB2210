@@ -54,6 +54,10 @@ Bepaal de normaalkrachten in de drie staven in de constructie als functie van de
 
 :::::
 
+:::{todo}
+[Toevoegen uitwerkingen](https://github.com/TUDelft-books/CTB2210/issues/45)
+:::
+
 :::::{exercise}
 :label: verplaats2_4
 :nonumber: true

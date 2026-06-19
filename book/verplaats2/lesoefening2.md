@@ -75,6 +75,10 @@ Bepaal de evenwichtsvergelijkingen
 
 :::::
 
+:::{todo}
+[Toevoegen uitwerkingen](https://github.com/TUDelft-books/CTB2210/issues/45)
+:::
+
 :::::{exercise}
 :label: verplaats3_5
 :nonumber: true

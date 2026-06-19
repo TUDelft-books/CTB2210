@@ -51,3 +51,7 @@ Bepaal de waarde van de vrijheidsgraden $\varphi_{\rm{B}}$, $\varphi_{\rm{C}}$, 
 ```
 
 :::::
+
+:::{todo}
+[Toevoegen uitwerkingen](https://github.com/TUDelft-books/CTB2210/issues/46)
+:::
