@@ -169,8 +169,14 @@ source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main
 
     - $N_{\rm{CD}} = 22.5 \ \rm{kN}$
     - $N_{\rm{BE}} -75 \ \rm{kN} $
-    - $w_{\rm{D}} = \cfrac{375}{2EA} \left( \downarrow \right) $
-    - $w_{\rm{E}} = \cfrac{375}{EA} \left( \downarrow \right) $
+    - $w_{\rm{D}} = \cfrac{375000}{2 \cdot EA \, \left( \rm{in} \, \rm{N} \right)} \, \rm{mm} \, \left( \downarrow \right) $
+    - $w_{\rm{E}} = \cfrac{375000}{EA \, \left( \rm{in} \, \rm{N} \right)} \, \rm{mm} \,  \left( \downarrow \right) $
+
+    ```{figure} ./extension_data/verplaatsingen.svg
+    :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :number:
+    ```
 
     ::::::
 

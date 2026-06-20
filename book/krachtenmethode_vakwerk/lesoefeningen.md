@@ -355,3 +355,25 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $N_{\rm{AD}}
 ```
 
 :::::
+
+## Vervormde constructie
+
+::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Teken de vervormde constructie.
+---
+=
+```{figure} lesoefeningen_data/verplaatsingen.svg
+:align: center
+:number:
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+```
+
+---
+
+::::
