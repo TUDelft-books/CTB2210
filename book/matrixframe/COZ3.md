@@ -7,7 +7,7 @@ Deze oefening is aangepast de [pagina over de krachtenmethode voor vakwerkconstr
 ```
 ````
 
-# COZ opgave 2.6
+# COZ opgave 2.3
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.

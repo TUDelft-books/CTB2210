@@ -7,7 +7,7 @@ Deze oefening is aangepast de [tweede opgave van dit tentamen](https://icozct.tu
 ```
 ````
 
-# COZ opgave 2.9
+# COZ opgave 2.5
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.

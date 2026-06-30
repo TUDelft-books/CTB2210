@@ -7,7 +7,7 @@ Deze oefening is aangepast de [les van 7 oktober](https://oit.tudelft.nl/CT1000/
 ```
 ```` 
 
-# COZ opgave 2.3
+# COZ opgave 1.x
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.

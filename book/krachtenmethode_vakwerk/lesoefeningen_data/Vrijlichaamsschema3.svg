@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export Vrijlichaamsschema3.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.53443in" height="2.14779in"
-		viewBox="0 0 326.479 154.641" xml:space="preserve" color-interpolation-filters="sRGB" class="st17">
+		viewBox="0 0 326.479 154.641" xml:space="preserve" color-interpolation-filters="sRGB" class="st19">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -21,16 +21,18 @@
 		.st11 {marker-end:url(#mrkr4-75);marker-start:url(#mrkr4-73);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
 		.st12 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.12195121951219}
 		.st13 {baseline-shift:-33.349%;font-size:0.666979em}
-		.st14 {marker-start:url(#mrkr5-142);stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.16}
-		.st15 {fill:#800000;fill-opacity:1;stroke:#800000;stroke-opacity:1;stroke-width:0.46153846153846}
+		.st14 {marker-start:url(#mrkr5-142);stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.16}
+		.st15 {fill:#31859b;fill-opacity:1;stroke:#31859b;stroke-opacity:1;stroke-width:0.46153846153846}
 		.st16 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
-		.st17 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st17 {marker-start:url(#mrkr5-150);stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.16}
+		.st18 {fill:#800000;fill-opacity:1;stroke:#800000;stroke-opacity:1;stroke-width:0.46153846153846}
+		.st19 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
 	<defs id="Markers">
 		<g id="lend5">
-			<path d="M 2 1 L 0 0 L 1.98117 -0.993388 C 1.67173 -0.364516 1.67301 0.37264 1.98465 1.00043 " style="stroke:none"/>
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
 		</g>
 		<marker id="mrkr5-40" class="st5" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="3.775" orient="auto"
 				markerUnits="strokeWidth" overflow="visible">
@@ -48,6 +50,10 @@
 			<use xlink:href="#lend4" transform="scale(-8.2,-8.2) "/>
 		</marker>
 		<marker id="mrkr5-142" class="st15" v:arrowType="5" v:arrowSize="2" v:setback="3.625" refX="3.625" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(2.1666666666667) "/>
+		</marker>
+		<marker id="mrkr5-150" class="st18" v:arrowType="5" v:arrowSize="2" v:setback="3.625" refX="3.625" orient="auto"
 				markerUnits="strokeWidth" overflow="visible">
 			<use xlink:href="#lend5" transform="scale(2.1666666666667) "/>
 		</marker>
@@ -273,9 +279,9 @@
 		</g>
 		<g id="shape767-145" v:mID="767" v:groupContext="shape" transform="translate(-140.584,58.7246) rotate(-90)">
 			<title>Kracht.767</title>
-			<path d="M7.83 154.64 L8.19 154.64 L16.81 154.64" class="st14"/>
+			<path d="M7.83 154.64 L8.19 154.64 L16.81 154.64" class="st17"/>
 		</g>
-		<g id="shape768-150" v:mID="768" v:groupContext="shape" transform="translate(7.20661,-95.3356)">
+		<g id="shape768-151" v:mID="768" v:groupContext="shape" transform="translate(7.20661,-95.3356)">
 			<title>Blad.768</title>
 			<desc>NAD</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
@@ -283,11 +289,11 @@
 			<rect x="0" y="140.467" width="42.5197" height="14.1732" class="st6"/>
 			<text x="12.61" y="151.15" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>N<tspan dy="-0.289em"
 						class="st13" v:baseFontSize="12">AD</tspan></text>		</g>
-		<g id="shape769-154" v:mID="769" v:groupContext="shape" transform="translate(-140.347,63.1747) rotate(-90) scale(-1,1)">
+		<g id="shape769-155" v:mID="769" v:groupContext="shape" transform="translate(-140.347,63.1747) rotate(-90) scale(-1,1)">
 			<title>Kracht.769</title>
-			<path d="M7.83 154.64 L8.19 154.64 L16.81 154.64" class="st14"/>
+			<path d="M7.83 154.64 L8.19 154.64 L16.81 154.64" class="st17"/>
 		</g>
-		<g id="shape770-159" v:mID="770" v:groupContext="shape" transform="translate(10.6591,-79.0364)">
+		<g id="shape770-160" v:mID="770" v:groupContext="shape" transform="translate(10.6591,-79.0364)">
 			<title>Blad.770</title>
 			<desc>NAD</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
@@ -295,7 +301,7 @@
 			<rect x="0" y="140.467" width="42.5197" height="14.1732" class="st6"/>
 			<text x="12.61" y="151.15" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>N<tspan dy="-0.289em"
 						class="st13" v:baseFontSize="12">AD</tspan></text>		</g>
-		<g id="shape724-163" v:mID="724" v:groupContext="shape" transform="translate(12.1672,-111.635)">
+		<g id="shape724-164" v:mID="724" v:groupContext="shape" transform="translate(12.1672,-111.635)">
 			<title>Scharnier.724</title>
 			<ellipse cx="2.12598" cy="152.515" rx="2.12598" ry="2.12598" class="st16"/>
 		</g>

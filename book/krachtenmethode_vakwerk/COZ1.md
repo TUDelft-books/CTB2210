@@ -1,4 +1,4 @@
-# COZ opgave 2.8
+# COZ opgave 2.4
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
@@ -30,7 +30,7 @@ source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main
 ::::{admonition} Opgave
 :class: exercise
 
-Bepaal de zakking in $\rm{G}$ met behulp van de krachtenmethode.
+Bepaal de zakking in $\rm{G}$ met behulp van de krachtenmethode en teken de vervormde constructie.
 
 ::::
 
@@ -120,6 +120,10 @@ $$w_{\rm{D}} = 0.66 - 0.033 \cdot D_{\rm{v}}$$
 Oplossen van de vormveranderingsvoorwaarde geeft: $w_{\rm{D}} =0 \to D_{\rm{v}} = 20 \ \rm{ kN}$ (dit wordt 19.8 kN zonder het balkje bovenin)
 
 Invullen in $w_{\rm{G}} = 0.22 - 0.01 \cdot D_{\rm{v}}$ geeft: $w_{\rm{G}} = 20 \ \rm{ mm}$ (dit wordt 55 mm zonder het balkje bovenin)
+
+:::{todo}
+[Toevoegen vervormde constructie](https://github.com/TUDelft-books/CTB2210/issues/74)
+:::
 
 ::::
 

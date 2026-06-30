@@ -1,4 +1,4 @@
-# COZ opgave 2.5
+# COZ opgave 2.1
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
