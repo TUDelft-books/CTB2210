@@ -24,6 +24,7 @@ Gegeven is de volgende constructie:
 ---
 align: center
 number:
+figclass: sticky-margin
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
 ---
 
