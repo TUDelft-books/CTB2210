@@ -186,7 +186,7 @@ In hoofdstuk 2.1 van het boek Mechanica, Statisch onbepaalde constructies en bez
 
 ## Instructies in collegevorm
 
-Dit onderwerp is in [les 5](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/99cfa289d58d4986a4378be10efb40c31d?sortBy=most-recent) gepresenteerd in collegevorm tot 0:42:50.
+Dit onderwerp is in [2025 in les 5](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/99cfa289d58d4986a4378be10efb40c31d?sortBy=most-recent) gepresenteerd in collegevorm tot 0:42:50. De opname in collegejaar 2026/2027 volgt na het college.
 
 ## Oefeningen
 - Opgaves 2.40 en 2.41, in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
