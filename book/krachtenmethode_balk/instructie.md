@@ -44,27 +44,18 @@ source: bending_data/constructie.py
     :nonumber: true
     :label: sd_ben_1
 
-    Voor ons voorbeeld zijn we geïnteresseerd in de verdeling van inwendige krachten, dus moeten we de graad van inwendige statische onbepaaldheid evalueren.
+    Voor ons voorbeeld zijn we geïnteresseerd in de verdeling van inwendige krachten, dus moeten we de graad van inwendige statische onbepaaldheid evalueren. Omdat dit geen gesloten constructie is is de uitwendige graad van statische onbepaaldheid gelijk aan de inwendige graad van statische onbepaaldheid:
 
-    ```{figure} ./bending_data/onbekenden.svg
+    ```{figure} ./bending_data/graad.svg
     ---
     align: center
-    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
+    source: bending_data/graad.py
     number:
     ---
-    Er zijn 14 onbekende krachten.
+    
     ```
 
-    ```{figure} ./bending_data/vergelijkingen.svg
-    ---
-    align: center
-    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
-    number:
-    ---
-    Er zijn 13 evenwichtsvergelijkingen
-    ```
-
-    Deze constructie is dus 1e orde inwendig statisch onbepaald.
+    Er zijn 4 onbekenden krachten en 3 evenwichtsvergelijkingen. Deze constructie is dus 1e orde inwendig statisch onbepaald.
 
     ::::::
 
