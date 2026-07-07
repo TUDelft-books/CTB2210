@@ -2,9 +2,7 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/bending.html
-
-% Figures from https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/bending_data/Tekening1.vsdx
+Deze pagina is aangepast van [deze instructie](https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/bending.html) van {cite:ts}`CEG_mechanics_BSc`.
 
 ```
 ```` 
@@ -13,32 +11,68 @@ Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statica
 
 Gegeven is de volgende constructie:
 
-```{figure} bending_data/Example.svg
-:align: center
+```{figure-start} ./bending_data/Example.svg
+---
+align: center
+figclass: sticky-margin
+number:
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
+---
 
-Constructie, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
+```
+
+- $EI = \cfrac{16}{3} \ \rm{MNm^2}$
+- $EA \gg EI $
+
+```{figure-end}
 ```
 
 Bepaal de krachtsverdeling en verplaatsingen.
 
-:::::{exercise}
-:label: balk_1_1
-:nonumber: true
-
 Ga uit van het volgende statisch bepaalde systeem:
 
-```{figure} bending_data/SB-systeem2.svg
-:align: center
+```{figure-start} ./bending_data/SB-systeem2.svg
+---
+align: center
+figclass: sticky-margin
+number:
+source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
+---
 
-Statisch bepaalde constructie met vormveranderingsvoorwaarde, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
 ```
 
-Los de krachtsverdeling en verplaatsingen van deze constructie op als functie van $A_{\rm{v}}$
+- $EI = \cfrac{16}{3} \ \rm{MNm^2}$
+- $EA \gg EI $
 
-```{h5p} https://tudelft.h5p.com/content/1292636025372301087/embed
+```{figure-end}
 ```
 
-:::::
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+---
+M[4]
+M[-200]
+M[0.0015]
+M[-0.075]
+M[0.01]
+M[-0.45]
+^^^
+? Bepaal de normaalkrachten in alle staven als functie van $A_{\rm{v}}$, met  $A_{\rm{v}}$ in $\rm{kN}$, $M_{\rm{B}}$ in $\rm{kNm}$, $\varphi_{\rm{B}}$ in $\rm{rad}$ en $w_{\rm{A}}$ in $\rm{m}$.
+
+- $M_{\rm{B}} \left( A_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kNm}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{kNm}\right)$ (◠)
+- $\varphi_{\rm{B}} \left( A_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{rad}\right)$ (↻)
+- $w_{\rm{A}} \left( A_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$ (↑)
+
+
+---
+
+::::
 
 % solution_start
 
@@ -48,8 +82,8 @@ Los de krachtsverdeling en verplaatsingen van deze constructie op als functie va
 ```{figure} lesoefeningen_data/VrijlichaamsschemaBC.svg
 ---
 align: center
+number:
 ---
-Vrijlichaamsschema van deel BC
 ```
 $$ M_{\rm{B}} \left( A_{\rm{v}} \right) = 4 \cdot A_{\rm{v}} -200 $$
 

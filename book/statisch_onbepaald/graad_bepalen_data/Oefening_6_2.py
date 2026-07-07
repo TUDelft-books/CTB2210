@@ -1,4 +1,4 @@
-#plotter from https://github.com/Tom-van-Woudenberg/ANS/tree/edits-Tom
+#plotter from https://github.com/lisette-924/ANS
 from plotter import *
 
 A = Point(0,0)
