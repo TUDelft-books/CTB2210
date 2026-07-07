@@ -25,7 +25,7 @@ We tonen de stappen van de krachtenmethode voor een balk.
 align: center
 figclass: sticky-margin
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
+source: bending_data/constructie.py
 ---
 
 ```
