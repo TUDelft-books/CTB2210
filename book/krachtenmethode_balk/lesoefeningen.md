@@ -69,7 +69,6 @@ M[-0.45]
 - $\varphi_{\rm{B}} \left( A_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{rad}\right)$ (↻)
 - $w_{\rm{A}} \left( A_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$ (↑)
 
-
 ---
 
 ::::
@@ -148,7 +147,7 @@ Hieruit volgt $A_{\rm{v}} = 45 \rm{kN}$
 :showanswer:
 
 ---
-MAPE[175/3;0.1;3]
+MAPE[175/3;0.1;4]
 MAPE[10/3;0.1;2]
 M[-20]
 M[40]
