@@ -137,7 +137,7 @@ number:
 
     ::::
 
-    De verplaatsingen van elke constructie kunnen geschetst worden.
+    De mogelijke vervormingen van elke constructie kunnen geschetst worden.
     
     ::::{grid} 3
     :class-container: center-grid
@@ -177,7 +177,7 @@ number:
 
     ::::
 
-    Alle drie de opties zijn uit te rekenen met de verlenging van staven. De eerste optie wordt gekozen.
+    Geen van de opties vormt een mechanica en alle drie de opties zijn uit te rekenen met de verlenging van staven. De eerste optie wordt gekozen.
 
     ::::::
 
@@ -223,7 +223,7 @@ number:
 
     :::{grid-item}
 
-    De statisch onbepaalde kracht zorgt voor verkorting van de statisch bepaalde constructie:
+    De statisch onbepaalde kracht zorgt voor verkorting van de statisch bepaalde constructie, zoals eerder ook al getekend:
 
     ```{figure} ./theorie_data/verpl_2.svg
     :align: center

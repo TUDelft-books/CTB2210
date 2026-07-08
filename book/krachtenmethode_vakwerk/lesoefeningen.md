@@ -57,6 +57,163 @@ Er zijn 10 onbekende krachten en 9 evenwichtsvergelijkingen. Dus de constructie 
 
 % solution_end
 
+We overwegen de volgende alternatieven als statisch onbepaalde constructie:
+
+- Weghalen verticale oplegging bij $\rm{A}$
+- Weghalen oplegging bij $\rm{B}$
+- Weghalen verticale oplegging bij $\rm{C}$
+- Toevoegen scharnier bij $\rm{B}$ (in doorgaande liggen $\rm{DBEG}$)
+- Toevoegen scharnier bij $\rm{E}$ (in doorgaande liggen $\rm{DBEG}$)
+- Splitsen constructie in pendelstaaf $\rm{AD}$
+- Splitsen constructie in pendelstaaf $\rm{CE}$
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het weghalen van de verticale oplegging bij $\rm{A}$
+---
+=
+
+```{figure} ./lesoefeningen_data/optie_1.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het weghalen van deoplegging bij $\rm{B}$
+---
+=
+
+```{figure} ./lesoefeningen_data/optie_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het weghalen van de verticale oplegging bij $\rm{C}$
+---
+=
+
+```{figure} ./lesoefeningen_data/optie_3.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het toevoegen van een scharnier bij $\rm{B}$ (in doorgaande liggen $\rm{DBEG}$)
+---
+=
+
+```{figure} ./lesoefeningen_data/optie_4.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het toevoegen van een scharnier bij $\rm{E}$ (in doorgaande liggen $\rm{DBEG}$)
+---
+=
+
+```{figure} ./lesoefeningen_data/optie_5.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het splitsen van de constructie in pendelstaaf $\rm{AD}$
+---
+=
+
+```{figure} ./lesoefeningen_data/optie_6.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het splitsen van de constructie in pendelstaaf $\rm{CE}$
+---
+=
+
+```{figure} ./lesoefeningen_data/optie_7.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+:number:
+```
+
+---
+
+:::::
+
 ::::{question} Opgave
 :variant: multiple-select
 :columns: 1
@@ -96,6 +253,45 @@ M[w_B = 0]
 ---
 
 ::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de vervormde statisch onbepaalde constructie onder invloed van de $26 \, \rm{kN}$ en, afzonderlijk, van de statisch onbepaalde kracht.
+---
+=
+
+::::{grid} 2
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./lesoefeningen_data/optie_8.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+:number:
+```
+
+:::
+:::{grid-item}
+
+```{figure} ./lesoefeningen_data/optie_8_26.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+:number:
+```
+
+:::
+::::
+
+---
+
+:::::
 
 ::::{question} Opgave
 :type: short-answer
@@ -236,6 +432,27 @@ DS[G;E aan de kant van EG;E aan de kant van BE;{B aan de kant van BE}]
 
 ::::
 
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de vervormde statisch onbepaalde constructie onder invloed van de $26 \, \rm{kN}$. De vervormde constructie onder invloed van de statisch onbepaalde kracht $M_{\rm{B}}$ is al getekend in een van de eerste oefeningen.
+---
+=
+
+```{figure} ./lesoefeningen_data/optie4_26.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+:number:
+```
+
+---
+
+:::::
+
 :::::{exercise}
 :label: km_vak_1_7
 :nonumber: true
@@ -299,6 +516,27 @@ Neem als statisch onbepaalde kracht de normaalkracht $N_{\rm{AD}}$ door de pende
 
 ```{h5p} https://tudelft.h5p.com/content/1292634312901581657/embed
 ```
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de vervormde statisch onbepaalde constructie onder invloed van de $26 \, \rm{kN}$. De vervormde constructie onder invloed van de statisch onbepaalde kracht $N_{\rm{AD}}$ is al getekend in een van de eerste oefeningen.
+---
+=
+
+```{figure} ./lesoefeningen_data/optie6_26.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+:number:
+```
+
+---
 
 :::::
 
