@@ -17,7 +17,7 @@ Gegeven is de volgende constructie:
 :align: center
 :number:
 :figclass: sticky-margin
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 $EA = 3750 \ \rm{kN}$
@@ -76,7 +76,7 @@ We kiezen voor een statisch onbepaalde kracht $B_{\rm{h}}$ (naar links positief)
 :align: center
 :figclass: sticky-margin
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 
 ```
 
@@ -134,7 +134,7 @@ Allereerst worden de oplegreacties berekend:
 ```{figure} lesoefeningen_2_data/FBD_sol.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 
 ```
 
@@ -143,7 +143,7 @@ De staafkrachten kunnen nu worden opgelost, beginnende bij de krachten in de sta
 ```{figure} lesoefeningen_2_data/FBD_B.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 $$
@@ -156,7 +156,7 @@ Dit geeft:
 ```{figure} lesoefeningen_2_data/FBD_B_sol.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 Vervolgens wordt een snede gemaakt door de staven $\rm{AD}$, $\rm{CD}$ en $\rm{CE}$:
@@ -164,7 +164,7 @@ Vervolgens wordt een snede gemaakt door de staven $\rm{AD}$, $\rm{CD}$ en $\rm{C
 ```{figure} lesoefeningen_2_data/FBD_AC.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 $$
@@ -178,7 +178,7 @@ Dit geeft:
 ```{figure} lesoefeningen_2_data/FBD_AC_sol.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 Daarna wordt knoopevenwicht van $\rm{D}$ beschouwd:
@@ -186,7 +186,7 @@ Daarna wordt knoopevenwicht van $\rm{D}$ beschouwd:
 ```{figure} lesoefeningen_2_data/FBD_D.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 $$\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{DE}}}} =  6.25{\rm{ kN}}$$
@@ -196,7 +196,7 @@ Dit geeft:
 ```{figure} lesoefeningen_2_data/FBD_D_sol.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 En ten slotte knoop $\rm{C}$:
@@ -204,7 +204,7 @@ En ten slotte knoop $\rm{C}$:
 ```{figure} lesoefeningen_2_data/FBD_C.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 $$\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{AC}}}} =  - 18.75{\rm{ kN}}$$
@@ -214,7 +214,7 @@ Dit geeft:
 ```{figure} lesoefeningen_2_data/FBD_C_sol.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 ::::
@@ -299,7 +299,7 @@ Dit geeft de volgende vervormde constructie.
 ```{figure} lesoefeningen_2_data/displaced_20.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 $\rm{B}$ zou niet verticaal moeten verplaatsen, dus de constructie moet teruggedraaid worden met $\theta  \approx \cfrac{{108}}{{12000}} = 9 \cdot {10^{ - 3}}{\rm{ rad}}$ ⟳, leading to:
@@ -327,7 +327,7 @@ Dit geeft de volgende vervormde constructie.
 ```{figure} lesoefeningen_2_data/displaced_20_cor.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 ::::{question} Opgave
@@ -388,7 +388,7 @@ Teken de vervormde statisch bepaalde constructie ten gevolgde van enkel $B_{\rm{
 ```{figure} lesoefeningen_2_data/displaced_Bh.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 ---
@@ -482,7 +482,7 @@ Teken de vervormde statisch onbepaalde constructie.
 ```{figure} lesoefeningen_2_data/displaced_3.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 | Scharnier | Verplaatsing in horizontale richting → (mm)| Verplaatsing in verticale richting ↓ (mm)|
@@ -517,7 +517,7 @@ Invullen van $B_{\rm{h}} = 7.5 \ \rm{kN}$ en optellen bij de verplaatsingen ten 
 ```{figure} lesoefeningen_2_data/displaced_3.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
 
 | Scharnier | Verplaatsing in horizontale richting → (mm)| Verplaatsing in verticale richting ↓ (mm)|

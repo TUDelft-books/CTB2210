@@ -14,21 +14,21 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
     ````{tab-item} Weghalen oplegging
     ```{figure} theorie_data/1.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
     ````
     ````{tab-item} Splitsen constructie bij pendelstaven
     ```{figure} theorie_data/2.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
     ````
     ````{tab-item} Toevoegen scharnieren
     ```{figure} theorie_data/3.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
     ````
@@ -54,7 +54,7 @@ We behandelen de toepassing op constructies die enkel op rek worden beoordeeld m
 ---
 align: center
 figclass: sticky-margin
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
 number:
 ---
 
@@ -79,7 +79,7 @@ number:
     ```{figure} ./theorie_data/statisch_onbepaaldheid.svg
     ---
     align: center
-    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     number:
     ---
     
@@ -101,7 +101,7 @@ number:
 
     ```{figure} ./theorie_data/options.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     number:
     ```
 
@@ -109,7 +109,7 @@ number:
     
     ```{figure} ./theorie_data/verplaatsingen.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     number:
     ```
 
@@ -128,7 +128,7 @@ number:
     ```{figure-start} ./theorie_data/SB-systeem.svg
     ---
     align: center
-    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     number:
     ---
 
@@ -174,7 +174,7 @@ number:
 
     ```{figure} ./theorie_data/Nlijn.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
 
@@ -184,7 +184,7 @@ number:
     
     ```{figure} ./theorie_data/vervormde_constructie.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
     

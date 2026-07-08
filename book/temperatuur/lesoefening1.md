@@ -4,7 +4,7 @@
 
 Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2025/week_8/session_3/intro.html
 
-% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/temperatuur2
+% source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/temperatuur2
 ```
 ````
 

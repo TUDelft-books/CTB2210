@@ -44,7 +44,7 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende verbindingskrachten. Da
 ```{figure} graad_bepalen_data/Oefening_8.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_2
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_2
 number:
 ---
 
@@ -80,7 +80,7 @@ Er zijn {gap} evenwichtsvergelijkingen
 ```{figure} graad_bepalen_data/Oefening_9.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_2
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_2
 number:
 ---
 ```

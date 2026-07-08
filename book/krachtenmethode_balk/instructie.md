@@ -49,7 +49,7 @@ source: bending_data/constructie.py
     ```{figure} ./bending_data/onbekenden.svg
     ---
     align: center
-    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     number:
     ---
     Er zijn 14 onbekende krachten.
@@ -58,7 +58,7 @@ source: bending_data/constructie.py
     ```{figure} ./bending_data/vergelijkingen.svg
     ---
     align: center
-    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     number:
     ---
     Er zijn 13 evenwichtsvergelijkingen
@@ -81,14 +81,14 @@ source: bending_data/constructie.py
     ```{figure} ./bending_data/optie2.svg
     :align: center
     :number:
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
     ````
     ````{tab-item} Verticale oplegging bij $\rm{B}$ loslaten
     ```{figure} ./bending_data/optie3.svg
     :align: center
     :number:
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
     Deze optie is niet erg handig omdat er geen vergeet-mij-nietjes zijn om de verplaatsing bij $\rm{B}$ te verkrijgen voor deze belastingen
     ````
@@ -96,14 +96,14 @@ source: bending_data/constructie.py
     ```{figure} ./bending_data/optie4.svg
     :align: center
     :number:
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
     ````
     ````{tab-item} Scharnier toevoegen bij $\rm{B}$
     ```{figure} ./bending_data/optie1.svg
     :align: center
     :number:
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
     Als alleen scharnieren worden toegevoegd, noemen we deze benadering 'hoekveranderingsvergelijkingen' of 'gaapvergelijkingen'
     ````
@@ -126,7 +126,7 @@ source: bending_data/constructie.py
     align: center
     figclass: sticky-margin
     number:
-    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ---
     
     ```

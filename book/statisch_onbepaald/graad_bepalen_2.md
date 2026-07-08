@@ -7,7 +7,7 @@ Gegeven is de volgende constructie:
 align: center
 figclass: sticky-margin
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
 ---
 
 ```
@@ -46,7 +46,7 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende staafkrachten. Dat zijn
 ```{figure} ./graad_bepalen_data/Oefening_2.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
 number:
 ---
 
@@ -56,7 +56,7 @@ number:
 ---
 align: center
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
 ---
 
 ```
@@ -99,7 +99,7 @@ Voor knoop $\rm{A}$, $\rm{E}$ en $\rm{G}$ zijn er enkel krachten in verticale en
 ```{figure} ./graad_bepalen_data/Oefening_4.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
 number:
 ---
 
@@ -108,7 +108,7 @@ number:
 ```{figure} ./graad_bepalen_data/Oefening_5.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
 number:
 ---
 
@@ -218,7 +218,7 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende staafkrachten. Dat zijn
 ```{figure} ./graad_bepalen_data/Oefening_2_2.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
 number:
 ---
 
@@ -227,7 +227,7 @@ number:
 ```{figure} ./graad_bepalen_data/Oefening_3_2.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
 number:
 ---
 
@@ -273,7 +273,7 @@ Hoewel er minder krachten werken op knoop $\rm{E}$ en $\rm{G}$ dan voorheen, zij
 ```{figure} ./graad_bepalen_data/Oefening_4_2.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
 number:
 ---
 
@@ -284,7 +284,7 @@ Voor de staaf $\rm{EG}$ is nu nog maar één evenwichtsvergelijking nodig (krach
 ```{figure} ./graad_bepalen_data/Oefening_5_2.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
 number:
 ---
 

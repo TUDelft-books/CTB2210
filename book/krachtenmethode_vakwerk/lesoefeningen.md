@@ -7,7 +7,7 @@ Gegeven is de volgende constructie:
 align: center
 figclass: sticky-margin
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
 ---
 
 ```
@@ -46,7 +46,7 @@ De constructie is {gap}ste/de graads inwendig statisch onbepaald
 ---
 align: center
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
 ---
 
 ```
@@ -137,7 +137,7 @@ M[-0.01872]
 ---
 align: center
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
 ---
 
 ```
@@ -256,7 +256,7 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $M_
 ---
 align: center
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
 ---
 ```
 
@@ -321,7 +321,7 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $N_
 ```{figure} lesoefeningen_data/Vrijlichaamsschema3.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
 number:
 ---
 
@@ -371,7 +371,7 @@ Teken de vervormde constructie.
 ```{figure} lesoefeningen_data/verplaatsingen.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
 ```
 
 ---
