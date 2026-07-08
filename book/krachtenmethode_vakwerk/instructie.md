@@ -20,7 +20,7 @@ De krachtenmethode hebben we eerder al behandeld voor [simpele constructies](kra
 align: center
 number:
 figclass: sticky-margin
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
 ---
 ```
 
@@ -44,7 +44,7 @@ source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main
     ---
     align: center
     number:
-    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
     ---
 
     ```
@@ -64,28 +64,28 @@ source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main
     ````{tab-item} Splits de constructie bij een scharnier
     ```{figure} ./extension_data/option1.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
     :number:
     ```
     ````
     ````{tab-item} Scharnier toevoegen
     ```{figure} ./extension_data/option2.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
     :number:
     ```
     ````
     ````{tab-item} De horizontale bewegingsrichting van een oplegging vrijmaken
     ```{figure} ./extension_data/option3.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
     :number:
     ```
     ````
     ````{tab-item} Verticale oplegging weghalen
     ```{figure} ./extension_data/option4.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
     :number:
     ```
     ````
@@ -111,7 +111,7 @@ source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main
     align: center
     number:
     figclass: sticky-margin
-    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
     ---
     
     ```
@@ -137,7 +137,7 @@ source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main
     ```{figure} ./extension_data/williot.svg
     ---
     align: center
-    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
     number:
     ---
     
@@ -174,7 +174,7 @@ source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main
 
     ```{figure} ./extension_data/verplaatsingen.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
     :number:
     ```
 

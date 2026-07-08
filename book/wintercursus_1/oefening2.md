@@ -13,7 +13,7 @@ Gegeven is de volgende constructie:
 
 ```{figure} ./lesoefening1_data/constructie2.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_1
 
 Constructie
 ```

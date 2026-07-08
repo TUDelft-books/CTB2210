@@ -6,7 +6,7 @@ Gegeven is de volgende constructie
 :align: center
 :figclass: sticky-margin
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 ```
 
 Bepaal de krachtsverdeling en verplaatsingen.
@@ -57,7 +57,7 @@ Ga uit van het volgende statisch bepaalde systeem:
 :align: center
 :figclass: sticky-margin
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 
 ```
 
@@ -112,7 +112,7 @@ De zakking, $w_{\rm{C}}$, en rotatie, $\varphi_{\rm{C}}$, in C kunnen worden gev
 ```{figure} ./lesoefeningen_data/VrijlichaamsschemaAC_1.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 ```
 
 Met behulp van de vergeet-mij-nietjes voor een uitkragende ligger belast door een kracht en een koppel wordt gevonden:
@@ -167,7 +167,7 @@ Hieruit volgt dat $B_{\rm{v}} = 15 \rm{kN}$
 :align: center
 :figclass: sticky-margin
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 
 ```
 
@@ -221,7 +221,7 @@ De rotatie net links van C, $\varphi_{\rm{C}}^{\rm{AC}}$, en de zakking in C $w_
 ```{figure} ./lesoefeningen_data/VrijlichaamsschemaAC_2.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 ```
 
 $$ \varphi_{\rm{C}}^{\rm{AC}} \left( M_{\rm{C}} \right) = - \cfrac{M_{\rm{C}} \cdot 3}{1800} + \cfrac{\left( - \cfrac{1}{3} \cdot M_{\rm{C}} + 54 \right) \cdot 3^2}{2 \cdot 1800} = -0.0025 \cdot M_{\rm{C}} + 0.135 $$

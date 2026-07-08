@@ -24,7 +24,7 @@ Gegeven is de volgende constructie:
 :align: center
 :number:
 :figclass: sticky-margin
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
 ```
 
 $$0 < EA_{\rm{CD}}, EA_{\rm{BE}} \ll EI, EA_{\rm{ADE}}$$

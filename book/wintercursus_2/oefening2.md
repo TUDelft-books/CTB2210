@@ -13,7 +13,7 @@ Gegeven is de volgende constructie:
 
 ```{figure} ./oefening1_data/supp_settlement.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 
 Constructie
 ```
@@ -48,7 +48,7 @@ Er zijn 5 onbekende oplegreacties:
 
 ```{figure} oefening1_data/stat_onbepaaldheid.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 
 Vrijlichaamsschema van de gehele constructie met 5 onbekende oplegreacties
 ```
@@ -103,7 +103,7 @@ Welke van de volgende statisch bepaalde systemen kan gebruikt worden voor toepas
 
 ```{figure} ./oefening1_data/variant1.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 Deze constructie is geen geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode want het is een mechanisme.
@@ -112,7 +112,7 @@ Deze constructie is geen geldig statisch bepaald systeem om de constructie op te
 ````{tab-item} Horizontale oplegging bij A en B weggehaald en rotatie vrijgemaakt bij B
 ```{figure} ./oefening1_data/variant2.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 Deze constructie is geen geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode, want hoewel de constructie tweedegraads statisch onbepaald is zijn er zelfs drie statisch onbepaalde krachten toegevoegd. Daarmee is deze constructie sowieso een mechanisme geworden.
@@ -121,7 +121,7 @@ Deze constructie is geen geldig statisch bepaald systeem om de constructie op te
 ````{tab-item} Scharnierende oplegging bij A weggehaald
 ```{figure} ./oefening1_data/variant3.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode.
@@ -130,7 +130,7 @@ Deze constructie is een geldig statisch bepaald systeem om de constructie op te 
 ````{tab-item} Verticale en rotatie oplegging bij B weggehaald
 ```{figure} ./oefening1_data/variant4.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode. Het is alleen geen hele handige constructie omdat we geen vergeet-me-nietjes hebben die de vervormingen van deze constructie beschrijven.
@@ -139,7 +139,7 @@ Deze constructie is een geldig statisch bepaald systeem om de constructie op te 
 ````{tab-item} Horizontale oplegging bij A weggehaald en rotatie vrijgemaakt bij B.
 ```{figure} ./oefening1_data/variant5.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode. Het is alleen geen hele handige constructie omdat we geen vergeet-me-nietjes hebben die de vervormingen van deze constructie beschrijven.
@@ -148,7 +148,7 @@ Deze constructie is een geldig statisch bepaald systeem om de constructie op te 
 ````{tab-item} Verticale oplegging bij B weggehaald en scharnier toegevoegd bij C.
 ```{figure} ./oefening1_data/variant6.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode.
@@ -157,7 +157,7 @@ Deze constructie is een geldig statisch bepaald systeem om de constructie op te 
 ````{tab-item} Scharnier toegevoegd bij C en rotatie vrijgemaakt in B
 ```{figure} ./oefening1_data/variant7.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode, het is tevens de methode van hoekveranderingsvergelijkingen.
@@ -171,7 +171,7 @@ We gaan rekenen met de volgende statisch bepaalde constructie
 
 ```{figure} oefening1_data/stat_bepaald.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 
 Statisch bepaalde constructie
 ```
@@ -194,7 +194,7 @@ De dwarskracht en het buigend moment net rechts van $\rm{C}$ kunnen worden bepaa
 
 ```{figure} oefening1_data/VCMC.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$
@@ -206,7 +206,7 @@ De verplaatsing en rotatie van $\rm{C}$ kunnen worden bepaald met vergeet-me-nie
 
 ```{figure} oefening1_data/BC2.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$
@@ -224,7 +224,7 @@ Nu kan de verplaatsing van $\rm{A}$ worden bepaald met de verticale verplaatsing
 
 ```{figure} oefening1_data/AC2.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$
