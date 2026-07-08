@@ -140,6 +140,37 @@ number:
     ```{figure-end}
     ```
 
+    ::::{grid} 2
+    :class-container: center-grid
+
+    :::{grid-item}
+    :columns: auto
+
+    De verdeelde belasting zorgt voor verlenging van de statisch bepaalde constructie:
+
+    ```{figure} ./theorie_data/verpl_1.svg
+    :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    :::
+
+    :::{grid-item}
+    :columns: auto
+
+    De statisch onbepaalde kracht zorgt voor verkorting van de statisch bepaalde constructie:
+
+    ```{figure} ./theorie_data/verpl_2.svg
+    :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    :::
+
+    ::::
+
     Om de verplaatsing van $\rm{B}$ te vinden, kunnen eerst de normaalkrachten worden geëvalueerd als functie van $B_{\rm{v}}$ met behulp van verticaal krachtenevenwicht:
 
     - $N_{\rm{AC}}\left( B_{\rm{v}} \right) = - B_{\rm{v}} + 6 - 3 \cdot x $
