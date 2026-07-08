@@ -16,7 +16,7 @@ Gegeven is de volgende constructie:
 align: center
 figclass: sticky-margin
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 ---
 
 ```
@@ -48,7 +48,7 @@ Voor deze constructie is de inwendige statisch onbepaaldheid gelijk aan de uitwe
 ```{figure} ./COZ_data/statisch_onbepaaldheid.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 ```
 
 Er zijn 9 onbekenden en 8 evenwichtsvergelijkingen, waarmee is de constructie enkelvoudig statisch onbepaald.
@@ -58,13 +58,13 @@ Als voorbeeld is de krachtenmethode toegepast met het volgende statisch bepaalde
 ```{figure} ./COZ_data/SB_5.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 ```
 
 ```{figure} ./COZ_data/FBD_D.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 ```
 
 $$\sum {F_{\rm{v}}} = 0 \to N_{\rm{DK}} = D_{\rm{v}}$$
@@ -72,7 +72,7 @@ $$\sum {F_{\rm{v}}} = 0 \to N_{\rm{DK}} = D_{\rm{v}}$$
 ```{figure} ./COZ_data/FBD_AK.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 ```
 
 $$\sum {T_{\rm{A}}} = 0 \to N_{\rm{OG}} = 66 - 3 \cdot D_{\rm{v}}$$
@@ -80,7 +80,7 @@ $$\sum {T_{\rm{A}}} = 0 \to N_{\rm{OG}} = 66 - 3 \cdot D_{\rm{v}}$$
 ```{figure} ./COZ_data/BC.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 ```
 
 Vergeet-me-nietje geeft:
@@ -89,7 +89,7 @@ $$w_{\rm{O}} = 0.022 - 0.001 \cdot D_{\rm{v}}$$
 
 ```{figure} ./COZ_data/OG.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 :number:
 ```
 
@@ -100,7 +100,7 @@ $$w_{\rm{G}} = 0.22 - 0.01 \cdot D_{\rm{v}}$$
 ```{figure} ./COZ_data/AK.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 ```
 
 Rotatie van starre staaf geeft:
@@ -109,7 +109,7 @@ $$w_{\rm{K}} = 0.66 - 0.03 \cdot D_{\rm{v}}$$
 
 ```{figure} ./COZ_data/DK.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 :number:
 ```
 

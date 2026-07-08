@@ -13,7 +13,7 @@ Gegeven is de volgende constructie:
 
 ```{figure} ./lesoefening1_data/constructie.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 
 Constructie
 ```
@@ -98,7 +98,7 @@ Welke van de volgende statisch bepaalde systemen kan gebruikt worden voor toepas
 
 ```{figure} ./lesoefening1_data/optie1.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
 Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode of verplaatsingenmethode met statisch onbepaalde verplaatsingen.
@@ -107,7 +107,7 @@ Deze constructie is een geldig statisch bepaald systeem om de constructie op te 
 ````{tab-item} Horizontale oplegging bij D weggehaald
 ```{figure} ./lesoefening1_data/optie2.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
 Deze constructie is geen geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode, want de constructie is een mechanisme.
@@ -116,7 +116,7 @@ Deze constructie is geen geldig statisch bepaald systeem om de constructie op te
 ````{tab-item} Verticale oplegging bij D weggehaald
 ```{figure} ./lesoefening1_data/optie3.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
 Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode.
@@ -125,7 +125,7 @@ Deze constructie is een geldig statisch bepaald systeem om de constructie op te 
 ````{tab-item} Verticale oplegging bij B weggehaald
 ```{figure} ./lesoefening1_data/optie4.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
 Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode. Deze constructie is echter niet zo handig, omdat er geen vergeet-me-nietjes zijn voor ligger $ABC$
@@ -134,7 +134,7 @@ Deze constructie is een geldig statisch bepaald systeem om de constructie op te 
 ````{tab-item} Horizontale oplegging bij B weggehaald
 ```{figure} ./lesoefening1_data/optie5.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
 Deze constructie is geen geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode, want de constructie is een mechanisme.
@@ -143,7 +143,7 @@ Deze constructie is geen geldig statisch bepaald systeem om de constructie op te
 ````{tab-item} Horizontale oplegging bij B weggehaald
 ```{figure} ./lesoefening1_data/optie6.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
 Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode.
@@ -152,7 +152,7 @@ Deze constructie is een geldig statisch bepaald systeem om de constructie op te 
 ````{tab-item} Scharnier toegevoegd tussen B en C
 ```{figure} ./lesoefening1_data/optie7.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
 Deze constructie is een geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode of verplaatsingenmethode met statisch onbepaalde verplaatsingen.
@@ -161,7 +161,7 @@ Deze constructie is een geldig statisch bepaald systeem om de constructie op te 
 ````{tab-item} Scharnier toegevoegd tussen C en D
 ```{figure} ./lesoefening1_data/optie8.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
 Deze constructie is geen geldig statisch bepaald systeem om de constructie op te lossen met de krachtenmethode of verplaatsingenmethode met statisch onbepaalde verplaatsingen, want de constructie is een mechanisme.
@@ -177,7 +177,7 @@ Er wordt gekozen voor het volgende statisch bepaalde systeem:
 
 ```{figure} ./lesoefening1_data/statisch_onbepaald_krachtenmethode.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 Statistisch bepaalde constructie
 ```
 
@@ -198,7 +198,7 @@ Het moment in $\rm{B}$ kan worden gevonden met behulp van evenwicht:
 
 ```{figure} lesoefening1_data/MB.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
 $$
@@ -209,7 +209,7 @@ Met vergeet-me-nietjes kan de rotatie van $\rm{B}$ worden gevonden:
 
 ```{figure} lesoefening1_data/AB.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
 $$
@@ -220,7 +220,7 @@ De verplaatsing van $\rm{C}$ kan worden gevonden door de rotatie van $\rm{B}$ ov
 
 ```{figure} lesoefening1_data/BCw.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
 $$
@@ -231,7 +231,7 @@ Voor het andere deel kan de verplaatsing van $\rm{C}$ worden gevonden met behulp
 
 ```{figure} lesoefening1_data/CD.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_2
 ```
 
 $$

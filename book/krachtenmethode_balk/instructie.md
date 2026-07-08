@@ -2,9 +2,7 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/bending.html
-
-% Figures from https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/bending_data/Tekening1.vsdx
+Deze pagina is aangepast van [deze instructie](https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/bending.html) van {cite:ts}`CEG_mechanics_BSc`.
 
 ```
 ```` 
@@ -22,11 +20,20 @@ We tonen de stappen van de krachtenmethode voor een balk.
 :nonumber: true
 :label: sd_ben_0
 
-```{figure} ./bending_data/Example.svg
+```{figure-start} ./bending_data/Example.svg
 ---
 align: center
+figclass: sticky-margin
+number:
+source: bending_data/constructie.py
 ---
-Voorbeeldconstructie, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
+
+```
+
+- $EI = \cfrac{16}{3} \ \rm{MNm^2}$
+- $EA \gg EI $
+
+```{figure-end}
 ```
 
 ::::::
@@ -42,6 +49,8 @@ Voorbeeldconstructie, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
     ```{figure} ./bending_data/onbekenden.svg
     ---
     align: center
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+    number:
     ---
     Er zijn 14 onbekende krachten.
     ```
@@ -49,6 +58,8 @@ Voorbeeldconstructie, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
     ```{figure} ./bending_data/vergelijkingen.svg
     ---
     align: center
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+    number:
     ---
     Er zijn 13 evenwichtsvergelijkingen
     ```
@@ -69,22 +80,30 @@ Voorbeeldconstructie, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
     ````{tab-item} Verticale oplegging bij $\rm{A}$ loslaten
     ```{figure} ./bending_data/optie2.svg
     :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
     ````
     ````{tab-item} Verticale oplegging bij $\rm{B}$ loslaten
     ```{figure} ./bending_data/optie3.svg
     :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
     Deze optie is niet erg handig omdat er geen vergeet-mij-nietjes zijn om de verplaatsing bij $\rm{B}$ te verkrijgen voor deze belastingen
     ````
     ````{tab-item} Verticale oplegging bij $\rm{C}$ loslaten
     ```{figure} ./bending_data/optie4.svg
     :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
     ````
     ````{tab-item} Scharnier toevoegen bij $\rm{B}$
     ```{figure} ./bending_data/optie1.svg
     :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
     Als alleen scharnieren worden toegevoegd, noemen we deze benadering 'hoekveranderingsvergelijkingen' of 'gaapvergelijkingen'
     ````
@@ -102,11 +121,21 @@ Voorbeeldconstructie, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
 
     We hebben de volgende statisch bepaalde constructie gekozen met vormveranderingsvoorwaarde $\varphi_{\rm{B}}^{\rm{AB}} \left( M_{\rm{B}} \right) = \varphi_{\rm{B}}^{\rm{BC}} \left( M_{\rm{B}} \right) $:
 
-    ```{figure} ./bending_data/SB-systeem.svg
+    ```{figure-start} ./bending_data/SB-systeem.svg
     ---
     align: center
+    figclass: sticky-margin
+    number:
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ---
-    De statisch bepaalde constructie met vormveranderingsvoorwaarde, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
+    
+    ```
+    
+    - $EI = \cfrac{16}{3} \ \rm{MNm^2}$
+    - $EA \gg EI $
+    - $\varphi_{\rm{B}}^{\rm{AB}} = \varphi_{\rm{B}}^{\rm{BC}}$
+
+    ```{figure-end}
     ```
 
     Met behulp van de vergeet-mij-nietjes kunnen de rotaties direct worden geëvalueerd zonder het evalueren van inwendige krachten:
@@ -136,7 +165,7 @@ Het algemene concept van de krachtenmethode wordt behandeld in hoofdstuk 2.1 ter
 
 ## Instructies in collegevorm
 
-Dit onderwerp is [in les 6](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/c40ac091651a4143a10fe729246403c31d?sortBy=most-recent) gepresenteerd in collegevorm van 0:04:20 tot 0:30:00.
+Dit onderwerp is [in 2025 in les 6](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/c40ac091651a4143a10fe729246403c31d?sortBy=most-recent) gepresenteerd in collegevorm van 0:04:20 tot 0:30:00. De opname in collegejaar 2026/2027 volgt na het college.
 
 ## Opdrachten
 

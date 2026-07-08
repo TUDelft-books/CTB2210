@@ -17,7 +17,7 @@ Deze opgave kan in ANS gemaakt worden.
 :::
 ::::::
 
-% ...
+% https://ans.app/repo_questions/63917219/generator
 
 Gegeven is de volgende constructie:
 
@@ -25,7 +25,7 @@ Gegeven is de volgende constructie:
 :align: center
 :number:
 :figclass: sticky-margin
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 ```
 
 - $EI = \cfrac{1000}{3} \, \rm{kNm^2}$

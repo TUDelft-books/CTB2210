@@ -25,7 +25,7 @@ Gegeven is de volgende constructie:
 align: center
 number:
 figclass: sticky-margin
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
 ---
 
 ```
@@ -42,7 +42,7 @@ Deze constructie kan ook gezien worden als
 align: center
 number:
 figclass: sticky-margin
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
 ---
 
 ```

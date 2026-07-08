@@ -1,6 +1,6 @@
 # Instructie
 
-% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/matrix
+% source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrix
 
 De matrixmethode is een methode om aan alle soorten constructies te rekenen en lijkt heel erg op de [verplaatsingenmethode van de vorige les](../verplaats2/lesson.md). Die verplaatsingenmethode had als nadeel dat de constructie wordt gesplitst in delen die allemaal verschillende vervormingsgedrag hebben. Dat maakt een dergelijke berekening arbeidsintensief. De matrixmethode lost dit op door standaardisatie van vrijheidsgraden en gesplitste delen. Daarnaast wordt de matrixmethode vaak direct in matrixformuleringen toegepast. Met deze twee aanpassingen vormt de matrixmethode een handige methode voor computerberekeningen.
 

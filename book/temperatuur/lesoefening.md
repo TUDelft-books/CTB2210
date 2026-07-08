@@ -1,6 +1,6 @@
 # Begeleide oefening 1
 
-% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/temperatuur3
+% source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/temperatuur3
 
 Gegeven is de volgende constructie:
 

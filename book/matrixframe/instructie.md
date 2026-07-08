@@ -49,7 +49,7 @@ Als voorbeeld bepalen we de uitwendige statisch onbepaaldheid van deze construct
 align: center
 class: dark-light
 figclass: sticky-margin
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/matrixframe_2
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/matrixframe_2
 number:
 ---
 
