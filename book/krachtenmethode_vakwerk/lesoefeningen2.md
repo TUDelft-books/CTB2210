@@ -44,6 +44,163 @@ De constructie is {gap}ste/de graads inwendig statisch onbepaald
 
 ::::
 
+We overwegen de volgende alternatieven als statisch onbepaalde constructie:
+
+- Weghalen horizontale oplegging bij $\rm{B}$
+- Weghalen verticale oplegging bij $\rm{B}$
+- Splitsen constructie in pendelstaaf $\rm{AC}$
+- Splitsen constructie in pendelstaaf $\rm{AD}$
+- Splitsen constructie in pendelstaaf $\rm{CE}$
+- Splitsen constructie in pendelstaaf $\rm{DE}$
+- Toevoegen scharnier halverwege $\rm{CD}$
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het weghalen van de horizontale oplegging bij $\rm{B}$.
+---
+=
+
+```{figure} ./lesoefeningen_2_data/optie_1.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het weghalen van de verticale oplegging bij $\rm{B}$.
+---
+=
+
+```{figure} ./lesoefeningen_2_data/optie_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het splitsen van de pendelstaaf $\rm{AC}$.
+---
+=
+
+```{figure} ./lesoefeningen_2_data/optie_3.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het splitsen van de pendelstaaf $\rm{AD}$.
+---
+=
+
+```{figure} ./lesoefeningen_2_data/optie_4.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het splitsen van de pendelstaaf $\rm{CE}$.
+---
+=
+
+```{figure} ./lesoefeningen_2_data/optie_5.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het splitsen van de pendelstaaf $\rm{DE}$.
+---
+=
+
+```{figure} ./lesoefeningen_2_data/optie_7.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen voor de optie van het toevoegen van een scharnier halverwege $\rm{CD}$.
+---
+=
+
+```{figure} ./lesoefeningen_2_data/optie_6.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:number:
+```
+
+---
+
+:::::
+
 ::::{question} Opgave
 :variant: multiple-select
 :columns: 1
@@ -84,6 +241,35 @@ $EA = 3750 \ \rm{kN}$
 
 ```{figure-end}
 ```
+
+Hierboven schetste je al de vervormingen ten gevolge van de kracht $B_{\rm{h}}$:
+
+```{figure} ./lesoefeningen_2_data/optie_1.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:number:
+```
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen ten gevolge van de kracht van $\rm{20} \, \rm{kN}$.
+---
+=
+
+```{figure} ./lesoefeningen_2_data/displaced_20_cor_without.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:number:
+```
+
+---
+
+:::::
 
 ::::{question} Opgave
 :type: short-answer
@@ -253,7 +439,7 @@ MAPE[-25/3;0.1;3]
 - $\Delta L_{\rm{CE}} \left( B_{\rm{h}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{mm}}{\rm{kN}}\right) \cdot B_{\rm{h}} + $ {gap} $\left(\rm{in} \, \rm{mm}\right)$
 - $\Delta L_{\rm{DE}} \left( B_{\rm{h}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{mm}}{\rm{kN}}\right) \cdot B_{\rm{h}} + $ {gap} $\left(\rm{in} \, \rm{mm}\right)$
 - $\Delta L_{\rm{DB}} \left( B_{\rm{h}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{mm}}{\rm{kN}}\right) \cdot B_{\rm{h}} + $ {gap} $\left(\rm{in} \, \rm{mm}\right)$
-- $\Delta L_{\rm{BE}} \left( B_{\rm{h}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{mm}}{\rm{kN}}\right) \cdot B_{\rm{h}} + $ {gap} $\left(\rm{in} \, \ rm{
+- $\Delta L_{\rm{BE}} \left( B_{\rm{h}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{mm}}{\rm{kN}}\right) \cdot B_{\rm{h}} + $ {gap} $\left(\rm{in} \, \rm{mm}\right)$
 
 
 ---
@@ -382,7 +568,7 @@ M[0.8]
 :nocaption:
 :showanswer:
 
-Teken de vervormde statisch bepaalde constructie ten gevolgde van enkel $B_{\rm{h}}$.
+Teken de vervormde statisch bepaalde constructie (met $\rm{AD}$ nog niet teruggeroteerd) ten gevolge van enkel $B_{\rm{h}}$ op schaal.
 ---
 =
 ```{figure} lesoefeningen_2_data/displaced_Bh.svg
@@ -455,7 +641,7 @@ M[6.25]
 M[-3.75]
 M[-6.25]
 ^^^
-? Gebruik je resultaat om de normaalkrachten in alle staven te vinden.
+? Gebruik je resultaat om de normaalkrachten in alle staven te vinden voor de statisch **onbepaalde** constructie.
 - $N_{\rm{AC}} = $ {gap} $\rm{kN}$
 - $N_{\rm{AD}} = $ {gap} $\rm{kN}$
 - $N_{\rm{CD}} = $ {gap} $\rm{kN}$
@@ -475,7 +661,7 @@ M[-6.25]
 :nocaption:
 :showanswer:
 
-Teken de vervormde statisch onbepaalde constructie.
+Teken de vervormde statisch **onbepaalde** constructie op schaal.
 ---
 =
 
@@ -484,14 +670,6 @@ Teken de vervormde statisch onbepaalde constructie.
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
-
-| Scharnier | Verplaatsing in horizontale richting → (mm)| Verplaatsing in verticale richting ↓ (mm)|
-| :-:|:-:|:-:|
-|$\rm{A}$|$0$|$0$|
-|$\rm{B}$|$0$|$0$|
-|$\rm{C}$|$9$|$38$|
-|$\rm{D}$|$6$|$29.833$|
-|$\rm{E}$|$-3$|$12.66$|
 
 ---
 
@@ -519,15 +697,5 @@ Invullen van $B_{\rm{h}} = 7.5 \ \rm{kN}$ en optellen bij de verplaatsingen ten 
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
-
-| Scharnier | Verplaatsing in horizontale richting → (mm)| Verplaatsing in verticale richting ↓ (mm)|
-| :-:|:-:|:-:|
-|$\rm{A}$|$0$|$0$|
-|$\rm{B}$|$0$|$0$|
-|$\rm{C}$|$9$|$38$|
-|$\rm{D}$|$6$|$29.833$|
-|$\rm{E}$|$-3$|$12.66$|
-
-::::
 
 % solution_end

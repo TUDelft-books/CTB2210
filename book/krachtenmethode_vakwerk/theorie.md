@@ -275,7 +275,7 @@ number:
 
     $w_{\rm{C}} = 1.2 \ \rm{mm} \left( \downarrow \right) $
 
-    This leads to the following displaced structure:
+    Dit geeft de volgende vervormde constructie (op schaal):
     
     ```{figure} ./theorie_data/vervormde_constructie.svg
     :align: center

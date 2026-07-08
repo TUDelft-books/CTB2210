@@ -603,7 +603,7 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $N_{\rm{AD}}
 :nocaption:
 :showanswer:
 
-Teken de vervormde constructie.
+Teken de vervormde constructie op schaal.
 ---
 =
 ```{figure} lesoefeningen_data/verplaatsingen.svg

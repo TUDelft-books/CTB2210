@@ -252,6 +252,8 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
     - $w_{\rm{D}} = \cfrac{375000}{2 \cdot EA \, \left( \rm{in} \, \rm{N} \right)} \, \rm{mm} \, \left( \downarrow \right) $
     - $w_{\rm{E}} = \cfrac{375000}{EA \, \left( \rm{in} \, \rm{N} \right)} \, \rm{mm} \,  \left( \downarrow \right) $
 
+    En de vervormingen op schaal:
+    
     ```{figure} ./extension_data/verplaatsingen.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
