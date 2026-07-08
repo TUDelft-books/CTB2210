@@ -99,19 +99,83 @@ number:
 
     Er zijn hier enkele opties, waarvan er enkele hieronder worden getoond:
 
-    ```{figure} ./theorie_data/options.svg
+    ::::{grid} 3
+    :class-container: center-grid
+
+    :::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie1.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
-    number:
+    :number:
     ```
+
+    :::
+
+    :::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie2.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    :::
+
+    :::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie3.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    :::
+
+    ::::
 
     De verplaatsingen van elke constructie kunnen geschetst worden.
     
-    ```{figure} ./theorie_data/verplaatsingen.svg
+    ::::{grid} 3
+    :class-container: center-grid
+
+    :::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/verpl_2.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
-    number:
+    :number:
     ```
+
+    :::
+
+    :::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie2_verpl.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    :::
+
+    :::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie3_verpl.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    :::
+
+    ::::
 
     Alle drie de opties zijn uit te rekenen met de verlenging van staven. De eerste optie wordt gekozen.
 
