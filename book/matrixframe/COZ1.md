@@ -7,7 +7,7 @@ Deze opgave kan in ANS gemaakt worden.
 :::
 ::::::
 
-% ...
+% https://ans.app/repo_questions/63917162/generator
 
 Gegeven is de volgende constructie:
 
@@ -15,7 +15,7 @@ Gegeven is de volgende constructie:
 :align: center
 :number:
 :figclass: sticky-margin
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_coz
 ```
 
 - $EA = 40 \, \rm{MN}$

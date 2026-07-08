@@ -6,7 +6,7 @@ Gegeven is de volgende constructie:
 ---
 align: center
 figclass: sticky-margin
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_3
 number:
 ---
 
@@ -46,7 +46,7 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende verbindingskrachten. Da
 ```{figure} graad_bepalen_data/Oefening_11.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_3
 number:
 ---
 
@@ -82,7 +82,7 @@ Er zijn {gap} evenwichtsvergelijkingen
 ```{figure} graad_bepalen_data/Oefening_12.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_3
 number:
 ---
 
@@ -154,7 +154,7 @@ Er zijn *3* onbekende oplegreacties en *19* onbekende staafkrachten. Dat zijn *2
 ```{figure} graad_bepalen_data/Oefening_13.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_3
 number:
 ---
 
@@ -163,7 +163,7 @@ number:
 ```{figure} graad_bepalen_data/Oefening_15.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_3
 number:
 ---
 
@@ -203,7 +203,7 @@ Er zijn {gap} evenwichtsvergelijkingen vanuit knopen en {gap} vanuit staven. Dat
 ```{figure} graad_bepalen_data/Oefening_14.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_3
 number:
 ---
 
@@ -212,7 +212,7 @@ number:
 ```{figure} graad_bepalen_data/Oefening_16.svg
 ---
 align: center
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_3
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_3
 number:
 ---
 

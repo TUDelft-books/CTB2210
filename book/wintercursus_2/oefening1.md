@@ -13,7 +13,7 @@ Gegeven is de volgende constructie:
 
 ```{figure} ./oefening1_data/temp_infl.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 
 Constructie
 ```
@@ -24,7 +24,7 @@ Voor de toepassing van de vermenigvuldigingsfactor gebruiken we de verplaatsinge
 
 ```{figure} ./oefening1_data/phi_C.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 
 Constructie met vrijheidsgraad $\varphi_C$ aangegeven
 ```
@@ -36,7 +36,7 @@ Gegeven zijn 6 vergeet-me-nietjes:
 
 ```{figure} ../wintercursus_1/lesoefening1_data/vergeet-me-nietjes.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden
 
 Vergeet-me-nietjes
 ```
@@ -71,7 +71,7 @@ Voor $\rm{AC}$ kan een statisch bepaald vergeet-me-nietje worden toegepast
 
 ```{figure} oefening1_data/AC.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$\varphi_{\rm{C}} = \cfrac{M_{\rm{AC}} \cdot 4}{3 \cdot n \cdot 320000} \to M_{\rm{AC}} = 240000 \cdot n \cdot \varphi_{\rm{C}}$$
@@ -80,7 +80,7 @@ Voor $\rm{BC}$ kan een statisch onbepaald vergeet-me-nietje worden toegepast:
 
 ```{figure} oefening1_data/BC.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$\varphi_{\rm{C}} = \cfrac{M_{\rm{AC}} \cdot 5}{4 \cdot 320000} \to M_{\rm{AC}} = 256000 \varphi_{\rm{C}}$$
@@ -104,7 +104,7 @@ $\varphi_{\rm{C}}$ kan bepaald worden aan de hand van het vrijlichaamsschema van
 
 ```{figure} oefening1_data/Meven.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$
@@ -130,7 +130,7 @@ De verplaatsing van $\rm{D}$ kan worden bepaald door de rotatie van $\varphi_{\r
 
 ```{figure} oefening1_data/CD.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$
@@ -189,14 +189,14 @@ Voor $n \to \infty$, is er geen rotatie toegestaan in $\rm{C}$, wat de construct
 
 ```{figure} oefening1_data/CD.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 Voor $n \to 0$, is er geen rotatiestijfheid in $\rm{AC}$, wat de constructie reduceert tot:
 
 ```{figure} oefening1_data/EI0.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 ::::

@@ -4,76 +4,101 @@ Gegeven is de volgende constructie
 
 ```{figure} ./lesoefeningen_data/structure.svg
 :align: center
-
-Constructie, $EI_{\rm{AC}} = 1800 \ \rm{kNm}^2, EI_{\rm{BC}} = 900 \ \rm{kNm^2}$
+:figclass: sticky-margin
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 ```
 
 Bepaal de krachtsverdeling en verplaatsingen.
 
-:::::{exercise}
-:label: balk_2_1
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Wat is de graad van inwendig statisch onbepaaldheid?
+---
+M[1]
+^^^
+?
+De constructie is {gap}ste/de graads inwendig statisch onbepaald
+---
 
-```{h5p} https://tudelft.h5p.com/content/1292636677784672607/embed
-```
+::::
 
-:::::
+::::{question} Opgave
+:variant: multiple-select
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-De constructie is *1*ste/de graads inwendig statisch onbepaald
+Welke van de volgende is geen optie om de constructie statisch bepaald te maken?
+---
+[x] Weghalen verticale oplegging bij $\rm{A}$
+> Inderdaad, er is geen vergeet-me-nietje die voor dat statisch bepaalde systeem de verplaatsingen geeft
+[x] Toevoegen scharnier bij $\rm{A}$
+> Inderdaad, er is geen vergeet-me-nietje die voor dat statisch bepaalde systeem de verplaatsingen geeft
+[ ] Toevoegen scharnier bij $\rm{C}$
+> Er zijn wel degelijk vergeet-me-nietjes voor deze situatie, maar het rechter deel zal echter ook nog roteren rondom $\rm{B}$
+[ ] Weghalen verticale oplegging bij $\rm{B}$
+---
 
 ::::
 
-:::::{exercise}
-:label: balk_2_2
-:nonumber: true
-
-```{h5p} https://tudelft.h5p.com/content/1292636680849554767/embed
-```
-
-:::::
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-- Weghalen verticale oplegging bij A
-  - Inderdaad, er is geen vergeet-me-nietje die voor dat statisch bepaalde systeem de verplaatsingen geeft
-- Toevoegen scharnier bij A
-  - Inderdaad, er is geen vergeet-me-nietje die voor dat statisch bepaalde systeem de verplaatsingen geeft
-- Toevoegen scharnier bij C
-  - Er zijn wel degelijk vergeet-me-nietjes voor deze situatie, maar het rechter deel zal echter ook nog roteren rondom B
-- Weghalen verticale oplegging bij B
-
-::::
 
 ## Statisch bepaald systeem 1
-
-:::::{exercise}
-:label: balk_2_3
-:nonumber: true
 
 Ga uit van het volgende statisch bepaalde systeem:
 
 ```{figure} ./lesoefeningen_data/SB-1.svg
 :align: center
+:figclass: sticky-margin
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 
-Statisch bepaalde constructie met vormveranderingsvoorwaarde, $EI_{\rm{AC}} = 1800 \ \rm{kNm}^2, EI_{\rm{BC}} = 900 \ \rm{kNm^2}$
 ```
 
-Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $B_{\rm{v}}$
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292642090947945297/embed
-```
+---
+M[-1]
+M[54]
+M[-3]
+M[0]
+M[-1]
+M[0]
+M[-0.0125]
+M[0.27]
+M[-0.0075]
+M[0.135]
+M[-0.045]
+M[0.675]
+^^^
+? Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $B_{\rm{v}}$, met  $B_{\rm{v}}$ en $V$ in $\rm{kN}$, $M_{\rm{C}}$ in $\rm{kNm}$, $\varphi_{\rm{B}}$ in $\rm{rad}$, $w_{\rm{A}}$ in $\rm{m}$ en het gegeven assenstelsel.
 
-:::::
+- $V_{\rm{C}}^{\rm{AC}} \left( B_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$
+- $M_{\rm{C}} \left( B_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kNm}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{kNm}\right)$
+- $V_{\rm{B}}^{\rm{BC}} \left( B_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$
+- $w_{\rm{C}} \left( B_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$
+- $\varphi_{\rm{C}} \left( B_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{rad}\right)$
+- $w_{\rm{B}} \left( B_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$
+
+---
+
+::::
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Met behulp van het gegeven vrijlichaamsschema kunnen de dwarskracht net links van C, het moment in C en de dwarskracht net links van B worden bepaald als functie van $B_{\rm{v}}$:
@@ -86,8 +111,8 @@ De zakking, $w_{\rm{C}}$, en rotatie, $\varphi_{\rm{C}}$, in C kunnen worden gev
 
 ```{figure} ./lesoefeningen_data/VrijlichaamsschemaAC_1.svg
 :align: center
-
-Vrijlichaamsschema van deel AC
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 ```
 
 Met behulp van de vergeet-mij-nietjes voor een uitkragende ligger belast door een kracht en een koppel wordt gevonden:
@@ -103,20 +128,28 @@ $$ w_{\rm{B}} \left( B_{\rm{v}} \right) = w_{\rm{C}} + \varphi_{\rm{C}} \cdot 3 
 
 % solution_end
 
-:::::{exercise}
-:label: balk_2_4
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Los je vormveranderingsvoorwaarde op om $B_{\rm{v}}$ te vinden.
+---
+M[15]
+^^^
+? Los de vormveranderingsvoorwaarde op om $B_{\rm{v}}$ te vinden.
 
-```{h5p} https://tudelft.h5p.com/content/1292642094940904187/embed
-```
+$B_{\rm{v}}= $ {gap} $\rm{kN}$ (↑)
 
-:::::
+---
+
+::::
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De vormveranderingsvoorwaarde is: $w_{\rm{B}} = -0.045 \cdot B_{\rm{v}} + 0.675 = 0$. 
@@ -129,28 +162,53 @@ Hieruit volgt dat $B_{\rm{v}} = 15 \rm{kN}$
 
 ## Statisch bepaald systeem 2
 
-:::::{exercise}
-:label: balk_2_5
-:nonumber: true
 
-Ga nu uit van het volgende statisch bepaalde systeem:
-
-```{figure} ./lesoefeningen_data/SB-2.svg
+```{figure} ./lesoefeningen_data/SB-1.svg
 :align: center
+:figclass: sticky-margin
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 
-Statisch bepaalde constructie met vormveranderingsvoorwaarde, $EI_{\rm{AC}} = 1800 \ \rm{kNm}^2, EI_{\rm{BC}} = 900 \ \rm{kNm^2}$
 ```
 
-Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $M_{\rm{C}}$
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292642608547530667/embed
-```
+---
+MAPE[-1/3;0.1;2]
+M[0]
+MAPE[-1/3;0.1;2]
+M[54]
+M[-0.0025]
+M[0.135]
+M[-1/240;0.0001;4]
+M[0.27]
+M[0.0025]
+> Houd rekening met de rotatie van BC door de zakking van C
+M[-0.09]
+> Houd rekening met de rotatie van BC door de zakking van C
+^^^
+? Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $M_{\rm{C}}$, met $M_{\rm{C}}$ in $\rm{kNm}$, $B_{\rm{v}}$ en $V_{\rm{C}}^{\rm{AC}}$ in $\rm{kN}$, $\varphi$ in $\rm{rad}$, $w_{\rm{C}}$ in $\rm{m}$ en het gegeven assenstelsel.
 
-:::::
+- $B_{\rm{v}} \left( M_{\rm{C}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kNm}}{\rm{kNm}}\right) \cdot M_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$
+- $V_{\rm{C}}^{\rm{AC}} \left( M_{\rm{C}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kNm}}\right) \cdot M_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$
+- $\varphi_{\rm{C}}^{\rm{AC}} \left( M_{\rm{C}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kNm}}\right) \cdot M_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{rad}\right)$
+- $w_{\rm{C}} \left( M_{\rm{C}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kNm}}\right) \cdot M_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$
+- $\varphi_{\rm{C}}^{\rm{BC}} \left( M_{\rm{C}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kNm}}\right) \cdot M_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{rad}\right)$
+
+---
+
+::::
+
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De uitdrukkingen voor $B_{\rm{v}}$ en $V_{\rm{C}}^{\rm{AC}}$ kunnen worden afgeleid uit evenwicht van het deel BC.
@@ -162,8 +220,8 @@ De rotatie net links van C, $\varphi_{\rm{C}}^{\rm{AC}}$, en de zakking in C $w_
 
 ```{figure} ./lesoefeningen_data/VrijlichaamsschemaAC_2.svg
 :align: center
-
-Vrijlichaamsschema van deel AC
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 ```
 
 $$ \varphi_{\rm{C}}^{\rm{AC}} \left( M_{\rm{C}} \right) = - \cfrac{M_{\rm{C}} \cdot 3}{1800} + \cfrac{\left( - \cfrac{1}{3} \cdot M_{\rm{C}} + 54 \right) \cdot 3^2}{2 \cdot 1800} = -0.0025 \cdot M_{\rm{C}} + 0.135 $$
@@ -178,20 +236,28 @@ $$ \varphi_{\rm{C}}^{\rm{BC}} \left( M_{\rm{C}} \right) = - \cfrac{w_{\rm{C}}}{3
 
 % solution_end
 
-:::::{exercise}
-:label: balk_2_6
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Los je vormveranderingsvoorwaarde op om $M_{\rm{C}}$ te vinden.
+---
+M[45]
+^^^
+? Los de vormveranderingsvoorwaarde op om $M_{\rm{C}}$ te vinden.
 
-```{h5p} https://tudelft.h5p.com/content/1292642615022517117/embed
-```
+$M_{\rm{C}}= $ {gap} $\rm{kNm}$
 
-:::::
+---
+
+::::
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De vormveranderingsvoorwaarde is: $\varphi_{\rm{C}}^{\rm{AC}} = \varphi_{\rm{C}}^{\rm{BC}} \rightarrow -0.0025 \cdot M_{\rm{C}} + 0.135 = 0.0025 \cdot M_{\rm{C}} -0.09$. 
@@ -204,34 +270,38 @@ Hieruit volgt $M_{\rm{C}} = 45 \rm{kNm}$.
 
 ## Krachtsverdeling en verplaatsingen statisch onbepaald systeem
 
-:::::{exercise}
-:label: balk_2_7
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Los nu de volledige krachtsverdeling en verplaatsingen op met de resultaten van een of beide van je statisch onbepaalde systemen.
+---
+M[-39]
+M[72]
+M[-15]
+M[-72]
+M[45]
+M[39]
+M[-15]
+M[82.5]
+M[0.0225]
 
-```{h5p} https://tudelft.h5p.com/content/1292642621332227027/embed
-```
+^^^
+? Los nu de volledige krachtsverdeling en verplaatsingen op met de resultaten van een of beide van je statisch onbepaalde systemen.
 
-:::::
+- $A_{\rm{v}}= $ {gap} $\rm{kN}$
+- $A_{\rm{m}}= $ {gap} $\rm{kNm}$
+- $B_{\rm{v}}= $ {gap} $\rm{kN}$
+- $M_{\rm{A}}= $ {gap} $\rm{kNm}$
+- $M_{\rm{C}}= $ {gap} $\rm{kNm}$
+- $V_{\rm{AC}}= $ {gap} $\rm{kN}$
+- $V_{\rm{CB}}= $ {gap} $\rm{kN}$
+- $w_{\rm{C}}= $ {gap} $\rm{mm}$
+- $\varphi_{\rm{C}}= $ {gap} $\rm{rad}$
 
-% solution_start
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-De onbekenden kunnen worden opgelost met verticaal- en momentenevenwicht van de hele constructie en met behulp van de eerder opgestelde vergelijkingen.
-
-$$ A_{\rm{v}} = -39 \rm{kN} $$
-$$ A_{\rm{m}} = 72 \rm{kNm} $$
-$$ B_{\rm{v}} = -15 \rm{kN} $$
-$$ M_{\rm{A}} = -72 \rm{kNm} $$ 
-$$ M_{\rm{C}} = 45 \rm{kNm} $$
-$$ V_{\rm{AC}} = 39 \rm{kN} $$
-$$ V_{\rm{CB}} = -15 \rm{kN} $$
-$$ w_{\rm{C}} = 82.5 \rm{mm} $$
-$$ \varphi_{\rm{C}} = 0.0225 \rm{rad} $$ 
+---
 
 ::::
-
-% solution_end

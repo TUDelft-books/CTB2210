@@ -4,7 +4,7 @@
 
 Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_8/session_2/intro.html
 
-% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/stijfheid_steunpunt
+% source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/stijfheid_steunpunt
 
 ```
 ````

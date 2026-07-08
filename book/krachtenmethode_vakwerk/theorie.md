@@ -14,21 +14,21 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
     ````{tab-item} Weghalen oplegging
     ```{figure} theorie_data/1.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
     ````
     ````{tab-item} Splitsen constructie bij pendelstaven
     ```{figure} theorie_data/2.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
     ````
     ````{tab-item} Toevoegen scharnieren
     ```{figure} theorie_data/3.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
     ````
@@ -54,7 +54,7 @@ We behandelen de toepassing op constructies die enkel op rek worden beoordeeld m
 ---
 align: center
 figclass: sticky-margin
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
 number:
 ---
 
@@ -79,7 +79,7 @@ number:
     ```{figure} ./theorie_data/statisch_onbepaaldheid.svg
     ---
     align: center
-    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     number:
     ---
     
@@ -99,21 +99,85 @@ number:
 
     Er zijn hier enkele opties, waarvan er enkele hieronder worden getoond:
 
-    ```{figure} ./theorie_data/options.svg
+    ::::{grid} 3
+    :class-container: center-grid
+
+    :::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie1.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
-    number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
     ```
 
-    De verplaatsingen van elke constructie kunnen geschetst worden.
+    :::
+
+    :::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie2.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    :::
+
+    :::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie3.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    :::
+
+    ::::
+
+    De mogelijke vervormingen van elke constructie kunnen geschetst worden.
     
-    ```{figure} ./theorie_data/verplaatsingen.svg
+    ::::{grid} 3
+    :class-container: center-grid
+
+    :::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/verpl_2.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
-    number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
     ```
 
-    Alle drie de opties zijn uit te rekenen met de verlenging van staven. De eerste optie wordt gekozen.
+    :::
+
+    :::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie2_verpl.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    :::
+
+    :::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie3_verpl.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    :::
+
+    ::::
+
+    Geen van de opties vormt een mechanica en alle drie de opties zijn uit te rekenen met de verlenging van staven. De eerste optie wordt gekozen.
 
     ::::::
 
@@ -128,7 +192,7 @@ number:
     ```{figure-start} ./theorie_data/SB-systeem.svg
     ---
     align: center
-    source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     number:
     ---
 
@@ -139,6 +203,37 @@ number:
 
     ```{figure-end}
     ```
+
+    Zonder een berekening te maken kunnen we voor de afzonderlijke krachten de verplaatsingen schetsen:
+
+    ::::{grid} 2
+    :class-container: center-grid
+
+    :::{grid-item}
+
+    De verdeelde belasting zorgt voor verlenging van de statisch bepaalde constructie:
+
+    ```{figure} ./theorie_data/verpl_1.svg
+    :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    :::
+
+    :::{grid-item}
+
+    De statisch onbepaalde kracht zorgt voor verkorting van de statisch bepaalde constructie, zoals eerder ook al getekend:
+
+    ```{figure} ./theorie_data/verpl_2.svg
+    :align: center
+    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    :::
+
+    ::::
 
     Om de verplaatsing van $\rm{B}$ te vinden, kunnen eerst de normaalkrachten worden geëvalueerd als functie van $B_{\rm{v}}$ met behulp van verticaal krachtenevenwicht:
 
@@ -174,17 +269,17 @@ number:
 
     ```{figure} ./theorie_data/Nlijn.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
 
     $w_{\rm{C}} = 1.2 \ \rm{mm} \left( \downarrow \right) $
 
-    This leads to the following displaced structure:
+    Dit geeft de volgende vervormde constructie (op schaal):
     
     ```{figure} ./theorie_data/vervormde_constructie.svg
     :align: center
-    :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
     
