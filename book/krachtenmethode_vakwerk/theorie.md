@@ -140,11 +140,12 @@ number:
     ```{figure-end}
     ```
 
+    Zonder een berekening te maken kunnen we voor de afzonderlijke krachten de verplaatsingen schetsen:
+
     ::::{grid} 2
     :class-container: center-grid
 
     :::{grid-item}
-    :columns: auto
 
     De verdeelde belasting zorgt voor verlenging van de statisch bepaalde constructie:
 
@@ -157,7 +158,6 @@ number:
     :::
 
     :::{grid-item}
-    :columns: auto
 
     De statisch onbepaalde kracht zorgt voor verkorting van de statisch bepaalde constructie:
 
