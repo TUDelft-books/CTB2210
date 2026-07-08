@@ -16,7 +16,7 @@ Deze opgave kan in ANS gemaakt worden.
 :::
 ::::::
 
-% ...
+% https://ans.app/repo_questions/63917295/generator
 
 Gegeven is de volgende constructie:
 
