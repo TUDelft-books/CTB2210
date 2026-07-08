@@ -61,28 +61,43 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
     Er zijn hier veel opties, waarvan er enkele hieronder worden getoond:
 
     `````{tab-set}
-    ````{tab-item} Splits de constructie bij een scharnier
+    :sync-group: rek_williot
+
+    ````{tab-item} Splits de constructie in pendelstaaf
+    :sync: key1
+
     ```{figure} ./extension_data/option1.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
     :number:
     ```
+
     ````
+
     ````{tab-item} Scharnier toevoegen
+    :sync: key2
+
     ```{figure} ./extension_data/option2.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
     :number:
     ```
+
     ````
+
     ````{tab-item} De horizontale bewegingsrichting van een oplegging vrijmaken
+    :sync: key4
     ```{figure} ./extension_data/option3.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
     :number:
     ```
+
     ````
+
     ````{tab-item} Verticale oplegging weghalen
+    :sync: key4
+
     ```{figure} ./extension_data/option4.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
@@ -91,6 +106,60 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
     ````
     `````
 
+    Voor elk van deze kan de vervormde constructie geschetst worden waarmee een zo simpel mogelijk verplaatsingspatroon kan worden uitgekozen:
+
+    `````{tab-set}
+    :sync-group: rek_williot
+
+    ````{tab-item} Splits de constructie in pendelstaaf
+    :sync: key1
+
+    ```{figure} ./extension_data/verplaatsingen_1.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :number:
+    ```
+
+    Deze vervormingen zijn vrij simpel op te lossen: alle staven hebben een duidelijk draaipunt en verplaatsen niet.
+    ````
+
+    ````{tab-item} Scharnier toevoegen
+    :sync: key2
+
+    ```{figure} ./extension_data/verplaatsingen_2.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :number:
+    ```
+
+    Deze vervormingen zijn niet zo simpel. Voor $\rm{DE}$ is het draaipunt niet direct duidelijk.
+
+    ````
+
+    ````{tab-item} De horizontale bewegingsrichting van een oplegging vrijmaken
+    :sync: key4
+    ```{figure} ./extension_data/verplaatsingen_3.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :number:
+    ```
+
+    Deze vervormingen zijn niet zo simpel: $\rm{ADE}$ transleert en roteert.
+
+    ````
+
+    ````{tab-item} Verticale oplegging weghalen
+    :sync: key4
+
+    ```{figure} ./extension_data/verplaatsingen_4.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
+    :number:
+    ```
+
+    Deze vervormingen zijn wel simpel: alle staven hebben een duidelijk draaipunt en verplaatsen niet.
+    ````
+    `````
 
     De laatste optie wordt gekozen.
 
@@ -122,7 +191,18 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
     ```{figure-end}
     ```
 
-    Omdat $\rm{AE}$ oneindig stijf is, zullen alle vervormingen het gevolg zijn van staven die uitrekken/samendrukken. Om dit te berekenen, kunnen eerst de normaalkrachten worden geëvalueerd als functie van $B_{\rm{v}}$ met behulp van bijvoorbeeld een momentenevenwicht rond $\rm{A}$ voor het element $\rm{ADE}$:
+    Omdat $\rm{AE}$ oneindig stijf is, zullen alle vervormingen het gevolg zijn van staven die uitrekken/samendrukken. Dit volgde uit de eerdere schets van de vervormde constructie onder invloed van de statisch onbepaalde kracht. Ook de vervormingen ten gevolge van de verdeelde belasting kunnen worden geschetst:
+
+    ```{figure} ./extension_data/verplaatsingen_4_2.svg
+    ---
+    align: center
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
+    number:
+    ---
+    
+    ```
+    
+    Om de vervormingen te berekenen, kunnen eerst de normaalkrachten worden geëvalueerd als functie van $B_{\rm{v}}$ met behulp van bijvoorbeeld een momentenevenwicht rond $\rm{A}$ voor het element $\rm{ADE}$:
 
     - $N_{\rm{CD}}\left( B_{\rm{v}} \right) = 210 - 2.5 B_{\rm{v}}$
     - $N_{\rm{BE}} \left( B_{\rm{v}} \right) = - B_{\rm{v}}$
