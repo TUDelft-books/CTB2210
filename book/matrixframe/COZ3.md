@@ -7,12 +7,12 @@ Deze oefening is aangepast de [pagina over de krachtenmethode voor vakwerkconstr
 ```
 ````
 
-# COZ opgave 2.3
+# COZ opgave 2.7
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
 :::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/72)
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
 :::
 ::::::
 
