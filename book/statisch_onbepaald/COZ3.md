@@ -7,13 +7,13 @@ Deze oefening is aangepast de [les van 7 oktober](https://oit.tudelft.nl/CT1000/
 ```
 ```` 
 
-# COZ opgave 1.x
+# COZ opgave 2.3
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
 
 :::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/63)
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
 :::
 ::::::
 

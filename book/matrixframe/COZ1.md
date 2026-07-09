@@ -1,9 +1,9 @@
-# COZ opgave 2.1
+# COZ opgave 2.5
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
 :::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/70)
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
 :::
 ::::::
 
