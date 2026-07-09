@@ -47,6 +47,35 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 ```{figure-end}
 ```
 
+In de instructie werden al de vervormingen ten gevolge van de kracht $A_{\rm{v}}$ geschetst.
+
+```{figure} ./bending_data/optie2_verplaatsingen.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+:number:
+```
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen ten gevolge van verdeelde belasting op de statisch bepaalde constructie.
+---
+=
+
+```{figure} ./bending_data/disp_25.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+:number:
+```
+
+---
+
+:::::
+
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -151,8 +180,9 @@ MAPE[175/3;0.1;4]
 MAPE[10/3;0.1;2]
 M[-20]
 M[40]
-M[12]
-M[-8]
+M[-0.0075]
+M[11.875]
+M[-8.4375]
 
 ^^^
 ? Los nu de andere oplegreacties op en bepaal de momenten en verplaatsingen.
@@ -161,6 +191,7 @@ M[-8]
 - $C_{\rm{v}}= $ {gap} $\rm{kN}$ (↑)
 - $M_{\rm{B}}= $ {gap} $\rm{kNm}$ (◠)
 - $M_{\rm{halverwege \ AB}}= $ {gap} $\rm{kNm}$ (◠)
+- $\varphi_{\rm{B}}= $ {gap} $\rm{rad}$ (↻)
 - $w_{\rm{halverwege \ AB}}= $ {gap} $\rm{mm}$ (↓)
 - $w_{\rm{halverwege \ BC}}= $ {gap} $\rm{mm}$ (↓)
 
@@ -183,13 +214,34 @@ $M_{\rm{B}}$ kan worden bepaald uit de momentensom om B van deel AB, dit geeft: 
 
 De zakking halverwege AB, $w_{\rm{halverwege} \ \rm{AB}}$, kan op verschillende manieren worden gevonden. Hier wordt deze bepaald met behulp van het het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel en het vergeet-mij-nietje voor een ligger op twee steunpunten met een verdeelde belasting. 
 
-$$ w_{\rm{halverwege \ AB}} = \cfrac{5}{384} \cdot \cfrac{25 \cdot 4^4}{\cfrac{16}{3}} - \cfrac{1}{16} \cdot \cfrac{20 \cdot 4^2}{\cfrac{16}{3}} = 12 \, \rm{mm} $$
+$$ w_{\rm{halverwege \ AB}} = \cfrac{5}{384} \cdot \cfrac{25 \cdot 4^4}{\cfrac{16}{3}} - \cfrac{1}{16} \cdot \cfrac{20 \cdot 4^2}{\cfrac{16}{3}} = 11.875 \, \rm{mm} $$
 
 De zakking halverwege BC kan worden bepaald met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel:
 
-$$ w_{\rm{halverwege \ BC}} =  - \cfrac{1}{16} \cdot \cfrac{20 \cdot 6^2}{\cfrac{16}{3}} = -8 \, \rm{mm} $$
+$$ w_{\rm{halverwege \ BC}} =  - \cfrac{1}{16} \cdot \cfrac{20 \cdot 6^2}{\cfrac{16}{3}} = -8.4375 \, \rm{mm} $$
 
 ::::
 
 % solution_end
 
+::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Teken de vervormde statisch **onbepaalde** constructie op schaal.
+---
+=
+
+```{figure} ./bending_data/disp.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+```
+
+Dit is precies dezelfde tekening als wanneer deze werd opgelost met behulp van hoekveranderingsvergelijkingen.
+---
+
+::::
