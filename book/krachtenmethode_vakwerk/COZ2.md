@@ -7,12 +7,12 @@ Deze oefening is aangepast de [tweede opgave van dit tentamen](https://icozct.tu
 ```
 ````
 
-# COZ opgave 2.5
+# COZ opgave 2.9
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
 :::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/75)
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
 :::
 ::::::
 
