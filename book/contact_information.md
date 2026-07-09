@@ -17,7 +17,7 @@ Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassiste
 
 ## Studentassistenten
 - Kamer 6.41
-- Vragenuur tijdens elke lunchpauze
+- Vragenuur tijdens de lunchpauze van dinsdag t/m donderdag
 - 015-2783654
 - SA-mech-CITG@tudelft.nl
 
