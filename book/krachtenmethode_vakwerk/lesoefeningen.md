@@ -462,21 +462,21 @@ Schets de vervormde statisch onbepaalde constructie onder invloed van de $26 \, 
 :showanswer:
 
 ---
-M[-0.33]
+MAPE[-1/3;0.01;2]
 M[0]
 M[0.5]
 M[65]
-M[-0.00011]
+MAPE[-1/9000;0.00001;2]
 M[0]
 M[0.00025]
-M[0.03250]
+M[0.0325]
 ^^^
 ? Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $M_{\rm{B}}$.
 
-- $ N_{\rm{AD}} \left( M_{\rm{B}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kNm}}\right) \cdot M_{\rm{B}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$ (rond af op 2 decimalen)
-- $ N_{\rm{CE}} \left( M_{\rm{B}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kNm}}\right) \cdot M_{\rm{B}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$ (rond af op 1 decimaal)
-- $ \varphi _ {\rm{B}} ^{\rm{DB}} \left( M_{\rm{B}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kNm}}\right)\cdot M_{\rm{B}} + $ {gap} $\left(\rm{in} \, \rm{rad}\right)$ (positief tegen de klok in, rond af op 5 decimalen)
-- $ \varphi _ {\rm{B}} ^{\rm{BE}} \left( B_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kNm}}\right)\cdot M_{\rm{B}} + $ {gap} $\left(\rm{in} \, \rm{rad}\right)$ (positief tegen de klok in, rond af op 5 decimalen)
+- $ N_{\rm{AD}} \left( M_{\rm{B}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kNm}}\right) \cdot M_{\rm{B}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$
+- $ N_{\rm{CE}} \left( M_{\rm{B}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kNm}}\right) \cdot M_{\rm{B}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$
+- $ \varphi _ {\rm{B}} ^{\rm{DB}} \left( M_{\rm{B}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kNm}}\right)\cdot M_{\rm{B}} + $ {gap} $\left(\rm{in} \, \rm{rad}\right)$ (↺)
+- $ \varphi _ {\rm{B}} ^{\rm{BE}} \left( B_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kNm}}\right)\cdot M_{\rm{B}} + $ {gap} $\left(\rm{in} \, \rm{rad}\right)$ (↺)
 ---
 
 ::::
