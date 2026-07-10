@@ -358,7 +358,7 @@ DS[φ;{w}]
 DS[{D aan de kant van BD};B aan de kant van DB]
 ^^^
 
-Neem als statisch onbepaalde kracht de normaalkracht $N_{\rm{AD}}$ door de pendelstaaf in het scharnier los te maken van de balk. Wat is de vormveranderingsvoorwaarde?
+? Neem als statisch onbepaalde kracht de normaalkracht $N_{\rm{AD}}$ door de pendelstaaf in het scharnier los te maken van de balk. Wat is de vormveranderingsvoorwaarde?
 
 {gap}$(${gap}$) = ${gap}$(${gap}$)$
 ---
