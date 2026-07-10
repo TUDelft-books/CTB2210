@@ -481,8 +481,6 @@ M[-0.0325]
 
 ::::
 
-:::::
-
 % solution_start
 
 ::::{admonition} Uitwerking
