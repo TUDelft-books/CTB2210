@@ -9,7 +9,7 @@ Deze instructie is aangepast van de [pagina over de krachtenmethode voor vakwerk
 
 # Instructie
 
-De krachtenmethode hebben we eerder al behandeld voor [simpele constructies](krachtenmethode_simpel). We behandelen de toepassing op complexere vakwerkconstructies met het volgende voorbeeld. Dit voorbeeld bevat een Williot diagram om de verplaatsingen te berekenen.
+De krachtenmethode hebben we eerder al behandeld voor [simpele constructies](krachtenmethode_simpel). We behandelen de toepassing op complexere vakwerkconstructies met het volgende voorbeeld. Dit voorbeeld bevat een Williot diagram om de verplaatsingen te berekenen. Voor het williot diagram is het nuttig als je een statisch bepaald systeem kiest dat makkelijk is uit te rekenen: elementen verplaatsen bij voorkeur niet als ze ook al roteren. In onderstaande voorbeeld zal die situatie ook langskomen.
 
 ::::::{prf:example}
 :nonumber: true

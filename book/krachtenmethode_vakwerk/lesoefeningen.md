@@ -239,6 +239,24 @@ Welke van de volgende is geen optie om de constructie statisch bepaald te maken?
 
 ## Statisch onbepaalde kracht $B_{\rm{v}}$
 
+Gekozen wordt voor het volgende statisch onbepaalde systeem:
+
+```{figure-start} lesoefeningen_data/stat_bepaald_Bv.svg
+---
+align: center
+figclass: sticky-margin
+number:
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+---
+
+```
+
+- $EA = 2.5 \ \rm{MN}$
+- $EI \gg EA$
+
+```{figure-end}
+```
+
 ::::{question} Opgave
 :type: short-answer
 :variant: blocks
@@ -247,7 +265,7 @@ Welke van de volgende is geen optie om de constructie statisch bepaald te maken?
 :nocaption:
 :showanswer:
 
-Neem als statisch onbepaalde kracht de verticale oplegreactie bij $\rm{B}$ (positief omhoog). Wat is de vormveranderingsvoorwaarde? Gebruik de variabele $w_{\rm{...}}$ voor een verticale verplaatsing.
+Wat is de vormveranderingsvoorwaarde? Gebruik de variabele $w_{\rm{...}}$ voor een verticale verplaatsing.
 ---
 M[w_B = 0]
 ---
