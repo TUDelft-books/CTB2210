@@ -623,10 +623,10 @@ M[0.09750]
 ^^^
 ? Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $N_{\rm{AD}}$.
 
-- $ N_{\rm{CE}} \left( N_{\rm{AD}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kN}}\right) \cdot N_{\rm{AD}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$ (rond af op 1 decimaal)
-- $ w_{\rm{E}} \left( N_{\rm{AD}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right)\cdot N_{\rm{AD}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$ (positief omhoog, rond af op 4 decimalen)
-- $ w_{\rm{D}} ^{\rm{AD}} \left( N_{\rm{AD}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right)\cdot N_{\rm{AD}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$ (positief omhoog, rond af op 3 decimalen)
-- $ w_{\rm{D}} ^{\rm{BD}} \left( N_{\rm{AD}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right)\cdot N_{\rm{AD}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$ (positief omhoog, rond af op 5 decimalen)
+- $ N_{\rm{CE}} \left( N_{\rm{AD}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kN}}\right) \cdot N_{\rm{AD}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$
+- $ w_{\rm{E}} \left( N_{\rm{AD}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right)\cdot N_{\rm{AD}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$ (positief omhoog)
+- $ w_{\rm{D}} ^{\rm{AD}} \left( N_{\rm{AD}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right)\cdot N_{\rm{AD}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$ (positief omhoog)
+- $ w_{\rm{D}} ^{\rm{BD}} \left( N_{\rm{AD}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right)\cdot N_{\rm{AD}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$ (positief omhoog)
 ---
 
 ::::
