@@ -132,7 +132,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
     :number:
     ```
 
-    Deze vervormingen zijn niet zo simpel. Voor $\rm{DE}$ is het draaipunt niet direct duidelijk.
+    Deze vervormingen zijn niet zo simpel. Voor $\rm{DE}$ is het draaipunt niet direct duidelijk; deze staaf roteert én verplaatst.
 
     ````
 
@@ -144,7 +144,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
     :number:
     ```
 
-    Deze vervormingen zijn niet zo simpel: $\rm{ADE}$ transleert en roteert.
+    Deze vervormingen zijn niet zo simpel: $\rm{ADE}$ verplaatst en roteert.
 
     ````
 

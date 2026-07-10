@@ -67,6 +67,7 @@ Schets de mogelijke vervormingen voor de optie van het weghalen van de horizonta
 
 ```{figure} ./lesoefeningen_2_data/optie_1.svg
 :align: center
+:name: optie_1
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 :number:
 ```
@@ -244,11 +245,8 @@ $EA = 3750 \ \rm{kN}$
 
 Hierboven schetste je al de vervormingen ten gevolge van de kracht $B_{\rm{h}}$:
 
-```{figure} ./lesoefeningen_2_data/optie_1.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
-:number:
-```
+:::{fetch} {numref}`optie_1`
+:::
 
 :::::{question} Opgave
 :type: no-input
