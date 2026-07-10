@@ -466,10 +466,10 @@ MAPE[-1/3;0.01;2]
 M[0]
 M[0.5]
 M[65]
-MAPE[-1/9000;0.00001;2]
+MAPE[1/9000;0.00001;2]
 M[0]
-M[0.00025]
-M[0.0325]
+M[-0.00025]
+M[-0.0325]
 ^^^
 ? Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $M_{\rm{B}}$.
 
@@ -511,8 +511,8 @@ N_{\rm{CE}} &= 0.5 \cdot M_{\rm{B}} + 65
 \end{align}
 $$
 
-$$ \varphi _ {\rm{B}} ^{\rm{DB}} = \cfrac{w_{\rm{D}}}{3} = \cfrac{\Delta L_{\rm{AD}}}{3} = \cfrac{-N_{\rm{AD}} \cdot L_{\rm{AD}}}{3 \cdot EA} = -0.00011 \cdot M_{\rm{B}} $$
-$$ \varphi _ {\rm{B}} ^{\rm{BE}} = \cfrac{w_{\rm{E}}}{2} = - \cfrac{\Delta L_{\rm{CE}}}{2} = \cfrac{N_{\rm{CE}} \cdot L_{\rm{CE}}}{2 \cdot EA} = 0.00025 \cdot M_{\rm{B}} + 0.0325 $$
+$$ \varphi _ {\rm{B}} ^{\rm{DB}} = -\cfrac{w_{\rm{D}}}{3} = -\cfrac{\Delta L_{\rm{AD}}}{3} = -\cfrac{-N_{\rm{AD}} \cdot L_{\rm{AD}}}{3 \cdot EA} = 0.00011 \cdot M_{\rm{B}} $$
+$$ \varphi _ {\rm{B}} ^{\rm{BE}} = \cfrac{w_{\rm{E}}}{2} = - \cfrac{\Delta L_{\rm{CE}}}{2} = -\cfrac{N_{\rm{CE}} \cdot L_{\rm{CE}}}{2 \cdot EA} = -0.00025 \cdot M_{\rm{B}} - 0.0325 $$
 
 ::::
 
@@ -547,13 +547,13 @@ $ M_{v} = $ {gap} $\rm{kNm}$ (positief geeft trek aan de onderkant, rond af op g
 ---
 M[30]
 M[20]
-M[0.01]
+M[-0.01]
 ^^^
 ? Los nu ook de normaalkrachten en rotatie op.
 
 - $ N_{\rm{AD}} = $ {gap} $ \rm{kN}$
 - $ N_{\rm{CE}}  = $ {gap} $ \rm{kN}$
-- $ \varphi_{\rm{B}} = $ {gap} $ \rm{rad}$ (positief tegen de klok in, rond af op twee decimalen)
+- $ \varphi_{\rm{B}} = $ {gap} $ \rm{rad}$ (↺)
 ---
 
 ::::
@@ -655,9 +655,9 @@ $$
 
 $$ w_{\rm{E}} = - \Delta L_{\rm{CE}} = \cfrac{-N_{\rm{CE}} \cdot L_{\rm{CE}}}{EA} = 0.0015 \cdot N_{\rm{AD}} -0.065  $$
 
-$$ w_{\rm{D}} ^{\rm{AD}} = \Delta L_{\rm{AD}} = \cfrac{-N_{\rm{AD}} \cdot L_{\rm{AD}}}{EA} = 0.001 \cdot N_{\rm{AD}} $$ 
+$$ w_{\rm{D}} ^{\rm{AD}} = \Delta L_{\rm{AD}} = \cfrac{N_{\rm{AD}} \cdot L_{\rm{AD}}}{EA} = 0.001 \cdot N_{\rm{AD}} $$ 
 
-$$ w_{\rm{D}} ^{\rm{BD}} = \varphi_{\rm{B}} \cdot 3 = - \cfrac{3}{2} w_{\rm{E}} = -0.00225 \cdot N_{\rm{AD}} + 0.0975 $$
+$$ w_{\rm{D}} ^{\rm{BD}} = -\varphi_{\rm{B}} \cdot 3 = - \cfrac{w_{\rm{E}}}{2} \cdot 3 = -0.00225 \cdot N_{\rm{AD}} + 0.0975 $$
 
 ::::
 
