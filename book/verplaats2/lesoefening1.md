@@ -25,14 +25,47 @@ Waarvoor de horizontale en verticale verplaatsingen van scharnier $\rm{S}$ als v
 :align: center
 ```
 
-:::::{exercise}
+::::{question} Opgave
 :label: verplaats2_1
-:nonumber: true
+:type: multiple-choice
+:variant: single-select
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292696418426282527/embed
-```
+Waarom is het niet nodig de rotatie van $\rm{S}$ als vrijheidsgraad mee te nemen?
+---
+[x] De rotatie van een scharnier heeft geen betekenis.
+[] De staven zullen niet roteren.
+> De staven zullen wel degelijk kunnen roteren. Als er een beetje verticale verplaatsing van $\rm{S}$ plaatsvindt zullen de horizontale staven niet meer horizontaal staan. Echter is dat geen onafhankelijke vrijheidsgraad.
+[] De constructie is statisch bepaald.
+> Dit is irrelevant voor de vraag.
+---
 
-:::::
+::::
+
+
+::::{question} Opgave
+:label: verplaats2_2
+:type: multiple-choice
+:variant: single-select
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Heb je hier Williot nodig om de verlenging/verkorting van de staven te bepalen?
+---
+[] Ja, je hebt Williot nodig om de rek in alle staven te bepalen.
+> Incorrect, Williot is nodig als je niet weet hoeveel de staven roteren bij bekende verlenging/verkorting.
+[] Ja, je hebt Williot alleen nodig om de verlenging/verkorting in staaf SC te bepalen en niet in de andere staven.
+> Incorrect, Williot is nodig als je niet weet hoeveel de staven roteren bij bekende verlenging/verkorting
+[x] Nee, je hebt geen Williot nodig.
+> Correct, je weet precies waar S heen gaat, dus hebt geen Williot nodig om de rotatie van de staven te bepalen.
+---
+
+::::
 
 :::::{exercise}
 :label: verplaats2_2
