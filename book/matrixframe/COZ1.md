@@ -1,13 +1,13 @@
-# COZ opgave 2.1
+# COZ opgave 2.5
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
 :::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/70)
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
 :::
 ::::::
 
-% ...
+% https://ans.app/repo_questions/63917162/generator
 
 Gegeven is de volgende constructie:
 
@@ -15,7 +15,7 @@ Gegeven is de volgende constructie:
 :align: center
 :number:
 :figclass: sticky-margin
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_coz
 ```
 
 - $EA = 40 \, \rm{MN}$

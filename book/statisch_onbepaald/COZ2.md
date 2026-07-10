@@ -1,14 +1,14 @@
-# COZ opgave 1.x
+# COZ opgave 2.2
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
 
 :::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/62)
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
 :::
 
 ::::::
-% https://ans.app/repo_questions/....
+% https://ans.app/repo_questions/63870231/generator
 
 Gegeven is de volgende constructie:
 
@@ -17,7 +17,7 @@ Gegeven is de volgende constructie:
 align: center
 figclass: sticky-margin
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/matrixframe
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrixframe
 ---
 
 ```
@@ -36,7 +36,7 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 
 ```{figure} coz_data/uitwerking2deel1.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/matrixframe
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrixframe
 :number:
 ```
 
@@ -60,7 +60,7 @@ Wat is de graad van inwendig statisch bepaaldheid van deze constructie?
 
 ```{figure} coz_data/uitwerking2deel2onbekenden.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/matrixframe
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrixframe
 :number:
 
 ```
@@ -69,7 +69,7 @@ Er zijn 33 onbekende krachten
 
 ```{figure} coz_data/uitwerking2deel2vergelijkingen.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/matrixframe
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrixframe
 :number:
 
 ```

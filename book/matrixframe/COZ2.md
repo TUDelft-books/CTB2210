@@ -8,16 +8,16 @@ Deze oefening is aangepast de [les van 7 oktober](https://oit.tudelft.nl/CT1000/
 ```` 
 
 
-# COZ opgave 2.2
+# COZ opgave 2.6
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
 :::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/71)
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
 :::
 ::::::
 
-% ...
+% https://ans.app/repo_questions/63917219/generator
 
 Gegeven is de volgende constructie:
 
@@ -25,7 +25,7 @@ Gegeven is de volgende constructie:
 :align: center
 :number:
 :figclass: sticky-margin
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 ```
 
 - $EI = \cfrac{1000}{3} \, \rm{kNm^2}$

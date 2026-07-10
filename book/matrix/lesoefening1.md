@@ -1,6 +1,6 @@
 # Begeleide oefening
 
-% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/matrix_2
+% source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrix_2
 
 Gegeven is de volgende constructie:
 

@@ -16,7 +16,7 @@ Gegeven is de volgende constructie:
 align: center
 figclass: sticky-margin
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
 ---
 
 ```
@@ -36,7 +36,7 @@ Ga uit van het volgende statisch bepaalde systeem:
 align: center
 figclass: sticky-margin
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_balk
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
 ---
 
 ```

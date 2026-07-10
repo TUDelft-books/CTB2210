@@ -13,7 +13,7 @@ Gegeven is de volgende constructie:
 
 ```{figure} ./oefening1_data/temp.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 
 Constructie
 ```
@@ -22,7 +22,7 @@ Als je [](./oefening2.md) hebt overgeslagen, maak dan alsnog de eerste paar vrag
 
 ```{figure} oefening1_data/stat_bepaald_temp.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 
 Statisch bepaalde constructie
 ```
@@ -34,7 +34,7 @@ Gegeven vier krommingsdiagrammen ten gevolge van temperatuursinvloeden:
 
 ```{figure} oefening1_data/kappaT.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 
 Vier mogelijke krommingen ten gevolge van temperatuursinvloeden
 ```
@@ -69,7 +69,7 @@ Gekozen wordt voor de volgende statisch bepaalde constructie met een kinematisch
 
 ```{figure} oefening1_data/kinem.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 
 Statisch bepaalde constructie met kinematisch equivalente belasting. De extensie van staaf $\rm{BCD}$ wordt niet gemodelleerd met een kinematisch equivalente belasting.
 ```

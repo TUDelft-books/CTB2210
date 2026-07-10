@@ -9,5 +9,6 @@
 - Schrappen les over verplaatsingenmethode met statisch onbepaalde verplaatsingen
 - Verduidelijken onafhankelijkheid van vrijheidsgraden in [Verplaatsingenmethode  met vrijheidsgraden - Instructie](verplaats2/theorie.md)
 - Verduidelijken keuze makkelijk model voor krachtenmethode.
+- Toevoegen schetsen verplaatste constructie bij keuze statisch bepaald model voor krachtenmethode.
 - Toevoegen COZ opgaves in [Krachtenmethode vakwerk](krachtenmethode_vakwerk/lesson.md)
 - Toevoegen les over verschillende methodes in [Vergelijking methodes](methodes/lesson.md)

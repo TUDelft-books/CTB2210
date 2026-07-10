@@ -7,17 +7,17 @@ Deze oefening is aangepast de [les van 7 oktober](https://oit.tudelft.nl/CT1000/
 ```
 ```` 
 
-# COZ opgave 1.x
+# COZ opgave 2.3
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
 
 :::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/63)
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
 :::
 ::::::
 
-% https://ans.app/repo_questions/...
+% https://ans.app/repo_questions/63870250/generator
 
 Gegeven is de volgende constructie:
 
@@ -26,7 +26,7 @@ Gegeven is de volgende constructie:
 align: center
 figclass: sticky-margin
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 ---
 
 ```
@@ -46,7 +46,7 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 ```{figure} coz_data/uitwerking3.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 
 ```
 
@@ -70,7 +70,7 @@ Wat is de graad van inwendig statisch bepaaldheid van deze constructie?
 
 ```{figure} ../krachtenmethode_raamwerk/lesoefeningen_data/Onbekenden.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_coz
 :number:
 ```
 
@@ -78,7 +78,7 @@ Er zijn 25 onbekende krachten
 
 ```{figure} ../krachtenmethode_raamwerk/lesoefeningen_data/Vergelijkingen.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_coz
 :number:
 ```
 

@@ -1,10 +1,10 @@
-# COZ opgave 1.x
+# COZ opgave 2.1
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
 
 :::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/61)
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
 :::
 
 ::::::
@@ -19,7 +19,7 @@ Gegeven is de volgende constructie:
 align: center
 figclass: sticky-margin
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_coz
 ---
 
 ```
@@ -38,7 +38,7 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 
 ```{figure} coz_data/uitwerking1.svg
 :align: center
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch_coz
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_coz
 :number:
 ```
 

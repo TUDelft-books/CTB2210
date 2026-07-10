@@ -7,16 +7,16 @@ Deze oefening is aangepast de [pagina over de krachtenmethode voor vakwerkconstr
 ```
 ````
 
-# COZ opgave 2.3
+# COZ opgave 2.7
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
 :::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/72)
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
 :::
 ::::::
 
-% ...
+% https://ans.app/repo_questions/63917295/generator
 
 Gegeven is de volgende constructie:
 
@@ -24,7 +24,7 @@ Gegeven is de volgende constructie:
 :align: center
 :number:
 :figclass: sticky-margin
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
 ```
 
 $$0 < EA_{\rm{CD}}, EA_{\rm{BE}} \ll EI, EA_{\rm{ADE}}$$

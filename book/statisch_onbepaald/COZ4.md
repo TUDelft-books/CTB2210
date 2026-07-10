@@ -7,17 +7,17 @@ Deze oefening is aangepast de [pagina over de krachtenmethode voor vakwerkconstr
 ```
 ````
 
-# COZ opgave 1.x
+# COZ opgave 2.4
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
 
 :::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/64)
+[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
 :::
 ::::::
 
-% https://ans.app/repo_questions/...
+% https://ans.app/repo_questions/63870257/generator
 
 Gegeven is de volgende constructie:
 
@@ -26,7 +26,7 @@ Gegeven is de volgende constructie:
 align: center
 figclass: sticky-margin
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
 ---
 
 ```
@@ -46,7 +46,7 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 ```{figure} coz_data/uitwerking4.svg
 :align: center
 :number:
-:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_williot
 ```
 
 $ 10 - 9 = 1 $

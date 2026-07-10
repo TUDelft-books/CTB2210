@@ -12,7 +12,7 @@ De inwendige statisch bepaaldheid is meer werk om te berekenen. Als de construct
 name: gesloten_vs_open
 align: center
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
 ---
 
 ```
@@ -48,7 +48,7 @@ Als voorbeeld bepalen we de uitwendige statisch onbepaaldheid van onderstaande c
 name: example_sd
 align: center
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
 figclass: sticky-margin
 ---
 
@@ -66,7 +66,7 @@ figclass: sticky-margin
    name: example_sd_1
    align: center
    number:
-   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+   source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
    ---
 
    ```
@@ -85,7 +85,7 @@ figclass: sticky-margin
    name: example_sd_2
    align: center
    number:
-   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+   source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
    ---
    
    ```
@@ -103,7 +103,7 @@ figclass: sticky-margin
    name: example_sd_3
    align: center
    number:
-   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+   source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
    ---
    
    ```
@@ -152,7 +152,7 @@ Eventueel kan je ook nog onderscheid maken tussen pendelstaven en reguliere stav
 name: example_sd_abc
 align: center
 number:
-source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
 figclass: sticky-margin
 ---
 
@@ -190,7 +190,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    name: example_sd_4
    align: center
    number:
-   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+   source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
    ---
    
    ```
@@ -208,7 +208,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    ---
    name: example_sd_5
    align: center
-   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+   source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
    number:
    ---
    
@@ -225,7 +225,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    ---
    name: example_sd_6
    align: center
-   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+   source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
    number:
    ---
 
@@ -244,7 +244,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
    ---
    name: example_sd_9
    align: center
-   source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/graad_statisch
+   source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
    number:
    ---
    
