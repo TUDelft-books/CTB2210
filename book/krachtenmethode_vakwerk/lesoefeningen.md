@@ -343,16 +343,28 @@ M[0.01]
 
 ## Statisch onbepaalde normaalkracht $N_{\rm{AD}}$
 
-:::::{exercise}
-:label: km_vak_1_9
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Neem als statisch onbepaalde kracht de normaalkracht $N_{\rm{AD}}$ door de pendelstaaf in het scharnier los te maken van de balk.
+---
+DS[φ;{w}]
+DS[{D aan de kant van AD};D aan de kant van BD;B aan de kant van DB]
+DS[φ;{w}]
+DS[{D aan de kant van BD};B aan de kant van DB]
+^^^
 
-```{h5p} https://tudelft.h5p.com/content/1292634312901581657/embed
-```
+Neem als statisch onbepaalde kracht de normaalkracht $N_{\rm{AD}}$ door de pendelstaaf in het scharnier los te maken van de balk. Wat is de vormveranderingsvoorwaarde?
 
-:::::
+{gap}$(${gap}$) = ${gap}$(${gap}$)$
+---
+
+::::
+
 
 :::::{exercise}
 :label: km_vak_1_10
@@ -364,6 +376,34 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $N_
 ```
 
 :::::
+
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+---
+M[-1.5]
+M[65]
+M[0.015]
+M[-0.0650]
+M[0.001]
+M[0]
+M[-0.00225]
+M[0.09750]
+^^^
+? Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $N_{\rm{AD}}$.
+
+- $ N_{\rm{CE}} \left( N_{\rm{AD}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kN}}\right) \cdot N_{\rm{AD}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$ (rond af op 1 decimaal)
+- $ w_{\rm{E}} \left( N_{\rm{AD}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right)\cdot N_{\rm{AD}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$ (positief omhoog, rond af op 4 decimalen)
+- $ w_{\rm{D}} ^{\rm{AD}} \left( N_{\rm{AD}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right)\cdot N_{\rm{AD}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$ (positief omhoog, rond af op 3 decimalen)
+- $ w_{\rm{D}} ^{\rm{BD}} \left( N_{\rm{AD}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right)\cdot N_{\rm{AD}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$ (positief omhoog, rond af op 5 decimalen)
+---
+
+::::
 
 % solution_start
 
@@ -379,19 +419,19 @@ number:
 
 ```
 
-De gebruikte vergelijkingen zijn:
+$$
+\begin{align}
+\sum  \left. T \right|  _ {\rm{B}} &= 0 \\
+3 \cdot N_{\rm{AD}} + 2 \cdot N_{\rm{CE}} - 5 \cdot 26 &=0 \\
+N_{\rm{CE}} &= - 1.5 \cdot N_{\rm{AD}} + 65
+\end{align}
+$$ 
 
-$$ \sum \left.  M \right| _ {\rm{B}} = 3 \cdot N_{\rm{AD}} + 2 \cdot N_{\rm{CE}} - 5 \cdot 26 = 0 $$ 
-$$ w_{\rm{E}} = - \Delta l_{\rm{CE}} = \cfrac{-N_{\rm{CE}} \cdot l_{\rm{CE}}}{EA} $$
-$$ w_{\rm{D}} ^ {\rm{AD}} = \Delta l_{\rm{AD}} = \cfrac{N_{\rm{AD}} \cdot l_{\rm{AD}}}{EA} $$ 
-$$ w_{\rm{D}} ^ {\rm{BD}} = \varphi_{\rm{B}} \cdot 3 = - \cfrac{3}{2} w_{\rm{E}} $$
+$$ w_{\rm{E}} = - \Delta L_{\rm{CE}} = \cfrac{-N_{\rm{CE}} \cdot L_{\rm{CE}}}{EA} = 0.0015 \cdot N_{\rm{AD}} -0.065  $$
 
-Hieruit volgt:
+$$ w_{\rm{D}} ^{\rm{AD}} = \Delta L_{\rm{AD}} = \cfrac{-N_{\rm{AD}} \cdot L_{\rm{AD}}}{EA} = 0.001 \cdot N_{\rm{AD}} $$ 
 
-$$ N_{\rm{CE}} = - 1.5 \cdot N_{\rm{AD}} + 65 $$
-$$ w_{\rm{E}} = 0.0015 \cdot N_{\rm{AD}} -0.065 $$
-$$ w_{\rm{D}} ^{\rm{AD}} = 0.001 \cdot N_{\rm{AD}} $$
-$$ w_{\rm{D}} ^{\rm{BD}} = -0.00225 \cdot N_{\rm{AD}} + 0.0975 $$
+$$ w_{\rm{D}} ^{\rm{BD}} = \varphi_{\rm{B}} \cdot 3 = - \cfrac{3}{2} w_{\rm{E}} = -0.00225 \cdot N_{\rm{AD}} + 0.0975 $$
 
 ::::
 
@@ -407,6 +447,48 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $N_{\rm{AD}}
 ```
 
 :::::
+
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+---
+M[30]
+^^^
+? Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $N_{\rm{AD}}$ op.
+
+$ N_{\rm{AD}} = $ {gap} $\rm{kN}$
+---
+
+::::
+
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+---
+M[20]
+M[-2]
+M[3]
+M[3]
+^^^
+? Los nu ook de normaalkracht $N_{\rm{CE}}$ en de verplaatsingen op.
+
+- $ N_{\rm{CE}}  = $ {gap} $ \rm{kN}$
+- $ w_{\rm{E}} = $ {gap} $ \rm{cm}$ (positief omhoog)
+- $ w_{\rm{D}} ^{\rm{AD}} = $ {gap} $ \rm{cm}$ (positief omhoog)
+- $ w_{\rm{D}} ^{\rm{BD}} = $ {gap} $ \rm{cm}$ (positief omhoog)
+---
+
+::::
 
 ## Vervormde constructie
 
