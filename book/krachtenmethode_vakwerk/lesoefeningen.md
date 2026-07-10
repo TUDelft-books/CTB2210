@@ -357,7 +357,7 @@ $$
 
 $$ w_{\rm{E}} = - \Delta L_{\rm{CE}} = \cfrac{-N_{\rm{CE}} \cdot L_{\rm{CE}}}{EA} = 0.0006 \cdot B_{\rm{v}} - 0.0416  $$
 
-$$ w_{\rm{D}} = \Delta L_{\rm{AD}} = \cfrac{-N_{\rm{AD}} \cdot L_{\rm{AD}}}{EA} = 0.0004 \cdot B_{\rm{v}} - 0.0156 $$ 
+$$ w_{\rm{D}} = \Delta L_{\rm{AD}} = \cfrac{N_{\rm{AD}} \cdot L_{\rm{AD}}}{EA} = 0.0004 \cdot B_{\rm{v}} + 0.0156 $$ 
 
 $$ w_{\rm{B}} = w_{\rm{D}} + \cfrac{3}{5} \cdot \left( w_{\rm{E}} - w_{\rm{D}} \right) = \cfrac{3}{5} \cdot w_{\rm{E}} + \cfrac{2}{5} \cdot w_{\rm{D}} = 0.00052 \cdot B_{\rm{v}} - 0.01872 $$
 
