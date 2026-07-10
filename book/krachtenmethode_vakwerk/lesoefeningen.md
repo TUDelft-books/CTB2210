@@ -7,6 +7,7 @@ Gegeven is de volgende constructie:
 align: center
 figclass: sticky-margin
 number:
+name: rekoefening
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
 ---
 
@@ -143,6 +144,7 @@ Schets de mogelijke vervormingen voor de optie van het toevoegen van een scharni
 
 ```{figure} ./lesoefeningen_data/optie_4.svg
 :align: center
+:name: optie_4
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
 :number:
 ```
@@ -185,6 +187,7 @@ Schets de mogelijke vervormingen voor de optie van het splitsen van de construct
 
 ```{figure} ./lesoefeningen_data/optie_6.svg
 :align: center
+:name: optie_6
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
 :number:
 ```
@@ -429,6 +432,26 @@ M[0]
 
 ## Statisch onbepaald moment $M_{\rm{B}}$
 
+Nu wordt gekozen voor het volgende statisch onbepaalde systeem:
+
+```{hide-sticky-margin}
+```
+```{figure-start} lesoefeningen_data/stat_bepaald_Mb.svg
+---
+align: center
+figclass: sticky-margin
+number:
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+---
+
+```
+
+- $EA = 2.5 \ \rm{MN}$
+- $EI \gg EA$
+
+```{figure-end}
+```
+
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -443,12 +466,17 @@ DS[{B aan de kant van BD};D]
 DS[{φ};w]
 DS[G;E aan de kant van EG;E aan de kant van BE;{B aan de kant van BE}]
 ^^^
-? Neem als statisch onbepaalde kracht het moment $M_{\rm{B}}$ (positief zorgt voor trek aan de onderkant). Wat is de vormveranderingsvoorwaarde?
+? Wat is de vormveranderingsvoorwaarde?
 
 {gap}$(${gap}$) = ${gap}$(${gap}$)$
 ---
 
 ::::
+
+De vervormde constructie onder invloed van de statisch onbepaalde kracht $M_{\rm{B}}$ heb je al getekend in een van de eerste oefeningen:
+
+:::{fetch} {numref}`optie_4`
+:::
 
 :::::{question} Opgave
 :type: no-input
@@ -457,7 +485,7 @@ DS[G;E aan de kant van EG;E aan de kant van BE;{B aan de kant van BE}]
 :nocaption:
 :showanswer:
 
-Schets de vervormde statisch onbepaalde constructie onder invloed van de $26 \, \rm{kN}$. De vervormde constructie onder invloed van de statisch onbepaalde kracht $M_{\rm{B}}$ is al getekend in een van de eerste oefeningen.
+Schets de vervormde statisch onbepaalde constructie onder invloed van de $26 \, \rm{kN}$. 
 ---
 =
 
@@ -576,6 +604,26 @@ M[-0.01]
 
 ## Statisch onbepaalde normaalkracht $N_{\rm{AD}}$
 
+Nu wordt gekozen voor het volgende statisch onbepaalde systeem:
+
+```{hide-sticky-margin}
+```
+```{figure-start} lesoefeningen_data/stat_bepaald_N_AD.svg
+---
+align: center
+figclass: sticky-margin
+number:
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
+---
+
+```
+
+- $EA = 2.5 \ \rm{MN}$
+- $EI \gg EA$
+
+```{figure-end}
+```
+
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -591,12 +639,17 @@ DS[φ;{w}]
 DS[{D aan de kant van BD};B aan de kant van DB]
 ^^^
 
-? Neem als statisch onbepaalde kracht de normaalkracht $N_{\rm{AD}}$ door de pendelstaaf in het scharnier los te maken van de balk. Wat is de vormveranderingsvoorwaarde?
+? Wat is de vormveranderingsvoorwaarde?
 
 {gap}$(${gap}$) = ${gap}$(${gap}$)$
 ---
 
 ::::
+
+De vervormde constructie onder invloed van de statisch onbepaalde kracht $N_{\rm{AD}}$ heb je al getekend in een van de eerste oefeningen:
+
+:::{fetch} {numref}`optie_6`
+:::
 
 :::::{question} Opgave
 :type: no-input
@@ -605,7 +658,7 @@ DS[{D aan de kant van BD};B aan de kant van DB]
 :nocaption:
 :showanswer:
 
-Schets de vervormde statisch onbepaalde constructie onder invloed van de $26 \, \rm{kN}$. De vervormde constructie onder invloed van de statisch onbepaalde kracht $N_{\rm{AD}}$ is al getekend in een van de eerste oefeningen.
+Schets de vervormde statisch onbepaalde constructie onder invloed van de $26 \, \rm{kN}$.
 ---
 =
 
@@ -724,6 +777,11 @@ M[3]
 
 ## Vervormde constructie
 
+Nu we de constructie op meerdere manieren statisch bepaald hebben gemaakt, kunnen we een of meerdere van de uitwerkingen gebruiken om de vervormde statisch onbepaalde constructie te tekenen.
+
+:::{fetch} {numref}`rekoefening`
+:::
+
 ::::{question} Opgave
 :type: no-input
 :admonition:
@@ -731,7 +789,7 @@ M[3]
 :nocaption:
 :showanswer:
 
-Teken de vervormde constructie op schaal.
+Teken de vervormde **statisch onbepaalde** constructie op schaal.
 ---
 =
 ```{figure} lesoefeningen_data/verplaatsingen.svg
