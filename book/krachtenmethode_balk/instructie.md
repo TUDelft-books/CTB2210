@@ -12,7 +12,9 @@ Deze pagina is aangepast van [deze instructie](https://oit.tudelft.nl/CEG-mechan
 
 De krachtenmethode hebben we eerder al behandeld voor onder andere [constructies belast op rek](krachtenmethode_simpel). De methode is niet anders voor constructies op buiging en volgt dus dezelfde vier stappen. Bij balken kunnen we het vervormingsgedrag door rek en buiging ook nog eens afzonderlijk bekijken.
 
-Bij de krachtenmethode 'hoekveranderingsvergelijkingen' wordt er altijd gekozen voor het toevoegen van scharnieren om de constructie statisch bepaald te maken. Dat heeft als voordeel dat het zeer eenvoudig is om de benodigde rotaties te berekenen met behulp van vergeet-mij-nietjes. Echter, voor niet alle constructies zijn vergeet-mij-nietjes beschikbaar en deze aanpak is niet altijd de makkelijkste aanpak.
+De krachtenmethode is voor constructies op buiging gelijk aan die voor constructies op rek. Voor het kiezen van een statisch bepaald systeem is er naast de voorkeur voor elementen die om een vast punt draaien echter nog een andere voorkeur: de statisch bepaalde constructie is op te lossen met vergeet-me-nietjes. Niet voor alle situaties zijn er vergeet-me-nietjes beschikbaar, dus een statisch bepaalde constructie waarin deze niet te herkennen zijn wordt afgeraden.
+
+Daarnaast is er een speciale krachtenmethode: 'hoekveranderingsvergelijkingen'. Bij deze methode wordt er altijd gekozen voor het toevoegen van scharnieren om de constructie statisch bepaald te maken. Dat heeft als voordeel dat het zeer eenvoudig is om de benodigde rotaties te berekenen met behulp van vergeet-mij-nietjes. Echter, voor niet alle statisch bepaalde constructies zijn die op die manier worden gevormd zijn er dan vergeet-mij-nietjes beschikbaar en deze aanpak geeft ook niet altijd het makkelijkste verplaatsingspatroon.
 
 We tonen de stappen van de krachtenmethode voor een balk.
 
@@ -59,7 +61,7 @@ source: bending_data/constructie.py
 
     ::::::
 
-2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij een pendelstaaf, of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaardes toe voor elke opleggging die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!
+2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij een pendelstaaf, of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaardes toe voor elke opleggging die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme! Kies een statisch bepaald systeem dat makkelijk is uit te rekenen: elementen verplaatsen bij voorkeur niet als ze ook al roteren en je kan vergeet-me-nietjes herkennen in het statisch bepaalde systeem.
 
     ::::::{prf:example}
     :nonumber: true

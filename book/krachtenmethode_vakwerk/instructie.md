@@ -9,7 +9,7 @@ Deze instructie is aangepast van de [pagina over de krachtenmethode voor vakwerk
 
 # Instructie
 
-De krachtenmethode hebben we eerder al behandeld voor [simpele constructies](krachtenmethode_simpel). We behandelen de toepassing op complexere vakwerkconstructies met het volgende voorbeeld. Dit voorbeeld bevat een Williot diagram om de verplaatsingen te berekenen.
+De krachtenmethode hebben we eerder al behandeld voor [simpele constructies](krachtenmethode_simpel). We behandelen de toepassing op complexere vakwerkconstructies met het volgende voorbeeld. Dit voorbeeld bevat een Williot diagram om de verplaatsingen te berekenen. Voor het williot diagram is het nuttig als je een statisch bepaald systeem kiest dat makkelijk is uit te rekenen: elementen verplaatsen bij voorkeur niet als ze ook al roteren. In onderstaande voorbeeld zal die situatie ook langskomen.
 
 ::::::{prf:example}
 :nonumber: true
@@ -52,7 +52,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
     Er zijn 10 onbekende krachten en 9 evenwichtsvergelijkingen, dus is deze constructie 1e orde statisch onbepaald.
     ::::::
 
-2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaarden toe voor elke oplegging die je hebt weggenomen, aansluiting van de pendelstaven die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!
+2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaarden toe voor elke oplegging die je hebt weggenomen, aansluiting van de pendelstaven die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme! Kies een statisch bepaald systeem dat makkelijk is uit te rekenen: elementen roteren bij voorkeur om een vast punt.
 
     ::::::{prf:example}
     :nonumber: true
