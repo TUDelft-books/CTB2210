@@ -49,11 +49,8 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 
 In de instructie werden al de vervormingen ten gevolge van de kracht $A_{\rm{v}}$ geschetst.
 
-```{figure} ./bending_data/optie2_verplaatsingen.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
-:number:
-```
+:::{fetch} {numref}`optie2_balk`
+:::
 
 :::::{question} Opgave
 :type: no-input

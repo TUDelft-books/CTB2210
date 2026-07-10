@@ -125,6 +125,7 @@ source: bending_data/constructie.py
     ```{figure} ./bending_data/optie2_verplaatsingen.svg
     :align: center
     :number:
+    :name: optie2_balk
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
 
@@ -141,7 +142,7 @@ source: bending_data/constructie.py
     :number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
-    Deze optie is niet erg handig omdat er geen vergeet-mij-nietjes zijn om de verplaatsing bij $\rm{B}$ te verkrijgen voor deze belastingen
+    Deze optie is niet erg handig omdat er geen vergeet-mij-nietjes zijn om de verplaatsing bij $\rm{B}$ te verkrijgen voor deze belastingen; er zijn geen vergeet-me-nietjes voor een ligger op twee steunpunten die deel is belast met een verdeelde belasting.
     ````
 
     ````{tab-item} Verticale oplegging bij $\rm{C}$ loslaten
@@ -236,7 +237,7 @@ source: bending_data/constructie.py
     $$
 
     $$
-    w_{\rm{halverwege \, \rm{AB}}} = \cfrac{5}{384} \cfrac{25 \cdot 4^3}{\frac{16}{3} \cdot 10^3} - \cfrac{1}{16} \cfrac{20 \cdot 4^3}{\frac{16}{3} \cdot 10^3} = 0.019375 \, \rm{m}
+    w_{\rm{halverwege \, \rm{AB}}} = \cfrac{5}{384} \cfrac{25 \cdot 4^3}{\frac{16}{3} \cdot 10^3} - \cfrac{1}{16} \cfrac{20 \cdot 4^3}{\frac{16}{3} \cdot 10^3} = 0.011875 \, \rm{m}
     $$
 
     Dit kan getekend worden als:

@@ -157,7 +157,7 @@ Welke van de volgende is geen optie om de constructie statisch bepaald te maken 
 [x] Inklemming aanpassen naar scharnierende oplegging bij $\rm{A}$
 > Inderdaad, er is geen vergeet-me-nietje die voor dat statisch bepaalde systeem de verplaatsingen geeft
 [ ] Toevoegen scharnier bij $\rm{C}$
-> Er zijn wel degelijk vergeet-me-nietjes voor deze situatie, maar het rechter deel zal echter ook nog roteren rondom $\rm{B}$
+> Er zijn wel degelijk vergeet-me-nietjes voor deze situatie, maar het rechter deel zal echter ook nog roteren rondom $\rm{B}$ dus dat is wel wat complexer dan één van de ander opties.
 [ ] Weghalen verticale oplegging bij $\rm{B}$
 ---
 
