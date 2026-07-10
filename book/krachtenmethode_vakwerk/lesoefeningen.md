@@ -366,17 +366,6 @@ Neem als statisch onbepaalde kracht de normaalkracht $N_{\rm{AD}}$ door de pende
 ::::
 
 
-:::::{exercise}
-:label: km_vak_1_10
-:nonumber: true
-
-Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $N_{\rm{AD}}$.
-
-```{h5p} https://tudelft.h5p.com/content/1292634315769955647/embed
-```
-
-:::::
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -437,16 +426,6 @@ $$ w_{\rm{D}} ^{\rm{BD}} = \varphi_{\rm{B}} \cdot 3 = - \cfrac{3}{2} w_{\rm{E}} 
 
 % solution_end
 
-:::::{exercise}
-:label: km_vak_1_11
-:nonumber: true
-
-Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $N_{\rm{AD}}$ op.
-
-```{h5p} https://tudelft.h5p.com/content/1292634317462305007/embed
-```
-
-:::::
 
 ::::{question} Opgave
 :type: short-answer
