@@ -2,9 +2,7 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/bending2.html
-
-% Figures from https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/NL/book/statically_inderminate/force_method/theorie_data/Tekening1.vsdx
+Deze pagina is aangepast van [deze pagina over de krachtenmethode](https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/force_method/bending2.html) van {cite:ts}`CEG_mechanics_BSc`
 
 ```
 ```` 
@@ -12,19 +10,27 @@ Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statica
 (krachtenmethode_raamwerk)=
 # Instructie
 
-De krachtenmethode hebben we eerder al behandeld voor onder andere [constructies belast op rek](krachtenmethode_simpel) en [balken](krachtenmethode_balk). Voor raamwerken is de procedure niet anders, behalve dat we het gedrag van rek en buiging niet altijd kunnen splitsen.
+De krachtenmethode hebben we eerder al behandeld voor onder andere [constructies belast op rek](krachtenmethode_simpel) en [balken](krachtenmethode_balk). Voor raamwerken is de procedure niet anders, behalve dat we het gedrag van rek en buiging niet altijd kunnen splitsen. In deze les zal het enkel gaan over raamwerken die enkel vervormen door buiging, dus $EA >> EI$. In de [volgend les](../krachtenmethode_rek_raamwerk/lesson.md) zullen we de krachtenmethode behandelen voor raamwerken die vervormen door zowel buiging als rek.
 
-We behandelen de toepassing op raamwerkconstructies met het volgende voorbeeld. 
+We behandelen de toepassing op raamwerkconstructies met het volgende voorbeeld.
 
 ::::::{prf:example}
 :nonumber: true
 :label: sd_raam_0
 
-```{figure} ./theorie_data/example.svg
+```{figure-start} ./theorie_data/example.svg
 ---
 align: center
+figclass: sticky-margin
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+number:
 ---
-Voorbeeldconstructie, $EI = 5 \ \rm{MNm^2}, EA >> EI$
+
+```
+
+$$EI = 5 \ \rm{MNm^2}, EA >> EI$$
+
+```{figure-end}
 ```
 
 ::::::
@@ -35,23 +41,18 @@ Voorbeeldconstructie, $EI = 5 \ \rm{MNm^2}, EA >> EI$
     :nonumber: true
     :label: sd_raam_1
 
-    Voor ons voorbeeld zijn we geïnteresseerd in de verdeling van inwendige krachten, dus moeten we de graad van inwendige statische onbepaaldheid evalueren.
+    Voor ons voorbeeld zijn we geïnteresseerd in de verdeling van inwendige krachten, dus moeten we de graad van inwendige statische onbepaaldheid evalueren. Aangezien dit een open constructie is, is de inwendige graad van statische onbepaaldheid gelijk aan de uitwerking graad van statische onbepaaldheid:
 
-    ```{figure} ./theorie_data/onbekenden.svg
+    ```{figure} ./theorie_data/graad.svg
     ---
     align: center
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    number:
     ---
-    Er zijn 21 onbekende krachten.
+    
     ```
 
-    ```{figure} ./theorie_data/vergelijkingen.svg
-    ---
-    align: center
-    ---
-    Er zijn 19 evenwichtsvergelijkingen
-    ```
-
-    Deze constructie is dus 2e orde inwendig statisch onbepaald.
+    Deze constructie is dus ($5-3$) 2e orde inwendig statisch onbepaald.
 
     ::::::
 
@@ -64,30 +65,178 @@ Voorbeeldconstructie, $EI = 5 \ \rm{MNm^2}, EA >> EI$
     Er zijn veel opties, waarvan een aantal mogelijke opties:
 
     `````{tab-set}
+    :sync-group: raamwerk
+
     ````{tab-item} Horizontale oplegging bij $\rm{B}$ loslaten en scharnier toevoegen in $\rm{B}$
+    :sync: keyraam_1
     ```{figure} ./theorie_data/optie1.svg
     :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
     ```
     ````
     ````{tab-item} Horizontale oplegging bij $\rm{B}$ en $\rm{C}$ loslaten
+    :sync: keyraam_2
     ```{figure} ./theorie_data/optie2.svg
     :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
     ```
 
     ````
     ````{tab-item} Horizontale en verticale oplegging bij $\rm{A}$ loslaten
+    :sync: keyraam_3
     ```{figure} ./theorie_data/optie3.svg
     :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
     ```
     ````
     ````{tab-item} Horizontale oplegging bij $\rm{A}$ loslaten en scharnier toevoegen in $\rm{B}$
+    :sync: keyraam_4
     ```{figure} ./theorie_data/optie4.svg
     :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
     ```
     ````
     `````
 
-    De derde optie wordt gekozen.
+    Voor elk van deze opties kunnen we de verplaatsingen schetsen om een variant te kiezen die een simpel verplaatsingspatroon heeft:
+
+    ```````{tab-set}
+    :sync-group: raamwerk
+
+    ``````{tab-item} Horizontale oplegging bij $\rm{B}$ loslaten en scharnier toevoegen in $\rm{B}$
+    :sync: keyraam_1
+    
+    :::::{grid}
+    :class-container: center-grid
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie_1_verplaatsingen_1.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    ```
+    ::::
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie_1_verplaatsingen_2.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    ```
+    ::::
+
+    :::::
+
+    Ligger $\rm{AB}$ wordt niet korter of langer, dus dat deel van de constructie zal niet vervormen. Het overige gedeelte is te bepalen met het vergeet-me-nietje van een ligger op twee steunpunten met een koppel op het uiteinde en een uitkragende ligger met een puntlast op het uiteinde. Enkel het moment in $\rm{C}$ zal moeten worden bepaald om de vervormingen te kunnen berekenen.
+
+    ``````
+
+    ``````{tab-item} Horizontale oplegging bij $\rm{B}$ en $\rm{C}$ loslaten
+    :sync: keyraam_2
+
+    :::::{grid}
+    :class-container: center-grid
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie_2_verplaatsingen_1.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    ```
+    ::::
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie_2_verplaatsingen_2.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    ```
+    ::::
+
+    :::::
+
+    Ligger $\rm{AB}$ wordt niet korter of langer, maar kan nog wel buigen. De vervormingen zijn daarmee te bepalen met het vergeet-me-nietje van een ligger op twee steunpunten met een koppel op het uiteinde, een uitkragende ligger met een puntlast op het uiteinde en een uitkragende ligger met een koppel op het uiteinde. Daarbij moeten de inwendige momenten in $\rm{B}$ en $\rm{C}$ bepaald worden om de vervormingen te kunnen berekenen.
+
+
+    ``````
+
+    ``````{tab-item} Horizontale en verticale oplegging bij $\rm{A}$ loslaten
+    :sync: keyraam_3
+
+    :::::{grid}
+    :class-container: center-grid
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie_3_verplaatsingen_1.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    ```
+    ::::
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie_3_verplaatsingen_2.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    ```
+    ::::
+
+    :::::
+
+    Ligger $\rm{AB}$ wordt niet korter of langer, maar kan nog wel buigen. De vervormingen zijn daarmee te bepalen met het vergeet-me-nietje van een ligger op twee steunpunten met een koppel op het uiteinde en een uitkragende ligger met een puntlast op het uiteinde. Daarbij moeten de inwendige momenten in $\rm{B}$ en $\rm{C}$ bepaald worden om de vervormingen te kunnen berekenen.
+    ``````
+
+    ``````{tab-item} Horizontale oplegging bij $\rm{A}$ loslaten en scharnier toevoegen in $\rm{B}$
+    :sync: keyraam_4
+
+    :::::{grid}
+    :class-container: center-grid
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie_4_verplaatsingen_1.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    ```
+    ::::
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/optie_4_verplaatsingen_2.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    ```
+    ::::
+
+    :::::
+
+    Ligger $\rm{AB}$ wordt niet korter of langer, dus dat deel van de constructie zal niet vervormen. Het overige gedeelte is te bepalen met het vergeet-me-nietje van een ligger op twee steunpunten met een koppel op het uiteinde en een uitkragende ligger met een puntlast op het uiteinde. Enkel het moment in $\rm{C}$ zal moeten worden bepaald om de vervormingen te kunnen berekenen.
+    ``````
+
+    ```````
+
+    Hoewel niet de makkelijkste optie, wordt de derde optie gekozen.
 
     ::::::
 
@@ -99,11 +248,17 @@ Voorbeeldconstructie, $EI = 5 \ \rm{MNm^2}, EA >> EI$
 
     We hebben de volgende statisch bepaalde constructie gekozen met vormveranderingsvoorwaardes $w_{\rm{A,v}}\left( A_{\rm{v}}, A_{\rm{h}} \right) = 0 $ en $w_{\rm{A,h}}\left( A_{\rm{v}}, A_{\rm{h}} \right) = 0 $:
 
-    ```{figure} ./theorie_data/SB-systeem.svg
+    ```{figure-start} ./theorie_data/SB-systeem.svg
     ---
     align: center
+    number:
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    figclass: sticky-margin
     ---
-    De statisch bepaalde constructie met vormveranderingsvoorwaarde, $EI = 5 \ \rm{MNm^2}, EA >> EI$
+    
+    ```
+    $$EI = 5 \ \rm{MNm^2}, EA >> EI$$
+    ```{figure-end}
     ```
 
     De krachtsverdeling kan worden gevonden met evenwicht:
@@ -137,6 +292,19 @@ Voorbeeldconstructie, $EI = 5 \ \rm{MNm^2}, EA >> EI$
     A_{\rm{h}} &= 0 \ \rm{kN}
     \end{align*}
     $$
+
+    De vervormingen van de statisch onbepaalde constructie kunnen ook geschets worden. In dit geval had dat zelfs al van tevoren gekund (zonder exacte waardes) aangezien de richtingen van de verplaatsingen te bepalen zijn zonder berekening:
+
+    ```{figure} ./theorie_data/vervormd.svg
+    ---
+    align: center
+    number:
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    ---
+    
+    ```
+
+
     ::::::
 
 ## Meer voorbeelden
@@ -147,7 +315,7 @@ Wanneer het boek de 'momentenvlakstelling' noemt in voorbeeld 2.2.6 en 2.2.7, ku
 
 ## Instructies in collegevorm
 
-Dit onderwerp is [in les 7](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/2e0fc9db91574fc9adacecd1eb833ce71d?sortBy=most-recent) gepresenteerd in collegevorm van 0:07:50 - 0:31:50.
+Dit onderwerp is [in 2025 in les 7](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/2e0fc9db91574fc9adacecd1eb833ce71d?sortBy=most-recent) gepresenteerd in collegevorm van 0:07:50 - 0:31:50. De opname in collegejaar 2026/2027 volgt na het college.
 
 ## Opdrachten
 
