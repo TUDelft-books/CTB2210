@@ -67,48 +67,160 @@ Heb je hier Williot nodig om de verlenging/verkorting van de staven te bepalen?
 
 ::::
 
-:::::{exercise}
-:label: verplaats2_2
-:nonumber: true
-
-```{h5p} https://tudelft.h5p.com/content/1292696398678085167/embed
-```
-
-:::::
-
-:::::{exercise}
+::::{question} Opgave
 :label: verplaats2_3
-:nonumber: true
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Bepaal de normaalkrachten in de drie staven in de constructie als functie van de verplaatsingen $u_{\rm{S,h}}$ en $u_{\rm{S,v}}$.
+---
+M[2500]
+M[0]
+M[357]
+M[0]
+M[-6250]
+M[0]
+M[-893]
+M[0]
+M[-1500]
+M[-2000]
+M[-214]
+M[-286]
+^^^
+? Bepaal de normaalkrachten in de drie staven in de constructie als functie van de verplaatsingen $u_{\rm{S,h}}$ en $u_{\rm{S,v}}$.
 
-```{h5p} https://tudelft.h5p.com/content/1292696401512703007/embed
+- $ N_{\rm{AS}} \left( u_{\rm{S,h}} , u_{\rm{S,v}} \right) = $ {gap} $ / 7 \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot u_{\rm{S,h}} + $ {gap} $ / 7 \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot u_{\rm{S,v}} \approx $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot u_{\rm{S,h}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot u_{\rm{S,v}} $ (rond af op gehele getallen)
+- $ N_{\rm{SB}} \left( u_{\rm{S,h}} , u_{\rm{S,v}} \right) = $ {gap} $ / 7 \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot u_{\rm{S,h}} + $ {gap} $ / 7 \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot u_{\rm{S,v}} \approx $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot u_{\rm{S,h}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot u_{\rm{S,v}} $ (rond af op gehele getallen)
+- $ N_{\rm{SC}} \left( u_{\rm{S,h}} , u_{\rm{S,v}} \right) = $ {gap} $ / 7 \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot u_{\rm{S,h}} + $ {gap} $ / 7 \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot u_{\rm{S,v}} \approx $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot u_{\rm{S,h}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot u_{\rm{S,v}} $ (rond af op gehele getallen)
+---
+
+::::
+
+% solution_start
+
+::::{admonition} Uitwerking
+:class: solution, dropdown
+
+Aan de hand van de verplaatsing van het scharnier kan worden bepaald dat:
+
+$$ \Delta L_{\rm{AS}} = + u_{\rm{S,h}} $$
+
+$$ \Delta L_{\rm{SB}} = - u_{\rm{S,h}} $$
+
+Voor staaf $\rm{SC}$ moet ook de hoek van de staaf worden meegenomen.
+
+```{figure} lesoefening_data/displaced_SC.svg
+---
+align: center
+number:
+---
 ```
 
-:::::
+$$ \Delta L_{\rm{SC}} = - \cfrac{4}{5} \cdot u_{\rm{S,v}} - \cfrac{3}{5} \cdot u_{\rm{S,h}} $$
 
-:::{todo}
-[Toevoegen uitwerkingen](https://github.com/TUDelft-books/CTB2210/issues/45)
-:::
+De verlengingen en verkortingen van de staven kunnen worden omgezet in normaalkrachten met behulp van $N = EA \cfrac{\Delta L}{L}$.
 
-:::::{exercise}
+$$ N_{\rm{AS}} = \cfrac{12500}{7 \cdot 5} \cdot u_{\rm{S,h}} \approx 357 \cdot u_{\rm{S,h}}$$
+
+$$ N_{\rm{SB}} = -\cfrac{12500}{7 \cdot 2} \cdot u_{\rm{S,h}} \approx -893 \cdot u_{\rm{S,h}}$$
+
+$$ N_{\rm{SC}} = -\cfrac{3 \cdot 12500}{5 \cdot 7 \cdot 5} \cdot u_{\rm{S,h}} -\cfrac{4 \cdot 12500}{5 \cdot 7 \cdot 5} \cdot u_{\rm{S,v}} \approx - 214 \cdot u_{\rm{S,h}} - 286 \cdot u_{\rm{S,v}}$$
+
+
+::::
+
+% solution_end
+
+::::{question} Opgave
 :label: verplaats2_4
-:nonumber: true
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Bepaal de waarde van de vrijheidsgraden $u_{\rm{S,h}}$ en $u_{\rm{S,v}}$.
+---
+M[-33.6]
+M[270.2]
 
-```{h5p} https://tudelft.h5p.com/content/1292696421277079527/embed
+^^^
+? Bepaal de waarde van de vrijheidsgraden $u_{\rm{S,h}}$ en $u_{\rm{S,v}}$.
+
+- $ u_{\rm{S,h}} =  $ {gap} $ \rm{mm} $
+- $ u_{\rm{S,v}} =  $ {gap} $ \rm{mm} $
+---
+
+::::
+
+% solution_start
+
+::::{admonition} Uitwerking
+:class: solution, dropdown
+
+Dit wordt opgelost met het evenwicht van knoop $\{S}$. 
+
+```{figure} lesoefening_data/vrijlichaamsschema_S.svg
+---
+align: center
+number:
+---
+```
+$$
+\begin{align}
+\sum  \left. F \right|  _ {\rm{h}} ^{\rm{S}} &= 0 \\
+- N_{\rm{AS}} + N_{\rm{SB}} + \cfrac{3}{5} N_{\rm{SC}} &= 0 \\
+- \cfrac{9650}{7} \cdot u_{\rm{S,h}} - \cfrac{1200}{7} \cdot u_{\rm{S,v}} &= 0
+\end{align}
+$$
+
+$$
+\begin{align}
+\sum  \left. F \right|  _ {\rm{v}} ^{\rm{S}} &= 0 \\
+56 + \cfrac{4}{5} N_{\rm{SC}} &= 0 \\
+56 - \cfrac{1200}{7} \cdot u_{\rm{S,h}} - \cfrac{1600}{7} \cdot u_{\rm{S,v}} &= 0
+\end{align}
+$$
+
+Het bovenstaande stelsel van twee vergelijkingen kan worden opgelost voor $u_{\rm{S,h}}$ en $u_{\rm{S,v}}$, hieruit volgt:
+
+$$ u_{\rm{S,h}} = -\cfrac{21}{625} \rm{m} \approx -33.6 \rm{mm} $$
+
+$$ u_{\rm{S,v}} = \cfrac{1351}{5000} \rm{m} \approx 270.2 \rm{mm} $$
+
+```{figure} lesoefening_data/verplaatst_totaal.svg
+---
+align: center
+number:
+---
 ```
 
-:::::
+::::
 
-:::::{exercise}
+% solution_end
+
+::::{question} Opgave
 :label: verplaats2_5
-:nonumber: true
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Bepaal de normaalkrachten in de drie staven.
+---
+M[-12]
+M[30]
+M[-70]
+^^^
+? Bepaal de normaalkrachten in de drie staven.
 
-```{h5p} https://tudelft.h5p.com/content/1292696424454641397/embed
-```
+- $ N_{\rm{AS}}  = $ {gap} $ \rm{kN}$
+- $ N_{\rm{SB}} = $ {gap} $ \rm{kN}$
+- $ N_{\rm{SC}} = $ {gap} $ \rm{kN}$
+---
 
-:::::
+::::
