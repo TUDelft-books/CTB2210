@@ -12,26 +12,15 @@ Constructie, $EI = 4 \ \rm{MNm}^2, EA >> EI$
 
 Gegeven is $\mathbf{u} = \begin{bmatrix} \varphi_{\rm{A}} & \varphi_{\rm{B}} & \varphi_{\rm{C}} & \varphi_{\rm{D}} & \varphi_{\rm{E}} \end{bmatrix}^T$.
 
+:::::{exercise}
+:nonumber: true
 
-::::{question} Opgave
-:type: short-answer
-:variant: gaps
-:admonition:
-:class: exercise
-:nocaption:
-:showanswer:
+Bepaal de elementstijfheidsmatrix $\mathbf{K}^{(e)}$ voor een willekeurig element.
 
----
-M[4000]
-M[2000]
-M[2000]
-M[4000]
-^^^
-? Bepaal de elementstijfheidsmatrix $\mathbf{K}^{(e)}$ voor een willekeurig element.
----
+```{h5p} https://tudelft.h5p.com/content/1292700774193421697/embed
+```
 
-$$\mathbf{K}^{(e)} = \begin{bmatrix} ${gap}$ & ${gap}$ \\ ${gap}$ & ${gap}$ \end{bmatrix}$$
-::::
+:::::
 
 % solution_start
 
@@ -44,57 +33,15 @@ $$\mathbf{K}^{(e)} = \begin{bmatrix} \cfrac{4EI}{l} & \cfrac{2EI}{l} \\ \cfrac{2
 
 % solution_end
 
-::::{question} Opgave
-:type: short-answer
-:variant: gaps
-:admonition:
-:class: exercise
-:nocaption:
-:showanswer:
+:::::{exercise}
+:nonumber: true
 
----
-M[4000]
-M[2000]
-M[0]
-M[0]
-M[0]
+Bepaal de globale stijfheidsmatrix $\mathbf{K}$.
 
-M[2000]
-M[12000]
-M[2000]
-M[2000]
-M[0]
+```{h5p} https://tudelft.h5p.com/content/1292700781022982687/embed
+```
 
-M[0]
-M[2000]
-M[8000]
-M[0]
-M[2000]
-
-M[0]
-M[2000]
-M[0]
-M[4000]
-M[0]
-
-M[0]
-M[0]
-M[2000]
-M[0]
-M[4000]
-^^^
-? Bepaal de globale stijfheidsmatrix $\mathbf{K}$.
----
-
-$$\mathbf{K}^{(e)} = 
-\begin{bmatrix} 
-${gap}$ & ${gap}$ & ${gap}$ & ${gap}$ & ${gap}$ \\ 
-${gap}$ & ${gap}$ & ${gap}$ & ${gap}$ & ${gap}$ \\ 
-${gap}$ & ${gap}$ & ${gap}$ & ${gap}$ & ${gap}$ \\ 
-${gap}$ & ${gap}$ & ${gap}$ & ${gap}$ & ${gap}$ \\ 
-${gap}$ & ${gap}$ & ${gap}$ & ${gap}$ & ${gap}$ 
-\end{bmatrix}$$
-::::
+:::::
 
 % solution_start
 
@@ -124,25 +71,15 @@ $$\mathbf{K} =
 
 % solution_end
 
-::::{question} Opgave
-:type: short-answer
-:variant: gaps
-:admonition:
-:class: exercise
-:nocaption:
-:showanswer:
+:::::{exercise}
+:nonumber: true
 
----
-M[0]
-M[73]
-M[0]
-M[0]
-^^^
-? Bepaal de krachtvector $\mathbf{F}$.
----
+Bepaal de krachtvector $\mathbf{F}$.
 
-$$\mathbf{F} = \begin{bmatrix} M_{\rm{A}} \\ ${gap}$ \\ ${gap}$ \\ ${gap}$ \\ ${gap}$ \end{bmatrix}$$
-::::
+```{h5p} https://tudelft.h5p.com/content/1292700781680029277/embed
+```
+
+:::::
 
 % solution_start
 
@@ -157,31 +94,15 @@ $$\mathbf{F} = \begin{bmatrix} M_{\rm{A}} \\ 0 \\ 73 \\ 0 \\ 0 \end{bmatrix}$$
 
 % solution_end
 
+:::::{exercise}
+:nonumber: true
 
-::::{question} Opgave
-:type: short-answer
-:variant: gaps
-:admonition:
-:class: exercise
-:nocaption:
-:showanswer:
+Bepaal de waarde van de vrijheidsgraden $\varphi_{\rm{B}}$, $\varphi_{\rm{C}}$, $\varphi_{\rm{D}}$ en $\varphi_{\rm{E}}$.
 
----
-M[0]
-M[-2]
-M[11]
-M[1]
-M[-5.5]
-^^^
-? Bepaal de waarde van de vrijheidsgraden $\varphi_{\rm{B}}$, $\varphi_{\rm{C}}$, $\varphi_{\rm{D}}$ en $\varphi_{\rm{E}}$.
----
-- $\varphi_{\rm{A}} = ${gap}$ \rm{mrad} $
-- $\varphi_{\rm{B}} = ${gap}$ \rm{mrad} $
-- $\varphi_{\rm{C}} = ${gap}$ \rm{mrad} $
-- $\varphi_{\rm{D}} = ${gap}$ \rm{mrad} $
-- $\varphi_{\rm{E}} = ${gap}$ \rm{mrad} $ 
+```{h5p} https://tudelft.h5p.com/content/1292700784091212317/embed
+```
 
-::::
+:::::
 
 % solution_start
 
