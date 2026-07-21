@@ -138,8 +138,8 @@ $$ N_{\rm{SC}} = -\cfrac{3 \cdot 12500}{5 \cdot 7 \cdot 5} \cdot u_{\rm{S,h}} -\
 :showanswer:
 
 ---
-MAPE[-33.6;0.1;3]
-MAPE[270.2;0.1;4]
+MAP[-33.6;1]
+MAP[270.2;1]
 
 ^^^
 ? Bepaal de waarde van de vrijheidsgraden $u_{\rm{S,h}}$ en $u_{\rm{S,v}}$.
