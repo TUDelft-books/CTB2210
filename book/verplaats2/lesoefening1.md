@@ -79,10 +79,10 @@ Heb je hier Williot nodig om de verlenging/verkorting van de staven te bepalen?
 ---
 MAPE[2500/7;1;3]
 M[0]
-M[-6250/7;1;3]
+MAPE[-6250/7;1;3]
 M[0]
-M[-1500/7;1;3]
-M[-2000/7;1;3]
+MAPE[-1500/7;1;3]
+MAPE[-2000/7;1;3]
 ^^^
 ? Bepaal de normaalkrachten in de drie staven in de constructie als functie van de verplaatsingen $u_{\rm{S,h}}$ en $u_{\rm{S,v}}$.
 
