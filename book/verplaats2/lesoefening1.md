@@ -112,7 +112,7 @@ $$ \Delta L_{\rm{SB}} = - u_{\rm{S,h}} $$
 
 Voor staaf $\rm{SC}$ moet ook de hoek van de staaf worden meegenomen.
 
-```{figure} lesoefening_data/displaced_SC.svg
+```{figure} lesoefening_data/verplaatst_SC.svg
 ---
 align: center
 number:
