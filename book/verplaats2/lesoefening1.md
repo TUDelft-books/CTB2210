@@ -161,7 +161,7 @@ M[270.2]
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-Dit wordt opgelost met het evenwicht van knoop $\{S}$. 
+Dit wordt opgelost met het evenwicht van knoop $\rm{S}$. 
 
 ```{figure} lesoefening_data/vrijlichaamsschema_S.svg
 ---
