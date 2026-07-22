@@ -5,7 +5,7 @@ Een constructie is statisch onbepaald wanneer deze niet meer enkel met evenwicht
 - Enkel oplegreacties kunnen worden bepaald (uitwendig statisch bepaald)
 - Inwendige krachten kunnen worden bepaald (inwendig statisch bepaald)
 
-De inwendige statisch bepaaldheid is meer werk om te berekenen. Als de constructie open is, dat wil zeggen dat er geen gesloten 'lussen' in de constructie zitten, is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid. Je kan dan 
+De inwendige statisch bepaaldheid is meer werk om te berekenen. Als de constructie open is, dat wil zeggen dat er geen gesloten 'lussen' in de constructie zitten, is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid. Aangezien het berekenen van de inwendige statisch bepaaldheid meer werk is kan je dat voorkomen door de uitwendige statisch bepaaldheid te berekenen.
 
 ```{figure} ./determinancy_data/gesloten_vs_open.svg
 ---
