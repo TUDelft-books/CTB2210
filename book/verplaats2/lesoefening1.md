@@ -109,6 +109,7 @@ Voor staaf $\rm{SC}$ moet ook de hoek van de staaf worden meegenomen.
 ```{figure} lesoefening_data/verplaatst_SC.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_1
 number:
 ---
 ```
@@ -160,6 +161,7 @@ Dit wordt opgelost met het evenwicht van knoop $\rm{S}$.
 ```{figure} lesoefening_data/vrijlichaamsschema_S.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_1
 number:
 ---
 ```
@@ -188,6 +190,7 @@ $$ u_{\rm{S,v}} = \cfrac{1351}{5000} \rm{m} \approx 270.2 \rm{mm} $$
 ```{figure} lesoefening_data/verplaatst_totaal.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_1
 number:
 ---
 ```
