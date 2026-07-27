@@ -12,15 +12,22 @@ Constructie, $EI = 4 \ \rm{MNm}^2, EA >> EI$
 
 Gegeven is $\mathbf{u} = \begin{bmatrix} \varphi_{\rm{A}} & \varphi_{\rm{B}} & \varphi_{\rm{C}} & \varphi_{\rm{D}} & \varphi_{\rm{E}} \end{bmatrix}^T$.
 
-:::::{exercise}
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Bepaal de elementstijfheidsmatrix $\mathbf{K}^{(e)}$ voor een willekeurig element.
+---
+MAP[\begin{bmatrix} 4000 & 2000 \\ 2000 & 4000 \end{bmatrix};1]
+^^^
+? Bepaal de elementstijfheidsmatrix $\mathbf{K}^{(e)}$ voor een willekeurig element.
+---
 
-```{h5p} https://tudelft.h5p.com/content/1292700774193421697/embed
-```
-
-:::::
+$$\mathbf{K}^{(e)} = ${gap}$ $$
+::::
 
 % solution_start
 
@@ -33,15 +40,23 @@ $$\mathbf{K}^{(e)} = \begin{bmatrix} \cfrac{4EI}{l} & \cfrac{2EI}{l} \\ \cfrac{2
 
 % solution_end
 
-:::::{exercise}
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Bepaal de globale stijfheidsmatrix $\mathbf{K}$.
+---
+MAP[\begin{bmatrix} 4000 & 2000 & 0 & 0 & 0 \\ 2000 & 12000 & 2000 & 2000 & 0 \\ 0 & 2000 & 8000 & 0 & 2000 \\ 0 & 2000 & 0 & 4000 & 0 \\ 0 & 0 & 2000 & 0 & 4000 \end{bmatrix};1]
 
-```{h5p} https://tudelft.h5p.com/content/1292700781022982687/embed
-```
+^^^
+? Bepaal de globale stijfheidsmatrix $\mathbf{K}$.
+---
 
-:::::
+$$\mathbf{K}^{(e)} = ${gap}$ $$
+::::
 
 % solution_start
 
@@ -71,15 +86,23 @@ $$\mathbf{K} =
 
 % solution_end
 
-:::::{exercise}
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Bepaal de krachtvector $\mathbf{F}$.
+---
+MAP[\begin{bmatrix} M_{\rm{A}} \\ 0 \\ 73 \\ 0 \\ 0 \end{bmatrix};1]
 
-```{h5p} https://tudelft.h5p.com/content/1292700781680029277/embed
-```
+^^^
+? Bepaal de krachtvector $\mathbf{F}$.
+---
 
-:::::
+$$\mathbf{F} = ${gap}$ $$
+::::
 
 % solution_start
 
@@ -94,15 +117,30 @@ $$\mathbf{F} = \begin{bmatrix} M_{\rm{A}} \\ 0 \\ 73 \\ 0 \\ 0 \end{bmatrix}$$
 
 % solution_end
 
-:::::{exercise}
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Bepaal de waarde van de vrijheidsgraden $\varphi_{\rm{B}}$, $\varphi_{\rm{C}}$, $\varphi_{\rm{D}}$ en $\varphi_{\rm{E}}$.
+---
+M[0]
+M[-2]
+M[11]
+M[1]
+M[-5.5]
+^^^
+? Bepaal de waarde van de vrijheidsgraden $\varphi_{\rm{B}}$, $\varphi_{\rm{C}}$, $\varphi_{\rm{D}}$ en $\varphi_{\rm{E}}$.
+---
+- $\varphi_{\rm{A}} = ${gap}$ \rm{mrad} $
+- $\varphi_{\rm{B}} = ${gap}$ \rm{mrad} $
+- $\varphi_{\rm{C}} = ${gap}$ \rm{mrad} $
+- $\varphi_{\rm{D}} = ${gap}$ \rm{mrad} $
+- $\varphi_{\rm{E}} = ${gap}$ \rm{mrad} $ 
 
-```{h5p} https://tudelft.h5p.com/content/1292700784091212317/embed
-```
-
-:::::
+::::
 
 % solution_start
 
