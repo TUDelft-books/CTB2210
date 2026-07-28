@@ -58,6 +58,7 @@ sphinx:                                              # Options passed on to the 
       paulinadenotter: Paula den Otter
     git_author_exclude:
       - copilot-swe-agent[bot]
+      - github-actions[bot]
     todo_include_todos: true
   extra_extensions:                                  # Gives you a starter package of extensions to use in your book
     - teachbooks_favourites
