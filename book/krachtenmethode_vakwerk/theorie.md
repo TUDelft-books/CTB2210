@@ -34,7 +34,7 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
     :number:
     ```
 
-    $$w_1 = w_2$$
+    $$w_1 \left( N \right) = w_2 \left( N \right) \to N$$
     
     ```{figure-end}
     ```
@@ -60,10 +60,15 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
     ````
     ````{grid-item}
 
-    ```{figure} theorie_data/aanpas_2_2.svg
+    ```{figure-start} theorie_data/aanpas_2_2.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
+    ```
+
+    $$ w \left( B_{\rm{v}} \right) = 0 \to B_{\rm{v}}$$
+    
+    ```{figure-end}
     ```
 
     ````
@@ -91,7 +96,7 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
     :number:
     ```
 
-    $$\varphi_1 = \varphi_2$$
+    $$\varphi_1 \left( M \right) = \varphi_2 \left( M \right) \to M$$
     
     ```{figure-end}
     ```
