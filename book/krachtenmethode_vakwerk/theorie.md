@@ -28,10 +28,15 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
     ```` 
     ````{grid-item}
 
-    ```{figure} theorie_data/aanpas_1_2.svg
+    ```{figure-start} theorie_data/aanpas_1_2.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
+    ```
+
+    $$w_1 = w_2$$
+    
+    ```{figure-end}
     ```
 
     ````
@@ -80,10 +85,15 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
     ````
     ````{grid-item}
 
-    ```{figure} theorie_data/aanpas_3_2.svg
+    ```{figure-start} theorie_data/aanpas_3_2.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
+    ```
+
+    $$\varphi_1 = \varphi_2$$
+    
+    ```{figure-end}
     ```
 
     ````
