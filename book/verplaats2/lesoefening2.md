@@ -162,7 +162,7 @@ $$
 Waarom is er geen uniek antwoord voor de andere evenwichtsvergelijking?
 ---
 [x] Er kan een momentensom rondom elk willekeurig punt worden genomen.
-[] Er kan een momentensom rondom A of B worden genomen.
+[ ] Er kan een momentensom rondom A of B worden genomen.
 > Een momentensom is altijd mogelijk rondom elk willekeurig punt, niet alleen de punten waar het inwendig buigend moment gelijk is aan 0.
 [ ] De grootte van $w_{\rm{A}}$ en $\varphi$ zijn onbekend.
 > $w_{\rm{A}}$ en $\varphi$ worden juist opgelost met deze evenwichtsvergelijkingen, dus het is de bedoeling dat ze nog onbekend zijn.
