@@ -255,7 +255,7 @@ Hierboven schetste je al de vervormingen ten gevolge van de kracht $B_{\rm{h}}$:
 :nocaption:
 :showanswer:
 
-Schets de mogelijke vervormingen ten gevolge van de kracht van $\rm{20} \, \rm{kN}$.
+Schets de mogelijke vervormingen ten gevolge van de kracht van $\rm{20} \, \rm{kN}$, dus zonder de invloed van $B_{\rm{h}}$.
 ---
 =
 
