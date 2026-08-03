@@ -226,8 +226,8 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
     Dit geeft een verplaatsing van $\rm{D}$ van $\cfrac{5}{4} \Delta L_{\rm{CD}} $
 
     - $w_{\rm{D}}\left( B_{\rm{v}} \right) = \cfrac{1750}{EA} - \cfrac{125 B_{\rm{v}}}{6 EA} \left( \downarrow \right) $
-    - $w_{\rm{E}}\left( B_{\rm{v}} \right) = \cfrac{3500}{EA} - \cfrac{125 B_{\rm{v}}}{3 EA} \left( \downarrow \right) $
-    - $w_{\rm{B}}\left( B_{\rm{v}} \right) = \cfrac{3500}{EA} - \cfrac{140 B_{\rm{v}}}{3 EA} \left( \downarrow \right) $
+    - $w_{\rm{E}}\left( B_{\rm{v}} \right) = 2 \cdot w_{\rm{D}} = \cfrac{3500}{EA} - \cfrac{125 B_{\rm{v}}}{3 EA} \left( \downarrow \right) $
+    - $w_{\rm{B}}\left( B_{\rm{v}} \right) = w_{\rm{E}} + \Delta L_{\rm{BE}} = \cfrac{3500}{EA} - \cfrac{140 B_{\rm{v}}}{3 EA} \left( \downarrow \right) $
 
     ::::::
 
