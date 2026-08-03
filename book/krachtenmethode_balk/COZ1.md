@@ -43,7 +43,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 ---
 
 ```
-De vormveranderingsvoorwaarde geeft nu de volgende vergelijking die kan worden opgelost voor $\rm{M_B}$:
+De vormveranderingsvoorwaarde geeft nu de volgende vergelijking die kan worden opgelost voor $M_{\rm{B}}$:
 
 $$
 \begin{align*}
@@ -70,23 +70,34 @@ Bepaal de verticale oplegreactie in $\rm{B}$.
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-Met de bekende interne kracht $\rm{M_B}$ kan met het volgende vrijlichaamsschema $\rm{A_v}$ worden bepaald:
+Met de bekende interne kracht $M_{\rm{B}}$ kan met het volgende vrijlichaamsschema $A_{\rm{v}}$ worden bepaald:
 
 ```{figure} ./COZ1_data/FBD2.svg
 ---
 align: center
 number:
-figclass: sticky-margin
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/COZ_balk_q
 ---
 
 ```
 
-$$ \sum \left. M \right| _ {\rm{B}} ^{\rm{AB}} = - A_{\rm{v}} \cdot 4 + 63 \cdot 4 \cdot 2 - 234 = 0 \rightarrow A_{\rm{v}} = 67.5 \ \rm{kN} \, (\uparrow) $$
+$$
+\begin{align*}
+\sum \left. M \right| _ {\rm{B}} ^{\rm{AB}} &= 0 \\
+- A_{\rm{v}} \cdot 4 + 63 \cdot 4 \cdot 2 - 234 &= 0 \\
+A_{\rm{v}} &= 67.5 \ \rm{kN} \, (\uparrow)
+\end{align*}
+$$
 
-Nu Av bekend is kan Bv worden opgelost met een momentensom om C:
+Nu $A_{\rm{v}}$ bekend is kan $B_{\rm{v}}$ worden opgelost met een momentensom om $\rm{C}$:
 
-$$ \sum \left. T \right| _ {\rm{C}} ^{\rm{AC}} = -10 \cdot A_{\rm{v}} + 63 \cdot 4 \cdot 8 + 150 \cdot 6 + 84 \cdot 6 \cdot 3 - B_{\rm{v}} \cdot 6 = 0 \rightarrow B_{\rm{v}} = 625.5 \ \rm{kN} \, (\uparrow) $$
+$$
+\begin{align*}
+\sum \left. T \right| _ {\rm{C}} ^{\rm{AC}} &= 0 \\
+-10 \cdot A_{\rm{v}} + 63 \cdot 4 \cdot 8 + 150 \cdot 6 + 84 \cdot 6 \cdot 3 - B_{\rm{v}} \cdot 6 &= 0 \\
+B_{\rm{v}} &= 625.5 \ \rm{kN} \, (\uparrow)
+\end{align*}
+$$
 
 ::::
 
@@ -110,12 +121,18 @@ Het punt halverwege $\rm{AB}$ wordt $\rm{D}$ genoemd, waar de volgende snede wor
 ---
 align: center
 number:
-figclass: sticky-margin
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/COZ_balk_q
 ---
 
 ```
-$$ \sum \left. M \right| _ {\rm{D}} = -67.5 \cdot 2 + 63 \cdot 2 \cdot 1 + M_{\rm{B}} = 0 \rightarrow M_{\rm{B}} = 9 \ \rm{kNm} \, (⌣) $$
+
+$$
+\begin{align*}
+\sum \left. M \right| _ {\rm{D}} &= 0 \\
+-67.5 \cdot 2 + 63 \cdot 2 \cdot 1 + M_{\rm{B}} &= 0 \\
+M_{\rm{B}} &= 9 \ \rm{kNm} \, (⌣)
+\end{align*}
+$$
 
 ::::
 
@@ -134,17 +151,23 @@ Bepaal het moment halverwege $\rm{BC}$.
 :class: solution, dropdown
 
 Het punt halverwege $\rm{BC}$ wordt $\rm{E}$ genoemd, waar de volgende snede wordt gemaakt:
+
 ```{figure} ./COZ1_data/FBD4.svg
 ---
 align: center
 number:
-figclass: sticky-margin
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/COZ_balk_q
 ---
 
 ```
 
-$$ \sum \left. M \right| _ {\rm{E}} = -67.5 \cdot 7 + 63 \cdot 4 \cdot 5 - 625.5 \cdot 3 + 150 \cdot 3 + 84 \cdot 3 \cdot 1.5 + M_{\rm{E}} = 0 \rightarrow M_{\rm{E}} = 261 \ \rm{kNm} \, (⌣) $$
+$$
+\begin{align*}
+\sum \left. M \right| _ {\rm{E}} &=  0 \\
+-67.5 \cdot 7 + 63 \cdot 4 \cdot 5 - 625.5 \cdot 3 + 150 \cdot 3 + 84 \cdot 3 \cdot 1.5 + M_{\rm{E}} &= 0 \\
+M_{\rm{E}} &= 261 \ \rm{kNm} \, (⌣)
+\end{align}*
+$$
 
 ::::
 
