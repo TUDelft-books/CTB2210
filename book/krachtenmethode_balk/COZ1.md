@@ -166,7 +166,7 @@ $$
 \sum \left. M \right| _ {\rm{E}} &=  0 \\
 -67.5 \cdot 7 + 63 \cdot 4 \cdot 5 - 625.5 \cdot 3 + 150 \cdot 3 + 84 \cdot 3 \cdot 1.5 + M_{\rm{E}} &= 0 \\
 M_{\rm{E}} &= 261 \ \rm{kNm} \, (⌣)
-\end{align}*
+\end{align*}
 $$
 
 ::::
