@@ -270,7 +270,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 
 Wat is de vormveranderingsvoorwaarde? Gebruik de variabele $w_{\rm{...}}$ voor een verticale verplaatsing.
 ---
-M[w_B = 0]
+MV[w_B = 0]
 ---
 
 ::::
