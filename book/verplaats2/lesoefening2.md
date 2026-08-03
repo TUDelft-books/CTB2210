@@ -120,9 +120,9 @@ Bepaal de evenwichtsvergelijkingen
 :showanswer:
 
 ---
-MAP[-1500 ;1]
-MAP[-10500 ;1]
-MAP[-2580 ;1]
+M[-1500]
+M[-10500]
+M[-2580]
 ^^^
 ? Check je resultaat voor je krachtenevenwicht. Ga uit van kN, m en rad voor je antwoorden.
 
@@ -199,8 +199,8 @@ $$
 :showanswer:
 
 ---
-MAP[-67;1]
-MAP[-0.15;0.01]
+M[-67]
+M[-0.15]
 ^^^
 ? Bepaal met evenwicht $w_{\rm{A}}$ en $\varphi$.
 
@@ -219,13 +219,15 @@ $ \varphi = $ {gap} $ \rm{rad} $
 De twee evenwichtsvergelijkingen kunnen worden opgelost voor de onbekenden $w_{\rm{A}}$ en $\varphi$. Een mogelijkheid, gebruik makende van het momentenevenwicht om punt $\rm{A}$ is hier gegeven. 
 
 Het stelsel vergelijkingen is:
-$$\begin{cases} -1500 \cdot w_{\rm{A}} -10500 \cdot \varphi -2580 &= 0\\ -10500 \cdot w_{\rm{A}} -90700 \cdot \varphi -20640  &= 0 \end{cases}
-$$
+
+$$\begin{cases} -1500 \cdot w_{\rm{A}} -10500 \cdot \varphi -2580 &= 0\\ -10500 \cdot w_{\rm{A}} -90700 \cdot \varphi -20640  &= 0 \end{cases}$$
 
 Vermenigvuldigen van de bovenste vergelijking met -7 en optellen geeft:
+
 $$ 0 \cdot w_{\rm{A}} - 17200 \cdot \varphi - 2580 = 0 \rightarrow \varphi = -0.15 \ \rm{rad} $$
 
 Invullen in de bovenste vergelijking geeft de oplossing voor $w_{\rm{A}}$:
+
 $$ -1500 \cdot w_{\rm{A}} -10500 \cdot -0.15 -2580 = 0 \rightarrow w_{\rm{A}} = -67 \ \rm{cm}$$
 
 ::::
