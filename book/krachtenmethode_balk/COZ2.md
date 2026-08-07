@@ -65,7 +65,6 @@ Voor het oplossen van $\rm{M_B}$ en $\rm{B_v}$ wordt de statisch bepaalde constr
 ---
 align: center
 number:
-figclass: sticky-margin
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/COZ_balk_dubbel
 ---
 
@@ -84,10 +83,11 @@ $$
 Voor belastingsgevallen 1 en 2, blijft het gedeelte balk recht na de puntlast. De waarde van $\varphi$ verandert dus niet meer en het 'kwispeleffect' moet worden meegenomen als bijdrage voor $w_{\rm{B}} = 0$. De bekende vergeet-me-nietjes voor een uitkragende ligger kunnen worden gebruikt, wat de volgende vergelijkingen geeft:
 
 $$
-\begin{align*}
-\varphi_{\rm{B}} = \cfrac{1}{2} \cdot \cfrac{38.88 \cdot 6^2}{50000} + \cfrac{1}{2} \cdot \cfrac{77.76 \cdot 8^2}{50000} + \cfrac{M_{\rm{B}} \cdot 12}{50000} - \cfrac{1}{2} \cdot \cfrac{B_{\rm{v}} \cdot 12^2}{50000} &= 0 \\[2mm]
-w_{\rm{B}} = \cfrac{1}{3} \cdot \cfrac{38.88 \cdot 6^3}{50000} + 6 \cdot \cfrac{1}{2} \cdot \cfrac{38.88 \cdot 6^2}{50000} + \cfrac{1}{3} \cdot \cfrac{77.76 \cdot 8^3}{50000} + 4 \cdot \cfrac{1}{2} \cdot \cfrac{77.76 \cdot 8^2}{50000} + \cfrac{1}{2} \cdot \cfrac{M_{\rm{B}} \cdot 12^2}{50000} - \cfrac{1}{3} \cdot \cfrac{B_{\rm{v}} \cdot 12^3}{50000} &= 0
-\end{align*}
+\varphi_{\rm{B}} = \cfrac{1}{2} \cdot \cfrac{38.88 \cdot 6^2}{50000} + \cfrac{1}{2} \cdot \cfrac{77.76 \cdot 8^2}{50000} + \cfrac{M_{\rm{B}} \cdot 12}{50000} - \cfrac{1}{2} \cdot \cfrac{B_{\rm{v}} \cdot 12^2}{50000} = 0
+$$
+
+$$
+w_{\rm{B}} = \cfrac{1}{3} \cdot \cfrac{38.88 \cdot 6^3}{50000} + 6 \cdot \cfrac{1}{2} \cdot \cfrac{38.88 \cdot 6^2}{50000} + \cfrac{1}{3} \cdot \cfrac{77.76 \cdot 8^3}{50000} + 4 \cdot \cfrac{1}{2} \cdot \cfrac{77.76 \cdot 8^2}{50000} + \cfrac{1}{2} \cdot \cfrac{M_{\rm{B}} \cdot 12^2}{50000} - \cfrac{1}{3} \cdot \cfrac{B_{\rm{v}} \cdot 12^3}{50000} = 0
 $$
 
 $$
