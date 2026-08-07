@@ -51,7 +51,13 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 ```
 Voor vormveranderingsvoorwaarde van $\rm{u_B=0}$ geldt de volgende vergelijking:
 
-u_b = B_h * 12 /EA = 0 => B_h = 0
+$$
+\begin{align*}
+u_{\rm{B}} &=0 \\
+\cfrac{B_{\rm{h}} \cdot 12}{EA} &= 0 \\
+B_{\rm{h}} &= 0
+\end{align*}
+$$
 
 Voor het oplossen van $\rm{M_B}$ en $\rm{B_v}$ wordt de statisch bepaalde constructie gesplitst in vier losse belastingsgevallen:
 
