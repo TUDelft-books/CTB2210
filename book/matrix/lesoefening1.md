@@ -1,17 +1,5 @@
 # Begeleide oefening
 
-% source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrix_2
-
-Gegeven is de volgende constructie:
-
-```{figure} lesoefening1_data/constructie.svg
-:align: center
-
-Constructie, $EI = 4 \ \rm{MNm}^2, EA >> EI$
-```
-
-Gegeven is $\mathbf{u} = \begin{bmatrix} \varphi_{\rm{A}} & \varphi_{\rm{B}} & \varphi_{\rm{C}} & \varphi_{\rm{D}} & \varphi_{\rm{E}} \end{bmatrix}^T$.
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -21,12 +9,14 @@ Gegeven is $\mathbf{u} = \begin{bmatrix} \varphi_{\rm{A}} & \varphi_{\rm{B}} & \
 :showanswer:
 
 ---
-MAP[\begin{bmatrix} 4000 & 2000 \\ 2000 & 4000 \end{bmatrix};1]
+M[\begin{pmatrix} 4000 & 2000 \\\ 2000 & 4000 \end{pmatrix}]
 ^^^
 ? Bepaal de elementstijfheidsmatrix $\mathbf{K}^{(e)}$ voor een willekeurig element.
+
+$\mathbf{K}^{(e)} = $ {gap}
+
 ---
 
-$$\mathbf{K}^{(e)} = ${gap}$ $$
 ::::
 
 % solution_start
@@ -49,13 +39,14 @@ $$\mathbf{K}^{(e)} = \begin{bmatrix} \cfrac{4EI}{l} & \cfrac{2EI}{l} \\ \cfrac{2
 :showanswer:
 
 ---
-MAP[\begin{bmatrix} 4000 & 2000 & 0 & 0 & 0 \\ 2000 & 12000 & 2000 & 2000 & 0 \\ 0 & 2000 & 8000 & 0 & 2000 \\ 0 & 2000 & 0 & 4000 & 0 \\ 0 & 0 & 2000 & 0 & 4000 \end{bmatrix};1]
-
+M[\begin{bmatrix} 4000 & 2000 & 0 & 0 & 0 \\\ 2000 & 12000 & 2000 & 2000 & 0 \\\ 0 & 2000 & 8000 & 0 & 2000 \\\ 0 & 2000 & 0 & 4000 & 0 \\\ 0 & 0 & 2000 & 0 & 4000 \end{bmatrix}]
 ^^^
 ? Bepaal de globale stijfheidsmatrix $\mathbf{K}$.
+
+$\mathbf{K} = $ {gap}
+
 ---
 
-$$\mathbf{K}^{(e)} = ${gap}$ $$
 ::::
 
 % solution_start
@@ -95,13 +86,14 @@ $$\mathbf{K} =
 :showanswer:
 
 ---
-MAP[\begin{bmatrix} M_{\rm{A}} \\ 0 \\ 73 \\ 0 \\ 0 \end{bmatrix};1]
+M[\begin{pmatrix} M_A \\\ 0 \\\ 73 \\\ 0 \\\ 0 \end{pmatrix}]
 
 ^^^
 ? Bepaal de krachtvector $\mathbf{F}$.
----
 
-$$\mathbf{F} = ${gap}$ $$
+$\mathbf{F} = $ {gap}
+
+---
 ::::
 
 % solution_start
@@ -116,6 +108,7 @@ $$\mathbf{F} = \begin{bmatrix} M_{\rm{A}} \\ 0 \\ 73 \\ 0 \\ 0 \end{bmatrix}$$
 ::::
 
 % solution_end
+
 
 ::::{question} Opgave
 :type: short-answer
@@ -133,13 +126,13 @@ M[1]
 M[-5.5]
 ^^^
 ? Bepaal de waarde van de vrijheidsgraden $\varphi_{\rm{B}}$, $\varphi_{\rm{C}}$, $\varphi_{\rm{D}}$ en $\varphi_{\rm{E}}$.
----
+
 - $\varphi_{\rm{A}} = ${gap}$ \rm{mrad} $
 - $\varphi_{\rm{B}} = ${gap}$ \rm{mrad} $
 - $\varphi_{\rm{C}} = ${gap}$ \rm{mrad} $
 - $\varphi_{\rm{D}} = ${gap}$ \rm{mrad} $
 - $\varphi_{\rm{E}} = ${gap}$ \rm{mrad} $ 
-
+---
 ::::
 
 % solution_start
@@ -194,7 +187,7 @@ $$
 
 Het bovenstaande stelsel kan vervolgens worden opgelost voor $\varphi_{\rm{B}}$, $\varphi_{\rm{C}}$, $\varphi_{\rm{D}}$ en $\varphi_{\rm{E}}$. 
 
-$\mathbf{u} = \begin{bmatrix} 0 \\ -\cfrac{1}{500} \\ \cfrac{11}{1000} \\ \cfrac{1}{1000} \\ -\cfrac{11}{2000} \end{bmatrix} \, \rm{rad}$
+$\mathbf{u} = \begin{bmatrix} 0 \\ -\cfrac{1}{500} \\ \cfrac{11}{1000} \\ \cfrac{1}{1000} \\ -\cfrac{11}{2000} \end{bmatrix} \, \rm{in} \, \rm{rad}$
 
 ::::
 
