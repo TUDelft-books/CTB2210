@@ -10,10 +10,10 @@ Deze oefening is aangepast de [pagina over de krachtenmethode voor vakwerkconstr
 # COZ opgave 2.7
 
 ::::::{note}
-Deze opgave kan in ANS gemaakt worden.
-:::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
-:::
+Deze opgave kan in [ANS](https://ans.app/universities/1/courses/712480/assignments/1860496/go_to) gemaakt worden.
+
+Als je nog geen toegang hebt tot deze toets, registreer je dan via [deze link](https://ans.app/accept/invitations/07b7bc5a-d334-43d7-9532-a1434730f6d7).
+
 ::::::
 
 % https://ans.app/repo_questions/63917295/generator

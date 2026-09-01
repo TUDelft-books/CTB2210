@@ -10,34 +10,103 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
 1. Bepaal de graad van statische bepaaldheid.
 2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaarden toe voor elke oplegging die je hebt weggenomen, aansluiting van de pendelstaven die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!
 
-    `````{tab-set}
-    ````{tab-item} Weghalen oplegging
-    ```{figure} theorie_data/1.svg
+    ```````{tab-set}
+    ``````{tab-item} Weghalen oplegging
+
+    `````{grid} 2
+    :class-container: center-grid
+
+    ````{grid-item}
+    :columns: auto
+
+    ```{figure} theorie_data/aanpas_1.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
-    ````
-    ````{tab-item} Splitsen constructie bij pendelstaven
-    ```{figure} theorie_data/2.svg
+
+    ```` 
+    ````{grid-item}
+
+    ```{figure-start} theorie_data/aanpas_1_2.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
-    ````
-    ````{tab-item} Toevoegen scharnieren
-    ```{figure} theorie_data/3.svg
-    :align: center
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
-    :number:
+
+    $$w_1 \left( N \right) = w_2 \left( N \right) \to N$$
+    
+    ```{figure-end}
     ```
+
     ````
     `````
+
+    ``````
+    ``````{tab-item} Splitsen constructie bij pendelstaven
+
+    `````{grid} 2
+    :class-container: center-grid
+
+    ````{grid-item}
+    :columns: auto
+
+    ```{figure} theorie_data/aanpas_2.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    ````
+    ````{grid-item}
+
+    ```{figure-start} theorie_data/aanpas_2_2.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    $$ w \left( B_{\rm{v}} \right) = 0 \to B_{\rm{v}}$$
     
-    Er zijn meestal meerdere mogelijkheden om dit te doen, kies de optie die het makkelijkst is uit te rekenen. Teken daarvoor  de vervormde constructie ten gevolge van individuele krachten (inclusief de statisch onbepaalde kracht):
+    ```{figure-end}
+    ```
+
+    ````
+    `````
+    ``````
+    ``````{tab-item} Toevoegen scharnieren
+    `````{grid} 2
+    :class-container: center-grid
+
+    ````{grid-item}
+    :columns: auto
+
+    ```{figure} theorie_data/aanpas_3.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    ````
+    ````{grid-item}
+
+    ```{figure-start} theorie_data/aanpas_3_2.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
+    :number:
+    ```
+
+    $$\varphi_1 \left( M \right) = \varphi_2 \left( M \right) \to M$$
     
-    - Een makkelijk model is een model waarbij knopen zoveel mogelijk op z'n plek blijven bij vervorming; waarbij er zo min mogelijk starre verplaatsingen en rotaties optreden.
-    - Een makkelijk model is een model waarbij de verplaatsingen worden beschreven met starre verplaatsingen en rotaties, vergeet-me-nietjes en/of verlengingen van staven.
+    ```{figure-end}
+    ```
+
+    ````
+    `````
+    ``````
+    ```````
+    
+    Er zijn meestal meerdere mogelijkheden om dit te doen, kies de optie die het makkelijkst is uit te rekenen. Teken daarvoor de vervormde constructie ten gevolge van individuele krachten (inclusief de statisch onbepaalde kracht).
 
 3. Los de verplaatsing op in termen van de onbekende onbepaalde krachten zoals je normaal zou doen voor een statisch bepaalde constructie.
 4. Gebruik je vervormingsvoorwaarden om de statisch onbepaalde krachten op te lossen.

@@ -9,7 +9,7 @@ Deze instructie is aangepast van de [pagina over de krachtenmethode voor vakwerk
 
 # Instructie
 
-De krachtenmethode hebben we eerder al behandeld voor [simpele constructies](krachtenmethode_simpel). We behandelen de toepassing op complexere vakwerkconstructies met het volgende voorbeeld. Dit voorbeeld bevat een Williot diagram om de verplaatsingen te berekenen.
+De krachtenmethode hebben we eerder al behandeld voor [simpele constructies](krachtenmethode_simpel). We behandelen de toepassing op complexere vakwerkconstructies met het volgende voorbeeld. Dit voorbeeld bevat een Williot diagram om de verplaatsingen te berekenen. Voor het williot diagram is het nuttig als je een statisch bepaald systeem kiest dat makkelijk is uit te rekenen: elementen verplaatsen bij voorkeur niet als ze ook al roteren. In onderstaande voorbeeld zal die situatie ook langskomen.
 
 ::::::{prf:example}
 :nonumber: true
@@ -52,7 +52,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
     Er zijn 10 onbekende krachten en 9 evenwichtsvergelijkingen, dus is deze constructie 1e orde statisch onbepaald.
     ::::::
 
-2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaarden toe voor elke oplegging die je hebt weggenomen, aansluiting van de pendelstaven die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!
+2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij pendelstaven of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaarden toe voor elke oplegging die je hebt weggenomen, aansluiting van de pendelstaven die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme! Kies een statisch bepaald systeem dat makkelijk is uit te rekenen: elementen roteren bij voorkeur om een vast punt.
 
     ::::::{prf:example}
     :nonumber: true
@@ -132,7 +132,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
     :number:
     ```
 
-    Deze vervormingen zijn niet zo simpel. Voor $\rm{DE}$ is het draaipunt niet direct duidelijk.
+    Deze vervormingen zijn niet zo simpel. Voor $\rm{DE}$ is het draaipunt niet direct duidelijk; deze staaf roteert én verplaatst.
 
     ````
 
@@ -144,7 +144,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
     :number:
     ```
 
-    Deze vervormingen zijn niet zo simpel: $\rm{ADE}$ transleert en roteert.
+    Deze vervormingen zijn niet zo simpel: $\rm{ADE}$ verplaatst en roteert.
 
     ````
 
@@ -226,8 +226,8 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
     Dit geeft een verplaatsing van $\rm{D}$ van $\cfrac{5}{4} \Delta L_{\rm{CD}} $
 
     - $w_{\rm{D}}\left( B_{\rm{v}} \right) = \cfrac{1750}{EA} - \cfrac{125 B_{\rm{v}}}{6 EA} \left( \downarrow \right) $
-    - $w_{\rm{E}}\left( B_{\rm{v}} \right) = \cfrac{3500}{EA} - \cfrac{125 B_{\rm{v}}}{3 EA} \left( \downarrow \right) $
-    - $w_{\rm{B}}\left( B_{\rm{v}} \right) = \cfrac{3500}{EA} - \cfrac{140 B_{\rm{v}}}{3 EA} \left( \downarrow \right) $
+    - $w_{\rm{E}}\left( B_{\rm{v}} \right) = 2 \cdot w_{\rm{D}} = \cfrac{3500}{EA} - \cfrac{125 B_{\rm{v}}}{3 EA} \left( \downarrow \right) $
+    - $w_{\rm{B}}\left( B_{\rm{v}} \right) = w_{\rm{E}} + \Delta L_{\rm{BE}} = \cfrac{3500}{EA} - \cfrac{140 B_{\rm{v}}}{3 EA} \left( \downarrow \right) $
 
     ::::::
 

@@ -67,6 +67,7 @@ Schets de mogelijke vervormingen voor de optie van het weghalen van de horizonta
 
 ```{figure} ./lesoefeningen_2_data/optie_1.svg
 :align: center
+:name: optie_1
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 :number:
 ```
@@ -222,7 +223,7 @@ Welke van de volgende is geen optie om de constructie statisch bepaald te maken?
 [x] Splitsen constructie in pendelstaaf $\rm{DE}$
 > Inderdaad, als je deze pendelstaaf weghaalt krijg je een mechanisme dat kan roteren om $\rm{A}$ en $\rm{B}$.
 [x] Toevoegen scharnier halverwege $\rm{CD}$
-> Inderdaad, als je deze pendelstaaf weghaalt krijg je een lokaal mechanisme dat kan roteren om $\rm{C}$ en $\rm{D}$.
+> Inderdaad, als je dit scharnier toevoegt krijg je een lokaal mechanisme dat kan roteren om $\rm{C}$ en $\rm{D}$. Bij het toevoegen van een scharnier aan een pendelstaaf krijg je altijd een mechanisme dus dat is nooit een goede optie.
 ---
 
 ::::
@@ -244,11 +245,8 @@ $EA = 3750 \ \rm{kN}$
 
 Hierboven schetste je al de vervormingen ten gevolge van de kracht $B_{\rm{h}}$:
 
-```{figure} ./lesoefeningen_2_data/optie_1.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
-:number:
-```
+:::{fetch} {numref}`optie_1`
+:::
 
 :::::{question} Opgave
 :type: no-input
@@ -257,7 +255,7 @@ Hierboven schetste je al de vervormingen ten gevolge van de kracht $B_{\rm{h}}$:
 :nocaption:
 :showanswer:
 
-Schets de mogelijke vervormingen ten gevolge van de kracht van $\rm{20} \, \rm{kN}$.
+Schets de mogelijke vervormingen ten gevolge van de kracht van $\rm{20} \, \rm{kN}$, dus zonder de invloed van $B_{\rm{h}}$.
 ---
 =
 

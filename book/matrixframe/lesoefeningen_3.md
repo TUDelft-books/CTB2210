@@ -23,8 +23,8 @@ Voor de profielgegevens, wat vul je in voor de buigstijfheid van de kabels?
 ---
 [ ] $ EI = 0$
 > Onjuist, MatrixFrame heeft een waarde ongelijk aan $0$ nodig om de constructie door te kunnen rekenen. Heeft de waarde van $EI$ invloed op je antwoord?
-[ ] Een willekeurige maar kleine waarde
-> Onjuist, aangezien er geen kracht staat op de kabels, kan deze ook als pendelstaaf worden gemodelleerd? wat is de invloed van $EI$ op het vervormingsgedrag van de kabels?
+[ ] Een kleine waarde voor een benadering van $EI = 0$
+> Een kleine waarde geeft geen benadering maar het exacte antwoord. Aangezien er geen kracht staat op de kabels, kan deze ook als pendelstaaf worden gemodelleerd? Wat is de invloed van $EI$ op het vervormingsgedrag van de kabels?
 [x] Een willekeurige waarde
 > Exact, waarom maakt het voor de kabels niet uit wat de waarde is van EI? Waarom kunnen deze als pendelstaven worden gemodelleerd?
 ---
