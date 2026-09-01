@@ -149,7 +149,7 @@ Schets de mogelijke vervormingen voor de optie van het weghalen van de verticale
 :nocaption:
 :showanswer:
 
-Welke van de volgende is geen optie om de constructie statisch bepaald te maken als je de constructie op wilt lossen? Sluit ook de gevallen uit waarvoor geen vergeet-me-nietjes zijn.
+Welke van de volgende is geen optie om de constructie statisch bepaald te maken als je de constructie op wilt lossen? Sluit ook de gevallen uit waarvoor geen vergeet-me-nietjes zijn of de verplaatsingen relatief complex zijn.
 ---
 [x] Inklemming aanpassen naar scharnierende oplegging bij $\rm{A}$ en toevoegen scharnier bij $\rm{C}$
 > Inderdaad, hier ontstaat een mechanisme dus dit is geen geldig statisch bepaald systeem
