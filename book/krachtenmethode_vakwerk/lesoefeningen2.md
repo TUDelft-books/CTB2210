@@ -223,7 +223,7 @@ Welke van de volgende is geen optie om de constructie statisch bepaald te maken?
 [x] Splitsen constructie in pendelstaaf $\rm{DE}$
 > Inderdaad, als je deze pendelstaaf weghaalt krijg je een mechanisme dat kan roteren om $\rm{A}$ en $\rm{B}$.
 [x] Toevoegen scharnier halverwege $\rm{CD}$
-> Inderdaad, als je deze pendelstaaf weghaalt krijg je een lokaal mechanisme dat kan roteren om $\rm{C}$ en $\rm{D}$.
+> Inderdaad, als je dit scharnier toevoegt krijg je een lokaal mechanisme dat kan roteren om $\rm{C}$ en $\rm{D}$. Bij het toevoegen van een scharnier aan een pendelstaaf krijg je altijd een mechanisme dus dat is nooit een goede optie.
 ---
 
 ::::
@@ -255,7 +255,7 @@ Hierboven schetste je al de vervormingen ten gevolge van de kracht $B_{\rm{h}}$:
 :nocaption:
 :showanswer:
 
-Schets de mogelijke vervormingen ten gevolge van de kracht van $\rm{20} \, \rm{kN}$.
+Schets de mogelijke vervormingen ten gevolge van de kracht van $\rm{20} \, \rm{kN}$, dus zonder de invloed van $B_{\rm{h}}$.
 ---
 =
 
