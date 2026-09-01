@@ -113,6 +113,7 @@ Schets de mogelijke vervormingen voor de optie van het toevoegen van een scharni
 ```{figure} ./lesoefeningen_data/optie_3.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
+:name: optie3_balk
 :number:
 ```
 
@@ -148,7 +149,7 @@ Schets de mogelijke vervormingen voor de optie van het weghalen van de verticale
 :nocaption:
 :showanswer:
 
-Welke van de volgende is geen optie om de constructie statisch bepaald te maken als je de constructie op wilt lossen met vergeet-me-nietjes?
+Welke van de volgende is geen optie om de constructie statisch bepaald te maken als je de constructie op wilt lossen? Sluit ook de gevallen uit waarvoor geen vergeet-me-nietjes zijn.
 ---
 [x] Inklemming aanpassen naar scharnierende oplegging bij $\rm{A}$ en toevoegen scharnier bij $\rm{C}$
 > Inderdaad, hier ontstaat een mechanisme dus dit is geen geldig statisch bepaald systeem
@@ -344,7 +345,12 @@ $$ \varphi_{\rm{C}}^{\rm{AC}} \left( M_{\rm{C}} \right) = \cfrac{M_{\rm{C}} \cdo
 
 $$ w_{\rm{C}} \left( M_{\rm{C}} \right) = - \cfrac{M_{\rm{C}} \cdot 3^2}{2 \cdot 1800} + \cfrac{\left( - \cfrac{1}{3} \cdot M_{\rm{C}} + 54 \right) \cdot 3^3}{3 \cdot 1800} = -0.00417 \cdot M_{\rm{C}} + 0.27 $$
 
-De rotatie net rechts van C, $\varphi_{\rm{C}}^{\rm{BC}}$, wordt veroorzaakt door buiging van deel BC ten gevolge van $M_{\rm{C}}$ en door de zakking in C, $w_{\rm{C}}$. De rotatie ten gevolge van de buiging kan worden bepaald met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel. 
+De rotatie net rechts van C, $\varphi_{\rm{C}}^{\rm{BC}}$, wordt veroorzaakt door buiging van deel BC ten gevolge van $M_{\rm{C}}$ en door de zakking in C, $w_{\rm{C}}$:
+
+:::{fetch} {numref}`optie3_balk`
+:::
+
+De rotatie ten gevolge van de buiging kan worden bepaald met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel. 
 
 $$ \varphi_{\rm{C}}^{\rm{BC}} \left( M_{\rm{C}} \right) = \cfrac{w_{\rm{C}}}{3} - \cfrac{M_{\rm{C}} \cdot 3}{3 \cdot 900} = 0.0025 \cdot M_{\rm{C}} -0.09 $$
 
