@@ -80,7 +80,7 @@ $$
 \sum  \left. F  _ {\rm{v}} &= 0 \\
 - N_{\rm{A}} - N_{\rm{B}} - N_{\rm{C}} - N_{\rm{D}} - N_{\rm{E}} - 2580 &= 0 \\
 N_{\rm{A}} &= - N_{\rm{B}} - N_{\rm{C}} - N_{\rm{D}} - N_{\rm{E}} - 2580 \\
- &= 7740 + \cfrac{3}{2} \cdot N_{\rm{C}} + \cfrac{7}{2} \cdot N_{\rm{D}} + 4 \cdot N_{\rm{E}}
+N_{\rm{A}} &= 7740 + \cfrac{3}{2} \cdot N_{\rm{C}} + \cfrac{7}{2} \cdot N_{\rm{D}} + 4 \cdot N_{\rm{E}}
 \end{align}
 $$
 
