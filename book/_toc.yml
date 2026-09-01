@@ -45,6 +45,8 @@ parts:
     - file: krachtenmethode_balk/instructie.md
     - file: krachtenmethode_balk/lesoefeningen.md
     - file: krachtenmethode_balk/lesoefeningen_2.md
+    - file: krachtenmethode_balk/COZ1.md
+    - file: krachtenmethode_balk/COZ2.md
   - file: krachtenmethode_raamwerk/lesson.md
     sections:
     - file: krachtenmethode_raamwerk/instructie.md

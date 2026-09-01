@@ -47,6 +47,32 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 ```{figure-end}
 ```
 
+In de instructie werden al de vervormingen ten gevolge van de kracht $A_{\rm{v}}$ geschetst.
+
+:::{fetch} {numref}`optie2_balk`
+:::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen ten gevolge van verdeelde belasting op de statisch bepaalde constructie.
+---
+=
+
+```{figure} ./bending_data/disp_25.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+:number:
+```
+
+---
+
+:::::
+
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -65,7 +91,7 @@ M[-0.45]
 ^^^
 ? Bepaal de normaalkrachten in alle staven als functie van $A_{\rm{v}}$, met  $A_{\rm{v}}$ in $\rm{kN}$, $M_{\rm{B}}$ in $\rm{kNm}$, $\varphi_{\rm{B}}$ in $\rm{rad}$ en $w_{\rm{A}}$ in $\rm{m}$.
 
-- $M_{\rm{B}} \left( A_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kNm}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{kNm}\right)$ (◠)
+- $M_{\rm{B}} \left( A_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kNm}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{kNm}\right)$ (◡)
 - $\varphi_{\rm{B}} \left( A_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{rad}\right)$ (↻)
 - $w_{\rm{A}} \left( A_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$ (↑)
 
@@ -87,7 +113,7 @@ number:
 
 $$ M_{\rm{B}} \left( A_{\rm{v}} \right) = 4 \cdot A_{\rm{v}} -200 $$
 
-De hoekverdraaiing bij B, $\varphi_{\rm{B}}$, kan worden bepaald uit $M_{\rm{B}}$ met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel:
+De hoekverdraaiing bij $\rm{B}$, $\varphi_{\rm{B}}$, kan worden bepaald uit $M_{\rm{B}}$ met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel:
 
 ```{figure} lesoefeningen_data/BC.svg
 ---
@@ -151,8 +177,9 @@ MAPE[175/3;0.1;4]
 MAPE[10/3;0.1;2]
 M[-20]
 M[40]
-M[12]
-M[-8]
+M[-0.0075]
+M[11.875]
+M[-8.4375]
 
 ^^^
 ? Los nu de andere oplegreacties op en bepaal de momenten en verplaatsingen.
@@ -161,6 +188,7 @@ M[-8]
 - $C_{\rm{v}}= $ {gap} $\rm{kN}$ (↑)
 - $M_{\rm{B}}= $ {gap} $\rm{kNm}$ (◠)
 - $M_{\rm{halverwege \ AB}}= $ {gap} $\rm{kNm}$ (◠)
+- $\varphi_{\rm{B}}= $ {gap} $\rm{rad}$ (↻)
 - $w_{\rm{halverwege \ AB}}= $ {gap} $\rm{mm}$ (↓)
 - $w_{\rm{halverwege \ BC}}= $ {gap} $\rm{mm}$ (↓)
 
@@ -173,7 +201,7 @@ M[-8]
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-Nu $A_{\rm{v}}$ bekend is kunnen de andere oplegreacties worden opgelost, $B_{\rm{v}}$ en $C_{\rm{v}}$ worden omhoog positief aangenomen. De gebruikte vergelijkingen zijn:
+Nu $A_{\rm{v}}$ bekend is kunnen de andere oplegreacties worden opgelost. $B_{\rm{v}}$ en $C_{\rm{v}}$ worden omhoog positief aangenomen. De gebruikte vergelijkingen zijn:
 
 $$ \sum \left. T \right|  _ {\rm{C}} = -45 \cdot 10 + 25 \cdot 4 \cdot 8 - B_{\rm{v}} \cdot 6 = 0 \rightarrow B_{\rm{v}} = 58.3 \, \rm{kN} $$ 
 
@@ -183,13 +211,34 @@ $M_{\rm{B}}$ kan worden bepaald uit de momentensom om B van deel AB, dit geeft: 
 
 De zakking halverwege AB, $w_{\rm{halverwege} \ \rm{AB}}$, kan op verschillende manieren worden gevonden. Hier wordt deze bepaald met behulp van het het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel en het vergeet-mij-nietje voor een ligger op twee steunpunten met een verdeelde belasting. 
 
-$$ w_{\rm{halverwege \ AB}} = \cfrac{5}{384} \cdot \cfrac{25 \cdot 4^4}{\cfrac{16}{3}} - \cfrac{1}{16} \cdot \cfrac{20 \cdot 4^2}{\cfrac{16}{3}} = 12 \, \rm{mm} $$
+$$ w_{\rm{halverwege \ AB}} = \cfrac{5}{384} \cdot \cfrac{25 \cdot 4^4}{\cfrac{16}{3}} - \cfrac{1}{16} \cdot \cfrac{20 \cdot 4^2}{\cfrac{16}{3}} = 11.875 \, \rm{mm} $$
 
 De zakking halverwege BC kan worden bepaald met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel:
 
-$$ w_{\rm{halverwege \ BC}} =  - \cfrac{1}{16} \cdot \cfrac{20 \cdot 6^2}{\cfrac{16}{3}} = -8 \, \rm{mm} $$
+$$ w_{\rm{halverwege \ BC}} =  - \cfrac{1}{16} \cdot \cfrac{20 \cdot 6^2}{\cfrac{16}{3}} = -8.4375 \, \rm{mm} $$
 
 ::::
 
 % solution_end
 
+::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Teken de vervormde statisch **onbepaalde** constructie op schaal.
+---
+=
+
+```{figure} ./bending_data/disp.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+```
+
+Dit is precies dezelfde tekening als wanneer deze werd opgelost met behulp van hoekveranderingsvergelijkingen.
+---
+
+::::

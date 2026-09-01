@@ -46,27 +46,18 @@ source: bending_data/constructie.py
     :nonumber: true
     :label: sd_ben_1
 
-    Voor ons voorbeeld zijn we geïnteresseerd in de verdeling van inwendige krachten, dus moeten we de graad van inwendige statische onbepaaldheid evalueren.
+    Voor ons voorbeeld zijn we geïnteresseerd in de verdeling van inwendige krachten, dus moeten we de graad van inwendige statische onbepaaldheid evalueren. Omdat dit geen gesloten constructie is is de uitwendige graad van statische onbepaaldheid gelijk aan de inwendige graad van statische onbepaaldheid:
 
-    ```{figure} ./bending_data/onbekenden.svg
+    ```{figure} ./bending_data/graad.svg
     ---
     align: center
-    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+    source: bending_data/graad.py
     number:
     ---
-    Er zijn 14 onbekende krachten.
+    
     ```
 
-    ```{figure} ./bending_data/vergelijkingen.svg
-    ---
-    align: center
-    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
-    number:
-    ---
-    Er zijn 13 evenwichtsvergelijkingen
-    ```
-
-    Deze constructie is dus 1e orde inwendig statisch onbepaald.
+    Er zijn 4 onbekenden krachten en 3 evenwichtsvergelijkingen. Deze constructie is dus 1e orde inwendig statisch onbepaald.
 
     ::::::
 
@@ -79,36 +70,106 @@ source: bending_data/constructie.py
     Er zijn veel opties, waarvan de meest voor de hand liggende hieronder worden getoond:
 
     `````{tab-set}
+    :sync-group: balk
+
     ````{tab-item} Verticale oplegging bij $\rm{A}$ loslaten
+    :sync: keybalk_1
+    
     ```{figure} ./bending_data/optie2.svg
     :align: center
     :number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
     ````
+
     ````{tab-item} Verticale oplegging bij $\rm{B}$ loslaten
+    :sync: keybalk_2
     ```{figure} ./bending_data/optie3.svg
     :align: center
     :number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
-    Deze optie is niet erg handig omdat er geen vergeet-mij-nietjes zijn om de verplaatsing bij $\rm{B}$ te verkrijgen voor deze belastingen
     ````
+
     ````{tab-item} Verticale oplegging bij $\rm{C}$ loslaten
+    :sync: keybalk_3
+
     ```{figure} ./bending_data/optie4.svg
     :align: center
     :number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
     ````
+
     ````{tab-item} Scharnier toevoegen bij $\rm{B}$
+    :sync: keybalk_4
+    
     ```{figure} ./bending_data/optie1.svg
     :align: center
     :number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
     ```
-    Als alleen scharnieren worden toegevoegd, noemen we deze benadering 'hoekveranderingsvergelijkingen' of 'gaapvergelijkingen'
+    Als alleen scharnieren worden toegevoegd, noemen we deze aanpak 'hoekveranderingsvergelijkingen' of 'gaapvergelijkingen'
     ````
+
+    `````
+
+    Voor elk van deze opties kunnen we de verplaatsingen schetsen om een variant te kiezen die een simpel verplaatsingspatroon heeft:
+
+    `````{tab-set}
+    :sync-group: balk
+
+    ````{tab-item} Verticale oplegging bij $\rm{A}$ loslaten
+    :sync: keybalk_1
+    
+    ```{figure} ./bending_data/optie2_verplaatsingen.svg
+    :align: center
+    :number:
+    :name: optie2_balk
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+    ```
+
+    Deze verplaatste constructie kan worden berekend mbv het vergeet-me-nietje van een ligger op twee steunpunten belast met ee koppel, in combinatie met het vergeet-me-nietje van een uitkragende ligger met een puntlast.
+
+    Voor het toepassen van het vergeet-me-nietje van de ligger op twee steunpunten zullen we eerst het inwendig moment in $\rm{B}$ moeten uitrekenen.
+
+    ````
+
+    ````{tab-item} Verticale oplegging bij $\rm{B}$ loslaten
+    :sync: keybalk_2
+    ```{figure} ./bending_data/optie3_verplaatsingen.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+    ```
+    Deze optie is niet erg handig omdat er geen vergeet-mij-nietjes zijn om de verplaatsing bij $\rm{B}$ te verkrijgen voor deze belastingen; er zijn geen vergeet-me-nietjes voor een ligger op twee steunpunten die deel is belast met een verdeelde belasting.
+    ````
+
+    ````{tab-item} Verticale oplegging bij $\rm{C}$ loslaten
+    :sync: keybalk_3
+
+    ```{figure} ./bending_data/optie4_verplaatsingen.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+    ```
+
+    Deze optie is vergelijkbaar met het weghalen van de verticale oplegging bij $\rm{A}$.
+    ````
+
+    ````{tab-item} Scharnier toevoegen bij $\rm{B}$
+    :sync: keybalk_4
+    
+    ```{figure} ./bending_data/optie1_verplaatsingen.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+    ```
+    Als alleen scharnieren worden toegevoegd, noemen we deze aanpak 'hoekveranderingsvergelijkingen' of 'gaapvergelijkingen'. Hiervoor hebben we enkel het vergeet-me-nietje nodig van een ligger op twee steunpunten belast met een koppel.
+    
+    De waarde van het koppel is daarbij al gegeven, dus het is niet nodig om nog een inwendig moment te berekenen. Daarmee is dit de eenvoudigste optie.
+    ````
+
     `````
 
     De laatste optie wordt gekozen.
@@ -140,6 +201,14 @@ source: bending_data/constructie.py
     ```{figure-end}
     ```
 
+    We kunnen de vervormingen ten gevolge van de verdeelde belasting schetsen voor deze statisch bepaalde constructie:
+
+    ```{figure} ./bending_data/disp_q.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+    ```
+
     Met behulp van de vergeet-mij-nietjes kunnen de rotaties direct worden geëvalueerd zonder het evalueren van inwendige krachten:
 
     - $\varphi_{\rm{B}}^{\rm{AB}} \left( M_{\rm{B}} \right) = \cfrac{4M_{\rm{B}}}{3EI} + \cfrac{200}{3EI}$
@@ -160,6 +229,25 @@ source: bending_data/constructie.py
     M_{\rm{B}} &= -20 \ \rm{kNm}
     \end{align*}
     $$
+
+    Met behulp van het zelfde vergeet-me-nietje kunnen ook de rotaties en verplaatsingen worden berekend:
+
+    $$
+    \varphi_{\rm{B}} = - \cfrac{2 \cdot -20}{\frac{16}{3} \cdot 10^3} = 0.0075 \ \rm{rad} (↺)
+    $$
+
+    $$
+    w_{\rm{halverwege \, \rm{AB}}} = \cfrac{5}{384} \cfrac{25 \cdot 4^3}{\frac{16}{3} \cdot 10^3} - \cfrac{1}{16} \cfrac{20 \cdot 4^3}{\frac{16}{3} \cdot 10^3} = 0.011875 \, \rm{m}
+    $$
+
+    Dit kan getekend worden als:
+
+    ```{figure} ./bending_data/disp.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+    ```
+
     ::::::
 
 ## Meer voorbeelden
