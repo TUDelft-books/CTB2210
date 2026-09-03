@@ -293,7 +293,7 @@ $$EI = 5 \ \rm{MNm^2}, EA >> EI$$
     \end{align*}
     $$
 
-    De vervormingen van de statisch onbepaalde constructie kunnen ook geschets worden. In dit geval had dat zelfs al van tevoren gekund (zonder exacte waardes) aangezien de richtingen van de verplaatsingen te bepalen zijn zonder berekening:
+    De vervormingen van de statisch onbepaalde constructie kunnen ook geschetst worden. In dit geval had dat zelfs al van tevoren gekund (zonder exacte waardes) aangezien de richtingen van de verplaatsingen te bepalen zijn zonder berekening:
 
     ```{figure} ./theorie_data/vervormd.svg
     ---
