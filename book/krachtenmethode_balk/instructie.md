@@ -253,11 +253,11 @@ source: bending_data/constructie.py
 ## Meer voorbeelden
 Het algemene concept van de krachtenmethode wordt behandeld in hoofdstuk 2.1 terwijl de krachtenmethode voor balken wordt behandeld in hoofdstuk 2.2.1 - 2.2.4 en de meer specifieke 'hoekveranderingsvergelijkingen' in hoofdstuk 3.1 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. De voorbeelden van hoofdstuk 3.1 worden behandeld in [de volgende les](krachtenmethode_raamwerk).
 
-## Instructies in collegevorm
+## Zelfde instructies in collegevorm
 
 Dit onderwerp is [in 2025 in les 6](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/c40ac091651a4143a10fe729246403c31d?sortBy=most-recent) gepresenteerd in collegevorm van 0:04:20 tot 0:30:00. De opname in collegejaar 2026/2027 volgt na het college.
 
-## Opdrachten
+## Extra opgaves in boek
 
 - Opgaves 2.1 - 2.14, 2.23, 2.25 en 2.30 in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
 - Opgaves 3.1 - 3.10, 3.16 - 3.21 in hoofdstuk 3.4 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
