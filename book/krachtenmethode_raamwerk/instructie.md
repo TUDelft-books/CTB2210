@@ -313,11 +313,11 @@ Het algemene concept van de krachtenmethode wordt behandeld in hoofdstuk 2.1 ter
 
 Wanneer het boek de 'momentenvlakstelling' noemt in voorbeeld 2.2.6 en 2.2.7, kun je de verplaatsingen ook vinden met behulp van vergeet-mij-nietjes. De methode met verplaatsbare knopen ('hoekveranderingsvergelijkingen met verplaatsbare knopen') die in het verleden werd onderwezen wordt niet meer behandeld.
 
-## Instructies in collegevorm
+## Zelfde instructies in collegevorm
 
 Dit onderwerp is [in 2025 in les 7](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/2e0fc9db91574fc9adacecd1eb833ce71d?sortBy=most-recent) gepresenteerd in collegevorm van 0:07:50 - 0:31:50. De opname in collegejaar 2026/2027 volgt na het college.
 
-## Opdrachten
+## Extra opgaves in boek
 
 - Opgaves 2.15 - 2.22, 2.24, 2.26 - 2.29, 2.42 - 2.48 in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
 - Opgaves 3.11 - 3.15, 3.22, 3.23, 3.25 - 3.33/1, 3.35, 3.36, 3.45, 3.47-1, 3.47-2, 3.47-4, 3.50, 3.51 in hoofdstuk 3.4 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
