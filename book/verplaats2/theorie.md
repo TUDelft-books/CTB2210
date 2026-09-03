@@ -178,9 +178,9 @@ Voorbeeldconstructie, $EI_{\rm{AB}} = 1.5 \ \rm{MNm}^2, EI_{\rm{BC}} = 3 \ \rm{M
 ## Meer voorbeelden
 In hoofdstuk 4.1 en 4.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` wordt deze verplaatsingenmethode behandeld.
 
-## Instructies in collegevorm
+## Zelfde instructies in collegevorm
 
 Dit onderwerp is [les 11](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/5af52bfa489c4f579dcf83847e8329c71d?sortBy=most-recent) gepresenteerd in collegevorm tot 0:47:56.
 
-## Oefeningen
+## Extra opgaves in boek
 Opgaves 4.4 - 4.33, 4.35, 4.36 in hoofdstuk 4.5 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.
