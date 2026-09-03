@@ -10,7 +10,70 @@ Deze pagina is aangepast van [deze pagina over de krachtenmethode](https://oit.t
 (krachtenmethode_raamwerk)=
 # Instructie
 
-De krachtenmethode hebben we eerder al behandeld voor onder andere [constructies belast op rek](krachtenmethode_simpel) en [balken](krachtenmethode_balk). Voor raamwerken is de procedure niet anders, behalve dat we het gedrag van rek en buiging niet altijd kunnen splitsen. In deze les zal het enkel gaan over raamwerken die enkel vervormen door buiging, dus $EA >> EI$. In de [volgend les](../krachtenmethode_rek_raamwerk/lesson.md) zullen we de krachtenmethode behandelen voor raamwerken die vervormen door zowel buiging als rek.
+De krachtenmethode hebben we eerder al behandeld voor onder andere [constructies belast op rek](krachtenmethode_simpel) en [balken](krachtenmethode_balk). Voor raamwerken is de procedure niet anders, behalve dat we het gedrag van rek en buiging niet altijd kunnen splitsen en dat bij samenkomst van meerdere staven / uitwendige koppels we even goed moeten nadenken over de locatie van de schieren. In deze les zal het enkel gaan over raamwerken die enkel vervormen door buiging, dus $EA >> EI$. In de [volgend les](../krachtenmethode_rek_raamwerk/lesson.md) zullen we de krachtenmethode behandelen voor raamwerken die vervormen door zowel buiging als rek.
+
+## Samenkomst van meerdere staven en/of uitwendige koppels
+
+Stel ergens in de constructie komen meerdere staven en/of uitwendige koppels samen:
+
+```{figure} ./theorie_data/knooppunt.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+number:
+---
+
+```
+
+Als je daar een scharnier wilt toevoegen met een momentenpaar geldt de gebruikelijke procedure, maar over de plek moeten we even goed nadenken. Als je het scharnier in het kruispunt aanbrengt loop je nameljk tegen een paar vragen op:
+
+```{figure} ./theorie_data/knooppunt_vraagteken.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+number:
+---
+
+```
+
+- Hoeveel neemt de graad van statisch onbepaaldheid af met dit ene scharnier?
+- Eén scharnier met drie momenten? Is dat nog een momentenpaar?
+- Welke momenten zijn nu aan elkaar gelijk?
+- Wat moet je met het moment van het uitwendige koppel? Hoe kan een koppel aangrijpen op een scharnier?
+- Oke, alle hoeken zullen aan elkaar gelijk moeten zijn, maar dat zijn niet genoeg vergelijkingen voor drie onbekende momenten.
+
+:::{note}
+In het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` worden wel scharnieren in het knooppunt geplaatst met een extra trucje. Deze aanpak is toegestaan maar wordt niet aangeraden.
+:::
+
+Het is verstandiger om deze scharnieren nét naast de knoop te plaatsen. Dat zorgt ervoor dat de momentenparen van de staven en het uitwendige koppel niet op dezelfde plek aangrijpen, de graad van statisch onbepaaldheid afneemt met 1 per scharnier, en dat bij elk scharnier er, zoals gebruikelijk, twee hoeken zijn die aan elkaar gelijk moeten zijn:
+
+```{figure} ./theorie_data/knooppunt_nieuw.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+number:
+---
+
+```
+
+In bovenstaande voorbeeld zijn twee scharnieren genoeg om de uiteindes van elk van de staven kunnen roteren ten opzichte van de andere staven. Het enige afwijkende ten opzicht van onze analyses tot nu toe is dat er op een van de staven nu niet één moment, maar meerdere momenten aangrijpen. In bovenstaande afbeelding werken op de linkerstaaf drie momenten: één uitwendig koppel en twee momenten van de scharnieren.
+
+::::{warning}
+Pas bij het aanbrengen van scharnieren op dat je niet aan alle zijdes van het knooppunt een scharnier aanbrengt. Dat zou namelijk een lokaal mechanisme opleveren, waarbij de knoop kan roteren:
+
+```{figure} ./theorie_data/knooppunt_mechanisme.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+number:
+---
+
+```
+
+::::
+
+## Voorbeeld
 
 We behandelen de toepassing op raamwerkconstructies met het volgende voorbeeld.
 
