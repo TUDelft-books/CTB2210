@@ -13,5 +13,6 @@
 - Verduidelijken onafhankelijkheid van vrijheidsgraden in [Verplaatsingenmethode  met vrijheidsgraden - Instructie](verplaats2/theorie.md)
 - Verduidelijken keuze makkelijk model voor krachtenmethode.
 - Toevoegen schetsen verplaatste constructie bij keuze statisch bepaald model voor krachtenmethode.
+- Nieuwe aanpak voor krachtenmethode met scharnieren bij knooppunten in [Krachtenmethode raamwerken - Instructie](krachtenmethode_raamwerk/instructie.md)
 - Toevoegen les over verschillende methodes in [Vergelijking methodes](methodes/lesson.md)
 % solution_end
