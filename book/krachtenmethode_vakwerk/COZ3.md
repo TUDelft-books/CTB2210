@@ -11,12 +11,9 @@ Deze oefening is aangepast van deze [opgave](https://oit.tudelft.nl/CT1000/2024/
 
 ::::::{note}
 Deze opgave kan in ANS gemaakt worden.
-:::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
-:::
 ::::::
 
-% https://ans.app/repo_questions/...
+% https://ans.app/repo_questions/65438896/generator
 
 Gegeven is de volgende constructie:
 
