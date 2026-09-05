@@ -16,7 +16,7 @@ Als je nog geen toegang hebt tot deze toets, registreer je dan via [deze link](h
 
 ::::::
 
-% https://ans.app/repo_questions/...
+% https://ans.app/repo_questions/65198943/generator
 
 Gegeven is de volgende constructie:
 
