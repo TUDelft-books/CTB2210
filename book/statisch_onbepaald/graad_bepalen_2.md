@@ -38,34 +38,6 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende staafkrachten. Dat zijn
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-```{figure} ./graad_bepalen_data/Oefening_2.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
-number:
----
-
-```
-
-```{figure} ./graad_bepalen_data/Oefening_3.svg
----
-align: center
-number:
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
----
-
-```
-
-Er zijn *6* onbekende oplegreacties en *34* onbekende staafkrachten. Dat zijn *40* onbekende krachten in totaal.
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -89,34 +61,6 @@ Er zijn {gap} evenwichtsvergelijkingen vanuit knopen en {gap} vanuit staven. Dat
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Voor knoop $\rm{A}$, $\rm{E}$ en $\rm{G}$ zijn er enkel krachten in verticale en horizontale richting, dus zijn er $2$ evenwichtsvergelijkingen. Voor de anderen knopen zijn er ook momenten dus $3$ evenwichtsvergelijkingen per knoop. Dat geeft $\left( 2 +2 +2 +3+3+3 \right) = 15$ evenwichtsvergelijkingen vanuit knopen. Alle staven hebben drie evenwichtsvergelijkingen, dus dat geeft $\left( 7 \cdot 3 \right) = 21$ evenwichtsvergelijkingen vanuit staven. Dat zijn $36$ evenwichtsvergelijkingen in totaal.
-
-```{figure} ./graad_bepalen_data/Oefening_4.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
-number:
----
-
-```
-
-```{figure} ./graad_bepalen_data/Oefening_5.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
-number:
----
-
-```
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -136,16 +80,6 @@ De constructie is {gap}ste/de graads uitwendig statisch onbepaald.
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-$$40 - 36 = 4 $$
-
-::::
-
-% solution_end
 
 ## Wel onderscheid tussen pendelstaven en reguliere staven
 
@@ -178,16 +112,6 @@ Welke staaf/staven zijn pendelstaven?
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Alleen staaf $\rm{EG}$ gaat van een scharnierende verbinding naar een scharnierende verbinding.
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -210,36 +134,6 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende staafkrachten. Dat zijn
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-```{figure} ./graad_bepalen_data/Oefening_2_2.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
-number:
----
-
-```
-
-```{figure} ./graad_bepalen_data/Oefening_3_2.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
-number:
----
-
-```
-
-Er zijn *6* onbekende oplegreacties en *32* onbekende staafkrachten. Dat zijn *38* onbekende krachten in totaal.
-
-Door de pendelstaaf zijn er 2 minder onbekende krachten.
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -263,36 +157,6 @@ Er zijn {gap} evenwichtsvergelijkingen vanuit knopen en {gap} vanuit staven. Dat
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Hoewel er minder krachten werken op knoop $\rm{E}$ en $\rm{G}$ dan voorheen, zijn er nog steeds $2$ evenwichtsvergelijkingen toepasbaar omdat er nog krachten in verschillende richtingen werken.
-
-```{figure} ./graad_bepalen_data/Oefening_4_2.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
-number:
----
-
-```
-
-Voor de staaf $\rm{EG}$ is nu nog maar één evenwichtsvergelijking nodig (krachtevenwicht in de richting van de pendelstaaf). Dat zijn dus $2$ evenwichtsvergelijkingen minder dan voorheen.
-
-```{figure} ./graad_bepalen_data/Oefening_5_2.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch
-number:
----
-
-```
-
-::::
-
-% solution_end
 
 
 ::::{question} Opgave
@@ -313,15 +177,3 @@ De constructie is {gap}ste/de graads uitwendig statisch onbepaald.
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-$$38 - 34 = 4 $$
-
-Dus de pendelstaaf heeft er niet voor gezorgd dat de constructie meer of minder statisch onbepaald is.
-
-::::
-
-% solution_end

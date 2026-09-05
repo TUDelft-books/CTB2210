@@ -36,16 +36,6 @@ M[3]
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Het is een open constructie, dus de graad van inwendig statisch onbepaaldheid is gelijk aan de graad van uitwendig statisch onbepaaldheid. Er zijn 6 onbekende oplegreacties en 3 evenwichtsvergelijkingen, daarom is de constructie 3de graads statisch onbepaald.  
-
-::::
-
-% solution_end
 
 De pendelstaven worden vervangen door veren, leidend tot de volgende constructie:
 
@@ -130,26 +120,6 @@ $ ${gap}$ \cdot w_{\rm{A}} + ${gap}$ \cdot \varphi + ${gap}$ = 0 $
 ---
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Verticaal krachtenevenwicht:
-
-$$
-\begin{align}
-\sum  \left. F \right|  _ {\rm{v}} &= 0 \\
-- N_{\rm{A}} - N_{\rm{B}} - N_{\rm{C}} - N_{\rm{D}} - N_{\rm{E}} - 2580 &= 0 \\
-- 100 \cdot w_{\rm{A}} - 200 \cdot w_{\rm{B}} - 300 \cdot w_{\rm{C}} - 400 \cdot w_{\rm{D}} - 500 \cdot w_{\rm{E}} - 2580 &= 0 \\
-- 100 \cdot w_{\rm{A}} - 200 \cdot \left(w_{\rm{A}} + 2 \cdot \varphi \right) - 300 \cdot \left(w_{\rm{A}} + 5 \cdot \varphi \right) - 400 \cdot \left(w_{\rm{A}} + 9 \cdot \varphi \right) - 500 \cdot \left(w_{\rm{A}} + 10 \cdot \varphi \right) - 2580 &= 0 \\
--1500 \cdot w_{\rm{A}} - 10500 \cdot \varphi - 2580 &= 0
-\end{align}
-$$
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :variant: single-select
@@ -169,25 +139,6 @@ Waarom is er geen uniek antwoord voor de andere evenwichtsvergelijking?
 ---
 ::::
 
-% solution_start
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Een mogelijkheid, namelijk de momentensom om het punt $\rm{A}$ is hieronder gegeven:
-
-$$
-\begin{align}
-\sum  \left. T \right|  _ {\rm{A}} &= 0 \\
-- 2 \cdot N_{\rm{B}} - 5 \cdot N_{\rm{C}} - 9\cdot N_{\rm{D}} - 10 \cdot N_{\rm{E}} - 8 \cdot 2580 &= 0 \\
-- 2 \cdot 200 \cdot w_{\rm{B}} - 5 \cdot 300 \cdot w_{\rm{C}} - 9 \cdot 400 \cdot w_{\rm{D}} - 10 \cdot 500 \cdot w_{\rm{E}} - 8 \cdot 2580 &= 0 \\
-- 2 \cdot 200 \cdot \left(w_{\rm{A}} + 2 \cdot \varphi\right) - 5 \cdot 300 \cdot \left(w_{\rm{A}} + 5 \cdot \varphi\right) - 9 \cdot 400 \cdot \left(w_{\rm{A}} + 9 \cdot \varphi\right) - 10 \cdot 500 \cdot \left(w_{\rm{A}} + 10 \cdot \varphi\right) - 8 \cdot 2580 &= 0 \\
--10500 \cdot w_{\rm{A}} - 90700 \cdot \varphi - 20640 &= 0
-\end{align}
-$$
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :label: verplaats3_5
@@ -211,28 +162,6 @@ $ \varphi = $ {gap} $ \rm{rad} $
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-De twee evenwichtsvergelijkingen kunnen worden opgelost voor de onbekenden $w_{\rm{A}}$ en $\varphi$. Een mogelijkheid, gebruik makende van het momentenevenwicht om punt $\rm{A}$ is hier gegeven. 
-
-Het stelsel vergelijkingen is:
-
-$$\begin{cases} -1500 \cdot w_{\rm{A}} -10500 \cdot \varphi -2580 &= 0\\ -10500 \cdot w_{\rm{A}} -90700 \cdot \varphi -20640  &= 0 \end{cases}$$
-
-Vermenigvuldigen van de bovenste vergelijking met -7 en optellen geeft:
-
-$$ 0 \cdot w_{\rm{A}} - 17200 \cdot \varphi - 2580 = 0 \rightarrow \varphi = -0.15 \ \rm{rad} $$
-
-Invullen in de bovenste vergelijking geeft de oplossing voor $w_{\rm{A}}$:
-
-$$ -1500 \cdot w_{\rm{A}} -10500 \cdot -0.15 -2580 = 0 \rightarrow w_{\rm{A}} = -67 \ \rm{cm}$$
-
-::::
-
-% solution_end
 
 
 ::::{question} Opgave
@@ -262,16 +191,3 @@ M[-1085]
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-$$ N_{\rm{A}} = 100 \cdot w_{\rm{A}} = -67 \ \rm{kN}$$
-$$ N_{\rm{B}} = 200 \cdot w_{\rm{B}} = 200 \cdot \left(w_{\rm{A}} + 2 \cdot \varphi\right) =-194 \ \rm{kN}$$
-$$ N_{\rm{C}} = 300 \cdot w_{\rm{C}} = 300 \cdot \left(w_{\rm{A}} + 5 \cdot \varphi\right) =-426 \ \rm{kN}$$
-$$ N_{\rm{D}} = 400 \cdot w_{\rm{D}} = 400 \cdot \left(w_{\rm{A}} + 9 \cdot \varphi\right) =-808 \ \rm{kN}$$
-$$ N_{\rm{E}} = 500 \cdot w_{\rm{E}} = 500 \cdot \left(w_{\rm{A}} + 10 \cdot \varphi\right) =-1085 \ \rm{kN}$$
-::::
-
-% solution_end

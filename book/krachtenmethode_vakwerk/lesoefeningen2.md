@@ -308,102 +308,6 @@ M[-6.25]
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Allereerst worden de oplegreacties berekend:
-
-```{figure} lesoefeningen_2_data/FBD_sol.svg
-:align: center
-:number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
-
-```
-
-De staafkrachten kunnen nu worden opgelost, beginnende bij de krachten in de staven $\rm{BE}$ en $\rm{BD}$:
-
-```{figure} lesoefeningen_2_data/FBD_B.svg
-:align: center
-:number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
-```
-
-$$
-\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{BE}}}} = -6.25{\, \rm{ kN}}\\
-\sum {{F_{\rm{h}}} = 0}  \to {N_{{\rm{BD}}}} =  3.75 - {B_{\rm{h}}}
-$$
-
-Dit geeft:
-
-```{figure} lesoefeningen_2_data/FBD_B_sol.svg
-:align: center
-:number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
-```
-
-Vervolgens wordt een snede gemaakt door de staven $\rm{AD}$, $\rm{CD}$ en $\rm{CE}$:
-
-```{figure} lesoefeningen_2_data/FBD_AC.svg
-:align: center
-:number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
-```
-
-$$
-\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{CD}}}} =  - 6.25{\rm{ kN}}\\
-{\sum {\left. T \right|} _{\rm{D}}} = 0 \to {N_{CE}} =  - 7.5{\rm{ kN}}\\
-\sum {{F_{\rm{h}}} = 0}  \to {N_{{\rm{AD}}}} = 11.25 - {B_{\rm{h}}}
-$$
-
-Dit geeft:
-
-```{figure} lesoefeningen_2_data/FBD_AC_sol.svg
-:align: center
-:number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
-```
-
-Daarna wordt knoopevenwicht van $\rm{D}$ beschouwd:
-
-```{figure} lesoefeningen_2_data/FBD_D.svg
-:align: center
-:number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
-```
-
-$$\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{DE}}}} =  6.25{\rm{ kN}}$$
-
-Dit geeft:
-
-```{figure} lesoefeningen_2_data/FBD_D_sol.svg
-:align: center
-:number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
-```
-
-En ten slotte knoop $\rm{C}$:
-
-```{figure} lesoefeningen_2_data/FBD_C.svg
-:align: center
-:number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
-```
-
-$$\sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{AC}}}} =  - 18.75{\rm{ kN}}$$
-
-Dit geeft:
-
-```{figure} lesoefeningen_2_data/FBD_C_sol.svg
-:align: center
-:number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
-```
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -444,15 +348,6 @@ MAPE[-25/3;0.1;3]
 
 ::::
 
-% solution_start
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-De verlenging / verkorting kan worden berekend met $\Delta L = \cfrac{{NL}}{{EA}}$
-::::
-
-% solution_end
 
 Om de verplaatsingen te vinden van de knopen kijken we afzonderlijk naar de invloed van de horizontale kracht $B_{\rm{h}}$ en van de belasting van $20 \ \rm{kN}$. Hiermee worden de Williot-diagrammetjes iets simpeler
 
@@ -673,27 +568,3 @@ Teken de vervormde statisch **onbepaalde** constructie op schaal.
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-De verplaatsingen ten gevolge van enkel $B_{\rm{h}}$ na rotatie zijn:
-
-| Scharnier | Verplaatsing in horizontale richting → (mm)| Verplaatsing in verticale richting ↓ (mm)|
-| :-:|:-:|:-:|
-|$\rm{A}$|$0$|$0$|
-|$\rm{B}$|$-3.2B_\rm{h}$|$0$|
-|$\rm{C}$|$-1.6B_\rm{h}$|$-1.2B_\rm{h}$|
-|$\rm{D}$|$-1.6{B_{\rm{h}}}$|$-1.2B_\rm{h}$|
-|$\rm{E}$|$-1.6B_\rm{h}$|$-1.2B_\rm{h}$|
-
-Invullen van $B_{\rm{h}} = 7.5 \ \rm{kN}$ en optellen bij de verplaatsingen ten gevolge van de $20 \ \rm{kN}$ belasting geeft:
-
-```{figure} lesoefeningen_2_data/displaced_3.svg
-:align: center
-:number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
-```
-
-% solution_end

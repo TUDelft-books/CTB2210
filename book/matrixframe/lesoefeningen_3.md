@@ -31,16 +31,6 @@ Voor de profielgegevens, wat vul je in voor de buigstijfheid van de kabels?
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-De kabels zullen niet buigen omdat er geen krachten op staan en scharnierend verbonden zijn. Ze kunnen dus als pendelstaven worden gemodelleerd, waarbij de stijfheid in buiging geen invloed heeft op het gedrag van de constructie.
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :admonition:
@@ -60,15 +50,6 @@ Voor de profielgegevens, wat vul je in voor de buigstijfheid van $\rm{AC}$?
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Een waarde van oneindig kan niet, dus een willekeurige maar grote waarde is de beste optie.
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :admonition:
@@ -88,20 +69,3 @@ Hoe kan je de geroteerde roloplegging modelleren?
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Hoewel er redelijk verstopt een optie is om een geroteerde roloplegging te modelleren, kan dit ook worden gedaan door een pendelstaaf dwars op de rolrichting van het rolscharnier toe te voegen. Deze pendelstaaf zal bij kleine verplaatsingen in één richting beweging toelaten, net als een roloplegging zou doen. De rekstijfheid van deze pendelstaaf moet groot genoeg zijn.
-
-::::
-
-::::{admonition} Uitwerking MatrixFramebestand
-:class: solution, dropdown
-
-Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_3.mxf) te downloaden.
-
-::::
-
-% solution_end

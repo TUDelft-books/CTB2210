@@ -32,16 +32,6 @@ Voer de geometrie in en ga verder met de profielgegevens. Welke profielgegeven v
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Je kan zelf wat verzinnen omdat de constructie statisch bepaald is. De oplegreacties en krachtsverdeling zijn onafhankelijk van de stijfheidsgegevens van de constructie. Er zijn wel profielgegevens nodig om voor de berekening, maar deze kunnen willekeurig zijn.
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -67,19 +57,6 @@ M[1]
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-- Rondom A moeten de staven star verbonden worden, dus daar zijn geen scharnierende aansluitingen nodig.
-- Rondom B moeten de twee staven scharnierend aan elkaar verbonden worden. Dat kan met een scharnierende aansluiting op één uiteinde of op alle twee de uiteindes.
-- Rondom C moeten de drie staven scharnierend aan elkaar verbonden worden. Dat kan met een scharnierende aansluiting op één uiteinde van elke staaf, of met een scharnierende aansluiting op twee van de drie staven.
-- Rondom D moet één staaf scharnierend aan de doorlopende staaf verbonden worden. Dat kan met een scharnierende aansluiting op het uiteinde van de pendelstaaf.
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -104,43 +81,3 @@ MAP[59.72;1]
 ::::
 
 
-% solution_start
-
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-```{figure} lesoefeningen_data/image.png
----
-align: center
-number:
----
-
-```
-
-```{figure} lesoefeningen_data/image_1.png
----
-align: center
-number:
----
-
-```
-
-```{figure} lesoefeningen_data/image_2.png
----
-align: center
-number:
----
-
-```
-
-::::
-
-::::{admonition} Uitwerking MatrixFramebestand
-:class: solution, dropdown
-
-Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_1.mxf) te downloaden.
-
-::::
-
-% solution_end

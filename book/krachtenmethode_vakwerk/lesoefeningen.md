@@ -38,25 +38,6 @@ De constructie is {gap}ste/de graads inwendig statisch onbepaald
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-```{figure} lesoefeningen_data/graad.svg
----
-align: center
-number:
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
----
-
-```
-
-Er zijn 10 onbekende krachten en 9 evenwichtsvergelijkingen. Dus de constructie is 1ste graads statisch onbepaald
-
-::::
-
-% solution_end
 
 We overwegen de volgende alternatieven als statisch onbepaalde constructie:
 
@@ -345,46 +326,6 @@ M[-0.01872]
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-```{figure} lesoefeningen_data/Vrijlichaamsschema1.svg
----
-align: center
-number:
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
----
-
-```
-
-$$
-\begin{align}
-\sum  \left. T \right|  _ {\rm{E}} &= 0 \\
-5 \cdot N_{\rm{AD}} - 2 \cdot B_{\rm{v}} - 3 \cdot26& =0 \\
-N_{\rm{AD}} &= 0.4 \cdot B_{\rm{v}} + 15.6
-\end{align}
-$$ 
-
-$$
-\begin{align}
-\sum F_ {\rm{v}} &=0 \\
-- N_{\rm{AD}} + B_{\rm{v}} + N_{\rm{CE}} -26&= 0 \\
-N_{\rm{CE}} &= - 0.6 \cdot B_{\rm{v}} + 41.6
-\end{align}
-$$
-
-
-$$ w_{\rm{E}} = - \Delta L_{\rm{CE}} = \cfrac{-N_{\rm{CE}} \cdot L_{\rm{CE}}}{EA} = 0.0006 \cdot B_{\rm{v}} - 0.0416  $$
-
-$$ w_{\rm{D}} = \Delta L_{\rm{AD}} = \cfrac{N_{\rm{AD}} \cdot L_{\rm{AD}}}{EA} = 0.0004 \cdot B_{\rm{v}} + 0.0156 $$ 
-
-$$ w_{\rm{B}} = w_{\rm{D}} + \cfrac{3}{5} \cdot \left( w_{\rm{E}} - w_{\rm{D}} \right) = \cfrac{3}{5} \cdot w_{\rm{E}} + \cfrac{2}{5} \cdot w_{\rm{D}} = 0.00052 \cdot B_{\rm{v}} - 0.01872 $$
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -527,40 +468,6 @@ M[-0.0325]
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-```{figure} lesoefeningen_data/Vrijlichaamsschema2.svg
----
-align: center
-number:
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
----
-```
-$$
-\begin{align}
-\sum  \left. M \right| _ {\rm{B}} ^{\rm{BD}} &= 0 \\
-3 \cdot N_{\rm{AD}} + M_{\rm{B}} &= 0 \\
-N_{\rm{AD}} = -0.33 \cdot M_{\rm{B}}
-\end{align}
-$$
-
-$$
-\begin{align}
-\sum  \left. M \right| _ {\rm{B}} ^{\rm{BG}} &= 0 \\
-- M_{\rm{B}} + 2 \cdot N_{\rm{CE}} - 5 \cdot 26 &= 0 \\
-N_{\rm{CE}} &= 0.5 \cdot M_{\rm{B}} + 65
-\end{align}
-$$
-
-$$ \varphi _ {\rm{B}} ^{\rm{DB}} = -\cfrac{w_{\rm{D}}}{3} = -\cfrac{\Delta L_{\rm{AD}}}{3} = -\cfrac{-N_{\rm{AD}} \cdot L_{\rm{AD}}}{3 \cdot EA} = 0.00011 \cdot M_{\rm{B}} $$
-$$ \varphi _ {\rm{B}} ^{\rm{BE}} = \cfrac{w_{\rm{E}}}{2} = - \cfrac{\Delta L_{\rm{CE}}}{2} = -\cfrac{N_{\rm{CE}} \cdot L_{\rm{CE}}}{2 \cdot EA} = -0.00025 \cdot M_{\rm{B}} - 0.0325 $$
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -700,37 +607,6 @@ M[0.09750]
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-```{figure} lesoefeningen_data/Vrijlichaamsschema3.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk
-number:
----
-
-```
-
-$$
-\begin{align}
-\sum  \left. T \right|  _ {\rm{B}} &= 0 \\
-3 \cdot N_{\rm{AD}} + 2 \cdot N_{\rm{CE}} - 5 \cdot 26 &=0 \\
-N_{\rm{CE}} &= - 1.5 \cdot N_{\rm{AD}} + 65
-\end{align}
-$$ 
-
-$$ w_{\rm{E}} = - \Delta L_{\rm{CE}} = \cfrac{-N_{\rm{CE}} \cdot L_{\rm{CE}}}{EA} = 0.0015 \cdot N_{\rm{AD}} -0.065  $$
-
-$$ w_{\rm{D}} ^{\rm{AD}} = \Delta L_{\rm{AD}} = \cfrac{N_{\rm{AD}} \cdot L_{\rm{AD}}}{EA} = 0.001 \cdot N_{\rm{AD}} $$ 
-
-$$ w_{\rm{D}} ^{\rm{BD}} = -\varphi_{\rm{B}} \cdot 3 = - \cfrac{w_{\rm{E}}}{2} \cdot 3 = -0.00225 \cdot N_{\rm{AD}} + 0.0975 $$
-
-::::
-
-% solution_end
 
 
 ::::{question} Opgave

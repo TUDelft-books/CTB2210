@@ -36,23 +36,6 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende verbindingskrachten. Da
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-```{figure} graad_bepalen_data/Oefening_8.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_2
-number:
----
-
-```
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -72,22 +55,6 @@ Er zijn {gap} evenwichtsvergelijkingen
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-```{figure} graad_bepalen_data/Oefening_9.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_2
-number:
----
-```
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -107,13 +74,3 @@ De constructie is {gap}ste/de graads uitwendig statisch onbepaald
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-$$13 - 12 = 1 $$
-
-::::
-
-% solution_end

@@ -38,23 +38,6 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende verbindingskrachten. Da
 ::::
 
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-```{figure} graad_bepalen_data/Oefening_11.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_3
-number:
----
-
-```
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -74,23 +57,6 @@ Er zijn {gap} evenwichtsvergelijkingen
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-```{figure} graad_bepalen_data/Oefening_12.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_3
-number:
----
-
-```
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -110,16 +76,6 @@ De constructie is {gap}ste/de graads uitwendig statisch onbepaald
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-$3 - 3 = 0$
-
-::::
-
-% solution_end
 
 ## Inwendig statisch onbepaaldheid
 
@@ -144,34 +100,6 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende staafkrachten. Dat zijn
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Er zijn *3* onbekende oplegreacties en *19* onbekende staafkrachten. Dat zijn *22* onbekende krachten in totaal.
-
-```{figure} graad_bepalen_data/Oefening_13.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_3
-number:
----
-
-```
-
-```{figure} graad_bepalen_data/Oefening_15.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_3
-number:
----
-
-```
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -195,32 +123,6 @@ Er zijn {gap} evenwichtsvergelijkingen vanuit knopen en {gap} vanuit staven. Dat
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-```{figure} graad_bepalen_data/Oefening_14.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_3
-number:
----
-
-```
-
-```{figure} graad_bepalen_data/Oefening_16.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_3
-number:
----
-
-```
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -240,13 +142,3 @@ De constructie is {gap}ste/de graads uitwendig statisch onbepaald.
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-$23 - 22 = 1 $
-
-::::
-
-% solution_end
