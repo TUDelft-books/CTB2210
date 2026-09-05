@@ -16,11 +16,11 @@ parts:
     - file: statisch_onbepaald/graad_bepalen.md
     - file: statisch_onbepaald/graad_bepalen_2.md
     - file: statisch_onbepaald/graad_bepalen_3.md
-# START REMOVE-FROM-RELEASE
     - file: statisch_onbepaald/COZ1.md
     - file: statisch_onbepaald/COZ2.md
     - file: statisch_onbepaald/COZ3.md
     - file: statisch_onbepaald/COZ4.md
+# START REMOVE-FROM-RELEASE
   - file: matrixframe/lesson.md
     sections:
     - file: matrixframe/instructie
