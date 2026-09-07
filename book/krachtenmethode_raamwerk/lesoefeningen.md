@@ -96,6 +96,10 @@ Schets de mogelijke vervormingen ten gevolge van het momentenpaar $M_{\rm{C}}^{\
 :number:
 ```
 
+:::{note}
+Merk op dat de verplaatsingen zijn getekend alsof het scharnier net naast knoop $\rm{C}$ zit hoewel het scharnier net iets verder van de knoop is afgebeeld.
+:::
+
 ---
 
 :::::
@@ -116,6 +120,10 @@ Schets de mogelijke vervormingen ten gevolge van het uitwendige koppel van $30 \
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_3
 :number:
 ```
+
+:::{note}
+Merk op dat de verplaatsingen zijn getekend alsof het scharnier net naast knoop $\rm{C}$ zit hoewel het scharnier net iets verder van de knoop is afgebeeld.
+:::
 
 ---
 
