@@ -491,7 +491,7 @@ M[0.297]
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De uitdrukkingen voor de hoekverdraaiingen worden gevonden met behulp van de vergeet-mij-nietjes voor een ligger op twee steunpunten belast door een koppel en door een verdeelde belasting, de positieve richtingen worden genomen zoals in de figuur aangegeven. 
