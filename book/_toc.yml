@@ -16,7 +16,6 @@ parts:
     - file: statisch_onbepaald/graad_bepalen.md
     - file: statisch_onbepaald/graad_bepalen_2.md
     - file: statisch_onbepaald/graad_bepalen_3.md
-# START REMOVE-FROM-RELEASE
     - file: statisch_onbepaald/COZ1.md
     - file: statisch_onbepaald/COZ2.md
     - file: statisch_onbepaald/COZ3.md
@@ -30,6 +29,7 @@ parts:
     - file: matrixframe/COZ1.md
     - file: matrixframe/COZ2.md
     - file: matrixframe/COZ3.md
+# START REMOVE-FROM-RELEASE
   - file: krachtenmethode_vakwerk/lesson.md
     sections:
     - file: krachtenmethode_vakwerk/theorie.md
