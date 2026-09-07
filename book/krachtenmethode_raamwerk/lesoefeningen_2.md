@@ -506,60 +506,52 @@ $$ \varphi_{\rm{B}}^{\rm{BC}} \left( M_{\rm{B}}^{\rm{BD}}, M_{\rm{B}}^{\rm{AB}} 
 
 % solution_end
 
-:::::{exercise}
-:label: raam_2_5
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Los met de vormveranderingsvoorwaarden en evenwichtsvergelijking de onbekenden $M_{\rm{D}}$, $M_{\rm{B}}^{\rm{BD}}$, $M_{\rm{B}}^{\rm{AB}}$ en $M_{\rm{B}}^{\rm{BC}}$ op.
+---
+M[5]
+M[-17.5]
+M[12]
+^^^
+? Los de vormveranderingsvoorwaarden op om de statisch onbepaalde krachten te vinden.
 
-```{h5p} https://tudelft.h5p.com/content/1292652282254607197/embed
-```
+- $M_{\rm{D}}^{\rm{AC}}= $ {gap} $\rm{kNm}$
+- $M_{\rm{B}}^{\rm{BD}}= $ {gap} $\rm{kNm}$
+- $M_{\rm{B}}^{\rm{AB}}= $ {gap} $\rm{kNm}$
 
-:::::
-
-% solution_start
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-Er zijn 4 onbekenden en 4 vergelijkingen. De vergelijkingen bestaan uit de momentenevenwichtsvergelijking uit de vorige deelvraag en de onderstaande vormveranderingsvoorwaarden:
-
-$$ \varphi _ {\rm{B}} ^{\rm{BC}} = \varphi _ {\rm{B}} ^{\rm{AB}} \rightarrow 0.01 \cdot M_{\rm{B}}^{\rm{AB}} = 0.006 \cdot M_{\rm{B}}^{\rm{BC}} + 0.297 $$
-$$ \varphi _ {\rm{B}} ^{\rm{AB}} = \varphi _ {\rm{B}} ^{\rm{BD}} \rightarrow 0.01 \cdot M_{\rm{B}}^{\rm{AB}} = -0.004 \cdot  M_{\rm{D}} -0.008 \cdot M_{\rm{B}}^{\rm{BD}} $$
-$$ \varphi _ {\rm{D}} ^{\rm{AD}} = \varphi _ {\rm{D}} ^{\rm{BD}} \rightarrow  0.006 \cdot M_{\rm{D}} = -0.008 \cdot  M_{\rm{D}} -0.004 \cdot M_{\rm{B}}^{\rm{BD}} $$
-
-Hieruit volgt:
-
-$$ M_{\rm{D}} = 5 \rm{kNm} $$
-$$ M_{\rm{B}}^{\rm{BD}} = -17.5 \rm{kNm} $$
-$$ M_{\rm{B}}^{\rm{AB}} = 12 \rm{kNm} $$
-$$ M_{\rm{B}}^{\rm{BC}} = -29.5 \rm{kNm} $$
+---
 
 ::::
 
-% solution_end
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-:::::{exercise}
-:label: raam_2_6
-:nonumber: true
+---
+M[-29.5]
+M[0]
+M[34.75]
+MAPE[5/6;0.01;3]
+MAPE[1997/48;0.1;4]
+^^^
+? Los de vormveranderingsvoorwaarden op om de statisch onbepaalde krachten te vinden.
 
-Los de volledige krachtsverdeling op.
+- $M_{\rm{B}}^{\rm{BC}}= $ {gap} $\rm{kNm}$ (◡)
+- $M_{\rm{A}}= $ {gap} $\rm{kNm}$
+- $M_{\rm{halverwege \  BC}}= $ {gap} $\rm{kNm}$ (◡)
+- $N_{\rm{BD}}= $ {gap} $\rm{kN}$
+- $B_{\rm{v}}= $ {gap} $\rm{kN}$
 
-```{h5p} https://tudelft.h5p.com/content/1292652285215101017/embed
-```
-
-:::::
-
-% solution_start
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-$$ M_{\rm{A}} = 0 \rm{kNm} $$
-$$ M_{\rm{halverwege} \ \rm{BC}} = 34.75 \rm{kNm} (◡) $$ 
-$$ N_{\rm{BD}} \approx 0.83  \rm{kN} $$
-$$ B_{\rm{v}} \approx 41.60 \rm{kN} $$
+---
 
 ::::
-
-% solution_end
