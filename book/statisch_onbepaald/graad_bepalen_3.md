@@ -37,9 +37,6 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende verbindingskrachten. Da
 
 ::::
 
-
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -53,8 +50,6 @@ number:
 ```
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -74,8 +69,6 @@ Er zijn {gap} evenwichtsvergelijkingen
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -89,8 +82,6 @@ number:
 ```
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -110,16 +101,12 @@ De constructie is {gap}ste/de graads uitwendig statisch onbepaald
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
 $3 - 3 = 0$
 
 ::::
-
-% solution_end
 
 ## Inwendig statisch onbepaaldheid
 
@@ -143,8 +130,6 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende staafkrachten. Dat zijn
 ---
 
 ::::
-
-% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -171,8 +156,6 @@ number:
 
 ::::
 
-% solution_end
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -194,8 +177,6 @@ Er zijn {gap} evenwichtsvergelijkingen vanuit knopen en {gap} vanuit staven. Dat
 ---
 
 ::::
-
-% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -220,8 +201,6 @@ number:
 
 ::::
 
-% solution_end
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -240,13 +219,9 @@ De constructie is {gap}ste/de graads uitwendig statisch onbepaald.
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
 $23 - 22 = 1 $
 
 ::::
-
-% solution_end

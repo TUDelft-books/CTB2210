@@ -38,8 +38,6 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende staafkrachten. Dat zijn
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -65,8 +63,6 @@ Er zijn *6* onbekende oplegreacties en *34* onbekende staafkrachten. Dat zijn *4
 
 ::::
 
-% solution_end
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -88,8 +84,6 @@ Er zijn {gap} evenwichtsvergelijkingen vanuit knopen en {gap} vanuit staven. Dat
 ---
 
 ::::
-
-% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -116,8 +110,6 @@ number:
 
 ::::
 
-% solution_end
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -136,16 +128,12 @@ De constructie is {gap}ste/de graads uitwendig statisch onbepaald.
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
 $$40 - 36 = 4 $$
 
 ::::
-
-% solution_end
 
 ## Wel onderscheid tussen pendelstaven en reguliere staven
 
@@ -178,16 +166,12 @@ Welke staaf/staven zijn pendelstaven?
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Alleen staaf $\rm{EG}$ gaat van een scharnierende verbinding naar een scharnierende verbinding.
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -209,8 +193,6 @@ Er zijn {gap} onbekende oplegreacties en {gap} onbekende staafkrachten. Dat zijn
 ---
 
 ::::
-
-% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -239,8 +221,6 @@ Door de pendelstaaf zijn er 2 minder onbekende krachten.
 
 ::::
 
-% solution_end
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -262,8 +242,6 @@ Er zijn {gap} evenwichtsvergelijkingen vanuit knopen en {gap} vanuit staven. Dat
 ---
 
 ::::
-
-% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -292,8 +270,6 @@ number:
 
 ::::
 
-% solution_end
-
 
 ::::{question} Opgave
 :type: short-answer
@@ -313,8 +289,6 @@ De constructie is {gap}ste/de graads uitwendig statisch onbepaald.
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -323,5 +297,3 @@ $$38 - 34 = 4 $$
 Dus de pendelstaaf heeft er niet voor gezorgd dat de constructie meer of minder statisch onbepaald is.
 
 ::::
-
-% solution_end

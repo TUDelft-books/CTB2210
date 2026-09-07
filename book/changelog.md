@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2026-09-08 : v2026.3.0
+Toevoegen uitwerkingen van de begeleide oefeningen van les over statisch onbepaaldheid.
+
 ## 2026-09-07 : v2026.2.0
 - Publiatie hoofdstuk MatrixFrame
 - Aanpassingen t.o.v. vorig jaar:
