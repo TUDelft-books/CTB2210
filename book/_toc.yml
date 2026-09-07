@@ -20,7 +20,6 @@ parts:
     - file: statisch_onbepaald/COZ2.md
     - file: statisch_onbepaald/COZ3.md
     - file: statisch_onbepaald/COZ4.md
-# START REMOVE-FROM-RELEASE
   - file: matrixframe/lesson.md
     sections:
     - file: matrixframe/instructie
@@ -30,6 +29,7 @@ parts:
     - file: matrixframe/COZ1.md
     - file: matrixframe/COZ2.md
     - file: matrixframe/COZ3.md
+# START REMOVE-FROM-RELEASE
   - file: krachtenmethode_vakwerk/lesson.md
     sections:
     - file: krachtenmethode_vakwerk/theorie.md
