@@ -123,7 +123,7 @@ M[4]
 ^^^
 ? De graad van statisch onbepaaldheid is het aantal oplegreacties + verbindingskrachten - aantal evenwichtsvergelijkingen
 
-De constructie is {gap}ste/de graads uitwendig statisch onbepaald.
+De constructie is {gap}ste/de graads inwendig statisch onbepaald.
 ---
 
 ::::
@@ -284,7 +284,7 @@ M[4]
 ^^^
 ? De graad van statisch onbepaaldheid is het aantal oplegreacties + verbindingskrachten - aantal evenwichtsvergelijkingen
 
-De constructie is {gap}ste/de graads uitwendig statisch onbepaald.
+De constructie is {gap}ste/de graads inwendig statisch onbepaald.
 ---
 
 ::::
