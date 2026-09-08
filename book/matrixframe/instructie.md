@@ -119,7 +119,7 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
     :nonumber: true
 
     In dit voorbeeld is er enkel een $EI$ gegeven, terwijl we een losse $E$ en $I$ moeten invoeren. Daarom kan je twee getallen kiezen waarvan het product $780 
-    \, \rm{kNm}^2 = 7.8 \cdot 10^{11} \, \rm{Nmm}^2$ is, bijvoorbeeld $E = 200 \cdot 10^3 \, \rm{N/mm}^2$ en $I = 3.9 \cdot 10^{8} \, \rm{mm}^4$. $EA$ is $\infty$, waarvoor we een grote numerieke waarde kunnen invoeren, bijvoorbeeld $A  = 1 \cdot 10^10 \, \rm{mm}^2$. 
+    \, \rm{kNm}^2 = 7.8 \cdot 10^{11} \, \rm{Nmm}^2$ is, bijvoorbeeld $E = 200 \cdot 10^3 \, \rm{N/mm}^2$ en $I = 3.9 \cdot 10^{8} \, \rm{mm}^4$. $EA$ is $\infty$, waarvoor we een grote numerieke waarde kunnen invoeren, bijvoorbeeld $A  = 1 \cdot 10^{10} \, \rm{mm}^2$. 
 
     Als alles is ingevoerd is dit het resultaat:
 
