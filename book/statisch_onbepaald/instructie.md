@@ -272,7 +272,7 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
 
 ## Zelfde instructies in collegevorm
 
-Dit onderwerp is [in 2025 in les 1](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/fc174f1ac52e415bb30998603fd2b4351d?sortBy=most-recent) gepresenteerd in collegevorm van 0:34:40 tot 1:00:40. De opname in collegejaar 2026/2027 volgt na het college.
+Dit onderwerp is [dit jaar in les 4](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/391bc9ef53a54caf8d556ba2f0088e0a1d?academicYear=2026-2027-ctb2210) gepresenteerd in collegevorm van 0:02:40 tot 0:39:10 (TU Delft login vereist). [In 2025 is dit onderwerp in les 1](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/fc174f1ac52e415bb30998603fd2b4351d?sortBy=most-recent) gepresenteerd in collegevorm van 0:34:40 tot 1:00:40 (publiek beschikbaar)
 
 ## Extra opgaves in boek
 - Opgaves 4.11 - 4.22, van hoofdstuk 4 van het boek *Mechanica: Evenwicht* {cite:p}`Hartsuijker1999`. Negeer de vragen over kinematisch bepaaldheid. Antwoorden zijn beschikbaar op [deze website](https://icozct.tudelft.nl/TUD_CT/bookanswers/vol1/Chapter4/).

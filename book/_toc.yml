@@ -29,13 +29,13 @@ parts:
     - file: matrixframe/COZ1.md
     - file: matrixframe/COZ2.md
     - file: matrixframe/COZ3.md
-# START REMOVE-FROM-RELEASE
   - file: krachtenmethode_vakwerk/lesson.md
     sections:
     - file: krachtenmethode_vakwerk/theorie.md
     - file: krachtenmethode_vakwerk/lesoefeningen.md
     - file: krachtenmethode_vakwerk/COZ1.md
     - file: krachtenmethode_vakwerk/COZ2.md
+# START REMOVE-FROM-RELEASE
   - file: krachtenmethode_vakwerk/lesson_2.md
     sections:
     - file: krachtenmethode_vakwerk/instructie.md
