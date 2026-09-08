@@ -56,6 +56,11 @@ parts:
     - file: krachtenmethode_raamwerk/COZ3.md
     - file: krachtenmethode_raamwerk/COZ4.md
   - file: krachtenmethode_rek_raamwerk/lesson.md
+    sections:
+    - file: krachtenmethode_rek_raamwerk/instructie.md
+    - file: krachtenmethode_rek_raamwerk/lesoefening_1.md
+    - file: krachtenmethode_rek_raamwerk/COZ5.md
+    - file: krachtenmethode_rek_raamwerk/COZ6.md
   - file: TOZ/opgave.md
   - file: steunpuntszetting_stijfheden/lesson.md
     sections:
