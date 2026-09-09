@@ -352,9 +352,11 @@ $$EI = 5 \ \rm{MNm^2}, EA >> EI$$
     \\
     w_{\rm{A,h}}\left( A_{\rm{v}}, A_{\rm{h}} \right) &= 0 \\
     \cfrac{6A_{\rm{h}}}{EA} &= 0 \\
-    A_{\rm{h}} &= 0 \ \rm{kN}
+    A_{\rm{h}} &\to 0 \ \rm{kN}
     \end{align*}
     $$
+
+    Omdat $EA \gg EI$ gaat A_{\rm{h}} naar $0$. Vaak versimpelen we de notatie en zeggen we: $A_{\rm{h}} = 0 \ \rm{kN}$.
 
     De vervormingen van de statisch onbepaalde constructie kunnen ook geschetst worden. In dit geval had dat zelfs al van tevoren gekund (zonder exacte waardes) aangezien de richtingen van de verplaatsingen te bepalen zijn zonder berekening:
 
@@ -366,8 +368,6 @@ $$EI = 5 \ \rm{MNm^2}, EA >> EI$$
     ---
     
     ```
-
-
     ::::::
 
 ## Meer voorbeelden
