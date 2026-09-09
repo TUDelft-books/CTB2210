@@ -18,8 +18,8 @@ number:
 
 ```
 
--$EI = 64 \ \rm{MNm^2}$
--$EA = 4 \ \rm{MN}$
+- $EI = 64 \ \rm{MNm^2}$
+- $EA = 4 \ \rm{MN}$
 
 ```{figure-end}
 ```
@@ -55,18 +55,28 @@ number:
 
     ````{tab-item} De inklemming bij $\rm{A}$ vervangen door een scharnier
     :sync: keyraamrek_1
-    ```{figure} ./instructie_data/optie1.svg
+    ```{figure-start} ./instructie_data/optie1.svg
     :align: center
     :number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
+
+    $ \varphi_{\rm{A}} = 0 $
+
+    ```{figure-end}
+    ```
     ````
     ````{tab-item} Staaf $\rm{BD}$ splitsen
     :sync: keyraamrek_2
-    ```{figure} ./instructie_data/optie2.svg
+    ```{figure-start} ./instructie_data/optie2.svg
     :align: center
     :number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
+    ```
+
+    $ w_{\rm{D}}^{\rm{BD}} = w_{\rm{D}}^{\rm{BD}}$
+
+    ```{figure-end}
     ```
 
     ````
@@ -80,17 +90,22 @@ number:
     ````
     ````{tab-item} Scharnier toevoegen tussen $\rm{A}$ en $\rm{D}$
     :sync: keyraamrek_4
-    ```{figure} ./instructie_data/optie4.svg
+    ```{figure-start} ./instructie_data/optie4.svg
     :align: center
     :number:
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
+    ```
+
+    $\varphi_{\rm{S}}^{\rm{AS}} = \varphi_{\rm{S}}^{\rm{SD}}$
+
+    ```{figure-end}
     ```
     ````
     ````{tab-item} Scharnier toevoegen tussen $\rm{D}$ en $\rm{E}$
     ```{figure} ./instructie_data/optie5.svg
     :align: center
     :number:
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
     Deze constructie is een mechanisme dus geen geschikte statisch bepaalde constructie.
     ````
@@ -98,7 +113,7 @@ number:
     ```{figure} ./instructie_data/optie6.svg
     :align: center
     :number:
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
     Deze constructie is een mechanisme dus geen geschikte statisch bepaalde constructie.
     ````
@@ -106,51 +121,40 @@ number:
     ```{figure} ./instructie_data/optie7.svg
     :align: center
     :number:
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
     Deze constructie is een mechanisme dus geen geschikte statisch bepaalde constructie.
     ````
     `````
 
-    Voor elk van de opties die geen mechanisme zijn kunnen we de verplaatsingen schetsen om een variant te kiezen die een simpel verplaatsingspatroon heeft:
+    Voor elk van de opties die geen mechanisme zijn kunnen we de verplaatsingen schetsen door zowel de statisch onbepaalde kracht en de al aanwezige belasting om een variant te kiezen die een simpel verplaatsingspatroon heeft:
 
     ```````{tab-set}
     :sync-group: raamwerk
 
-    ``````{tab-item} Horizontale oplegging bij $\rm{B}$ loslaten en scharnier toevoegen in $\rm{B}$
-    :sync: keyraam_1
-    
-    :::::{grid}
-    :class-container: center-grid
+    ``````{tab-item} De inklemming bij $\rm{A}$ vervangen door een scharnier
+    :sync: keyraamrek_1
 
-    ::::{grid-item}
-    :columns: auto
-
-    ```{figure} ./theorie_data/optie_1_verplaatsingen_1.svg
+    ```{figure} ./instructie_data/optie1_verplaatsingen_1.svg
     :align: center
     :number:
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
-    ::::
 
-    ::::{grid-item}
-    :columns: auto
+    Dit is een redelijk goed te doen verplaatsingspatroon, waarbij het rechter gedeelte alleen star roteert en geen invloed heeft op de rotatie van $\rm{A}$. De linker ligger kan worden behandeld met het vergeet-me-nietje van een ligger op twee steunpunten met een puntlast in het midden en een koppel op het uiteinde, die ook nog om een vast punt een starre rotatie ondergaat.
 
-    ```{figure} ./theorie_data/optie_1_verplaatsingen_2.svg
+    ```{figure} ./instructie_data/optie1_verplaatsingen_2.svg
     :align: center
     :number:
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
-    ::::
 
-    :::::
-
-    Ligger $\rm{AB}$ wordt niet korter of langer, dus dat deel van de constructie zal niet vervormen. Het overige gedeelte is te bepalen met het vergeet-me-nietje van een ligger op twee steunpunten met een koppel op het uiteinde en een uitkragende ligger met een puntlast op het uiteinde. Enkel het moment in $\rm{C}$ zal moeten worden bepaald om de vervormingen te kunnen berekenen.
+    In dit geval zijn de verplaatsingen van het rechter gedeelte wederom niet van invloed op de verplaatsingen van het linker gedeelte. $\rm{AE}$ kan gemodelleerd worden als een ligger op twee steunpunten met een puntlast in het midden die ook nog om een vast punt een starre rotatie ondergaat. Niet het makkelijkste verplaatsingspatroon, maar wel goed te doen.   
 
     ``````
 
-    ``````{tab-item} Horizontale oplegging bij $\rm{B}$ en $\rm{C}$ loslaten
-    :sync: keyraam_2
+    ``````{tab-item} Staaf $\rm{BD}$ splitsen
+    :sync: keyraamrek_2
 
     :::::{grid}
     :class-container: center-grid
@@ -158,20 +162,22 @@ number:
     ::::{grid-item}
     :columns: auto
 
-    ```{figure} ./theorie_data/optie_2_verplaatsingen_1.svg
+    ```{figure} ./instructie_data/optie2_verplaatsingen_1.svg
     :align: center
     :number:
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
+
+    Dit is een goed te doen verplaatsingspatroon. $\rm{BD}$ verlengt alleen maar en $\rm{AD}$ kan worden behandeld als een uitkragende ligger met een kracht op het uiteinde. Het rechter gedeelte roteert alleen star en heeft geen invloed heeft op de zakking van $\rm{D}$.
     ::::
 
     ::::{grid-item}
     :columns: auto
 
-    ```{figure} ./theorie_data/optie_2_verplaatsingen_2.svg
+    ```{figure} ./instructie_data/optie2_verplaatsingen_2.svg
     :align: center
     :number:
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
     ::::
 
@@ -182,8 +188,8 @@ number:
 
     ``````
 
-    ``````{tab-item} Horizontale en verticale oplegging bij $\rm{A}$ loslaten
-    :sync: keyraam_3
+    ``````{tab-item} Scharnier toevoegen tussen $\rm{A}$ en $\rm{D}$
+    :sync: keyraamrek_4
 
     :::::{grid}
     :class-container: center-grid
@@ -211,37 +217,6 @@ number:
     :::::
 
     Ligger $\rm{AB}$ wordt niet korter of langer, maar kan nog wel buigen. De vervormingen zijn daarmee te bepalen met het vergeet-me-nietje van een ligger op twee steunpunten met een koppel op het uiteinde en een uitkragende ligger met een puntlast op het uiteinde. Daarbij moeten de inwendige momenten in $\rm{B}$ en $\rm{C}$ bepaald worden om de vervormingen te kunnen berekenen.
-    ``````
-
-    ``````{tab-item} Horizontale oplegging bij $\rm{A}$ loslaten en scharnier toevoegen in $\rm{B}$
-    :sync: keyraam_4
-
-    :::::{grid}
-    :class-container: center-grid
-
-    ::::{grid-item}
-    :columns: auto
-
-    ```{figure} ./theorie_data/optie_4_verplaatsingen_1.svg
-    :align: center
-    :number:
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
-    ```
-    ::::
-
-    ::::{grid-item}
-    :columns: auto
-
-    ```{figure} ./theorie_data/optie_4_verplaatsingen_2.svg
-    :align: center
-    :number:
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
-    ```
-    ::::
-
-    :::::
-
-    Ligger $\rm{AB}$ wordt niet korter of langer, dus dat deel van de constructie zal niet vervormen. Het overige gedeelte is te bepalen met het vergeet-me-nietje van een ligger op twee steunpunten met een koppel op het uiteinde en een uitkragende ligger met een puntlast op het uiteinde. Enkel het moment in $\rm{C}$ zal moeten worden bepaald om de vervormingen te kunnen berekenen.
     ``````
 
     ```````
