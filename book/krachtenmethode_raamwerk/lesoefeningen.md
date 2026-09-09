@@ -63,7 +63,7 @@ Waarom zijn dit lastige constructies om op te lossen?
 
 ::::
 
-Laten we de constructie oplossing met hoekveranderingsvergelijkingen, door een scharnier toe te voegen bij hoek $\rm{C}$. Daar werkt echter ook een uitwendig koppel. We voegen het scharnier daarom net links van het scharnier aan:
+Laten we de constructie oplossing met hoekveranderingsvergelijkingen, door een scharnier toe te voegen bij hoek $\rm{C}$. Daar werkt echter ook een uitwendig koppel. We voegen het scharnier daarom net links van het knooppunt toe:
 
 ```{figure-start} ./lesoefeningen_data/scharnier_links_C.svg
 :align: center
