@@ -57,7 +57,7 @@ De constructie is {gap}ste/de graads inwendig statisch onbepaald.
 :::{fetch} {numref}`stat_onbepaald_raamwerk_1`
 :::
 
-Er zijn 25 onbekende krachten
+Er zijn 4 onbekende oplegreacties en 21 onbekende verbindingskrachten, dus 25 onbekende krachten in totaal.
 
 :::{fetch} {numref}`stat_onbepaald_raamwerk_2`
 :::
