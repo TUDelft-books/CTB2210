@@ -356,7 +356,7 @@ $$EI = 5 \ \rm{MNm^2}, EA >> EI$$
     \end{align*}
     $$
 
-    Omdat $EA \gg EI$ gaat A_{\rm{h}} naar $0$. Vaak versimpelen we de notatie en zeggen we: $A_{\rm{h}} = 0 \ \rm{kN}$.
+    Omdat $EA \gg EI$ gaat $A_{\rm{h}}$ naar $0$. Vaak versimpelen we de notatie en zeggen we: $A_{\rm{h}} = 0 \ \rm{kN}$.
 
     De vervormingen van de statisch onbepaalde constructie kunnen ook geschetst worden. In dit geval had dat zelfs al van tevoren gekund (zonder exacte waardes) aangezien de richtingen van de verplaatsingen te bepalen zijn zonder berekening:
 
