@@ -35,12 +35,12 @@ parts:
     - file: krachtenmethode_vakwerk/lesoefeningen.md
     - file: krachtenmethode_vakwerk/COZ1.md
     - file: krachtenmethode_vakwerk/COZ2.md
-# START REMOVE-FROM-RELEASE
   - file: krachtenmethode_vakwerk/lesson_2.md
     sections:
     - file: krachtenmethode_vakwerk/instructie.md
     - file: krachtenmethode_vakwerk/lesoefeningen2.md
     - file: krachtenmethode_vakwerk/COZ3.md
+# START REMOVE-FROM-RELEASE
   - file: krachtenmethode_balk/lesson.md
     sections:
     - file: krachtenmethode_balk/instructie.md

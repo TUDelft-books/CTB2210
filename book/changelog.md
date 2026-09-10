@@ -1,5 +1,9 @@
 # Changelog 🔖
 
+## 2026-09-10 : v2026.4.0
+- Toevoegen collegeramaopname van les over MatrixFrame
+- Toevoegen les krachtenmethode rek en williot
+
 ## 2026-09-08 : v2026.3.0
 - Toevoegen uitwerkingen van de begeleide oefeningen van les over statisch onbepaaldheid.
 - Toevoegen collegeramaopname van les over statisch onbepaaldheid
