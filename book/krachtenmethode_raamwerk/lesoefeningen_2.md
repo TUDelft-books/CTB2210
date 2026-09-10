@@ -157,9 +157,9 @@ Gegeven is de volgende mogelijke aangepaste constructie:
 
 Is deze constructie statisch bepaald, statisch onbepaald of een mechanisme?
 ---
-[x] Deze constructie is statisch bepaald.
+[ ] Deze constructie is statisch bepaald.
 > Er zijn slechts 2 aanpassingen gedaan, waarvan elke aanpassing de graad van statische onbepaaldheid met 1 verlaagd.
-[ ] Deze constructie is statisch onbepaald.
+[x] Deze constructie is statisch onbepaald.
 [ ] Deze constructie is een mechanisme.
 > Er zijn geen globale of lokale mechanismes!
 ---
