@@ -35,16 +35,15 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
     ```
 
     $w_1 \left( N \right) = w_2 \left( N \right) \to N$
-
-    :::{note}
-    De richting van $w_1$ en $w_2$ is niet noodzakelijk de daadwerkelijk richting van de verplaatsing (in dit geval zou $w_2$ de andere kant op vervormen). Met deze pijlen geven we alleen de positieve richting aan zodat we deze twee zonder tekenwissel aan elkaar gelijk kunnen stellen.
-    :::
     
     ```{figure-end}
     ```
 
     ````
     `````
+    :::{note}
+    De richting van $w_1$ en $w_2$ is niet noodzakelijk de daadwerkelijk richting van de verplaatsing (in dit geval zou $w_2$ de andere kant op vervormen). Met deze pijlen geven we alleen de positieve richting aan zodat we deze twee zonder tekenwissel aan elkaar gelijk kunnen stellen.
+    :::
 
     ``````
     ``````{tab-item} Splitsen constructie bij pendelstaven
@@ -101,16 +100,17 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
     ```
 
     $\varphi_1 \left( M \right) = \varphi_2 \left( M \right) \to M$
-
-    :::{note}
-    De richting van $\varphi_1$ en $\varphi_2$ is niet noodzakelijk de daadwerkelijk richting van de verplaatsing (in dit geval zou $\varphi_2$ de andere kant op vervormen). Met deze pijlen geven we alleen de positieve richting aan zodat we deze twee zonder tekenwissel aan elkaar gelijk kunnen stellen.
-    :::
     
     ```{figure-end}
     ```
 
     ````
     `````
+
+    :::{note}
+    De richting van $\varphi_1$ en $\varphi_2$ is niet noodzakelijk de daadwerkelijk richting van de verplaatsing (in dit geval zou $\varphi_2$ de andere kant op vervormen). Met deze pijlen geven we alleen de positieve richting aan zodat we deze twee zonder tekenwissel aan elkaar gelijk kunnen stellen.
+    :::
+    
     ``````
     ```````
     
