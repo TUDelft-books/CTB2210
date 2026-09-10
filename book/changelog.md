@@ -31,5 +31,6 @@
 % solution_start
 - Schrappen les over verplaatsingenmethode met statisch onbepaalde verplaatsingen
 - Verduidelijken onafhankelijkheid van vrijheidsgraden in [Verplaatsingenmethode  met vrijheidsgraden - Instructie](verplaats2/theorie.md)
+- Nieuwe aanpak voor krachtenmethode met scharnieren bij knooppunten in [Krachtenmethode raamwerken - Instructie](krachtenmethode_raamwerk/instructie.md)
 - Toevoegen les over verschillende methodes in [Vergelijking methodes](methodes/lesson.md)
 % solution_end
