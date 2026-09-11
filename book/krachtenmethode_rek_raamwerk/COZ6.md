@@ -36,12 +36,6 @@ Gegeven is de volgende constructie:
 ```{figure-end}
 ```
 
-- $ EI = 500 \, \rm{MNm}^2 $
-- $ EA = 20 \ \rm{MN} $
-
-```{figure-end}
-```
-
 ::::{admonition} Opgave
 :class: exercise
 
