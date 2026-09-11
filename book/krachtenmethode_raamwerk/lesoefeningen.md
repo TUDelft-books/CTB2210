@@ -152,19 +152,6 @@ M[-0.015]
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-De uitdrukkingen voor de hoekverdraaiingen kunnen worden gevonden met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel. 
-
-$$ \varphi_{\rm{C}}^{\rm{AC}} \left( M_{\rm{C}}^{\rm{AC}} \right) = \cfrac{M_{\rm{C}}^{\rm{AC}} \cdot 6}{3 \cdot 2000} = 0.001 \cdot M_{\rm{C}}^{\rm{AC}} $$
-$$ \varphi_{\rm{C}}^{\rm{BC}} \left( M_{\rm{C}}^{\rm{AC}} \right) = - \cfrac{\left(M_{\rm{C}}^{\rm{AC}} + 30 \right) \cdot \sqrt{13}}{3 \cdot \cfrac{2000 \cdot \sqrt{13}}{3}} = -0.0005 \cdot M_{\rm{C}}^{\rm{AC}} - 0.015  $$
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -185,16 +172,6 @@ $M_{\rm{C}}^{\rm{AC}}= $ {gap} $\rm{kNm}$
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-De vormveranderingsvoorwaarde is: $\varphi_{\rm{C}}^{\rm{AC}} = \varphi_{\rm{C}}^{\rm{BC}} \rightarrow M_{\rm{C}}^{\rm{AC}} = -10 \ \rm{kNm}$.
-
-::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -215,16 +192,6 @@ $M_{\rm{C}}^{\rm{BC}}= $ {gap} $\rm{kNm}$
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Het moment is $-10 + 30 = 20 \ \rm{kNm}$ met druk aan de rechteronderzijde.
-
-::::
-
-% solution_end
 
 
 :::::{question} Opgave

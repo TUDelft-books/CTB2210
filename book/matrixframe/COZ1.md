@@ -33,16 +33,6 @@ Wat is de horizontale oplegreactie bij $\rm{C}$?
 
 ::::
 
-% solution_start
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-$29.95 \, \rm{kN}$ naar links
-
-::::
-
-% solution_end
 
 ::::{admonition} Opgave
 :class: exercise
@@ -51,16 +41,6 @@ Wat is het moment in de ligger $\rm{DEC}$ bij $\rm{E}$?
 
 ::::
 
-% solution_start
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-$2.56 \, \rm{kNm}$ ◠
-
-::::
-
-% solution_end
 
 ::::{admonition} Opgave
 :class: exercise
@@ -69,24 +49,4 @@ Wat is de maximale zakking in $\rm{EC}$?
 
 ::::
 
-% solution_start
 
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-$14.3 \, \rm{mm}$ omlaag
-
-::::
-
-% solution_end
-
-% solution_start
-
-::::{admonition} Uitwerking MatrixFramebestand
-:class: solution, dropdown
-
-Het bestand van dit voorbeeld is [hier](./coz_data/coz1.mxf) te downloaden.
-
-::::
-
-% solution_end

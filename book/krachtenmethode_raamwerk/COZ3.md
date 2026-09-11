@@ -34,12 +34,3 @@ Bepaal het inklemmingsmoment in $\rm{A}$.
 
 ::::
 
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-$112 \, \rm{kNm}$ (ᑕ)
-::::
-
-% solution_end
