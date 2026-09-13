@@ -38,8 +38,6 @@ De constructie is {gap}ste/de graads inwendig statisch onbepaald
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -55,8 +53,6 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 Er zijn 10 onbekende krachten en 9 evenwichtsvergelijkingen. Dus de constructie is 1ste graads statisch onbepaald
 
 ::::
-
-% solution_end
 
 We overwegen de volgende alternatieven als statisch onbepaalde constructie:
 
@@ -345,8 +341,6 @@ M[-0.01872]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -383,8 +377,6 @@ $$ w_{\rm{D}} = \Delta L_{\rm{AD}} = \cfrac{N_{\rm{AD}} \cdot L_{\rm{AD}}}{EA} =
 $$ w_{\rm{B}} = w_{\rm{D}} + \cfrac{3}{5} \cdot \left( w_{\rm{E}} - w_{\rm{D}} \right) = \cfrac{3}{5} \cdot w_{\rm{E}} + \cfrac{2}{5} \cdot w_{\rm{D}} = 0.00052 \cdot B_{\rm{v}} - 0.01872 $$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -527,8 +519,6 @@ M[-0.0325]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -559,8 +549,6 @@ $$ \varphi _ {\rm{B}} ^{\rm{DB}} = -\cfrac{w_{\rm{D}}}{3} = -\cfrac{\Delta L_{\r
 $$ \varphi _ {\rm{B}} ^{\rm{BE}} = \cfrac{w_{\rm{E}}}{2} = - \cfrac{\Delta L_{\rm{CE}}}{2} = -\cfrac{N_{\rm{CE}} \cdot L_{\rm{CE}}}{2 \cdot EA} = -0.00025 \cdot M_{\rm{B}} - 0.0325 $$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -700,8 +688,6 @@ M[0.09750]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -729,9 +715,6 @@ $$ w_{\rm{D}} ^{\rm{AD}} = \Delta L_{\rm{AD}} = \cfrac{N_{\rm{AD}} \cdot L_{\rm{
 $$ w_{\rm{D}} ^{\rm{BD}} = -\varphi_{\rm{B}} \cdot 3 = - \cfrac{w_{\rm{E}}}{2} \cdot 3 = -0.00225 \cdot N_{\rm{AD}} + 0.0975 $$
 
 ::::
-
-% solution_end
-
 
 ::::{question} Opgave
 :type: short-answer

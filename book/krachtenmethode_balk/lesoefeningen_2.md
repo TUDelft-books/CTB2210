@@ -312,7 +312,7 @@ M[0.09]
 ^^^
 ? Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $M_{\rm{C}}$, met $M_{\rm{C}}$ in $\rm{kNm}$, $B_{\rm{v}}$ en $V_{\rm{C}}^{\rm{AC}}$ in $\rm{kN}$, $\varphi$ in $\rm{rad}$, $w_{\rm{C}}$ in $\rm{m}$ en het gegeven assenstelsel.
 
-- $B_{\rm{v}} \left( M_{\rm{C}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kNm}}{\rm{kNm}}\right) \cdot M_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$
+- $B_{\rm{v}} \left( M_{\rm{C}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kNm}}\right) \cdot M_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$
 - $V_{\rm{C}}^{\rm{AC}} \left( M_{\rm{C}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kNm}}\right) \cdot M_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$
 - $\varphi_{\rm{C}}^{\rm{AC}} \left( M_{\rm{C}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kNm}}\right) \cdot M_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{rad}\right)$
 - $w_{\rm{C}} \left( M_{\rm{C}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kNm}}\right) \cdot M_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{m}\right)$

@@ -66,11 +66,13 @@ Wat is de graad van inwendig statisch bepaaldheid van deze constructie?
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
+:name: stat_onbepaald_raamwerk
 
 ```{figure} ../krachtenmethode_raamwerk/lesoefeningen_data/Onbekenden.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_coz
 :number:
+:name: stat_onbepaald_raamwerk_1
 ```
 
 Er zijn 25 onbekende krachten
@@ -79,6 +81,7 @@ Er zijn 25 onbekende krachten
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_coz
 :number:
+:name: stat_onbepaald_raamwerk_2
 ```
 
 Er zijn 22 evenwichtsvergelijkingen

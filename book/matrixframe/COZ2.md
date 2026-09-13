@@ -29,7 +29,7 @@ Gegeven is de volgende constructie:
 ```
 
 - $EI = \cfrac{1000}{3} \, \rm{kNm^2}$
-- $EA \gg EI \, \rm{MN}$
+- $EA \gg EI $
 
 ```{figure-end}
 ```

@@ -119,7 +119,7 @@ Tip, $\cdot10^6$ kan je invoeren als `e6`. Het is hierbij van belang dat je enig
     :nonumber: true
 
     In dit voorbeeld is er enkel een $EI$ gegeven, terwijl we een losse $E$ en $I$ moeten invoeren. Daarom kan je twee getallen kiezen waarvan het product $780 
-    \, \rm{kNm}^2 = 7.8 \cdot 10^{11} \, \rm{Nmm}^2$ is, bijvoorbeeld $E = 200 \cdot 10^3 \, \rm{N/mm}^2$ en $I = 3.9 \cdot 10^{8} \, \rm{mm}^4$. $EA$ is $\infty$, waarvoor we een grote numerieke waarde kunnen invoeren, bijvoorbeeld $A  = 1 \cdot 10^10 \, \rm{mm}^2$. 
+    \, \rm{kNm}^2 = 7.8 \cdot 10^{11} \, \rm{Nmm}^2$ is, bijvoorbeeld $E = 200 \cdot 10^3 \, \rm{N/mm}^2$ en $I = 3.9 \cdot 10^{8} \, \rm{mm}^4$. $EA$ is $\infty$, waarvoor we een grote numerieke waarde kunnen invoeren, bijvoorbeeld $A  = 1 \cdot 10^{10} \, \rm{mm}^2$. 
 
     Als alles is ingevoerd is dit het resultaat:
 
@@ -317,4 +317,4 @@ Het bestand van dit voorbeeld is [hier](./matrixframe_data/example.mxf) te downl
 
 ## Instructies in collegevorm
 
-Dit onderwerp is [in 2025 in les 2](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/d57b95f9b71e4f218640c870c28a88031d?sortBy=most-recent) gepresenteerd in collegevorm. De opname in collegejaar 2026/2027 volgt na het college.
+Dit onderwerp is [dit jaar in les 4](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/c67d273f54834a27aed86d02824e62281d?academicYear=2026-2027-ctb2210) gepresenteerd in collegevorm van 0:04:00 tot 0:35:45 (TU Delft login vereist). [In 2025 is dit onderwerp in les 2](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/d57b95f9b71e4f218640c870c28a88031d?sortBy=most-recent) gepresenteerd in collegevorm (publiek beschikbaar).

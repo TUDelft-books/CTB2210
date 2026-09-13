@@ -32,16 +32,12 @@ Voer de geometrie in en ga verder met de profielgegevens. Welke profielgegeven v
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Je kan zelf wat verzinnen omdat de constructie statisch bepaald is. De oplegreacties en krachtsverdeling zijn onafhankelijk van de stijfheidsgegevens van de constructie. Er zijn wel profielgegevens nodig om voor de berekening, maar deze kunnen willekeurig zijn.
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -67,8 +63,6 @@ M[1]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -78,8 +72,6 @@ M[1]
 - Rondom D moet één staaf scharnierend aan de doorlopende staaf verbonden worden. Dat kan met een scharnierende aansluiting op het uiteinde van de pendelstaaf.
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -102,10 +94,6 @@ MAP[59.72;1]
 ---
 
 ::::
-
-
-% solution_start
-
 
 ::::{admonition} Oplossing
 :class: solution, dropdown
@@ -142,5 +130,3 @@ number:
 Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_1.mxf) te downloaden.
 
 ::::
-
-% solution_end

@@ -211,7 +211,7 @@ source: bending_data/constructie.py
 
     Met behulp van de vergeet-mij-nietjes kunnen de rotaties direct worden geëvalueerd zonder het evalueren van inwendige krachten:
 
-    - $\varphi_{\rm{B}}^{\rm{AB}} \left( M_{\rm{B}} \right) = \cfrac{4M_{\rm{B}}}{3EI} + \cfrac{200}{3EI}$
+    - $\varphi_{\rm{B}}^{\rm{AB}} \left( M_{\rm{B}} \right) = \cfrac{4M_{\rm{B}}}{3EI} + \cfrac{1}{24}\cfrac{25 \cdot 4^3}{EI} =  \cfrac{4M_{\rm{B}}}{3EI} + \cfrac{200}{3EI}$
     - $\varphi_{\rm{B}}^{\rm{BC}} \left( M_{\rm{B}} \right) = -\cfrac{2M_{\rm{B}}}{EI}$
 
     ::::::
