@@ -3,6 +3,7 @@
 ## 2026-09-15: v2026.7.0
 - Toevoegen oplossingen en uitwerkingen van de COZ opgaves van blok 2.
 - Toevoegen les krachtenmethode raamwerken
+- Toevoegen uitwerkingen van de begeleide oefeningen van les over krachtenmethode rek en williot
 - Aanpassingen t.o.v. vorig jaar:
     - Nieuwe aanpak voor krachtenmethode met scharnieren bij knooppunten in [Krachtenmethode raamwerken - Instructie](krachtenmethode_raamwerk/instructie.md)
 
