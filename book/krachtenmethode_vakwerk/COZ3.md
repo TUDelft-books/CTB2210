@@ -45,16 +45,8 @@ Tip: als je de opleggingen verandert in rolopleggingen krijg je een complexe ver
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
+::::{admonition} Oplossing
 :class: solution, dropdown
-
-:::{todo}
-[Bijwerken uitwerkingen](https://github.com/TUDelft-books/CTB2210/issues/81)
-:::
 
 De verplaatsing van $\rm{E}$ is $6.147 \, \rm{mm}$ naar beneden.
 ::::
-
-% solution_end
