@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2026-09-14: v2026.6.0
+- Toevoegen les krachtenmethode balk
+
 ## 2026-09-11: v2026.5.0
 - Toevoegen uitwerkingen van de begeleide oefeningen van les over MatrixFrame.
 - Toevoegen uitwerkingen van de begeleide oefeningen van les over krachtenmethode rek.

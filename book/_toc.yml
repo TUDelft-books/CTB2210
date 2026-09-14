@@ -40,7 +40,6 @@ parts:
     - file: krachtenmethode_vakwerk/instructie.md
     - file: krachtenmethode_vakwerk/lesoefeningen2.md
     - file: krachtenmethode_vakwerk/COZ3.md
-# START REMOVE-FROM-RELEASE
   - file: krachtenmethode_balk/lesson.md
     sections:
     - file: krachtenmethode_balk/instructie.md
@@ -48,6 +47,7 @@ parts:
     - file: krachtenmethode_balk/lesoefeningen_2.md
     - file: krachtenmethode_balk/COZ1.md
     - file: krachtenmethode_balk/COZ2.md
+# START REMOVE-FROM-RELEASE
   - file: krachtenmethode_raamwerk/lesson.md
     sections:
     - file: krachtenmethode_raamwerk/instructie.md
