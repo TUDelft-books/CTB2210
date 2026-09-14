@@ -2,6 +2,9 @@
 
 ## 2026-09-14: v2026.6.0
 - Toevoegen les krachtenmethode balk
+- Correctie [COZ opgave 2.8](./krachtenmethode_vakwerk/COZ1.md): 
+  - Correctie van de vraagstelling: "Bepaal de zakking in $\rm{D}$" i.p.v. "Bepaal de zakking in $\rm{G}$"
+  - Toevoegen oplossing van de zakking in $\rm{D}$.
 
 ## 2026-09-11: v2026.5.0
 - Toevoegen uitwerkingen van de begeleide oefeningen van les over MatrixFrame.
