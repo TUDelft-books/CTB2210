@@ -132,7 +132,7 @@ Invullen in $w_{\rm{G}} = 0.22 - 0.01 \cdot D_{\rm{v}}$ geeft: $w_{\rm{G}} = 20 
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
-$w_{\rm{D}} = 148.5 \ \rm{mm}$ (↓)
+$w_{\rm{D}} = 49.5 \ \rm{mm}$ (↓)
 
 ::::
 
