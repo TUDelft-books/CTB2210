@@ -308,8 +308,6 @@ M[-6.25]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -403,8 +401,6 @@ Dit geeft:
 
 ::::
 
-% solution_end
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -444,15 +440,11 @@ MAPE[-25/3;0.1;3]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
 De verlenging / verkorting kan worden berekend met $\Delta L = \cfrac{{NL}}{{EA}}$
 ::::
-
-% solution_end
 
 Om de verplaatsingen te vinden van de knopen kijken we afzonderlijk naar de invloed van de horizontale kracht $B_{\rm{h}}$ en van de belasting van $20 \ \rm{kN}$. Hiermee worden de Williot-diagrammetjes iets simpeler
 
@@ -673,8 +665,6 @@ Teken de vervormde statisch **onbepaalde** constructie op schaal.
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -695,5 +685,3 @@ Invullen van $B_{\rm{h}} = 7.5 \ \rm{kN}$ en optellen bij de verplaatsingen ten 
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 ```
-
-% solution_end

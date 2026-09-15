@@ -37,8 +37,6 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -53,16 +51,12 @@ $ 4 - 3 = 1$
 
 ::::
 
-% solution_end
-
 ::::{admonition} Opgave
 :class: exercise
 
 Wat is de graad van inwendig statisch bepaaldheid van deze constructie?
 
 ::::
-
-% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -89,4 +83,3 @@ Er zijn 22 evenwichtsvergelijkingen
 $25 - 22 = 3 $
 
 ::::
-% solution_end
