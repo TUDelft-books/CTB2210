@@ -34,8 +34,6 @@ Bepaal de zakking in $\rm{D}$ met behulp van de krachtenmethode en teken de verv
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -101,7 +99,7 @@ Verlenging van staaf geeft:
 
 $$w_{\rm{C}} = w_{\rm{E}} - \Delta l_{\rm{CE}} = 1.485 - 0.075 \cdot C_{\rm{v}}$$
 
-Oplossen van de vormveranderingsvoorwaarde geeft: $w_{\rm{C}} =0 \to V_{\rm{v}} = 19.8 \ \rm{ kN}$
+Oplossen van de vormveranderingsvoorwaarde geeft: $w_{\rm{C}} =0 \to C_{\rm{v}} = 19.8 \ \rm{ kN}$
 
 Invullen in $w_{\rm{D}} = 0.495 - 0.0225 \cdot C_{\rm{v}}$ geeft: $w_{\rm{D}} = 49.5 \ \rm{ mm}$
 
@@ -114,6 +112,3 @@ De vervormde constructie is weergegeven in de onderstaande figuur.
 ```
 
 ::::
-
-% solution_end
-
