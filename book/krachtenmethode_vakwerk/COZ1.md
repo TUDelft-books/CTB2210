@@ -37,10 +37,6 @@ Bepaal de zakking in $\rm{D}$ met behulp van de krachtenmethode en teken de verv
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-:::{todo}
-[Bijwerken uitwerkingen](https://github.com/TUDelft-books/CTB2210/issues/74)
-:::
-
 Voor deze constructie is de inwendige statisch onbepaaldheid gelijk aan de uitwendig statisch onbepaaldheid.
 
 ```{figure} ./COZ_data/statisch_onbepaaldheid.svg
