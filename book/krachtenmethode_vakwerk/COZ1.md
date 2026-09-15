@@ -1,13 +1,13 @@
 # COZ opgave 2.8
 
 ::::::{note}
-Deze opgave kan in ANS gemaakt worden.
-:::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
-:::
+Deze opgave kan in [ANS](https://ans.app/universities/1/courses/712480/assignments/1860496/go_to) gemaakt worden.
+
+Als je nog geen toegang hebt tot deze toets, registreer je dan via [deze link](https://ans.app/accept/invitations/07b7bc5a-d334-43d7-9532-a1434730f6d7).
+
 ::::::
 
-% https://ans.app/repo_questions/...
+% https://ans.app/repo_questions/65438895/generator
 
 Gegeven is de volgende constructie:
 
@@ -30,7 +30,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 ::::{admonition} Opgave
 :class: exercise
 
-Bepaal de zakking in $\rm{G}$ met behulp van de krachtenmethode en teken de vervormde constructie.
+Bepaal de zakking in $\rm{D}$ met behulp van de krachtenmethode en teken de vervormde constructie.
 
 ::::
 
@@ -128,3 +128,11 @@ Invullen in $w_{\rm{G}} = 0.22 - 0.01 \cdot D_{\rm{v}}$ geeft: $w_{\rm{G}} = 20 
 ::::
 
 % solution_end
+
+::::{admonition} Oplossing
+:class: solution, dropdown
+
+$w_{\rm{D}} = 49.5 \ \rm{mm}$ (↓)
+
+::::
+

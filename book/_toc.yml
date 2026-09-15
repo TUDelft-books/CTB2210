@@ -8,7 +8,6 @@ parts:
   - file: contact_information
   - url: https://brightspace.tudelft.nl/d2l/home/844361
     title: Brightspace 📢
-# START REMOVE-FROM-RELEASE
 - caption: Lesstof 🧑‍🏫
   chapters:
   - file: statisch_onbepaald/lesson.md
@@ -40,16 +39,22 @@ parts:
     sections:
     - file: krachtenmethode_vakwerk/instructie.md
     - file: krachtenmethode_vakwerk/lesoefeningen2.md
+    - file: krachtenmethode_vakwerk/COZ3.md
   - file: krachtenmethode_balk/lesson.md
     sections:
     - file: krachtenmethode_balk/instructie.md
     - file: krachtenmethode_balk/lesoefeningen.md
     - file: krachtenmethode_balk/lesoefeningen_2.md
+    - file: krachtenmethode_balk/COZ1.md
+    - file: krachtenmethode_balk/COZ2.md
   - file: krachtenmethode_raamwerk/lesson.md
     sections:
     - file: krachtenmethode_raamwerk/instructie.md
     - file: krachtenmethode_raamwerk/lesoefeningen.md
     - file: krachtenmethode_raamwerk/lesoefeningen_2.md
+    - file: krachtenmethode_raamwerk/COZ3.md
+    - file: krachtenmethode_raamwerk/COZ4.md
+# START REMOVE-FROM-RELEASE
   - file: krachtenmethode_rek_raamwerk/lesson.md
   - file: TOZ/opgave.md
   - file: steunpuntszetting_stijfheden/lesson.md

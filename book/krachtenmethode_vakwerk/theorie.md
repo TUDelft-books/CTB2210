@@ -28,14 +28,22 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
     ```` 
     ````{grid-item}
 
-    ```{figure} theorie_data/aanpas_1_2.svg
+    ```{figure-start} theorie_data/aanpas_1_2.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
 
+    $w_1 \left( N \right) = w_2 \left( N \right) \to N$
+    
+    ```{figure-end}
+    ```
+
     ````
     `````
+    :::{note}
+    De richting van $w_1$ en $w_2$ is niet noodzakelijk de daadwerkelijk richting van de verplaatsing (in dit geval zou $w_2$ de andere kant op vervormen). Met deze pijlen geven we alleen de positieve richting aan zodat we deze twee zonder tekenwissel aan elkaar gelijk kunnen stellen.
+    :::
 
     ``````
     ``````{tab-item} Splitsen constructie bij pendelstaven
@@ -55,10 +63,15 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
     ````
     ````{grid-item}
 
-    ```{figure} theorie_data/aanpas_2_2.svg
+    ```{figure-start} theorie_data/aanpas_2_2.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
+    ```
+
+    $$ w \left( B_{\rm{v}} \right) = 0 \to B_{\rm{v}}$$
+    
+    ```{figure-end}
     ```
 
     ````
@@ -80,14 +93,24 @@ De krachtenmethode is een aanpak om statisch onbepaalde constructies door te rek
     ````
     ````{grid-item}
 
-    ```{figure} theorie_data/aanpas_3_2.svg
+    ```{figure-start} theorie_data/aanpas_3_2.svg
     :align: center
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_rek
     :number:
     ```
 
+    $\varphi_1 \left( M \right) = \varphi_2 \left( M \right) \to M$
+    
+    ```{figure-end}
+    ```
+
     ````
     `````
+
+    :::{note}
+    De richting van $\varphi_1$ en $\varphi_2$ is niet noodzakelijk de daadwerkelijk richting van de verplaatsing (in dit geval zou $\varphi_2$ de andere kant op vervormen). Met deze pijlen geven we alleen de positieve richting aan zodat we deze twee zonder tekenwissel aan elkaar gelijk kunnen stellen.
+    :::
+    
     ``````
     ```````
     
@@ -343,11 +366,11 @@ number:
 
 In hoofdstuk 2.1 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` wordt de krachtemethode in het algemeen behandeld. Specifiek voor simpele vakwerkconstructies wordt behandeld in hoofdstuk 2.2.8 - 2.2.9.
 
-## Instructies in collegevorm
+## Zelfde instructies in collegevorm
 
 Dit onderwerp is [in 2025 in les 4](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/b59d1e6849ba4f92957d462f07f7e37f1d?sortBy=most-recent) gepresenteerd in collegevorm van 0:11:30 tot 0:43:10. De opname in collegejaar 2026/2027 volgt na het college.
 
-## Oefeningen
+## Extra opgaves in boek
 - Opgaves 2.31 - 2.39, in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
 
 Antwoorden zijn [hier beschikbaar](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol3/Chapter1-2/).

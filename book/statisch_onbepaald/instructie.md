@@ -5,7 +5,7 @@ Een constructie is statisch onbepaald wanneer deze niet meer enkel met evenwicht
 - Enkel oplegreacties kunnen worden bepaald (uitwendig statisch bepaald)
 - Inwendige krachten kunnen worden bepaald (inwendig statisch bepaald)
 
-De inwendige statisch bepaaldheid is meer werk om te berekenen. Als de constructie open is, dat wil zeggen dat er geen gesloten 'lussen' in de constructie zitten, is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid. Je kan dan 
+De inwendige statisch bepaaldheid is meer werk om te berekenen. Als de constructie open is, dat wil zeggen dat er geen gesloten 'lussen' in de constructie zitten, is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid. Aangezien het berekenen van de inwendige statisch bepaaldheid meer werk is kan je dat voorkomen door de uitwendige statisch bepaaldheid te berekenen.
 
 ```{figure} ./determinancy_data/gesloten_vs_open.svg
 ---
@@ -134,13 +134,13 @@ Voor de berekening van inwendig statisch onbepaaldheid gelden de volgende stappe
 :label: graad_inwendig_stat_onbepaaldheid
 
 1. Controleer of de constructie open is. Als de constructie open is, dan is de inwendige statisch bepaaldheid gelijk aan de uitwendige statisch bepaaldheid en voldoet de simpelere berekening voor uitwendige statisch onbepaaldheid. Zo niet, ga verder met stap 2.
-2. Splits de constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor mogelijke krachten op de knopen. Houd daarbij rekening houdend met welke staven en opleggingen er aan de knopen verbonden zijn.
+2. Splits de constructie in alle losse knopen en staven, en teken het vrijlichaamsschema voor mogelijke krachten op de knopen. Houd daarbij rekening houdend met scharnieren, opleggingen en vrije uiteindes.
 3. Teken het vrijlichaamsschema voor de staven: teken de even grote maar tegengestelde reactiekrachten op de staven ten gevolge van de krachten op de knopen.
 4. Tel het aantal onbekende krachten: oplegreacties en staafkrachten (de even grote maar tegengestelde reactiekrachten tellen niet apart mee)
 5. Tel het aantal onafhankelijke evenwichtsvergelijkingen dat je op elk vrijlichaamsschema kan toepassen om de onbekende krachten te bepalen.
 6. De graad van statisch onbepaaldheid is het aantal onbekende oplegreacties + onbekende staafkrachten - aantal evenwichtsvergelijkingen
 
-Eventueel kan je ook nog onderscheid maken tussen pendelstaven en reguliere staven. In dat geval zijn er minder onbekende krachten, maar heb je per pendelstaaf ook maar 1 evenwichtsvergelijking. Let in dat geval op dat je bij de aansluitende knopen niet te veel evenwichtsvergelijkingen meeneemt.
+Eventueel kan je ook nog onderscheid maken tussen pendelstaven en reguliere staven. In dat geval zijn er minder onbekende krachten in de knopen en op de uiteindes van de staven, maar heb je per pendelstaaf ook maar 1 evenwichtsvergelijking. Let er in dat geval op dat je bij de aansluitende knopen ook niet te veel evenwichtsvergelijkingen meeneemt.
 
 ::::::
 
@@ -270,10 +270,10 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
 ```{hide-sticky-margin}
 ```
 
-## Instructies in collegevorm
+## Zelfde instructies in collegevorm
 
-Dit onderwerp is [in 2025 in les 1](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/fc174f1ac52e415bb30998603fd2b4351d?sortBy=most-recent) gepresenteerd in collegevorm van 0:34:40 tot 1:00:40. De opname in collegejaar 2026/2027 volgt na het college.
+Dit onderwerp is [dit jaar in les 4](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/391bc9ef53a54caf8d556ba2f0088e0a1d?academicYear=2026-2027-ctb2210) gepresenteerd in collegevorm van 0:02:40 tot 0:39:10 (TU Delft login vereist). [In 2025 is dit onderwerp in les 1](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/fc174f1ac52e415bb30998603fd2b4351d?sortBy=most-recent) gepresenteerd in collegevorm van 0:34:40 tot 1:00:40 (publiek beschikbaar)
 
-## Opgaves in boek
+## Extra opgaves in boek
 - Opgaves 4.11 - 4.22, van hoofdstuk 4 van het boek *Mechanica: Evenwicht* {cite:p}`Hartsuijker1999`. Negeer de vragen over kinematisch bepaaldheid. Antwoorden zijn beschikbaar op [deze website](https://icozct.tudelft.nl/TUD_CT/bookanswers/vol1/Chapter4/).
 - Opgave  9.6, van hoofdstuk 9 van het boek *Mechanica: Evenwicht* {cite:p}`Hartsuijker1999`. Negeer de vragen over kinematisch bepaaldheid. Antwoorden zijn beschikbaar op [deze website](https://icozct.tudelft.nl/TUD_CT/bookanswers/vol1/Chapter9/).

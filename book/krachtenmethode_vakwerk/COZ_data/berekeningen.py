@@ -23,7 +23,7 @@ w_H = sym.Integer(0)
 print('w_H=',w_H.expand(),'=',w_H.evalf())
 w_E = w_H + N_EH * L4 / EA * a
 print('w_E=',w_E.subs(a,1).expand(),'=',w_E.subs(a,1).evalf())
-w_G = w_E / L1 * (L1 + L2 + L3)
+w_G = w_E    / L1 * (L1 + L2 + L3)
 print('w_G=',w_G.subs(a,1).expand(),'=',w_G.subs(a,1).evalf())
 w_D = w_G - N_DG * L4 / EA
 print('w_D=',w_D.subs(a,1).expand(),'=',w_D.subs(a,1).evalf())

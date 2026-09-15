@@ -10,10 +10,10 @@ Deze oefening is aangepast de [tweede opgave van dit tentamen](https://icozct.tu
 # COZ opgave 2.9
 
 ::::::{note}
-Deze opgave kan in ANS gemaakt worden.
-:::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
-:::
+Deze opgave kan in [ANS](https://ans.app/universities/1/courses/712480/assignments/1860496/go_to) gemaakt worden.
+
+Als je nog geen toegang hebt tot deze toets, registreer je dan via [deze link](https://ans.app/accept/invitations/07b7bc5a-d334-43d7-9532-a1434730f6d7).
+
 ::::::
 
 % https://ans.app/repo_questions/65198943/generator
@@ -58,9 +58,7 @@ Tip: de constructie is meervoudig statisch onbepaald, je hebt dus ook meerdere s
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
+::::{admonition} Oplossing
 :class: solution, dropdown
 
 De constructie is drievoudig statisch onbepaald en kan statisch bepaald worden gemaakt door drie van de verende opleggingen te verwijderen. In deze uitwerking worden de krachten in de staven bij $\rm{C}$, $\rm{D}$ en $\rm{E}$ gekozen als statisch onbepaalde krachten, maar elke combinatie van drie krachten is mogelijk. Voor de krachten in de veren wordt trek aangehouden als positief. 
@@ -139,5 +137,3 @@ De staafkrachten zijn:
 - $N_{\rm{E}} = -1085 \ \rm{kN}$
 
 ::::
-
-% solution_end

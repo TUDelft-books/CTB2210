@@ -226,8 +226,8 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
     Dit geeft een verplaatsing van $\rm{D}$ van $\cfrac{5}{4} \Delta L_{\rm{CD}} $
 
     - $w_{\rm{D}}\left( B_{\rm{v}} \right) = \cfrac{1750}{EA} - \cfrac{125 B_{\rm{v}}}{6 EA} \left( \downarrow \right) $
-    - $w_{\rm{E}}\left( B_{\rm{v}} \right) = \cfrac{3500}{EA} - \cfrac{125 B_{\rm{v}}}{3 EA} \left( \downarrow \right) $
-    - $w_{\rm{B}}\left( B_{\rm{v}} \right) = \cfrac{3500}{EA} - \cfrac{140 B_{\rm{v}}}{3 EA} \left( \downarrow \right) $
+    - $w_{\rm{E}}\left( B_{\rm{v}} \right) = 2 \cdot w_{\rm{D}} = \cfrac{3500}{EA} - \cfrac{125 B_{\rm{v}}}{3 EA} \left( \downarrow \right) $
+    - $w_{\rm{B}}\left( B_{\rm{v}} \right) = w_{\rm{E}} + \Delta L_{\rm{BE}} = \cfrac{3500}{EA} - \cfrac{140 B_{\rm{v}}}{3 EA} \left( \downarrow \right) $
 
     ::::::
 
@@ -266,10 +266,10 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 
 In hoofdstuk 2.1 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` wordt de krachtenmethode in het algemeen behandeld. Specifiek voor vakwerkconstructies waarbij ook williot nodig is wordt behandeld in hoofdstuk 2.2.10.
 
-## Instructies in collegevorm
+## Zelfde instructies in collegevorm
 
 Dit onderwerp is in [2025 in les 5](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/99cfa289d58d4986a4378be10efb40c31d?sortBy=most-recent) gepresenteerd in collegevorm tot 0:42:50. De opname in collegejaar 2026/2027 volgt na het college.
 
-## Oefeningen
+## Extra opgaves in boek
 - Opgaves 2.40 en 2.41, in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
 Antwoorden zijn [hier beschikbaar](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol3/Chapter1-2/).

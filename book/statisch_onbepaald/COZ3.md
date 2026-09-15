@@ -10,11 +10,10 @@ Deze oefening is aangepast de [les van 7 oktober](https://oit.tudelft.nl/CT1000/
 # COZ opgave 2.3
 
 ::::::{note}
-Deze opgave kan in ANS gemaakt worden.
+Deze opgave kan in [ANS](https://ans.app/universities/1/courses/712480/assignments/1860496/go_to) gemaakt worden.
 
-:::{todo}
-[Toevoegen link naar ANS toets.](https://github.com/TUDelft-books/CTB2210/issues/90)
-:::
+Als je nog geen toegang hebt tot deze toets, registreer je dan via [deze link](https://ans.app/accept/invitations/07b7bc5a-d334-43d7-9532-a1434730f6d7).
+
 ::::::
 
 % https://ans.app/repo_questions/63870250/generator
@@ -38,8 +37,6 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -54,8 +51,6 @@ $ 4 - 3 = 1$
 
 ::::
 
-% solution_end
-
 ::::{admonition} Opgave
 :class: exercise
 
@@ -63,15 +58,15 @@ Wat is de graad van inwendig statisch bepaaldheid van deze constructie?
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
+:name: stat_onbepaald_raamwerk
 
 ```{figure} ../krachtenmethode_raamwerk/lesoefeningen_data/Onbekenden.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_coz
 :number:
+:name: stat_onbepaald_raamwerk_1
 ```
 
 Er zijn 25 onbekende krachten
@@ -80,6 +75,7 @@ Er zijn 25 onbekende krachten
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_coz
 :number:
+:name: stat_onbepaald_raamwerk_2
 ```
 
 Er zijn 22 evenwichtsvergelijkingen
@@ -87,4 +83,3 @@ Er zijn 22 evenwichtsvergelijkingen
 $25 - 22 = 3 $
 
 ::::
-% solution_end
