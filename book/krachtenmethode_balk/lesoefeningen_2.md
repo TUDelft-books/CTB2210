@@ -212,8 +212,6 @@ M[0.675]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -242,8 +240,6 @@ $$ w_{\rm{B}} \left( B_{\rm{v}} \right) = w_{\rm{C}} - \varphi_{\rm{C}} \cdot 3 
 
 ::::
 
-% solution_end
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -263,8 +259,6 @@ $B_{\rm{v}}= $ {gap} $\rm{kN}$ (↑)
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -273,8 +267,6 @@ De vormveranderingsvoorwaarde is: $w_{\rm{B}} = -0.045 \cdot B_{\rm{v}} + 0.675 
 Hieruit volgt dat $B_{\rm{v}} = 15 \rm{kN}$
 
 ::::
-
-% solution_end
 
 ## Statisch bepaald systeem 2
 
@@ -322,9 +314,6 @@ M[0.09]
 
 ::::
 
-
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -356,8 +345,6 @@ $$ \varphi_{\rm{C}}^{\rm{BC}} \left( M_{\rm{C}} \right) = \cfrac{w_{\rm{C}}}{3} 
 
 ::::
 
-% solution_end
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -377,8 +364,6 @@ $M_{\rm{C}}= $ {gap} $\rm{kNm}$
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -387,8 +372,6 @@ De vormveranderingsvoorwaarde is: $\varphi_{\rm{C}}^{\rm{AC}} = \varphi_{\rm{C}}
 Hieruit volgt $M_{\rm{C}} = 45 \rm{kNm}$. 
 
 ::::
-
-% solution_end
 
 ## Krachtsverdeling en verplaatsingen statisch onbepaald systeem
 
@@ -448,16 +431,12 @@ $x_{\rm{buigpunt}}= $ {gap} $\rm{m}$
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De helling van de momentenlijn tussen $\rm{A}$ en $\rm{C}$ is gelijk aan de dwarskracht $V_{\rm{AC}} = 39 \, \rm{kN}$. De momentenlijn is dus $0$ bij $x_{\rm{buigpunt}} = \cfrac{M_{\rm{A}}}{V_{\rm{AC}}} = \cfrac{72}{39} = \cfrac{24}{13} \approx 1.85 \, \rm{m}$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: no-input
