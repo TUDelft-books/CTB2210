@@ -56,7 +56,6 @@ parts:
     - file: krachtenmethode_raamwerk/COZ4.md
 # START REMOVE-FROM-RELEASE
   - file: krachtenmethode_rek_raamwerk/lesson.md
-  - file: TOZ/opgave.md
   - file: steunpuntszetting_stijfheden/lesson.md
     sections:
     - file: steunpuntszetting_stijfheden/theorie1.md
@@ -68,6 +67,7 @@ parts:
     - file: temperatuur/theorie.md
     - file: temperatuur/lesoefening.md
     - file: temperatuur/lesoefening1.md
+  - file: TOZ/opgave.md
   - file: verplaats2/lesson.md
     sections:
     - file: verplaats2/theorie.md
