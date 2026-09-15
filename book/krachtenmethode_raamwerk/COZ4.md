@@ -35,16 +35,6 @@ Bepaal de verplaatsing van $\rm{D}$.
 
 ::::
 
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-$5.1 \, \rm{mm}$ naar beneden.
-
-::::
-
-% solution_end
 
 ::::{admonition} Opgave
 :class: exercise
@@ -53,16 +43,6 @@ Bepaal de dwarskracht in $\rm{BC}$.
 
 ::::
 
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-Absolute waarde van $13.6 \, \rm{kN}$
-
-::::
-
-% solution_end
 
 ::::{admonition} Opgave
 :class: exercise
@@ -71,16 +51,6 @@ Bepaal het inklemmingsmoment in $\rm{B}$.
 
 ::::
 
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-$34 \, \rm{kNm}$ (↻)
-
-::::
-
-% solution_end
 
 ::::{admonition} Opgave
 :class: exercise
@@ -89,13 +59,3 @@ Bepaal het moment net links van $\rm{C}$.
 
 ::::
 
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-$85 \, \rm{kNm}$ (◠)
-
-::::
-
-% solution_end
