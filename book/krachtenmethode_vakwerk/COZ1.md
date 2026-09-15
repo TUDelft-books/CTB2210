@@ -34,14 +34,8 @@ Bepaal de zakking in $\rm{D}$ met behulp van de krachtenmethode en teken de verv
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
-
-:::{todo}
-[Bijwerken uitwerkingen](https://github.com/TUDelft-books/CTB2210/issues/74)
-:::
 
 Voor deze constructie is de inwendige statisch onbepaaldheid gelijk aan de uitwendig statisch onbepaaldheid.
 
@@ -51,63 +45,47 @@ Voor deze constructie is de inwendige statisch onbepaaldheid gelijk aan de uitwe
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 ```
 
-Er zijn 9 onbekenden en 8 evenwichtsvergelijkingen, waarmee is de constructie enkelvoudig statisch onbepaald.
+Er zijn 6 onbekenden en 5 evenwichtsvergelijkingen, daarmee is de constructie enkelvoudig statisch onbepaald.
 
-Als voorbeeld is de krachtenmethode toegepast met het volgende statisch bepaalde system bekeken, maar andere methodes zijn ook goed:
+Als voorbeeld is de krachtenmethode toegepast met het volgende statisch bepaalde systeem bekeken, maar andere methodes zijn ook goed:
 
-```{figure} ./COZ_data/SB_5.svg
+```{figure} ./COZ_data/SB_systeem.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
+```
+De vormveranderingsvoorwaarde behorende bij dit systeem is $w_{\rm{C}} = 0$. 
+
+```{figure} ./COZ_data/FBD_C.svg
 :align: center
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 ```
 
-```{figure} ./COZ_data/FBD_D.svg
+$$\sum {F_{\rm{v}}} = 0 \to N_{\rm{CE}} = C_{\rm{v}}$$
+
+```{figure} ./COZ_data/FBD_AE.svg
 :align: center
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 ```
 
-$$\sum {F_{\rm{v}}} = 0 \to N_{\rm{DK}} = D_{\rm{v}}$$
+$$\sum {T_{\rm{A}}} = 0 \to N_{\rm{BD}} = 66 - 3 \cdot C_{\rm{v}}$$
 
-```{figure} ./COZ_data/FBD_AK.svg
+```{figure} ./COZ_data/AE.svg
 :align: center
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 ```
+Verlenging van staaf $\rm{BD}$ geeft:
 
-$$\sum {T_{\rm{A}}} = 0 \to N_{\rm{OG}} = 66 - 3 \cdot D_{\rm{v}}$$
-
-```{figure} ./COZ_data/BC.svg
-:align: center
-:number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
-```
-
-Vergeet-me-nietje geeft:
-
-$$w_{\rm{O}} = 0.022 - 0.001 \cdot D_{\rm{v}}$$
-
-```{figure} ./COZ_data/OG.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
-:number:
-```
-
-Verlenging van staaf geeft:
-
-$$w_{\rm{G}} = 0.22 - 0.01 \cdot D_{\rm{v}}$$
-
-```{figure} ./COZ_data/AK.svg
-:align: center
-:number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
-```
+$$w_{\rm{D}} = \cfrac{N_{\rm{BD}} \cdot l_{\rm{BD}}}{EA_{\rm{BD}}} = 0.495 - 0.0225 \cdot C_{\rm{v}}$$
 
 Rotatie van starre staaf geeft:
 
-$$w_{\rm{K}} = 0.66 - 0.03 \cdot D_{\rm{v}}$$
+$$w_{\rm{E}} = 3 \cdot w_{\rm{D}} = 1.485 - 0.0675 \cdot C_{\rm{v}}$$
 
-```{figure} ./COZ_data/DK.svg
+```{figure} ./COZ_data/CE.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 :number:
@@ -115,24 +93,18 @@ $$w_{\rm{K}} = 0.66 - 0.03 \cdot D_{\rm{v}}$$
 
 Verlenging van staaf geeft:
 
-$$w_{\rm{D}} = 0.66 - 0.033 \cdot D_{\rm{v}}$$
+$$w_{\rm{C}} = w_{\rm{E}} - \Delta l_{\rm{CE}} = 1.485 - 0.075 \cdot C_{\rm{v}}$$
 
-Oplossen van de vormveranderingsvoorwaarde geeft: $w_{\rm{D}} =0 \to D_{\rm{v}} = 20 \ \rm{ kN}$ (dit wordt 19.8 kN zonder het balkje bovenin)
+Oplossen van de vormveranderingsvoorwaarde geeft: $w_{\rm{C}} =0 \to C_{\rm{v}} = 19.8 \ \rm{ kN}$
 
-Invullen in $w_{\rm{G}} = 0.22 - 0.01 \cdot D_{\rm{v}}$ geeft: $w_{\rm{G}} = 20 \ \rm{ mm}$ (dit wordt 55 mm zonder het balkje bovenin)
+Invullen in $w_{\rm{D}} = 0.495 - 0.0225 \cdot C_{\rm{v}}$ geeft: $w_{\rm{D}} = 49.5 \ \rm{ mm}$
 
-:::{todo}
-[Toevoegen vervormde constructie](https://github.com/TUDelft-books/CTB2210/issues/74)
-:::
+De vervormde constructie is weergegeven in de onderstaande figuur.
 
-::::
-
-% solution_end
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-$w_{\rm{D}} = 49.5 \ \rm{mm}$ (↓)
+```{figure} ./COZ_data/vervormde_constructie.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
+:number:
+```
 
 ::::
-
