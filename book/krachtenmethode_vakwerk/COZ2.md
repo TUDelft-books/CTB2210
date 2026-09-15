@@ -90,7 +90,17 @@ $$ w_{\rm{A}} = \cfrac{N_{\rm{A}}}{K_{\rm{A}}} = \cfrac{7740 + \cfrac{3}{2} \cdo
 
 $$ w_{\rm{B}} = \cfrac{N_{\rm{B}}}{K_{\rm{B}}} = \cfrac{- 10320 - \cfrac{5}{2} \cdot N_{\rm{C}} - \cfrac{9}{2} \cdot N_{\rm{D}} - 5 \cdot N_{\rm{E}}}{200} = -51.6 - \cfrac{1}{80} \cdot N_{\rm{C}} - \cfrac{9}{400} \cdot N_{\rm{D}} - \cfrac{1}{40} \cdot N_{\rm{E}} $$
 
-Gegeven is dat de buigstijfheid $EI$ veel groter is dan de rekstijfheid $EA$. Deel $\rm{ABCDE}$ moet dus recht blijven, dit wordt gebruikt om de vormveranderingsvoorwaarden op te stellen. 
+Gegeven is dat de buigstijfheid $EI$ veel groter is dan de rekstijfheid $EA$. Deel $\rm{ABCDE}$ moet dus recht blijven, dit wordt gebruikt om de vormveranderingsvoorwaarden op te stellen, zie de onderstaande figuur.
+
+```{figure} ./COZ_data/Verplaatste_constructie.svg
+---
+align: center
+number:
+figclass: sticky-margin
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
+---
+
+```
 
 $$
 \begin{align}
