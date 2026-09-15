@@ -58,14 +58,8 @@ Tip: de constructie is meervoudig statisch onbepaald, je hebt dus ook meerdere s
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
+::::{admonition} Oplossing
 :class: solution, dropdown
-
-:::{todo}
-[Bijwerken uitwerkingen](https://github.com/TUDelft-books/CTB2210/issues/74)
-:::
 
 De staafkrachten zijn:
 - $N_{\rm{A}} = -67 \ \rm{kN}$
@@ -75,5 +69,3 @@ De staafkrachten zijn:
 - $N_{\rm{E}} = -1085 \ \rm{kN}$
 
 ::::
-
-% solution_end

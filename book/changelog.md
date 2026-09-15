@@ -1,5 +1,12 @@
 # Changelog 🔖
 
+## 2026-09-15: v2026.7.0
+- Toevoegen oplossingen en uitwerkingen van de COZ opgaves van blok 2.
+- Toevoegen les krachtenmethode raamwerken
+- Toevoegen uitwerkingen van de begeleide oefeningen van les over krachtenmethode rek en williot
+- Aanpassingen t.o.v. vorig jaar:
+    - Nieuwe aanpak voor krachtenmethode met scharnieren bij knooppunten in [Krachtenmethode raamwerken - Instructie](krachtenmethode_raamwerk/instructie.md)
+
 ## 2026-09-14: v2026.6.0
 - Toevoegen les krachtenmethode balk
 - Correctie [COZ opgave 2.8](./krachtenmethode_vakwerk/COZ1.md): 
@@ -41,6 +48,5 @@
 % solution_start
 - Schrappen les over verplaatsingenmethode met statisch onbepaalde verplaatsingen
 - Verduidelijken onafhankelijkheid van vrijheidsgraden in [Verplaatsingenmethode  met vrijheidsgraden - Instructie](verplaats2/theorie.md)
-- Nieuwe aanpak voor krachtenmethode met scharnieren bij knooppunten in [Krachtenmethode raamwerken - Instructie](krachtenmethode_raamwerk/instructie.md)
 - Toevoegen les over verschillende methodes in [Vergelijking methodes](methodes/lesson.md)
 % solution_end
