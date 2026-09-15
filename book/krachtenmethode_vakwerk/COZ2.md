@@ -94,7 +94,6 @@ Gegeven is dat de buigstijfheid $EI$ veel groter is dan de rekstijfheid $EA$. De
 ---
 align: center
 number:
-figclass: sticky-margin
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
 ---
 
