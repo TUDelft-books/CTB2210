@@ -57,7 +57,7 @@ De constructie is {gap}ste/de graads inwendig statisch onbepaald.
 :::{fetch} {numref}`stat_onbepaald_raamwerk_1`
 :::
 
-Er zijn 25 onbekende krachten
+Er zijn 4 onbekende oplegreacties en 21 onbekende verbindingskrachten, dus 25 onbekende krachten in totaal.
 
 :::{fetch} {numref}`stat_onbepaald_raamwerk_2`
 :::
@@ -157,9 +157,9 @@ Gegeven is de volgende mogelijke aangepaste constructie:
 
 Is deze constructie statisch bepaald, statisch onbepaald of een mechanisme?
 ---
-[x] Deze constructie is statisch bepaald.
+[ ] Deze constructie is statisch bepaald.
 > Er zijn slechts 2 aanpassingen gedaan, waarvan elke aanpassing de graad van statische onbepaaldheid met 1 verlaagd.
-[ ] Deze constructie is statisch onbepaald.
+[x] Deze constructie is statisch onbepaald.
 [ ] Deze constructie is een mechanisme.
 > Er zijn geen globale of lokale mechanismes!
 ---

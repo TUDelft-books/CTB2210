@@ -99,8 +99,6 @@ M[-0.45]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -130,8 +128,6 @@ $$ w_{\rm{A}} \left( A_{\rm{v}} \right) = \varphi_{\rm{B}} \cdot 4 - \cfrac{25 \
 
 ::::
 
-% solution_end
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -151,8 +147,6 @@ $A_{\rm{v}}= $ {gap} $\rm{kN}$ (↑)
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -161,8 +155,6 @@ De vormveranderingsvoorwaarde is: $w_{\rm{A}} = 0.01 \cdot A_{\rm{v}} -0.45 = 0$
 Hieruit volgt $A_{\rm{v}} = 45 \rm{kN}$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -174,9 +166,9 @@ Hieruit volgt $A_{\rm{v}} = 45 \rm{kN}$
 
 ---
 MAPE[175/3;0.1;4]
-MAPE[10/3;0.1;2]
-M[-20]
-M[40]
+MAPE[-10/3;0.1;2]
+M[20]
+M[-40]
 M[-0.0075]
 M[11.875]
 M[-8.4375]
@@ -195,8 +187,6 @@ M[-8.4375]
 ---
 
 ::::
-
-% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -218,8 +208,6 @@ De zakking halverwege BC kan worden bepaald met behulp van het vergeet-mij-nietj
 $$ w_{\rm{halverwege \ BC}} =  - \cfrac{1}{16} \cdot \cfrac{20 \cdot 6^2}{\cfrac{16}{3}} = -8.4375 \, \rm{mm} $$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: no-input

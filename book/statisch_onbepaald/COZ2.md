@@ -27,8 +27,6 @@ Wat is de graad van uitwendig statisch bepaaldheid van deze constructie?
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -42,16 +40,12 @@ $ 3 - 3 = 0 $
 
 ::::
 
-% solution_end
-
 ::::{admonition} Opgave
 :class: exercise
 
 Wat is de graad van inwendig statisch bepaaldheid van deze constructie?
 
 ::::
-
-% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -79,5 +73,3 @@ $ 33 - 33 = 0 $
 Indien er geen rekening is gehouden met pendelstaven komen er 6 onbekende krachten en 6 evenwichtsvergelijkingen bij.
 
 ::::
-
-% solution_end

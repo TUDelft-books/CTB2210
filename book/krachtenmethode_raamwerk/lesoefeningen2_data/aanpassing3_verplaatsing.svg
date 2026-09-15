@@ -2,8 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Gegenereerd door Microsoft Visio, SVG Export aanpassing3_verplaatsing.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.3864in" height="2.24204in"
-		viewBox="0 0 243.821 161.427" xml:space="preserve" color-interpolation-filters="sRGB" class="st12">
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.41239in" height="2.24204in"
+		viewBox="0 0 245.692 161.427" xml:space="preserve" color-interpolation-filters="sRGB" class="st14">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -19,7 +19,9 @@
 		.st9 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
 		.st10 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st11 {fill:#ffffff;stroke:#000000;stroke-dasharray:0.75,1.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
-		.st12 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st12 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st13 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st14 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -160,5 +162,33 @@
 			<title>Scharnier.4574</title>
 			<ellipse cx="2.12598" cy="159.301" rx="2.12598" ry="2.12598" class="st10"/>
 		</g>
+		<g id="shape4960-93" v:mID="4960" v:groupContext="shape" transform="translate(18.8002,-27.1149)">
+			<title>Punt A.4960</title>
+			<desc>A</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="154.34" width="14.18" height="14.1732"/>
+			<rect x="0" y="147.254" width="14.1732" height="14.1732" class="st12"/>
+			<text x="4" y="157.94" class="st13" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>A</text>		</g>
+		<g id="shape4961-96" v:mID="4961" v:groupContext="shape" transform="translate(133.603,-130.579)">
+			<title>Punt A.4961</title>
+			<desc>B</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="154.34" width="14.18" height="14.1732"/>
+			<rect x="0" y="147.254" width="14.1732" height="14.1732" class="st12"/>
+			<text x="4" y="157.94" class="st13" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>B</text>		</g>
+		<g id="shape4962-99" v:mID="4962" v:groupContext="shape" transform="translate(231.399,-112.154)">
+			<title>Punt A.4962</title>
+			<desc>C</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="154.34" width="14.18" height="14.1732"/>
+			<rect x="0" y="147.254" width="14.1732" height="14.1732" class="st12"/>
+			<text x="4" y="157.94" class="st13" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>C</text>		</g>
+		<g id="shape4963-102" v:mID="4963" v:groupContext="shape" transform="translate(18.8002,-112.154)">
+			<title>Punt A.4963</title>
+			<desc>D</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="154.34" width="14.18" height="14.1732"/>
+			<rect x="0" y="147.254" width="14.1732" height="14.1732" class="st12"/>
+			<text x="4" y="157.94" class="st13" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>D</text>		</g>
 	</g>
 </svg>

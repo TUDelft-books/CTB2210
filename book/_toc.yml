@@ -35,7 +35,6 @@ parts:
     - file: krachtenmethode_vakwerk/lesoefeningen.md
     - file: krachtenmethode_vakwerk/COZ1.md
     - file: krachtenmethode_vakwerk/COZ2.md
-# START REMOVE-FROM-RELEASE
   - file: krachtenmethode_vakwerk/lesson_2.md
     sections:
     - file: krachtenmethode_vakwerk/instructie.md
@@ -55,6 +54,7 @@ parts:
     - file: krachtenmethode_raamwerk/lesoefeningen_2.md
     - file: krachtenmethode_raamwerk/COZ3.md
     - file: krachtenmethode_raamwerk/COZ4.md
+# START REMOVE-FROM-RELEASE
   - file: krachtenmethode_rek_raamwerk/lesson.md
     sections:
     - file: krachtenmethode_rek_raamwerk/instructie.md

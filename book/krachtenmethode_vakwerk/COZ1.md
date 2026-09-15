@@ -30,7 +30,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 ::::{admonition} Opgave
 :class: exercise
 
-Bepaal de zakking in $\rm{G}$ met behulp van de krachtenmethode en teken de vervormde constructie.
+Bepaal de zakking in $\rm{D}$ met behulp van de krachtenmethode en teken de vervormde constructie.
 
 ::::
 
@@ -128,3 +128,11 @@ Invullen in $w_{\rm{G}} = 0.22 - 0.01 \cdot D_{\rm{v}}$ geeft: $w_{\rm{G}} = 20 
 ::::
 
 % solution_end
+
+::::{admonition} Oplossing
+:class: solution, dropdown
+
+$w_{\rm{D}} = 49.5 \ \rm{mm}$ (↓)
+
+::::
+

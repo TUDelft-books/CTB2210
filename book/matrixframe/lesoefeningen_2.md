@@ -39,8 +39,6 @@ MAP[0.66;0.01]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -88,5 +86,3 @@ number:
 Het bestand van dit voorbeeld is [hier](./lesoefeningen_data/lesoefening_2.mxf) te downloaden.
 
 ::::::
-
-% solution_end

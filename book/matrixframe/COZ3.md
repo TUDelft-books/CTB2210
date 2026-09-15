@@ -41,8 +41,6 @@ Wat is de verticale oplegreactie bij $\rm{B}$?
 
 ::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -50,15 +48,11 @@ $75 \, \rm{kN}$ omhoog
 
 ::::
 
-% solution_end
-
 ::::{admonition} Opgave
 :class: exercise
 
 Wat is de normaalkracht in $\rm{CD}$?
 ::::
-
-% solution_start
 
 ::::{admonition} Oplossing
 :class: solution, dropdown
@@ -67,16 +61,12 @@ $22.5 \, \rm{kN}$
 
 ::::
 
-% solution_end
-
 ::::{admonition} Opgave
 :class: exercise
 
 Wat is de normaalkracht in $\rm{BE}$?
 
 ::::
-
-% solution_start
 
 ::::{admonition} Oplossing
 :class: solution, dropdown
@@ -85,15 +75,9 @@ $-75 \, \rm{kN}$
 
 ::::
 
-% solution_end
-
-% solution_start
-
 ::::{admonition} Uitwerking MatrixFramebestand
 :class: solution, dropdown
 
 Het bestand van dit voorbeeld is [hier](./coz_data/coz3.mxf) te downloaden.
 
 ::::
-
-% solution_end

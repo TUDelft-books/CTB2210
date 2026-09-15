@@ -29,7 +29,7 @@ Gegeven is de volgende constructie:
 ```
 
 - $EI = \cfrac{1000}{3} \, \rm{kNm^2}$
-- $EA \gg EI \, \rm{MN}$
+- $EA \gg EI $
 
 ```{figure-end}
 ```
@@ -43,16 +43,12 @@ Wat is de verticale oplegreactie bij $\rm{B}$?
 
 ::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
 $41.60 \, \rm{kN}$ omhoog
 
 ::::
-
-% solution_end
 
 ::::{admonition} Opgave
 :class: exercise
@@ -61,16 +57,12 @@ Wat is het moment halverwege $\rm{BC}$?
 
 ::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
 $34.75 \, \rm{kNm}$ ◡
 
 ::::
-
-% solution_end
 
 ::::{admonition} Opgave
 :class: exercise
@@ -79,8 +71,6 @@ Wat is de normaalkracht in $\rm{BD}$?
 
 ::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -88,15 +78,9 @@ $0.83 \, \rm{kN}$
 
 ::::
 
-% solution_end
-
-% solution_start
-
 ::::{admonition} Uitwerking MatrixFramebestand
 :class: solution, dropdown
 
 Het bestand van dit voorbeeld is [hier](./coz_data/coz2.mxf) te downloaden.
 
 ::::
-
-% solution_end
