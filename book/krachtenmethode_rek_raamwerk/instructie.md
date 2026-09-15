@@ -46,7 +46,7 @@ number:
 
     ::::::{prf:example}
     :nonumber: true
-    :label: ...
+    :label: rek_raam_2
 
     Er zijn veel opties, waarvan een aantal mogelijke opties:
 
@@ -125,6 +125,20 @@ number:
     ```
     Deze constructie is een mechanisme dus geen geschikte statisch bepaalde constructie.
     ````
+    ````{tab-item} Scharnieroplegging bij $\rm{B}$ vervangen door een verticaal rolscharnier 
+    :sync: keyraamrek_8
+    ```{figure-start} ./instructie_data/optie8.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
+    ```
+
+    $w_{\rm{B}} = 0$
+
+    ```{figure-end}
+    ```
+
+    ````
     `````
 
     Voor elk van de opties die geen mechanisme zijn kunnen we de verplaatsingen schetsen door zowel de statisch onbepaalde kracht en de al aanwezige belasting om een variant te kiezen die een simpel verplaatsingspatroon heeft:
@@ -141,7 +155,7 @@ number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
 
-    Dit is een redelijk goed te doen verplaatsingspatroon, waarbij het rechter gedeelte alleen star roteert en geen invloed heeft op de rotatie van $\rm{A}$. De linker ligger kan worden behandeld met het vergeet-me-nietje van een ligger op twee steunpunten met een puntlast in het midden en een koppel op het uiteinde, die ook nog om een vast punt een starre rotatie ondergaat.
+    Dit is een redelijk goed te doen verplaatsingspatroon, waarbij het rechter gedeelte alleen star roteert en geen invloed heeft op de rotatie van $\rm{A}$. De linker ligger kan worden behandeld met het vergeet-me-nietje van een ligger op twee steunpunten met een koppel op ieder uiteinde, die ook nog om een vast punt een starre rotatie ondergaat.
 
     ```{figure} ./instructie_data/optie1_verplaatsingen_2.svg
     :align: center
@@ -149,18 +163,13 @@ number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
 
-    In dit geval zijn de verplaatsingen van het rechter gedeelte wederom niet van invloed op de verplaatsingen van het linker gedeelte. $\rm{AE}$ kan gemodelleerd worden als een ligger op twee steunpunten met een puntlast in het midden die ook nog om een vast punt een starre rotatie ondergaat. Niet het makkelijkste verplaatsingspatroon, maar wel goed te doen.   
+    In dit geval zijn de verplaatsingen van het rechter gedeelte niet van invloed op de verplaatsingen van het linker gedeelte. $\rm{EG}$ kan gemodelleerd worden als een ligger op twee steunpunten met een puntlast in het midden die verplaatst en roteert. Niet het makkelijkste verplaatsingspatroon, maar wel goed te doen. Voor de andere alternatieven geldt hetzelfde verplaatsingspatroon voor het gedeelte rechts van $\rm{E}$
 
     ``````
 
     ``````{tab-item} Staaf $\rm{BD}$ splitsen
     :sync: keyraamrek_2
 
-    :::::{grid}
-    :class-container: center-grid
-
-    ::::{grid-item}
-    :columns: auto
 
     ```{figure} ./instructie_data/optie2_verplaatsingen_1.svg
     :align: center
@@ -169,21 +178,14 @@ number:
     ```
 
     Dit is een goed te doen verplaatsingspatroon. $\rm{BD}$ verlengt alleen maar en $\rm{AD}$ kan worden behandeld als een uitkragende ligger met een kracht op het uiteinde. Het rechter gedeelte roteert alleen star en heeft geen invloed heeft op de zakking van $\rm{D}$.
-    ::::
-
-    ::::{grid-item}
-    :columns: auto
 
     ```{figure} ./instructie_data/optie2_verplaatsingen_2.svg
     :align: center
     :number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
-    ::::
 
-    :::::
-
-    Ligger $\rm{AB}$ wordt niet korter of langer, maar kan nog wel buigen. De vervormingen zijn daarmee te bepalen met het vergeet-me-nietje van een ligger op twee steunpunten met een koppel op het uiteinde, een uitkragende ligger met een puntlast op het uiteinde en een uitkragende ligger met een koppel op het uiteinde. Daarbij moeten de inwendige momenten in $\rm{B}$ en $\rm{C}$ bepaald worden om de vervormingen te kunnen berekenen.
+    Ook in dit geval zijn de verplaatsingen van het rechter gedeelte niet van invloed op de verplaatsingen van het linker gedeelte. $\rm{EG}$ kan gemodelleerd worden als een ligger op twee steunpunten met een puntlast in het midden die verplaatst en roteert. Niet het makkelijkste verplaatsingspatroon, maar wel goed te doen. Voor de andere alternatieven geldt hetzelfde verplaatsingspatroon voor het gedeelte rechts van $\rm{E}$
 
 
     ``````
@@ -191,35 +193,50 @@ number:
     ``````{tab-item} Scharnier toevoegen tussen $\rm{A}$ en $\rm{D}$
     :sync: keyraamrek_4
 
-    :::::{grid}
-    :class-container: center-grid
-
-    ::::{grid-item}
-    :columns: auto
-
-    ```{figure} ./theorie_data/optie_3_verplaatsingen_1.svg
+    ```{figure} ./instructie_data/optie3_verplaatsingen_1.svg
     :align: center
     :number:
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
-    ::::
 
-    ::::{grid-item}
-    :columns: auto
+    Dit verplaatsingspatroon is behoorlijk complex. De verticale verplaatsing van het nieuwe scharnier tussen $\rm{A}$ en $\rm{D}$ is van belang maar vereist ook het berekenen van een dwarskracht in dat nieuwe scharnier. Daarnaast zal $\rm{BD}$ vervormen. Vanaf rechts van $\rm{D}$ zijn de staven spanningsloos. Het rechter gedeelte roteert alleen star en heeft geen invloed heeft op de zakking van $\rm{D}$.
 
-    ```{figure} ./theorie_data/optie_3_verplaatsingen_2.svg
+    ```{figure} ./instructie_data/optie3_verplaatsingen_2.svg
     :align: center
     :number:
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode_raamwerk_2
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
-    ::::
 
-    :::::
+    Het verplaatsingspatroon links van $\rm{E}$ is ook voor deze belasting complex, hoewel iets minder ingewikkeld dan met het statisch onbepaalde momentenpaar.
+    Ook in dit geval zijn de verplaatsingen van het rechter gedeelte niet van invloed op de verplaatsingen van het linker gedeelte. $\rm{EG}$ kan gemodelleerd worden als een ligger op twee steunpunten met een puntlast in het midden die verplaatst en roteert. Niet het makkelijkste verplaatsingspatroon, maar wel goed te doen. Voor de andere alternatieven geldt hetzelfde verplaatsingspatroon voor het gedeelte rechts van $\rm{E}$
+    ``````
 
-    Ligger $\rm{AB}$ wordt niet korter of langer, maar kan nog wel buigen. De vervormingen zijn daarmee te bepalen met het vergeet-me-nietje van een ligger op twee steunpunten met een koppel op het uiteinde en een uitkragende ligger met een puntlast op het uiteinde. Daarbij moeten de inwendige momenten in $\rm{B}$ en $\rm{C}$ bepaald worden om de vervormingen te kunnen berekenen.
+    ``````{tab-item} Scharnieroplegging bij $\rm{B}$ vervangen door een verticaal rolscharnier 
+    :sync: keyraamrek_2
+
+
+    ```{figure} ./instructie_data/optie4_verplaatsingen_1.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
+    ```
+
+    Deze optie is erg vergelijkbaar met de optie waarbij $\rm{BD}$ wordt gesplitst. De kracht is wel aangenomen de andere kant op, maar de aanpak is hetzelfde: $\rm{AD}$ kan worden behandeld als een uitkragende ligger met een kracht op het uiteinde. Het rechter gedeelte roteert alleen star en heeft geen invloed heeft op de zakking van $\rm{D}$.
+
+    ```{figure} ./instructie_data/optie4_verplaatsingen_2.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
+    ```
+
+    Ook in dit geval zijn de verplaatsingen van het rechter gedeelte niet van invloed op de verplaatsingen van het linker gedeelte. $\rm{EG}$ kan gemodelleerd worden als een ligger op twee steunpunten met een puntlast in het midden die verplaatst en roteert. Niet het makkelijkste verplaatsingspatroon, maar wel goed te doen. Voor de andere alternatieven geldt hetzelfde verplaatsingspatroon voor het gedeelte rechts van $\rm{E}$
+
+
     ``````
 
     ```````
+
+    De laatste optie wordt gekozen
 
     ::::::
 
@@ -227,7 +244,114 @@ number:
 
     ::::::{prf:example}
     :nonumber: true
-    :label: ...
+    :label: rek_raam_3
+
+    ```{figure-start} ./instructie_data/stat_bepaald.svg
+    ---
+    align: center
+    figclass: sticky-margin
+    number:
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode
+    ---
+
+    ```
+    
+    - $EA = 4 \ \rm{MN}$
+    - $EI = 64 \ \rm{MNm^2}$
+
+    ```{figure-end}
+    ```
+
+    Om de verplaatsing van $\rm{B}$ te vinden, moeten we eerst de inwendige krachten in $\rm{D}$ vinden, waaruit de zakking volgt van $\rm{D}$. Daarmee kunnen we de verplaatsing van $\rm{B}$ vinden.
+
+    Allereerst de normaalkracht in $\rm{BD}$ als functie van $B_{\rm{v}}$:
+
+    ```{figure} instructie_data/BD.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode
+    ```
+
+    $$
+    \begin{align}
+    \sum F_{\rm{v}}^{\rm{BD}} &= 0 \\
+    B_{\rm{v}} + N_{\rm{BD}}&= 0 \\
+    N_{\rm{BD}} &= -B_{\rm{v}}
+    \end{align}
+    $$
+
+    Ook kunnen we de normaalkracht in $\rm{CG}$ vinden:
+
+    ```{figure} instructie_data/EG.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode
+    ```
+
+    $$
+    \begin{align}
+    \sum \left. T \right|_{\rm{E}}^{\rm{EG}} &= 0 \\
+    84 \cdot 4 - N_{\rm{CG}} \cdot 8 &= 0 \\
+    N_{\rm{CG}} &= 42 \ \rm{kN}
+    \end{align}
+    $$
+
+    Daarmee kunnen de de dwarskracht en het moment net links van $\rm{D}$ vinden:
+
+    ```{figure} instructie_data/DG.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode
+    ```
+
+    $$
+    \begin{align}
+    \sum F_{\rm{v}}^{\rm{DG}} &= 0 \\
+    V_{\rm{D}}^{\rm{AD}}-B_{\rm{v}} - 84 + 42 &= 0 \\
+    V_{\rm{D}}^{\rm{AD}} &= B_{\rm{v}} + 42
+    \end{align}
+    $$
+
+    $$
+    \begin{align}
+    \sum \left. T \right|_{\rm{D}}^{\rm{DG}} &= 0 \\
+    M_{\rm{D}} + 84 \cdot 8 - 42 \cdot 12 &= 0 \\
+    M_{\rm{D}} &= -168 \ \rm{kNm}
+    \end{align}
+    $$
+    
+    Nu volgt de verplaatsing in $\rm{D}$ uit een vergeet-me-nietje:
+
+    ```{figure} ./instructie_data/wAD.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode
+    ```
+
+    $$
+    \begin{align}
+    w_{\rm{D}} &= \cfrac{168 \cdot 4^2}{2 \cdot 64000} + \cfrac{\left( B_{\rm{v}} + 42 \right) \cdot 4^3}{3 \cdot 64000} \\
+    w_{\rm{D}} &= \cfrac{1}{3000} \cdot B_{\rm{v}} + 0.035 \\
+    w_{\rm{D}} & \approx 0.000333 \cdot B_{\rm{v}} + 0.035 \ (\downarrow)
+    \end{align}
+    $$
+
+    De verplaatsing van $\rm{B}$ kan worden gevonden met de verlenging van een staaf door axiale krachten:
+
+    ```{figure} ./instructie_data/BD2.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode
+    ```
+
+    $$
+    \begin{align}
+    w_{\rm{B}} &= - w_{\rm{D}} + \Delta L_{\rm{BD}} \\
+    w_{\rm{B}} &= - w_{\rm{D}} +  \cfrac{-B_{\rm{v}} \cdot 8}{4000} \\
+    w_{\rm{B}} &= - \cfrac{7}{3000} \cdot B_{\rm{v}} - 0.035 \\
+    w_{\rm{B}} & \approx 0.00233\cdot B_{\rm{v}} - 0.035 \\
+    \end{align}
+    $$
 
     ::::::
 
@@ -235,13 +359,19 @@ number:
 
     ::::::{prf:example}
     :nonumber: true
-    :label: ...
+    :label: rek_raam_4
+
+    De vormveranderingsvoorwaarde geeft:
+
+    $$
+    \begin{align}
+    w_{\rm{B}} &= 0 \\
+    -\cfrac{7}{3000} \cdot B_{\rm{v}} - 0.035 &= 0 \\
+    B_{\rm{v}} &= -15 \ \rm{kN}
+    \end{align}
+    $$
 
     ::::::
-
-## Meer voorbeelden
-
-...
 
 ## Zelfde instructies in collegevorm
 
@@ -249,5 +379,6 @@ De opname volgt na het college.
 
 ## Extra opgaves in boek
 
-- ...
+- Opgaves 2.22, 2.25 - 2.28 in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
 
+Antwoorden zijn beschikbaar op [deze website](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol3/Chapter1-2/).

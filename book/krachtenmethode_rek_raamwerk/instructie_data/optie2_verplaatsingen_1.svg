@@ -175,13 +175,34 @@
 			<title>Scharnier.2512</title>
 			<ellipse cx="2.12598" cy="208.613" rx="2.12598" ry="2.12598" class="st11"/>
 		</g>
-		<g id="shape2513-98" v:mID="2513" v:groupContext="shape" transform="translate(-14.2744,-11.9385) rotate(-7.12501)">
+		<g id="shape2513-98" v:mID="2513" v:groupContext="shape" transform="translate(-14.1846,-11.2198) rotate(-7.12501)">
 			<title>Blad.2513</title>
-			<path d="M0 209.52 C21.1 212.16 33.01 209.94 45.82 208.83 C69.94 206.73 97.25 208.54 114.27 209.52" class="st2"/>
+			<path d="M0 208.8 C21.1 211.43 39.88 210.79 49.95 210.44 C68.91 209.79 56.96 210.2 114.27 208.8" class="st2"/>
 		</g>
 		<g id="shape2488-101" v:mID="2488" v:groupContext="shape" transform="translate(122.973,-26.8205)">
 			<title>Scharnier.2488</title>
 			<ellipse cx="2.12598" cy="208.613" rx="2.12598" ry="2.12598" class="st6"/>
 		</g>
+		<g id="shape2599-103" v:mID="2599" v:groupContext="shape" transform="translate(68.4065,-184.852)">
+			<title>Punt A.2599</title>
+			<desc>B</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="203.652" width="14.18" height="14.1732"/>
+			<rect x="0" y="196.566" width="14.1732" height="14.1732" class="st7"/>
+			<text x="4" y="207.25" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>B</text>		</g>
+		<g id="shape3846-106" v:mID="3846" v:groupContext="shape" transform="translate(11.7136,-14.7732)">
+			<title>Punt A.3846</title>
+			<desc>A</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="203.652" width="14.18" height="14.1732"/>
+			<rect x="0" y="196.566" width="14.1732" height="14.1732" class="st7"/>
+			<text x="4" y="207.25" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>A</text>		</g>
+		<g id="shape3852-109" v:mID="3852" v:groupContext="shape" transform="translate(61.3199,-0.599999)">
+			<title>Punt A.3852</title>
+			<desc>D</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="203.652" width="14.18" height="14.1732"/>
+			<rect x="0" y="196.566" width="14.1732" height="14.1732" class="st7"/>
+			<text x="4" y="207.25" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>D</text>		</g>
 	</g>
 </svg>
