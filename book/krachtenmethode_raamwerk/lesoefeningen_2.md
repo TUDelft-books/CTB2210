@@ -48,8 +48,6 @@ De constructie is {gap}ste/de graads inwendig statisch onbepaald.
 ---
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 :name: stat_onbepaald_raamwerk
@@ -64,13 +62,9 @@ Er zijn 4 onbekende oplegreacties en 21 onbekende verbindingskrachten, dus 25 on
 
 Er zijn 22 evenwichtsvergelijkingen
 
-
-
 Dus de constructie is ($25 - 22=$) 3de graads statisch onbepaald. 
 
-
 ::::
-% solution_end
 
 ::::::{admonition} Opgave
 :class: exercise
@@ -489,8 +483,6 @@ M[0.297]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -503,8 +495,6 @@ $$ \varphi_{\rm{B}}^{\rm{AB}} \left( M_{\rm{B}}^{\rm{AB}} \right) = \cfrac{M_{\r
 $$ \varphi_{\rm{B}}^{\rm{BC}} \left( M_{\rm{B}}^{\rm{BD}}, M_{\rm{B}}^{\rm{AB}} \right) = \cfrac{\left(M_{\rm{B}}^{\rm{BD}} - M_{\rm{B}}^{\rm{AB}}\right) \cdot 6}{3 \cdot \cfrac{1000}{3}} + \cfrac{11 \cdot 6^3}{24 \cdot \cfrac{1000}{3}} = 0.006 \cdot M_{\rm{B}}^{\rm{BC}} - 0.006 \cdot M_{\rm{B}}^{\rm{AB}} + 0.297 $$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
