@@ -1,4 +1,13 @@
-# Begeleide oefening 1
+````{margin}
+```{attributiongrey} Bronvermelding
+:class: attribution
+
+Deze oefening is aangepast de [tentamenopdracht van 9 december 2025](https://oit.tudelft.nl/CT1000/2025/week_15/session/intro.html) van {cite:ts}`CT1000`
+
+```
+````
+
+# Begeleide oefening
 
 ```{figure-start} ./lesoefening_data/constructie.svg
 :align: center
