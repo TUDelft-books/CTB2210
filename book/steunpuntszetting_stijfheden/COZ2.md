@@ -1,4 +1,4 @@
-# COZ opgave 4.1
+# COZ opgave 4.2
 
 ::::::{note}
 
@@ -16,7 +16,7 @@ Als je nog geen toegang hebt tot deze toets, registreer je dan via [deze link](h
 
 Gegeven is de volgende constructie:
 
-```{figure-start} ./coz_data/constructie2.svg
+```{figure-start} ./coz_data/constructie_2.svg
 ---
 align: center
 number:
