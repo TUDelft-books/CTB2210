@@ -17,7 +17,7 @@ print('w_B_2 =', w_B_2*1000, 'approx', (w_B_2*1000).evalf())
 delta_L = N_C * 5 / EA
 print('delta_L =', delta_L*1000, 'approx', (delta_L*1000).evalf())
 
-w_C = w_B_2 / 5 * 3 + delta_L
+w_C = w_B_2 / 5 * 3 + delta_L + w_B / 5 * 4
 print('w_C =', w_C*1000, 'approx', (w_C*1000).evalf())
 
 eq1 = sym.Eq(w_B, 0)

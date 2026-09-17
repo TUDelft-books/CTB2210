@@ -292,8 +292,8 @@ ME[\cfrac{5}{2};2]
 ME[\cfrac{1}{25};1]
 M[0]
 M[0]
-M[0]
-ME[\cfrac{1}{20};1]
+ME[\cfrac{16}{625};3]
+ME[\cfrac{881}{12500};4]
 ME[\cfrac{3}{2};2]
 ^^^
 ? Bepaal de verplaatsingen in $\rm{mm}$ met $B_{\rm{v}}$ en $N_{\rm{C}}$ in $\rm{kN}$.
