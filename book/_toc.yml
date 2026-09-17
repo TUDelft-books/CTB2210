@@ -74,7 +74,6 @@ parts:
     - file: temperatuur/theorie.md
     - file: temperatuur/lesoefening.md
     - file: temperatuur/lesoefening1.md
-  - file: TOZ/opgave.md
   - file: verplaats2/lesson.md
     sections:
     - file: verplaats2/theorie.md
@@ -85,6 +84,7 @@ parts:
     - file: matrix/theorie.md
     - file: matrix/lesoefening1.md
   - file: methodes/lesson.md
+  - file: TOZ/opgave.md
   - file: exam/lesson.md
   - file: wintercursus_1/lesson.md
     sections:
