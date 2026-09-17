@@ -1,6 +1,5 @@
 # Begeleide oefening 1
 
-...
 ```{figure-start} ./lesoefeningen_data/constructie.svg
 :align: center
 :figclass: sticky-margin
@@ -39,9 +38,9 @@ De constructie is {gap}ste/de graads inwendig statisch onbepaald.
 
 Gegeven is de volgende mogelijke aangepaste constructie:
 
-```{figure} ./lesoefeningen2_data/aanpassing1.svg
+```{figure} ./lesoefening_data/optie_1.svg
 :align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_SOB
 :number:
 ```
 
@@ -55,9 +54,7 @@ Is deze constructie statisch bepaald, statisch onbepaald of een mechanisme?
 ---
 [x] Deze constructie is statisch bepaald.
 [ ] Deze constructie is statisch onbepaald.
-> Er zijn drie aanpassingen gedaan, waarvan elke aanpassing de graad van statische onbepaaldheid met 1 verlaagd.
 [ ] Deze constructie is een mechanisme.
-> Er zijn geen globale of lokale mechanismes! Het scharnier halverwege $\rm{B}$ en $\rm{C}$ kan niet vrij bewegen aangezien staaf $\rm{AB}$ weerstand biedt voor de rotatie van knoop $\rm{B}$.
 ---
 
 :::::
@@ -67,12 +64,12 @@ Is deze constructie statisch bepaald, statisch onbepaald of een mechanisme?
 :nocaption:
 :showanswer:
 
-Schets de mogelijke vervormingen ten gevolge van de verdeelde belasting:
+Schets de mogelijke vervormingen ten gevolge van het moment $M_{\rm{A}}$::
 
 ---
 =
 
-```{figure} ./lesoefeningen2_data/aanpassing1_verplaatsing.svg
+```{figure} ./lesoefening_data/optie_1_verplaatsing.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
 :number:
@@ -90,8 +87,114 @@ Schets de mogelijke vervormingen ten gevolge van de verdeelde belasting:
 Is deze aangepaste constructie een goede keuze voor de krachtenmethode?
 ---
 [ ] Ja
-> De zakking van het scharnier halverwege $\rm{B}$ en $\rm{C}$ maakt het lastiger om de verplaatsingen te berekenen.
+> $\rm{AB}$ zal zowel buigen als star roteren rondom $\rm{A}$, wat de berekening van de verplaatsingen bemoeilijkt.
 [x] Het kan, maar er zijn betere opties
+[ ] Nee
+> Deze constructie is statisch bepaald en daarmee geschikt!
+---
+
+:::::
+
+::::::
+
+::::::{admonition} Opgave
+:class: exercise
+
+Gegeven is de volgende mogelijke aangepaste constructie:
+
+```{figure} ./lesoefening_data/optie_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_SOB
+:number:
+```
+
+:::::{question}
+:nocaption:
+:showanswer:
+:columns: 1
+
+
+Is deze constructie statisch bepaald, statisch onbepaald of een mechanisme?
+---
+[x] Deze constructie is statisch bepaald.
+[ ] Deze constructie is statisch onbepaald.
+[ ] Deze constructie is een mechanisme.
+---
+
+:::::
+
+:::::{question}
+:nocaption:
+:showanswer:
+:columns: 1
+
+Is deze aangepaste constructie een goede keuze voor de krachtenmethode?
+---
+[ ] Ja
+[ ] Het kan, maar er zijn betere opties
+[x] Nee
+---
+
+:::::
+
+::::::
+
+::::::{admonition} Opgave
+:class: exercise
+
+Gegeven is de volgende mogelijke aangepaste constructie:
+
+```{figure} ./lesoefening_data/optie_3.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_SOB
+:number:
+```
+
+:::::{question}
+:nocaption:
+:showanswer:
+:columns: 1
+
+
+Is deze constructie statisch bepaald, statisch onbepaald of een mechanisme?
+---
+[x] Deze constructie is statisch bepaald.
+[ ] Deze constructie is statisch onbepaald.
+[ ] Deze constructie is een mechanisme.
+---
+
+:::::
+
+:::::{question}
+:type: no-input
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen ten gevolge van het moment $B_{\rm{v}}$::
+
+---
+=
+
+```{figure} ./lesoefening_data/optie_3_verplaatsing.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
+:number:
+```
+
+---
+
+:::::
+
+:::::{question}
+:nocaption:
+:showanswer:
+:columns: 1
+
+Is deze aangepaste constructie een goede keuze voor de krachtenmethode?
+---
+[x] Ja
+> ...
+[ ] Het kan, maar er zijn betere opties
 [ ] Nee
 > Deze constructie is statisch bepaald en daarmee geschikt!
 ---

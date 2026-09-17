@@ -155,7 +155,7 @@ number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
 
-    Dit is een redelijk goed te doen verplaatsingspatroon, waarbij het rechter gedeelte alleen star roteert en geen invloed heeft op de rotatie van $\rm{A}$. De linker ligger kan worden behandeld met het vergeet-me-nietje van een ligger op twee steunpunten met een koppel op ieder uiteinde, die ook nog om een vast punt een starre rotatie ondergaat.
+    Ten gevolge van enkel het moment in $\rm{A}$ is dit een redelijk goed te doen verplaatsingspatroon. Het rechter gedeelte roteert alleen star en heeft geen invloed op de rotatie van $\rm{A}$. De linker ligger kan worden behandeld met het vergeet-me-nietje van een ligger op twee steunpunten met een koppel op ieder uiteinde, die ook nog om het vaste punt $\rm{A}$ een starre rotatie ondergaat. Die drie factoren zorgen alle drie voor een rotatie in $\rm{A}$.
 
     ```{figure} ./instructie_data/optie1_verplaatsingen_2.svg
     :align: center
@@ -163,7 +163,7 @@ number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
 
-    In dit geval zijn de verplaatsingen van het rechter gedeelte niet van invloed op de verplaatsingen van het linker gedeelte. $\rm{EG}$ kan gemodelleerd worden als een ligger op twee steunpunten met een puntlast in het midden die verplaatst en roteert. Niet het makkelijkste verplaatsingspatroon, maar wel goed te doen. Voor de andere alternatieven geldt hetzelfde verplaatsingspatroon voor het gedeelte rechts van $\rm{E}$
+    Ook ten gevolge van de puntlast zijn de verplaatsingen van het rechter gedeelte niet van invloed op de verplaatsingen van het linker gedeelte. De belasting zorgt wel voor een verlenging van $\rm{BD}$ en kromming in $\rm{AD}$, die allebei bijdragen aan een rotatie in $\rm{A}$.
 
     ``````
 
@@ -177,7 +177,7 @@ number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
 
-    Dit is een goed te doen verplaatsingspatroon. $\rm{BD}$ verlengt alleen maar en $\rm{AD}$ kan worden behandeld als een uitkragende ligger met een kracht op het uiteinde. Het rechter gedeelte roteert alleen star en heeft geen invloed heeft op de zakking van $\rm{D}$.
+    Ten gevolge van enkel het de normaalkracht in de gesplitste pendelstaaf is dit een goed te doen verplaatsingspatroon. $\rm{BD}$ verlengt alleen maar en $\rm{AD}$ kan worden behandeld als een uitkragende ligger met een kracht op het uiteinde $\rm{D}$. Het rechter gedeelte roteert alleen star en heeft geen invloed heeft op de zakking van $\rm{D}$.
 
     ```{figure} ./instructie_data/optie2_verplaatsingen_2.svg
     :align: center
@@ -185,7 +185,7 @@ number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
 
-    Ook in dit geval zijn de verplaatsingen van het rechter gedeelte niet van invloed op de verplaatsingen van het linker gedeelte. $\rm{EG}$ kan gemodelleerd worden als een ligger op twee steunpunten met een puntlast in het midden die verplaatst en roteert. Niet het makkelijkste verplaatsingspatroon, maar wel goed te doen. Voor de andere alternatieven geldt hetzelfde verplaatsingspatroon voor het gedeelte rechts van $\rm{E}$
+    Ook ten gevolge van de puntlast zijn de verplaatsingen van het rechter gedeelte niet van invloed op de verplaatsingen van het linker gedeelte. De belasting zorgt wel voor een kromming in $\rm{AE}$ en dus verplaatsing in $\rm{D}$.
 
 
     ``````
@@ -199,7 +199,7 @@ number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
 
-    Dit verplaatsingspatroon is behoorlijk complex. De verticale verplaatsing van het nieuwe scharnier tussen $\rm{A}$ en $\rm{D}$ is van belang maar vereist ook het berekenen van een dwarskracht in dat nieuwe scharnier. Daarnaast zal $\rm{BD}$ vervormen. Vanaf rechts van $\rm{D}$ zijn de staven spanningsloos. Het rechter gedeelte roteert alleen star en heeft geen invloed heeft op de zakking van $\rm{D}$.
+    Dit verplaatsingspatroon is behoorlijk complex, ook als we enkel naar de vervormingen van enkel het momentenpaar kijken. De verticale verplaatsing van het nieuwe scharnier tussen $\rm{A}$ en $\rm{D}$ is van belang voor de rotaties rondom het scharnier,maar vereist ook het berekenen van een dwarskracht in dat nieuwe scharnier. Daarnaast zal $\rm{BD}$ rekken. Vanaf rechts van $\rm{D}$ zijn de staven wel spanningsloos. Het rechter gedeelte roteert alleen star en heeft geen invloed heeft op de rotaties bij het nieuwe scharnier.
 
     ```{figure} ./instructie_data/optie3_verplaatsingen_2.svg
     :align: center
@@ -207,8 +207,7 @@ number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
 
-    Het verplaatsingspatroon links van $\rm{E}$ is ook voor deze belasting complex, hoewel iets minder ingewikkeld dan met het statisch onbepaalde momentenpaar.
-    Ook in dit geval zijn de verplaatsingen van het rechter gedeelte niet van invloed op de verplaatsingen van het linker gedeelte. $\rm{EG}$ kan gemodelleerd worden als een ligger op twee steunpunten met een puntlast in het midden die verplaatst en roteert. Niet het makkelijkste verplaatsingspatroon, maar wel goed te doen. Voor de andere alternatieven geldt hetzelfde verplaatsingspatroon voor het gedeelte rechts van $\rm{E}$
+    Het verplaatsingspatroon links van $\rm{E}$ is ook voor enkel de puntlast van $84 \ \rm{kN}$ complex, hoewel iets minder ingewikkeld dan met het statisch onbepaalde momentenpaar. Ook in dit geval zijn de verplaatsingen van het rechter gedeelte niet van invloed op de verplaatsingen van het linker gedeelte, maar zorgt het wel voor een dwarskracht en moment in $\rm{D}$ die vergelijkbare complexe hoekverdraaiingen veroorzaken bij het scharnier.
     ``````
 
     ``````{tab-item} Scharnieroplegging bij $\rm{B}$ vervangen door een verticaal rolscharnier 
@@ -221,7 +220,7 @@ number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
 
-    Deze optie is erg vergelijkbaar met de optie waarbij $\rm{BD}$ wordt gesplitst. De kracht is wel aangenomen de andere kant op, maar de aanpak is hetzelfde: $\rm{AD}$ kan worden behandeld als een uitkragende ligger met een kracht op het uiteinde. Het rechter gedeelte roteert alleen star en heeft geen invloed heeft op de zakking van $\rm{D}$.
+    Deze optie is zeer vergelijkbaar met de optie waarbij $\rm{BD}$ wordt gesplitst. De kracht is wel aangenomen de andere kant op, maar de aanpak is hetzelfde: $\rm{AD}$ kan worden behandeld als een uitkragende ligger met een kracht op het uiteinde welke zorgt voor een zakking van $\rm{B}$ als daar de verkorting van $\rm{BD}$ in wordt meegenomen. Als we enkel de statisch onbepaalde kracht $\B_{\rm{v}}$ beschouwen, roteert het rechter gedeelte alleen star en heeft geen invloed heeft op de zakking van $\rm{B}$.
 
     ```{figure} ./instructie_data/optie4_verplaatsingen_2.svg
     :align: center
@@ -229,7 +228,7 @@ number:
     :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/krachtenmethode
     ```
 
-    Ook in dit geval zijn de verplaatsingen van het rechter gedeelte niet van invloed op de verplaatsingen van het linker gedeelte. $\rm{EG}$ kan gemodelleerd worden als een ligger op twee steunpunten met een puntlast in het midden die verplaatst en roteert. Niet het makkelijkste verplaatsingspatroon, maar wel goed te doen. Voor de andere alternatieven geldt hetzelfde verplaatsingspatroon voor het gedeelte rechts van $\rm{E}$
+    Ook kijken naar enkel de puntlast van $84 \ \rm{kN}$ zijn de verplaatsingen van het gedeelte rechts van $\rm{D}$ niet van invloed op de verplaatsingen van $\rm{B}$, maar zorgt het wel voor een dwarskracht en moment in $\rm{D}$ die $\rm{B}$ laat zakken.
 
 
     ``````

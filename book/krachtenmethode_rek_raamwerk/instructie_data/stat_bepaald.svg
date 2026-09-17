@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export stat_bepaald.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.10491in" height="2.70464in"
-		viewBox="0 0 295.553 194.734" xml:space="preserve" color-interpolation-filters="sRGB" class="st22">
+		viewBox="0 0 295.553 194.734" xml:space="preserve" color-interpolation-filters="sRGB" class="st19">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -26,10 +26,7 @@
 		.st16 {font-size:1em;font-style:normal}
 		.st17 {marker-end:url(#mrkr1-207);stroke:#000000;stroke-linecap:butt;stroke-width:3}
 		.st18 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.67567567567568}
-		.st19 {marker-start:url(#mrkr5-232);stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
-		.st20 {fill:#800000;fill-opacity:1;stroke:#800000;stroke-opacity:1;stroke-width:0.22935779816514}
-		.st21 {stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
-		.st22 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st19 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -58,10 +55,6 @@
 		<marker id="mrkr1-207" class="st18" v:arrowType="1" v:arrowSize="0" orient="auto" markerUnits="strokeWidth"
 				overflow="visible">
 			<use xlink:href="#lend1" transform="scale(-1.48,-1.48) "/>
-		</marker>
-		<marker id="mrkr5-232" class="st20" v:arrowType="5" v:arrowSize="2" v:setback="7.15" refX="7.15" orient="auto"
-				markerUnits="strokeWidth" overflow="visible">
-			<use xlink:href="#lend5" transform="scale(4.36) "/>
 		</marker>
 	</defs>
 	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
@@ -398,44 +391,16 @@
 				<path d="M0 194.73 L19.84 194.73" class="st3"/>
 			</g>
 		</g>
-		<g id="shape4187-227" v:mID="4187" v:groupContext="shape" transform="translate(-69.6346,149.713) rotate(-90)">
-			<title>Kracht.4187</title>
-			<path d="M5.36 194.73 L5.72 194.73 L12.05 194.73" class="st19"/>
+		<g id="shape4204-227" v:mID="4204" v:groupContext="shape" transform="translate(-12.9416,150.989) rotate(-90)">
+			<title>Kracht.4204</title>
+			<path d="M7.55 194.73 L7.91 194.73 L28.35 194.73" class="st12"/>
 		</g>
-		<g id="shape4188-233" v:mID="4188" v:groupContext="shape" transform="translate(125.099,-57.0679)">
-			<title>Blad.4188</title>
-			<desc>10.5 kN/m</desc>
+		<g id="shape4205-232" v:mID="4205" v:groupContext="shape" transform="translate(139.273,-58.4852)">
+			<title>Blad.4205</title>
+			<desc>84 kN</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="56.6929" cy="187.647" width="113.39" height="14.1732"/>
-			<rect x="0" y="180.561" width="113.386" height="14.1732" class="st9"/>
-			<text x="31.03" y="191.25" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>10.5 kN/m</text>		</g>
-		<g id="shape4189-236" v:mID="4189" v:groupContext="shape" transform="translate(-50.7369,151.839) rotate(-90)">
-			<title>Kracht.4189</title>
-			<path d="M5.36 194.73 L5.72 194.73 L14.17 194.73" class="st19"/>
-		</g>
-		<g id="shape4190-241" v:mID="4190" v:groupContext="shape" transform="translate(43.7513,149.713) rotate(-90)">
-			<title>Kracht.4190</title>
-			<path d="M5.36 194.73 L5.72 194.73 L12.05 194.73" class="st19"/>
-		</g>
-		<g id="shape4191-246" v:mID="4191" v:groupContext="shape" transform="translate(24.8536,151.839) rotate(-90)">
-			<title>Kracht.4191</title>
-			<path d="M5.36 194.73 L5.72 194.73 L14.17 194.73" class="st19"/>
-		</g>
-		<g id="shape4192-251" v:mID="4192" v:groupContext="shape" transform="translate(5.95599,151.839) rotate(-90)">
-			<title>Kracht.4192</title>
-			<path d="M5.36 194.73 L5.72 194.73 L14.17 194.73" class="st19"/>
-		</g>
-		<g id="shape4193-256" v:mID="4193" v:groupContext="shape" transform="translate(-12.9416,151.839) rotate(-90)">
-			<title>Kracht.4193</title>
-			<path d="M5.36 194.73 L5.72 194.73 L14.17 194.73" class="st19"/>
-		</g>
-		<g id="shape4194-261" v:mID="4194" v:groupContext="shape" transform="translate(-31.8393,151.839) rotate(-90)">
-			<title>Kracht.4194</title>
-			<path d="M5.36 194.73 L5.72 194.73 L14.17 194.73" class="st19"/>
-		</g>
-		<g id="shape4195-266" v:mID="4195" v:groupContext="shape" transform="translate(238.485,332.4) rotate(180)">
-			<title>Kracht.4195</title>
-			<path d="M0 194.73 L113.39 194.73" class="st21"/>
-		</g>
+			<v:textRect cx="21.2598" cy="187.647" width="42.52" height="14.1732"/>
+			<rect x="0" y="180.561" width="42.5197" height="14.1732" class="st9"/>
+			<text x="6.43" y="191.25" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>84 kN</text>		</g>
 	</g>
 </svg>

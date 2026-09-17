@@ -158,9 +158,9 @@
 			<title>Scharnier.2553</title>
 			<ellipse cx="2.12598" cy="228.873" rx="2.12598" ry="2.12598" class="st6"/>
 		</g>
-		<g id="shape2554-86" v:mID="2554" v:groupContext="shape" transform="translate(67.6241,-27.6762) rotate(14.0363)">
+		<g id="shape2554-86" v:mID="2554" v:groupContext="shape" transform="translate(67.7391,-28.1362) rotate(14.0363)">
 			<title>Blad.2554</title>
-			<path d="M0 230.52 C20.63 225.37 33.14 223.71 45.83 224.16 C69.71 224.99 94.19 233.27 116.88 230.52" class="st2"/>
+			<path d="M0 231 C57.75 216.56 94.19 227.91 116.88 231" class="st2"/>
 		</g>
 		<g id="shape2549-89" v:mID="2549" v:groupContext="shape" transform="translate(122.973,-4.56085)">
 			<title>Scharnier.2549</title>
@@ -180,5 +180,19 @@
 			<v:textRect cx="7.08661" cy="223.912" width="14.18" height="14.1732"/>
 			<rect x="0" y="216.826" width="14.1732" height="14.1732" class="st10"/>
 			<text x="4" y="227.51" class="st11" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>G</text>		</g>
+		<g id="shape4208-97" v:mID="4208" v:groupContext="shape" transform="translate(61.3199,-35.0333)">
+			<title>Punt A.4208</title>
+			<desc>D</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="223.912" width="14.18" height="14.1732"/>
+			<rect x="0" y="216.826" width="14.1732" height="14.1732" class="st10"/>
+			<text x="4" y="227.51" class="st11" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>D</text>		</g>
+		<g id="shape4209-100" v:mID="4209" v:groupContext="shape" transform="translate(11.7136,-35.0333)">
+			<title>Punt A.4209</title>
+			<desc>A</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="223.912" width="14.18" height="14.1732"/>
+			<rect x="0" y="216.826" width="14.1732" height="14.1732" class="st10"/>
+			<text x="4" y="227.51" class="st11" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>A</text>		</g>
 	</g>
 </svg>

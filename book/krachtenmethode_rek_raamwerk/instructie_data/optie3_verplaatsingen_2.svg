@@ -196,5 +196,12 @@
 			<title>Scharnier.3945</title>
 			<ellipse cx="2.12598" cy="158.007" rx="2.12598" ry="2.12598" class="st6"/>
 		</g>
+		<g id="shape4210-106" v:mID="4210" v:groupContext="shape" transform="translate(57.5901,-13.7735)">
+			<title>Punt A.4210</title>
+			<desc>D</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="153.046" width="14.18" height="14.1732"/>
+			<rect x="0" y="145.96" width="14.1732" height="14.1732" class="st9"/>
+			<text x="4" y="156.65" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>D</text>		</g>
 	</g>
 </svg>
