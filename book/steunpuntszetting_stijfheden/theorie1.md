@@ -1,22 +1,14 @@
 % source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
 
-````{margin}
-```{attributiongrey} Bronvermelding
-:class: attribution
-
-Deze oefening is aangepast van de [deze theoriepagina](https://oit.tudelft.nl/CEG-mechanics-BSc/statically_inderminate/support_settlement.html) van {cite:ts}`CEG_mechanics_BSc`
-
-```
-````
-
 # Instructie steunpuntszettingen
 
 Steunpuntszettingen zorgen bij statisch bepaalde constructies niet voor krachten of vervormingen door rek, er zullen hoogstens verplaatsingen en rotaties van elementen als geheel plaatsvinden.
 
 ```{figure} ./theorie_data/SB.svg
 :align: center
-
-Statisch bepaalde constructie onder invloed van steunpuntszetting
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+:figclass: sticky-margin
+:number:
 ```
 
 Bij uitwendig statisch onbepaalde constructies zijn rekloze verplaatsingen en rotaties niet mogelijk. Echter, omdat voor het berekeningen van statisch onbepaalde constructies de verplaatsingen sowieso geëvalueerd moeten worden kunnen deze extra verplaatsingen daarin worden meegenomen zonder dat het oplossingsproces verandert. De steunpuntsverplaatsingen zullen bij de bepaling van verplaatsingen vanzelf terecht komen in de vormveranderingsvoorwaardes.
@@ -27,11 +19,18 @@ De toepassing van steunpuntszettingen op een statisch onbepaalde constructie wor
 :nonumber: true
 :label: steunpunt_0
 
-```{figure} ./theorie_data/constructie.svg
+```{figure-start} ./theorie_data/constructie.svg
 ---
 align: center
+number:
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
 ---
-Voorbeeldconstructie, $EI = 34000 \ \rm{kNm^2}$
+```
+
+- $EI = 34000 \ \rm{kNm^2}$
+- $EA \gg EI$
+
+```{figure-end}
 ```
 
 ::::::
@@ -43,17 +42,16 @@ Voorbeeldconstructie, $EI = 34000 \ \rm{kNm^2}$
     :label: steunpunt_1
 
     ```{figure} ./theorie_data/statisch_onbepaaldheid.svg
-    ---
-    align: center
-    ---
-    Er zijn 16 onbekende krachten en 14 evenwichtsvergelijkingen
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
     ```
 
-    Deze constructie is dus 2e orde intern statisch onbepaald.
+    Er zijn 5 onbekende krachten en 3veenwichtsvergelijkingen. Deze constructie is dus 2e orde intern statisch onbepaald.
 
     ::::::
 
-2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij een pendelstaaf, of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaardes toe voor elke opleggging die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!
+2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij een pendelstaaf, of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaardes toe voor elke opleggging die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme! Kies een statisch bepaald systeem dat makkelijk is uit te rekenen: elementen verplaatsen bij voorkeur niet als ze ook al roteren en je kan vergeet-me-nietjes herkennen in het statisch bepaalde systeem.
 
     ::::::{prf:example}
     :nonumber: true
@@ -61,14 +59,20 @@ Voorbeeldconstructie, $EI = 34000 \ \rm{kNm^2}$
 
     Er wordt hier gekozen voor hoekveranderingsvergelijkingen. Dat geeft dit statisch bepaalde systeem.
 
-    ```{figure} ./theorie_data/SB-systeem.svg
+    ```{figure-start} ./theorie_data/SB-systeem.svg
     ---
     align: center
+    number:
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
     ---
-    Statisch bepaald systeem, $EI = 34000 \ \rm{kNm^2}$
     ```
 
-    ::::::
+    - $EI = 34000 \ \rm{kNm^2}$
+    - $EA \gg EI$
+
+    ```{figure-end}
+    ```
+
 
 3. Los de verplaatsing op in termen van de onbekende onbepaalde krachten zoals je normaal zou doen voor een statisch bepaalde constructie.
 
@@ -76,13 +80,57 @@ Voorbeeldconstructie, $EI = 34000 \ \rm{kNm^2}$
     :nonumber: true
     :label: steunpunt_3
 
-    Met behulp van vergeet-me-nietjes kunnen de rotaties worden gevonden ten gevolge van de momenten en verdeelde belasting. De staaf roteert ook nog als geheel, deze rotatie moet ook worden meegenomen.
+    Met behulp van vergeet-me-nietjes kunnen de rotaties worden gevonden ten gevolge van de momenten en verdeelde belasting. De staaf roteert ook nog als geheel, deze rotatie moet ook worden meegenomen. 
+
+    :::::{grid}
+    :class-container: center-grid
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/verplaatsing_1.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+    ```
+
+    ::::
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/verplaatsing_2.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+    ```
+    ::::
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/verplaatsing_3.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+    ```
+    ::::
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/verplaatsing_4.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+    ```
+    ::::
+
+    :::::
 
     - $\varphi _{\rm{B}}^{{\rm{AB}}}  = \cfrac{{ - {M_{\rm{B}}} \cdot 4}}{{3 \cdot EI}} + \cfrac{{17 \cdot {4^3}}}{{24 \cdot EI}} - \cfrac{{{w_{\rm{B}}}}}{4}  = -\cfrac{M_{\rm{B}}}{25500} -\cfrac{7}{1500}$
     - $\varphi _{\rm{B}}^{{\rm{BC}}}  = \cfrac{{{M_{\rm{B}}} \cdot 6}}{{3 \cdot EI}} - \cfrac{{{M_{\rm{C}}} \cdot 6}}{{6 \cdot EI}} + \cfrac{{{w_{\rm{B}}}}}{6} = \cfrac{M_{\rm{B}}}{17000} - \cfrac{M_{\rm{C}}}{34000} + \cfrac{1}{250}$
     - $\varphi_{\rm{C}} = -\cfrac{M_\text{B} \cdot 6}{3 \cdot EI} + \cfrac{M_\text{C} \cdot 6}{6 \cdot EI} + \cfrac{w_\text{B}}{6} = -\cfrac{M_{\rm{B}}}{34000} + \cfrac{M_{\rm{C}}}{17000} + \cfrac{1}{250}$
-
-    De rotatie van $\rm{AB}$ (met de klok mee) heeft de omgekeerde richting als $\varphi _{\rm{B}}^{{\rm{AB}}}$ (tegen de klok in), terwijl de rotatie van $\rm{BC}$ (tegen de klok in) dezelfde richting is als $\varphi _{\rm{B}}^{{\rm{BC}}}$ en $\varphi_{\rm{C}}$.
 
     ::::::
 
