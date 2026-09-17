@@ -278,7 +278,7 @@ ME[\cfrac{4}{125};2]
 ME[\cfrac{16}{625};3]
 M[0]
 M[0]
-ME[\cfrac{1}{60};3]
+MAPE[\cfrac{1}{60};0.0001;3]
 ME[\cfrac{5}{2};2]
 ME[\cfrac{1}{25};1]
 M[0]
@@ -316,6 +316,29 @@ M[-30]
 
 - $B_{\rm{v}}= $ {gap} $\rm{kN}$
 - $N_{\rm{C}}= $ {gap} $\rm{kN}$
+
+---
+
+::::
+
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+---
+M[288]
+M[0]
+M[72]
+^^^
+? Los nu ook de overige krachtenverdeling op.
+
+- $M_{\rm{A}}= $ {gap} $\rm{kNm}$ (ᑐ)
+- $N_{\rm{AB}}= $ {gap} $\rm{kN}$
+- $\left| V_{AB} \right|= $ {gap} $\rm{kNm}$
 
 ---
 
