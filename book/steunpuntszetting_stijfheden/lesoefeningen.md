@@ -103,7 +103,7 @@ Gekozen is het volgende statisch bepaalde systeem met vormveranderingsvoorwaarde
 ```{figure-start} ./lesoefeningen_data/statically_determinate2.svg
 :align: center
 :number:
-:source: steunpuntzetting
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpuntzetting
 :figclass: sticky-margin
 ```
 $EA = 15 \ \rm{MN}$
@@ -179,18 +179,17 @@ Nu de normaalkrachten in de staven bekend zijn kan de verlenging/verkorting per 
 Met behulp van de berekende verlenging/verkorting kan het williot diagram worden getekend, zie de figuur hieronder. 
 
 ```{figure} lesoefeningen_data/williot.svg
----
-align: center
----
-Williot diagram voor het bepalen van de verplaatsing van $\rm{D}$ en $\rm{B}$.
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpuntzetting
 ```
 
 Uit het williot diagram kan worden afgelezen:
 
-$$ w_{D,\rm{h}} = 0.0003 \cdot B_{\rm{v}} \ \rm{m} \left(\rightarrow\right)$$
-$$ w_{D,\rm{v}} \approx 0.001 \cdot B_{\rm{v}} \ \rm{m} \left(\downarrow\right)$$
-$$ w_{B,\rm{h}} = 0 $$
-$$ w_{B,\rm{v}} \approx 0.0014 \cdot B_{\rm{v}} \ \rm{m} \left(\downarrow\right)$$
+- $ w_{D,\rm{h}} = 0.0003 \cdot B_{\rm{v}} \ \rm{m} \ \left(\rightarrow\right)$
+- $ w_{D,\rm{v}} \approx 0.001 \cdot B_{\rm{v}} \ \rm{m} \  \left(\downarrow\right)$
+- $ w_{B,\rm{h}} = 0 $$
+- $ w_{B,\rm{v}} \approx 0.0014 \cdot B_{\rm{v}} \ \rm{m} \ \left(\downarrow\right)$
 
 ::::
 
@@ -261,14 +260,34 @@ M[64]
 
 De krachten en verplaatsingen kunnen worden opgelost uit de eerder opgestelde vergelijkingen door daar de berekende waarde voor $B_{\rm{v}}$ in in te vullen.
 
-$$ N_{\rm{BD}}= 64 \rm{kN} $$
-$$ N_{\rm{AD}}= -80 \rm{kN} $$
-$$ N_{\rm{CD}}= -48 \rm{kN} $$
-$$ w_{D,\rm{h}} = 19 \rm{mm} \left(\rightarrow\right)$$
-$$ w_{D,\rm{v}} = 64 \rm{mm} \left(\downarrow\right)$$
-$$ w_{B,\rm{h}} = 0 \rm{mm} $$
-$$ w_{B,\rm{v}} = 90 \rm{mm} \left(\downarrow\right)$$
+- $ N_{\rm{BD}}= 64 \rm{kN} $
+- $ N_{\rm{AD}}= -80 \rm{kN} $
+- $ N_{\rm{CD}}= -48 \rm{kN} $
+- $ w_{D,\rm{h}} = 19 \rm{mm} \ \left(\rightarrow\right)$
+- $ w_{D,\rm{v}} = 64 \rm{mm} \ \left(\downarrow\right)$
 
 ::::
 
 % solution_end
+
+:::::{question} Opgave
+:type: no-input
+:nocaption:
+:class: exercise
+:admonition:
+:showanswer:
+
+Teken de vervormde constructie
+
+---
+=
+
+```{figure} ./lesoefeningen_data/vervormd.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpuntzetting
+```
+
+---
+
+:::::
