@@ -295,7 +295,7 @@ number:
     \end{align}
     $$
 
-    Daarmee kunnen de de dwarskracht en het moment net links van $\rm{D}$ vinden:
+    Daarmee kunnen we de dwarskracht en het moment net links van $\rm{D}$ vinden:
 
     ```{figure} instructie_data/DG.svg
     :align: center
