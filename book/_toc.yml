@@ -54,13 +54,13 @@ parts:
     - file: krachtenmethode_raamwerk/lesoefeningen_2.md
     - file: krachtenmethode_raamwerk/COZ3.md
     - file: krachtenmethode_raamwerk/COZ4.md
-# START REMOVE-FROM-RELEASE
   - file: krachtenmethode_rek_raamwerk/lesson.md
     sections:
     - file: krachtenmethode_rek_raamwerk/instructie.md
     - file: krachtenmethode_rek_raamwerk/lesoefening_1.md
     - file: krachtenmethode_rek_raamwerk/COZ5.md
     - file: krachtenmethode_rek_raamwerk/COZ6.md
+# START REMOVE-FROM-RELEASE
   - file: steunpuntszetting_stijfheden/lesson.md
     sections:
     - file: steunpuntszetting_stijfheden/theorie1.md
