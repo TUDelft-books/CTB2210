@@ -1,10 +1,10 @@
+% source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/stijfheid_steunpunt
+
 ````{margin}
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_8/session_2/intro.html
-
-% source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/stijfheid_steunpunt
+Deze instructie is aangepast van de [les van 23 oktober van het vak CT1000S Structural Mechanics 2024/2025](https://oit.tudelft.nl/CT1000/2024/week_8/session_2/intro.html) van {cite:ts}`CT1000_2024`
 
 ```
 ````
@@ -13,83 +13,145 @@ Deze pagina is aangepast van https://oit.tudelft.nl/CT1000/2024/week_8/session_2
 
 Gegeven is de volgende constructie:
 
-```{figure} ./lesoefeningen_data/structure.svg
+```{figure-start} ./lesoefeningen_data/structure.svg
 :align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/stijfheid_steunpunt
+:figclass: sticky-margin
+```
+$EI = \cfrac{250}{3} \ \rm{MNm}^2$
 
-Constructie, $EI = \cfrac{250}{3} \ \rm{MNm^2}$
+```{figure-end}
 ```
 
-:::::{exercise}
-:label: steun_2_1
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-Wat is de graad van statisch onbepaaldheid?
+---
+M[2]
+^^^
+?
+De constructie is {gap}ste/de graads inwendig statisch onbepaald.
 
-```{h5p} https://tudelft.h5p.com/content/1292654698994250327/embed
-```
+---
+::::
 
-:::::
+## Extremen
 
-::::{admonition} Oplossing
-:class: solution, dropdown
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-De constructie is 2e graads inwendig statisch onbepaald. 
+---
+M[0]
+M[0]
+M[0]
+M[0]
+M[0]
+M[0]
+M[25]
+M[0]
+^^^
+? Voor het geval dat $nEI \to 0$, bepaal de krachtsverdeling en verplaatsingen:
+
+- $A_{\rm{v}} \left( nEI \to 0 \right)= $ {gap} $\rm{kN}$ (↑)
+- $B_{\rm{v}} \left( nEI \to 0 \right)= $ {gap} $\rm{kN}$ (↑)
+- $C_{\rm{v}} \left( nEI \to 0 \right)= $ {gap} $\rm{kN}$ (↑)
+- $D_{\rm{v}} \left( nEI \to 0 \right)= $ {gap} $\rm{kN}$ (↑)
+- $M_{\rm{B}} \left( nEI \to 0 \right)= $ {gap} $\rm{kNm}$ (◡)
+- $M_{\rm{D}} \left( nEI \to 0 \right)= $ {gap} $\rm{kNm}$ (◡)
+- $w_{\rm{halverwege \ AB}} \left( nEI \to 0 \right)= $ {gap} $\rm{mm}$ (↓)
+- $w_{\rm{halverwege \ CD}} \left( nEI \to 0 \right)= $ {gap} $\rm{mm}$ (↓)
+
+---
 
 ::::
 
-:::::{exercise}
-:label: steun_2_2
-:nonumber: true
-
-Voor het geval dat $nEI \to 0$, bepaal de krachtsverdeling en verplaatsingen:
-
-```{h5p} https://tudelft.h5p.com/content/1292654700974801967/embed
-```
-
-:::::
+% solution_start
 
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
 Als deel $\rm{BC}$ geen buigstijfheid meer heeft ontstaan er feitelijk twee losse liggertjes waarvan de linker 25 $\rm{mm}$ zakt. Dit levert de onderstaande krachten en verplaatsingen:
 
-$$A_{\rm{v}} \left( nEI \to 0 \right) = 0 \rm{kN}$$
-$$B_{\rm{v}} \left( nEI \to 0 \right) = 0 \rm{kN}$$
-$$C_{\rm{v}} \left( nEI \to 0 \right) = 0 \rm{kN}$$
-$$D_{\rm{v}} \left( nEI \to 0 \right) = 0 \rm{kN}$$
-$$M_{\rm{B}} \left( nEI \to 0 \right) = 0 \rm{kNm}$$
-$$M_{\rm{D}} \left( nEI \to 0 \right) = 0 \rm{kNm}$$
-$$w_{\rm{halverwege} \ \rm{AB}} \left( nEI \to 0 \right) = 25 \rm{mm}$$
-$$w_{\rm{halverwege} \ \rm{CD}} \left( nEI \to 0 \right) = 0 \rm{mm}$$
+- $A_{\rm{v}} \left( nEI \to 0 \right) = 0 \rm{kN}$
+- $B_{\rm{v}} \left( nEI \to 0 \right) = 0 \rm{kN}$
+- $C_{\rm{v}} \left( nEI \to 0 \right) = 0 \rm{kN}$
+- $D_{\rm{v}} \left( nEI \to 0 \right) = 0 \rm{kN}$
+- $M_{\rm{B}} \left( nEI \to 0 \right) = 0 \rm{kNm}$
+- $M_{\rm{D}} \left( nEI \to 0 \right) = 0 \rm{kNm}$
+- $w_{\rm{halverwege} \ \rm{AB}} \left( nEI \to 0 \right) = 25 \rm{mm}$
+- $w_{\rm{halverwege} \ \rm{CD}} \left( nEI \to 0 \right) = 0 \rm{mm}$
 
 ::::
 
-:::::{exercise}
-:label: steun_2_3
-:nonumber: true
+% solution_end
 
-Voor het geval dat $nEI \to \infty$, kies zelf een statisch bepaald systeem met vormveranderingsvoorwaardes en bepaal de krachtsverdeling:
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292654703279142367/embed
-```
+---
+M[6.25]
+M[-18.75]
+M[18.75]
+M[-6.25]
+M[62.5]
+M[-62.5]
+M[29.6875]
+M[-4.6875]
+^^^
+? Voor het geval dat $nEI \to \infty$, bepaal de krachtsverdeling en verplaatsingen:
 
-:::::
+- $A_{\rm{v}} \left( nEI \to \infty \right)= $ {gap} $\rm{kN}$ (↑)
+- $B_{\rm{v}} \left( nEI \to \infty \right)= $ {gap} $\rm{kN}$ (↑)
+- $C_{\rm{v}} \left( nEI \to \infty \right)= $ {gap} $\rm{kN}$ (↑)
+- $D_{\rm{v}} \left( nEI \to \infty \right)= $ {gap} $\rm{kN}$ (↑)
+- $M_{\rm{B}} \left( nEI \to \infty \right)= $ {gap} $\rm{kNm}$ (◡)
+- $M_{\rm{D}} \left( nEI \to \infty \right)= $ {gap} $\rm{kNm}$ (◡)
+- $w_{\rm{halverwege \ AB}} \left( nEI \to \infty \right)= $ {gap} $\rm{mm}$ (↓)
+- $w_{\rm{halverwege \ CD}} \left( nEI \to \infty \right)= $ {gap} $\rm{mm}$ (↓)
+
+---
+
+::::
+
+% solution_start
 
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
 Er wordt gekozen voor het onderstaande statisch bepaalde systeem, waarbij scharnieren en onbekende momentenparen zijn toegevoegd in $\rm{B}$ en $\rm{C}$. 
 
-```{figure} ./lesoefeningen_data/SB_systeem1.svg
+```{figure-start} ./lesoefeningen_data/SB_systeem1.svg
 :align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/stijfheid_steunpunt
+```
 
-Statisch bepaald systeem met onbekende momenten, $EI_{\rm{AB}} = EI_{\rm{CD}} = \cfrac{250}{3} \ \rm{MNm^2}, EI_{\rm{BC}} = \infty$
+- $EI_{\rm{AB}} = EI_{\rm{CD}} = \cfrac{250}{3} \ \rm{MNm^2}$
+- $EI_{\rm{BC}} = \infty$
+
+```{figure-end}
 ```
 
 De bijbehorende vormveranderingsvoorwaarden zijn:
 
-$$\varphi_{\rm{B}}^{\rm{AB}}=\varphi_{\rm{B}}^{\rm{BC}}$$
-$$\varphi_{\rm{C}}^{\rm{BC}}=\varphi_{\rm{C}}^{\rm{CD}}$$
+- $\varphi_{\rm{B}}^{\rm{AB}}=\varphi_{\rm{B}}^{\rm{BC}}$
+- $\varphi_{\rm{C}}^{\rm{BC}}=\varphi_{\rm{C}}^{\rm{CD}}$
 
 Omdat deel $\rm{BC}$ oneindig stijf is geldt: $\varphi_{\rm{B}}^{\rm{BC}}=\varphi_{\rm{C}}^{\rm{BC}}=\cfrac{25}{10000}=0.0025\rm{rad}$
 
@@ -103,73 +165,194 @@ Met momentenevenwicht van de hele constructie kan nu worden bepaald dat $B_{\rm{
 
 De zakkingen in het midden van de delen $\rm{AB}$ en $\rm{CD}$ kunnen worden bepaald uit de superpositie van de vervorming door buiging en de zakking van de opleggingen. 
 
-$$w_{\rm{halverwege} \ \rm{AB}} = 25 + \cfrac{62.5\cdot 10^2}{16\cdot\cfrac{250}{3}}=29.6875 \rm{mm}$$
-$$w_{\rm{halverwege} \ \rm{CD}} = - \cfrac{62.5\cdot 10^2}{16\cdot\cfrac{250}{3}}=-4.6875 \rm{mm}$$
+- $w_{\rm{halverwege} \ \rm{AB}} = 25 + \cfrac{62.5\cdot 10^2}{16\cdot\cfrac{250}{3}}=29.6875 \ \rm{mm}$
+- $w_{\rm{halverwege} \ \rm{CD}} = - \cfrac{62.5\cdot 10^2}{16\cdot\cfrac{250}{3}}=-4.6875 \ \rm{mm}$
 
 ::::
 
-:::::{exercise}
-:label: steun_2_4
-:nonumber: true
+% solution_end
+
+## Vermenigvuldigingsfactor
 
 Voor het geval van variabele $n$ is het volgende statisch bepaalde systeem:
 
-```{figure} ./lesoefeningen_data/SB.svg
+```{figure-start} ./lesoefeningen_data/SB.svg
 :align: center
-
-Constructie
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/stijfheid_steunpunt
+:figclass: sticky-margin
 ```
 
-```{h5p} https://tudelft.h5p.com/content/1292654763617550697/embed
+$EI = \cfrac{250}{3} \ \rm{MNm}^2$
+
+```{figure-end}
 ```
+
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+---
+M[25]
+M[0]
+^^^
+? Wat zijn de vormveranderingsvoorwaarden?
+
+- Bij $\rm{A}: w_A = $ {gap} $\rm{mm}$ (↓)
+- Bij $\rm{D}: w_D = $ {gap} $\rm{mm}$ (↓)
+
+---
+
+::::
+
+::::::{admonition} Opgave
+:class: exercise
+
+Voor alleen de zakking:
+
+```{figure} ./lesoefeningen_data/belasting_1.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/stijfheid_steunpunt
+:number:
+```
+
+:::::{question}
+:type: no-input
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen:
+
+---
+=
+
+```{figure} ./lesoefeningen_data/vervorming_1.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/stijfheid_steunpunt
+:number:
+```
+
+---
 
 :::::
+
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:nocaption:
+:showanswer:
+
+---
+M[0]
+M[0]
+M[0.0025]
+M[0.0025]
+M[50]
+M[-25]
+^^^
+? Bepaal de krachtsverdeling en verplaatsingen.
+
+- $M_{\rm{B}} = $ {gap} $\rm{kNm}$ (◡)
+- $M_{\rm{D}} = $ {gap} $\rm{kNm}$ (◡)
+- $\varphi_{\rm{B}} = $ {gap} $\rm{rad}$ (↺)
+- $\varphi_{\rm{C}} = $ {gap} $\rm{rad}$ (↺)
+- $w_{\rm{halverwege \ AB}} = $ {gap} $\rm{mm}$ (↓)
+- $w_{\rm{halverwege \ CD}} = $ {gap} $\rm{mm}$ (↓)
+
+---
+
+::::
+
+::::::
+
+% solution_start
 
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
-De vormveranderingsvoorwaardes zijn:
-
-$$w_{\rm{A}}=25 \rm{mm}$$
-$$w_{\rm{D}}=0 \rm{mm}$$
+Als $A_{\rm{v}}$ en $D_{\rm{v}}$ gelijk zijn aan 0 dan kan de constructie vrij vervormen en onstaat er geen buiging.
 
 ::::
 
-:::::{exercise}
-:label: steun_2_5
-:nonumber: true
+% solution_end
 
-Bepaal de krachtsverdeling en verplaatsingen als $A_{\rm{v}}$ en $D_{\rm{v}}$ gelijk zijn aan 0 en je de opgelegde zakking/vormveranderingsvoorwaarde voor $\rm{A}$ negeert.
+::::::{admonition} Opgave
+:class: exercise
 
-```{h5p} https://tudelft.h5p.com/content/1292654762901470137/embed
+Voor alleen de statisch onbepaalde krachten (dus geen zakking):
+
+```{figure} ./lesoefeningen_data/belasting_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/stijfheid_steunpunt
+:number:
 ```
+
+:::::{question}
+:type: no-input
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen:
+
+---
+=
+
+```{figure} ./lesoefeningen_data/vervorming_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/stijfheid_steunpunt
+:number:
+```
+
+---
 
 :::::
 
-::::{admonition} Oplossing
-:class: solution, dropdown
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:nocaption:
+:showanswer:
 
-Als $A_{\rm{v}}$ en $D_{\rm{v}}$ gelijk zijn aan 0 dan kan de constructie vrij vervormen en onstaat er geen buiging. Hieruit volgt:
+---
+M[10]
+M[0]
+M[0]
+M[10]
+M[0]
+M[0]
+M[-0.0004]
+M[-0.0002]
+M[0]
+M[0.0002]
+M[0.0004]
+M[0]
+M[0.004]
+M[0.002]
+M[0]
+M[-0.002]
+M[-0.004]
+M[0]
+^^^
+? Bepaal de krachtsverdeling en verplaatsingen als functie van $A_{\rm{v}}$ en $D_{\rm{v}}$ in $\rm{kN}$.
 
-$$ M_{\rm{B}} \left( A_{\rm{v}} = D_{\rm{v}} = 0 \right) = 0 \rm{kNm} $$
-$$ M_{\rm{C}} \left( A_{\rm{v}} = D_{\rm{v}} = 0 \right) = 0 \rm{kNm} $$
-$$ \varphi_{\rm{B}} \left( A_{\rm{v}} = D_{\rm{v}} = 0 \right) = 0.0025 \rm{rad} $$
-$$ \varphi_{\rm{C}} \left( A_{\rm{v}} = D_{\rm{v}} = 0 \right) = 0.0025 \rm{rad} $$
-$$ w_{\rm{A}} \left( A_{\rm{v}} = D_{\rm{v}} = 0 \right) = 50 \rm{mm} $$
-$$ w_{\rm{D}} \left( A_{\rm{v}} = D_{\rm{v}} = 0 \right) = -25 \rm{mm} $$
+- $M_{\rm{B}} \left(A_{\rm{v}}, D_{\rm{v}}\right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kNm}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kNm}}{\rm{kN}}\right) \cdot D_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{kNm}\right)$ (◡)
+- $M_{\rm{D}} \left(A_{\rm{v}}, D_{\rm{v}}\right)= $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kNm}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kNm}}{\rm{kN}}\right) \cdot D_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{kNm}\right)$ (◡)
+- $\varphi_{\rm{B}} \left(A_{\rm{v}}, D_{\rm{v}}\right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kN}}\right) \cdot D_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{rad}\right)$ (↺)
+- $\varphi_{\rm{C}} \left(A_{\rm{v}}, D_{\rm{v}}\right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{rad}}{\rm{kN}}\right) \cdot D_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{rad}\right)$ (↺)
+- $w_{\rm{halverwege \ AB}} \left(A_{\rm{v}}, D_{\rm{v}}\right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $ \left(\rm{m} \, \cfrac{\rm{rad}}{\rm{kN}}\right) \cdot D_{\rm{v}} + $ {gap} $\left(\rm{m} \, \rm{rad}\right)$ (↓)
+- $w_{\rm{halverwege \ CD}} \left(A_{\rm{v}}, D_{\rm{v}}\right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{m}}{\rm{kN}}\right) \cdot A_{\rm{v}} + $ {gap} $ \left(\rm{m} \, \cfrac{\rm{rad}}{\rm{kN}}\right) \cdot D_{\rm{v}} + $ {gap} $\left(\rm{m} \, \rm{rad}\right)$ (↓)
+
+---
 
 ::::
 
-:::::{exercise}
-:label: steun_2_6
-:nonumber: true
+::::::
 
-Bepaal de krachtsverdeling en verplaatsingen als functie van $A_{\rm{v}}$ en $D_{\rm{v}}$.
-
-```{h5p} https://tudelft.h5p.com/content/1292654774240819917/embed
-```
-
-:::::
+% solution_start
 
 ::::{admonition} Oplossing
 :class: solution, dropdown
@@ -191,33 +374,53 @@ $$ w_{\rm{D}} \left( A_{\rm{v}}, D_{\rm{v}} \right) = -0.025 - 10 \cdot \left( 0
 
 ::::
 
-:::::{exercise}
-:label: steun_2_7
-:nonumber: true
+% solution_end
 
-Los met de vormveranderingsvoorwaardes de onbekende $A_{\rm{v}}$ en $D_{\rm{v}}$ op. Let op, dit is een lastige wiskundige exercitie. Je wordt aangeraden gebruik te maken van een tool zoals SymPy.
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
+---
+M[25]
+M[0]
+M[4]
+M[2]
+M[25]
+M[0]
+M[4]
+M[2]
+^^^
+? Los met de vormveranderingsvoorwaardes de onbekende $A_{\rm{v}}$ en $D_{\rm{v}}$ in $\rm{kN}$ op. Let op, dit is een lastige wiskundige exercitie. Je wordt aangeraden gebruik te maken van een tool zoals SymPy.
 
-```{h5p} https://tudelft.h5p.com/content/1292654782286977977/embed
-```
+- $\rm{Av} = ( $ {gap} $ \cdot n + $ {gap} $ ) / ( $ {gap} $ \cdot n + $ {gap} $ )$
+- $\rm{Dv} = ( - $ {gap} $ \cdot n + $ {gap} $ ) / ( $ {gap} $ \cdot n + $ {gap} $ )$
 
-:::::
+---
+
+::::
+
+% solution_start
 
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
 Oplossen van de vergelijkingen levert:
 
-$$ A_{\rm{v}}= \cfrac{25 \cdot n}{4 \cdot n + 2} $$
-$$ D_{\rm{v}}= -\cfrac{25 \cdot n}{4 \cdot n + 2} $$
+- $ A_{\rm{v}}= \cfrac{25 \cdot n}{4 \cdot n + 2} $
+- $ D_{\rm{v}}= -\cfrac{25 \cdot n}{4 \cdot n + 2} $
 
 Deze functies kunnen ook geplot worden:
 
 ```{figure} lesoefeningen_data/steunpuntszetting.svg
----
-align: center
----
-Oplegreacties als functie van $n$
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/stijfheid_steunpunt
+:number:
 ```
 
 ::::
+
+% solution_end
