@@ -50,8 +50,3 @@
 - Aanpassingen t.o.v. vorig jaar:
     - Toevoegen invloed gesloten vs open constructies op statisch onbepaaldheid en veduidelijken invloed pendelstaven in [Statisch onbepaaldheid - Instructie](statisch_onbepaald/instructie.md)
 
-% solution_start
-- Schrappen les over verplaatsingenmethode met statisch onbepaalde verplaatsingen
-- Verduidelijken onafhankelijkheid van vrijheidsgraden in [Verplaatsingenmethode  met vrijheidsgraden - Instructie](verplaats2/theorie.md)
-- Toevoegen les over verschillende methodes in [Vergelijking methodes](methodes/lesson.md)
-% solution_end

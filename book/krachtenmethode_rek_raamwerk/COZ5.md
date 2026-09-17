@@ -46,14 +46,3 @@ Bepaal de verplaatsing van $\rm{D}$ en de dwarskracht bij $\rm{A}$ en $\rm{B}$.
 
 ::::
 
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-- $w_{\rm{D}} = 12.5 \, \rm{mm}$ (→)
-- $ \left| V_{\rm{A}} \right| = 71.25 \, \rm{kN}$
-- $ \left| V_{\rm{B}} \right| = 18.75 \, \rm{kN}$
-::::
-
-% solution_end
