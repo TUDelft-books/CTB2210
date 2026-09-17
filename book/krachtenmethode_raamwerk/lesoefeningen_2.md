@@ -531,10 +531,10 @@ M[12]
 M[-29.5]
 M[0]
 M[34.75]
-MAPE[5/6;0.01;3]
-MAPE[1997/48;0.1;4]
+MAPE[\cfrac{5}{6};0.01;3]
+MAPE[\cfrac{1997}{48};0.1;4]
 ^^^
-? Los de vormveranderingsvoorwaarden op om de statisch onbepaalde krachten te vinden.
+? Los nu ook de andere krachten op.
 
 - $M_{\rm{B}}^{\rm{BC}}= $ {gap} $\rm{kNm}$ (◡)
 - $M_{\rm{A}}= $ {gap} $\rm{kNm}$

@@ -9,7 +9,7 @@ Gegeven is de volgende 1ste graads statisch onbepaalde constructie:
 :number:
 ```
 
-- $EI_{\rm{AC}} = 20000 \ \rm{kNm^2}$
+- $EI_{\rm{AC}} = 2000 \ \rm{kNm^2}$
 - $EI_{\rm{BC}} = \cfrac{2000 \sqrt{13}}{3} \ \rm{kNm^2}$
 - $EA \gg EI $
 
@@ -72,7 +72,7 @@ Laten we de constructie oplossing met hoekveranderingsvergelijkingen, door een s
 :number:
 ```
 
-- $EI_{\rm{AC}} = 20000 \ \rm{kNm^2}$
+- $EI_{\rm{AC}} = 2000 \ \rm{kNm^2}$
 - $EI_{\rm{BC}} = \cfrac{2000 \sqrt{13}}{3} \ \rm{kNm^2}$
 - $EA \gg EI $
 

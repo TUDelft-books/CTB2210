@@ -255,7 +255,7 @@ Het algemene concept van de krachtenmethode wordt behandeld in hoofdstuk 2.1 ter
 
 ## Zelfde instructies in collegevorm
 
-Dit onderwerp is [in 2025 in les 6](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/c40ac091651a4143a10fe729246403c31d?sortBy=most-recent) gepresenteerd in collegevorm van 0:04:20 tot 0:30:00. De opname in collegejaar 2026/2027 volgt na het college.
+Dit onderwerp is [dit jaar in les 8](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/391bc9ef53a54caf8d556ba2f0088e0a1d?academicYear=2026-2027-ctb2210) gepresenteerd van 0:19:00 tot 0:43:10 (TU Delft login vereist). Dit onderwerp is [in 2025 in les 6](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/c40ac091651a4143a10fe729246403c31d?sortBy=most-recent) gepresenteerd van 0:04:20 tot 0:30:00.
 
 ## Extra opgaves in boek
 
