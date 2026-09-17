@@ -378,7 +378,7 @@ Wanneer het boek de 'momentenvlakstelling' noemt in voorbeeld 2.2.6 en 2.2.7, ku
 
 ## Zelfde instructies in collegevorm
 
-Dit onderwerp is [in 2025 in les 7](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/2e0fc9db91574fc9adacecd1eb833ce71d?sortBy=most-recent) gepresenteerd in collegevorm van 0:07:50 - 0:31:50. De opname in collegejaar 2026/2027 volgt na het college.
+Dit onderwerp is dit jaar [in les 9](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/2dabd45be53f4c368ddb2bc325231cfa1d?academicYear=2026-2027-ctb2210) gepresenteerd van 0:04:35 tot 0:39:40 (TU Delft login vereist). Dit onderwerp is in 2025 [in les 7](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/2e0fc9db91574fc9adacecd1eb833ce71d?sortBy=most-recent) gepresenteerd in collegevorm van 0:07:50 - 0:31:50.
 
 ## Extra opgaves in boek
 

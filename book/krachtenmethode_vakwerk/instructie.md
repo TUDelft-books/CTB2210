@@ -268,7 +268,7 @@ In hoofdstuk 2.1 van het boek Mechanica, Statisch onbepaalde constructies en bez
 
 ## Zelfde instructies in collegevorm
 
-Dit onderwerp is in [2025 in les 5](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/99cfa289d58d4986a4378be10efb40c31d?sortBy=most-recent) gepresenteerd in collegevorm tot 0:42:50. De opname in collegejaar 2026/2027 volgt na het college.
+Dit onderwerp is dit jaar [in les 7](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/7c8045df2d0e4483a703a836fc273b2e1d?academicYear=2026-2027-ctb2210) gepresenteerd van 0:03:50 tot 0:53:10 (TU Delft login vereist). In 2025 is dit onderwerp in [les 5](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/99cfa289d58d4986a4378be10efb40c31d?sortBy=most-recent) gepresenteerd tot 0:42:50 (publiek beschikbaar).
 
 ## Extra opgaves in boek
 - Opgaves 2.40 en 2.41, in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.

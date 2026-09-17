@@ -1,5 +1,9 @@
 # Changelog 🔖
 
+## 2026-09-17: v2026.8.0
+- Toevoegen les krachtenmethode gecombineerd rek en buiging
+- Toevoegen uitwerkingen van de begeleide oefeningen van les over krachtenmethode raamwerken.
+
 ## 2026-09-15: v2026.7.0
 - Toevoegen oplossingen en uitwerkingen van de COZ opgaves van blok 2.
 - Toevoegen uitwerkingen van de begeleide oefeningen van les over krachtenmethode rek en williot
