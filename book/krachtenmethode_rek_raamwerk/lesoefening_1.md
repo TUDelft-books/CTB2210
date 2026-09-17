@@ -1,6 +1,6 @@
 # Begeleide oefening 1
 
-```{figure-start} ./lesoefeningen_data/constructie.svg
+```{figure-start} ./lesoefening_data/constructie.svg
 :align: center
 :figclass: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/exam_SOB
@@ -116,9 +116,9 @@ Gegeven is de volgende mogelijke aangepaste constructie:
 
 Is deze constructie statisch bepaald, statisch onbepaald of een mechanisme?
 ---
-[x] Deze constructie is statisch bepaald.
+[ ] Deze constructie is statisch bepaald.
 [ ] Deze constructie is statisch onbepaald.
-[ ] Deze constructie is een mechanisme.
+[x] Deze constructie is een mechanisme.
 ---
 
 :::::
@@ -170,14 +170,14 @@ Is deze constructie statisch bepaald, statisch onbepaald of een mechanisme?
 :nocaption:
 :showanswer:
 
-Schets de mogelijke vervormingen ten gevolge van het moment $B_{\rm{v}}$::
+Schets de mogelijke vervormingen ten gevolge van de statisch onbepaalde kracht $B_{\rm{v}}$::
 
 ---
 =
 
-```{figure} ./lesoefening_data/optie_3_verplaatsing.svg
+```{figure} ./lesoefening_data/optie_3_verplaatsingen.svg
 :align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_SOB
 :number:
 ```
 
@@ -193,7 +193,6 @@ Schets de mogelijke vervormingen ten gevolge van het moment $B_{\rm{v}}$::
 Is deze aangepaste constructie een goede keuze voor de krachtenmethode?
 ---
 [x] Ja
-> ...
 [ ] Het kan, maar er zijn betere opties
 [ ] Nee
 > Deze constructie is statisch bepaald en daarmee geschikt!
@@ -202,3 +201,122 @@ Is deze aangepaste constructie een goede keuze voor de krachtenmethode?
 :::::
 
 ::::::
+
+Er wordt gekozen voor het volgende statisch bepaalde systeem inclusief vormveranderingsvoorwaarden:
+
+```{figure-start} ./lesoefening_data/stat_bepaald.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_SOB
+:figclass: sticky-margin
+:number:
+```
+
+- $EI = 768 \ \rm{MNm^2}$
+- $EA = 125 \ \rm{MN}$
+
+```{figure-end}
+```
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen ten gevolgde van de $90 \ \rm{kN}$.
+---
+=
+
+```{figure} ./lesoefening_data/verplaatsingen_1.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_SOB
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de mogelijke vervormingen ten gevolgde van de statisch onbepaalde kracht $N_{\rm{C}}$.
+---
+=
+
+```{figure} ./lesoefening_data/verplaatsingen_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_SOB
+:number:
+```
+
+---
+
+:::::
+
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+---
+M[0]
+ME[\cfrac{3}{5};1]
+M[90]
+M[-1]
+ME[\cfrac{-4}{5};1]
+M[0]
+ME[\cfrac{4}{125};2]
+ME[\cfrac{16}{625};3]
+M[0]
+M[0]
+ME[\cfrac{1}{60};3]
+ME[\cfrac{5}{2};2]
+ME[\cfrac{1}{25};1]
+M[0]
+M[0]
+M[0]
+ME[\cfrac{1}{20};1]
+ME[\cfrac{3}{2};2]
+^^^
+? Bepaal de verplaatsingen in $\rm{mm}$ met $B_{\rm{v}}$ en $N_{\rm{C}}$ in $\rm{kN}$.
+
+- $V_{\rm{B}}^{\rm{AB}} \left( \rm{B}_{\rm{v}}, N_{\rm{C}}\right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kN}}\right) \cdot N_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$ (zorgt voor afschuiving van punt $\rm{B}$ naar rechts tov $\rm{A}$)
+- $N_{\rm{AB}} \left( \rm{B}_{\rm{v}}, N_{\rm{C}}\right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kN}}\right) \cdot N_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$
+- $w_{\rm{B}} \left( \rm{B}_{\rm{v}}, N_{\rm{C}}\right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{mm}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{mm}}{\rm{kN}}\right) \cdot N_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{mm}\right)$ (↑)
+- $w_{\rm{B,h}} \left( \rm{B}_{\rm{v}}, N_{\rm{C}}\right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{mm}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{mm}}{\rm{kN}}\right) \cdot N_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{mm}\right)$ (→)
+- $\Delta L_{\rm{BC}} \left( \rm{B}_{\rm{v}}, N_{\rm{C}}\right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{mm}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{mm}}{\rm{kN}}\right) \cdot N_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{mm}\right)$
+- $w_{\rm{C}} \left( \rm{B}_{\rm{v}}, N_{\rm{C}}\right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{mm}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{mm}}{\rm{kN}}\right) \cdot N_{\rm{C}} + $ {gap} $\left(\rm{in} \, \rm{mm}\right)$ (↗)
+
+---
+
+::::
+
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+---
+M[24]
+M[-30]
+^^^
+? Los de vormveranderingsvoorwaarden op om de statisch onbepaalde krachten te vinden.
+
+- $B_{\rm{v}}= $ {gap} $\rm{kN}$
+- $N_{\rm{C}}= $ {gap} $\rm{kN}$
+
+---
+
+::::
