@@ -1,11 +1,3 @@
-````{margin}
-```{attributiongrey} Bronvermelding
-:class: attribution
-
-Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/temperature.html
-```
-````
-
 # Instructie
 
 Elementen verlengen onder uniforme belasting met een extra rek van $\epsilon^{\rm{T}} = \alpha \ \Delta T$, waarbij $\alpha$ de lineaire uitzettingscoëfficiënt is. Wanneer een temperatuurverandering over de hoogte van een element optreedt, verlengen de vezels individueel, wat leidt tot buiging van elementen met een extra kromming van $\kappa^{\rm{T}} = \alpha \ \cfrac{\Delta T}{h}$, waarbij $h$ de hoogte van het element is. In statisch bepaalde constructies leidt dit tot extra spanningsloze rekken (en dus vervormingen) zonder invloed op de krachtverdeling, omdat de krachtverdeling onafhankelijk is van de vervormingen.
@@ -14,16 +6,16 @@ De vervorming kan worden gevonden door de spanningsloze rekken te integreren met
 
 ```{figure} ./theorie_data/kin_eq_load_SB.svg
 :align: center
-
-Kinematisch equivalente belasting die tot dezelfde rek en kromming leidt als rek door lineaire uitzetting
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/temperatuur
+:number:
 ```
 
 In statisch onbepaalde constructies zijn de vervorming en krachtverdeling gekoppeld, wat leidt tot reactiekrachten en interne spanningen door de (tegengehouden) vervormingen als gevolg van de temperatuurverandering. Deze krachten kunnen opnieuw worden gevonden door de rekken (zowel de spanningsveroorzakende rekken als spanningsloze temperatuurrekken) te integreren met behulp van de differentiaalvergelijkingen. Alternatief kan een kinematisch equivalente belasting, zoals bij statisch bepaalde constructies, worden toegepast in combinatie met de krachtmethode: de verplaatsingen door temperatuur worden meegenomen in de vormveranderingsvoorwaarden.
 
 ```{figure} ./theorie_data/kin_eq_load_SO.svg
 :align: center
-
-Kinematisch equivalente belasting die tot dezelfde rek en kromming leidt als rek door lineaire uitzetting, terwijl statisch onbepaalde reactiekrachten spanningen en reactiekrachten veroorzaken
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/temperatuur
+:number:
 ```
 
 De temperatuursinvloeden kunnen worden meegenomen in de krachtenmethode met de volgende stappen, waarbij stappen 1 en 4 zijn toegevoegd aan de standaard krachtenmethode:
@@ -43,13 +35,16 @@ De temperatuursinvloeden kunnen worden meegenomen in de krachtenmethode met de v
 
 De toepassing van temperatuursinvloeden op een statisch onbepaalde constructie wordt in een voorbeeld getoond met de krachtenmethode.
 
+
 ````{margin}
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Dit voorbeeld is aangepast van https://oit.tudelft.nl/CT1000/2024/week_7/session_3/intro.html
+Deze oefening is aangepast van de [les van 18 oktober van het vak CTS1000](https://oit.tudelft.nl/CT1000/2024/week_7/session_3/intro.html) van {cite:ts}`CT1000_2024`
+
 ```
 ````
+
 
 ::::::{prf:example}
 :nonumber: true
