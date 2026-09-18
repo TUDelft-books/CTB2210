@@ -69,7 +69,6 @@ number:
 ```{figure-end}
 ```
 
-
 Het temperatuurverschil over de hoogte van de balk geeft de kromming $\kappa^{\rm{T}} = 10^{-3} \ \rm{m}^{-1}$ over de gehele lengte van de balk:
 
 ```{figure} ./theorie_data/curv_sun.svg
@@ -78,7 +77,7 @@ Het temperatuurverschil over de hoogte van de balk geeft de kromming $\kappa^{\r
 :number:
 ```
 
-Om de kinematisch equivalente kracht te vinden moeten we de constructie eerste statisch bepaald maken. Dat kan bijvoorbeeld met het volgende statisch bepaalde systeem:
+Om de kinematisch equivalente kracht te vinden moeten we de constructie eerst statisch bepaald maken. Dit is een eerstegraads statisch onbepaalde constructie, dus we moeten de constructie op één plek aanpassen. Dat kan bijvoorbeeld met het volgende statisch bepaalde systeem:
 
 ```{figure-start} ./theorie_data/structure_deter2.svg
 :align: center
@@ -141,24 +140,43 @@ Nu kunnen we verder met de krachtenmethode zoals we die gewend zijn. De verplaat
 :::::
 
 
-De verplaatsing van $\rm{B}$ kan gevonden worden met vergeet-me-nietjes: $  w_{\rm{B}} = - \cfrac{6 \cdot 6 ^2}{2 \cdot 6000} + \cfrac{B_{\rm{v}} \cdot 6^3}{3 \cdot 6000}= -0.018 + \cfrac{3}{250}B_{\rm{v}}$.
+De verplaatsing van $\rm{B}$ kan gevonden worden met vergeet-me-nietjes:
 
-Dit geeft $B_{v} = 1.5 \ \rm{kN}$
+$$
+\begin{align*}
+w_{\rm{B}} &= 0 \\
+- \cfrac{6 \cdot 6 ^2}{2 \cdot 6000} + \cfrac{B_{\rm{v}} \cdot 6^3}{3 \cdot 6000}&= 0 \\
+-0.018 + \cfrac{3}{250}B_{\rm{v}} &= 0 \\
+B_{\rm{v}} &= 1.5 \ \rm{kN}
+\end{align*}$$
 
 De momentenlijn en verplaatsingen kunnen nu gevonden worden. Voor de momentenlijn dient de kinematisch equivalente belasting van $6 \ \rm{kNm}$ niet te worden meegenomen, maar voor de verplaatsingen wel. Dit geeft:
 
+:::::{grid}
+:class-container: center-grid
+
+::::{grid-item}
+:columns: auto
 
 ```{figure} theorie_data/M-line.svg
 :align: center
-
-Momentenljin
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
 ```
+
+::::
+
+::::{grid-item}
+:columns: auto
 
 ```{figure} theorie_data/disp_total.svg
 :align: center
-
-Vervormde constructie
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
 ```
+::::
+
+:::::
 
 ::::::
 
