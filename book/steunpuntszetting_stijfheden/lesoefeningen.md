@@ -30,7 +30,7 @@ Gegeven is de volgende uitwerking:
 
 $N_{\rm{BD}} = \cfrac{90}{6000} \cdot 15000 = 225 \ \rm{kN}$
 
-Evenwicht van knoop D levert:
+Evenwicht van knoop $\rm{D}$ levert:
 - $ N_{\rm{AD}} = -281.25 \ \rm{kN}$
 - $ N_{\rm{CD}} = -168.75 \ \rm{kN}$
 
@@ -141,7 +141,7 @@ M[0]
 M[0.0014]
 M[0]
 ^^^
-? Bepaal de krachtsverdeling en vervormingen als functie van $B_{\rm{v}}$ met $B_{\rm{v}} in $\rm{kN}$.
+? Bepaal de krachtsverdeling en vervormingen als functie van $B_{\rm{v}}$ met $B_{\rm{v}}$ in $\rm{kN}$.
 
 - $N_{\rm{BD}} \left( \rm{B}_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$ 
 - $N_{\rm{AD}} \left( \rm{B}_{\rm{v}} \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{kN}}\right) \cdot B_{\rm{v}} + $ {gap} $\left(\rm{in} \, \rm{kN}\right)$
@@ -164,9 +164,9 @@ M[0]
 
 De normaalkrachten in de staven AD en CD kunnen met behulp van het knoopevenwicht van $\rm{D}$ worden uitgedrukt in $B_{\rm{v}}$. 
 
-$$ N_{\rm{BD}} = B_{\rm{v}} $$
-$$ \sum F_{\rm{v}} = 0 \rightarrow N_{\rm{AD}} = - \cfrac{5}{4} \cdot B_{\rm{v}} $$
-$$ \sum F_{\rm{h}} = 0 \rightarrow N_{\rm{CD}} = - \cfrac{3}{4} \cdot B_{\rm{v}} $$
+- $ N_{\rm{BD}} = B_{\rm{v}} $
+- $ \sum F_{\rm{v}} = 0 \rightarrow N_{\rm{AD}} = - \cfrac{5}{4} \cdot B_{\rm{v}} $
+- $ \sum F_{\rm{h}} = 0 \rightarrow N_{\rm{CD}} = - \cfrac{3}{4} \cdot B_{\rm{v}} $
 
 Nu de normaalkrachten in de staven bekend zijn kan de verlenging/verkorting per staaf worden bepaald. De resultaten zijn weergegeven in de onderstaande tabel. 
 
@@ -188,7 +188,7 @@ Uit het williot diagram kan worden afgelezen:
 
 - $ w_{D,\rm{h}} = 0.0003 \cdot B_{\rm{v}} \ \rm{m} \ \left(\rightarrow\right)$
 - $ w_{D,\rm{v}} \approx 0.001 \cdot B_{\rm{v}} \ \rm{m} \  \left(\downarrow\right)$
-- $ w_{B,\rm{h}} = 0 $$
+- $ w_{B,\rm{h}} = 0 $
 - $ w_{B,\rm{v}} \approx 0.0014 \cdot B_{\rm{v}} \ \rm{m} \ \left(\downarrow\right)$
 
 ::::

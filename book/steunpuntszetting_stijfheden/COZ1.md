@@ -35,7 +35,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 ::::{admonition} Opgave
 :class: exercise
 
-Bepaal de maximale zakking van $\rm{C}$ zodat het maximale moment onder de $100 \ \rm{kNm}$ blijft.
+Bepaal de maximale zakking van $\rm{C}$ zodat de absolute waarde van het maximale moment onder de $100 \ \rm{kNm}$ blijft.
 
 ::::
 

@@ -251,8 +251,8 @@ M[0]
 M[0]
 M[0.0025]
 M[0.0025]
-M[50]
-M[-25]
+M[37.5]
+M[-12.5]
 ^^^
 ? Bepaal de krachtsverdeling en verplaatsingen.
 
