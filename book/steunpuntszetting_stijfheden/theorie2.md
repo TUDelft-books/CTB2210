@@ -2,12 +2,10 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/statically_inderminate/stiffness_influences.html en https://oit.tudelft.nl/CT1000/2024/week_7/session_3/intro.html
-
-% source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+Deze instructie is aangepast van de [les van 18 oktober van het vak CT1000S Structural Mechanics 2024/2025](https://oit.tudelft.nl/CT1000/2024/week_7/session_3/intro.html) van {cite:ts}`CT1000_2024`
 
 ```
-```` 
+````
 
 # Instructie stijfheidsinvloeden
 
@@ -18,7 +16,6 @@ Er zijn twee manieren om de stijfheidsinvloeden te analyseren:
 1. Los op met een onbekende vermenigvuldigingsfactor $n \cdot EI$ of $n \cdot EA$. Dit geeft een uitdrukking voor krachten/verplaatsingen en maakt het mogelijk een asymptotische grafiek te maken ten opzichte van $n$. Bij deze aanpak dient altijd een statisch bepaalde constructies opgelost te worden met een methode naar keuze.
 2. Onderzoek extremen: bekijk beide gevallen van $EI \to 0$ of $EA \to 0$ en $EI \to \infty$ of $EA \to \infty$. Hiermee kun je de uiterste gevallen van krachten en de omhullende van inwendige krachten/verplaatsingen bepalen. Alle werkelijke stijfheidswaarden moeten binnen deze envelop liggen. Bij deze analyse vereenvoudigt een statisch bepaalde constructie soms tot een statisch bepaalde constructie.
 
-
 We behandelen beide aanpakken op de volgende constructie: 
 
 ::::::{prf:example}
@@ -26,10 +23,10 @@ We behandelen beide aanpakken op de volgende constructie:
 :label: stijfheid_0
 
 ```{figure} ./theorie_data/systeem.svg
----
-align: center
----
-Voorbeeldconstructie
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+:figclass: sticky-margin
 ```
 
 ::::::
@@ -42,11 +39,17 @@ Voorbeeldconstructie
     :nonumber: true
     :label: stijfheid_1
 
+    ```{figure} ./theorie_data/statisch_onbepaaldheid_2.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+    ```
+
     Deze constructie is 1e orde intern statisch onbepaald.
 
     ::::::
 
-2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij een pendelstaaf, of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaardes toe voor elke opleggging die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme!
+2. Transformeer de constructie in een statisch bepaald systeem door opleggingen weg te nemen, de constructie te splitsen bij een pendelstaaf, of scharnieren toe te voegen: voeg onbekende statisch onbepaalde krachten en vervormingsvoorwaardes toe voor elke opleggging die je hebt weggenomen en scharnieren die je hebt toegevoegd. Let op dat je de constructie niet transformeert tot een (gedeeltelijk) mechanisme! Kies een statisch bepaald systeem dat makkelijk is uit te rekenen: elementen verplaatsen bij voorkeur niet als ze ook al roteren en je kan vergeet-me-nietjes herkennen in het statisch bepaalde systeem.
 
     ::::::{prf:example}
     :nonumber: true
@@ -55,10 +58,10 @@ Voorbeeldconstructie
     Er wordt hier gekozen voor hoekveranderingsvergelijkingen. Dat geeft dit statisch bepaalde systeem.
 
     ```{figure} ./theorie_data/SB_systeem_2.svg
-    ---
-    align: center
-    ---
-    Statisch bepaald systeem
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+    :figclass: sticky-margin
     ```
 
     ::::::
@@ -70,6 +73,32 @@ Voorbeeldconstructie
     :label: stijfheid_3
 
     Met behulp van vergeet-me-nietjes kunnen de rotaties worden gevonden ten gevolge van de momenten en verdeelde belasting.
+
+    :::::{grid}
+    :class-container: center-grid
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/verplaatsing_5.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+    ```
+
+    ::::
+
+    ::::{grid-item}
+    :columns: auto
+
+    ```{figure} ./theorie_data/verplaatsing_6.svg
+    :align: center
+    :number:
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+    ```
+    ::::
+
+    :::::
 
     - $\varphi _{\rm{B}}^{{\rm{AB}}}  = \cfrac{4 M_{\rm{B}}}{3 EI} + \cfrac{8}{EI}$
     - $\varphi _{\rm{B}}^{{\rm{BC}}}  = \cfrac{-4 M_{\rm{B}}}{3 n EI}$
@@ -118,19 +147,17 @@ Voorbeeldconstructie
 Voor het eerste geval van $nEI \to 0 $ heeft het rechter gedeelte van de constructie geen stijfheid meer. Je zou het gedeelte $\rm{AB}$ daarom kunnen zijn als een statisch bepaalde ligger op twee steunpunten:
 
 ```{figure} ./theorie_data/systeem_0.svg
----
-align: center
----
-$\rm{AB}$ als $nEI \to 0 $
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
 ```
 
 Dit geeft direct het moment in $\rm{D}$ met $\cfrac{1}{4}FL = 8 \ \rm{kNm}$ en de volgende momentenlijn:
 
 ```{figure} ./theorie_data/M_1.svg
----
-align: center
----
-Momentenlijn voor $nEI \to 0 $
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
 ```
 
 **Geval $nEI \to \infty$**
@@ -138,10 +165,9 @@ Momentenlijn voor $nEI \to 0 $
 Voor het tweede geval van $nEI = \infty$ wordt het rechter gedeelte oneindig stijf:
 
 ```{figure} ./theorie_data/systeem_inf.svg
----
-align: center
----
-Statisch onbepaalde ligger voor  $nEI \to \infty$
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
 ```
 
 Dit geeft de volgende rotaties voor het statisch bepaalde systeem met vormveranderingsvoorwaarde $\varphi _{\rm{B}}^{{\rm{AB}}} = \varphi _{\rm{B}}^{{\rm{BC}}}$ (zie [de toepassing van hoekveranderingsvergelijkingen met de vermenigvuldigingsfactor](stijfheid_3)):
@@ -152,10 +178,9 @@ Dit geeft de volgende rotaties voor het statisch bepaalde systeem met vormverand
 Resulterend in $M_{\rm{B}} = 6 \ \rm{kNm}$ en $M_{\rm{D}} = 5 \ \rm{kNm}$:
 
 ```{figure} ./theorie_data/M_2.svg
----
-align: center
----
-Momentenlijn voor $nEI \to \infty $
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
 ```
 
 ::::::
@@ -169,10 +194,9 @@ Momentenlijn voor $nEI \to \infty $
 De extreme momenten kunnen gecombineerd worden tot omhullende momentenlijn waarbij alle mogelijk waardes voor het moment voor $n$ in het grijze gedeelte vallen.
 
 ```{figure} ./theorie_data/omhullende.svg
----
-align: center
----
-Omhullende momentenlijn
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
 ```
 
 Dit kan ook gedaan worden voor andere krachts- en verplaatsingsgrootheden.

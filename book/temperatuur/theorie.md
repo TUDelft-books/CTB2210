@@ -1,29 +1,23 @@
-````{margin}
-```{attributiongrey} Bronvermelding
-:class: attribution
-
-Deze pagina is aangepast van https://oit.tudelft.nl/CEG-mechanics-BSc/NL/statically_inderminate/temperature.html
-```
-````
-
 # Instructie
 
 Elementen verlengen onder uniforme belasting met een extra rek van $\epsilon^{\rm{T}} = \alpha \ \Delta T$, waarbij $\alpha$ de lineaire uitzettingscoëfficiënt is. Wanneer een temperatuurverandering over de hoogte van een element optreedt, verlengen de vezels individueel, wat leidt tot buiging van elementen met een extra kromming van $\kappa^{\rm{T}} = \alpha \ \cfrac{\Delta T}{h}$, waarbij $h$ de hoogte van het element is. In statisch bepaalde constructies leidt dit tot extra spanningsloze rekken (en dus vervormingen) zonder invloed op de krachtverdeling, omdat de krachtverdeling onafhankelijk is van de vervormingen.
 
-De vervorming kan worden gevonden door de spanningsloze rekken te integreren met behulp van de differentiaalvergelijkingen. Alternatief kan een equivalente belasting worden gebruikt die tot dezelfde kromming leidt, zodat de vergeet-me-nietjes toegepast kunnen worden. Dit vereist een kinematisch equivalente belasting die geen invloed heeft op reactiekrachten en interne krachten:
+De vervorming kan worden gevonden door de spanningsloze rekken te integreren met behulp van de differentiaalvergelijkingen. Er verandert daarbij niks aan de aanpak zoals die voor statisch bepaalde constructies is toegepast.
+
+Alternatief kan een equivalente belasting worden gebruikt die tot dezelfde kromming leidt, zodat de vergeet-me-nietjes toegepast kunnen worden. Dit vereist een kinematisch equivalente belasting die geen invloed heeft op reactiekrachten en interne krachten:
 
 ```{figure} ./theorie_data/kin_eq_load_SB.svg
 :align: center
-
-Kinematisch equivalente belasting die tot dezelfde rek en kromming leidt als rek door lineaire uitzetting
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/temperatuur
+:number:
 ```
 
 In statisch onbepaalde constructies zijn de vervorming en krachtverdeling gekoppeld, wat leidt tot reactiekrachten en interne spanningen door de (tegengehouden) vervormingen als gevolg van de temperatuurverandering. Deze krachten kunnen opnieuw worden gevonden door de rekken (zowel de spanningsveroorzakende rekken als spanningsloze temperatuurrekken) te integreren met behulp van de differentiaalvergelijkingen. Alternatief kan een kinematisch equivalente belasting, zoals bij statisch bepaalde constructies, worden toegepast in combinatie met de krachtmethode: de verplaatsingen door temperatuur worden meegenomen in de vormveranderingsvoorwaarden.
 
 ```{figure} ./theorie_data/kin_eq_load_SO.svg
 :align: center
-
-Kinematisch equivalente belasting die tot dezelfde rek en kromming leidt als rek door lineaire uitzetting, terwijl statisch onbepaalde reactiekrachten spanningen en reactiekrachten veroorzaken
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/temperatuur
+:number:
 ```
 
 De temperatuursinvloeden kunnen worden meegenomen in de krachtenmethode met de volgende stappen, waarbij stappen 1 en 4 zijn toegevoegd aan de standaard krachtenmethode:
@@ -43,70 +37,146 @@ De temperatuursinvloeden kunnen worden meegenomen in de krachtenmethode met de v
 
 De toepassing van temperatuursinvloeden op een statisch onbepaalde constructie wordt in een voorbeeld getoond met de krachtenmethode.
 
+
 ````{margin}
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Dit voorbeeld is aangepast van https://oit.tudelft.nl/CT1000/2024/week_7/session_3/intro.html
+Deze oefening is aangepast van de [les van 18 oktober van het vak CTS1000](https://oit.tudelft.nl/CT1000/2024/week_7/session_3/intro.html) van {cite:ts}`CT1000_2024`
+
 ```
 ````
+
 
 ::::::{prf:example}
 :nonumber: true
 :label: temp_0
 
-```{figure} ./theorie_data/structure2.svg
+```{figure-start} ./theorie_data/structure2.svg
 ---
 align: center
+figclass: sticky-margin
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+number:
 ---
-Voorbeeldconstructie, $EI = 6 \ \rm{MNm^2}$
+
+```
+
+- $EI = 6 \ \rm{MNm^2}$
+- $EA \gg EI$
+- $\Delta T = 20 \ ^{\circ} \rm{C}$
+- $h = 0.2 \ \rm{m}$
+- $\alpha = 10^{-5} \ ^{\circ} \rm{C}^{-1}$
+
+```{figure-end}
 ```
 
 Het temperatuurverschil over de hoogte van de balk geeft de kromming $\kappa^{\rm{T}} = 10^{-3} \ \rm{m}^{-1}$ over de gehele lengte van de balk:
 
 ```{figure} ./theorie_data/curv_sun.svg
----
-align: center
----
-Krommingslijn ten gevolge van de temperatuur los van alle opleggingen
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+:number:
 ```
 
-Om de kinematisch equivalente kracht te vinden moeten we de constructie eerste statisch bepaald maken. Dat kan bijvoorbeeld met het volgende statisch bepaalde systeem:
+Om de kinematisch equivalente kracht te vinden moeten we de constructie eerst statisch bepaald maken. Dit is een eerstegraads statisch onbepaalde constructie, dus we moeten de constructie op één plek aanpassen. Dat kan bijvoorbeeld met het volgende statisch bepaalde systeem:
 
-```{figure} ./theorie_data/structure_deter2.svg
----
-align: center
----
-Statisch bepaald systeem met vormveranderingsvoorwaarde, $EI = 6 \ \rm{MNm^2}$
+```{figure-start} ./theorie_data/structure_deter2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+:number:
+```
+
+- $EI = 6 \ \rm{MNm^2}$
+- $EA \gg EI$
+- $\Delta T = 20 \ ^{\circ} \rm{C}$
+- $h = 0.2 \ \rm{m}$
+- $\alpha = 10^{-5} \ ^{\circ} \rm{C}^{-1}$
+
+```{figure-end}
 ```
 
 Voor dit systeem krijgen we met een koppel (↻) op het uiteinde van de balk dezelfde vorm van de krommingslijn. De waarde van dat koppel moet $M = \kappa \cdot EI = 6 \ \rm{kNm}$ zijn voor dezelfde kromming. Dat geeft het volgende statisch bepaalde systeem:
 
-```{figure} ./theorie_data/structure_deter3.svg
----
-align: center
----
-Statisch bepaald systeem met vormveranderingsvoorwaarde en kinematisch equivalente belasting door de temperatuursinvloed, $EI = 6 \ \rm{MNm^2}$
+```{figure-start} ./theorie_data/structure_deter3.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+:number:
+:figclass: sticky-margin
 ```
 
-Nu kunnen we verder met de krachtenmethode zoals we die gewend zijn. De verplaatsing van $\rm{B}$ kan gevonden worden met vergeet-me-nietjes: $  w_{\rm{B}} = - \cfrac{6 \cdot 6 ^2}{2 \cdot 6000} + \cfrac{B_{\rm{v}} \cdot 6^3}{3 \cdot 6000}= -0.018 + \cfrac{3}{250}B_{\rm{v}}$.
+- $EI = 6 \ \rm{MNm^2}$
+- $EA \gg EI$
 
-Dit geeft $B_{v} = 1.5 \ \rm{kN}$
+```{figure-end}
+```
+
+Nu kunnen we verder met de krachtenmethode zoals we die gewend zijn. De verplaatsingen van de krachten kunnen we eerst schetsen:
+
+:::::{grid}
+:class-container: center-grid
+
+::::{grid-item}
+:columns: auto
+
+```{figure} ./theorie_data/verplaats_1.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+```
+
+::::
+
+::::{grid-item}
+:columns: auto
+
+```{figure} ./theorie_data/verplaats_2.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+```
+::::
+
+:::::
+
+
+De verplaatsing van $\rm{B}$ kan gevonden worden met vergeet-me-nietjes:
+
+$$
+\begin{align*}
+w_{\rm{B}} &= 0 \\
+- \cfrac{6 \cdot 6 ^2}{2 \cdot 6000} + \cfrac{B_{\rm{v}} \cdot 6^3}{3 \cdot 6000}&= 0 \\
+-0.018 + \cfrac{3}{250}B_{\rm{v}} &= 0 \\
+B_{\rm{v}} &= 1.5 \ \rm{kN}
+\end{align*}$$
 
 De momentenlijn en verplaatsingen kunnen nu gevonden worden. Voor de momentenlijn dient de kinematisch equivalente belasting van $6 \ \rm{kNm}$ niet te worden meegenomen, maar voor de verplaatsingen wel. Dit geeft:
 
+:::::{grid}
+:class-container: center-grid
+
+::::{grid-item}
+:columns: auto
 
 ```{figure} theorie_data/M-line.svg
 :align: center
-
-Momentenljin
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
 ```
+
+::::
+
+::::{grid-item}
+:columns: auto
 
 ```{figure} theorie_data/disp_total.svg
 :align: center
-
-Vervormde constructie
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
 ```
+::::
+
+:::::
 
 ::::::
 
@@ -115,7 +185,7 @@ In hoofdstuk 4.12 van het boek Mechanica: spanningen, vervormingen en verplaatsi
 
 ## Zelfde instructies in collegevorm
 
-Dit onderwerp is [in les 9](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/d7800c424fcc4f87a9156d9189ef91501d?sortBy=most-recent) gepresenteerd in collegevorm tot 0:33:00.
+Dit onderwerp is [in 2026 in les 9](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/d7800c424fcc4f87a9156d9189ef91501d?sortBy=most-recent) gepresenteerd tot 0:33:00. De opname in collegejaar 2026/2027 volgt na het college.
 
 ## Extra opgaves in boek
 - Opgaves 6.25 - 6.30, 3.32 - 6.39, 6.41 - 6.43 in hoofdstuk 6.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Er zijn helaas geen antwoorden beschikbaar.
