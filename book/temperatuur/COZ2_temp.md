@@ -26,7 +26,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 
 ```
 
-- $ EA = 15 \, \rm{MN}^2 $
+- $ EA = 15 \, \rm{MN} $
 - $ EI \gg EA $
 - $ \alpha = 0.0002 \ ^{\circ} \rm{C}^{-1} $
 - $ \Delta T = 12.1 \ ^{\circ} \rm{C} $
