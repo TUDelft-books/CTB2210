@@ -2,7 +2,9 @@
 
 Elementen verlengen onder uniforme belasting met een extra rek van $\epsilon^{\rm{T}} = \alpha \ \Delta T$, waarbij $\alpha$ de lineaire uitzettingscoëfficiënt is. Wanneer een temperatuurverandering over de hoogte van een element optreedt, verlengen de vezels individueel, wat leidt tot buiging van elementen met een extra kromming van $\kappa^{\rm{T}} = \alpha \ \cfrac{\Delta T}{h}$, waarbij $h$ de hoogte van het element is. In statisch bepaalde constructies leidt dit tot extra spanningsloze rekken (en dus vervormingen) zonder invloed op de krachtverdeling, omdat de krachtverdeling onafhankelijk is van de vervormingen.
 
-De vervorming kan worden gevonden door de spanningsloze rekken te integreren met behulp van de differentiaalvergelijkingen. Alternatief kan een equivalente belasting worden gebruikt die tot dezelfde kromming leidt, zodat de vergeet-me-nietjes toegepast kunnen worden. Dit vereist een kinematisch equivalente belasting die geen invloed heeft op reactiekrachten en interne krachten:
+De vervorming kan worden gevonden door de spanningsloze rekken te integreren met behulp van de differentiaalvergelijkingen. Er verandert daarbij niks aan de aanpak zoals die voor statisch bepaalde constructies is toegepast.
+
+Alternatief kan een equivalente belasting worden gebruikt die tot dezelfde kromming leidt, zodat de vergeet-me-nietjes toegepast kunnen worden. Dit vereist een kinematisch equivalente belasting die geen invloed heeft op reactiekrachten en interne krachten:
 
 ```{figure} ./theorie_data/kin_eq_load_SB.svg
 :align: center
@@ -100,13 +102,11 @@ Voor dit systeem krijgen we met een koppel (↻) op het uiteinde van de balk dez
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
 :number:
+:figclass: sticky-margin
 ```
 
 - $EI = 6 \ \rm{MNm^2}$
 - $EA \gg EI$
-- $\Delta T = 20 \ ^{\circ} \rm{C}$
-- $h = 0.2 \ \rm{m}$
-- $\alpha = 10^{-5} \ ^{\circ} \rm{C}^{-1}$
 
 ```{figure-end}
 ```
