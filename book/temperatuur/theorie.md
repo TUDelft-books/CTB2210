@@ -50,41 +50,98 @@ Deze oefening is aangepast van de [les van 18 oktober van het vak CTS1000](https
 :nonumber: true
 :label: temp_0
 
-```{figure} ./theorie_data/structure2.svg
+```{figure-start} ./theorie_data/structure2.svg
 ---
 align: center
+figclass: sticky-margin
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+number:
 ---
-Voorbeeldconstructie, $EI = 6 \ \rm{MNm^2}$
+
 ```
+
+- $EI = 6 \ \rm{MNm^2}$
+- $EA \gg EI$
+- $\Delta T = 20 \ ^{\circ} \rm{C}$
+- $h = 0.2 \ \rm{m}$
+- $\alpha = 10^{-5} \ ^{\circ} \rm{C}^{-1}$
+
+```{figure-end}
+```
+
 
 Het temperatuurverschil over de hoogte van de balk geeft de kromming $\kappa^{\rm{T}} = 10^{-3} \ \rm{m}^{-1}$ over de gehele lengte van de balk:
 
 ```{figure} ./theorie_data/curv_sun.svg
----
-align: center
----
-Krommingslijn ten gevolge van de temperatuur los van alle opleggingen
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+:number:
 ```
 
 Om de kinematisch equivalente kracht te vinden moeten we de constructie eerste statisch bepaald maken. Dat kan bijvoorbeeld met het volgende statisch bepaalde systeem:
 
-```{figure} ./theorie_data/structure_deter2.svg
----
-align: center
----
-Statisch bepaald systeem met vormveranderingsvoorwaarde, $EI = 6 \ \rm{MNm^2}$
+```{figure-start} ./theorie_data/structure_deter2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+:number:
+```
+
+- $EI = 6 \ \rm{MNm^2}$
+- $EA \gg EI$
+- $\Delta T = 20 \ ^{\circ} \rm{C}$
+- $h = 0.2 \ \rm{m}$
+- $\alpha = 10^{-5} \ ^{\circ} \rm{C}^{-1}$
+
+```{figure-end}
 ```
 
 Voor dit systeem krijgen we met een koppel (↻) op het uiteinde van de balk dezelfde vorm van de krommingslijn. De waarde van dat koppel moet $M = \kappa \cdot EI = 6 \ \rm{kNm}$ zijn voor dezelfde kromming. Dat geeft het volgende statisch bepaalde systeem:
 
-```{figure} ./theorie_data/structure_deter3.svg
----
-align: center
----
-Statisch bepaald systeem met vormveranderingsvoorwaarde en kinematisch equivalente belasting door de temperatuursinvloed, $EI = 6 \ \rm{MNm^2}$
+```{figure-start} ./theorie_data/structure_deter3.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+:number:
 ```
 
-Nu kunnen we verder met de krachtenmethode zoals we die gewend zijn. De verplaatsing van $\rm{B}$ kan gevonden worden met vergeet-me-nietjes: $  w_{\rm{B}} = - \cfrac{6 \cdot 6 ^2}{2 \cdot 6000} + \cfrac{B_{\rm{v}} \cdot 6^3}{3 \cdot 6000}= -0.018 + \cfrac{3}{250}B_{\rm{v}}$.
+- $EI = 6 \ \rm{MNm^2}$
+- $EA \gg EI$
+- $\Delta T = 20 \ ^{\circ} \rm{C}$
+- $h = 0.2 \ \rm{m}$
+- $\alpha = 10^{-5} \ ^{\circ} \rm{C}^{-1}$
+
+```{figure-end}
+```
+
+Nu kunnen we verder met de krachtenmethode zoals we die gewend zijn. De verplaatsingen van de krachten kunnen we eerst schetsen:
+
+:::::{grid}
+:class-container: center-grid
+
+::::{grid-item}
+:columns: auto
+
+```{figure} ./theorie_data/verplaats_1.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+```
+
+::::
+
+::::{grid-item}
+:columns: auto
+
+```{figure} ./theorie_data/verplaats_2.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
+```
+::::
+
+:::::
+
+
+De verplaatsing van $\rm{B}$ kan gevonden worden met vergeet-me-nietjes: $  w_{\rm{B}} = - \cfrac{6 \cdot 6 ^2}{2 \cdot 6000} + \cfrac{B_{\rm{v}} \cdot 6^3}{3 \cdot 6000}= -0.018 + \cfrac{3}{250}B_{\rm{v}}$.
 
 Dit geeft $B_{v} = 1.5 \ \rm{kN}$
 
@@ -110,7 +167,7 @@ In hoofdstuk 4.12 van het boek Mechanica: spanningen, vervormingen en verplaatsi
 
 ## Zelfde instructies in collegevorm
 
-Dit onderwerp is [in les 9](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/d7800c424fcc4f87a9156d9189ef91501d?sortBy=most-recent) gepresenteerd in collegevorm tot 0:33:00.
+Dit onderwerp is [in 2026 in les 9](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/d7800c424fcc4f87a9156d9189ef91501d?sortBy=most-recent) gepresenteerd tot 0:33:00. De opname in collegejaar 2026/2027 volgt na het college.
 
 ## Extra opgaves in boek
 - Opgaves 6.25 - 6.30, 3.32 - 6.39, 6.41 - 6.43 in hoofdstuk 6.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Er zijn helaas geen antwoorden beschikbaar.
