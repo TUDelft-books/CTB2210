@@ -67,7 +67,7 @@ Bepaal de horizontale verplaatsing van $\rm{D}$ enkel ten gevolge van de tempera
 :class: solution, dropdown
 
 - Geen horizontale verplaatsing
-- $\cfrac{\sqrt{5} \cdot 5}{2} - 1 \approx 4.59 \ \rm{mm} $ ↑
+- $2 \cdot \sqrt{5} +  5.25\approx 9.72 \ \rm{mm} $ ↑
 
 ::::
 % solution_end

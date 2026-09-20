@@ -8,7 +8,7 @@ delta_T = sym.nsimplify(12.1)
 
 L1 = 5
 
-F = 0 #sym.Rational(80)
+F = 0#sym.Rational(80)
 
 B_v = sym.symbols('B_v')
 
@@ -30,13 +30,13 @@ w_C_v = deltaL_AD * sym.sqrt(5) /2 + deltaL_CD * sym.sqrt(5) / 2
 
 Delta_L_BD = N_BD * L1 / 2 / EA
 
-w_B_v = w_C_v - Delta_L_BD
+w_B_v = w_C_v - Delta_L_BD - alpha * delta_T * L1 / 2
 
 print(w_B_v)
 
 sol = sym.solve(sym.Eq(w_B_v,0), B_v)[0]
 
-print(sol)
+print(sol,sol.evalf())
 
 print(deltaL_AD.subs(B_v, sol),deltaL_AD.subs(B_v, sol).evalf())
 print(deltaL_CD.subs(B_v, sol),deltaL_CD.subs(B_v, sol).evalf())
