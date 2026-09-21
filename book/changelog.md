@@ -1,8 +1,10 @@
 # Changelog 🔖
 
+## 2026-09-21: v2026.10.0
+- Toevoegen antwoord van [COZ opgave 3.1](krachtenmethode_raamwerk/COZ1.md)
+
 ## 2026-09-21: v2026.9.0
 - Toevoegen les steunpuntszettingen en stijfheidsinvloeden
-
 
 ## 2026-09-17: v2026.8.0
 - Toevoegen les krachtenmethode gecombineerd rek en buiging

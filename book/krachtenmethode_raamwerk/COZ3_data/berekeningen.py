@@ -8,4 +8,4 @@ P3=40
 
 P4=32
 
-print(2*P3*P2)  
+print(P3*P2/2)  
