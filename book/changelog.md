@@ -1,5 +1,9 @@
 # Changelog 🔖
 
+## 2026-09-21: v2026.9.0
+- Toevoegen les steunpuntszettingen en stijfheidsinvloeden
+
+
 ## 2026-09-17: v2026.8.0
 - Toevoegen les krachtenmethode gecombineerd rek en buiging
 - Toevoegen uitwerkingen van de begeleide oefeningen van les over krachtenmethode raamwerken.
