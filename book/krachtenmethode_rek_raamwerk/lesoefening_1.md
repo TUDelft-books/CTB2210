@@ -80,7 +80,7 @@ Schets de mogelijke vervormingen ten gevolge van het moment $M_{\rm{A}}$::
 
 ```{figure} ./lesoefening_data/optie_1_verplaatsing.svg
 :align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_SOB
 :number:
 ```
 
