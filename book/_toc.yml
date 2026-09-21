@@ -67,6 +67,8 @@ parts:
     - file: steunpuntszetting_stijfheden/theorie2.md
     - file: steunpuntszetting_stijfheden/lesoefeningen.md
     - file: steunpuntszetting_stijfheden/lesoefeningen_2.md
+    - file: steunpuntszetting_stijfheden/COZ1.md
+    - file: steunpuntszetting_stijfheden/COZ2.md
   - file: temperatuur/lesson.md
     sections:
     - file: temperatuur/theorie.md
