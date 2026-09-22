@@ -209,4 +209,4 @@ In hoofdstuk 7 van het boek Mechanica, Statisch onbepaalde constructies en bezwi
 
 ## Zelfde instructies in collegevorm
 
-Dit onderwerp is [in les 8](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/035392e16a6948ec88d380408b2de5701d?sortBy=most-recent) gepresenteerd in collegevorm van 0:03:40 tot 0:38:10.
+Dit onderwerp is dit jaar in [les 11](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/6ec64d00cb1b4f48af6a3583bd0d32051d?academicYear=2026-2027-ctb2210) gepresenteerd van 0:42:30 tot 1:03:10 (TU Delft login vereist). In 2025 is dit onderwerp [in les 8](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/035392e16a6948ec88d380408b2de5701d?sortBy=most-recent) gepresenteerdvan 0:03:40 tot 0:38:10 (publiek beschikbaar).

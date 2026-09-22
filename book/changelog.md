@@ -4,6 +4,7 @@
 - Toevoegen uitwerkingen van COZ opgaves van blok 3.
 - Toevoegen uitwerkingen van de begeleide oefeningen van les over steunpuntszettingen en stijfheidsinvloeden.
 - Toevoegen les temperatuurinvloeden
+- Toevoegen collegeramaopname van les over krachtenmethode voor gecombineerd rek en buiging, en steunpuntszettingen en stijfheidsinvloeden
 
 ## 2026-09-21: v2026.10.0
 - Toevoegen antwoord van [COZ opgave 3.1](krachtenmethode_raamwerk/COZ1.md)

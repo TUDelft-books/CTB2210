@@ -374,7 +374,7 @@ number:
 
 ## Zelfde instructies in collegevorm
 
-De opname volgt na het college.
+Dit onderwerp is dit jaar [in les 10](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/f6562fd68aa643d9ac4970b6a618cf111d?academicYear=2026-2027-ctb2210) gepresenteerd van 0:14:10 tot 0:57:10 (TU Delft login vereist).
 
 ## Extra opgaves in boek
 
