@@ -34,8 +34,6 @@ Bepaal het moment in $\rm{B}$.
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -105,16 +103,12 @@ M_{\rm{B}} = 196.56 \ \rm{kNm} \, (⌢) \qquad B_{\rm{v}} = 77.04 \ \rm{kN} \, (
 $$
 ::::
 
-% solution_end
-
 ::::{admonition} Opgave
 :class: exercise
 
 Bepaal de verticale oplegreactie in $\rm{A}$.
 
 ::::
-
-% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -124,5 +118,3 @@ Verticaal evenwicht geeft:
 $$ \sum F_{\rm{v}} = A_{\rm{v}} - 77.76 - 38.88 + 77.04 = 0 \rightarrow A_{\rm{v}} = 39.62 \ \rm{kN} (\uparrow)$$
 
 ::::
-
-% solution_end

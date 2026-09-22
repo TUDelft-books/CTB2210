@@ -81,8 +81,6 @@ De constructie is {gap}ste/de graads inwendig statisch onbepaald.
 ---
 ::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -95,8 +93,6 @@ De constructie is {gap}ste/de graads inwendig statisch onbepaald.
 De constructie is 1ste graads inwendig statisch onbepaald. 
 
 ::::
-
-% solution_end
 
 Gekozen is het volgende statisch bepaalde systeem met vormveranderingsvoorwaarde:
 
@@ -157,8 +153,6 @@ M[0]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -193,8 +187,6 @@ Uit het williot diagram kan worden afgelezen:
 
 ::::
 
-% solution_end
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -213,8 +205,6 @@ $B_{\rm{v}}= $ {gap} $\rm{kN}$
 
 ::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -223,8 +213,6 @@ De vormveranderingsvoorwaarde is: $w_{B,\rm{v}} = 1.4 \cdot B_{\rm{v}} = 90 \rm{
 Hieruit volgt: $B_{\rm{v}} = 64 \rm{kN}$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -253,8 +241,6 @@ M[64]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -267,8 +253,6 @@ De krachten en verplaatsingen kunnen worden opgelost uit de eerder opgestelde ve
 - $ w_{D,\rm{v}} = 64 \rm{mm} \ \left(\downarrow\right)$
 
 ::::
-
-% solution_end
 
 :::::{question} Opgave
 :type: no-input

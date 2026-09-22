@@ -29,8 +29,6 @@ Bepaal de het moment in $\rm{B}$.
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -57,16 +55,12 @@ $$
 
 ::::
 
-% solution_end
-
 ::::{admonition} Opgave
 :class: exercise
 
 Bepaal de verticale oplegreactie in $\rm{B}$.
 
 ::::
-
-% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -102,16 +96,12 @@ $$
 
 ::::
 
-% solution_end
-
 ::::{admonition} Opgave
 :class: exercise
 
 Bepaal het moment halverwege $\rm{AB}$.
 
 ::::
-
-% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -137,16 +127,12 @@ $$
 
 ::::
 
-% solution_end
-
 ::::{admonition} Opgave
 :class: exercise
 
 Bepaal het moment halverwege $\rm{BC}$.
 
 ::::
-
-% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -171,5 +157,3 @@ M_{\rm{E}} &= 261 \ \rm{kNm} \, (⌣)
 $$
 
 ::::
-
-% solution_end

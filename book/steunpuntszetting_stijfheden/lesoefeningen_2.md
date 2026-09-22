@@ -76,8 +76,6 @@ M[0]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -93,8 +91,6 @@ Als deel $\rm{BC}$ geen buigstijfheid meer heeft ontstaan er feitelijk twee loss
 - $w_{\rm{halverwege} \ \rm{CD}} \left( nEI \to 0 \right) = 0 \rm{mm}$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -128,8 +124,6 @@ M[-4.6875]
 ---
 
 ::::
-
-% solution_start
 
 ::::{admonition} Oplossing
 :class: solution, dropdown
@@ -169,8 +163,6 @@ De zakkingen in het midden van de delen $\rm{AB}$ en $\rm{CD}$ kunnen worden bep
 - $w_{\rm{halverwege} \ \rm{CD}} = - \cfrac{62.5\cdot 10^2}{16\cdot\cfrac{250}{3}}=-4.6875 \ \rm{mm}$
 
 ::::
-
-% solution_end
 
 ## Vermenigvuldigingsfactor
 
@@ -269,16 +261,12 @@ M[-12.5]
 
 ::::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
 Als $A_{\rm{v}}$ en $D_{\rm{v}}$ gelijk zijn aan 0 dan kan de constructie vrij vervormen en onstaat er geen buiging.
 
 ::::
-
-% solution_end
 
 ::::::{admonition} Opgave
 :class: exercise
@@ -352,8 +340,6 @@ M[0]
 
 ::::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -373,8 +359,6 @@ $$ w_{\rm{A}} \left( A_{\rm{v}}, D_{\rm{v}} \right) = 0.05 + 10 \cdot \left( -0.
 $$ w_{\rm{D}} \left( A_{\rm{v}}, D_{\rm{v}} \right) = -0.025 - 10 \cdot \left( 0.0002 \cdot \cfrac{A_{\rm{v}}}{n} + 0.0004 \cdot \cfrac{D_{\rm{v}}}{n} \right) - \cfrac{ D_{\rm{v}} \cdot 10^3}{3 \cdot \cfrac{250}{3} \cdot 1000} =-0.002 \cdot \cfrac{A_{\rm{v}}}{n} + -0.004 \cdot D_{\rm{v}} + -0.004\cdot \cfrac{D_{\rm{v}}}{n} -0.025 $$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -403,8 +387,6 @@ M[2]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -422,5 +404,3 @@ Deze functies kunnen ook geplot worden:
 ```
 
 ::::
-
-% solution_end

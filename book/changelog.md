@@ -1,5 +1,10 @@
 # Changelog 🔖
 
+## 2026-09-22: v2026.11.0
+- Toevoegen uitwerkingen van COZ opgaves van blok 3.
+- Toevoegen uitwerkingen van de begeleide oefeningen van les over steunpuntszettingen en stijfheidsinvloeden.
+- Toevoegen les temperatuurinvloeden
+
 ## 2026-09-21: v2026.10.0
 - Toevoegen antwoord van [COZ opgave 3.1](krachtenmethode_raamwerk/COZ1.md)
 

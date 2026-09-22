@@ -68,7 +68,6 @@ parts:
     - file: steunpuntszetting_stijfheden/lesoefeningen_2.md
     - file: steunpuntszetting_stijfheden/COZ1.md
     - file: steunpuntszetting_stijfheden/COZ2.md
-# START REMOVE-FROM-RELEASE
   - file: temperatuur/lesson.md
     sections:
     - file: temperatuur/theorie.md
@@ -76,6 +75,7 @@ parts:
     - file: temperatuur/lesoefening1.md
     - file: temperatuur/COZ1_temp.md
     - file: temperatuur/COZ2_temp.md
+# START REMOVE-FROM-RELEASE
   - file: verplaats2/lesson.md
     sections:
     - file: verplaats2/theorie.md
