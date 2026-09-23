@@ -18,6 +18,28 @@ Gegeven is de volgende constructie:
 
 We gaan deze constructie doorrekenen met behulp van differentiaalvergelijkingen
 
+::::::{question} Opgave
+:type: no-input
+:nocaption:
+:class: exercise
+:admonition:
+:showanswer:
+
+Teken de vorm van de kromming ten gevolge van de temperatuurverandering.
+
+---
+=
+
+```{figure} ./lesoefening_data/kromming.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/temperatuur3
+:number:
+```
+
+---
+
+::::::
+
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps

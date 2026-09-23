@@ -29,17 +29,6 @@ Gegeven is de volgende constructie:
 ```{figure-end}
 ```
 
-:::::{exercise}
-:label: temp_1_1
-:nonumber: true
-
-Bepaal de kromming en rek als gevolg van de temperatuurinvloed.
-
-```{h5p} https://tudelft.h5p.com/content/1292694670489341987/embed
-```
-
-:::::
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -158,6 +147,28 @@ M[0]
 ---
 
 ::::
+
+::::::{question} Opgave
+:type: no-input
+:nocaption:
+:class: exercise
+:admonition:
+:showanswer:
+
+Teken de vorm van de kromming ten gevolge van de temperatuurverandering.
+
+---
+=
+
+```{figure} ./intro_data/kromming.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/temperatuur2
+:number:
+```
+
+---
+
+::::::
 
 ::::::{question} Opgave
 :type: no-input
