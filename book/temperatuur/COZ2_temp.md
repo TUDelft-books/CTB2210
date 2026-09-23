@@ -53,7 +53,7 @@ Bepaal de verplaatsing van $\rm{D}$ enkel ten gevolge van de puntlast.
 ::::{admonition} Opgave
 :class: exercise
 
-Bepaal de horizontale verplaatsing van $\rm{D}$ enkel ten gevolge van de temperatuurverandering.
+Bepaal de verplaatsing van $\rm{D}$ enkel ten gevolge van de temperatuurverandering.
 
 ::::
 

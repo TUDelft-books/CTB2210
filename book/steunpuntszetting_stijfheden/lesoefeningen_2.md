@@ -380,8 +380,8 @@ M[2]
 ^^^
 ? Los met de vormveranderingsvoorwaardes de onbekende $A_{\rm{v}}$ en $D_{\rm{v}}$ in $\rm{kN}$ op. Let op, dit is een lastige wiskundige exercitie. Je wordt aangeraden gebruik te maken van een tool zoals SymPy.
 
-- $\rm{Av} = ( $ {gap} $ \cdot n + $ {gap} $ ) / ( $ {gap} $ \cdot n + $ {gap} $ )$
-- $\rm{Dv} = ( - $ {gap} $ \cdot n + $ {gap} $ ) / ( $ {gap} $ \cdot n + $ {gap} $ )$
+- $A_{\rm{v}} = ( $ {gap} $ \cdot n + $ {gap} $ ) / ( $ {gap} $ \cdot n + $ {gap} $ )$
+- $D_{\rm{v}} = ( - $ {gap} $ \cdot n + $ {gap} $ ) / ( $ {gap} $ \cdot n + $ {gap} $ )$
 
 ---
 
