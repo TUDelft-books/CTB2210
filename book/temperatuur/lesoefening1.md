@@ -230,11 +230,11 @@ Teken de vervormingen ten gevolge van de kinematisch equivalente krachten als ge
 
 ---
 M[-6]
-M[-148]
+M[-144]
 M[0.0004]
 M[0.01]
 M[-6]
-M[128.4]
+M[-128.4]
 M[0.4]
 M[2]
 ^^^
