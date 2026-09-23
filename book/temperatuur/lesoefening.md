@@ -11,7 +11,7 @@ Gegeven is de volgende constructie:
 - $EI = \cfrac{800}{3} \ \rm{MNm^2}$
 - $\Delta T = 30 \ ^{\circ} \rm{C}$
 - $h = 0.2 \ \rm{m}$
-- $\alpha = 10^{-5} \ ^{\circ} \rm{C}^{-1}$
+- $\alpha = 10^{-4} \ ^{\circ} \rm{C}^{-1}$
 
 ```{figure-end}
 ```
