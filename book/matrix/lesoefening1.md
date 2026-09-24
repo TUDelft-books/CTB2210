@@ -4,6 +4,7 @@
 :align: center
 :source: source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrix_2
 :number:
+:figclass: sticky-margin
 ```
 
 - $EI = 4 \ \rm{MNm^2}$
@@ -23,7 +24,7 @@
 ---
 M[\begin{pmatrix} 4000 & 2000 \\\ 2000 & 4000 \end{pmatrix}]
 ^^^
-? Bepaal de elementstijfheidsmatrix $\mathbf{K}^{(e)}$ voor een willekeurig element. Gebruik de functie 'Insert Matrix'.
+? Bepaal de ingevulde elementstijfheidsmatrix $\mathbf{K}^{(e)}$ voor een element. Merk op dat alle elementen dezelfde lengte en stijfheid hebben. Gebruik de functie 'Insert Matrix'.
 
 $\mathbf{K}^{(e)} = $ {gap}
 
@@ -41,6 +42,8 @@ $$\mathbf{K}^{(e)} = \begin{bmatrix} \cfrac{4EI}{l} & \cfrac{2EI}{l} \\ \cfrac{2
 ::::
 
 % solution_end
+
+Ga uit van de verplaatsingsvector $ \mathbf{u} =  \begin{bmatrix}  \varphi_{\rm{A}} \\  \varphi_{\rm{B}} \\ \varphi_{\rm{C}} \\ \varphi_{\rm{D}} \\ \varphi_{\rm{E}} \end{bmatrix} $
 
 ::::{question} Opgave
 :type: short-answer

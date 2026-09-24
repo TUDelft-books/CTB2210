@@ -138,5 +138,13 @@
 				<path d="M0 52.75 C5.56 51.17 10.36 51.87 14.97 52.75" class="st10"/>
 			</g>
 		</g>
+		<g id="shape1660-64" v:mID="1660" v:groupContext="shape" transform="translate(38.4535,-38.4535)">
+			<title>Punt A.1660</title>
+			<desc>φ1</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.0079" cy="45.6601" width="34.02" height="14.1732"/>
+			<rect x="0" y="38.5735" width="34.0157" height="14.1732" class="st6"/>
+			<text x="11.74" y="49.26" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>φ<tspan dy="-0.279em"
+						class="st9" v:baseFontSize="12">1</tspan></text>		</g>
 	</g>
 </svg>

@@ -1,11 +1,11 @@
 # Instructie
 
-De matrixmethode is een methode om aan alle soorten constructies te rekenen en lijkt heel erg op de [verplaatsingenmethode van de vorige les](../verplaats2/lesson.md). Die verplaatsingenmethode had als nadeel dat de constructie wordt gesplitst in delen die allemaal verschillende vervormingsgedrag hebben. Dat maakt een dergelijke berekening arbeidsintensief. De matrixmethode lost dit op door standaardisatie van vrijheidsgraden en gesplitste delen. Daarnaast wordt de matrixmethode vaak direct in matrixformuleringen toegepast. Met deze twee aanpassingen vormt de matrixmethode een handige methode voor computerberekeningen.
+De matrixmethode is een methode om aan alle soorten constructies te rekenen en lijkt heel erg op de [verplaatsingenmethode van de vorige les](../verplaats2/lesson.md). Die verplaatsingenmethode had als nadeel dat de constructie wordt gesplitst in delen die allemaal verschillende vervormingsgedrag hebben. Dat maakt een dergelijke berekening arbeidsintensief. De matrixmethode lost dit op door standaardisatie van vrijheidsgraden en gesplitste delen, en daarmee ook standaardisatie van evenwichtsvergelijkingen op alle knopen. Daarnaast wordt de matrixmethode vaak direct in matrixformuleringen toegepast. Met deze twee aanpassingen vormt de matrixmethode een handige methode voor computerberekeningen.
 
 ## Theorie
 
 ### Beperking tot rotaties en knoopkoppels
-In dit vak beperken we ons tot de toepassing van de matrixmethode op constructies waarin de rotatie van de knopen de enige vrijheidsgraad is (knopen kunnen niet verplaatsen) en er geen krachten tussen de knopen aangrijpen. Daarnaast modelleren we enkel starre verbindingen. De matrixmethode is echter ook toe te passen op constructies met meerdere vrijheidsgraden per knoop, op constructies met krachten tussen de knopen en scharnierende / verende verbindingen.
+In dit vak beperken we ons tot de toepassing van de matrixmethode op constructies waarin de rotatie van de knopen de enige vrijheidsgraad is (knopen kunnen niet verplaatsen) en er geen krachten tussen de knopen aangrijpen. Daarnaast modelleren we enkel starre verbindingen. De matrixmethode is echter ook toe te passen op constructies met meerdere vrijheidsgraden per knoop, op constructies met krachten tussen de knopen en bij scharnierende / verende verbindingen.
 
 ### Aantal vrijheidsgraden
 
@@ -80,73 +80,69 @@ $$
 
 Dit leidt tot een matrixformulering $\mathbf{K} \mathbf{u} = \mathbf{f}$. De termen in de globale stijfheidsmatrix $\mathbf{K}$ kunnen geïnterpreteerd worden als de rotatiestijfheid die elk element levert aan de aanliggende knopen. De termen in de krachtvector $\mathbf{f}$ kunnen geïnterpreteerd worden als de externe koppels die op de knopen werken. $\mathbf{u}$ is de verplaatsingsvector met de onbekende rotaties van de knopen.
 
-### Directe opstelling van de stijfheidsterm
-In plaats van met de hand elke momentevenwicht op te schrijven kunnen we de $\mathbf{K} \mathbf{u} = \mathbf{f}$ direct opstellen door de stijfheden van de individuele elementen bij elkaar op te tellen bij de bijbehorende knopen. Aangezien alle elementen er exact hetzelfde uitzien (een buigende staaf van nog onbekende lengte $L$ en buigstijfheid $EI$ met koppels op het uiteinde), kunnen we voor elk element dezelfde symbolische stijfheidstermen gebruiken. Daarbij houden we voor alle rotaties en momenten dezelfde richting (tegen de klok in) aan.
+### Direct opstelling van de stijfheidsterm
+In plaats van stap-voor-stap elk momentevenwicht op te schrijven voor elk gesplitst deel zoals bij de verplaastingenmethode, kunnen we in de matrixmethode de $\mathbf{K} \mathbf{u} = \mathbf{f}$ direct opstellen. Dat doen we door de rotatiestijfheden van de individuele elementen bij elkaar op te tellen bij de bijbehorende knopen. Elke staaf kan namelijk gezien worden als iets dat stijfheid toevoegt aan het roteren van knopen; als de stijfheid bekend is, is de vorm van de staaf niet meer van belang. Aangezien vanwege onze beperkingen alle elementen er hetzelfde uitzien (een buigende staaf van nog onbekende lengte $L$ en buigstijfheid $EI$ met koppels op het uiteinde), kunnen we voor elk element dezelfde formule afleiden met $EI$ en $L$ als enige variabelen. Daarbij houden we voor alle rotaties en momenten dezelfde richting (tegen de klok in) aan.
 
-```{figure} ./theorie_data/staaf.svg
----
-align: center
----
-Standaard element in de matrixmethode
-
-% originele figuur: ../verplaats2/theorie_data/Tekening1.vsdx
+```{figure-start} ./theorie_data/staaf.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaats2
+:number:
 ```
 
-Voor dit standaardelement zullen we éénmaal de stijfheidstermen moeten vinden. Net als bij de verplaatsingenmethode kunnen we met de relaties vinden tussen de koppels en de rotaties van de uiteindes van een element door de rotaties los van elkaar toe passen. Voor elke individuele element met lengte $L$ en buigstijfheid $EI$ kunnen we de zogenoemde elementstijfheidsmatrix opstellen aan de hand van een vergeet-me-nietje:
+Met een variabele $EI$ en $L$.
 
-```{figure} ./theorie_data/fmn.svg
----
-align: center
----
-Vergeet-me-nietje waarmee we de relatie tussen koppels en de rotaties van de uiteindes van een element beschreven kunnen worden. Komt overeen met vergeet-me-nietje (7) van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
-
-% originele figuur: ../verplaats2/theorie_data/Tekening1.vsdx
+```{figure-end}
 ```
 
-Voor de relaties tussen de koppels en $\varphi_2$ kunnen we onderstaande model gebruiken, waarbij $T_1$ het oplegmoment is in het vergeet-me-nietje:
+:::{note}
+Dit standaard element geldt voor onze beperking tot constructies met starre verbindingen, geen krachten tussen de knopen en enkel rotaties als vrijheidsgraden. Voor een meer generiekere toepassing verandert het standaardelement ook.
+:::
 
-```{figure} ./theorie_data/rechts.svg
----
-align: center
----
-Snedekrachten ten gevolge van $\varphi_2$.
+Voor dit standaardelement zullen we éénmaal de stijfheidstermen moeten vinden. Net als bij de verplaatsingenmethode kunnen we met de relaties vinden tussen de koppels en de rotaties van de uiteindes van een element door de rotaties los van elkaar toe passen. Voor elke individuele element met lengte $L$ en buigstijfheid $EI$ kunnen we de zogenoemde elementstijfheidsmatrix opstellen. Net zoals bij de verplaatsingenmethode doen we dat voor elke vrijheidsgraad afzonderlijk, dus met een rotatie aan de ene kant wordt de rotatie aan de andere kant even vastgehouden.
 
-% originele figuur: ../verplaats2/theorie_data/Tekening1.vsdx
-```
+-   Te beginnen met de relatie tussen de koppels en $\varphi_2$.
 
-Het vergeet-me-nietje geeft dan:
+    Als we de linkerzijde vasthouden, komt de vervorming overeen met vergeet-me-nietje (7) van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`:
 
-$$
-\begin{aligned}
-\varphi_2 &= \cfrac{L \cdot T_2}{4 \cdot EI} \\
-T_1 &= \cfrac{1}{2} \cdot T_2 \\
-&\downarrow \\
-T_1 &= \cfrac{2 \cdot EI}{L} \cdot \varphi_2 \\
-T_2 &= \cfrac{4 \cdot EI}{L} \cdot \varphi_2 \\
-\end{aligned}
-$$
+    ```{figure} ./theorie_data/fmn.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaats2
+    :number:
+    ```
 
-Voor de relaties tussen de koppels en $\varphi_1$ kunnen we onderstaande model gebruiken, waarbij $T_2$ het oplegmoment is in het vergeet-me-nietje:
+    Waarbij het oplegmoment van het vergeet-me-nietjes overeenkomt met het inwendig moment aan de linkerzijde:
 
-```{figure} ./theorie_data/links.svg
----
-align: center
----
-Snedekrachten ten gevolge van $\varphi_1$.
-% originele figuur: ../verplaats2/theorie_data/Tekening1.vsdx
-```
+    ```{figure} ./theorie_data/rechts.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaats2
+    :number:
+    ```
 
-Dit geeft:
+    Het vergeet-me-nietje geeft dan:
 
-$$
-\begin{aligned}
-\varphi_1 &= \cfrac{L \cdot T_1}{4 \cdot EI} \\
-T_2 &= \cfrac{1}{2} \cdot T_1 \\
-&\downarrow\\
-T_1 &= \cfrac{4 \cdot EI}{L} \cdot \varphi_1 \\
-T_2 &= \cfrac{2 \cdot EI}{L} \cdot \varphi_1 \\
-\end{aligned}
-$$
+    - $\varphi_2 = \cfrac{L \cdot T_2}{4 \cdot EI} \to T_2 = \cfrac{4 \cdot EI}{L} \cdot \varphi_2 $
+    - $ T_1 = \cfrac{1}{2} \cdot T_2 \to T_1 = \cfrac{2 \cdot EI}{L} \cdot \varphi_2 $
+
+-   Voor de relaties tussen de koppels en $\varphi_1$ geldt dezelfde procedure alleen dan met de rechterzijde vastgehouden.
+
+    ```{figure} ./theorie_data/fmn2.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaats2
+    :number:
+    ```
+ 
+    Waarbij het oplegmoment van het vergeet-me-nietjes overeenkomt met het inwendig moment aan de rechterzijde:
+
+    ```{figure} ./theorie_data/links.svg
+    :align: center
+    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaats2
+    :number:
+    ```
+
+    Het vergeet-me-nietje geeft dan:
+
+    - $ T_1 = \cfrac{4 \cdot EI}{L} \cdot \varphi_1 $
+    - $ T_2 = \cfrac{2 \cdot EI}{L} \cdot \varphi_1 $
 
 Samen geeft dit twee vergelijkingen:
 
@@ -254,11 +250,17 @@ De toepassing van deze matrixmethode op een statisch onbepaalde constructie word
 :nonumber: true
 :label: matrix_0
 
-```{figure} ./theorie_data/voorbeeld.svg
----
-align: center
----
-Voorbeeldconstructie, $EI = 4290 \ \rm{kNm}^2, EA >> EI$
+```{figure-start} ./theorie_data/voorbeeld.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrix
+:number:
+:figclass: sticky-margin
+```
+
+- $EI = 4290 \ \rm{kNm}^2$
+- $EA >> EI$
+
+```{figure-end}
 ```
 
 ::::::
@@ -444,7 +446,7 @@ In hoofdstuk 5 van het boek Mechanica, Statisch onbepaalde constructies en bezwi
 
 ## Zelfde instructies in collegevorm
 
-Dit onderwerp is [in les 12](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/c2f0f9c684ed46848b6a754b76f1f92f1d?sortBy=most-recent) gepresenteerd in collegevorm tot 0:43:10.
+Dit onderwerp is [in 2025 in les 12](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/c2f0f9c684ed46848b6a754b76f1f92f1d?sortBy=most-recent) gepresenteerd tot 0:43:10. De opname van collegejaar 2026/2027 volgt na het college.
 
 ## Extra opgaves in boek
 Opgaves 5.1 - 5.5 in hoofdstuk 5.8 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. De opgaves e - i zijn geen onderdeel van het vak. Vervang bij opgave 5.2 - 5.5 het uitkragende gedeelte door een koppel en neem de dwarskracht niet mee. Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.
