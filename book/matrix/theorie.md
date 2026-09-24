@@ -9,7 +9,7 @@ In dit vak beperken we ons tot de toepassing van de matrixmethode op constructie
 
 ### Aantal vrijheidsgraden
 
-Het eerste verschil van de matrixmethode met de verplaatsingenmethode is het aantal vrijheidsgraden. Waar bij de verplaatsingenmethode slechts enkele vrijheidsgraden worden gekozen, worden bij de matrixmethode de rotaties van alle knopen als vrijheidsgraden gekozen en daarbij het evenwicht van alle knopen in acht genomen. Daarbij worden alle rotaties en momenten in dezelfde richting genomen.
+Het eerste verschil van de matrixmethode met de verplaatsingenmethode is het aantal vrijheidsgraden. Waar bij de verplaatsingenmethode slechts enkele vrijheidsgraden worden gekozen, worden bij de matrixmethode de rotaties van alle knopen als vrijheidsgraden gekozen. Daarbij worden alle rotaties en momenten in dezelfde richting genomen.
 
 :::::{grid}
 :class-container: center-grid
@@ -19,11 +19,12 @@ Het eerste verschil van de matrixmethode met de verplaatsingenmethode is het aan
 
 ```{figure-start} ./theorie_data/verplaats.svg
 :align: center
-:figclass: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrix
 :number:
 ```
+
 Verplaatsingenmethode
+
 ```{figure-end}
 ```
 
@@ -34,18 +35,19 @@ Verplaatsingenmethode
 
 ```{figure-start} ./theorie_data/matrixmethode.svg
 :align: center
-:figclass: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrix
 :number:
 ```
+
 Matrixmethode
+
 ```{figure-end}
 ```
 
 ::::
 :::::
 
-In bovenstaande constructie wordt bij de verplaatsingenmethode slechts de rotatie van knoop $\rm{B}$ als vrijheidsgraad gekozen, terwijl bij de matrixmethode de rotaties van alle knopen $\rm{A}$, $\rm{B}$ en $\rm{C}$ als vrijheidsgraden worden gekozen. Per nieuwe vrijheidsgraad wordt er ook een nieuwe evenwichtsvergelijking opgesteld.
+In bovenstaande constructie wordt bij de verplaatsingenmethode slechts de rotatie van één knoop als vrijheidsgraad gekozen, terwijl bij de matrixmethode de rotaties van alle knopen als vrijheidsgraden worden gekozen.
 
 ### Matrixformulering
 
