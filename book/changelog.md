@@ -1,6 +1,7 @@
 # Changelog 🔖
 
 ## 2026-09-24: v2026.12.0
+- Toevoegen collegeramaopname van les over temperatuurinvloeden
 - Toevoegen uitwerkingen van de begeleide oefeningen van les over temperatuurinvloeden.
 
 ## 2026-09-22: v2026.11.0
