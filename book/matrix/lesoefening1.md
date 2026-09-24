@@ -1,5 +1,19 @@
 # Begeleide oefening
 
+```{figure-start} ./lesoefening1_data/constructie.svg
+:align: center
+:source: source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrix_2
+:number:
+```
+
+- $EI = \cfrac{800}{3} \ \rm{kNm^2}$
+- $\Delta T = 30 \ ^{\circ} \rm{C}$
+- $h = 0.2 \ \rm{m}$
+- $\alpha = 10^{-4} \ ^{\circ} \rm{C}^{-1}$
+
+```{figure-end}
+```
+
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
