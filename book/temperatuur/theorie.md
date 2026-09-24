@@ -185,7 +185,7 @@ In hoofdstuk 4.12 van het boek Mechanica: spanningen, vervormingen en verplaatsi
 
 ## Zelfde instructies in collegevorm
 
-Dit onderwerp is [in 2026 in les 9](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/d7800c424fcc4f87a9156d9189ef91501d?sortBy=most-recent) gepresenteerd tot 0:33:00. De opname in collegejaar 2026/2027 volgt na het college.
+Dit onderwerp is dit jaar [in les 12](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/319e6b623c2e48a4be53ba74023ab4901d?academicYear=2026-2027-ctb2210) gepresenteerd van 0:04:25 tot 0:33:00 (TU Delft login vereist). In 2025 is dit onderwerp in [les 9](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/d7800c424fcc4f87a9156d9189ef91501d?sortBy=most-recent) gepresenteerd van 0:11:30 tot 0:43:10 (publiek beschikbaar).
 
 ## Extra opgaves in boek
 - Opgaves 6.25 - 6.30, 3.32 - 6.39, 6.41 - 6.43 in hoofdstuk 6.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Er zijn helaas geen antwoorden beschikbaar.
