@@ -1,7 +1,5 @@
 # Instructie
 
-% source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrix
-
 De matrixmethode is een methode om aan alle soorten constructies te rekenen en lijkt heel erg op de [verplaatsingenmethode van de vorige les](../verplaats2/lesson.md). Die verplaatsingenmethode had als nadeel dat de constructie wordt gesplitst in delen die allemaal verschillende vervormingsgedrag hebben. Dat maakt een dergelijke berekening arbeidsintensief. De matrixmethode lost dit op door standaardisatie van vrijheidsgraden en gesplitste delen. Daarnaast wordt de matrixmethode vaak direct in matrixformuleringen toegepast. Met deze twee aanpassingen vormt de matrixmethode een handige methode voor computerberekeningen.
 
 ## Theorie
@@ -13,12 +11,41 @@ In dit vak beperken we ons tot de toepassing van de matrixmethode op constructie
 
 Het eerste verschil van de matrixmethode met de verplaatsingenmethode is het aantal vrijheidsgraden. Waar bij de verplaatsingenmethode slechts enkele vrijheidsgraden worden gekozen, worden bij de matrixmethode de rotaties van alle knopen als vrijheidsgraden gekozen en daarbij het evenwicht van alle knopen in acht genomen. Daarbij worden alle rotaties en momenten in dezelfde richting genomen.
 
-```{figure} ./theorie_data/verplaats_vs_matrix_dof.svg
----
-align: center
----
-Verplaatsingenmethode v.s. matrixmethode: bij de verplaatsingenmethode wordt slechts één rotatie gekozen als vrijheidsgraad, bij de matrixmethode worden alle rotaties gekozen als vrijheidsgraad, wat ook gepaard gaat met meer onbekende momenten. Per nieuwe vrijheidsgraad wordt er ook een nieuwe evenwichtsvergelijking opgesteld.
+:::::{grid}
+:class-container: center-grid
+
+::::{grid-item}
+:columns: auto
+
+```{figure-start} ./theorie_data/verplaats.svg
+:align: center
+:figclass: sticky-margin
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrix
+:number:
 ```
+Verplaatsingenmethode
+```{figure-end}
+```
+
+::::
+
+::::{grid-item}
+:columns: auto
+
+```{figure-start} ./theorie_data/matrixmethode.svg
+:align: center
+:figclass: sticky-margin
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/matrix
+:number:
+```
+Matrixmethode
+```{figure-end}
+```
+
+::::
+:::::
+
+In bovenstaande constructie wordt bij de verplaatsingenmethode slechts de rotatie van knoop $\rm{B}$ als vrijheidsgraad gekozen, terwijl bij de matrixmethode de rotaties van alle knopen $\rm{A}$, $\rm{B}$ en $\rm{C}$ als vrijheidsgraden worden gekozen. Per nieuwe vrijheidsgraad wordt er ook een nieuwe evenwichtsvergelijking opgesteld.
 
 ### Matrixformulering
 
