@@ -1,5 +1,11 @@
 # Changelog 🔖
 
+## 2026-09-25: v2026.13.0
+- Toevoegen les over verplaatsingenmethode
+- Aanpassingen t.o.v. vorig jaar:
+  - Schrappen les over verplaatsingenmethode met statisch onbepaalde verplaatsingen
+  - Verduidelijken onafhankelijkheid van vrijheidsgraden in [Verplaatsingenmethode  met vrijheidsgraden - Instructie](verplaats2/theorie.md)
+
 ## 2026-09-24: v2026.12.0
 - Toevoegen uitwerkingen van de begeleide oefeningen van les over temperatuurinvloeden.
 
@@ -64,9 +70,3 @@
 - Publiatie hoofdstuk statisch onbepaaldheid.
 - Aanpassingen t.o.v. vorig jaar:
     - Toevoegen invloed gesloten vs open constructies op statisch onbepaaldheid en veduidelijken invloed pendelstaven in [Statisch onbepaaldheid - Instructie](statisch_onbepaald/instructie.md)
-
-% solution_start
-- Schrappen les over verplaatsingenmethode met statisch onbepaalde verplaatsingen
-- Verduidelijken onafhankelijkheid van vrijheidsgraden in [Verplaatsingenmethode  met vrijheidsgraden - Instructie](verplaats2/theorie.md)
-- Toevoegen les over verschillende methodes in [Vergelijking methodes](methodes/lesson.md)
-% solution_end

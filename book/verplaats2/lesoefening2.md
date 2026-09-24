@@ -2,9 +2,8 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze pagina is aangepast van https://icozct.tudelft.nl/TUD_CT/CT2031/tentamens/files/2031-3001-2017.pdf, onderdeel 2
+Deze oefening is aangepast de [tweede opgave van dit tentamen](https://icozct.tudelft.nl/TUD_CT/CT2031/tentamens/files/2031-3001-2017.pdf) van {cite:ts}`Exam_30_01_2017`.
 
-% source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
 ```
 ````
 
@@ -12,10 +11,15 @@ Deze pagina is aangepast van https://icozct.tudelft.nl/TUD_CT/CT2031/tentamens/f
 
 Gegeven is de volgende constructie:
 
-```{figure} lesoefening2_data/structure.svg
+```{figure-start} lesoefening2_data/structure.svg
 :align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
+:number:
+```
 
-Constructie, $EI = \infty$
+$ EI \gg EA$
+
+```{figure-end}
 ```
 
 ::::{question} Opgave
@@ -31,7 +35,7 @@ Wat is de graad van inwendig statisch onbepaaldheid?
 ---
 M[3]
 ^^^
-? De constructie is {gap}ste/de graads inwendig statisch onbepaald. 
+? De constructie is {gap}ste/de graads inwendig statisch onbepaald.
 ---
 
 ::::
@@ -49,22 +53,28 @@ Het is een open constructie, dus de graad van inwendig statisch onbepaaldheid is
 
 De pendelstaven worden vervangen door veren, leidend tot de volgende constructie:
 
-```{figure} lesoefening2_data/springs.svg
+```{figure-start} lesoefening2_data/springs.svg
 :align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
+:number:
+:figclass: sticky-margin
+```
 
-Constructie met veren, $EI = \infty$
+$ EI \gg EA$
+
+```{figure-end}
 ```
 
 ::::{question} Opgave
 :label: verplaats3_2
 :variant: multiple-select
-:columns: 1
+:columns: 1 1 2 2
 :admonition:
 :class: exercise
 :nocaption:
 :showanswer:
 
-Welke twee vrijheidsgraden kan je kiezen voor deze constructie?
+Welke vrijheidsgraden kan je kiezen voor deze constructie?
 ---
 [x] Verplaatsing van $\rm{A}$ verticaal
 [x] Verplaatsing van $\rm{B}$ verticaal
@@ -102,13 +112,114 @@ Wat zijn de voordelen van de verplaatsingenmethode ten opzichte van de krachtenm
 
 Er wordt gekozen voor de volgende vrijheidsgraden: $w_{\rm{A}}$ en $\varphi$:
 
-```{figure} lesoefening2_data/dof.svg
+```{figure-start} lesoefening2_data/dof.svg
 :align: center
-
-Constructie met veren en vrijheidsgraden $w_{\rm{A}}$ en $\varphi$. $EI = \infty$
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
+:number:
+:figclass: sticky-margin
 ```
 
-Bepaal de evenwichtsvergelijkingen
+$ EI \gg EA$
+
+```{figure-end}
+```
+
+::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Splits de constructie tussen het deel dat vervormt volgens de vrijheidsgraden en de overige delen. Schets de constructie na het splitsen.
+---
+=
+```{figure} lesoefening2_data/gesplitst.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
+:number:
+```
+
+---
+
+::::
+
+::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de vervormde, geplitste constructie ten gevolge van de nog onbekende $w_{\rm{A}}$
+---
+=
+```{figure} lesoefening2_data/vervorm_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
+:number:
+```
+
+---
+
+::::
+
+::::{question} Opgave
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Schets de vervormde, geplitste constructie ten gevolge van de nog onbekende $\varphi$
+---
+=
+```{figure} lesoefening2_data/vervorm_3.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaatsingenmethode_vrijheidsgraden_2
+:number:
+```
+
+---
+
+::::
+
+:::::{question} Opgave
+:label: verplaats3_35
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+---
+M[100]
+M[0]
+M[0]
+M[200]
+M[400]
+M[0]
+M[300]
+M[1500]
+M[0]
+M[400]
+M[3600]
+M[0]
+M[500]
+M[5000]
+M[0]
+^^^
+? Bepaal de normaalkrachten in de veren als functie van $w_{\rm{A}}$ en $\varphi$. Ga uit van kN, m en rad voor je antwoorden en een kracht naar boven als positief.
+
+- $ N_{\rm{A}} \left( w_{\rm{A}}, \varphi \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot w_{\rm{A}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{rad}}\right) \cdot \varphi + $ {gap} $ \left(\rm{in \ kN}\right) $
+- $ N_{\rm{B}} \left( w_{\rm{A}}, \varphi \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot w_{\rm{A}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{rad}}\right) \cdot \varphi + $ {gap} $ \left(\rm{in \ kN}\right) $
+- $ N_{\rm{C}} \left( w_{\rm{A}}, \varphi \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot w_{\rm{A}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{rad}}\right) \cdot \varphi + $ {gap} $ \left(\rm{in \ kN}\right) $
+- $ N_{\rm{D}} \left( w_{\rm{A}}, \varphi \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot w_{\rm{A}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{rad}}\right) \cdot \varphi + $ {gap} $ \left(\rm{in \ kN}\right) $
+- $ N_{\rm{E}} \left( w_{\rm{A}}, \varphi \right) = $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{m}}\right) \cdot w_{\rm{A}} + $ {gap} $ \left(\rm{in} \, \cfrac{\rm{kN}}{\rm{rad}}\right) \cdot \varphi + $ {gap} $ \left(\rm{in \ kN}\right) $
+
+---
+:::::
 
 ::::{question} Opgave
 :label: verplaats3_4
@@ -124,11 +235,11 @@ M[-1500]
 M[-10500]
 M[-2580]
 ^^^
-? Check je resultaat voor je krachtenevenwicht. Ga uit van kN, m en rad voor je antwoorden.
+? Bepaal het verticaal evenwicht. Ga uit van kN, m en rad voor je antwoorden en een kracht naar boven als positief.
 
 $ ${gap}$ \cdot w_{\rm{A}} + ${gap}$ \cdot \varphi + ${gap}$ = 0 $
 ---
-:::::
+::::
 
 % solution_start
 
@@ -159,7 +270,7 @@ $$
 :nocaption:
 :showanswer:
 
-Waarom is er geen uniek antwoord voor de andere evenwichtsvergelijking?
+Stel ook de momentensom op. Je kan dit antwoord echter niet controleren. Waarom is er geen uniek antwoord voor de andere evenwichtsvergelijking?
 ---
 [x] Er kan een momentensom rondom elk willekeurig punt worden genomen.
 [ ] Er kan een momentensom rondom A of B worden genomen.
@@ -202,11 +313,10 @@ $$
 M[-67]
 M[-0.15]
 ^^^
-? Bepaal met evenwicht $w_{\rm{A}}$ en $\varphi$.
+? Bepaal $w_{\rm{A}}$ en $\varphi$.
 
-$ w_{\rm{A}} = $ {gap} $ \rm{cm} $
-
-$ \varphi = $ {gap} $ \rm{rad} $
+- $ w_{\rm{A}} = $ {gap} $ \rm{cm} $
+- $ \varphi = $ {gap} $ \rm{rad} $
 ---
 
 ::::
@@ -220,15 +330,15 @@ De twee evenwichtsvergelijkingen kunnen worden opgelost voor de onbekenden $w_{\
 
 Het stelsel vergelijkingen is:
 
-$$\begin{cases} -1500 \cdot w_{\rm{A}} -10500 \cdot \varphi -2580 &= 0\\ -10500 \cdot w_{\rm{A}} -90700 \cdot \varphi -20640  &= 0 \end{cases}$$
+$$\begin{cases} -1500 \cdot w_{\rm{A}} -10500 \cdot \varphi -2580 = 0\\ -10500 \cdot w_{\rm{A}} -90700 \cdot \varphi -20640  = 0 \end{cases}$$
 
 Vermenigvuldigen van de bovenste vergelijking met -7 en optellen geeft:
 
-$$ 0 \cdot w_{\rm{A}} - 17200 \cdot \varphi - 2580 = 0 \rightarrow \varphi = -0.15 \ \rm{rad} $$
+$$ 0 \cdot w_{\rm{A}} - 17200 \cdot \varphi - 2580 = 0 \rightarrow \varphi = -0.15 \, \rm{rad} $$
 
 Invullen in de bovenste vergelijking geeft de oplossing voor $w_{\rm{A}}$:
 
-$$ -1500 \cdot w_{\rm{A}} -10500 \cdot -0.15 -2580 = 0 \rightarrow w_{\rm{A}} = -67 \ \rm{cm}$$
+$$ -1500 \cdot w_{\rm{A}} -10500 \cdot -0.15 -2580 = 0 \rightarrow w_{\rm{A}} = -67 \, \rm{cm}$$
 
 ::::
 
@@ -267,11 +377,12 @@ M[-1085]
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-$$ N_{\rm{A}} = 100 \cdot w_{\rm{A}} = -67 \ \rm{kN}$$
-$$ N_{\rm{B}} = 200 \cdot w_{\rm{B}} = 200 \cdot \left(w_{\rm{A}} + 2 \cdot \varphi\right) =-194 \ \rm{kN}$$
-$$ N_{\rm{C}} = 300 \cdot w_{\rm{C}} = 300 \cdot \left(w_{\rm{A}} + 5 \cdot \varphi\right) =-426 \ \rm{kN}$$
-$$ N_{\rm{D}} = 400 \cdot w_{\rm{D}} = 400 \cdot \left(w_{\rm{A}} + 9 \cdot \varphi\right) =-808 \ \rm{kN}$$
-$$ N_{\rm{E}} = 500 \cdot w_{\rm{E}} = 500 \cdot \left(w_{\rm{A}} + 10 \cdot \varphi\right) =-1085 \ \rm{kN}$$
+- $ N_{\rm{A}} = 100 \cdot w_{\rm{A}} = -67 \, \rm{kN}$
+- $ N_{\rm{B}} = 200 \cdot w_{\rm{B}} = 200 \cdot \left(w_{\rm{A}} + 2 \cdot \varphi\right) =-194 \, \rm{kN}$
+- $ N_{\rm{C}} = 300 \cdot w_{\rm{C}} = 300 \cdot \left(w_{\rm{A}} + 5 \cdot \varphi\right) =-426 \, \rm{kN}$
+- $ N_{\rm{D}} = 400 \cdot w_{\rm{D}} = 400 \cdot \left(w_{\rm{A}} + 9 \cdot \varphi\right) =-808 \, \rm{kN}$
+- $ N_{\rm{E}} = 500 \cdot w_{\rm{E}} = 500 \cdot \left(w_{\rm{A}} + 10 \cdot \varphi\right) =-1085 \, \rm{kN}$
+
 ::::
 
 % solution_end
