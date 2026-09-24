@@ -56,7 +56,7 @@ figclass: sticky-margin
 
     We kunnen de vergeet-me-nietjes herkennen in de vervormingen van de afzonderlijke vrijheidsgraden en belasting. De nummering komt overeen met de nummering in het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
 
-    - De rotatie van $\rm{B}$ geeft de volgende verplaatsing:
+    - De rotatie van $\rm{B}$ (waarbij we de verplaatsing van $\rm{B}$ niet meenemen) geeft de volgende verplaatsing:
 
         ```{figure} ./theorie_data/verplaats_1.svg
         :align: center
@@ -105,7 +105,7 @@ figclass: sticky-margin
         
         :::::
 
-    - De verplaatsing van $\rm{B}$ geeft de volgende verplaatsing:
+    - De verplaatsing van $\rm{B}$ (waarbij we de rotatie van $\rm{B}$ niet meenemen) geeft de volgende verplaatsing:
 
         ```{figure} ./theorie_data/verplaats_2.svg
         :align: center
@@ -154,7 +154,7 @@ figclass: sticky-margin
         
         :::::
 
-    - De verplaatsing ten gevolge van de puntlast van $44.8 \ \rm{kN}$ geeft de volgende verplaatsing:
+    - De verplaatsing ten gevolge van de puntlast van $44.8 \ \rm{kN}$ (waarbij beide vrijheidsgraden worden vastgehouden) geeft de volgende verplaatsing:
 
         ```{figure} ./theorie_data/verplaats_3.svg
         :align: center
