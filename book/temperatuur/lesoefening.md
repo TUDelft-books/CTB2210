@@ -59,16 +59,12 @@ $\kappa_{\rm{T}} = $ {gap} $\rm{m}^{-1}$
 ---
 ::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 $$\kappa^T = -\cfrac{\alpha \cdot T}{h} = - \cfrac{0.0001 \cdot 30}{0.2} = -0.015 \ m^{-1}$$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -101,9 +97,7 @@ Bepaal met behulp van de differentiaalvergelijkingen de uitdrukkingen voor de sn
 ---
 ::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Voor deze constructie gelden den onderstaande randvoorwaarden:
@@ -122,8 +116,6 @@ $$ \varphi \left( x \right) = 0.001875  C_1 \cdot x^2 + 0.0075 \cdot x + C_3 $$
 $$ w \left( x \right) = -0.000625 \cdot C_1 \cdot x^3 -0.00375 \cdot x^2 - C_3 \cdot x + 0 $$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
