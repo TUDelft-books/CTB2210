@@ -97,11 +97,11 @@
 			<rect x="0" y="48.5605" width="27.6378" height="14.1732" class="st6"/>
 			<text x="4.63" y="59.25" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>V<tspan dy="-0.279em"
 						class="st8" v:baseFontSize="12">B,3</tspan></text>		</g>
-		<g id="shape909-37" v:mID="909" v:groupContext="shape" transform="translate(165.947,87.014) rotate(180)">
+		<g id="shape909-37" v:mID="909" v:groupContext="shape" transform="translate(165.947,-38.4535) scale(-1,1)">
 			<title>Blad.909</title>
 			<path d="M0 62.73 C22.68 57.06 56.69 34.39 113.52 62.73" class="st9"/>
 		</g>
-		<g id="group915-40" transform="translate(123.427,-17.1936) scale(-1,1)" v:mID="915" v:groupContext="group">
+		<g id="group915-40" transform="translate(123.427,65.7542) rotate(180)" v:mID="915" v:groupContext="group">
 			<title>Hoekverdraaiing.915</title>
 			<g id="shape916-41" v:mID="916" v:groupContext="shape" transform="translate(98.9215,97.5847) rotate(153.435)">
 				<title>Blad.916</title>

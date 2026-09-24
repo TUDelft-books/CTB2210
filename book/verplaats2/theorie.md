@@ -96,7 +96,7 @@ figclass: sticky-margin
         :name: verplaats_1_VMN2
         ```
 
-        Komt overeen met het horizontaal gespiegelde vergeet-me-nietje (4).
+        Komt overeen met het horizontaal en verticaal gespiegelde vergeet-me-nietje (4).
 
         ```{figure-end}
         ```

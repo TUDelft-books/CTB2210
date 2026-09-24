@@ -42,7 +42,7 @@
 		<title>Pagina-1</title>
 		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
 				v:shadowOffsetY="-8.50394"/>
-		<g id="group1324-1" transform="translate(160.343,-12.9417) scale(-1,1)" v:mID="1324" v:groupContext="group">
+		<g id="group1324-1" transform="translate(160.343,61.5022) rotate(180)" v:mID="1324" v:groupContext="group">
 			<title>Scharnieroplegging.1324</title>
 			<g id="shape1325-2" v:mID="1325" v:groupContext="shape" transform="translate(2.83465,0)">
 				<title>Blad.1325</title>
@@ -57,7 +57,7 @@
 				<path d="M0 48.56 L2.83 48.56" class="st2"/>
 			</g>
 		</g>
-		<g id="group1328-10" transform="translate(46.9574,-10.107) scale(-1,1)" v:mID="1328" v:groupContext="group">
+		<g id="group1328-10" transform="translate(46.9574,58.6676) rotate(180)" v:mID="1328" v:groupContext="group">
 			<title>Rol.1328</title>
 			<g id="group1329-11" transform="translate(0.261477,-2.83465)" v:mID="1329" v:groupContext="group">
 				<title>Scharnier</title>
@@ -79,19 +79,19 @@
 				<path d="M0 48.56 L19.84 48.56" class="st2"/>
 			</g>
 		</g>
-		<g id="shape1334-23" v:mID="1334" v:groupContext="shape" transform="translate(150.422,-24.2803) scale(-1,1)">
+		<g id="shape1334-23" v:mID="1334" v:groupContext="shape" transform="translate(150.422,72.8408) rotate(180)">
 			<title>Ligger, 2 pt.1334</title>
 			<path d="M0 48.56 L113.39 48.56" class="st3"/>
 		</g>
-		<g id="shape1335-26" v:mID="1335" v:groupContext="shape" transform="translate(150.422,72.8408) rotate(180)">
+		<g id="shape1335-26" v:mID="1335" v:groupContext="shape" transform="translate(150.422,-24.2802) scale(-1,1)">
 			<title>Blad.1335</title>
 			<path d="M0 48.56 C22.68 42.89 56.69 20.21 113.52 48.56" class="st4"/>
 		</g>
-		<g id="shape1336-29" v:mID="1336" v:groupContext="shape" transform="translate(-24.2803,38.4535) rotate(-90)">
+		<g id="shape1336-29" v:mID="1336" v:groupContext="shape" transform="translate(-24.2803,10.107) rotate(-90) scale(-1,1)">
 			<title>Moment.1336</title>
 			<path d="M-0 48.56 A14.1732 14.1732 0 0 1 14.17 34.39 A14.1732 14.1732 0 0 1 26.14 40.96 L26.24 41.31" class="st5"/>
 		</g>
-		<g id="group1337-35" transform="translate(107.902,-3.02043) scale(-1,1)" v:mID="1337" v:groupContext="group">
+		<g id="group1337-35" transform="translate(107.902,51.5809) rotate(180)" v:mID="1337" v:groupContext="group">
 			<title>Hoekverdraaiing.1337</title>
 			<g id="shape1338-36" v:mID="1338" v:groupContext="shape" transform="translate(92.5831,70.7345) rotate(153.435)">
 				<title>Blad.1338</title>
@@ -103,19 +103,19 @@
 				<path d="M0 48.56 C5.56 46.98 10.36 47.68 14.97 48.56" class="st7"/>
 			</g>
 		</g>
-		<g id="shape1473-45" v:mID="1473" v:groupContext="shape" transform="translate(137.666,-24.2803)">
+		<g id="shape1473-45" v:mID="1473" v:groupContext="shape" transform="translate(137.666,72.8408) scale(1,-1)">
 			<title>Punt A.1473</title>
 			<desc>C</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="7.08661" cy="41.4739" width="14.18" height="14.1732"/>
 			<rect x="0" y="34.3873" width="14.1732" height="14.1732" class="st9"/>
-			<text x="4" y="45.07" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>C</text>		</g>
-		<g id="shape1474-48" v:mID="1474" v:groupContext="shape" transform="translate(37.0361,-24.2803)">
+			<text x="4" y="-37.87" transform="scale(1,-1)" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>C</text>		</g>
+		<g id="shape1474-48" v:mID="1474" v:groupContext="shape" transform="translate(37.0361,72.8408) scale(1,-1)">
 			<title>Punt A.1474</title>
 			<desc>B</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="7.08661" cy="41.4739" width="14.18" height="14.1732"/>
 			<rect x="0" y="34.3873" width="14.1732" height="14.1732" class="st9"/>
-			<text x="4" y="45.07" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>B</text>		</g>
+			<text x="4" y="-37.87" transform="scale(1,-1)" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>B</text>		</g>
 	</g>
 </svg>
