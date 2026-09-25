@@ -18,6 +18,7 @@ align: center
 number:
 figclass: sticky-margin
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
+name: constructie_matrix_verplaats
 ---
 
 ```
@@ -33,7 +34,7 @@ source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main
 ::::{admonition} Opgave
 :class: exercise
 
-Bepaal de rotaties van $\rm{B}$, $\rm{C}$ en $\rm{D}$.
+Bepaal de rotaties van $\rm{B}$, $\rm{C}$ en $\rm{D}$ met de matrixmethode.
 
 ::::
 

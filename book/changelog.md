@@ -2,6 +2,7 @@
 
 ## 2026-09-25: v2026.13.0
 - Toevoegen les over verplaatsingenmethode
+- Toevoegen les over matrixmethode
 - Aanpassingen t.o.v. vorig jaar:
   - Schrappen les over verplaatsingenmethode met statisch onbepaalde verplaatsingen
   - Verduidelijken onafhankelijkheid van vrijheidsgraden in [Verplaatsingenmethode  met vrijheidsgraden - Instructie](verplaats2/theorie.md)

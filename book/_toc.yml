@@ -75,7 +75,6 @@ parts:
     - file: temperatuur/lesoefening1.md
     - file: temperatuur/COZ1_temp.md
     - file: temperatuur/COZ2_temp.md
-# START REMOVE-FROM-RELEASE
   - file: verplaats2/lesson.md
     sections:
     - file: verplaats2/theorie.md
@@ -90,7 +89,7 @@ parts:
     - file: matrix/lesoefening1.md
     - file: matrix/COZ_matrix_1.md
     - file: matrix/COZ_matrix_2.md
-  - file: methodes/lesson.md
+# START REMOVE-FROM-RELEASE
   - file: TOZ/opgave.md
   - file: exam/lesson.md
   - file: wintercursus_1/lesson.md

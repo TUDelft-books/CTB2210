@@ -29,6 +29,8 @@ source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main
 ```{figure-end}
 ```
 
+Los deze opgave op met de matrixmethode.
+
 
 ::::{admonition} Opgave
 :class: exercise

@@ -13,13 +13,13 @@ Als je nog geen toegang hebt tot deze toets, registreer je dan via [deze link](h
 Gegeven is de volgende constructie:
 
 
-:::{fetch} {numref}`COZ_kracht_verpl_matrix`
+:::{fetch} {numref}`constructie_matrix_verplaats`
 :::
 
 ::::{admonition} Opgave
 :class: exercise
 
-Bepaal de verplaatsing van $\rm{D}$.
+Bepaal de rotatie van $\rm{D}$ met behulp van de verplaatsingenmethode en teken de momentenlijn.
 
 ::::
 
@@ -28,62 +28,92 @@ Bepaal de verplaatsing van $\rm{D}$.
 ::::{admonition} Antwoord
 :class: solution, dropdown
 
-$5.1 \, \rm{mm}$ naar beneden.
+De verplaatsingen kunnen beschreven worden met de rotatie van $\rm{D}$.
+
+```{figure} intro_data/phi_D.svg
+:align: center
+:number:
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
+```
+
+Voor $\rm{AB}$, kan een vergeet-me-nietje gebruikt worden:
+
+```{figure} intro_data/AD.svg
+:align: center
+:number:
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
+```
+
+$$
+\varphi_{\rm{D}} = \cfrac{M_{\rm{D}}^{\rm{AD}} \cdot 5}{4 \cdot 120000} = \cfrac{M_{\rm{D}}^{\rm{AD}}}{96000}
+$$
+
+Omschrijven van deze relatie geeft:
+
+$$
+M_{\rm{D}}^{\rm{AD}} = 96000 \cdot \varphi_{\rm{D}}
+$$
+
+Ook voor $\rm{CD}$ kan een vergeet-me-nietje gebruikt worden:
+
+```{figure} intro_data/CD2.svg
+:align: center
+:number:
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
+```
+
+$$
+\varphi_{\rm{D}} = -\cfrac{M_{\rm{D}}^{\rm{CD}} \cdot 5}{3 \cdot 120000} = -\cfrac{M_{\rm{D}}^{\rm{CD}}}{72000}
+$$
+
+Dit geeft:
+
+$$
+M_{\rm{D}}^{\rm{CD}} = -72000 \cdot \varphi_{\rm{D}}
+$$
+
+Tot slot geldt hetzelfde vergeet-me-nietje voor $\rm{BD}$
+
+```{figure} intro_data/BD2.svg
+:align: center
+:number:
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
+```
+
+$$
+\varphi_{\rm{D}} = - \cfrac{M_{\rm{D}}^{\rm{BD}} \cdot 2}{3 \cdot 120000} - \cfrac{29 \cdot 2}{6 \cdot 120000} = -\cfrac{M_{\rm{D}}^{\rm{BD}}}{180000} - \cfrac{29}{360000}
+$$
+
+Dit geeft.
+
+$$
+M_{\rm{D}}^{\rm{BD}} = -180000 \cdot \varphi_{\rm{D}} - 14.5
+$$
+
+Nu kan het evenwicht van knoop $\rm{D}$ bekeken worden.
+
+```{figure} intro_data/D.svg
+:align: center
+:number:
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
+```
+
+$$
+\begin{align*}
+M_{\rm{D}}^{\rm{AD}} - M_{\rm{D}}^{\rm{CD}} - M_{\rm{D}}^{\rm{BD}} + 29 &= 0 \\
+\varphi_{\rm{D}} &= \cfrac{-1}{8000} \approx -1.25 \cdot 10^{-4} \ \rm{rad}
+\end{align*}
+$$
+
+De momentenlijn volgt uit bovenstaande:
+
+```{figure} intro_data/Mline.svg
+:align: center
+:number:
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
+```
 
 ::::
 
 % solution_end
 
-::::{admonition} Opgave
-:class: exercise
-
-Bepaal de dwarskracht in $\rm{BC}$.
-
-::::
-
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-Absolute waarde van $13.6 \, \rm{kN}$
-
-::::
-
-% solution_end
-
-::::{admonition} Opgave
-:class: exercise
-
-Bepaal het inklemmingsmoment in $\rm{B}$.
-
-::::
-
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-$34 \, \rm{kNm}$ (↻)
-
-::::
-
-% solution_end
-
-::::{admonition} Opgave
-:class: exercise
-
-Bepaal het moment net links van $\rm{C}$.
-
-::::
-
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-$85 \, \rm{kNm}$ (◠)
-
-::::
-
-% solution_end
