@@ -100,49 +100,63 @@ Dit standaard element geldt voor onze beperking tot constructies met starre verb
 
 Voor dit standaardelement zullen we éénmaal de stijfheidstermen moeten vinden. Net als bij de verplaatsingenmethode kunnen we met de relaties vinden tussen de koppels en de rotaties van de uiteindes van een element door de rotaties los van elkaar toe passen. Voor elke individuele element met lengte $L$ en buigstijfheid $EI$ kunnen we de zogenoemde elementstijfheidsmatrix opstellen. Net zoals bij de verplaatsingenmethode doen we dat voor elke vrijheidsgraad afzonderlijk, dus met een rotatie aan de ene kant wordt de rotatie aan de andere kant even vastgehouden.
 
--   Te beginnen met de relatie tussen de koppels en $\varphi_2$.
+:::::::{grid} 1 2 2 2
+:gutter: 1 1 1 2
 
-    Als we de linkerzijde vasthouden, komt de vervorming overeen met vergeet-me-nietje (7) van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`:
+::::::{grid-item-card} De relatie tussen de koppels en $\varphi_2$.
+:columns: 12 12 6 6
 
-    ```{figure} ./theorie_data/fmn.svg
-    :align: center
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaats2
-    :number:
-    ```
+Als we de linkerzijde vasthouden, komt de vervorming overeen met vergeet-me-nietje (7) van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`:
 
-    Waarbij het oplegmoment van het vergeet-me-nietjes overeenkomt met het inwendig moment aan de linkerzijde:
+```{figure} ./theorie_data/fmn.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaats2
+:number:
+```
 
-    ```{figure} ./theorie_data/rechts.svg
-    :align: center
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaats2
-    :number:
-    ```
+Waarbij het oplegmoment van het vergeet-me-nietjes overeenkomt met het inwendig moment aan de linkerzijde:
 
-    Het vergeet-me-nietje geeft dan:
+```{figure} ./theorie_data/rechts.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaats2
+:number:
+```
 
-    - $\varphi_2 = \cfrac{L \cdot T_2}{4 \cdot EI} \to T_2 = \cfrac{4 \cdot EI}{L} \cdot \varphi_2 $
-    - $ T_1 = \cfrac{1}{2} \cdot T_2 \to T_1 = \cfrac{2 \cdot EI}{L} \cdot \varphi_2 $
+Het vergeet-me-nietje geeft dan:
 
--   Voor de relaties tussen de koppels en $\varphi_1$ geldt dezelfde procedure alleen dan met de rechterzijde vastgehouden.
+- $\varphi_2 = \cfrac{L \cdot T_2}{4 \cdot EI} \to T_2 = \cfrac{4 \cdot EI}{L} \cdot \varphi_2 $
+- $ T_1 = \cfrac{1}{2} \cdot T_2 \to T_1 = \cfrac{2 \cdot EI}{L} \cdot \varphi_2 $
 
-    ```{figure} ./theorie_data/fmn2.svg
-    :align: center
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaats2
-    :number:
-    ```
- 
-    Waarbij het oplegmoment van het vergeet-me-nietjes overeenkomt met het inwendig moment aan de rechterzijde:
+::::::
 
-    ```{figure} ./theorie_data/links.svg
-    :align: center
-    :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaats2
-    :number:
-    ```
+::::::{grid-item-card} De relatie tussen de koppels en $\varphi_1$.
+:columns: 12 12 6 6
 
-    Het vergeet-me-nietje geeft dan:
+Als we de linkerzijde vasthouden, komt de vervorming overeen met gespiegelde vergeet-me-nietje (7) van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`:
 
-    - $ T_1 = \cfrac{4 \cdot EI}{L} \cdot \varphi_1 $
-    - $ T_2 = \cfrac{2 \cdot EI}{L} \cdot \varphi_1 $
+```{figure} ./theorie_data/fmn2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaats2
+:number:
+```
+
+Waarbij het oplegmoment van het vergeet-me-nietjes overeenkomt met het inwendig moment aan de rechterzijde:
+
+```{figure} ./theorie_data/links.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/verplaats2
+:number:
+```
+
+Het vergeet-me-nietje geeft dan:
+
+- $ \varphi_1 = \cfrac{L \cdot T_1}{4 \cdot EI} \to T_1 = \cfrac{4 \cdot EI}{L} \cdot \varphi_1 $
+- $ T_2 = \cfrac{1}{2} \cdot T_1 \to T_2 = \cfrac{2 \cdot EI}{L} \cdot \varphi_1 $
+
+::::::
+
+:::::::
+
 
 Samen geeft dit twee vergelijkingen:
 
