@@ -18,7 +18,7 @@
 - Toevoegen collegeramaopname van les over krachtenmethode voor gecombineerd rek en buiging, en steunpuntszettingen en stijfheidsinvloeden
 
 ## 2026-09-21: v2026.10.0
-- Toevoegen antwoord van [COZ opgave 3.1](krachtenmethode_raamwerk/COZ1.md)
+- Toevoegen antwoord van COZ opgaves van blok 3.
 
 ## 2026-09-21: v2026.9.0
 - Toevoegen les steunpuntszettingen en stijfheidsinvloeden
