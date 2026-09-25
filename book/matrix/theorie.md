@@ -5,7 +5,7 @@ De matrixmethode is een methode om aan alle soorten constructies te rekenen en l
 ## Theorie
 
 ### Beperking tot rotaties en knoopkoppels
-In dit vak beperken we ons tot de toepassing van de matrixmethode op constructies waarin de rotatie van de knopen de enige vrijheidsgraad is (knopen kunnen niet verplaatsen) en er geen krachten tussen de knopen aangrijpen. Daarnaast modelleren we enkel starre verbindingen. De matrixmethode is echter ook toe te passen op constructies met meerdere vrijheidsgraden per knoop, op constructies met krachten tussen de knopen en bij scharnierende / verende verbindingen.
+In dit vak beperken we ons tot de toepassing van de matrixmethode op constructies waarin de rotatie van de knopen de enige vrijheidsgraad is (knopen kunnen niet verplaatsen) en er geen krachten tussen de knopen aangrijpen. Daarnaast modelleren we enkel starre verbindingen. De matrixmethode is echter ook toe te passen op constructies met meerdere vrijheidsgraden per knoop, op constructies met krachten tussen de knopen en bij scharnierende / verende verbindingen. In de master opleiding Civil Engineering wordt behandeld hoe deze aanpak werkt zonder de beperkingen.
 
 ### Aantal vrijheidsgraden
 
