@@ -35,13 +35,3 @@ Bepaal de maximale zakking van $\rm{C}$ zodat de absolute waarde van het maximal
 
 ::::
 
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-$ 15 \ \rm{mm} $
-
-::::
-
-% solution_end

@@ -37,13 +37,3 @@ Bepaal het inklemmingsmoment in $\rm{A}$.
 
 ::::
 
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-$ \left| M_{\rm{A}} \right| = 350 \ \rm{kNm} $
-
-::::
-
-% solution_end

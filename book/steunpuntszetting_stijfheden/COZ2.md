@@ -35,16 +35,6 @@ Bepaal de horizontale verplaatsing van $\rm{D}$.
 
 ::::
 
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-$ 38 \ \rm{mm} $ (→)
-
-::::
-
-% solution_end
 
 ::::{admonition} Opgave
 :class: exercise
@@ -53,13 +43,3 @@ Bepaal de absolute waarde van het moment in $\rm{B}$.
 
 ::::
 
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-$ 1.5 \ \rm{kNm} $
-
-::::
-
-% solution_end

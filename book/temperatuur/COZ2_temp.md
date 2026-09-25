@@ -38,17 +38,6 @@ Bepaal de verplaatsing van $\rm{D}$ enkel ten gevolge van de puntlast.
 
 ::::
 
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-- $ \cfrac{\sqrt{5} \cdot 100}{12} \approx 18.6 \ \rm{mm} $ (→)
-- Geen verticale verplaatsing
-
-::::
-
-% solution_end
 
 ::::{admonition} Opgave
 :class: exercise
@@ -57,13 +46,3 @@ Bepaal de verplaatsing van $\rm{D}$ enkel ten gevolge van de temperatuurverander
 
 ::::
 
-% solution_start
-
-::::{admonition} Antwoord
-:class: solution, dropdown
-
-- Geen horizontale verplaatsing
-- $2 \cdot \sqrt{5} +  5.25\approx 9.72 \ \rm{mm} $ ↑
-
-::::
-% solution_end

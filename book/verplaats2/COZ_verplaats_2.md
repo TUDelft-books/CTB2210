@@ -24,13 +24,3 @@ Bepaal de verplaatsing van $\rm{E}$ met behulp van de verplaatsingenmethode.
 ::::
 
 
-% solution_start
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-De verplaatsing van $\rm{E}$ is $6.147 \, \rm{mm}$ naar beneden.
-
-::::
-
-% solution_end
