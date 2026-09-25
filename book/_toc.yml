@@ -81,10 +81,15 @@ parts:
     - file: verplaats2/theorie.md
     - file: verplaats2/lesoefening1.md
     - file: verplaats2/lesoefening2.md
+    - file: verplaats2/COZ_verplaats_1.md
+    - file: verplaats2/COZ_verplaats_2.md
+    - file: verplaats2/COZ_verplaats_3.md
   - file: matrix/lesson.md
     sections:
     - file: matrix/theorie.md
     - file: matrix/lesoefening1.md
+    - file: matrix/COZ_matrix_1.md
+    - file: matrix/COZ_matrix_2.md
   - file: methodes/lesson.md
   - file: TOZ/opgave.md
   - file: exam/lesson.md

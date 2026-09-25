@@ -25,6 +25,7 @@ align: center
 number:
 figclass: sticky-margin
 source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot_2
+name: opgehangen_balk_scheef
 ---
 
 ```
@@ -39,7 +40,7 @@ source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main
 ::::{admonition} Opgave
 :class: exercise
 
-Bepaal de verplaatsing van knoop $\rm{E}$
+Bepaal de verplaatsing van knoop $\rm{E}$ met de krachtenmethode.
 
 Tip: als je de opleggingen verandert in rolopleggingen krijg je een complexe vervormde constructie. Als je een van de twee pendelstaven doorsnijdt, is de vervormde constructie makkelijker te berekenen.
 

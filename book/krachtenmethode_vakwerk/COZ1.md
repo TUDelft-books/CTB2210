@@ -17,6 +17,7 @@ align: center
 figclass: sticky-margin
 number:
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
+name: opgehangen_balk
 ---
 
 ```
@@ -105,6 +106,7 @@ De vervormde constructie is weergegeven in de onderstaande figuur.
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam
 :number:
+:name: vervormde_constructie_opgehangen_balk
 ```
 
 ::::
