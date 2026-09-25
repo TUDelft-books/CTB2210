@@ -364,7 +364,7 @@ number:
 
 ## Meer voorbeelden
 
-In hoofdstuk 2.1 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` wordt de krachtemethode in het algemeen behandeld. Specifiek voor simpele vakwerkconstructies wordt behandeld in hoofdstuk 2.2.8 - 2.2.9.
+In hoofdstuk 2.1 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016` wordt de krachtemethode in het algemeen behandeld. Specifiek voor simpele constructies op trek en trek wordt deze behandeld in hoofdstuk 2.2.8 - 2.2.9.
 
 ## Zelfde instructies in collegevorm
 
