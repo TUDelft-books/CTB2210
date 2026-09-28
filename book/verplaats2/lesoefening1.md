@@ -148,8 +148,6 @@ M[0]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -178,8 +176,6 @@ De verlengingen en verkortingen van de staven kunnen worden omgezet in normaalkr
 
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: no-input
@@ -223,8 +219,6 @@ MAP[270.2;1]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -252,8 +246,6 @@ Het bovenstaande stelsel van twee vergelijkingen kan worden opgelost voor $u_{\r
 - $ u_{\rm{S,v}} = \cfrac{1351}{5000} \ \rm{m} \approx 270.2 \ \rm{mm} $
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :label: verplaats2_5

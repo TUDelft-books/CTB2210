@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2026-09-28: v2026.13.0
+- Toevoegen uitwerkingen van de begeleide oefeningen van les over verplaatsingenmethode.
+
 ## 2026-09-25: v2026.13.0
 - Toevoegen les over verplaatsingenmethode
 - Toevoegen les over matrixmethode

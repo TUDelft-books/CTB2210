@@ -40,16 +40,12 @@ M[3]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Het is een open constructie, dus de graad van inwendig statisch onbepaaldheid is gelijk aan de graad van uitwendig statisch onbepaaldheid. Er zijn 6 onbekende oplegreacties en 3 evenwichtsvergelijkingen, daarom is de constructie 3de graads statisch onbepaald.  
 
 ::::
-
-% solution_end
 
 De pendelstaven worden vervangen door veren, leidend tot de volgende constructie:
 
@@ -241,8 +237,6 @@ $ ${gap}$ \cdot w_{\rm{A}} + ${gap}$ \cdot \varphi + ${gap}$ = 0 $
 ---
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -259,8 +253,6 @@ $$
 $$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :variant: single-select
@@ -280,7 +272,6 @@ Stel ook de momentensom op. Je kan dit antwoord echter niet controleren. Waarom 
 ---
 ::::
 
-% solution_start
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -297,8 +288,6 @@ $$
 $$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :label: verplaats3_5
@@ -321,8 +310,6 @@ M[-0.15]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -341,8 +328,6 @@ Invullen in de bovenste vergelijking geeft de oplossing voor $w_{\rm{A}}$:
 $$ -1500 \cdot w_{\rm{A}} -10500 \cdot -0.15 -2580 = 0 \rightarrow w_{\rm{A}} = -67 \, \rm{cm}$$
 
 ::::
-
-% solution_end
 
 
 ::::{question} Opgave
@@ -372,8 +357,6 @@ M[-1085]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -384,5 +367,3 @@ M[-1085]
 - $ N_{\rm{E}} = 500 \cdot w_{\rm{E}} = 500 \cdot \left(w_{\rm{A}} + 10 \cdot \varphi\right) =-1085 \, \rm{kN}$
 
 ::::
-
-% solution_end
