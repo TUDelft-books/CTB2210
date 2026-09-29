@@ -55,7 +55,7 @@ Ga uit van de verplaatsingsvector $ \mathbf{u} =  \begin{bmatrix}  \varphi_{\rm{
 
 ---
 
-M[\begin{bmatrix} 4000 & 2000 & 0 & 0 & 0 \\\ 2000 & 12000 & 2000 & 2000 & 0 \\\ 0 & 2000 & 8000 & 0 & 2000 \\\ 0 & 2000 & 0 & 4000 & 0 \\\ 0 & 0 & 2000 & 0 & 4000 \end{bmatrix}] Bepaal de globale stijfheidsmatrix $\mathbf{K}$. Gebruik wederom de functie 'Insert Matrix'.
+M[\begin{pmatrix} 4000 & 2000 & 0 & 0 & 0 \\\ 2000 & 12000 & 2000 & 2000 & 0 \\\ 0 & 2000 & 8000 & 0 & 2000 \\\ 0 & 2000 & 0 & 4000 & 0 \\\ 0 & 0 & 2000 & 0 & 4000 \end{pmatrix}] Bepaal de globale stijfheidsmatrix $\mathbf{K}$. Gebruik wederom de functie 'Insert Matrix'.
 
 ---
 
