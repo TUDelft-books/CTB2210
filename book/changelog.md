@@ -1,5 +1,9 @@
 # Changelog 🔖
 
+## 2026-09-29: v2026.14.0
+- Toevoegen antwoorden van de COZ opgaves van blok 4.
+- Toevoegen collegeramaopnames van de lessen over verplaatsingenmethode en matrixmethode.
+
 ## 2026-09-28: v2026.13.0
 - Toevoegen uitwerkingen van de begeleide oefeningen van les over verplaatsingenmethode.
 

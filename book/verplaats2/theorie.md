@@ -335,7 +335,7 @@ In hoofdstuk 4.1 en 4.3 van het boek Mechanica, Statisch onbepaalde constructies
 
 ## Zelfde instructies in collegevorm
 
-Dit onderwerp is [in 2025 in les 11](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/5af52bfa489c4f579dcf83847e8329c71d?sortBy=most-recent) gepresenteerd in collegevorm tot 0:47:56. De opname in collegejaar 2026/2027 volgt na het college.
+Dit onderwerp is dit jaar in [les 13](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/05c3e6cf5ce24160aa99c3432c3a7a041d?academicYear=2026-2027-ctb2210) gepresenteerd van 0:11:00 tot 0:57:45 (TU Delft login vereist). In 2025 is dit onderwerp in [les 11](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/5af52bfa489c4f579dcf83847e8329c71d?sortBy=most-recent) gepresenteerd tot 0:47:56 (publiek beschikbaar).
 
 ## Extra opgaves in boek
 Opgaves 4.4 - 4.33, 4.35, 4.36 in hoofdstuk 4.5 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.
