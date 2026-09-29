@@ -2,12 +2,12 @@ import sympy as sym
 
 F, L1, L2, EI, EA, L3 = sym.symbols('F L1 L2 EI EA L3')
 
-F = sym.Integer(30)
-L1 = sym.Integer(4)
-L2 = sym.Integer(2)
-L3 = sym.Integer(5)
-EI = sym.Integer(56000)
-EA = sym.Integer(4500)
+#F = sym.Integer(729)
+#L1 = sym.Integer(5)
+#L2 = sym.Integer(4)
+#L3 = sym.Integer(5)
+#EI = sym.Integer(66825)
+#EA = sym.Integer(1375)
 
 B_h = sym.symbols('B_h')
 
@@ -17,9 +17,9 @@ B_h_sol = sym.solve(sym.Eq(w, 0), B_h)[0]
 
 print(B_h_sol,B_h_sol.evalf())
 
-V = F + B_h_sol
+V = F - B_h_sol
 
-print(V)
+print(V,V.evalf())
 
 #print(w.subs(B_h, B_h_sol)-B_h_sol*L3/EA)
 
@@ -35,6 +35,6 @@ B_h_sol_2 = sym.solve(sym.Eq(w2, 0), B_h)[0]
 
 print(B_h_sol_2,B_h_sol_2.evalf())
 
-V_2 = F + B_h_sol_2
+V_2 = F - B_h_sol_2
 
 print(V_2,V_2.evalf())
