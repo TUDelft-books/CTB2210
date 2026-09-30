@@ -460,7 +460,7 @@ In hoofdstuk 5 van het boek Mechanica, Statisch onbepaalde constructies en bezwi
 
 ## Zelfde instructies in collegevorm
 
-Dit onderwerp is dit jaar in [les 14](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/d58276f89e0b48f094298b82bec162841d?academicYear=2026-2027-ctb2210) gepresenteerd van 0:16:50 tot 0:52:40 (TU Delft login vereist). In 2025 is dit onderwerp in [les 12](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/c2f0f9c684ed46848b6a754b76f1f92f1d?sortBy=most-recent) gepresenteerd tot 0:43:10 (publiek beschikbaar).
+Dit onderwerp is in [les 14](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/d58276f89e0b48f094298b82bec162841d?sortBy=most-recent) gepresenteerd van 0:16:50 tot 0:52:40.
 
 ## Extra opgaves in boek
 Opgaves 5.1 - 5.5 in hoofdstuk 5.8 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. De opgaves e - i zijn geen onderdeel van het vak. Vervang bij opgave 5.2 - 5.5 het uitkragende gedeelte door een koppel en neem de dwarskracht niet mee. Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.
