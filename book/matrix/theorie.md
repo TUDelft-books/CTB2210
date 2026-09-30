@@ -114,7 +114,7 @@ Als we de linkerzijde vasthouden, komt de vervorming overeen met vergeet-me-niet
 :number:
 ```
 
-Waarbij het oplegmoment van het vergeet-me-nietjes overeenkomt met het inwendig moment aan de linkerzijde:
+Waarbij het oplegmoment van het vergeet-me-nietje overeenkomt met het inwendig moment aan de linkerzijde:
 
 ```{figure} ./theorie_data/rechts.svg
 :align: center
@@ -140,7 +140,7 @@ Als we de linkerzijde vasthouden, komt de vervorming overeen met gespiegelde ver
 :number:
 ```
 
-Waarbij het oplegmoment van het vergeet-me-nietjes overeenkomt met het inwendig moment aan de rechterzijde:
+Waarbij het oplegmoment van het vergeet-me-nietje overeenkomt met het inwendig moment aan de rechterzijde:
 
 ```{figure} ./theorie_data/links.svg
 :align: center
