@@ -23,14 +23,3 @@ Bepaal de zakking in $\rm{D}$ met behulp van de verplaatsingenmethode en teken d
 
 ::::
 
-% solution_start
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-:::{fetch} {numref}`vervormde_constructie_opgehangen_balk`
-:::
-
-::::
-
-% solution_end
