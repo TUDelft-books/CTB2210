@@ -71,7 +71,6 @@ sphinx:                                              # Options passed on to the 
             missed: ["Probeer het opnieuw! Je hebt minstens één correcte optie gemist."]
             incorrect-missed: ["Probeer het opnieuw! Je hebt minstens één verkeerde optie geselecteerd en minstens één correcte optie gemist."]
         short-answer:
-          blocks:
           gaps:
             correct: ["Je hebt alle invulvelden correct ingevuld."]
             incorrect: ["Je hebt geen enkel invulveld correct ingevuld."]
