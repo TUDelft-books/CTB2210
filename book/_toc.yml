@@ -89,8 +89,8 @@ parts:
     - file: matrix/lesoefening1.md
     - file: matrix/COZ_matrix_1.md
     - file: matrix/COZ_matrix_2.md
-# START REMOVE-FROM-RELEASE
   - file: TOZ/opgave.md
+# START REMOVE-FROM-RELEASE
   - file: exam/lesson.md
   - file: wintercursus_1/lesson.md
     sections:
