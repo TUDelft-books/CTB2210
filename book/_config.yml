@@ -62,21 +62,6 @@ sphinx:                                              # Options passed on to the 
       - copilot-swe-agent[bot]
       - github-actions[bot]
     todo_include_todos: true
-    teachbooks_questions:
-      feedbacks:
-        multiple-choice:
-          multiple-select:
-            correct: ["Goed gedaan!"]
-            incorrect : ["Probeer het opnieuw! Je hebt minstens één verkeerde optie geselecteerd."]
-            missed: ["Probeer het opnieuw! Je hebt minstens één correcte optie gemist."]
-            incorrect-missed: ["Probeer het opnieuw! Je hebt minstens één verkeerde optie geselecteerd en minstens één correcte optie gemist."]
-        short-answer:
-          blocks:
-          gaps:
-            correct: ["Je hebt alle invulvelden correct ingevuld."]
-            incorrect: ["Je hebt geen enkel invulveld correct ingevuld."]
-            mixed: ["Je hebt sommige invulvelden correct ingevuld, maar ook sommige incorrect."]
-            show-answer: ["De correcte antwoorden zijn hierboven weergegeven."]
   extra_extensions:                                  # Gives you a starter package of extensions to use in your book
     - teachbooks_favourites
     - sphinx_tudelft_theme
