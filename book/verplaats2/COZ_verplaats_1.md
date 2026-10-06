@@ -23,8 +23,6 @@ Bepaal de zakking in $\rm{D}$ met behulp van de verplaatsingenmethode en teken d
 
 ::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -32,5 +30,3 @@ Bepaal de zakking in $\rm{D}$ met behulp van de verplaatsingenmethode en teken d
 :::
 
 ::::
-
-% solution_end

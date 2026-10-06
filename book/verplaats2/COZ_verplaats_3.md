@@ -23,8 +23,6 @@ Bepaal de rotatie van $\rm{D}$ met behulp van de verplaatsingenmethode en teken 
 
 ::::
 
-% solution_start
-
 ::::{admonition} Antwoord
 :class: solution, dropdown
 
@@ -114,6 +112,4 @@ De momentenlijn volgt uit bovenstaande:
 ```
 
 ::::
-
-% solution_end
 

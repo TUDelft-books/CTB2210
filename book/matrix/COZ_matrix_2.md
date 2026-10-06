@@ -38,8 +38,6 @@ Bepaal de rotaties van $\rm{B}$, $\rm{C}$ en $\rm{D}$ met de matrixmethode.
 
 ::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -195,5 +193,3 @@ $$
 $$
 
 ::::
-
-% solution_end

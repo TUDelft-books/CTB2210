@@ -1,7 +1,10 @@
 # Changelog 🔖
 
+## 2026-10-06: v2026.16.0
+- Toevoegen antwoorden en uitwerkingen van de COZ opgaves van blok 5.
+
 ## 2026-10-01: v2026.15.0
-- Toevoegen TOZ opgaves.
+- Toevoegen TOZ opgaves
 
 ## 2026-09-29: v2026.14.0
 - Toevoegen antwoorden van de COZ opgaves van blok 4.
