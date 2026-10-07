@@ -2,16 +2,18 @@ import sympy as sym
 
 F, L1, L2, EI, EA, L3 = sym.symbols('F L1 L2 EI EA L3')
 
-#F = sym.Integer(729)
-#L1 = sym.Integer(5)
-#L2 = sym.Integer(4)
-#L3 = sym.Integer(5)
-#EI = sym.Integer(66825)
-#EA = sym.Integer(1375)
+F = sym.Integer(729)
+L1 = sym.Integer(5)
+L2 = sym.Integer(4)
+L3 = sym.Integer(5)
+EI = sym.Integer(66825)
+EA = sym.Integer(1375)
 
 B_h = sym.symbols('B_h')
 
 w = F * L1**3 / EI / 3 + F * L1**2 / EI /2 * L2 - B_h * (L1 + L2) **3 / EI / 3 - B_h * L3 / EA 
+
+print(w)
 
 B_h_sol = sym.solve(sym.Eq(w, 0), B_h)[0]
 
