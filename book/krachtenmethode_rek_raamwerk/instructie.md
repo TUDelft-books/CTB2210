@@ -376,8 +376,11 @@ number:
 
 Dit onderwerp is [in les 10](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/f6562fd68aa643d9ac4970b6a618cf111d?sortBy=most-recent) gepresenteerd van 0:14:10 tot 0:57:10.
 
-## Extra opgaves in boek
+## Extra opgaves
 
-- Opgaves 2.22, 2.25 - 2.28 in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`.
-
-Antwoorden zijn beschikbaar op [deze website](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol3/Chapter1-2/).
+- Opgaves 2.22, 2.25 - 2.28 in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Antwoorden zijn beschikbaar op [deze website](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol3/Chapter1-2/).
+- Opgave 1 van [het tentamen van constructiemechanica 3 in 2024](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3_31januari_2024_tentamenopgaven.pdf). De uitwerkingen zijn [hier](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3_31januari2024_uitwerkingen.pdf) beschikbaar {cite:p}`Exam_2024`.
+- Exam assignment 2 van statisch onbepaalde constructies van [het tentamen van Structural Mechanics in 2024](https://oit.tudelft.nl/CT1000/2024/week_15/session/intro.html#exam-assignment-2-statically-indeterminate-structures). De uitwerkingen zijn op dezelfde pagina beschikbaar {cite:p}`CT1000_2024`.
+- Exam assignment 3 van statisch onbepaalde constructies van [het tentamen van Structural Mechanics in 2024](https://oit.tudelft.nl/CT1000/2024/week_30/session/intro.html#exam-assignment-3-statically-indeterminate-structures). De uitwerkingen zijn op dezelfde pagina beschikbaar {cite:p}`CT1000_2024`.
+- Tentamenopdracht statisch onbepaalde constructies van [het tentamen van Constructiemechanica 3 in 2025](https://oit.tudelft.nl/CTB2210/2025/exam/exam.html). De uitwerkingen zijn op dezelfde pagina beschikbaar {cite:p}`CTB2210_2025`.
+- Tentamenopdracht statisch onbepaalde constructies van [de herkansing van Constructiemechanica 3 in 2025](https://oit.tudelft.nl/CTB2210/2025/exam2/lesson.html). De uitwerkingen zijn op dezelfde pagina beschikbaar {cite:p}`CTB2210_2025`.

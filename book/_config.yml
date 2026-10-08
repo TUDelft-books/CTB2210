@@ -15,6 +15,7 @@ html:
 sphinx:                                              # Options passed on to the underlying sphinx-parser
   local_extensions:
     image_checker: _ext/
+    bib_href: _ext/
   config:
     language: nl                                     # Set language to Dutch
     html_js_files:

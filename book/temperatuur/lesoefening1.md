@@ -2,7 +2,7 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze oefening is aangepast van de [les van 25 oktober van het vak CTS1000](https://oit.tudelft.nl/CT1000/2025/week_8/session_3/intro.html) van {cite:ts}`CT1000`
+Deze oefening is gebaseerd op de eerste opgave uit [het tentamen van constructiemechanica 3 in 2023](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/opgavententamen_CM3_februari_2023.pdf) van {cite:ts}`Exam_2023`
 
 ```
 ````

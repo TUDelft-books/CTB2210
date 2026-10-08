@@ -382,5 +382,8 @@ In hoofdstuk 4.1 en 4.3 van het boek Mechanica, Statisch onbepaalde constructies
 
 Dit onderwerp is in [les 13](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/05c3e6cf5ce24160aa99c3432c3a7a041d?sortBy=most-recent) gepresenteerd van 0:11:00 tot 0:57:45.
 
-## Extra opgaves in boek
-Opgaves 4.4 - 4.33, 4.35, 4.36 in hoofdstuk 4.5 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.
+## Extra opgaves
+
+- Opgaves 4.4 - 4.33, 4.35, 4.36 in hoofdstuk 4.5 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.
+- Vraag 3 van [het hertentamen van constructiemechanica 3 in 2013](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Opgaven_Apr2013.pdf). De uitwerkingen zijn [hier](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Uitwerkingen_Apr2013.pdf) beschikbaar {cite:p}`Exam_jan_2013_2`.
+- Onderdeel 1 van opgave 1 van [het hertentamen van constructiemechanica 3 in 2016](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Opgaven_Apr_2016.pdf). De uitwerkingen zijn [hier](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Uitwerkingen_Apr2016.pdf) beschikbaar {cite:p}`Exam_jan_2016`.
