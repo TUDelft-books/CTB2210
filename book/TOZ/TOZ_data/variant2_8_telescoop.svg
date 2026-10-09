@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export variant2_8_telescoop.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.69742in" height="2.27157in"
-		viewBox="0 0 194.215 163.553" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+		viewBox="0 0 194.215 163.553" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -13,7 +13,8 @@
 		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st4 {marker-start:url(#mrkr5-40);stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
 		.st5 {fill:#800000;fill-opacity:1;stroke:#800000;stroke-opacity:1;stroke-width:0.44247787610619}
-		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st6 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -109,6 +110,10 @@
 		<g id="shape1831-53" v:mID="1831" v:groupContext="shape" transform="translate(57.7765,-78.0957)">
 			<title>Blad.1831</title>
 			<path d="M0 163.55 L55.28 163.55" class="st3"/>
+		</g>
+		<g id="shape1832-56" v:mID="1832" v:groupContext="shape" transform="translate(108.091,-78.8472)">
+			<title>Scharnier.1832</title>
+			<ellipse cx="2.12598" cy="161.427" rx="2.12598" ry="2.12598" class="st6"/>
 		</g>
 	</g>
 </svg>

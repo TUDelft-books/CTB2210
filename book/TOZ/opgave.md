@@ -111,6 +111,7 @@ Die als volgt kan vervormen:
 :align: center
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/TOZ_statisch_onbepaald
+:name: variant1_mech
 ```
 
 ::::::
@@ -127,6 +128,7 @@ Die als volgt kan vervormen:
 :align: center
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/TOZ_statisch_onbepaald
+:name: variant2_mech
 ```
 
 ::::::
@@ -139,128 +141,15 @@ Merk op dat de verplaatsingen zijn getekend alsof het scharnier net naast knoop 
 
 ::::::::
 
-::::::::{admonition} Statistieken
+::::::::{admonition} Reflectie
 :class: tip, dropdown
 
-Hieronder is getoond hoe vaak de verschillende varianten zijn gekozen door studenten die deze TOZ hebben gemaakt.
-
-:::::::{grid}
-:class-container: center-grid
-:gutter: 1
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant1`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$56 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant2`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$50 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant3`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$40 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant4`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$33 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: 6
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
+Op basis van de statistieken sprong de volgende variant eruit:
 
 :::{fetch} {numref}`variant5`
 :::
-::::
 
-::::{grid-item}
-:columns: auto
-
-$57 \%$
-
-::::
-
-Deze constructie vervormt als volgt:
+Met $57 \%$ van de studenten die deze optie hadden geselecteerd. Het is echter wél een geldig model. De constructie vervormt als volgt:
 
 ```{figure}  ./TOZ_data/variant5_vervormingen.svg
 :align: center
@@ -268,13 +157,7 @@ Deze constructie vervormt als volgt:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/TOZ_statisch_onbepaald
 ```
 
-De twee scharnierende opleggingen maken dit een driescharnierspant, waarbij de twee delen elk om een vast punt draaien. Aangezien deze niet in elkaars verlengde staan (zoals bij {numref}`variant1` en {numref}`variant2`) is dit geen mechanisme.
-
-:::::
-
-::::::
-
-:::::::
+De twee scharnierende opleggingen maken dit een driescharnierspant, waarbij de twee delen elk om een vast punt draaien. Aangezien deze niet in elkaars verlengde staan (zoals bij {numref}`variant1_mech` en {numref}`variant2_mech`) is dit geen mechanisme.
 
 ::::::::
 
@@ -461,151 +344,15 @@ Die als volgt kan vervormen:
 
 ::::::
 
-::::::::{admonition} Statistieken
+::::::::{admonition} Reflectie
 :class: tip, dropdown
 
-Hieronder is getoond hoe vaak de verschillende varianten zijn gekozen door studenten die deze TOZ hebben gemaakt.
-
-:::::::{grid}
-:class-container: center-grid
-:gutter: 1
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant2_1`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$19 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant2_2`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$15 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant2_3`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$37 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant2_4`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$43 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant2_5`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$57 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: 6
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
+Op basis van de statistieken sprong de volgende variant eruit:
 
 :::{fetch} {numref}`variant2_6`
 :::
-::::
 
-::::{grid-item}
-:columns: auto
-
-$63 \%$
-
-::::
-
-Deze constructie vervormt als volgt:
+Met $63 \%$ van de studenten die deze optie hadden geselecteerd. Het is echter wél een geldig model. De constructie vervormt als volgt:
 
 ```{figure}  ./TOZ_data/variant2_6_vervormingen.svg
 :align: center
@@ -616,54 +363,12 @@ Deze constructie vervormt als volgt:
 
 Hoewel deze constructie twee rolopleggingen heeft kan die niet als geheel naar links of rechts roteren door de stijve verbinding in het midden.
 
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant2_7`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$29 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: 6
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
+Daarnaast viel ook deze variant op:
 
 :::{fetch} {numref}`variant2_8`
 :::
-::::
 
-::::{grid-item}
-:columns: auto
-
-$60 \%$
-
-::::
-
-Hoewel de pendelstaaf los is getekend is deze in werkelijkheid verbonden met een telescoopscharnier aan de rest van de constructie (welke we normaal niet tekenen). Met het telescoopscharnier zou de constructie er als volgt uitzien:
+Met $60 \%$ van de studenten die deze optie hadden geselecteerd. Ook dit is wél een geldig model. Hoewel de pendelstaaf los is getekend is deze in werkelijkheid verbonden met een telescoopscharnier aan de rest van de constructie (welke we normaal niet tekenen). Met het telescoopscharnier zou de constructie er als volgt uitzien:
 
 ```{figure}  ./TOZ_data/variant2_8_telescoop.svg
 :align: center
@@ -680,35 +385,6 @@ Deze constructie vervormt dan als volgt:
 ```
 
 Wat sterk vergelijkbaar is met de vervorming van {numref}`variant2_6_vervormingen`. De constructie is dus geen mechanisme.
-
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant2_9`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$80 \%$
-
-::::
-:::::
-
-::::::
-
-:::::::
 
 ::::::::
 
@@ -846,134 +522,6 @@ Die als volgt kan vervormen:
 :::::
 
 ::::::
-
-::::::::{admonition} Statistieken
-:class: tip, dropdown
-
-Hieronder is getoond hoe vaak de verschillende varianten zijn gekozen door studenten die deze TOZ hebben gemaakt.
-
-:::::::{grid}
-:class-container: center-grid
-:gutter: 1
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant3_1`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$21 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant3_2`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$66 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant3_3`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$63 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant3_4`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$44 \%$
-
-::::
-:::::
-
-::::::
-
-::::::{grid-item-card}
-:columns: auto
-
-:::::{grid}
-:class-container: center-grid
-
-::::{grid-item}
-:columns: auto
-
-:::{fetch} {numref}`variant3_5`
-:::
-::::
-
-::::{grid-item}
-:columns: auto
-
-$16 \%$
-
-::::
-:::::
-
-::::::
-
-:::::::
-
-::::::::
 
 ```{hide-sticky-margin}
 ```
