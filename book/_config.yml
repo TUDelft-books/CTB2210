@@ -16,6 +16,7 @@ sphinx:                                              # Options passed on to the 
   local_extensions:
     image_checker: _ext/
     bib_href: _ext/
+    redirect_nav: _ext/
   config:
     language: nl                                     # Set language to Dutch
     redirects:
