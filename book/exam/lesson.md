@@ -20,13 +20,12 @@ Show that this structure is internally statically indeterminate to the second de
 :::::{exercise}
 :nonumber: true
 
-Provide three valid variants to make this structure statically determinate for the purpose of the force method. Provide three different variants: for each variant, you cannot adapt the same node ($\rm{A}$, $\rm{B}$, $\rm{C}$ or $\rm{D}$) or element ($\rm{AD}$, $\rm{CD}$ and $\rm{BC}$) as in the other variants.
+Provide three valid variants to make this structure statical determinate for the purpose of the force method. Don't make the same change to a node ($\rm{A}$, $\rm{B}$, $\rm{C}$ and $\rm{D}$) or element ($\rm{AD}$, $\rm{CD}$ and $\rm{BC}$) twice; make sure you never have the same unknown statically determinate force twice. So, making an identical change at two points in the same element is not allowed either.
 
-For each of the variants, provide:
+For each of the variants:
 
-- The necessary compatibility equations to determine the statically indeterminate forces
-- For each variant, draw the deformed shape of the structure for all of the the statically determinate and existing loads individually.
-- Explain why your variants are not a mechanism based on your drawings of the deformed shapes.
+- Provide the necessary compatibility equations to determine the statically indeterminate forces
+- Explain why your variants are not mechanisms based on drawings of the deformed shapes.
 
 :::::
 
@@ -49,14 +48,14 @@ Given the following structure. Note that the vertical roller support at $\rm{C}$
 :::::{exercise}
 :nonumber: true
 
-Solve the statically indeterminate force using the force method using a statically determinate structure of your own choice.
+Solve the statically indeterminate force using the force method using a statical determinate structure of your own choice.
 
 :::::
 
 :::::{exercise}
 :nonumber: true
 
-Give as many arguments as possible to explain why you cannot apply the matrix method to this structure when you keep to the restricted application of the matrix matrix as taught in this course. For you information, the matrix method in this course was based on this single stiffness matrix:
+Due to which restriction(s), for the matrix method as taught in this course, is it not possible to apply the matrix method to this structure. For your information, the matrix method in this course was based on this single stiffness matrix:
 
 $$
 \mathbf{K^{\rm{(e)}}} &= \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2 EI}{L} \\ \cfrac{2 EI}{L} & \cfrac{4 EI}{L} \end{bmatrix}
