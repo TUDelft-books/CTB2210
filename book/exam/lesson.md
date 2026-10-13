@@ -60,7 +60,7 @@ Los je statisch onbepaalde kracht op met behulp van de krachtmethode op basis va
 Vanwege welke beperking(en) is het, voor de matrixmethode zoals die in deze cursus is behandeld, niet mogelijk om de matrixmethode toe te passen op deze constructie. Ter informatie, de matrixmethode in deze cursus was gebaseerd op deze enkele stijfheidsmatrix:
 
 $$
-\mathbf{K^{\rm{(e)}}} &= \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2 EI}{L} \\ \cfrac{2 EI}{L} & \cfrac{4 EI}{L} \end{bmatrix}
+\mathbf{K^{\rm{(e)}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2 EI}{L} \\ \cfrac{2 EI}{L} & \cfrac{4 EI}{L} \end{bmatrix}
 $$
 
 :::::
