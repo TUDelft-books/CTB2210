@@ -1,6 +1,6 @@
 # 3 november: Tentamenopdracht
 
-Het tentamen is nog in ontwikkeling.
+Gegeven is de volgende constructie:
 
 ```{figure} ./lesson_data/constructie1.svg
 :align: center
@@ -9,27 +9,29 @@ Het tentamen is nog in ontwikkeling.
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
 ```
 
-
 :::::{exercise}
 :nonumber: true
 
-Show that this structure is internally statically indeterminate to the second degree.
+Laat zien dat deze constructie inwendig tweedegraads statisch onbepaald is.
 
 :::::
 
 :::::{exercise}
 :nonumber: true
 
-Provide three valid variants to make this structure statical determinate for the purpose of the force method. Don't make the same change to a node ($\rm{A}$, $\rm{B}$, $\rm{C}$ and $\rm{D}$) or element ($\rm{AD}$, $\rm{CD}$ and $\rm{BC}$) twice; make sure you never have the same unknown statically determinate force twice. So, making an identical change at two points in the same element is not allowed either.
+Geef vijf verschillende statisch bepaalde varianten van deze constructie voor het toepassen van de krachtmethode. Het maken van een identieke aanpassing op twee punten in hetzelfde element telt niet als een andere variant.
 
-For each of the variants:
+Voor elk van de varianten:
 
-- Provide the necessary compatibility equations to determine the statically indeterminate forces
-- Explain why your variants are not mechanisms based on drawings of the deformed shapes.
+- Geef de noodzakelijke vormveranderingsvoorwaardes om de statisch onbepaalde krachten te bepalen
+- Leg uit waarom jouw varianten geen mechanismen zijn op basis van tekeningen van de vervormde constructies.
 
 :::::
 
-Given the following structure. Note that the vertical roller support at $\rm{C}$ is removed.
+```{hide-sticky-margin}
+```
+
+Gegeven de volgende constructie. Merk op dat de verticale roloplegging bij $\rm{C}$ is verwijderd.
 
 ```{figure-start} ./lesson_data/constructie2.svg
 :align: center
@@ -48,14 +50,14 @@ Given the following structure. Note that the vertical roller support at $\rm{C}$
 :::::{exercise}
 :nonumber: true
 
-Solve the statically indeterminate force using the force method using a statical determinate structure of your own choice.
+Los je statisch onbepaalde kracht op met behulp van de krachtmethode op basis van een statisch bepaalde constructie naar keuze.
 
 :::::
 
 :::::{exercise}
 :nonumber: true
 
-Due to which restriction(s), for the matrix method as taught in this course, is it not possible to apply the matrix method to this structure. For your information, the matrix method in this course was based on this single stiffness matrix:
+Vanwege welke beperking(en) is het, voor de matrixmethode zoals die in deze cursus is behandeld, niet mogelijk om de matrixmethode toe te passen op deze constructie. Ter informatie, de matrixmethode in deze cursus was gebaseerd op deze enkele stijfheidsmatrix:
 
 $$
 \mathbf{K^{\rm{(e)}}} &= \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2 EI}{L} \\ \cfrac{2 EI}{L} & \cfrac{4 EI}{L} \end{bmatrix}
@@ -66,8 +68,8 @@ $$
 ::::{admonition} Solution
 :class: solution, dropdown
 
-- Moveable nodes
-- Hinges
-- Loads on elements
+- Verplaatsbare knopen
+- Scharnieren
+- Belastingen op elementen
 
 ::::
