@@ -46,6 +46,8 @@ Voor elk van de varianten:
 ::::::{admonition} Uitwerking
 :class: solution, dropdown
 
+Bijvoorbeeld de volgende varianten:
+
 :::::{grid}
 :class-container: center-grid
 :gutter: 1
