@@ -78,6 +78,16 @@ sphinx:                                              # Options passed on to the 
       - copilot-swe-agent[bot]
       - github-actions[bot]
     todo_include_todos: true
+    katex_prerender: true
+    katex_inherit_font: true
+    katex_options: |
+      {
+        trust: true,
+        macros: {
+          "\\class": "\\htmlClass{#1}{#2}"
+        }
+      }
+    tippy_enable_mathjax: false
     teachbooks_questions:
       feedbacks:
         multiple-choice:
@@ -97,6 +107,7 @@ sphinx:                                              # Options passed on to the 
     - sphinx_tudelft_theme
     - sphinx_apa_references
     - sphinx_reredirects
+    - sphinxcontrib.katex
 
 teachbooks:
   attribution_color: attributiongrey
