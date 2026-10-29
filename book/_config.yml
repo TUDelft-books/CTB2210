@@ -78,6 +78,9 @@ sphinx:                                              # Options passed on to the 
       - copilot-swe-agent[bot]
       - github-actions[bot]
     todo_include_todos: true
+    metadata_figure_settings:
+      source:
+        warn_missing: true
     teachbooks_questions:
       feedbacks:
         multiple-choice:
