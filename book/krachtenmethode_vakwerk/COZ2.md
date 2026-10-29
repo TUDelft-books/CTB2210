@@ -66,20 +66,20 @@ De constructie is drievoudig statisch onbepaald en kan statisch bepaald worden g
 Nu de constructie statisch bepaald is gemaakt kan de vervorming worden opgelost. Hiertoe worden eerste de krachten $N_{\rm{A}}$ en $N_{\rm{B}}$ opgelost als functie van $N_{\rm{C}}$, $N_{\rm{D}}$ en $N_{\rm{E}}$ met behulp van evenwicht. 
 
 $$
-\begin{align}
+\begin{align*}
 \sum \left. T \right|  _ {\rm{A}} &= 0 \\
 - N_{\rm{B}} \cdot 2 - N_{\rm{C}} \cdot 5 - N_{\rm{D}} \cdot 9 - N_{\rm{E}} \cdot 10 - 2580 \cdot 8 &= 0 \\
 N_{\rm{B}} &= - \cfrac{5}{2} \cdot N_{\rm{C}} - \cfrac{9}{2} \cdot N_{\rm{D}} - 5 \cdot N_{\rm{E}} - 10320
-\end{align}
+\end{align*}
 $$
 
 $$
-\begin{align}
+\begin{align*}
 \sum  F_{\rm{v}} &= 0 \\
 - N_{\rm{A}} - N_{\rm{B}} - N_{\rm{C}} - N_{\rm{D}} - N_{\rm{E}} - 2580 &= 0 \\
 N_{\rm{A}} &= - N_{\rm{B}} - N_{\rm{C}} - N_{\rm{D}} - N_{\rm{E}} - 2580 \\
 N_{\rm{A}} &= 7740 + \cfrac{3}{2} \cdot N_{\rm{C}} + \cfrac{7}{2} \cdot N_{\rm{D}} + 4 \cdot N_{\rm{E}}
-\end{align}
+\end{align*}
 $$
 
 De verplaatsingen van de punten $\rm{A}$ en $\rm{B}$ worden bepaald uit de normaalkrachten $N_{\rm{A}}$ en $N_{\rm{B}}$ en de stijfheid van de veren bij A en B, $K_{\rm{A}}$ en $K_{\rm{B}}$. 
@@ -100,30 +100,30 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 ```
 
 $$
-\begin{align}
+\begin{align*}
 w_{\rm{C}} &= w_{\rm{A}} + \cfrac{w_{\rm{B}} - w_{\rm{A}}}{2} \cdot 5 \\
 \cfrac{N_{\rm{C}}}{K_{\rm{C}}} &= 77.4 + \cfrac{3}{200} \cdot N_{\rm{C}} + \cfrac{7}{200} \cdot N_{\rm{D}} + \cfrac{1}{25} \cdot N_{\rm{E}} + 5 \cdot \left( -64.5 - \cfrac{11}{800} \cdot N_{\rm{C}} - \cfrac{23}{800} \cdot N_{\rm{D}} - \cfrac{13}{400} \cdot N_{\rm{E}} \right) \\
 \cfrac{N_{\rm{C}}}{300} &= -245.1 - \cfrac{43}{800} \cdot N_{\rm{C}} - \cfrac{87}{800} \cdot N_{\rm{D}} - \cfrac{49}{400} \cdot N_{\rm{E}} \\
 245.1 &= -\cfrac{137}{2400} \cdot N_{\rm{C}} - \cfrac{87}{800} \cdot N_{\rm{D}} - \cfrac{49}{400} \cdot N_{\rm{E}}
-\end{align}
+\end{align*}
 $$
 
 $$
-\begin{align}
+\begin{align*}
 w_{\rm{D}} &= w_{\rm{A}} + \cfrac{w_{\rm{B}} - w_{\rm{A}}}{2} \cdot 9 \\
 \cfrac{N_{\rm{D}}}{K_{\rm{D}}} &= 77.4 + \cfrac{3}{200} \cdot N_{\rm{C}} + \cfrac{7}{200} \cdot N_{\rm{D}} + \cfrac{1}{25} \cdot N_{\rm{E}} + 9 \cdot \left( -64.5 - \cfrac{11}{800} \cdot N_{\rm{C}} - \cfrac{23}{800} \cdot N_{\rm{D}} - \cfrac{13}{400} \cdot N_{\rm{E}} \right) \\
 \cfrac{N_{\rm{D}}}{400} &= -503.1 - \cfrac{87}{800} \cdot N_{\rm{C}} - \cfrac{179}{800} \cdot N_{\rm{D}} - \cfrac{101}{400} \cdot N_{\rm{E}} \\
 503.1 &= -\cfrac{87}{800} \cdot N_{\rm{C}} - \cfrac{181}{800} \cdot N_{\rm{D}} - \cfrac{101}{400} \cdot N_{\rm{E}}
-\end{align}
+\end{align*}
 $$
 
 $$
-\begin{align}
+\begin{align*}
 w_{\rm{E}} &= w_{\rm{A}} + \cfrac{w_{\rm{B}} - w_{\rm{A}}}{2} \cdot 10 \\
 \cfrac{N_{\rm{E}}}{K_{\rm{E}}} &= 77.4 + \cfrac{3}{200} \cdot N_{\rm{C}} + \cfrac{7}{200} \cdot N_{\rm{D}} + \cfrac{1}{25} \cdot N_{\rm{E}} + 10 \cdot \left( -64.5 - \cfrac{11}{800} \cdot N_{\rm{C}} - \cfrac{23}{800} \cdot N_{\rm{D}} - \cfrac{13}{400} \cdot N_{\rm{E}} \right) \\
 \cfrac{N_{\rm{E}}}{500} &= -567.6 - \cfrac{49}{400} \cdot N_{\rm{C}} - \cfrac{101}{400} \cdot N_{\rm{D}} - \cfrac{57}{200} \cdot N_{\rm{E}} \\
 567.6 &= -\cfrac{49}{400} \cdot N_{\rm{C}} - \cfrac{101}{400} \cdot N_{\rm{D}} - \cfrac{287}{1000} \cdot N_{\rm{E}}
-\end{align}
+\end{align*}
 $$
 
 De bovenstaande drie vormveranderingsvoorwaarden vormen drie vergelijkingen die kunnen worden opgelost voor $N_{\rm{C}}$, $N_{\rm{D}}$ en $N_{\rm{E}}$. Daarna kunnen $N_{\rm{A}}$ en $N_{\rm{B}}$ worden bepaald uit de evenwichtsvergelijkingen.

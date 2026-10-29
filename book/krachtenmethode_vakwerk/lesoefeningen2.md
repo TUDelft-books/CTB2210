@@ -329,8 +329,10 @@ De staafkrachten kunnen nu worden opgelost, beginnende bij de krachten in de sta
 ```
 
 $$
+\begin{aligned}
 \sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{BE}}}} = -6.25{\, \rm{ kN}}\\
 \sum {{F_{\rm{h}}} = 0}  \to {N_{{\rm{BD}}}} =  3.75 - {B_{\rm{h}}}
+\end{aligned}
 $$
 
 Dit geeft:
@@ -350,9 +352,11 @@ Vervolgens wordt een snede gemaakt door de staven $\rm{AD}$, $\rm{CD}$ en $\rm{C
 ```
 
 $$
+\begin{aligned}
 \sum {{F_{\rm{v}}} = 0}  \to {N_{{\rm{CD}}}} =  - 6.25{\rm{ kN}}\\
 {\sum {\left. T \right|} _{\rm{D}}} = 0 \to {N_{CE}} =  - 7.5{\rm{ kN}}\\
 \sum {{F_{\rm{h}}} = 0}  \to {N_{{\rm{AD}}}} = 11.25 - {B_{\rm{h}}}
+\end{aligned}
 $$
 
 Dit geeft:

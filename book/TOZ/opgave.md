@@ -603,10 +603,10 @@ Waarvan de vervormingen getekend kunnen worden:
 
 Dit geeft met behulp van de vergeet-me-nietjes:
 
-$$ \begin{align}
+$$ \begin{align*}
 w_{\rm{B}} &= \cfrac{729 \cdot 5^3}{3 \cdot 66825} + \cfrac{729 \cdot 5^2}{2 \cdot 66825} \cdot 4 + \cfrac{ B_{\rm{h}} \cdot 9^3}{3 \cdot 66825} + \cfrac{B_{\rm{h}} \cdot 5}{1375} \\
 w_{\rm{B}} &= 1 + \cfrac{2}{275} \cdot B_{\rm{h}}
-\end{align}$$
+\end{align*}$$
 
 De vormveranderingsvoorwaarde $w_{\rm{B}} = 0$ geeft $B_{\rm{h}} = -137.5 \, \rm{kN}$ en daarmee de dwarskracht net onder $\rm{A}$:
 

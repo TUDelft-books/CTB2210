@@ -243,13 +243,13 @@ $ ${gap}$ \cdot w_{\rm{A}} + ${gap}$ \cdot \varphi + ${gap}$ = 0 $
 Verticaal krachtenevenwicht:
 
 $$
-\begin{align}
+\begin{align*}
 \sum  \left. F \right|  _ {\rm{v}} &= 0 \\
 - N_{\rm{A}} - N_{\rm{B}} - N_{\rm{C}} - N_{\rm{D}} - N_{\rm{E}} - 2580 &= 0 \\
 - 100 \cdot w_{\rm{A}} - 200 \cdot w_{\rm{B}} - 300 \cdot w_{\rm{C}} - 400 \cdot w_{\rm{D}} - 500 \cdot w_{\rm{E}} - 2580 &= 0 \\
 - 100 \cdot w_{\rm{A}} - 200 \cdot \left(w_{\rm{A}} + 2 \cdot \varphi \right) - 300 \cdot \left(w_{\rm{A}} + 5 \cdot \varphi \right) - 400 \cdot \left(w_{\rm{A}} + 9 \cdot \varphi \right) - 500 \cdot \left(w_{\rm{A}} + 10 \cdot \varphi \right) - 2580 &= 0 \\
 -1500 \cdot w_{\rm{A}} - 10500 \cdot \varphi - 2580 &= 0
-\end{align}
+\end{align*}
 $$
 
 ::::
@@ -278,13 +278,13 @@ Stel ook de momentensom op. Je kan dit antwoord echter niet controleren. Waarom 
 Een mogelijkheid, namelijk de momentensom om het punt $\rm{A}$ is hieronder gegeven:
 
 $$
-\begin{align}
+\begin{align*}
 \sum  \left. T \right|  _ {\rm{A}} &= 0 \\
 - 2 \cdot N_{\rm{B}} - 5 \cdot N_{\rm{C}} - 9\cdot N_{\rm{D}} - 10 \cdot N_{\rm{E}} - 8 \cdot 2580 &= 0 \\
 - 2 \cdot 200 \cdot w_{\rm{B}} - 5 \cdot 300 \cdot w_{\rm{C}} - 9 \cdot 400 \cdot w_{\rm{D}} - 10 \cdot 500 \cdot w_{\rm{E}} - 8 \cdot 2580 &= 0 \\
 - 2 \cdot 200 \cdot \left(w_{\rm{A}} + 2 \cdot \varphi\right) - 5 \cdot 300 \cdot \left(w_{\rm{A}} + 5 \cdot \varphi\right) - 9 \cdot 400 \cdot \left(w_{\rm{A}} + 9 \cdot \varphi\right) - 10 \cdot 500 \cdot \left(w_{\rm{A}} + 10 \cdot \varphi\right) - 8 \cdot 2580 &= 0 \\
 -10500 \cdot w_{\rm{A}} - 90700 \cdot \varphi - 20640 &= 0
-\end{align}
+\end{align*}
 $$
 
 ::::

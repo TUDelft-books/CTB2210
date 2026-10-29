@@ -198,8 +198,10 @@ De dwarskracht en het buigend moment net rechts van $\rm{C}$ kunnen worden bepaa
 ```
 
 $$
+\begin{aligned}
 \sum F_{\rm{v}}^{\rm{DCA}} = 0 \to V_{\rm{C}}^{\rm{CD}} = 111.6 - A_{\rm{v}} \\
 \sum \left. T \right|_{\rm{C}}^{\rm{DC}} = 0 \to M_{\rm{C}}^{\rm{CD}} = 446.4 - 4 \cdot A_{\rm{h}}
+\end{aligned}
 $$
 
 De verplaatsing en rotatie van $\rm{C}$ kunnen worden bepaald met vergeet-me-nietjes en de steunpuntszetting van $\rm{B}$:

@@ -354,19 +354,19 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 ```
 
 $$
-\begin{align}
+\begin{align*}
 \sum  \left. T \right|  _ {\rm{E}} &= 0 \\
 5 \cdot N_{\rm{AD}} - 2 \cdot B_{\rm{v}} - 3 \cdot26& =0 \\
 N_{\rm{AD}} &= 0.4 \cdot B_{\rm{v}} + 15.6
-\end{align}
+\end{align*}
 $$ 
 
 $$
-\begin{align}
+\begin{align*}
 \sum F_ {\rm{v}} &=0 \\
 - N_{\rm{AD}} + B_{\rm{v}} + N_{\rm{CE}} -26&= 0 \\
 N_{\rm{CE}} &= - 0.6 \cdot B_{\rm{v}} + 41.6
-\end{align}
+\end{align*}
 $$
 
 
@@ -530,19 +530,19 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 ---
 ```
 $$
-\begin{align}
+\begin{align*}
 \sum  \left. M \right| _ {\rm{B}} ^{\rm{BD}} &= 0 \\
 3 \cdot N_{\rm{AD}} + M_{\rm{B}} &= 0 \\
 N_{\rm{AD}} = -0.33 \cdot M_{\rm{B}}
-\end{align}
+\end{align*}
 $$
 
 $$
-\begin{align}
+\begin{align*}
 \sum  \left. M \right| _ {\rm{B}} ^{\rm{BG}} &= 0 \\
 - M_{\rm{B}} + 2 \cdot N_{\rm{CE}} - 5 \cdot 26 &= 0 \\
 N_{\rm{CE}} &= 0.5 \cdot M_{\rm{B}} + 65
-\end{align}
+\end{align*}
 $$
 
 $$ \varphi _ {\rm{B}} ^{\rm{DB}} = -\cfrac{w_{\rm{D}}}{3} = -\cfrac{\Delta L_{\rm{AD}}}{3} = -\cfrac{N_{\rm{AD}} \cdot L_{\rm{AD}}}{3 \cdot EA} = 0.00011 \cdot M_{\rm{B}} $$
@@ -701,11 +701,11 @@ number:
 ```
 
 $$
-\begin{align}
+\begin{align*}
 \sum  \left. T \right|  _ {\rm{B}} &= 0 \\
 3 \cdot N_{\rm{AD}} + 2 \cdot N_{\rm{CE}} - 5 \cdot 26 &=0 \\
 N_{\rm{CE}} &= - 1.5 \cdot N_{\rm{AD}} + 65
-\end{align}
+\end{align*}
 $$ 
 
 $$ w_{\rm{E}} = - \Delta L_{\rm{CE}} = \cfrac{-N_{\rm{CE}} \cdot L_{\rm{CE}}}{EA} = 0.0015 \cdot N_{\rm{AD}} -0.065  $$

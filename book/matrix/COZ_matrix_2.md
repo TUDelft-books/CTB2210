@@ -48,7 +48,7 @@ $$
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
 \end{bmatrix}
 \begin{bmatrix}
 \varphi_{\rm{A}} \\
@@ -73,7 +73,7 @@ $$
 \begin{align*}
 \mathbf{K^{\rm{(e)}}_{\rm{AD}}} &= \begin{bmatrix} \cfrac{4 \cdot 120000}{5} & \cfrac{2 \cdot 120000}{5} \\ \cfrac{2 \cdot 120000}{5} & \cfrac{4 \cdot 120000}{5}  \end{bmatrix} = \begin{bmatrix} 96000 & 48000 \\ 48000 & 96000  \end{bmatrix} \\
 \mathbf{K^{\rm{(e)}}_{\rm{CD}}} &= \begin{bmatrix} \cfrac{4 \cdot 120000}{5} & \cfrac{2 \cdot 120000}{5} \\ \cfrac{2 \cdot 120000}{5} & \cfrac{4 \cdot 120000}{5}  \end{bmatrix} = \begin{bmatrix} 96000 & 48000 \\ 48000 & 96000  \end{bmatrix} \\
-\mathbf{K^{\rm{(e)}}_{\rm{BD}}} &= \begin{bmatrix} \cfrac{4 \cdot 120000}{2} & \cfrac{2 \cdot 120000}{2} \\ \cfrac{2 \cdot 120000}{2} & \cfrac{4 \cdot 120000}{2}  \end{bmatrix} = \begin{bmatrix} 240000 & 120000 \\ 120000 & 240000  \end{bmatrix} \\
+\mathbf{K^{\rm{(e)}}_{\rm{BD}}} &= \begin{bmatrix} \cfrac{4 \cdot 120000}{2} & \cfrac{2 \cdot 120000}{2} \\ \cfrac{2 \cdot 120000}{2} & \cfrac{4 \cdot 120000}{2}  \end{bmatrix} = \begin{bmatrix} 240000 & 120000 \\ 120000 & 240000  \end{bmatrix}
 \end{align*}
 $$
 

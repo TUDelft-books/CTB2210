@@ -272,11 +272,11 @@ number:
     ```
 
     $$
-    \begin{align}
+    \begin{align*}
     \sum F_{\rm{v}}^{\rm{BD}} &= 0 \\
     B_{\rm{v}} + N_{\rm{BD}}&= 0 \\
     N_{\rm{BD}} &= -B_{\rm{v}}
-    \end{align}
+    \end{align*}
     $$
 
     Ook kunnen we de normaalkracht in $\rm{CG}$ vinden:
@@ -288,11 +288,11 @@ number:
     ```
 
     $$
-    \begin{align}
+    \begin{align*}
     \sum \left. T \right|_{\rm{E}}^{\rm{EG}} &= 0 \\
     84 \cdot 4 - N_{\rm{CG}} \cdot 8 &= 0 \\
     N_{\rm{CG}} &= 42 \ \rm{kN}
-    \end{align}
+    \end{align*}
     $$
 
     Daarmee kunnen we de dwarskracht en het moment net links van $\rm{D}$ vinden:
@@ -304,19 +304,19 @@ number:
     ```
 
     $$
-    \begin{align}
+    \begin{align*}
     \sum F_{\rm{v}}^{\rm{DG}} &= 0 \\
     V_{\rm{D}}^{\rm{AD}}-B_{\rm{v}} - 84 + 42 &= 0 \\
     V_{\rm{D}}^{\rm{AD}} &= B_{\rm{v}} + 42
-    \end{align}
+    \end{align*}
     $$
 
     $$
-    \begin{align}
+    \begin{align*}
     \sum \left. T \right|_{\rm{D}}^{\rm{DG}} &= 0 \\
     M_{\rm{D}} + 84 \cdot 8 - 42 \cdot 12 &= 0 \\
     M_{\rm{D}} &= -168 \ \rm{kNm}
-    \end{align}
+    \end{align*}
     $$
     
     Nu volgt de verplaatsing in $\rm{D}$ uit een vergeet-me-nietje:
@@ -328,11 +328,11 @@ number:
     ```
 
     $$
-    \begin{align}
+    \begin{align*}
     w_{\rm{D}} &= \cfrac{168 \cdot 4^2}{2 \cdot 64000} + \cfrac{\left( B_{\rm{v}} + 42 \right) \cdot 4^3}{3 \cdot 64000} \\
     w_{\rm{D}} &= \cfrac{1}{3000} \cdot B_{\rm{v}} + 0.035 \\
     w_{\rm{D}} & \approx 0.000333 \cdot B_{\rm{v}} + 0.035 \ (\downarrow)
-    \end{align}
+    \end{align*}
     $$
 
     De verplaatsing van $\rm{B}$ kan worden gevonden met de verlenging van een staaf door axiale krachten:
@@ -344,12 +344,12 @@ number:
     ```
 
     $$
-    \begin{align}
+    \begin{align*}
     w_{\rm{B}} &= - w_{\rm{D}} + \Delta L_{\rm{BD}} \\
     w_{\rm{B}} &= - w_{\rm{D}} +  \cfrac{-B_{\rm{v}} \cdot 8}{4000} \\
     w_{\rm{B}} &= - \cfrac{7}{3000} \cdot B_{\rm{v}} - 0.035 \\
-    w_{\rm{B}} & \approx 0.00233\cdot B_{\rm{v}} - 0.035 \\
-    \end{align}
+    w_{\rm{B}} & \approx 0.00233\cdot B_{\rm{v}} - 0.035
+    \end{align*}
     $$
 
     ::::::
@@ -363,11 +363,11 @@ number:
     De vormveranderingsvoorwaarde geeft:
 
     $$
-    \begin{align}
+    \begin{align*}
     w_{\rm{B}} &= 0 \\
     -\cfrac{7}{3000} \cdot B_{\rm{v}} - 0.035 &= 0 \\
     B_{\rm{v}} &= -15 \ \rm{kN}
-    \end{align}
+    \end{align*}
     $$
 
     ::::::

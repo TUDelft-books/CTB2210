@@ -225,19 +225,19 @@ MAP[270.2;1]
 Dit wordt opgelost met het evenwicht van knoop $\rm{S}$. 
 
 $$
-\begin{align}
+\begin{align*}
 \sum  \left. F \right|  _ {\rm{h}} ^{\rm{S}} &= 0 \\
 - N_{\rm{AS}} + N_{\rm{SB}} + \cfrac{3}{5} N_{\rm{SC}} &= 0 \\
 - \cfrac{9650}{7} \cdot u_{\rm{S,h}} - \cfrac{1200}{7} \cdot u_{\rm{S,v}} &= 0
-\end{align}
+\end{align*}
 $$
 
 $$
-\begin{align}
+\begin{align*}
 \sum  \left. F \right|  _ {\rm{v}} ^{\rm{S}} &= 0 \\
 56 + \cfrac{4}{5} N_{\rm{SC}} &= 0 \\
 56 - \cfrac{1200}{7} \cdot u_{\rm{S,h}} - \cfrac{1600}{7} \cdot u_{\rm{S,v}} &= 0
-\end{align}
+\end{align*}
 $$
 
 Het bovenstaande stelsel van twee vergelijkingen kan worden opgelost voor $u_{\rm{S,h}}$ en $u_{\rm{S,v}}$, hieruit volgt:

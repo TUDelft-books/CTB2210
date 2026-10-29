@@ -20,9 +20,9 @@ Gegeven is de volgende constructie:
 
 - $EI = 20 \ \rm{MNm^2}$
 - $EA = 10 \ \rm{MN}$
-- $\Delta T_{\rm{AC}} = 8 \ ^{\circ} \rm{C} (◠)$
-- $\Delta T_{\rm{CD}} = 8 \ ^{\circ} \rm{C} (ᑐ)$
-- $\Delta T_{\rm{CD}} = 50 \ ^{\circ} \rm{C} (+)$
+- $\Delta T_{\rm{AC}} = 8 \ ^{\circ} \rm{C} $ (◠)
+- $\Delta T_{\rm{CD}} = 8 \ ^{\circ} \rm{C} $ (ᑐ)
+- $\Delta T_{\rm{CD}} = 50 \ ^{\circ} \rm{C} $ (+)
 - $h = 0.4 \ \rm{m}$
 - $\alpha = 10^{-5} \ ^{\circ} \rm{C}^{-1}$
 
@@ -67,9 +67,9 @@ Gekozen is het volgende statisch bepaalde systeem met vormveranderingsvoorwaarde
 
 - $EI = 20 \ \rm{MNm^2}$
 - $EA = 10 \ \rm{MN}$
-- $\Delta T_{\rm{AC}} = 8 \ ^{\circ} \rm{C} (◠)$
-- $\Delta T_{\rm{CD}} = 8 \ ^{\circ} \rm{C} (ᑐ)$
-- $\Delta T_{\rm{CD}} = 50 \ ^{\circ} \rm{C} (+)$
+- $\Delta T_{\rm{AC}} = 8 \ ^{\circ} \rm{C} $ (◠)
+- $\Delta T_{\rm{CD}} = 8 \ ^{\circ} \rm{C} $ (ᑐ)
+- $\Delta T_{\rm{CD}} = 50 \ ^{\circ} \rm{C} $ (+)
 - $h = 0.4 \ \rm{m}$
 - $\alpha = 10^{-5} \ ^{\circ} \rm{C}^{-1}$
 
