@@ -677,10 +677,10 @@ De verplaatsingen ten gevolge van enkel $B_{\rm{h}}$ na rotatie zijn:
 | Scharnier | Verplaatsing in horizontale richting → (mm)| Verplaatsing in verticale richting ↓ (mm)|
 | :-:|:-:|:-:|
 |$\rm{A}$|$0$|$0$|
-|$\rm{B}$|$-3.2B_\rm{h}$|$0$|
-|$\rm{C}$|$-1.6B_\rm{h}$|$-1.2B_\rm{h}$|
-|$\rm{D}$|$-1.6{B_{\rm{h}}}$|$-1.2B_\rm{h}$|
-|$\rm{E}$|$-1.6B_\rm{h}$|$-1.2B_\rm{h}$|
+|$\rm{B}$|$-3.2B_{\rm{h}}$|$0$|
+|$\rm{C}$|$-1.6B_{\rm{h}}$|$-1.2B_{\rm{h}}$|
+|$\rm{D}$|$-1.6B_{\rm{h}}$|$-1.2B_{\rm{h}}$|
+|$\rm{E}$|$-1.6B_{\rm{h}}$|$-1.2B_{\rm{h}}$|
 
 Invullen van $B_{\rm{h}} = 7.5 \ \rm{kN}$ en optellen bij de verplaatsingen ten gevolge van de $20 \ \rm{kN}$ belasting geeft:
 
