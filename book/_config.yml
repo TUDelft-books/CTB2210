@@ -88,6 +88,9 @@ sphinx:                                              # Options passed on to the 
         }
       }
     tippy_enable_mathjax: false
+    metadata_figure_settings:
+      source:
+        warn_missing: true
     teachbooks_questions:
       feedbacks:
         multiple-choice:

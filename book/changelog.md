@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2026-33-03: v2026.20.0
+- Toevoegen tentamenopgave
+
 ## 2026-10-09: v2026.19.0
 - Toevoegen statistieken van de TOZ opgave.
 

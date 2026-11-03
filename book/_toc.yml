@@ -90,8 +90,8 @@ parts:
     - file: matrix/COZ_matrix_1.md
     - file: matrix/COZ_matrix_2.md
   - file: TOZ/opgave.md
-# START REMOVE-FROM-RELEASE
   - file: exam/lesson.md
+# START REMOVE-FROM-RELEASE
   - file: wintercursus_1/lesson.md
     sections:
     - file: wintercursus_1/oefening1.md
