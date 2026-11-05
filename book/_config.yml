@@ -67,6 +67,7 @@ sphinx:                                              # Options passed on to the 
     sphinx_codex_name: "Voorbeeld"
     sphinx_codex_merge_with_proof:     true # default value
     tud_change_titlesize: false
+    myst_links_external_new_tab: true
     git_untracked_check_dependencies: false
     git_untracked_show_sourcelink: true
     git_show_all_authors: true
