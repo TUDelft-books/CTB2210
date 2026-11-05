@@ -56,13 +56,6 @@ sphinx:                                              # Options passed on to the 
 # END REMOVE-FROM-RELEASE
     html_show_copyright: false                       # As the copyright is included in the author field
     html_last_updated_fmt: ''                        # Adds the date of the last update to the footer
-    mathjax3_config:
-      chtml: {
-        mtextInheritFont: true                       # To typeset text within math prettier
-      }
-      loader:
-        load:
-          - "ui/nonlazy"
     named_colors_custom_colors: {'attributiongrey':[150,150,150]} # Custom colour for the attribution admonitions
     sphinx_codex_name: "Voorbeeld"
     sphinx_codex_merge_with_proof:     true # default value
