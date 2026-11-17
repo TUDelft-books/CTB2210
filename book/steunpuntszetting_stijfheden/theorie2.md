@@ -129,6 +129,7 @@ We behandelen beide aanpakken op de volgende constructie:
     ```{figure} ./theorie_data/steunpuntszetting.svg
     ---
     align: center
+    source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid
     ---
     Verloop momenten voor waardes van n
     ```

@@ -13,6 +13,7 @@ Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassiste
 :width: 300px
 :align: center
 :class: dark-light
+:source: private collection Tom
 ```
 
 ## Studentassistenten
@@ -25,6 +26,7 @@ Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassiste
 :width: 300px
 :align: center
 :class: dark-light
+:source: private collection Tom
 ```
 
 - Alexander Dzhanibekyan

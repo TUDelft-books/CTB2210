@@ -29,7 +29,43 @@ De constructie is open, dus de inwendige graad is gelijk aan de uitwendige graad
 
 Er zijn dus $3 + 1 + 2 + 2 = 8$ onbekenden en $3 + 3 = 6$ evenwichtsvergelijkingen, dus de constructie is uit- en inwendig tweedegraads statisch onbepaald.
 
+:::{admonition} Alternatieve aanpak met de inwendige statische onbepaaldheid
+:class: note, dropdown
+
+De inwendige graad van statische onbepaaldheid kan ook volledig worden berekend (zonder deze gelijk te stellen aan de uitwendige graad):
+
+```{figure} ./lesson_data/inwendig.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+Er zijn $3 + 3 + 3 + 2 + 1 +  1 + 1 + 1 = 15$ onbekenden en $3 + 3 + 3 + 2 + 1 + 1 = 13$ evenwichtsvergelijkingen, dus de constructie is inwendig tweedegraads statisch onbepaald.
+
+:::
+
 ::::
+
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+**Statische bepaaldheid berekend met # oplegreacties - 3 evenwichtsvergelijkingen - # scharnieren**
+
+Deze aanpak werkt niet in het algemeen, maar geeft in dit geval wel het juiste antwoord: 6 oplegreacties - 3 evenwichtsvergelijkingen - 1 scharnier = 2.
+
+**Onjuist gemodelleerde pendelstaaf**
+
+Het element $\rm{BC}$ is een pendelstaaf, dus de inwendige krachten in dit element zijn uitsluitend normaalkrachten. Daarom kan het aantal onbekenden aan de uiteinden van dit element worden teruggebracht tot één per uiteinde. Voor het element geldt dan één evenwichtsvergelijking. Ook kan het aantal evenwichtsvergelijkingen voor de aangesloten elementen afnemen wanneer de inwendige statische onbepaaldheid wordt berekend. Een juiste aanpak is:
+
+```{figure} ./lesson_data/pendelstaaf.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+Er zijn fouten gemaakt in het aantal onbekenden aan de aansluitingen $\rm{B}$ en $\rm{C}$ en in het aantal evenwichtsvergelijkingen.
+
+::::::
 
 :::::{exercise}
 :nonumber: true
@@ -90,6 +126,7 @@ verdeelde belasting:
 :align: center
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+:name: variant2_def
 ```
 
 En is dus geen mechanisme.
@@ -143,6 +180,59 @@ En is dus geen mechanisme.
 :::::
 ::::::
 
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+**Een mechanisme gemaakt**
+
+De scharnierende oplegging bij $\rm{B}$ vervangen door een horizontale roloplegging of de oplegging helemaal weggelaten. Dit is geen statisch bepaalde variant, omdat de constructie dan een mechanisme is:
+
+:::::{grid}
+:class-container: center-grid
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 6
+
+```{figure} ./lesson_data/variant5.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+Deze variant vervormt onder invloed van de statisch onbepaalde kracht als volgt:
+
+```{figure} ./lesson_data/variant5_def.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+::::
+
+::::{grid-item-card}
+:columns: 6
+
+
+```{figure} ./lesson_data/variant6.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+Deze variant vervormt onder invloed van de statisch onbepaalde kracht als volgt:
+
+```{figure} ./lesson_data/variant6_def.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+::::
+:::::
+
+::::::
+
 ```{hide-sticky-margin}
 ```
 
@@ -181,6 +271,21 @@ De constructie is eerstegraads statisch onbepaald. Deze zou als volgt kunnen wor
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
 ```
 
+:::{admonition} Alternatief met een verticale roloplegging bij $\rm{B}$
+:class: note, dropdown
+
+Een andere mogelijke oplossing is de constructie als volgt aan te passen:
+
+```{figure} ./lesson_data/stat_bepaald_2.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+Ook andere oplossingen zijn mogelijk.
+
+:::
+
 Dit geeft de volgende vervormingen:
 
 :::::{grid}
@@ -193,6 +298,7 @@ Dit geeft de volgende vervormingen:
 :align: center
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+:name: vervorming_1
 ```
 
 ::::
@@ -204,6 +310,7 @@ Dit geeft de volgende vervormingen:
 :align: center
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+:name: vervorming_2
 ```
 
 ::::
@@ -215,6 +322,7 @@ Dit geeft de volgende vervormingen:
 :align: center
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+:name: vervorming_3
 ```
 
 ::::
@@ -261,6 +369,67 @@ $$
 
 ::::::
 
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+**Verlenging van $\rm{BC}$ niet meegenomen**
+
+De verlenging van $\rm{BC}$ is niet meegenomen in de vervormingen, terwijl deze wel invloed heeft op de vormveranderingsvoorwaarde. Zoals in de onderstaande figuren te zien is, vergroot de verlenging van $\rm{BC}$ de rotatie bij $\rm{D}$.
+
+:::::{grid}
+:class-container: center-grid
+
+::::{grid-item}
+:columns: auto
+
+:::{fetch} {ref}`vervorming_1`
+:::
+
+::::
+
+::::{grid-item}
+:columns: auto
+
+:::{fetch} {ref}`vervorming_2`
+:::
+
+::::
+:::::
+
+**Vervorming van $\rm{AD}$ niet meegenomen**
+
+De vervorming van $\rm{AD}$, of meer specifiek de rotatie van $\rm{D}$ als gevolg van de buiging van $\rm{AD}$, is niet meegenomen in de vervormingen, terwijl deze wel invloed heeft op de vormveranderingsvoorwaarde. Zoals in de onderstaande figuren te zien is, vergroot de buiging van $\rm{AD}$ de rotatie bij $\rm{D}$. Deze fout werd vooral gemaakt bij het oplossen van het statisch bepaalde systeem met een verticale roloplegging bij $\rm{B}$.
+
+:::{fetch} {ref}`variant2_def`
+:::
+
+**Vergeet-me-nietjes voor statisch onbepaalde systemen gebruikt**
+
+Met de krachtmethode is een statisch bepaalde constructie gemaakt, dus de vergeet-me-nietjes voor statisch onbepaalde constructies zijn niet nodig. In het hier getoonde antwoord is bijvoorbeeld voor $\rm{AD}$ het vergeet-me-nietje voor een uitkragende ligger met een extra steunpunt gebruikt, terwijl dat voor een uitkragende ligger met een eindmoment had moeten zijn. Dit is te zien aan de vervormde constructie:
+
+:::{fetch} {ref}`vervorming_3`
+:::
+
+**Statisch bepaalde constructie die niet eenvoudig met vergeet-me-nietjes op te lossen is**
+
+```{figure} ./lesson_data/variant7.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+Deze variant vervormt onder invloed van de statisch onbepaalde kracht als volgt:
+
+```{figure} ./lesson_data/variant7_def.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+Deze is niet eenvoudig met de vergeet-me-nietjes op te lossen.
+
+::::::
+
 :::::{exercise}
 :nonumber: true
 
@@ -284,3 +453,16 @@ De constructie heeft:
 Welke allemaal niet meegenomen worden in de elementsstijfheidsmatrix zoals die in deze cursus is behandeld.
 
 ::::
+
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+**Numerieke waarden van de stijfheden ontbreken**
+
+Het ontbreken van de buigstijfheid van $\rm{BC}$ en de zeer hoge axiale stijfheid van $\rm{CDA}$ zijn geen reden waarom de matrixmethode niet kan worden toegepast. Hoewel numerieke waarden nodig kunnen zijn, kunnen willekeurige waarden of waarden die bij benadering kloppen worden gebruikt, wat tot de juiste resultaten leidt.
+
+**Niet-uniforme stijfheden**
+
+In de matrixmethode kan elk element eigen waarden voor $EI$ en $EA$ hebben, dus ook dit is geen reden waarom de matrixmethode niet kan worden toegepast.
+
+::::::

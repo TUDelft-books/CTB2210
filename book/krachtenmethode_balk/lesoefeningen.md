@@ -106,6 +106,7 @@ M[-0.45]
 ---
 align: center
 number:
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
 ---
 ```
 
@@ -117,6 +118,7 @@ De hoekverdraaiing bij $\rm{B}$, $\varphi_{\rm{B}}$, kan worden bepaald uit $M_{
 ---
 align: center
 number:
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
 ---
 ```
 

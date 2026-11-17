@@ -54,6 +54,7 @@ Het maximale moment in $\rm{D}$ kan worden gevonden met de spion functie als er 
 ---
 align: center
 number:
+source: screenshot MatrixFrame
 ---
 
 ```
@@ -64,6 +65,7 @@ De zakking kan afgelezen wroden uit de algehele verplaatsingen.
 ---
 align: center
 number:
+source: screenshot MatrixFrame
 ---
 
 ```
@@ -74,6 +76,7 @@ De rotatie kan in de tabel onderaan het scherm met knoopverplaatsingen worden af
 ---
 align: center
 number:
+source: screenshot MatrixFrame
 ---
 
 ```

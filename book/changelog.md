@@ -1,6 +1,9 @@
 # Changelog 🔖
 
-## 2026-33-03: v2026.20.0
+## 2026-11-17: v2026.21.0
+- Toevoegen veelgemaakte fouten in de tentamenopgave
+
+## 2026-11-03: v2026.20.0
 - Toevoegen tentamenopgave
 
 ## 2026-10-09: v2026.19.0
