@@ -468,7 +468,7 @@ Dit onderwerp is in [les 14](https://collegerama.tudelft.nl/Mediasite/Channel/pu
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-De opgaves zijn niet onderdeel van de CC BY licentie van dit boek. Op deze opgaves zijn alle rechten voorbehouden of geldt de licentie zoals genoemd op de betreffende websites.
+De opgaves zijn geen onderdeel van de CC BY licentie van dit boek. Op deze opgaves zijn alle rechten voorbehouden of geldt de licentie zoals genoemd op de betreffende websites.
 
 ```
 ````

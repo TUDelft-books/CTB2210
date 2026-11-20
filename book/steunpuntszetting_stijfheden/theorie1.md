@@ -161,7 +161,7 @@ Dit onderwerp is in [les 11](https://collegerama.tudelft.nl/Mediasite/Channel/pu
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-De opgaves zijn niet onderdeel van de CC BY licentie van dit boek. Op deze opgaves zijn alle rechten voorbehouden.
+De opgaves zijn geen onderdeel van de CC BY licentie van dit boek. Op deze opgaves zijn alle rechten voorbehouden.
 
 ```
 ````
