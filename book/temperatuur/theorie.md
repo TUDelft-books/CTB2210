@@ -188,6 +188,16 @@ In hoofdstuk 4.12 van het boek Mechanica: spanningen, vervormingen en verplaatsi
 Dit onderwerp is [in les 12](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/319e6b623c2e48a4be53ba74023ab4901d?sortBy=most-recent) gepresenteerd van 0:04:25 tot 0:33:00.
 
 ## Extra opgaves
+
+````{margin}
+```{attributiongrey} Bronvermelding
+:class: attribution
+
+De opgaves zijn niet onderdeel van de CC BY licentie van dit boek. Op deze opgaves zijn alle rechten voorbehouden of geldt de licentie zoals genoemd op de betreffende websites.
+
+```
+````
+
 - Opgaves 6.25 - 6.30, 3.32 - 6.39, 6.41 - 6.43 in hoofdstuk 6.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Er zijn helaas geen antwoorden beschikbaar.
 - Vraagstuk 1 van [het tentamen van constructiemechanica 3 in 2012](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Opgaven_Jan2012.pdf). De uitwerkingen zijn [hier](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Uitwerkingen_Jan2012.pdf) beschikbaar {cite:p}`Exam_jan_2012`.
 - Onderdeel 3 van vraagstuk 1 van [het tentamen van constructiemechanica 3 in 2013](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Opgaven_Jan_2013.pdf). De uitwerkingen zijn [hier](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Uitwerkingen_Jan2013.pdf) beschikbaar {cite:p}`Exam_jan_2013`.

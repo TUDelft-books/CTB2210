@@ -275,5 +275,15 @@ Als voorbeeld bepalen we de inwendige statisch onbepaaldheid van deze constructi
 Dit onderwerp is [in les 4](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/391bc9ef53a54caf8d556ba2f0088e0a1d?sortBy=most-recent) gepresenteerd in collegevorm van 0:02:40 tot 0:39:10.
 
 ## Extra opgaves in boek
+
+````{margin}
+```{attributiongrey} Bronvermelding
+:class: attribution
+
+De opgaves zijn niet onderdeel van de CC BY licentie van dit boek. Op deze opgaves zijn alle rechten voorbehouden.
+
+```
+````
+
 - Opgaves 4.11 - 4.22, van hoofdstuk 4 van het boek *Mechanica: Evenwicht* {cite:p}`Hartsuijker1999`. Negeer de vragen over kinematisch bepaaldheid. Antwoorden zijn beschikbaar op [deze website](https://icozct.tudelft.nl/TUD_CT/bookanswers/vol1/Chapter4/).
 - Opgave  9.6, van hoofdstuk 9 van het boek *Mechanica: Evenwicht* {cite:p}`Hartsuijker1999`. Negeer de vragen over kinematisch bepaaldheid. Antwoorden zijn beschikbaar op [deze website](https://icozct.tudelft.nl/TUD_CT/bookanswers/vol1/Chapter9/).

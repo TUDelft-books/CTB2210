@@ -259,6 +259,15 @@ Dit onderwerp is [in les 8](https://collegerama.tudelft.nl/Mediasite/Channel/pub
 
 ## Extra opgaves
 
+````{margin}
+```{attributiongrey} Bronvermelding
+:class: attribution
+
+De tentamenopgaves zijn niet onderdeel van de CC BY licentie van dit boek. Op deze opgaves zijn alle rechten voorbehouden.
+
+```
+```` 
+
 - Opgaves 2.1 - 2.14 en 2.23 in hoofdstuk 2.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Antwoorden zijn beschikbaar op [deze website](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol3/Chapter1-2/)
 - Opgaves 3.1 - 3.10, 3.16 - 3.21 in hoofdstuk 3.4 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Antwoorden zijn beschikbaar op [deze website](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol3/Chapter1-3/)
 - Onderdeel 4 van vraagstuk 1 van [het tentamen van constructiemechanica 3 in 2013](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Opgaven_Jan_2013.pdf). De uitwerkingen zijn [hier](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Uitwerkingen_Jan2013.pdf) beschikbaar {cite:p}`Exam_jan_2013`.

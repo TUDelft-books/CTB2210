@@ -463,4 +463,14 @@ In hoofdstuk 5 van het boek Mechanica, Statisch onbepaalde constructies en bezwi
 Dit onderwerp is in [les 14](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/d58276f89e0b48f094298b82bec162841d?sortBy=most-recent) gepresenteerd van 0:16:50 tot 0:52:40.
 
 ## Extra opgaves in boek
+
+````{margin}
+```{attributiongrey} Bronvermelding
+:class: attribution
+
+De opgaves zijn niet onderdeel van de CC BY licentie van dit boek. Op deze opgaves zijn alle rechten voorbehouden of geldt de licentie zoals genoemd op de betreffende websites.
+
+```
+````
+
 Opgaves 5.1 - 5.5 in hoofdstuk 5.8 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. De opgaves e - i zijn geen onderdeel van het vak. Vervang bij opgave 5.2 - 5.5 het uitkragende gedeelte door een koppel en neem de dwarskracht niet mee. Er zijn helaas geen antwoorden beschikbaar. Je kan de constructies doorrekenen met MatrixFrame om je antwoorden te controleren.

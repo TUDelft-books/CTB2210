@@ -157,6 +157,15 @@ Dit onderwerp is in [les 11](https://collegerama.tudelft.nl/Mediasite/Channel/pu
 
 ## Extra opgaves
 
+````{margin}
+```{attributiongrey} Bronvermelding
+:class: attribution
+
+De opgaves zijn niet onderdeel van de CC BY licentie van dit boek. Op deze opgaves zijn alle rechten voorbehouden.
+
+```
+````
+
 - Opgaves 6.1 - 6.18, 6.20, 6.22 - 6.24 in hoofdstuk 6.3 van het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Er zijn helaas geen antwoorden beschikbaar.
 - Vraagstuk 1a en b van [het tentamen van constructiemechanica 3 in 2018](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3_jan2018_tentamenopgaven.pdf). De uitwerkingen zijn [hier](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3_jan2018_tentamenopgaven_uitwerkingen.pdf) beschikbaar {cite:p}`Exam_2018`.
 - Opgave 1 van [het eerste tentamen van constructiemechanica 3 in 2020](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3_januari_2020_tentamenopgaven.pdf). De uitwerkingen zijn [hier](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Uitwerkingen_tentamen_CM3_januari_2020.pdf) beschikbaar {cite:p}`Exam_2020_A`.
